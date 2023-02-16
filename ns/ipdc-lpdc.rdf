@@ -43,11 +43,6 @@
 
 </rdfs:Class>
 
-<rdfs:Class rdf:about='https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#Document'>
-<rdfs:label xml:lang='nl'>Document</rdfs:label>
-
-</rdfs:Class>
-
 <rdfs:Class rdf:about='https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService'>
 <rdfs:label xml:lang='nl'>InstancePublicService</rdfs:label>
 
@@ -68,9 +63,9 @@
  <rdfs:label xml:lang='nl'>ipdc-lpdc</rdfs:label>
 
 <dc:contributor>
-<foaf:Person rdf:nodeID='g47161788941220'>
+<foaf:Person rdf:nodeID='g454980'>
 <schema:affiliation>
-<rdf:Description rdf:nodeID='g47161789030200'>
+<rdf:Description rdf:nodeID='g455000'>
 <foaf:homepage rdf:resource='https://redpencil.io' />
 
 <foaf:name>redpencil</foaf:name>
@@ -89,9 +84,9 @@
 
 </dc:contributor>
  <dc:contributor>
-<foaf:Person rdf:nodeID='g47161789028100'>
+<foaf:Person rdf:nodeID='g455020'>
 <schema:affiliation>
-<rdf:Description rdf:nodeID='g47161789027140'>
+<rdf:Description rdf:nodeID='g455040'>
 <foaf:homepage rdf:resource='https://www.vlaanderen.be/digitaal-vlaanderen' />
 
 <foaf:name>Digitaal Vlaanderen</foaf:name>
@@ -110,9 +105,9 @@
 
 </dc:contributor>
  <dc:contributor>
-<foaf:Person rdf:nodeID='g47161789025200'>
+<foaf:Person rdf:nodeID='g455060'>
 <schema:affiliation>
-<rdf:Description rdf:nodeID='g47161789023780'>
+<rdf:Description rdf:nodeID='g455080'>
 <foaf:homepage rdf:resource='https://redpencil.io' />
 
 <foaf:name>redpencil</foaf:name>
@@ -131,9 +126,9 @@
 
 </dc:contributor>
  <dc:contributor>
-<foaf:Person rdf:nodeID='g47161789022280'>
+<foaf:Person rdf:nodeID='g455100'>
 <schema:affiliation>
-<rdf:Description rdf:nodeID='g47161789012780'>
+<rdf:Description rdf:nodeID='g455120'>
 <foaf:homepage rdf:resource='https://www.vlaanderen.be/digitaal-vlaanderen' />
 
 <foaf:name>Digitaal Vlaanderen</foaf:name>
@@ -152,9 +147,9 @@
 
 </dc:contributor>
  <dc:contributor>
-<foaf:Person rdf:nodeID='g47161789010860'>
+<foaf:Person rdf:nodeID='g455140'>
 <schema:affiliation>
-<rdf:Description rdf:nodeID='g47161789009900'>
+<rdf:Description rdf:nodeID='g455160'>
 <foaf:homepage rdf:resource='https://www.linkedin.com/in/borisdevloed' />
 
 <foaf:name>devloed.com</foaf:name>
@@ -173,9 +168,9 @@
 
 </dc:contributor>
  <dc:contributor>
-<foaf:Person rdf:nodeID='g47161789007960'>
+<foaf:Person rdf:nodeID='g455180'>
 <schema:affiliation>
-<rdf:Description rdf:nodeID='g47161789007060'>
+<rdf:Description rdf:nodeID='g455200'>
 <foaf:homepage rdf:resource='https://www.vlaanderen.be/digitaal-vlaanderen' />
 
 <foaf:name>Digitaal Vlaanderen</foaf:name>
@@ -200,7 +195,7 @@
  <dc:license rdf:resource='https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0' />
 
 <dc:mediator>
-<rdf:Description rdf:nodeID='g47161788960500'>
+<rdf:Description rdf:nodeID='g454840'>
 <foaf:homepage rdf:resource='https://productencatalogus.data.vlaanderen.be' />
 
 <foaf:mbox rdf:resource='mailto:info@vlaanderen.be' />
@@ -220,7 +215,6 @@
  <rdfs:seeAlso rdf:resource='http://www.w3.org/2004/02/skos/core#Concept' />
  <rdfs:seeAlso rdf:resource='http://www.w3.org/ns/locn#Address' />
  <rdfs:seeAlso rdf:resource='https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService' />
- <rdfs:seeAlso rdf:resource='https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#Document' />
  <rdfs:seeAlso rdf:resource='https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService' />
  <rdfs:seeAlso rdf:resource='https://schema.org/ContactPoint' />
  <rdfs:seeAlso rdf:resource='https://schema.org/WebSite' />
@@ -235,7 +229,6 @@
 <rdf:Property rdf:about='https://schema.org/url'>
 <rdfs:label xml:lang='nl'>website</rdfs:label>
  <rdfs:label xml:lang='nl'>location</rdfs:label>
- <rdfs:label xml:lang='nl'>document</rdfs:label>
 
 </rdf:Property>
 
@@ -318,13 +311,6 @@
 
 </rdfs:seeAlso>
  <rdfs:seeAlso>
-<rdf:Property rdf:about='https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasAttachment'>
-<rdfs:label xml:lang='nl'>hasAttachment</rdfs:label>
-
-</rdf:Property>
-
-</rdfs:seeAlso>
- <rdfs:seeAlso>
 <rdf:Property rdf:about='https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel'>
 <rdfs:label xml:lang='nl'>executingAuthorityLevel</rdfs:label>
 
@@ -355,6 +341,13 @@
  <rdfs:seeAlso>
 <rdf:Property rdf:about='https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#address'>
 <rdfs:label xml:lang='nl'>address</rdfs:label>
+
+</rdf:Property>
+
+</rdfs:seeAlso>
+ <rdfs:seeAlso>
+<rdf:Property rdf:about='https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription'>
+<rdfs:label xml:lang='nl'>additionalDescription</rdfs:label>
 
 </rdf:Property>
 
@@ -529,9 +522,9 @@
 </rdfs:seeAlso>
 
 <ns0:editor>
-<foaf:Person rdf:nodeID='g47161788947340'>
+<foaf:Person rdf:nodeID='g454900'>
 <schema:affiliation>
-<rdf:Description rdf:nodeID='g47161788946200'>
+<rdf:Description rdf:nodeID='g454920'>
 <foaf:homepage rdf:resource='https://www.kunlabora.be' />
 
 <foaf:name>Kunlabora</foaf:name>
@@ -550,9 +543,9 @@
 
 </ns0:editor>
  <ns0:editor>
-<foaf:Person rdf:nodeID='g47161788944380'>
+<foaf:Person rdf:nodeID='g454940'>
 <schema:affiliation>
-<rdf:Description rdf:nodeID='g47161788943160'>
+<rdf:Description rdf:nodeID='g454960'>
 <foaf:homepage rdf:resource='https://www.kunlabora.be' />
 
 <foaf:name>Kunlabora</foaf:name>
@@ -572,9 +565,9 @@
 </ns0:editor>
 
 <foaf:maker>
-<foaf:Person rdf:nodeID='g47161788958740'>
+<foaf:Person rdf:nodeID='g454860'>
 <schema:affiliation>
-<rdf:Description rdf:nodeID='g47161788957600'>
+<rdf:Description rdf:nodeID='g454880'>
 <foaf:homepage rdf:resource='https://www.wdcsolutions.be' />
 
 <foaf:name>WDC Solutions</foaf:name>

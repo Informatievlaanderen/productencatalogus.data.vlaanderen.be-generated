@@ -12,8 +12,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/2c174026ca20edb6f852f8a60d9cb6ef9923a788",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/2c174026ca20edb6f852f8a60d9cb6ef9923a788/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/3a50450701a8d1b3d5ff64566d619e3ff26385fa",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/3a50450701a8d1b3d5ff64566d619e3ff26385fa/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -248,20 +248,6 @@
       "show": true
     },
     {
-      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#Document",
-      "name": "Document",
-      "label": {
-        "nl": "Document"
-      },
-      "description": {},
-      "usage": {},
-      "sort": "Document",
-      "indvl": false,
-      "inpackage": false,
-      "inscope": true,
-      "show": true
-    },
-    {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
       "name": "InstancePublicService",
       "label": {
@@ -352,20 +338,6 @@
       "description": {},
       "usage": {},
       "sort": "location",
-      "inscope": true,
-      "indvl": false,
-      "inpackage": false,
-      "show": true
-    },
-    {
-      "uri": "https://schema.org/url",
-      "name": "document",
-      "label": {
-        "nl": "document"
-      },
-      "description": {},
-      "usage": {},
-      "sort": "document",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -503,7 +475,7 @@
         "nl": "SDG (Single digital gateway) domein waarbinnen de public service gecategoriseerd wordt"
       },
       "usage": {
-        "nl": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nIn afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
+        "nl": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nDe ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
       },
       "sort": "yourEuropeCategory",
       "inscope": true,
@@ -521,7 +493,7 @@
         "nl": "SDG (Single digital gateway) domein waarbinnen de public service gecategoriseerd wordt"
       },
       "usage": {
-        "nl": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nIn afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
+        "nl": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nDe ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
       },
       "sort": "yourEuropeCategory",
       "inscope": true,
@@ -539,7 +511,7 @@
         "nl": "doelgroep(en) waarop de public service gericht is"
       },
       "usage": {
-        "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl"
+        "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl"
       },
       "sort": "targetAudience",
       "inscope": true,
@@ -557,7 +529,7 @@
         "nl": "doelgroep(en) waarop de public service gericht is"
       },
       "usage": {
-        "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl"
+        "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl"
       },
       "sort": "targetAudience",
       "inscope": true,
@@ -611,7 +583,7 @@
         "nl": "De informatie van de publieke dienstverlening wordt ontsloten naar de gekozen publicatie mediums."
       },
       "usage": {
-        "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl"
+        "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl"
       },
       "sort": "publicationMedium",
       "inscope": true,
@@ -629,7 +601,7 @@
         "nl": "De informatie van de publieke dienstverlening wordt ontsloten naar de gekozen publicatie mediums."
       },
       "usage": {
-        "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl"
+        "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl"
       },
       "sort": "publicationMedium",
       "inscope": true,
@@ -647,7 +619,7 @@
         "nl": "De tags betreffen informatieve aanduidingen van de publieke dienstverlening."
       },
       "usage": {
-        "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/instantie-tag.ttl"
+        "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/instantie-tag.ttl"
       },
       "sort": "instanceTag",
       "inscope": true,
@@ -672,38 +644,6 @@
       "show": true
     },
     {
-      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasAttachment",
-      "name": "hasAttachment",
-      "label": {
-        "nl": "hasAttachment"
-      },
-      "description": {
-        "nl": "Bijlagen die gerelateerd zijn aan de dienstverlening."
-      },
-      "usage": {},
-      "sort": "hasAttachment",
-      "inscope": true,
-      "indvl": false,
-      "inpackage": false,
-      "show": true
-    },
-    {
-      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasAttachment",
-      "name": "hasAttachment",
-      "label": {
-        "nl": "hasAttachment"
-      },
-      "description": {
-        "nl": "Bijlagen die gerelateerd zijn aan de dienstverlening."
-      },
-      "usage": {},
-      "sort": "hasAttachment",
-      "inscope": true,
-      "indvl": false,
-      "inpackage": false,
-      "show": true
-    },
-    {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
       "name": "executingAuthorityLevel",
       "label": {
@@ -711,7 +651,7 @@
       },
       "description": {},
       "usage": {
-        "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl"
+        "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl"
       },
       "sort": "executingAuthorityLevel",
       "inscope": true,
@@ -727,7 +667,7 @@
       },
       "description": {},
       "usage": {
-        "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl"
+        "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl"
       },
       "sort": "executingAuthorityLevel",
       "inscope": true,
@@ -781,7 +721,7 @@
         "nl": "De tags betreffen informatieve aanduidingen van de publieke dienstverlening."
       },
       "usage": {
-        "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/concept-tag.ttl"
+        "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/concept-tag.ttl"
       },
       "sort": "conceptTag",
       "inscope": true,
@@ -797,7 +737,7 @@
       },
       "description": {},
       "usage": {
-        "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl"
+        "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl"
       },
       "sort": "competentAuthorityLevel",
       "inscope": true,
@@ -813,7 +753,7 @@
       },
       "description": {},
       "usage": {
-        "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl"
+        "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl"
       },
       "sort": "competentAuthorityLevel",
       "inscope": true,
@@ -832,6 +772,42 @@
       },
       "usage": {},
       "sort": "address",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription",
+      "name": "additionalDescription",
+      "label": {
+        "nl": "additionalDescription"
+      },
+      "description": {
+        "nl": "This property represents free text for additional information regarding the  Description of the Public Service."
+      },
+      "usage": {
+        "nl": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn. Dit veld kan rich text bevatten, dit wordt doorgegeven als html."
+      },
+      "sort": "additionalDescription",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription",
+      "name": "additionalDescription",
+      "label": {
+        "nl": "additionalDescription"
+      },
+      "description": {
+        "nl": "This property represents free text for additional information regarding the  Description of the Public Service."
+      },
+      "usage": {
+        "nl": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn. Dit veld kan rich text bevatten, dit wordt doorgegeven als html."
+      },
+      "sort": "additionalDescription",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1029,7 +1005,7 @@
         "nl": "Het type/soort van public service (bv advies, financieel voordeel, ...)"
       },
       "usage": {
-        "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl"
+        "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl"
       },
       "sort": "type",
       "inscope": true,
@@ -1047,25 +1023,9 @@
         "nl": "Het type/soort van public service (bv advies, financieel voordeel, ...)"
       },
       "usage": {
-        "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl"
+        "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl"
       },
       "sort": "type",
-      "inscope": true,
-      "indvl": false,
-      "inpackage": false,
-      "show": true
-    },
-    {
-      "uri": "http://purl.org/dc/terms/title",
-      "name": "name",
-      "label": {
-        "nl": "name"
-      },
-      "description": {},
-      "usage": {
-        "nl": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn."
-      },
-      "sort": "name",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1218,22 +1178,6 @@
       "description": {},
       "usage": {},
       "sort": "hasSource",
-      "inscope": true,
-      "indvl": false,
-      "inpackage": false,
-      "show": true
-    },
-    {
-      "uri": "http://purl.org/dc/terms/description",
-      "name": "description",
-      "label": {
-        "nl": "description"
-      },
-      "description": {},
-      "usage": {
-        "nl": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn. Dit veld kan rich text bevatten, dit wordt doorgegeven als html."
-      },
-      "sort": "description",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1400,22 +1344,6 @@
       "show": true
     },
     {
-      "uri": "http://publications.europa.eu/resource/authority/language",
-      "name": "language",
-      "label": {
-        "nl": "language"
-      },
-      "description": {
-        "nl": "This property represents the language(s) in which the Public Service is available. This could be one language or multiple languages, for instance in countries with more than one official language. The possible values for this property are described in a controlled vocabulary. The recommended controlled vocabularies are listed in section 4."
-      },
-      "usage": {},
-      "sort": "language",
-      "inscope": true,
-      "indvl": false,
-      "inpackage": false,
-      "show": true
-    },
-    {
       "uri": "http://data.europa.eu/m8g/thematicArea",
       "name": "theme",
       "label": {
@@ -1425,7 +1353,7 @@
         "nl": "This property represents the theme of a Public Service as described in a controlled vocabulary."
       },
       "usage": {
-        "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl"
+        "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl"
       },
       "sort": "theme",
       "inscope": true,
@@ -1443,7 +1371,7 @@
         "nl": "This property represents the theme of a Public Service as described in a controlled vocabulary."
       },
       "usage": {
-        "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl"
+        "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl"
       },
       "sort": "theme",
       "inscope": true,

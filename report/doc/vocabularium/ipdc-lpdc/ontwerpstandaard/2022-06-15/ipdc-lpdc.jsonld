@@ -1376,62 +1376,6 @@
             "name": "ConceptualPublicService"
         },
         {
-            "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#Document",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "inpackage": "OTHER_PACKAGE",
-            "label-nl": {
-                "nl": "Document"
-            },
-            "label": {
-                "nl": "Document"
-            },
-            "definition-nl": {
-                "nl": "TODO"
-            },
-            "extra": {
-                "EA-Name": "Document",
-                "EA-Guid": "{5BD9D020-5636-462f-88A0-6F01A4CE37E0}",
-                "EA-Package": "IPDC-LPDC",
-                "EA-Type": "CLASS",
-                "EA-Parents": "",
-                "EA-Parents2": [],
-                "parentclasses": "",
-                "label": {
-                    "nl": "Document"
-                },
-                "definition": "",
-                "usage": "",
-                "label-nl": {
-                    "nl": "Document"
-                },
-                "definition-nl": {
-                    "nl": "TODO"
-                },
-                "usageNote-nl": "",
-                "label-en": "",
-                "definition-en": "",
-                "usageNote-en": "",
-                "equivalent": "",
-                "subclass": "",
-                "subclass1": "",
-                "sameAs": "",
-                "RawTags": [
-                    {
-                        "key": "label-nl",
-                        "value": "Document",
-                        "note": "null"
-                    },
-                    {
-                        "key": "uri",
-                        "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#Document",
-                        "note": "null"
-                    }
-                ],
-                "Scope": "TRANSLATIONS_ONLY"
-            },
-            "name": "Document"
-        },
-        {
             "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
@@ -1917,86 +1861,6 @@
                 {
                     "uri": "https://schema.org/WebSite",
                     "EA-Name": "Website"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "URL",
-                    "EA-GUID": "{CE9B4B2B-45E2-4765-88DC-6E748376A0C4}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "http://fixme.com#URL"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "1",
-            "maxCardinality": "1"
-        },
-        {
-            "@id": "https://schema.org/url",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "document",
-            "inpackage": "OTHER_PACKAGE",
-            "label-nl": {
-                "nl": "document"
-            },
-            "label": {
-                "nl": "document"
-            },
-            "definition-nl": {
-                "nl": "TODO"
-            },
-            "extra": {
-                "EA-Name": "document",
-                "EA-Guid": "{4A2249BF-3BAD-4147-834F-185FFC65BF46}",
-                "EA-Package": "IPDC-LPDC",
-                "EA-Type": "attribute",
-                "EA-Domain": "Document",
-                "EA-Domain-Guid": "{5BD9D020-5636-462f-88A0-6F01A4CE37E0}",
-                "EA-Range": "URL",
-                "RangeData": {
-                    "EA-Name": "URL",
-                    "EA-GUID": "{CE9B4B2B-45E2-4765-88DC-6E748376A0C4}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "http://fixme.com#URL"
-                },
-                "label": {
-                    "nl": "document"
-                },
-                "definition": "",
-                "usage": "",
-                "label-nl": {
-                    "nl": "document"
-                },
-                "definition-nl": {
-                    "nl": "TODO"
-                },
-                "usageNote-nl": "",
-                "label-en": "",
-                "definition-en": "",
-                "usageNote-en": "",
-                "equivalent": "",
-                "subclass": "",
-                "subclass1": "",
-                "sameAs": "",
-                "RawTags": [
-                    {
-                        "key": "uri",
-                        "value": "https://schema.org/url",
-                        "note": "null"
-                    },
-                    {
-                        "key": "label-nl",
-                        "value": "document",
-                        "note": "null"
-                    }
-                ],
-                "Scope": "TRANSLATIONS_ONLY"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#Document",
-                    "EA-Name": "Document"
                 }
             ],
             "range": [
@@ -2746,10 +2610,10 @@
                 "nl": "yourEuropeCategory"
             },
             "usage": {
-                "nl": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nIn afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
+                "nl": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nDe ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
             },
             "usageNote-nl": {
-                "nl": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nIn afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
+                "nl": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nDe ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
             },
             "definition": {
                 "nl": "SDG (Single digital gateway) domein waarbinnen de public service gecategoriseerd wordt"
@@ -2781,7 +2645,7 @@
                     "nl": "SDG (Single digital gateway) domein waarbinnen de public service gecategoriseerd wordt"
                 },
                 "usage": {
-                    "nl": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nIn afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
+                    "nl": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nDe ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
                 },
                 "label-nl": {
                     "nl": "yourEuropeCategory"
@@ -2790,7 +2654,7 @@
                     "nl": "SDG (Single digital gateway) domein waarbinnen de public service gecategoriseerd wordt"
                 },
                 "usageNote-nl": {
-                    "nl": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nIn afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
+                    "nl": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nDe ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
                 },
                 "label-en": "",
                 "definition-en": "",
@@ -2808,7 +2672,7 @@
                     {
                         "key": "usageNote-nl",
                         "value": "NOTE",
-                        "note": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nIn afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
+                        "note": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nDe ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
                     },
                     {
                         "key": "description-nl",
@@ -2856,10 +2720,10 @@
                 "nl": "yourEuropeCategory"
             },
             "usage": {
-                "nl": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nIn afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
+                "nl": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nDe ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
             },
             "usageNote-nl": {
-                "nl": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nIn afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
+                "nl": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nDe ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
             },
             "definition": {
                 "nl": "SDG (Single digital gateway) domein waarbinnen de public service gecategoriseerd wordt"
@@ -2891,7 +2755,7 @@
                     "nl": "SDG (Single digital gateway) domein waarbinnen de public service gecategoriseerd wordt"
                 },
                 "usage": {
-                    "nl": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nIn afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
+                    "nl": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nDe ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
                 },
                 "label-nl": {
                     "nl": "yourEuropeCategory"
@@ -2900,7 +2764,7 @@
                     "nl": "SDG (Single digital gateway) domein waarbinnen de public service gecategoriseerd wordt"
                 },
                 "usageNote-nl": {
-                    "nl": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nIn afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
+                    "nl": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nDe ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
                 },
                 "label-en": "",
                 "definition-en": "",
@@ -2923,7 +2787,7 @@
                     {
                         "key": "usageNote-nl",
                         "value": "NOTE",
-                        "note": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nIn afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
+                        "note": "Enkel van toepassing voor public services die ontsloten worden naar YourEurope in kader van SDG (Single digital gateway). Een public service wordt enkel naar YourEurope ontsloten wanneer deze een waarde heeft voor zowel de hoofdcategorie als de subcategorie.\r\nDe ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/your-europe-categorie.ttl"
                     },
                     {
                         "key": "label-nl",
@@ -2966,10 +2830,10 @@
                 "nl": "targetAudience"
             },
             "usage": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl"
             },
             "usageNote-nl": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl"
             },
             "definition": {
                 "nl": "doelgroep(en) waarop de public service gericht is"
@@ -3001,7 +2865,7 @@
                     "nl": "doelgroep(en) waarop de public service gericht is"
                 },
                 "usage": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl"
                 },
                 "label-nl": {
                     "nl": "targetAudience"
@@ -3010,7 +2874,7 @@
                     "nl": "doelgroep(en) waarop de public service gericht is"
                 },
                 "usageNote-nl": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl"
                 },
                 "label-en": "",
                 "definition-en": "",
@@ -3042,8 +2906,8 @@
                     },
                     {
                         "key": "usageNote-nl",
-                        "value": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl",
-                        "note": "null"
+                        "value": "NOTE",
+                        "note": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl"
                     }
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
@@ -3076,10 +2940,10 @@
                 "nl": "targetAudience"
             },
             "usage": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl"
             },
             "usageNote-nl": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl"
             },
             "definition": {
                 "nl": "doelgroep(en) waarop de public service gericht is"
@@ -3111,7 +2975,7 @@
                     "nl": "doelgroep(en) waarop de public service gericht is"
                 },
                 "usage": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl"
                 },
                 "label-nl": {
                     "nl": "targetAudience"
@@ -3120,7 +2984,7 @@
                     "nl": "doelgroep(en) waarop de public service gericht is"
                 },
                 "usageNote-nl": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl"
                 },
                 "label-en": "",
                 "definition-en": "",
@@ -3152,8 +3016,8 @@
                     },
                     {
                         "key": "usageNote-nl",
-                        "value": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl",
-                        "note": "null"
+                        "value": "NOTE",
+                        "note": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/doelgroep.ttl"
                     }
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
@@ -3416,10 +3280,10 @@
                 "nl": "publicationMedium"
             },
             "usage": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl"
             },
             "usageNote-nl": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl"
             },
             "definition": {
                 "nl": "De informatie van de publieke dienstverlening wordt ontsloten naar de gekozen publicatie mediums."
@@ -3451,7 +3315,7 @@
                     "nl": "De informatie van de publieke dienstverlening wordt ontsloten naar de gekozen publicatie mediums."
                 },
                 "usage": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl"
                 },
                 "label-nl": {
                     "nl": "publicationMedium"
@@ -3460,7 +3324,7 @@
                     "nl": "De informatie van de publieke dienstverlening wordt ontsloten naar de gekozen publicatie mediums."
                 },
                 "usageNote-nl": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl"
                 },
                 "label-en": "",
                 "definition-en": "",
@@ -3492,8 +3356,8 @@
                     },
                     {
                         "key": "usageNote-nl",
-                        "value": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl",
-                        "note": "null"
+                        "value": "NOTE",
+                        "note": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl"
                     }
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
@@ -3526,10 +3390,10 @@
                 "nl": "publicationMedium"
             },
             "usage": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl"
             },
             "usageNote-nl": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl"
             },
             "definition": {
                 "nl": "De informatie van de publieke dienstverlening wordt ontsloten naar de gekozen publicatie mediums."
@@ -3561,7 +3425,7 @@
                     "nl": "De informatie van de publieke dienstverlening wordt ontsloten naar de gekozen publicatie mediums."
                 },
                 "usage": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl"
                 },
                 "label-nl": {
                     "nl": "publicationMedium"
@@ -3570,7 +3434,7 @@
                     "nl": "De informatie van de publieke dienstverlening wordt ontsloten naar de gekozen publicatie mediums."
                 },
                 "usageNote-nl": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl"
                 },
                 "label-en": "",
                 "definition-en": "",
@@ -3602,8 +3466,8 @@
                     },
                     {
                         "key": "usageNote-nl",
-                        "value": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl",
-                        "note": "null"
+                        "value": "NOTE",
+                        "note": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/publicatie-kanaal.ttl"
                     }
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
@@ -3636,10 +3500,10 @@
                 "nl": "instanceTag"
             },
             "usage": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/instantie-tag.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/instantie-tag.ttl"
             },
             "usageNote-nl": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/instantie-tag.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/instantie-tag.ttl"
             },
             "definition": {
                 "nl": "De tags betreffen informatieve aanduidingen van de publieke dienstverlening."
@@ -3671,7 +3535,7 @@
                     "nl": "De tags betreffen informatieve aanduidingen van de publieke dienstverlening."
                 },
                 "usage": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/instantie-tag.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/instantie-tag.ttl"
                 },
                 "label-nl": {
                     "nl": "instanceTag"
@@ -3680,7 +3544,7 @@
                     "nl": "De tags betreffen informatieve aanduidingen van de publieke dienstverlening."
                 },
                 "usageNote-nl": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/instantie-tag.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/instantie-tag.ttl"
                 },
                 "label-en": "",
                 "definition-en": "",
@@ -3712,8 +3576,8 @@
                     },
                     {
                         "key": "usageNote-nl",
-                        "value": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/instantie-tag.ttl",
-                        "note": "null"
+                        "value": "NOTE",
+                        "note": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/instantie-tag.ttl"
                     }
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
@@ -3858,6 +3722,105 @@
             },
             "extra": {
                 "EA-Name": "hasExecutingAuthority",
+                "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+                "derived": "false",
+                "EA-Package": "",
+                "EA-Type": "connector",
+                "EA-Domain": "InstancePublicService",
+                "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+                "EA-Range": "PubliekeOrganisatie",
+                "RangeData": {
+                    "EA-Name": "PubliekeOrganisatie",
+                    "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+                    "EA-Package": "OSLO-Organisatie",
+                    "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+                },
+                "sourceRole": "null",
+                "destRole": "null",
+                "label": {
+                    "nl": "hasExecutingAuthority"
+                },
+                "definition": "",
+                "usage": {
+                    "nl": "Link naar het Organisatieregister"
+                },
+                "label-nl": {
+                    "nl": "hasExecutingAuthority"
+                },
+                "definition-nl": {
+                    "nl": "TODO"
+                },
+                "usageNote-nl": {
+                    "nl": "Link naar het Organisatieregister"
+                },
+                "label-en": "",
+                "definition-en": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
+                "RawTags": [
+                    {
+                        "key": "label-nl",
+                        "value": "hasExecutingAuthority",
+                        "note": "null"
+                    },
+                    {
+                        "key": "usageNote-nl",
+                        "value": "Link naar het Organisatieregister",
+                        "note": "null"
+                    },
+                    {
+                        "key": "uri",
+                        "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+                        "note": "null"
+                    }
+                ],
+                "DestRoleTags": [],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
+                    "EA-Name": "InstancePublicService"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "PubliekeOrganisatie",
+                    "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+                    "EA-Package": "OSLO-Organisatie",
+                    "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "0",
+            "maxCardinality": "*"
+        },
+        {
+            "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "hasExecutingAuthority",
+            "inpackage": "UNKNOWN",
+            "label-nl": {
+                "nl": "hasExecutingAuthority"
+            },
+            "usage": {
+                "nl": "Link naar het Organisatieregister"
+            },
+            "usageNote-nl": {
+                "nl": "Link naar het Organisatieregister"
+            },
+            "label": {
+                "nl": "hasExecutingAuthority"
+            },
+            "definition-nl": {
+                "nl": "TODO"
+            },
+            "extra": {
+                "EA-Name": "hasExecutingAuthority",
                 "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
                 "derived": "false",
                 "EA-Package": "",
@@ -3936,303 +3899,6 @@
             "maxCardinality": "*"
         },
         {
-            "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "hasExecutingAuthority",
-            "inpackage": "UNKNOWN",
-            "label-nl": {
-                "nl": "hasExecutingAuthority"
-            },
-            "usage": {
-                "nl": "Link naar het Organisatieregister"
-            },
-            "usageNote-nl": {
-                "nl": "Link naar het Organisatieregister"
-            },
-            "label": {
-                "nl": "hasExecutingAuthority"
-            },
-            "definition-nl": {
-                "nl": "TODO"
-            },
-            "extra": {
-                "EA-Name": "hasExecutingAuthority",
-                "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
-                "derived": "false",
-                "EA-Package": "",
-                "EA-Type": "connector",
-                "EA-Domain": "InstancePublicService",
-                "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-                "EA-Range": "PubliekeOrganisatie",
-                "RangeData": {
-                    "EA-Name": "PubliekeOrganisatie",
-                    "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
-                    "EA-Package": "OSLO-Organisatie",
-                    "uri": "http://data.europa.eu/m8g/PublicOrganisation"
-                },
-                "sourceRole": "null",
-                "destRole": "null",
-                "label": {
-                    "nl": "hasExecutingAuthority"
-                },
-                "definition": "",
-                "usage": {
-                    "nl": "Link naar het Organisatieregister"
-                },
-                "label-nl": {
-                    "nl": "hasExecutingAuthority"
-                },
-                "definition-nl": {
-                    "nl": "TODO"
-                },
-                "usageNote-nl": {
-                    "nl": "Link naar het Organisatieregister"
-                },
-                "label-en": "",
-                "definition-en": "",
-                "usageNote-en": "",
-                "equivalent": "",
-                "subclass": "",
-                "subclass1": "",
-                "sameAs": "",
-                "RawTags": [
-                    {
-                        "key": "label-nl",
-                        "value": "hasExecutingAuthority",
-                        "note": "null"
-                    },
-                    {
-                        "key": "usageNote-nl",
-                        "value": "Link naar het Organisatieregister",
-                        "note": "null"
-                    },
-                    {
-                        "key": "uri",
-                        "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
-                        "note": "null"
-                    }
-                ],
-                "DestRoleTags": [],
-                "Scope": "NOTHING"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
-                    "EA-Name": "InstancePublicService"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "PubliekeOrganisatie",
-                    "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
-                    "EA-Package": "OSLO-Organisatie",
-                    "uri": "http://data.europa.eu/m8g/PublicOrganisation"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "1",
-            "maxCardinality": "*"
-        },
-        {
-            "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasAttachment",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "hasAttachment",
-            "inpackage": "ACTIVE_PACKAGE",
-            "label-nl": {
-                "nl": "hasAttachment"
-            },
-            "definition": {
-                "nl": "Bijlagen die gerelateerd zijn aan de dienstverlening."
-            },
-            "label": {
-                "nl": "hasAttachment"
-            },
-            "definition-nl": {
-                "nl": "Bijlagen die gerelateerd zijn aan de dienstverlening."
-            },
-            "extra": {
-                "EA-Name": "hasAttachment",
-                "EA-Guid": "{295564AD-90FE-401d-9F13-36FF994C536D}",
-                "derived": "false",
-                "EA-Package": "",
-                "EA-Type": "connector",
-                "EA-Domain": "ConceptualPublicService",
-                "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-                "EA-Range": "Document",
-                "RangeData": {
-                    "EA-Name": "Document",
-                    "EA-GUID": "{5BD9D020-5636-462f-88A0-6F01A4CE37E0}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#Document"
-                },
-                "sourceRole": "null",
-                "destRole": "null",
-                "label": {
-                    "nl": "hasAttachment"
-                },
-                "definition": {
-                    "nl": "Bijlagen die gerelateerd zijn aan de dienstverlening."
-                },
-                "usage": "",
-                "label-nl": {
-                    "nl": "hasAttachment"
-                },
-                "definition-nl": {
-                    "nl": "Bijlagen die gerelateerd zijn aan de dienstverlening."
-                },
-                "usageNote-nl": "",
-                "label-en": "",
-                "definition-en": "",
-                "usageNote-en": "",
-                "equivalent": "",
-                "subclass": "",
-                "subclass1": "",
-                "sameAs": "",
-                "RawTags": [
-                    {
-                        "key": "label-nl",
-                        "value": "hasAttachment",
-                        "note": "null"
-                    },
-                    {
-                        "key": "description-nl",
-                        "value": "Bijlagen die gerelateerd zijn aan de dienstverlening.",
-                        "note": "null"
-                    },
-                    {
-                        "key": "definition-nl",
-                        "value": "Bijlagen die gerelateerd zijn aan de dienstverlening.",
-                        "note": "null"
-                    },
-                    {
-                        "key": "uri",
-                        "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasAttachment",
-                        "note": "null"
-                    }
-                ],
-                "DestRoleTags": [],
-                "Scope": "TRANSLATIONS_ONLY"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
-                    "EA-Name": "ConceptualPublicService"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "Document",
-                    "EA-GUID": "{5BD9D020-5636-462f-88A0-6F01A4CE37E0}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#Document"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "0",
-            "maxCardinality": "*"
-        },
-        {
-            "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasAttachment",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "hasAttachment",
-            "inpackage": "ACTIVE_PACKAGE",
-            "label-nl": {
-                "nl": "hasAttachment"
-            },
-            "definition": {
-                "nl": "Bijlagen die gerelateerd zijn aan de dienstverlening."
-            },
-            "label": {
-                "nl": "hasAttachment"
-            },
-            "definition-nl": {
-                "nl": "Bijlagen die gerelateerd zijn aan de dienstverlening."
-            },
-            "extra": {
-                "EA-Name": "hasAttachment",
-                "EA-Guid": "{C148222C-4EC1-479c-925D-9C1A3D66253C}",
-                "derived": "false",
-                "EA-Package": "",
-                "EA-Type": "connector",
-                "EA-Domain": "InstancePublicService",
-                "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-                "EA-Range": "Document",
-                "RangeData": {
-                    "EA-Name": "Document",
-                    "EA-GUID": "{5BD9D020-5636-462f-88A0-6F01A4CE37E0}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#Document"
-                },
-                "sourceRole": "null",
-                "destRole": "null",
-                "label": {
-                    "nl": "hasAttachment"
-                },
-                "definition": {
-                    "nl": "Bijlagen die gerelateerd zijn aan de dienstverlening."
-                },
-                "usage": "",
-                "label-nl": {
-                    "nl": "hasAttachment"
-                },
-                "definition-nl": {
-                    "nl": "Bijlagen die gerelateerd zijn aan de dienstverlening."
-                },
-                "usageNote-nl": "",
-                "label-en": "",
-                "definition-en": "",
-                "usageNote-en": "",
-                "equivalent": "",
-                "subclass": "",
-                "subclass1": "",
-                "sameAs": "",
-                "RawTags": [
-                    {
-                        "key": "label-nl",
-                        "value": "hasAttachment",
-                        "note": "null"
-                    },
-                    {
-                        "key": "description-nl",
-                        "value": "Bijlagen die gerelateerd zijn aan de dienstverlening.",
-                        "note": "null"
-                    },
-                    {
-                        "key": "definition-nl",
-                        "value": "Bijlagen die gerelateerd zijn aan de dienstverlening.",
-                        "note": "null"
-                    },
-                    {
-                        "key": "uri",
-                        "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasAttachment",
-                        "note": "null"
-                    }
-                ],
-                "DestRoleTags": [],
-                "Scope": "TRANSLATIONS_ONLY"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
-                    "EA-Name": "InstancePublicService"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "Document",
-                    "EA-GUID": "{5BD9D020-5636-462f-88A0-6F01A4CE37E0}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#Document"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "0",
-            "maxCardinality": "*"
-        },
-        {
             "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
             "name": "executingAuthorityLevel",
@@ -4241,10 +3907,10 @@
                 "nl": "executingAuthorityLevel"
             },
             "usage": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl"
             },
             "usageNote-nl": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl"
             },
             "label": {
                 "nl": "executingAuthorityLevel"
@@ -4271,7 +3937,7 @@
                 },
                 "definition": "",
                 "usage": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl"
                 },
                 "label-nl": {
                     "nl": "executingAuthorityLevel"
@@ -4280,7 +3946,7 @@
                     "nl": "TODO"
                 },
                 "usageNote-nl": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl"
                 },
                 "label-en": "",
                 "definition-en": "",
@@ -4302,8 +3968,8 @@
                     },
                     {
                         "key": "usageNote-nl",
-                        "value": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl",
-                        "note": "null"
+                        "value": "NOTE",
+                        "note": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl"
                     }
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
@@ -4336,10 +4002,10 @@
                 "nl": "executingAuthorityLevel"
             },
             "usage": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl"
             },
             "usageNote-nl": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl"
             },
             "label": {
                 "nl": "executingAuthorityLevel"
@@ -4366,7 +4032,7 @@
                 },
                 "definition": "",
                 "usage": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl"
                 },
                 "label-nl": {
                     "nl": "executingAuthorityLevel"
@@ -4375,7 +4041,7 @@
                     "nl": "TODO"
                 },
                 "usageNote-nl": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl"
                 },
                 "label-en": "",
                 "definition-en": "",
@@ -4397,8 +4063,8 @@
                     },
                     {
                         "key": "usageNote-nl",
-                        "value": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl",
-                        "note": "null"
+                        "value": "NOTE",
+                        "note": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/uitvoerend-bestuursniveau.ttl"
                     }
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
@@ -4651,10 +4317,10 @@
                 "nl": "conceptTag"
             },
             "usage": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/concept-tag.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/concept-tag.ttl"
             },
             "usageNote-nl": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/concept-tag.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/concept-tag.ttl"
             },
             "definition": {
                 "nl": "De tags betreffen informatieve aanduidingen van de publieke dienstverlening."
@@ -4686,7 +4352,7 @@
                     "nl": "De tags betreffen informatieve aanduidingen van de publieke dienstverlening."
                 },
                 "usage": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/concept-tag.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/concept-tag.ttl"
                 },
                 "label-nl": {
                     "nl": "conceptTag"
@@ -4695,7 +4361,7 @@
                     "nl": "De tags betreffen informatieve aanduidingen van de publieke dienstverlening."
                 },
                 "usageNote-nl": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/concept-tag.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/concept-tag.ttl"
                 },
                 "label-en": "",
                 "definition-en": "",
@@ -4727,8 +4393,8 @@
                     },
                     {
                         "key": "usageNote-nl",
-                        "value": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/concept-tag.ttl",
-                        "note": "null"
+                        "value": "NOTE",
+                        "note": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/concept-tag.ttl"
                     }
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
@@ -4761,10 +4427,10 @@
                 "nl": "competentAuthorityLevel"
             },
             "usage": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl"
             },
             "usageNote-nl": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl"
             },
             "label": {
                 "nl": "competentAuthorityLevel"
@@ -4791,7 +4457,7 @@
                 },
                 "definition": "",
                 "usage": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl"
                 },
                 "label-nl": {
                     "nl": "competentAuthorityLevel"
@@ -4800,7 +4466,7 @@
                     "nl": "TODO"
                 },
                 "usageNote-nl": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl"
                 },
                 "label-en": "",
                 "definition-en": "",
@@ -4822,8 +4488,8 @@
                     },
                     {
                         "key": "usageNote-nl",
-                        "value": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl",
-                        "note": "null"
+                        "value": "NOTE",
+                        "note": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl"
                     }
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
@@ -4856,10 +4522,10 @@
                 "nl": "competentAuthorityLevel"
             },
             "usage": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl"
             },
             "usageNote-nl": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl"
             },
             "label": {
                 "nl": "competentAuthorityLevel"
@@ -4886,7 +4552,7 @@
                 },
                 "definition": "",
                 "usage": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl"
                 },
                 "label-nl": {
                     "nl": "competentAuthorityLevel"
@@ -4895,7 +4561,7 @@
                     "nl": "TODO"
                 },
                 "usageNote-nl": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl"
                 },
                 "label-en": "",
                 "definition-en": "",
@@ -4917,8 +4583,8 @@
                     },
                     {
                         "key": "usageNote-nl",
-                        "value": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl",
-                        "note": "null"
+                        "value": "NOTE",
+                        "note": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/bevoegd-bestuursniveau.ttl"
                     }
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
@@ -5031,6 +4697,226 @@
                     "EA-GUID": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
                     "EA-Package": "IPDC-LPDC",
                     "uri": "http://www.w3.org/ns/locn#Address"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "0",
+            "maxCardinality": "1"
+        },
+        {
+            "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "additionalDescription",
+            "inpackage": "OTHER_PACKAGE",
+            "label-nl": {
+                "nl": "additionalDescription"
+            },
+            "usage": {
+                "nl": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn. Dit veld kan rich text bevatten, dit wordt doorgegeven als html."
+            },
+            "usageNote-nl": {
+                "nl": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn. Dit veld kan rich text bevatten, dit wordt doorgegeven als html."
+            },
+            "definition": {
+                "nl": "This property represents free text for additional information regarding the  Description of the Public Service."
+            },
+            "label": {
+                "nl": "additionalDescription"
+            },
+            "definition-nl": {
+                "nl": "This property represents free text for additional information regarding the  Description of the Public Service."
+            },
+            "extra": {
+                "EA-Name": "additionalDescription",
+                "EA-Guid": "{40B9D503-6A49-4a93-A3AF-EB3B4AC62DA3}",
+                "EA-Package": "IPDC-LPDC",
+                "EA-Type": "attribute",
+                "EA-Domain": "ConceptualPublicService",
+                "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+                "EA-Range": "TaalString",
+                "RangeData": {
+                    "EA-Name": "TaalString",
+                    "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
+                    "EA-Package": "OSLO-Generiek",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+                },
+                "label": {
+                    "nl": "additionalDescription"
+                },
+                "definition": {
+                    "nl": "This property represents free text for additional information regarding the  Description of the Public Service."
+                },
+                "usage": {
+                    "nl": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn. Dit veld kan rich text bevatten, dit wordt doorgegeven als html."
+                },
+                "label-nl": {
+                    "nl": "additionalDescription"
+                },
+                "definition-nl": {
+                    "nl": "This property represents free text for additional information regarding the  Description of the Public Service."
+                },
+                "usageNote-nl": {
+                    "nl": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn. Dit veld kan rich text bevatten, dit wordt doorgegeven als html."
+                },
+                "label-en": "",
+                "definition-en": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
+                "RawTags": [
+                    {
+                        "key": "description-nl",
+                        "value": "NOTE",
+                        "note": "This property represents free text for additional information regarding the  Description of the Public Service."
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "NOTE",
+                        "note": "This property represents free text for additional information regarding the  Description of the Public Service."
+                    },
+                    {
+                        "key": "uri",
+                        "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription",
+                        "note": "null"
+                    },
+                    {
+                        "key": "label-nl",
+                        "value": "additionalDescription",
+                        "note": "null"
+                    },
+                    {
+                        "key": "usageNote-nl",
+                        "value": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn. Dit veld kan rich text bevatten, dit wordt doorgegeven als html.",
+                        "note": "null"
+                    }
+                ],
+                "Scope": "TRANSLATIONS_ONLY"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
+                    "EA-Name": "ConceptualPublicService"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "TaalString",
+                    "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
+                    "EA-Package": "OSLO-Generiek",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "0",
+            "maxCardinality": "1"
+        },
+        {
+            "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "additionalDescription",
+            "inpackage": "OTHER_PACKAGE",
+            "label-nl": {
+                "nl": "additionalDescription"
+            },
+            "usage": {
+                "nl": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn. Dit veld kan rich text bevatten, dit wordt doorgegeven als html."
+            },
+            "usageNote-nl": {
+                "nl": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn. Dit veld kan rich text bevatten, dit wordt doorgegeven als html."
+            },
+            "definition": {
+                "nl": "This property represents free text for additional information regarding the  Description of the Public Service."
+            },
+            "label": {
+                "nl": "additionalDescription"
+            },
+            "definition-nl": {
+                "nl": "This property represents free text for additional information regarding the  Description of the Public Service."
+            },
+            "extra": {
+                "EA-Name": "additionalDescription",
+                "EA-Guid": "{9B97F00E-E553-4c2e-96FE-0806FF0CA570}",
+                "EA-Package": "IPDC-LPDC",
+                "EA-Type": "attribute",
+                "EA-Domain": "InstancePublicService",
+                "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+                "EA-Range": "TaalString",
+                "RangeData": {
+                    "EA-Name": "TaalString",
+                    "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
+                    "EA-Package": "OSLO-Generiek",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+                },
+                "label": {
+                    "nl": "additionalDescription"
+                },
+                "definition": {
+                    "nl": "This property represents free text for additional information regarding the  Description of the Public Service."
+                },
+                "usage": {
+                    "nl": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn. Dit veld kan rich text bevatten, dit wordt doorgegeven als html."
+                },
+                "label-nl": {
+                    "nl": "additionalDescription"
+                },
+                "definition-nl": {
+                    "nl": "This property represents free text for additional information regarding the  Description of the Public Service."
+                },
+                "usageNote-nl": {
+                    "nl": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn. Dit veld kan rich text bevatten, dit wordt doorgegeven als html."
+                },
+                "label-en": "",
+                "definition-en": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
+                "RawTags": [
+                    {
+                        "key": "description-nl",
+                        "value": "NOTE",
+                        "note": "This property represents free text for additional information regarding the  Description of the Public Service."
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "NOTE",
+                        "note": "This property represents free text for additional information regarding the  Description of the Public Service."
+                    },
+                    {
+                        "key": "usageNote-nl",
+                        "value": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn. Dit veld kan rich text bevatten, dit wordt doorgegeven als html.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "label-nl",
+                        "value": "additionalDescription",
+                        "note": "null"
+                    },
+                    {
+                        "key": "uri",
+                        "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription",
+                        "note": "null"
+                    }
+                ],
+                "Scope": "TRANSLATIONS_ONLY"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
+                    "EA-Name": "InstancePublicService"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "TaalString",
+                    "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
+                    "EA-Package": "OSLO-Generiek",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
                 }
             ],
             "generalization": [],
@@ -6313,105 +6199,6 @@
             },
             "extra": {
                 "EA-Name": "hasRequirement",
-                "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
-                "derived": "false",
-                "EA-Package": "",
-                "EA-Type": "connector",
-                "EA-Domain": "ConceptualPublicService",
-                "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-                "EA-Range": "Requirement",
-                "RangeData": {
-                    "EA-Name": "Requirement",
-                    "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "http://data.europa.eu/m8g/Requirement"
-                },
-                "sourceRole": "null",
-                "destRole": "null",
-                "label": {
-                    "nl": "hasRequirement"
-                },
-                "definition": {
-                    "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
-                },
-                "usage": "",
-                "label-nl": {
-                    "nl": "hasRequirement"
-                },
-                "definition-nl": {
-                    "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
-                },
-                "usageNote-nl": "",
-                "label-en": "",
-                "definition-en": "",
-                "usageNote-en": "",
-                "equivalent": "",
-                "subclass": "",
-                "subclass1": "",
-                "sameAs": "",
-                "RawTags": [
-                    {
-                        "key": "uri",
-                        "value": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
-                        "note": "null"
-                    },
-                    {
-                        "key": "description-nl",
-                        "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
-                        "note": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
-                    },
-                    {
-                        "key": "definition-nl",
-                        "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
-                        "note": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
-                    },
-                    {
-                        "key": "label-nl",
-                        "value": "hasRequirement",
-                        "note": "null"
-                    }
-                ],
-                "DestRoleTags": [],
-                "Scope": "TRANSLATIONS_ONLY"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
-                    "EA-Name": "ConceptualPublicService"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "Requirement",
-                    "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "http://data.europa.eu/m8g/Requirement"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "0",
-            "maxCardinality": "1"
-        },
-        {
-            "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "hasRequirement",
-            "inpackage": "ACTIVE_PACKAGE",
-            "label-nl": {
-                "nl": "hasRequirement"
-            },
-            "definition": {
-                "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
-            },
-            "label": {
-                "nl": "hasRequirement"
-            },
-            "definition-nl": {
-                "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
-            },
-            "extra": {
-                "EA-Name": "hasRequirement",
                 "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
                 "derived": "false",
                 "EA-Package": "",
@@ -6493,51 +6280,51 @@
             "maxCardinality": "1"
         },
         {
-            "@id": "http://purl.org/vocab/cpsv#produces",
+            "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "produces",
+            "name": "hasRequirement",
             "inpackage": "ACTIVE_PACKAGE",
             "label-nl": {
-                "nl": "produces"
+                "nl": "hasRequirement"
             },
             "definition": {
-                "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+                "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
             },
             "label": {
-                "nl": "produces"
+                "nl": "hasRequirement"
             },
             "definition-nl": {
-                "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+                "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
             },
             "extra": {
-                "EA-Name": "produces",
-                "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+                "EA-Name": "hasRequirement",
+                "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
                 "derived": "false",
                 "EA-Package": "",
                 "EA-Type": "connector",
                 "EA-Domain": "ConceptualPublicService",
                 "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-                "EA-Range": "FinancialAdvantage",
+                "EA-Range": "Requirement",
                 "RangeData": {
-                    "EA-Name": "FinancialAdvantage",
-                    "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
+                    "EA-Name": "Requirement",
+                    "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
                     "EA-Package": "IPDC-LPDC",
-                    "uri": "http://data.europa.eu/m8g/Output"
+                    "uri": "http://data.europa.eu/m8g/Requirement"
                 },
                 "sourceRole": "null",
                 "destRole": "null",
                 "label": {
-                    "nl": "produces"
+                    "nl": "hasRequirement"
                 },
                 "definition": {
-                    "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+                    "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
                 },
                 "usage": "",
                 "label-nl": {
-                    "nl": "produces"
+                    "nl": "hasRequirement"
                 },
                 "definition-nl": {
-                    "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+                    "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
                 },
                 "usageNote-nl": "",
                 "label-en": "",
@@ -6550,23 +6337,23 @@
                 "RawTags": [
                     {
                         "key": "uri",
-                        "value": "http://purl.org/vocab/cpsv#produces",
+                        "value": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
                         "note": "null"
                     },
                     {
                         "key": "description-nl",
-                        "value": "NOTE",
-                        "note": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-                    },
-                    {
-                        "key": "label-nl",
-                        "value": "produces",
-                        "note": "null"
+                        "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
+                        "note": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
                     },
                     {
                         "key": "definition-nl",
-                        "value": "NOTE",
-                        "note": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+                        "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
+                        "note": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+                    },
+                    {
+                        "key": "label-nl",
+                        "value": "hasRequirement",
+                        "note": "null"
                     }
                 ],
                 "DestRoleTags": [],
@@ -6581,15 +6368,15 @@
             ],
             "range": [
                 {
-                    "EA-Name": "FinancialAdvantage",
-                    "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
+                    "EA-Name": "Requirement",
+                    "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
                     "EA-Package": "IPDC-LPDC",
-                    "uri": "http://data.europa.eu/m8g/Output"
+                    "uri": "http://data.europa.eu/m8g/Requirement"
                 }
             ],
             "generalization": [],
             "minCardinality": "0",
-            "maxCardinality": "*"
+            "maxCardinality": "1"
         },
         {
             "@id": "http://purl.org/vocab/cpsv#produces",
@@ -6676,6 +6463,105 @@
                 {
                     "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
                     "EA-Name": "InstancePublicService"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "FinancialAdvantage",
+                    "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
+                    "EA-Package": "IPDC-LPDC",
+                    "uri": "http://data.europa.eu/m8g/Output"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "0",
+            "maxCardinality": "*"
+        },
+        {
+            "@id": "http://purl.org/vocab/cpsv#produces",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "produces",
+            "inpackage": "ACTIVE_PACKAGE",
+            "label-nl": {
+                "nl": "produces"
+            },
+            "definition": {
+                "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+            },
+            "label": {
+                "nl": "produces"
+            },
+            "definition-nl": {
+                "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+            },
+            "extra": {
+                "EA-Name": "produces",
+                "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+                "derived": "false",
+                "EA-Package": "",
+                "EA-Type": "connector",
+                "EA-Domain": "ConceptualPublicService",
+                "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+                "EA-Range": "FinancialAdvantage",
+                "RangeData": {
+                    "EA-Name": "FinancialAdvantage",
+                    "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
+                    "EA-Package": "IPDC-LPDC",
+                    "uri": "http://data.europa.eu/m8g/Output"
+                },
+                "sourceRole": "null",
+                "destRole": "null",
+                "label": {
+                    "nl": "produces"
+                },
+                "definition": {
+                    "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+                },
+                "usage": "",
+                "label-nl": {
+                    "nl": "produces"
+                },
+                "definition-nl": {
+                    "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+                },
+                "usageNote-nl": "",
+                "label-en": "",
+                "definition-en": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
+                "RawTags": [
+                    {
+                        "key": "uri",
+                        "value": "http://purl.org/vocab/cpsv#produces",
+                        "note": "null"
+                    },
+                    {
+                        "key": "description-nl",
+                        "value": "NOTE",
+                        "note": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+                    },
+                    {
+                        "key": "label-nl",
+                        "value": "produces",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "NOTE",
+                        "note": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+                    }
+                ],
+                "DestRoleTags": [],
+                "Scope": "TRANSLATIONS_ONLY"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
+                    "EA-Name": "ConceptualPublicService"
                 }
             ],
             "range": [
@@ -6897,10 +6783,10 @@
                 "nl": "type"
             },
             "usage": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl"
             },
             "usageNote-nl": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl"
             },
             "definition": {
                 "nl": "Het type/soort van public service (bv advies, financieel voordeel, ...)"
@@ -6932,7 +6818,7 @@
                     "nl": "Het type/soort van public service (bv advies, financieel voordeel, ...)"
                 },
                 "usage": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl"
                 },
                 "label-nl": {
                     "nl": "type"
@@ -6941,7 +6827,7 @@
                     "nl": "Het type/soort van public service (bv advies, financieel voordeel, ...)"
                 },
                 "usageNote-nl": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl"
                 },
                 "label-en": "",
                 "definition-en": "",
@@ -6973,8 +6859,8 @@
                     },
                     {
                         "key": "usageNote-nl",
-                        "value": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl",
-                        "note": "null"
+                        "value": "NOTE",
+                        "note": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl"
                     }
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
@@ -7007,10 +6893,10 @@
                 "nl": "type"
             },
             "usage": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl"
             },
             "usageNote-nl": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl"
             },
             "definition": {
                 "nl": "Het type/soort van public service (bv advies, financieel voordeel, ...)"
@@ -7042,7 +6928,7 @@
                     "nl": "Het type/soort van public service (bv advies, financieel voordeel, ...)"
                 },
                 "usage": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl"
                 },
                 "label-nl": {
                     "nl": "type"
@@ -7051,7 +6937,7 @@
                     "nl": "Het type/soort van public service (bv advies, financieel voordeel, ...)"
                 },
                 "usageNote-nl": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl"
                 },
                 "label-en": "",
                 "definition-en": "",
@@ -7083,8 +6969,8 @@
                     },
                     {
                         "key": "usageNote-nl",
-                        "value": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl",
-                        "note": "null"
+                        "value": "NOTE",
+                        "note": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/type.ttl"
                     }
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
@@ -7106,101 +6992,6 @@
             ],
             "generalization": [],
             "minCardinality": "0",
-            "maxCardinality": "1"
-        },
-        {
-            "@id": "http://purl.org/dc/terms/title",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "name",
-            "inpackage": "OTHER_PACKAGE",
-            "label-nl": {
-                "nl": "name"
-            },
-            "usage": {
-                "nl": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn."
-            },
-            "usageNote-nl": {
-                "nl": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn."
-            },
-            "label": {
-                "nl": "name"
-            },
-            "definition-nl": {
-                "nl": "TODO"
-            },
-            "extra": {
-                "EA-Name": "name",
-                "EA-Guid": "{3A61C56D-42B6-46b6-A693-E450DD7F7623}",
-                "EA-Package": "IPDC-LPDC",
-                "EA-Type": "attribute",
-                "EA-Domain": "Document",
-                "EA-Domain-Guid": "{5BD9D020-5636-462f-88A0-6F01A4CE37E0}",
-                "EA-Range": "TaalString",
-                "RangeData": {
-                    "EA-Name": "TaalString",
-                    "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
-                    "EA-Package": "OSLO-Generiek",
-                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-                },
-                "label": {
-                    "nl": "name"
-                },
-                "definition": "",
-                "usage": {
-                    "nl": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn."
-                },
-                "label-nl": {
-                    "nl": "name"
-                },
-                "definition-nl": {
-                    "nl": "TODO"
-                },
-                "usageNote-nl": {
-                    "nl": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn."
-                },
-                "label-en": "",
-                "definition-en": "",
-                "usageNote-en": "",
-                "equivalent": "",
-                "subclass": "",
-                "subclass1": "",
-                "sameAs": "",
-                "RawTags": [
-                    {
-                        "key": "uri",
-                        "value": "http://purl.org/dc/terms/title",
-                        "note": "null"
-                    },
-                    {
-                        "key": "label-nl",
-                        "value": "name",
-                        "note": "null"
-                    },
-                    {
-                        "key": "usageNote-nl",
-                        "value": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn.",
-                        "note": "null"
-                    }
-                ],
-                "Scope": "TRANSLATIONS_ONLY"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#Document",
-                    "EA-Name": "Document"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "TaalString",
-                    "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
-                    "EA-Package": "OSLO-Generiek",
-                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "1",
             "maxCardinality": "1"
         },
         {
@@ -8131,101 +7922,6 @@
                 "nl": "description"
             },
             "usage": {
-                "nl": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn. Dit veld kan rich text bevatten, dit wordt doorgegeven als html."
-            },
-            "usageNote-nl": {
-                "nl": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn. Dit veld kan rich text bevatten, dit wordt doorgegeven als html."
-            },
-            "label": {
-                "nl": "description"
-            },
-            "definition-nl": {
-                "nl": "TODO"
-            },
-            "extra": {
-                "EA-Name": "description",
-                "EA-Guid": "{FD20E18C-1819-4760-BCA3-6A37C036A71C}",
-                "EA-Package": "IPDC-LPDC",
-                "EA-Type": "attribute",
-                "EA-Domain": "Document",
-                "EA-Domain-Guid": "{5BD9D020-5636-462f-88A0-6F01A4CE37E0}",
-                "EA-Range": "TaalString",
-                "RangeData": {
-                    "EA-Name": "TaalString",
-                    "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
-                    "EA-Package": "OSLO-Generiek",
-                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-                },
-                "label": {
-                    "nl": "description"
-                },
-                "definition": "",
-                "usage": {
-                    "nl": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn. Dit veld kan rich text bevatten, dit wordt doorgegeven als html."
-                },
-                "label-nl": {
-                    "nl": "description"
-                },
-                "definition-nl": {
-                    "nl": "TODO"
-                },
-                "usageNote-nl": {
-                    "nl": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn. Dit veld kan rich text bevatten, dit wordt doorgegeven als html."
-                },
-                "label-en": "",
-                "definition-en": "",
-                "usageNote-en": "",
-                "equivalent": "",
-                "subclass": "",
-                "subclass1": "",
-                "sameAs": "",
-                "RawTags": [
-                    {
-                        "key": "uri",
-                        "value": "http://purl.org/dc/terms/description",
-                        "note": "null"
-                    },
-                    {
-                        "key": "label-nl",
-                        "value": "description",
-                        "note": "null"
-                    },
-                    {
-                        "key": "usageNote-nl",
-                        "value": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn. Dit veld kan rich text bevatten, dit wordt doorgegeven als html.",
-                        "note": "null"
-                    }
-                ],
-                "Scope": "TRANSLATIONS_ONLY"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#Document",
-                    "EA-Name": "Document"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "TaalString",
-                    "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
-                    "EA-Package": "OSLO-Generiek",
-                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "1",
-            "maxCardinality": "1"
-        },
-        {
-            "@id": "http://purl.org/dc/terms/description",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "description",
-            "inpackage": "OTHER_PACKAGE",
-            "label-nl": {
-                "nl": "description"
-            },
-            "usage": {
                 "nl": "Omwille van de meertaligheid kan er 1 waarde per taal zijn. Dit veld kan rich text bevatten, dit wordt doorgegeven als html."
             },
             "usageNote-nl": {
@@ -8324,7 +8020,7 @@
                 }
             ],
             "generalization": [],
-            "minCardinality": "0",
+            "minCardinality": "1",
             "maxCardinality": "1"
         },
         {
@@ -9116,101 +8812,6 @@
             },
             "extra": {
                 "EA-Name": "language",
-                "EA-Guid": "{07444D0C-148E-4cef-B3E7-38CC73C30703}",
-                "EA-Package": "IPDC-LPDC",
-                "EA-Type": "attribute",
-                "EA-Domain": "ConceptualPublicService",
-                "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-                "EA-Range": "LinguisticSystem",
-                "RangeData": {
-                    "EA-Name": "LinguisticSystem",
-                    "EA-GUID": "{6472FE67-99D4-4cb3-AD5A-417D7EE4B111}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "http://purl.org/dc/terms/LinguisticSystem"
-                },
-                "label": {
-                    "nl": "language"
-                },
-                "definition": {
-                    "nl": "This property represents the language(s) in which the Public Service is available. This could be one language or multiple languages, for instance in countries with more than one official language. The possible values for this property are described in a controlled vocabulary. The recommended controlled vocabularies are listed in section 4."
-                },
-                "usage": "",
-                "label-nl": {
-                    "nl": "language"
-                },
-                "definition-nl": {
-                    "nl": "This property represents the language(s) in which the Public Service is available. This could be one language or multiple languages, for instance in countries with more than one official language. The possible values for this property are described in a controlled vocabulary. The recommended controlled vocabularies are listed in section 4."
-                },
-                "usageNote-nl": "",
-                "label-en": "",
-                "definition-en": "",
-                "usageNote-en": "",
-                "equivalent": "",
-                "subclass": "",
-                "subclass1": "",
-                "sameAs": "",
-                "RawTags": [
-                    {
-                        "key": "uri",
-                        "value": "http://publications.europa.eu/resource/authority/language",
-                        "note": "null"
-                    },
-                    {
-                        "key": "label-nl",
-                        "value": "language",
-                        "note": "null"
-                    },
-                    {
-                        "key": "definition-nl",
-                        "value": "NOTE",
-                        "note": "This property represents the language(s) in which the Public Service is available. This could be one language or multiple languages, for instance in countries with more than one official language. The possible values for this property are described in a controlled vocabulary. The recommended controlled vocabularies are listed in section 4."
-                    },
-                    {
-                        "key": "description-nl",
-                        "value": "NOTE",
-                        "note": "This property represents the language(s) in which the Public Service is available. This could be one language or multiple languages, for instance in countries with more than one official language. The possible values for this property are described in a controlled vocabulary. The recommended controlled vocabularies are listed in section 4."
-                    }
-                ],
-                "Scope": "TRANSLATIONS_ONLY"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
-                    "EA-Name": "ConceptualPublicService"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "LinguisticSystem",
-                    "EA-GUID": "{6472FE67-99D4-4cb3-AD5A-417D7EE4B111}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "http://purl.org/dc/terms/LinguisticSystem"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "0",
-            "maxCardinality": "*"
-        },
-        {
-            "@id": "http://publications.europa.eu/resource/authority/language",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "language",
-            "inpackage": "OTHER_PACKAGE",
-            "label-nl": {
-                "nl": "language"
-            },
-            "definition": {
-                "nl": "This property represents the language(s) in which the Public Service is available. This could be one language or multiple languages, for instance in countries with more than one official language. The possible values for this property are described in a controlled vocabulary. The recommended controlled vocabularies are listed in section 4."
-            },
-            "label": {
-                "nl": "language"
-            },
-            "definition-nl": {
-                "nl": "This property represents the language(s) in which the Public Service is available. This could be one language or multiple languages, for instance in countries with more than one official language. The possible values for this property are described in a controlled vocabulary. The recommended controlled vocabularies are listed in section 4."
-            },
-            "extra": {
-                "EA-Name": "language",
                 "EA-Guid": "{D9015129-EBE8-4287-AEE3-253E7CD1E256}",
                 "EA-Package": "IPDC-LPDC",
                 "EA-Type": "attribute",
@@ -9296,10 +8897,10 @@
                 "nl": "theme"
             },
             "usage": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl"
             },
             "usageNote-nl": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl"
             },
             "definition": {
                 "nl": "This property represents the theme of a Public Service as described in a controlled vocabulary."
@@ -9331,7 +8932,7 @@
                     "nl": "This property represents the theme of a Public Service as described in a controlled vocabulary."
                 },
                 "usage": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl"
                 },
                 "label-nl": {
                     "nl": "theme"
@@ -9340,7 +8941,7 @@
                     "nl": "This property represents the theme of a Public Service as described in a controlled vocabulary."
                 },
                 "usageNote-nl": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl"
                 },
                 "label-en": "",
                 "definition-en": "",
@@ -9372,8 +8973,8 @@
                     },
                     {
                         "key": "usageNote-nl",
-                        "value": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl",
-                        "note": "null"
+                        "value": "NOTE",
+                        "note": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl"
                     }
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
@@ -9406,10 +9007,10 @@
                 "nl": "theme"
             },
             "usage": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl"
             },
             "usageNote-nl": {
-                "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl"
+                "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl"
             },
             "definition": {
                 "nl": "This property represents the theme of a Public Service as described in a controlled vocabulary."
@@ -9441,7 +9042,7 @@
                     "nl": "This property represents the theme of a Public Service as described in a controlled vocabulary."
                 },
                 "usage": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl"
                 },
                 "label-nl": {
                     "nl": "theme"
@@ -9450,7 +9051,7 @@
                     "nl": "This property represents the theme of a Public Service as described in a controlled vocabulary."
                 },
                 "usageNote-nl": {
-                    "nl": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl"
+                    "nl": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl"
                 },
                 "label-en": "",
                 "definition-en": "",
@@ -9482,8 +9083,8 @@
                     },
                     {
                         "key": "usageNote-nl",
-                        "value": "In afwachting van codelijst publicatie, kan de ttl file van de codelijst bekeken worden: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl",
-                        "note": "null"
+                        "value": "NOTE",
+                        "note": "De ttl file van de codelijst vindt u hier: raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/main/codelijsten/thema.ttl"
                     }
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
@@ -9937,7 +9538,7 @@
             ],
             "generalization": [],
             "minCardinality": "0",
-            "maxCardinality": "1"
+            "maxCardinality": "*"
         },
         {
             "@id": "http://data.europa.eu/m8g/hasCost",
@@ -10036,7 +9637,7 @@
             ],
             "generalization": [],
             "minCardinality": "0",
-            "maxCardinality": "1"
+            "maxCardinality": "*"
         },
         {
             "@id": "http://data.europa.eu/m8g/hasContactPoint",
@@ -10162,120 +9763,6 @@
             },
             "extra": {
                 "EA-Name": "hasCompetentAuthority",
-                "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
-                "derived": "false",
-                "EA-Package": "",
-                "EA-Type": "connector",
-                "EA-Domain": "ConceptualPublicService",
-                "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-                "EA-Range": "PubliekeOrganisatie",
-                "RangeData": {
-                    "EA-Name": "PubliekeOrganisatie",
-                    "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
-                    "EA-Package": "OSLO-Organisatie",
-                    "uri": "http://data.europa.eu/m8g/PublicOrganisation"
-                },
-                "sourceRole": "null",
-                "destRole": "null",
-                "label": {
-                    "nl": "hasCompetentAuthority"
-                },
-                "definition": {
-                    "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
-                },
-                "usage": {
-                    "nl": "Link naar het Organisatieregister"
-                },
-                "label-nl": {
-                    "nl": "hasCompetentAuthority"
-                },
-                "definition-nl": {
-                    "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
-                },
-                "usageNote-nl": {
-                    "nl": "Link naar het Organisatieregister"
-                },
-                "label-en": "",
-                "definition-en": "",
-                "usageNote-en": "",
-                "equivalent": "",
-                "subclass": "",
-                "subclass1": "",
-                "sameAs": "",
-                "RawTags": [
-                    {
-                        "key": "uri",
-                        "value": "http://data.europa.eu/m8g/hasCompetentAuthority",
-                        "note": "null"
-                    },
-                    {
-                        "key": "description-nl",
-                        "value": "NOTE",
-                        "note": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
-                    },
-                    {
-                        "key": "definition-nl",
-                        "value": "NOTE",
-                        "note": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
-                    },
-                    {
-                        "key": "label-nl",
-                        "value": "hasCompetentAuthority",
-                        "note": "null"
-                    },
-                    {
-                        "key": "usageNote-nl",
-                        "value": "Link naar het Organisatieregister",
-                        "note": "null"
-                    }
-                ],
-                "DestRoleTags": [],
-                "Scope": "NOTHING"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
-                    "EA-Name": "ConceptualPublicService"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "PubliekeOrganisatie",
-                    "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
-                    "EA-Package": "OSLO-Organisatie",
-                    "uri": "http://data.europa.eu/m8g/PublicOrganisation"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "1",
-            "maxCardinality": "*"
-        },
-        {
-            "@id": "http://data.europa.eu/m8g/hasCompetentAuthority",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "hasCompetentAuthority",
-            "inpackage": "UNKNOWN",
-            "label-nl": {
-                "nl": "hasCompetentAuthority"
-            },
-            "usage": {
-                "nl": "Link naar het Organisatieregister"
-            },
-            "usageNote-nl": {
-                "nl": "Link naar het Organisatieregister"
-            },
-            "definition": {
-                "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
-            },
-            "label": {
-                "nl": "hasCompetentAuthority"
-            },
-            "definition-nl": {
-                "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
-            },
-            "extra": {
-                "EA-Name": "hasCompetentAuthority",
                 "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
                 "derived": "false",
                 "EA-Package": "",
@@ -10363,6 +9850,120 @@
             ],
             "generalization": [],
             "minCardinality": "1",
+            "maxCardinality": "*"
+        },
+        {
+            "@id": "http://data.europa.eu/m8g/hasCompetentAuthority",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "hasCompetentAuthority",
+            "inpackage": "UNKNOWN",
+            "label-nl": {
+                "nl": "hasCompetentAuthority"
+            },
+            "usage": {
+                "nl": "Link naar het Organisatieregister"
+            },
+            "usageNote-nl": {
+                "nl": "Link naar het Organisatieregister"
+            },
+            "definition": {
+                "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
+            },
+            "label": {
+                "nl": "hasCompetentAuthority"
+            },
+            "definition-nl": {
+                "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
+            },
+            "extra": {
+                "EA-Name": "hasCompetentAuthority",
+                "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
+                "derived": "false",
+                "EA-Package": "",
+                "EA-Type": "connector",
+                "EA-Domain": "ConceptualPublicService",
+                "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+                "EA-Range": "PubliekeOrganisatie",
+                "RangeData": {
+                    "EA-Name": "PubliekeOrganisatie",
+                    "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+                    "EA-Package": "OSLO-Organisatie",
+                    "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+                },
+                "sourceRole": "null",
+                "destRole": "null",
+                "label": {
+                    "nl": "hasCompetentAuthority"
+                },
+                "definition": {
+                    "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
+                },
+                "usage": {
+                    "nl": "Link naar het Organisatieregister"
+                },
+                "label-nl": {
+                    "nl": "hasCompetentAuthority"
+                },
+                "definition-nl": {
+                    "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
+                },
+                "usageNote-nl": {
+                    "nl": "Link naar het Organisatieregister"
+                },
+                "label-en": "",
+                "definition-en": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
+                "RawTags": [
+                    {
+                        "key": "uri",
+                        "value": "http://data.europa.eu/m8g/hasCompetentAuthority",
+                        "note": "null"
+                    },
+                    {
+                        "key": "description-nl",
+                        "value": "NOTE",
+                        "note": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "NOTE",
+                        "note": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
+                    },
+                    {
+                        "key": "label-nl",
+                        "value": "hasCompetentAuthority",
+                        "note": "null"
+                    },
+                    {
+                        "key": "usageNote-nl",
+                        "value": "Link naar het Organisatieregister",
+                        "note": "null"
+                    }
+                ],
+                "DestRoleTags": [],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
+                    "EA-Name": "ConceptualPublicService"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "PubliekeOrganisatie",
+                    "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+                    "EA-Package": "OSLO-Organisatie",
+                    "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "0",
             "maxCardinality": "*"
         }
     ]

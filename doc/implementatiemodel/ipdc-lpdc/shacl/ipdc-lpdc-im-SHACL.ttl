@@ -26,7 +26,6 @@
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ThemeShape>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#AddressShape>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ContactPointShape>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#WebsiteShape> .
@@ -306,7 +305,11 @@
 
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:property <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/dcf9f7126f93e6e8038d53b5cee827e1b78ba941>,
+  shacl:property <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/0b22444be9d4d17138b9ba21478a2ddf6292d89a>,
+    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/61ede3097db630275578502c3ed09d8d46836e6d>,
+    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/72522ce345b618284217c71204f60347f514198b>,
+    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/989e58d945902fb7857a7dbeab232a911cd6408b>,
+    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/dcf9f7126f93e6e8038d53b5cee827e1b78ba941>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/e0ff5a71524ef93c90aa735357cd172765b9cf82>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/785d6a6a4acfb62968e06cccba6f219eb5b4ad4e>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/a79796f82283d4cea91d658f4d7bfd1f966262b3>,
@@ -327,13 +330,9 @@
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/9c470a5841331a6af2938bc63fb93c2ac40ca53e>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/c678d3b6ae22a358f800ce1cdb7f277c9efa4b62>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/c79731a9f0d3268bf54d69b65bfa614132b72c5b>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/2a36ee5a42696d834b989d2630bef27b693e500a>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/9bef56d59eb2e76c88bc45e21a6a623b0b4af8a1>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/6ec95ec193a55ff92dd90efa0ec2571a9dcc0114>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/837883f4d4e29517937c141300a580bee4de2f7d>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/d1d1fc582921ca9bd7525c1ff1f02e2f58b19e6e>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/311b694f260c7116aafcbc13ab79d692a00a345a>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/37fcb9ac1975a1b33da5dbfa5e8b9019a121124e>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/eadfcdf17e10bc322c3411ee73130151d71fb957>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/02fc386c98fb192560b82f543b653e2a30627eed>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/7b057073dff0413944b0d904c07cc203f5638500>,
@@ -347,8 +346,6 @@
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/3894f9fa605c37b8ff4766859d3107f97cc5f934>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/5bc739112726cd993c279f81380611cafc3a9857>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/e60d9718764241fd0032ba1929dd53f4294a964a>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/29ba27566ab1f32c8bb73f3492436d4bd868d3d2>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/db878f1cb93930f64561d0504123c66feacfad5a>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/263a563c5bed08cdaadf4a0fd0a5fb9874d742bc>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/398fb93e389fba9a790e6adb0152f10f2ba6023a>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/96cdcbb0489a41ab01fc39c521f5ed607a0b2c41>,
@@ -399,6 +396,14 @@
   <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "Maximaal 1 waarden toegelaten voor endDate"];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
+<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/0b22444be9d4d17138b9ba21478a2ddf6292d89a> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicService%3AadditionalDescription";
+  shacl:description "This property represents free text for additional information regarding the  Description of the Public Service."@nl;
+  shacl:name "additionalDescription"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription>;
+  shacl:uniqueLang true;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "Slechts 1 waarde voor elke taal toegelaten voor additionalDescription"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/12226de35b69c4ce8dfcbbbe9e2b629b50357010> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicService%3AhasMoreInfo";
   shacl:class schemas:WebSite;
   shacl:description "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"@nl;
@@ -439,22 +444,6 @@
   <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De range van name moet van het type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> zijn."];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/29ba27566ab1f32c8bb73f3492436d4bd868d3d2> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicService%3Alanguage";
-  shacl:class dc:LinguisticSystem;
-  shacl:description "This property represents the language(s) in which the Public Service is available. This could be one language or multiple languages, for instance in countries with more than one official language. The possible values for this property are described in a controlled vocabulary. The recommended controlled vocabularies are listed in section 4."@nl;
-  shacl:name "language"@nl;
-  shacl:path <http://publications.europa.eu/resource/authority/language>;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De range van language moet van het type <http://purl.org/dc/terms/LinguisticSystem> zijn."];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/2a36ee5a42696d834b989d2630bef27b693e500a> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicService%3AhasAttachment";
-  shacl:description "Bijlagen die gerelateerd zijn aan de dienstverlening."@nl;
-  shacl:name "hasAttachment"@nl;
-  shacl:nodekind "sh:BlankNodeOrIRI";
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasAttachment>;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De verwachte waarde voor hasAttachment is een rdfs:Resource (URI of blank node)"];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/311b694f260c7116aafcbc13ab79d692a00a345a> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicService%3AhasCost";
   shacl:class <http://data.europa.eu/m8g/Cost>;
   shacl:description "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."@nl;
@@ -493,14 +482,6 @@
   shacl:name "description"@nl;
   shacl:path dc:description;
   <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "Maximaal 1 waarden toegelaten voor description"];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/37fcb9ac1975a1b33da5dbfa5e8b9019a121124e> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicService%3AhasCost";
-  shacl:description "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."@nl;
-  shacl:maxCount 1;
-  shacl:name "hasCost"@nl;
-  shacl:path <http://data.europa.eu/m8g/hasCost>;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "Maximaal 1 waarden toegelaten voor hasCost"];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/3894f9fa605c37b8ff4766859d3107f97cc5f934> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicService%3Akeyword";
@@ -591,6 +572,14 @@
   <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De verwachte waarde voor yourEuropeCategory is een rdfs:Resource (URI of blank node)"];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
+<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/61ede3097db630275578502c3ed09d8d46836e6d> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicService%3AadditionalDescription";
+  shacl:description "This property represents free text for additional information regarding the  Description of the Public Service."@nl;
+  shacl:maxCount 1;
+  shacl:name "additionalDescription"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "Maximaal 1 waarden toegelaten voor additionalDescription"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/6cae9880e515253132af1452a38a8a5827165149> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicService%3Adescription";
   shacl:description "This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information."@nl;
   shacl:name "description"@nl;
@@ -605,6 +594,14 @@
   shacl:name "hasCompetentAuthority"@nl;
   shacl:path <http://data.europa.eu/m8g/hasCompetentAuthority>;
   <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De range van hasCompetentAuthority moet van het type <http://data.europa.eu/m8g/PublicOrganisation> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/72522ce345b618284217c71204f60347f514198b> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicService%3AadditionalDescription";
+  shacl:description "This property represents free text for additional information regarding the  Description of the Public Service."@nl;
+  shacl:name "additionalDescription"@nl;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De verwachte waarde voor additionalDescription is een rdfs:Resource (URI of blank node)"];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/765bdc35bb2e9a0bed99560ee455b26db608bb94> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicService%3Aregulation";
@@ -718,19 +715,19 @@
   <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "Minimaal 1 waarden verwacht voor name"];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
+<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/989e58d945902fb7857a7dbeab232a911cd6408b> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicService%3AadditionalDescription";
+  shacl:class rdf:langString;
+  shacl:description "This property represents free text for additional information regarding the  Description of the Public Service."@nl;
+  shacl:name "additionalDescription"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De range van additionalDescription moet van het type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/99a2a882047947dd253e13eb641ceeb75fa895da> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicService%3AexecutingAuthorityLevel";
   shacl:name "executingAuthorityLevel"@nl;
   shacl:nodekind "sh:BlankNodeOrIRI";
   shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel>;
   <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De verwachte waarde voor executingAuthorityLevel is een rdfs:Resource (URI of blank node)"];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/9bef56d59eb2e76c88bc45e21a6a623b0b4af8a1> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicService%3AhasAttachment";
-  shacl:class <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#Document>;
-  shacl:description "Bijlagen die gerelateerd zijn aan de dienstverlening."@nl;
-  shacl:name "hasAttachment"@nl;
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasAttachment>;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De range van hasAttachment moet van het type <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#Document> zijn."];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/9c470a5841331a6af2938bc63fb93c2ac40ca53e> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicService%3Afollows";
@@ -821,14 +818,6 @@
   <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De verwachte waarde voor produces is een rdfs:Resource (URI of blank node)"];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/d1d1fc582921ca9bd7525c1ff1f02e2f58b19e6e> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicService%3AhasCompetentAuthority";
-  shacl:description "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."@nl;
-  shacl:minCount 1;
-  shacl:name "hasCompetentAuthority"@nl;
-  shacl:path <http://data.europa.eu/m8g/hasCompetentAuthority>;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "Minimaal 1 waarden verwacht voor hasCompetentAuthority"];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/d4934acf55d655c76126eed6d4cd9aaf68339313> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicService%3AhasMoreInfo";
   shacl:description "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"@nl;
   shacl:name "hasMoreInfo"@nl;
@@ -843,14 +832,6 @@
   shacl:name "description"@nl;
   shacl:path dc:description;
   <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De range van description moet van het type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> zijn."];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/db878f1cb93930f64561d0504123c66feacfad5a> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicService%3Alanguage";
-  shacl:description "This property represents the language(s) in which the Public Service is available. This could be one language or multiple languages, for instance in countries with more than one official language. The possible values for this property are described in a controlled vocabulary. The recommended controlled vocabularies are listed in section 4."@nl;
-  shacl:name "language"@nl;
-  shacl:nodekind "sh:BlankNodeOrIRI";
-  shacl:path <http://publications.europa.eu/resource/authority/language>;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De verwachte waarde voor language is een rdfs:Resource (URI of blank node)"];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicServiceShape/dcf9f7126f93e6e8038d53b5cee827e1b78ba941> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#ConceptualPublicService%3AcompetentAuthorityLevel";
@@ -1142,122 +1123,6 @@
   <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De range van description moet van het type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> zijn."];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape> a shacl:NodeShape;
-  shacl:closed false;
-  shacl:property <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/362d1bf0eab8051024cf5ec1345eb1ce50762580>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/6cae9880e515253132af1452a38a8a5827165149>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/768bb4171e00505886fe9a1e949b4cd71f0eb548>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/8f61614144aa7bca188b24f5976593dc08aad0e6>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/d4d4f2399b8cf2f615ac658920373b714726bed0>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/10238f20248c4a8851251daa05d9a6f17ba672d5>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/ad8cf6622f14b64cfc0ea7d688f1f783011933e1>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/d0cf7407b091f6511da927ca074d2dcebd9aa793>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/f750c43834adf6de85a201545f2ebc803fc9e11a>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/263a563c5bed08cdaadf4a0fd0a5fb9874d742bc>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/398fb93e389fba9a790e6adb0152f10f2ba6023a>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/96cdcbb0489a41ab01fc39c521f5ed607a0b2c41>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/9caf9e629daa0e64ece77788576468821d7cff8c>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/be01df43f1c288b656b3ca3879eb3dd9d8c700b9>;
-  shacl:targetClass <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#Document> .
-
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/10238f20248c4a8851251daa05d9a6f17ba672d5> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#Document%3Adocument";
-  shacl:class <http://fixme.com#URL>;
-  shacl:name "document"@nl;
-  shacl:path schemas:url;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De range van document moet van het type <http://fixme.com#URL> zijn."];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/263a563c5bed08cdaadf4a0fd0a5fb9874d742bc> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#Document%3Aname";
-  shacl:class rdf:langString;
-  shacl:name "name"@nl;
-  shacl:path dc:title;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De range van name moet van het type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> zijn."];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/362d1bf0eab8051024cf5ec1345eb1ce50762580> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#Document%3Adescription";
-  shacl:maxCount 1;
-  shacl:name "description"@nl;
-  shacl:path dc:description;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "Maximaal 1 waarden toegelaten voor description"];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/398fb93e389fba9a790e6adb0152f10f2ba6023a> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#Document%3Aname";
-  shacl:maxCount 1;
-  shacl:name "name"@nl;
-  shacl:path dc:title;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "Maximaal 1 waarden toegelaten voor name"];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/6cae9880e515253132af1452a38a8a5827165149> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#Document%3Adescription";
-  shacl:name "description"@nl;
-  shacl:nodekind "sh:BlankNodeOrIRI";
-  shacl:path dc:description;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De verwachte waarde voor description is een rdfs:Resource (URI of blank node)"];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/768bb4171e00505886fe9a1e949b4cd71f0eb548> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#Document%3Adescription";
-  shacl:name "description"@nl;
-  shacl:path dc:description;
-  shacl:uniqueLang true;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "Slechts 1 waarde voor elke taal toegelaten voor description"];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/8f61614144aa7bca188b24f5976593dc08aad0e6> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#Document%3Adescription";
-  shacl:minCount 1;
-  shacl:name "description"@nl;
-  shacl:path dc:description;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "Minimaal 1 waarden verwacht voor description"];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/96cdcbb0489a41ab01fc39c521f5ed607a0b2c41> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#Document%3Aname";
-  shacl:minCount 1;
-  shacl:name "name"@nl;
-  shacl:path dc:title;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "Minimaal 1 waarden verwacht voor name"];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/9caf9e629daa0e64ece77788576468821d7cff8c> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#Document%3Aname";
-  shacl:name "name"@nl;
-  shacl:nodekind "sh:BlankNodeOrIRI";
-  shacl:path dc:title;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De verwachte waarde voor name is een rdfs:Resource (URI of blank node)"];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/ad8cf6622f14b64cfc0ea7d688f1f783011933e1> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#Document%3Adocument";
-  shacl:name "document"@nl;
-  shacl:nodekind "sh:BlankNodeOrIRI";
-  shacl:path schemas:url;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De verwachte waarde voor document is een rdfs:Resource (URI of blank node)"];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/be01df43f1c288b656b3ca3879eb3dd9d8c700b9> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#Document%3Aname";
-  shacl:name "name"@nl;
-  shacl:path dc:title;
-  shacl:uniqueLang true;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "Slechts 1 waarde voor elke taal toegelaten voor name"];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/d0cf7407b091f6511da927ca074d2dcebd9aa793> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#Document%3Adocument";
-  shacl:minCount 1;
-  shacl:name "document"@nl;
-  shacl:path schemas:url;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "Minimaal 1 waarden verwacht voor document"];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/d4d4f2399b8cf2f615ac658920373b714726bed0> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#Document%3Adescription";
-  shacl:class rdf:langString;
-  shacl:name "description"@nl;
-  shacl:path dc:description;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De range van description moet van het type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> zijn."];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#DocumentShape/f750c43834adf6de85a201545f2ebc803fc9e11a> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#Document%3Adocument";
-  shacl:maxCount 1;
-  shacl:name "document"@nl;
-  shacl:path schemas:url;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "Maximaal 1 waarden toegelaten voor document"];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#EvidenceShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#EvidenceShape/362d1bf0eab8051024cf5ec1345eb1ce50762580>,
@@ -1356,6 +1221,7 @@
   shacl:property <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#FinancialAdvantageShape/362d1bf0eab8051024cf5ec1345eb1ce50762580>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#FinancialAdvantageShape/6cae9880e515253132af1452a38a8a5827165149>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#FinancialAdvantageShape/768bb4171e00505886fe9a1e949b4cd71f0eb548>,
+    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#FinancialAdvantageShape/8f61614144aa7bca188b24f5976593dc08aad0e6>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#FinancialAdvantageShape/d4d4f2399b8cf2f615ac658920373b714726bed0>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#FinancialAdvantageShape/263a563c5bed08cdaadf4a0fd0a5fb9874d742bc>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#FinancialAdvantageShape/398fb93e389fba9a790e6adb0152f10f2ba6023a>,
@@ -1404,6 +1270,14 @@
   <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "Slechts 1 waarde voor elke taal toegelaten voor description"];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
+<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#FinancialAdvantageShape/8f61614144aa7bca188b24f5976593dc08aad0e6> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#FinancialAdvantage%3Adescription";
+  shacl:description "This property represents a free text Description of the Output."@nl;
+  shacl:minCount 1;
+  shacl:name "description"@nl;
+  shacl:path dc:description;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "Minimaal 1 waarden verwacht voor description"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#FinancialAdvantageShape/96cdcbb0489a41ab01fc39c521f5ed607a0b2c41> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#FinancialAdvantage%3Aname";
   shacl:description "This property represents the official Name of the Output."@nl;
   shacl:minCount 1;
@@ -1438,7 +1312,11 @@
 
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:property <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/dcf9f7126f93e6e8038d53b5cee827e1b78ba941>,
+  shacl:property <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/0b22444be9d4d17138b9ba21478a2ddf6292d89a>,
+    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/61ede3097db630275578502c3ed09d8d46836e6d>,
+    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/72522ce345b618284217c71204f60347f514198b>,
+    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/989e58d945902fb7857a7dbeab232a911cd6408b>,
+    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/dcf9f7126f93e6e8038d53b5cee827e1b78ba941>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/e0ff5a71524ef93c90aa735357cd172765b9cf82>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/362d1bf0eab8051024cf5ec1345eb1ce50762580>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/6cae9880e515253132af1452a38a8a5827165149>,
@@ -1457,19 +1335,15 @@
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/9c470a5841331a6af2938bc63fb93c2ac40ca53e>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/c678d3b6ae22a358f800ce1cdb7f277c9efa4b62>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/c79731a9f0d3268bf54d69b65bfa614132b72c5b>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/2a36ee5a42696d834b989d2630bef27b693e500a>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/9bef56d59eb2e76c88bc45e21a6a623b0b4af8a1>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/6ec95ec193a55ff92dd90efa0ec2571a9dcc0114>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/837883f4d4e29517937c141300a580bee4de2f7d>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/d1d1fc582921ca9bd7525c1ff1f02e2f58b19e6e>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/2e2310f9e3c0b5a2b0636f4e320423145ba8074a>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/409c43862659e50710dfac219ecfa50115024a89>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/311b694f260c7116aafcbc13ab79d692a00a345a>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/37fcb9ac1975a1b33da5dbfa5e8b9019a121124e>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/eadfcdf17e10bc322c3411ee73130151d71fb957>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/02fc386c98fb192560b82f543b653e2a30627eed>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/7b057073dff0413944b0d904c07cc203f5638500>,
-    <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/86561f583f9dd7910cf3fbc910b7be301353df00>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/7b6a65df2b22c29864bb641729bffa8961805bb4>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/c8357999f61485376adac029d123e4fcce5138b6>,
     <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/12226de35b69c4ce8dfcbbbe9e2b629b50357010>,
@@ -1540,6 +1414,14 @@
   <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "Maximaal 1 waarden toegelaten voor endDate"];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
+<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/0b22444be9d4d17138b9ba21478a2ddf6292d89a> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicService%3AadditionalDescription";
+  shacl:description "This property represents free text for additional information regarding the  Description of the Public Service."@nl;
+  shacl:name "additionalDescription"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription>;
+  shacl:uniqueLang true;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "Slechts 1 waarde voor elke taal toegelaten voor additionalDescription"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/10dfd2757a1b1830fd182ca42b11fef0a722fdc6> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicService%3Aspatial";
   shacl:description "A Public Service is likely to be available only within a given area, typically the area covered by a particular public authority."@nl;
   shacl:minCount 1;
@@ -1596,14 +1478,6 @@
   <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De range van language moet van het type <http://purl.org/dc/terms/LinguisticSystem> zijn."];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/2a36ee5a42696d834b989d2630bef27b693e500a> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicService%3AhasAttachment";
-  shacl:description "Bijlagen die gerelateerd zijn aan de dienstverlening."@nl;
-  shacl:name "hasAttachment"@nl;
-  shacl:nodekind "sh:BlankNodeOrIRI";
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasAttachment>;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De verwachte waarde voor hasAttachment is een rdfs:Resource (URI of blank node)"];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/2e2310f9e3c0b5a2b0636f4e320423145ba8074a> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicService%3AhasContactPoint";
   shacl:class schemas:ContactPoint;
   shacl:description "A contact point for the service is almost always helpful. The value of this property, the contact information itself, should be provided using schema:ContactPoint. Note that the contact information should be relevant to the Public Service which may not be the same as contact information for the Competent Authority or any Participant."@nl;
@@ -1650,14 +1524,6 @@
   shacl:name "description"@nl;
   shacl:path dc:description;
   <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "Maximaal 1 waarden toegelaten voor description"];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/37fcb9ac1975a1b33da5dbfa5e8b9019a121124e> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicService%3AhasCost";
-  shacl:description "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."@nl;
-  shacl:maxCount 1;
-  shacl:name "hasCost"@nl;
-  shacl:path <http://data.europa.eu/m8g/hasCost>;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "Maximaal 1 waarden toegelaten voor hasCost"];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/3894f9fa605c37b8ff4766859d3107f97cc5f934> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicService%3Akeyword";
@@ -1764,6 +1630,14 @@
   <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De verwachte waarde voor yourEuropeCategory is een rdfs:Resource (URI of blank node)"];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
+<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/61ede3097db630275578502c3ed09d8d46836e6d> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicService%3AadditionalDescription";
+  shacl:description "This property represents free text for additional information regarding the  Description of the Public Service."@nl;
+  shacl:maxCount 1;
+  shacl:name "additionalDescription"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "Maximaal 1 waarden toegelaten voor additionalDescription"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/6cae9880e515253132af1452a38a8a5827165149> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicService%3Adescription";
   shacl:description "This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information."@nl;
   shacl:name "description"@nl;
@@ -1778,6 +1652,14 @@
   shacl:name "hasCompetentAuthority"@nl;
   shacl:path <http://data.europa.eu/m8g/hasCompetentAuthority>;
   <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De range van hasCompetentAuthority moet van het type <http://data.europa.eu/m8g/PublicOrganisation> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/72522ce345b618284217c71204f60347f514198b> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicService%3AadditionalDescription";
+  shacl:description "This property represents free text for additional information regarding the  Description of the Public Service."@nl;
+  shacl:name "additionalDescription"@nl;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De verwachte waarde voor additionalDescription is een rdfs:Resource (URI of blank node)"];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/765bdc35bb2e9a0bed99560ee455b26db608bb94> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicService%3Aregulation";
@@ -1850,13 +1732,6 @@
   <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De range van publicationMedium moet van het type <http://www.w3.org/2004/02/skos/core#Concept> zijn."];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/86561f583f9dd7910cf3fbc910b7be301353df00> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicService%3AhasExecutingAuthority";
-  shacl:minCount 1;
-  shacl:name "hasExecutingAuthority"@nl;
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority>;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "Minimaal 1 waarden verwacht voor hasExecutingAuthority"];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/8b1cf1f012ef5ff27969c575d447c13bd14ab9c0> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicService%3AhasSource";
   shacl:class <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService>;
   shacl:name "hasSource"@nl;
@@ -1920,19 +1795,19 @@
   <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De range van instanceTag moet van het type <http://www.w3.org/2004/02/skos/core#Concept> zijn."];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
+<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/989e58d945902fb7857a7dbeab232a911cd6408b> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicService%3AadditionalDescription";
+  shacl:class rdf:langString;
+  shacl:description "This property represents free text for additional information regarding the  Description of the Public Service."@nl;
+  shacl:name "additionalDescription"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De range van additionalDescription moet van het type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/99a2a882047947dd253e13eb641ceeb75fa895da> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicService%3AexecutingAuthorityLevel";
   shacl:name "executingAuthorityLevel"@nl;
   shacl:nodekind "sh:BlankNodeOrIRI";
   shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel>;
   <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De verwachte waarde voor executingAuthorityLevel is een rdfs:Resource (URI of blank node)"];
-  <https://data.vlaanderen.be/ns/shacl#rule> "" .
-
-<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/9bef56d59eb2e76c88bc45e21a6a623b0b4af8a1> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicService%3AhasAttachment";
-  shacl:class <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#Document>;
-  shacl:description "Bijlagen die gerelateerd zijn aan de dienstverlening."@nl;
-  shacl:name "hasAttachment"@nl;
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasAttachment>;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15nl> "De range van hasAttachment moet van het type <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#Document> zijn."];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicServiceShape/9c470a5841331a6af2938bc63fb93c2ac40ca53e> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstancePublicService%3Afollows";

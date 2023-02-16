@@ -35,9 +35,6 @@ skos:Concept a rdfs:Class .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService> a rdfs:Class;
   rdfs:label "ConceptualPublicService"@nl .
 
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#Document> a rdfs:Class;
-  rdfs:label "Document"@nl .
-
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService> a rdfs:Class;
   rdfs:label "InstancePublicService"@nl .
 
@@ -122,7 +119,6 @@ schemas:WebSite a rdfs:Class;
     skos:Concept,
     <http://www.w3.org/ns/locn#Address>,
     <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService>,
-    <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#Document>,
     <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService>,
     schemas:ContactPoint,
     schemas:WebSite,
@@ -139,12 +135,12 @@ schemas:WebSite a rdfs:Class;
     <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium>,
     <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag>,
     <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite>,
-    <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasAttachment>,
     <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel>,
     <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception>,
     <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#conceptTag>,
     <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel>,
     <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#address>,
+    <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription>,
     <https://data.vlaanderen.be/ns/adres#volledigAdres>,
     <https://data.vlaanderen.be/ns/adres#postcode>,
     <https://data.vlaanderen.be/ns/adres#land>,
@@ -271,6 +267,9 @@ dcat:keyword a rdf:Property;
 <https://data.vlaanderen.be/ns/adres#volledigAdres> a rdf:Property;
   rdfs:label "fullAddress"@nl .
 
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription> a rdf:Property;
+  rdfs:label "additionalDescription"@nl .
+
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#address> a rdf:Property;
   rdfs:label "address"@nl .
 
@@ -285,9 +284,6 @@ dcat:keyword a rdf:Property;
 
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel> a rdf:Property;
   rdfs:label "executingAuthorityLevel"@nl .
-
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasAttachment> a rdf:Property;
-  rdfs:label "hasAttachment"@nl .
 
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite> a rdf:Property;
   rdfs:label "hasWebsite"@nl .
@@ -324,8 +320,7 @@ schemas:telephone a rdf:Property;
 
 schemas:url a rdf:Property;
   rdfs:label "website"@nl,
-    "location"@nl,
-    "document"@nl .
+    "location"@nl .
 
 <https://www.w3.org/ns/locn#adminUnitL2> a rdf:Property;
   rdfs:label "administrativeUnitLevel2"@nl .

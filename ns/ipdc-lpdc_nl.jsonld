@@ -222,13 +222,6 @@
     },
     {
       "name": {
-        "nl": "Document"
-      },
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#Document",
-      "@type": "rdfs:Class"
-    },
-    {
-      "name": {
         "nl": "InstancePublicService"
       },
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
@@ -268,13 +261,6 @@
     {
       "name": {
         "nl": "location"
-      },
-      "@id": "https://schema.org/url",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
-        "nl": "document"
       },
       "@id": "https://schema.org/url",
       "@type": "rdf:Property"
@@ -400,20 +386,6 @@
     },
     {
       "name": {
-        "nl": "hasAttachment"
-      },
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasAttachment",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
-        "nl": "hasAttachment"
-      },
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasAttachment",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
         "nl": "executingAuthorityLevel"
       },
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
@@ -466,6 +438,20 @@
         "nl": "address"
       },
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#address",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "additionalDescription"
+      },
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "additionalDescription"
+      },
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription",
       "@type": "rdf:Property"
     },
     {
@@ -659,13 +645,6 @@
     },
     {
       "name": {
-        "nl": "name"
-      },
-      "@id": "http://purl.org/dc/terms/title",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
         "nl": "spatial"
       },
       "@id": "http://purl.org/dc/terms/spatial",
@@ -732,20 +711,6 @@
         "nl": "description"
       },
       "@id": "http://purl.org/dc/terms/description",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
-        "nl": "description"
-      },
-      "@id": "http://purl.org/dc/terms/description",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
-        "nl": "language"
-      },
-      "@id": "http://publications.europa.eu/resource/authority/language",
       "@type": "rdf:Property"
     },
     {
