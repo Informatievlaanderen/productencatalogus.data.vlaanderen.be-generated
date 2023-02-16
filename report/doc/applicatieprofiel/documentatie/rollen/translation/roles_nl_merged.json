@@ -1092,7 +1092,16 @@
   "site": "site-skeleton",
   "template": "roles-ap.j2",
   "title": "Roles",
-  "toolchaincommit": "7070f20c11d8cdf78186519b02a316671476a29d",
+  "toolchaincommit": "148bac724edf7e1079b106f79a87120f3cd8f14e",
+  "translation": [
+    {
+      "language": "nl",
+      "mergefile": "roles_nl_merged.json",
+      "template": "roles-ap.j2",
+      "title": "Roles",
+      "translationjson": "roles_nl.json"
+    }
+  ],
   "type": "ap",
   "urlref": "/doc/applicatieprofiel/documentatie/rollen"
 }
