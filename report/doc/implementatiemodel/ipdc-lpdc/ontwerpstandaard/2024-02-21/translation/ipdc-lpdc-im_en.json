@@ -6,7 +6,7 @@
       "name": "",
       "definition": {
         "nl": "Een conceptuele publieke service beschrijft een mogelijke dienstverlening (Public Service) die door besturen kan aangeboden worden. Het kan gebruikt worden als sjabloon om een public service vast te leggen. Daarnaast wordt het gebruikt om verschillende gelijkaardige public services te groeperen. Vele lokale besturen bieden bijvoorbeeld een vorm van een terrasvergunning aan. De conceptuele public service kan gebruikt worden om al deze terrasvergunningen te groeperen.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -14,7 +14,7 @@
       "name": "",
       "definition": {
         "nl": "We voorzien een subklasse 'FinancialAdvantage' van 'Output'. Deze beschrijft de premiebedragen/subsidiebedragen die het resultaat van de dienstverlening zijn.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -22,7 +22,7 @@
       "name": "",
       "definition": {
         "nl": "This class represents the Public Service itself, as it is described in a public service catalogue. A Public Service is a mandatory or discretionary set of activities performed, or able to be performed, by or on behalf of a public organization, publicly funded and arise from public policy. Services may be for the benefit of an individual, a business, or other public authority, or groups of any of these. A service exists whether it is used or not, and the term 'benefit' may apply in the sense of enabling the fulfilment of an obligation. As defined in the revised version of the European Interoperability Framework, a European public service comprises any service provided by public administrations in Europe, or by other organizations on their behalf, to businesses, citizens or others public administrations.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     }
   ],
@@ -48,11 +48,11 @@
       "name": "",
       "definition": {
         "nl": "Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Rich text\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -60,11 +60,11 @@
       "name": "",
       "definition": {
         "nl": "Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Rich text\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -92,11 +92,11 @@
       "name": "",
       "definition": {
         "nl": "Tekstveld waarin uitzonderingen op procedures, kostprijzen, ... kunnen aangegeven worden",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Rich text",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -104,11 +104,11 @@
       "name": "",
       "definition": {
         "nl": "Tekstveld waarin uitzondering op procedures, kostprijzen, ... kunnen aangegeven worden",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Rich text",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -128,11 +128,11 @@
       "name": "address",
       "label": {
         "nl": "address",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "definition": {
         "nl": "Adres dat men kan aanschrijven of bezoeken.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -140,11 +140,11 @@
       "name": "",
       "definition": {
         "nl": "This property represents free text for additional information regarding the description of the Public Service.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Rich text",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -152,11 +152,11 @@
       "name": "",
       "definition": {
         "nl": "This property represents free text for additional information regarding the description of the Public Service.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Rich text",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     }
   ],
@@ -166,11 +166,11 @@
       "name": "",
       "definition": {
         "nl": "This class represents the legislation, policy or policies that lie behind the Rules that govern the service.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -178,7 +178,7 @@
       "name": "",
       "definition": {
         "nl": "The Cost class represents any costs related to the execution of a Public Service that the Agent consuming it needs to pay.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -186,11 +186,11 @@
       "name": "",
       "definition": {
         "nl": "The Evidence class is defined in the Core Criterion and Core Evidence vocabulary (CCCEV) as any resource that can document or support a response. It contains information that proves that a normal requirement exists or is true.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Although the wording of the definition is different, the semantics are an exact match for CPSV's Input class which it replaces. Evidence can be any resource - document, artefact - anything needed for executing the Public Service.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -198,7 +198,7 @@
       "name": "",
       "definition": {
         "nl": "Een organisatie die volgens een wettelijk kader behoort tot de publieke sector,ongeacht het bestuursniveau waarop dat kader van kracht is.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -206,11 +206,11 @@
       "name": "",
       "definition": {
         "nl": "A normal requirement is an atomic requirement. Some criteria can be expressed with several atomic requirements. A normal requirement can specify the expected value that the requirement response has to contain, or a range of threshold values within which the requirement response has to fit in. The normal requirement may apply to a certain period of time. It also can provide a list of candidate evidences that the responder can use to prove the normal requirement.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Not all public services are needed or usable by everyone. For example, the visa service operated by European countries is not needed by European citizens but is needed by some citizens from elsewhere, or public services offering unemployment benefits and grants are targeting specific societal groups. This model reuses the Core Criterion and Core Evidence Vocabulary for this class. The CCCEV provides more details but the Requirement class has three mandatory properties.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -218,7 +218,7 @@
       "name": "",
       "definition": {
         "nl": "The Rule class represents a document that sets out the specific rules, guidelines or procedures that the Public Service follows. It includes the terms of service, licence, and authentication requirements of the Public Service. Instances of the Rule class are FRBR (Functional Requirements for Bibliographic Records) Expressions, that is, a concrete expression such as a document, of the more abstract concept of the rules themselves.This model does not envisage instances of the Rule class as machine-readable business rules. Detailed modelling of the rules related to Public Services is out of scope of this model.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -230,11 +230,11 @@
       "name": "",
       "definition": {
         "nl": "YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -242,11 +242,11 @@
       "name": "",
       "definition": {
         "nl": "Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -254,11 +254,11 @@
       "name": "",
       "definition": {
         "nl": "Type van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -266,11 +266,11 @@
       "name": "",
       "definition": {
         "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -278,11 +278,11 @@
       "name": "",
       "definition": {
         "nl": "Instantie tag voor een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Momenteel zijn er geen geldige waardes.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -290,11 +290,11 @@
       "name": "",
       "definition": {
         "nl": "Concept tag voor een publieke dienst concept. Deze codelijst is in het beheer van het IPDC - LPDC team.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -302,11 +302,11 @@
       "name": "",
       "definition": {
         "nl": "Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -314,11 +314,11 @@
       "name": "",
       "definition": {
         "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -326,11 +326,11 @@
       "name": "",
       "definition": {
         "nl": "Geografisch toepassingsgebied van een pubieke dienst. Het geografisch toepassingsgebied wordt voorgesteld aan de hand van een NUTS of LAU code. NUTS codes zijn hierarisch ingedeeld in 4 niveau's. Op het hoogste niveau, NUTS 0, worden de landen ingedeeld en krijgt belgie de code BE. Eén niveau daaronder, NUTS 1, deelt Belgie verder op in de gewesten. Zo krijgt het Vlaams Gewest code BE2. Elk gewest wordt op zijn beurt op NUTS 2 niveau verder ingedeeld in de provincies. Zo krijgt de provincie Antwerpen bijvoorbeeld code BE21. Elke provincie wordt vervolgens op NUTS 3 niveau nog onderverdeeld in arrondissmenten. Zo krijgt het arrondissment Mechelen code BE212. Een fijnere opdeling in gemeenten kan vervolgens gemaakt worden met de LAU codes. Zo krijgt de gemeente Kontich LAU code 11024. Meer informatie over deze opdeling is hier terug te vinden: https://ec.europa.eu/eurostat/web/nuts. Zowel de NUTS als LAU codes worden beheerd door Eurostat. We volgen momenteel de NUTS 2021 classificatie en de laatst gevalideerde LAU 2019 classificatie. De NUTS codelijst wordt door Europa gepubliceerd op https://publications.europa.eu/resource/authority/nuts. Deze gaat echter niet tot op LAU niveau er bestaat ook geen gepubliceerde codelijst voor de LAU codes. Als oplossing maakte het IPDC - LPDC team een uitbreiding op de NUTS codelijst en werd een extra hierarchish niveau onder NUTS 3 toegevoegd om ook de gemeentes met hun LAU code beschikbaar te maken. De code voor een gemeente in deze codelijst is de concatenatie van de omvattende NUTS3 code voor de gemeente en de LAU code. Zo krijgt de gemeente Kontich bijvoorbeeld de code BE21111024.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Dit zijn alle NUTS en LAU codes die binnen het Vlaams Gewest en Brussels Hoofdstedelijk Gewest vallen en het Federaal niveau voorstellen.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -338,11 +338,11 @@
       "name": "",
       "definition": {
         "nl": "Thema van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -350,11 +350,11 @@
       "name": "",
       "definition": {
         "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -362,7 +362,7 @@
       "name": "Address",
       "label": {
         "nl": "Address",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -370,11 +370,11 @@
       "name": "Contactpoint",
       "label": {
         "nl": "ContactPoint",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "definition": {
         "nl": "This class represents the contact information for a Public Service, Channel, Public Organization, etc. It is defined in the Core Public Organization Vocabulary and is provided as a schema:ContactPoint. Like Channel, a Contact Point may have regular opening hours that are then overridden by, for example, public holidays, using the Opening Hours Specification class.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     }
   ],
@@ -384,15 +384,15 @@
       "name": "administrativeunitlevel2",
       "label": {
         "nl": "administrativeUnitLevel2",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "definition": {
         "nl": "The region of the address, usually a county, state or other such area that typically encompasses several localities. The domain of locn:adminUnitL2 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Omwille van de meertaligheid kan er 1 waarde per taal zijn.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -400,11 +400,11 @@
       "name": "website",
       "label": {
         "nl": "website",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "definition": {
         "nl": "A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -412,11 +412,11 @@
       "name": "hastelephone",
       "label": {
         "nl": "hasTelephone",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "definition": {
         "nl": "A property through which a phone number for the Public Organization, or a representative of it, can be contacted.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -424,15 +424,15 @@
       "name": "openinghours",
       "label": {
         "nl": "openinghours",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "definition": {
         "nl": "The value of this property is structured text that gives the hours at which the contact point is normally available.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Days are specified using two-letter combinations: Mo, Tu, We, Th, Fr, Sa, Su. For example, if the contact point is open Monday-Friday, 9 -5, the value of the openingHours property would be Mo-Fr 09:00-17:00. If the Contact Point is only available on Tuesday and Thursday between 6 and 8pm, the value would be Tu,Th 16:00-20:00.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -440,11 +440,11 @@
       "name": "hasemail",
       "label": {
         "nl": "hasEmail",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "definition": {
         "nl": "A property through which an e-mail address for the Public Organization, or a representative of it, can be contacted.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -456,7 +456,7 @@
       "name": "",
       "definition": {
         "nl": "Link naar online locatie waar de procedure opgestart kan worden.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -464,15 +464,15 @@
       "name": "fulladdress",
       "label": {
         "nl": "fullAddress",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "definition": {
         "nl": "The complete address written as a string, with or without formatting. The domain of locn:fullAddress is locn:Address.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Omwille van de meertaligheid kan er 1 waarde per taal zijn.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -480,11 +480,11 @@
       "name": "postcode",
       "label": {
         "nl": "postCode",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "definition": {
         "nl": "The post code (a.k.a postal code, zip code etc.). Post codes are common elements in many countries' postal address systems. The domain of locn:postCode is locn:Address.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -492,15 +492,15 @@
       "name": "country",
       "label": {
         "nl": "country",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "definition": {
         "nl": "The uppermost administrative unit for the address, almost always a country. The domain of locn:adminUnitL1 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Best practice is to use the ISO 3166-1 code but if this is inappropriate for the context, country names should be provided in a consistent manner to reduce ambiguity. For example, either write 'United Kingdom' or 'UK' consistently throughout the data set and avoid mixing the two.\r\nOmwille van de meertaligheid dient er 1 waarde per taal te zijn.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -508,15 +508,15 @@
       "name": "municipality",
       "label": {
         "nl": "municipality",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "definition": {
         "nl": "The key postal division of the address, usually the city. (INSPIRE's definition is \"One or more names created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.\"). The domain of locn:postName is locn:Address.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -524,15 +524,15 @@
       "name": "thoroughfare",
       "label": {
         "nl": "thoroughfare",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "definition": {
         "nl": "An address component that represents the name of a passage or way through from one location to another. A thoroughfare is not necessarily a road, it might be a waterway or some other feature. The domain of locn:thoroughfare is locn:Address.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Omwille van de meertaligheid dient er 1 waarde per taal te zijn.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -540,11 +540,11 @@
       "name": "housenumber",
       "label": {
         "nl": "houseNumber",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "definition": {
         "nl": "houseNumber is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -552,11 +552,11 @@
       "name": "mailbox",
       "label": {
         "nl": "mailbox",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "definition": {
         "nl": "mailbox is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -564,11 +564,11 @@
       "name": "",
       "definition": {
         "nl": "This property represents a keyword, term or phrase to describe the Public Service.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Er mogen meerdere zoektermen per taal zijn. Dit in tegenstelling tot alle andere velden van het type TaalString.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -576,19 +576,11 @@
       "name": "",
       "definition": {
         "nl": "This property represents a keyword, term or phrase to describe the Public Service.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Er mogen meerdere zoektermen per taal zijn. Dit in tegenstelling tot alle andere velden van het type TaalString.",
-        "fr": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
-      "name": "",
-      "definition": {
-        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -596,7 +588,15 @@
       "name": "",
       "definition": {
         "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
+      "name": "",
+      "definition": {
+        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt",
+        "en": "Enter your translation here"
       }
     },
     {
@@ -604,7 +604,7 @@
       "name": "",
       "definition": {
         "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -612,7 +612,7 @@
       "name": "",
       "definition": {
         "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -624,11 +624,11 @@
       "name": "",
       "definition": {
         "nl": "Datum waarop de publieke dienstverlening actief aangeboden werd/wordt",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Een lege startdatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als een startdatum heel ver in het verleden.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -636,11 +636,11 @@
       "name": "",
       "definition": {
         "nl": "Datum waarop de publieke dienstverlening actief aangeboden werd/wordt",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Een lege startdatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als een startdatum heel ver in het verleden.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -648,11 +648,11 @@
       "name": "",
       "definition": {
         "nl": "Datum waarop de publieke dienstverlening stopgezet werd/wordt",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Een lege einddatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als geen einddatum.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -660,11 +660,11 @@
       "name": "",
       "definition": {
         "nl": "Datum waarop de publieke dienstverlening stopgezet werd/wordt",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Een lege einddatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als geen einddatum.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -672,7 +672,7 @@
       "name": "",
       "definition": {
         "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -680,15 +680,7 @@
       "name": "",
       "definition": {
         "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service.",
-        "fr": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
-      "name": "",
-      "definition": {
-        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -696,7 +688,15 @@
       "name": "",
       "definition": {
         "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
+      "name": "",
+      "definition": {
+        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario.",
+        "en": "Enter your translation here"
       }
     },
     {
@@ -712,7 +712,7 @@
       "name": "",
       "definition": {
         "nl": "This property represents the official Name of the Output.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -720,7 +720,7 @@
       "name": "",
       "definition": {
         "nl": "This property represents the name of the cost.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -728,7 +728,7 @@
       "name": "",
       "definition": {
         "nl": "This property represents the Name of the Rule.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -736,7 +736,7 @@
       "name": "",
       "definition": {
         "nl": "This property represents the official Name of the Evidence.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -744,7 +744,7 @@
       "name": "",
       "definition": {
         "nl": "This property represents the official Name of the Requirement.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -752,7 +752,7 @@
       "name": "",
       "definition": {
         "nl": "This property represents the official Name of the Public Service.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -760,7 +760,7 @@
       "name": "",
       "definition": {
         "nl": "This property represents the name of the website.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -768,7 +768,7 @@
       "name": "",
       "definition": {
         "nl": "This property represents the official Name of the Public Service.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -780,7 +780,7 @@
       "name": "hassource",
       "label": {
         "nl": "hasSource",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -788,11 +788,11 @@
       "name": "",
       "definition": {
         "nl": "This property represents a free text Description of the Output.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Rich text",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -800,11 +800,11 @@
       "name": "",
       "definition": {
         "nl": "This property represents a free text description of the Cost.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Rich text",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -812,11 +812,11 @@
       "name": "",
       "definition": {
         "nl": "This property represents a free text Description of the Rule.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Rich text",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -824,11 +824,11 @@
       "name": "",
       "definition": {
         "nl": "Geeft omschrijving van de vereiste input",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Rich text",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -836,11 +836,11 @@
       "name": "",
       "definition": {
         "nl": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement being instantiated.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Rich text",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -848,11 +848,11 @@
       "name": "",
       "definition": {
         "nl": "This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Rich text",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -860,11 +860,11 @@
       "name": "",
       "definition": {
         "nl": "This property represents a free text description of the Website.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Rich text",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -872,11 +872,11 @@
       "name": "",
       "definition": {
         "nl": "This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Rich text",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -892,19 +892,7 @@
       "name": "",
       "definition": {
         "nl": "The Evidence that supplies information (proof, support) for this Requirement.",
-        "fr": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
-      "name": "",
-      "definition": {
-        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.",
-        "fr": "Enter your translation here"
-      },
-      "usage": {
-        "nl": "Link naar de Vlaamse Codex",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -912,19 +900,23 @@
       "name": "",
       "definition": {
         "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "Link naar de Vlaamse Codex",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
       "name": "",
       "definition": {
-        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.",
-        "fr": "Enter your translation here"
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.",
+        "en": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Link naar de Vlaamse Codex",
+        "en": "Enter your translation here"
       }
     },
     {
@@ -932,7 +924,15 @@
       "name": "",
       "definition": {
         "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+      "name": "",
+      "definition": {
+        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.",
+        "en": "Enter your translation here"
       }
     },
     {
@@ -940,11 +940,11 @@
       "name": "hascontactpoint",
       "label": {
         "nl": "hasContactPoint",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "definition": {
         "nl": "A contact point for the service is almost always helpful. The value of this property, the contact information itself, should be provided using schema:ContactPoint. Note that the contact information should be relevant to the Public Service which may not be the same as contact information for the Competent Authority or any Participant.",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -952,11 +952,11 @@
       "name": "",
       "definition": {
         "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\".",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "OVO code uit het organisatieregister of link naar het organisatieportaal",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -964,11 +964,11 @@
       "name": "",
       "definition": {
         "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\".",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       },
       "usage": {
         "nl": "OVO code uit het organisatieregister of link naar het organisatieportaal",
-        "fr": "Enter your translation here"
+        "en": "Enter your translation here"
       }
     }
   ]
