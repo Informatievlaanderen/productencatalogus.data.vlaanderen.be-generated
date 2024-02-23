@@ -15,8 +15,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/1ac27d8cd6f02a36c58351bc1ea0bf936fc5997d",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/1ac27d8cd6f02a36c58351bc1ea0bf936fc5997d/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/22ffa80f72b6a21a81176f65bab619d6b85468ad",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/22ffa80f72b6a21a81176f65bab619d6b85468ad/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -26,9 +26,11 @@
   "classes": [
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "ConceptuelePubliekeDienst",
+      "label": {
+        "nl": "Conceptuele Publieke Dienst"
+      },
+      "sort": "Conceptuele Publieke Dienst",
       "description": {
         "nl": "Een conceptuele publieke service beschrijft een mogelijke dienstverlening (Public Service) die door besturen kan aangeboden worden. Het kan gebruikt worden als sjabloon om een public service vast te leggen. Daarnaast wordt het gebruikt om verschillende gelijkaardige public services te groeperen. Vele lokale besturen bieden bijvoorbeeld een vorm van een terrasvergunning aan. De conceptuele public service kan gebruikt worden om al deze terrasvergunningen te groeperen."
       },
@@ -36,7 +38,7 @@
       "parents": [],
       "rawTags": {
         "definition-nl": "Een conceptuele publieke service beschrijft een mogelijke dienstverlening (Public Service) die door besturen kan aangeboden worden. Het kan gebruikt worden als sjabloon om een public service vast te leggen. Daarnaast wordt het gebruikt om verschillende gelijkaardige public services te groeperen. Vele lokale besturen bieden bijvoorbeeld een vorm van een terrasvergunning aan. De conceptuele public service kan gebruikt worden om al deze terrasvergunningen te groeperen.",
-        "label-en": "Conceptuele Publieke Dienst"
+        "label-nl": "Conceptuele Publieke Dienst"
       },
       "properties": [
         {
@@ -1734,10 +1736,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#ConceptualPublicService",
+              "range_uri": "#Conceptuele Publieke Dienst",
               "range_puri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
               "range_label": {
-                "nl": "ConceptualPublicService"
+                "nl": "Conceptuele Publieke Dienst"
               }
             }
           ],
