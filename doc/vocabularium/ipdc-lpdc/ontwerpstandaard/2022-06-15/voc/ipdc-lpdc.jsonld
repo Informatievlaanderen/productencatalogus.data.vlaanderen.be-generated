@@ -1,0 +1,953 @@
+{
+  "dcterms:license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "dcterms:mediator": {
+    "foaf:homepage": "https://productencatalogus.data.vlaanderen.be",
+    "foaf:mbox": "mailto:info@vlaanderen.be",
+    "foaf:name": "Productencatalogus"
+  },
+  "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc",
+  "@type": "http://www.w3.org/2002/07/owl#Ontology",
+  "label": {
+    "en": "ipdc-lpdc",
+    "nl": "ipdc-lpdc"
+  },
+  "authors": [
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:homepage": "https://www.wdcsolutions.be",
+        "foaf:name": "WDC Solutions"
+      },
+      "foaf:firstName": "Wouter",
+      "foaf:lastName": "De Cock",
+      "foaf:mbox": "mailto:wouter.decock@wdcsolutions.be"
+    }
+  ],
+  "editors": [
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:homepage": "https://www.kunlabora.be",
+        "foaf:name": "Kunlabora"
+      },
+      "foaf:firstName": "Dieter",
+      "foaf:lastName": "Van Peer",
+      "foaf:mbox": "mailto:dieter.vanpeer@kunlabora.be"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:homepage": "https://www.kunlabora.be",
+        "foaf:name": "Kunlabora"
+      },
+      "foaf:firstName": "Heidi",
+      "foaf:lastName": "Bottu",
+      "foaf:mbox": "mailto:heidi.bottu@kunlabora.be"
+    }
+  ],
+  "contributors": [
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:homepage": "https://redpencil.io",
+        "foaf:name": "redpencil"
+      },
+      "foaf:firstName": "Niels",
+      "foaf:lastName": "Vandekeybus",
+      "foaf:mbox": "mailto:niels.vandekeybus@redpencil.io"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:homepage": "https://www.vlaanderen.be/digitaal-vlaanderen",
+        "foaf:name": "Digitaal Vlaanderen"
+      },
+      "foaf:firstName": "Bert",
+      "foaf:lastName": "Van Nuffelen",
+      "foaf:mbox": "mailto:bert.vannuffelen@vlaanderen.be"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:homepage": "https://redpencil.io",
+        "foaf:name": "redpencil"
+      },
+      "foaf:firstName": "Felix",
+      "foaf:lastName": "Ruiz de Arcaute",
+      "foaf:mbox": "mailto:felix.ruizdearcaute@redpencil.io"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:homepage": "https://www.vlaanderen.be/digitaal-vlaanderen",
+        "foaf:name": "Digitaal Vlaanderen"
+      },
+      "foaf:firstName": "Stefanie",
+      "foaf:lastName": "Kerkhof",
+      "foaf:mbox": "mailto:stefanie.kerkhof@vlaanderen.be"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:homepage": "https://www.kunlabora.be",
+        "foaf:name": "Kunlabora"
+      },
+      "foaf:firstName": "Seppe",
+      "foaf:lastName": "Gielen",
+      "foaf:mbox": "mailto:seppe.gielen@kunlabora.be"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:homepage": "https://www.kunlabora.be",
+        "foaf:name": "Kunlabora"
+      },
+      "foaf:firstName": "Bart",
+      "foaf:lastName": "Gauquie",
+      "foaf:mbox": "mailto:bart.gauquie@kunlabora.be"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:homepage": "https://www.linkedin.com/in/borisdevloed",
+        "foaf:name": "devloed.com"
+      },
+      "foaf:firstName": "Boris",
+      "foaf:lastName": "De Vloed",
+      "foaf:mbox": "mailto:boris@devloed.com"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:homepage": "https://www.vlaanderen.be/digitaal-vlaanderen",
+        "foaf:name": "Digitaal Vlaanderen"
+      },
+      "foaf:firstName": "Dirk",
+      "foaf:lastName": "De Smedt",
+      "foaf:mbox": "mailto:dirk.desmedt@vlaanderen.be"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:homepage": "https://www.kunlabora.be",
+        "foaf:name": "Kunlabora"
+      },
+      "foaf:firstName": "Kris",
+      "foaf:lastName": "Aerts",
+      "foaf:mbox": "mailto:kris.aerts@kunlabora.be"
+    }
+  ],
+  "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+  "issued": "TODO",
+  "navigation": {},
+  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "publication-date": "2024-02-28",
+  "classes": [
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "nl": "Een conceptuele publieke service beschrijft een mogelijke dienstverlening (Public Service) die door besturen kan aangeboden worden. Het kan gebruikt worden als sjabloon om een public service vast te leggen. Daarnaast wordt het gebruikt om verschillende gelijkaardige public services te groeperen. Vele lokale besturen bieden bijvoorbeeld een vorm van een terrasvergunning aan. De conceptuele public service kan gebruikt worden om al deze terrasvergunningen te groeperen."
+      },
+      "parents": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "nl": "We voorzien een subklasse 'FinancialAdvantage' van 'Output'. Deze beschrijft de premiebedragen/subsidiebedragen die het resultaat van de dienstverlening zijn."
+      },
+      "parents": [
+        "http://data.europa.eu/m8g/Output"
+      ]
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "definition": {
+        "nl": "This class represents the Public Service itself, as it is described in a public service catalogue. A Public Service is a mandatory or discretionary set of activities performed, or able to be performed, by or on behalf of a public organization, publicly funded and arise from public policy. Services may be for the benefit of an individual, a business, or other public authority, or groups of any of these. A service exists whether it is used or not, and the term 'benefit' may apply in the sense of enabling the fulfilment of an obligation. As defined in the revised version of the European Interoperability Framework, a European public service comprises any service provided by public administrations in Europe, or by other organizations on their behalf, to businesses, citizens or others public administrations."
+      },
+      "parents": []
+    }
+  ],
+  "externals": [
+    {
+      "name": {},
+      "@id": "http://data.europa.eu/eli/ontology#LegalResource",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": {},
+      "@id": "http://data.europa.eu/m8g/Cost",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": {},
+      "@id": "http://data.europa.eu/m8g/Evidence",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": {},
+      "@id": "http://data.europa.eu/m8g/Requirement",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/vocab/cpsv#Rule",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": {},
+      "@id": "http://schema.org/WebSite",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": {},
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": {},
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": {},
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": {},
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": {},
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": {},
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": {},
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": {},
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": {},
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": {},
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": {},
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": {
+        "nl": "Address"
+      },
+      "@id": "http://www.w3.org/ns/locn#Address",
+      "@type": "rdfs:Class"
+    },
+    {
+      "name": {
+        "nl": "ContactPoint"
+      },
+      "@id": "https://schema.org/ContactPoint",
+      "@type": "rdfs:Class"
+    }
+  ],
+  "properties": [
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "nl": "Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden."
+      },
+      "usage": {
+        "nl": "Rich text\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "nl": "Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden."
+      },
+      "usage": {
+        "nl": "Rich text\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "nl": "Tekstveld waarin uitzonderingen op procedures, kostprijzen, ... kunnen aangegeven worden"
+      },
+      "usage": {
+        "nl": "Rich text"
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "nl": "Tekstveld waarin uitzondering op procedures, kostprijzen, ... kunnen aangegeven worden"
+      },
+      "usage": {
+        "nl": "Rich text"
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#conceptTag",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#address",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "label": {
+        "nl": "address"
+      },
+      "definition": {
+        "nl": "Adres dat men kan aanschrijven of bezoeken."
+      },
+      "domain": [
+        "https://schema.org/ContactPoint"
+      ],
+      "range": [
+        "http://www.w3.org/ns/locn#Address"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "nl": "This property represents free text for additional information regarding the description of the Public Service."
+      },
+      "usage": {
+        "nl": "Rich text"
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "definition": {
+        "nl": "This property represents free text for additional information regarding the description of the Public Service."
+      },
+      "usage": {
+        "nl": "Rich text"
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "generalization": []
+    }
+  ],
+  "externalproperties": [
+    {
+      "name": {
+        "nl": "administrativeUnitLevel2"
+      },
+      "@id": "https://www.w3.org/ns/locn#adminUnitL2",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "website"
+      },
+      "@id": "https://schema.org/url",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "hasTelephone"
+      },
+      "@id": "https://schema.org/telephone",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "openinghours"
+      },
+      "@id": "https://schema.org/openingHours",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "hasEmail"
+      },
+      "@id": "https://schema.org/email",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "https://publications.europa.eu/resource/authority/language",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "fullAddress"
+      },
+      "@id": "https://data.vlaanderen.be/ns/adres#volledigAdres",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "postCode"
+      },
+      "@id": "https://data.vlaanderen.be/ns/adres#postcode",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "country"
+      },
+      "@id": "https://data.vlaanderen.be/ns/adres#land",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "municipality"
+      },
+      "@id": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "thoroughfare"
+      },
+      "@id": "https://data.vlaanderen.be/ns/adres#Straatnaam",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "houseNumber"
+      },
+      "@id": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "mailbox"
+      },
+      "@id": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://www.w3.org/ns/dcat#keyword",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://www.w3.org/ns/dcat#keyword",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://schema.org/url",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://schema.org/startDate",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://schema.org/startDate",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://schema.org/endDate",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://schema.org/endDate",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/vocab/cpsv#produces",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/vocab/cpsv#produces",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/vocab/cpsv#follows",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/vocab/cpsv#follows",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/dc/terms/type",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/dc/terms/type",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/dc/terms/spatial",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "hasSource"
+      },
+      "@id": "http://purl.org/dc/terms/source",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/dc/terms/description",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/dc/terms/description",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/dc/terms/description",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/dc/terms/description",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/dc/terms/description",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/dc/terms/description",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/dc/terms/description",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://purl.org/dc/terms/description",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://data.europa.eu/m8g/thematicArea",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://data.europa.eu/m8g/thematicArea",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://data.europa.eu/m8g/hasSupportingEvidence",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://data.europa.eu/m8g/hasLegalResource",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://data.europa.eu/m8g/hasLegalResource",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://data.europa.eu/m8g/hasCost",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {},
+      "@id": "http://data.europa.eu/m8g/hasCost",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "hasContactPoint"
+      },
+      "@id": "http://data.europa.eu/m8g/hasContactPoint",
+      "@type": "rdf:Property"
+    }
+  ],
+  "@context": {
+    "vlaanderen": "http://data.vlaanderen.be/ns/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "void": "http://rdfs.org/ns/void#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "sdmx-dimension": "http://purl.org/linked-data/sdmx/2009/dimension#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sdmx-attribute": "http://purl.org/linked-data/sdmx/2009/attribute#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "sdmx-concept": "http://purl.org/linked-data/sdmx/2009/concept#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "person": "http://www.w3.org/ns/person#",
+    "rec": "http://www.w3.org/2001/02pd/rec54#",
+    "vann": "http://purl.org/vocab/vann/",
+    "sh": "http://w3.org/ns/shacl#",
+    "label": {
+      "@id": "rdfs:label",
+      "@container": "@language"
+    },
+    "modified": {
+      "@id": "dcterms:modified",
+      "@type": "xsd:date"
+    },
+    "license": {
+      "@id": "dcterms:license",
+      "@type": "@id"
+    },
+    "issued": {
+      "@id": "dcterms:issued"
+    },
+    "authors": {
+      "@type": "person:Person",
+      "@id": "foaf:maker"
+    },
+    "editors": {
+      "@type": "person:Person",
+      "@id": "rec:editor"
+    },
+    "contributors": {
+      "@type": "person:Person",
+      "@id": "dcterms:contributor"
+    },
+    "affiliation": {
+      "@id": "http://schema.org/affiliation"
+    },
+    "classes": {
+      "@reverse": "rdfs:isDefinedBy"
+    },
+    "datatypes": {
+      "@reverse": "rdfs:isDefinedBy"
+    },
+    "name": {
+      "@id": "rdfs:label",
+      "@container": "@language"
+    },
+    "definition": {
+      "@id": "rdfs:comment",
+      "@container": "@language"
+    },
+    "properties": {
+      "@reverse": "rdfs:isDefinedBy"
+    },
+    "domain": {
+      "@id": "rdfs:domain",
+      "@type": "@id"
+    },
+    "range": {
+      "@id": "rdfs:range",
+      "@type": "@id"
+    },
+    "minCardinality": {
+      "@id": "sh:minCount"
+    },
+    "maxCardinality": {
+      "@id": "sh:maxCount"
+    },
+    "generalization": {
+      "@id": "rdfs:subPropertyOf",
+      "@type": "@id"
+    },
+    "externals": {
+      "@id": "rdfs:seeAlso"
+    },
+    "externalproperties": {
+      "@id": "rdfs:seeAlso"
+    },
+    "usage": {
+      "@id": "vann:usageNote",
+      "@container": "@language"
+    },
+    "parents": {
+      "@id": "rdfs:subClassOf",
+      "@type": "@id"
+    },
+    "foaf:homepage": {
+      "@id": "foaf:homepage",
+      "@type": "@id"
+    },
+    "foaf:mbox": {
+      "@id": "foaf:mbox",
+      "@type": "@id"
+    },
+    "equivalent": {
+      "@id": "owl:equivalentClass",
+      "@type": "@id"
+    }
+  }
+}

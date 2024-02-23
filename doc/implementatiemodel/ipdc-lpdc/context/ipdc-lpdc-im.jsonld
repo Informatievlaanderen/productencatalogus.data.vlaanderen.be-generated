@@ -1,0 +1,448 @@
+{
+  "@context": {
+    "Address": {
+      "@context": {
+        "administrativeUnitLevel2": {
+          "@id": "http://www.w3.org/ns/locn#adminUnitL2",
+          "@type": "@id"
+        },
+        "country": {
+          "@id": "http://fixme.com#country",
+          "@type": "@id"
+        },
+        "fullAddress": {
+          "@id": "http://www.w3.org/ns/locn#fullAddress",
+          "@type": "@id"
+        },
+        "houseNumber": {
+          "@id": "http://fixme.com#Address.houseNumber",
+          "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "mailbox": {
+          "@id": "http://fixme.com#Address.mailbox",
+          "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "postCode": {
+          "@id": "http://www.w3.org/ns/locn#postCode",
+          "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "postName": {
+          "@id": "http://www.w3.org/ns/locn#postName",
+          "@type": "@id"
+        },
+        "thoroughfare": {
+          "@id": "http://www.w3.org/ns/locn#thoroughfare",
+          "@type": "@id"
+        }
+      },
+      "@id": "http://www.w3.org/ns/locn#Address"
+    },
+    "AdministrativeUnitLevel1": "http://fixme.com#AdministrativeUnitLevel1",
+    "AdministrativeUnitLevel2": "http://fixme.com#AdministrativeUnitLevel2",
+    "CompetentAuthorityLevel": "http://fixme.com#CompetentAuthorityLevel",
+    "ConceptTag": "http://www.w3.org/2004/02/skos/core#Concept",
+    "ConceptualPublicService": {
+      "@context": {
+        "competentAuthorityLevel": {
+          "@id": "http://fixme.com#competentAuthorityLevel",
+          "@type": "@id"
+        },
+        "description": {
+          "@id": "http://purl.org/dc/terms/description",
+          "@type": "@id"
+        },
+        "endDate": {
+          "@id": "http://fixme.com#endDate",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "exception": {
+          "@id": "http://fixme.com#exception",
+          "@type": "@id"
+        },
+        "executingAuthorityLevel": {
+          "@id": "http://fixme.com#executingAuthorityLevel",
+          "@type": "@id"
+        },
+        "follows": {
+          "@id": "http://purl.org/vocab/cpsv#follows",
+          "@type": "@id"
+        },
+        "hasAttachments": {
+          "@container": "@set",
+          "@id": "http://fixme.com#hasAttachments",
+          "@type": "@id"
+        },
+        "hasCompetentAuthority": {
+          "@id": "http://data.europa.eu/m8g/hasCompetentAuthority",
+          "@type": "@id"
+        },
+        "hasContactPoints": {
+          "@container": "@set",
+          "@id": "http://data.europa.eu/m8g/hasContactPoint",
+          "@type": "@id"
+        },
+        "hasCost": {
+          "@id": "http://data.europa.eu/m8g/hasCost",
+          "@type": "@id"
+        },
+        "hasExecutingAuthority": {
+          "@id": "http://data.europa.eu/m8g/hasParticipation",
+          "@type": "@id"
+        },
+        "hasLegalResources": {
+          "@container": "@set",
+          "@id": "http://data.europa.eu/m8g/hasLegalResource",
+          "@type": "@id"
+        },
+        "hasMoreInfo": {
+          "@container": "@set",
+          "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "@type": "@id"
+        },
+        "hasRequirement": {
+          "@id": "https://vocab.belgif.be/ns/publicservice#hasRequirement",
+          "@type": "@id"
+        },
+        "keywords": {
+          "@container": "@set",
+          "@id": "http://www.w3.org/ns/dcat#keyword",
+          "@type": "@id"
+        },
+        "languages": {
+          "@container": "@set",
+          "@id": "http://purl.org/dc/terms/language",
+          "@type": "@id"
+        },
+        "lifecycleStatus": {
+          "@id": "https://vocab.belgif.be/ns/publicservice#lifecycleStatus",
+          "@type": "@id"
+        },
+        "name": {
+          "@id": "http://purl.org/dc/terms/title",
+          "@type": "@id"
+        },
+        "produces": {
+          "@container": "@set",
+          "@id": "http://purl.org/vocab/cpsv#produces",
+          "@type": "@id"
+        },
+        "publicationMediums": {
+          "@container": "@set",
+          "@id": "http://fixme.com#publicationMediums",
+          "@type": "@id"
+        },
+        "regulation": {
+          "@id": "http://fixme.com#regulation",
+          "@type": "@id"
+        },
+        "spatial": {
+          "@id": "http://purl.org/dc/terms/spatial",
+          "@type": "@id"
+        },
+        "startDate": {
+          "@id": "http://fixme.com#startDate",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "tags": {
+          "@container": "@set",
+          "@id": "http://fixme.com#tags",
+          "@type": "@id"
+        },
+        "targetAudiences": {
+          "@container": "@set",
+          "@id": "http://fixme.com#targetAudiences",
+          "@type": "@id"
+        },
+        "thematicAreas": {
+          "@container": "@set",
+          "@id": "http://data.europa.eu/m8g/thematicArea",
+          "@type": "@id"
+        },
+        "type": {
+          "@id": "http://purl.org/dc/terms/type",
+          "@type": "@id"
+        },
+        "yourEuropeCategories": {
+          "@container": "@set",
+          "@id": "http://fixme.com#yourEuropeCategories",
+          "@type": "@id"
+        }
+      },
+      "@id": "http://purl.org/vocab/cpsv#PublicService"
+    },
+    "ContactPoint": {
+      "@context": {
+        "address": {
+          "@id": "http://fixme.com#address",
+          "@type": "@id"
+        },
+        "hasEmail": {
+          "@id": "https://schema.org/email",
+          "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "hasTelephone": {
+          "@id": "https://schema.org/telephone",
+          "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "openinghours": {
+          "@id": "https://schema.org/openingHours",
+          "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "website": {
+          "@id": "https://schema.org/WebSite",
+          "@type": "@id"
+        }
+      },
+      "@id": "https://schema.org/ContactPoint"
+    },
+    "Cost": {
+      "@context": {
+        "description": {
+          "@id": "http://purl.org/dc/terms/description",
+          "@type": "@id"
+        },
+        "name": {
+          "@id": "http://purl.org/dc/terms/title",
+          "@type": "@id"
+        }
+      },
+      "@id": "http://data.europa.eu/m8g/Cost"
+    },
+    "Document": {
+      "@context": {
+        "description": {
+          "@id": "http://purl.org/dc/terms/description",
+          "@type": "@id"
+        },
+        "document": {
+          "@id": "https://schema.org/url",
+          "@type": "@id"
+        },
+        "name": {
+          "@id": "http://purl.org/dc/terms/title",
+          "@type": "@id"
+        }
+      },
+      "@id": "http://fixme.com#Document"
+    },
+    "Evidence": {
+      "@context": {
+        "description": {
+          "@id": "http://purl.org/dc/terms/description",
+          "@type": "@id"
+        },
+        "name": {
+          "@id": "http://purl.org/dc/terms/title",
+          "@type": "@id"
+        }
+      },
+      "@id": "http://data.europa.eu/m8g/Evidence"
+    },
+    "ExecutingAuthorityLevel": "http://fixme.com#ExecutingAuthorityLevel",
+    "FinancialAdvantage": {
+      "@context": {
+        "description": {
+          "@id": "http://purl.org/dc/terms/description",
+          "@type": "@id"
+        },
+        "name": {
+          "@id": "http://purl.org/dc/terms/title",
+          "@type": "@id"
+        }
+      },
+      "@id": "http://fixme.com#FinancialAdvantage"
+    },
+    "InstancePublicService": {
+      "@context": {
+        "competentAuthorityLevel": {
+          "@id": "http://fixme.com#competentAuthorityLevel",
+          "@type": "@id"
+        },
+        "description": {
+          "@id": "http://purl.org/dc/terms/description",
+          "@type": "@id"
+        },
+        "endDate": {
+          "@id": "http://fixme.com#endDate",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "exception": {
+          "@id": "http://fixme.com#exception",
+          "@type": "@id"
+        },
+        "executingAuthorityLevel": {
+          "@id": "http://fixme.com#executingAuthorityLevel",
+          "@type": "@id"
+        },
+        "follows": {
+          "@id": "http://purl.org/vocab/cpsv#follows",
+          "@type": "@id"
+        },
+        "hasAttachments": {
+          "@container": "@set",
+          "@id": "http://fixme.com#hasAttachments",
+          "@type": "@id"
+        },
+        "hasCompetentAuthority": {
+          "@id": "http://data.europa.eu/m8g/hasCompetentAuthority",
+          "@type": "@id"
+        },
+        "hasContactPoints": {
+          "@container": "@set",
+          "@id": "http://data.europa.eu/m8g/hasContactPoint",
+          "@type": "@id"
+        },
+        "hasCost": {
+          "@id": "http://data.europa.eu/m8g/hasCost",
+          "@type": "@id"
+        },
+        "hasLegalResources": {
+          "@container": "@set",
+          "@id": "http://data.europa.eu/m8g/hasLegalResource",
+          "@type": "@id"
+        },
+        "hasMoreInfo": {
+          "@container": "@set",
+          "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "@type": "@id"
+        },
+        "hasRequirement": {
+          "@id": "https://vocab.belgif.be/ns/publicservice#hasRequirement",
+          "@type": "@id"
+        },
+        "hasSource": {
+          "@id": "http://purl.org/dc/terms/source",
+          "@type": "@id"
+        },
+        "keywords": {
+          "@container": "@set",
+          "@id": "http://www.w3.org/ns/dcat#keyword",
+          "@type": "@id"
+        },
+        "languages": {
+          "@container": "@set",
+          "@id": "http://purl.org/dc/terms/language",
+          "@type": "@id"
+        },
+        "lifecycleStatus": {
+          "@id": "https://vocab.belgif.be/ns/publicservice#lifecycleStatus",
+          "@type": "@id"
+        },
+        "name": {
+          "@id": "http://purl.org/dc/terms/title",
+          "@type": "@id"
+        },
+        "produces": {
+          "@container": "@set",
+          "@id": "http://purl.org/vocab/cpsv#produces",
+          "@type": "@id"
+        },
+        "publicationMediums": {
+          "@container": "@set",
+          "@id": "http://fixme.com#publicationMediums",
+          "@type": "@id"
+        },
+        "regulation": {
+          "@id": "http://fixme.com#regulation",
+          "@type": "@id"
+        },
+        "spatial": {
+          "@id": "http://purl.org/dc/terms/spatial",
+          "@type": "@id"
+        },
+        "startDate": {
+          "@id": "http://fixme.com#startDate",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "tags": {
+          "@container": "@set",
+          "@id": "http://fixme.com#tags",
+          "@type": "@id"
+        },
+        "targetAudiences": {
+          "@container": "@set",
+          "@id": "http://fixme.com#targetAudiences",
+          "@type": "@id"
+        },
+        "thematicAreas": {
+          "@container": "@set",
+          "@id": "http://data.europa.eu/m8g/thematicArea",
+          "@type": "@id"
+        },
+        "type": {
+          "@id": "http://purl.org/dc/terms/type",
+          "@type": "@id"
+        },
+        "yourEuropeCategories": {
+          "@container": "@set",
+          "@id": "http://fixme.com#yourEuropeCategories",
+          "@type": "@id"
+        }
+      },
+      "@id": "http://fixme.com#Instance Public Service"
+    },
+    "InstanceTag": "http://www.w3.org/2004/02/skos/core#Concept",
+    "LegalResource": "http://data.europa.eu/eli/ontology#LegalResource",
+    "LifecycleStatus": "http://www.w3.org/2004/02/skos/core#Concept",
+    "ParticipationRole": "http://www.w3.org/2004/02/skos/core#Concept",
+    "Procedure": {
+      "@context": {
+        "description": {
+          "@id": "http://purl.org/dc/terms/description",
+          "@type": "@id"
+        },
+        "hasWebsite": {
+          "@container": "@set",
+          "@id": "http://fixme.com#hasWebsite",
+          "@type": "@id"
+        },
+        "name": {
+          "@id": "http://purl.org/dc/terms/title",
+          "@type": "@id"
+        }
+      },
+      "@id": "http://purl.org/vocab/cpsv#Rule"
+    },
+    "PublicationMedium": "http://www.w3.org/2004/02/skos/core#Concept",
+    "PubliekeOrganisatie": "http://data.europa.eu/m8g/PublicOrganisation",
+    "Requirement": {
+      "@context": {
+        "description": {
+          "@id": "http://purl.org/dc/terms/description",
+          "@type": "@id"
+        },
+        "hasSupportingEvidence": {
+          "@id": "http://data.europa.eu/m8g/hasSupportingEvidence",
+          "@type": "@id"
+        },
+        "name": {
+          "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "@type": "@id"
+        }
+      },
+      "@id": "http://data.europa.eu/m8g/Requirement"
+    },
+    "Spatial": "http://fixme.com#Spatial",
+    "TargetAudience": "http://www.w3.org/2004/02/skos/core#Concept",
+    "ThematicArea": "http://www.w3.org/2004/02/skos/core#Concept",
+    "Type": "http://www.w3.org/2004/02/skos/core#Concept",
+    "Website": {
+      "@context": {
+        "description": {
+          "@id": "http://purl.org/dc/terms/description",
+          "@type": "@id"
+        },
+        "location": {
+          "@id": "https://schema.org/url",
+          "@type": "@id"
+        },
+        "name": {
+          "@id": "http://purl.org/dc/terms/title",
+          "@type": "@id"
+        }
+      },
+      "@id": "http://fixme.com#Website"
+    },
+    "YourEuropeCategory": "http://www.w3.org/2004/02/skos/core#Concept"
+  }
+}

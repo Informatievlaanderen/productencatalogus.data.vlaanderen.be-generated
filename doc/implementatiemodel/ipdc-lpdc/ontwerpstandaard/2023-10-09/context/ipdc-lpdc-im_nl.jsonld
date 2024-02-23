@@ -1,0 +1,424 @@
+{
+  "@context": {
+    "Address": {
+      "@context": {
+        "administrativeUnitLevel2": {
+          "@id": "https://www.w3.org/ns/locn#adminUnitL2",
+          "@type": "@id"
+        },
+        "country": {
+          "@id": "https://data.vlaanderen.be/ns/adres#land",
+          "@type": "@id"
+        },
+        "fullAddress": {
+          "@id": "https://data.vlaanderen.be/ns/adres#volledigAdres",
+          "@type": "@id"
+        },
+        "houseNumber": {
+          "@id": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+          "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "mailbox": {
+          "@id": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
+          "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "municipality": {
+          "@id": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+          "@type": "@id"
+        },
+        "postCode": {
+          "@id": "https://data.vlaanderen.be/ns/adres#postcode",
+          "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "thoroughfare": {
+          "@id": "https://data.vlaanderen.be/ns/adres#Straatnaam",
+          "@type": "@id"
+        }
+      },
+      "@id": "http://www.w3.org/ns/locn#Address"
+    },
+    "CompetentAuthorityLevel": "http://www.w3.org/2004/02/skos/core#Concept",
+    "ConceptTag": "http://www.w3.org/2004/02/skos/core#Concept",
+    "ConceptualPublicService": {
+      "@context": {
+        "additionalDescription": {
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription",
+          "@type": "@id"
+        },
+        "competentAuthorityLevel": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel",
+          "@type": "@id"
+        },
+        "conceptTag": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#conceptTag",
+          "@type": "@id"
+        },
+        "description": {
+          "@id": "http://purl.org/dc/terms/description",
+          "@type": "@id"
+        },
+        "endDate": {
+          "@id": "https://schema.org/endDate",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "exception": {
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
+          "@type": "@id"
+        },
+        "executingAuthorityLevel": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
+          "@type": "@id"
+        },
+        "follows": {
+          "@id": "http://purl.org/vocab/cpsv#follows",
+          "@type": "@id"
+        },
+        "hasCompetentAuthority": {
+          "@container": "@set",
+          "@id": "http://data.europa.eu/m8g/hasCompetentAuthority",
+          "@type": "@id"
+        },
+        "hasCost": {
+          "@container": "@set",
+          "@id": "http://data.europa.eu/m8g/hasCost",
+          "@type": "@id"
+        },
+        "hasExecutingAuthority": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+          "@type": "@id"
+        },
+        "hasLegalResource": {
+          "@container": "@set",
+          "@id": "http://data.europa.eu/m8g/hasLegalResource",
+          "@type": "@id"
+        },
+        "hasMoreInfo": {
+          "@container": "@set",
+          "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "@type": "@id"
+        },
+        "hasRequirement": {
+          "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
+          "@type": "@id"
+        },
+        "hasSupportingEvidence": {
+          "@container": "@set",
+          "@id": "http://data.europa.eu/m8g/hasSupportingEvidence",
+          "@type": "@id"
+        },
+        "keyword": {
+          "@container": "@set",
+          "@id": "http://www.w3.org/ns/dcat#keyword",
+          "@type": "@id"
+        },
+        "name": {
+          "@id": "http://purl.org/dc/terms/title",
+          "@type": "@id"
+        },
+        "produces": {
+          "@container": "@set",
+          "@id": "http://purl.org/vocab/cpsv#produces",
+          "@type": "@id"
+        },
+        "publicationMedium": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium",
+          "@type": "@id"
+        },
+        "regulation": {
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation",
+          "@type": "@id"
+        },
+        "startDate": {
+          "@id": "https://schema.org/startDate",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "targetAudience": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience",
+          "@type": "@id"
+        },
+        "theme": {
+          "@container": "@set",
+          "@id": "http://data.europa.eu/m8g/thematicArea",
+          "@type": "@id"
+        },
+        "type": {
+          "@id": "http://purl.org/dc/terms/type",
+          "@type": "@id"
+        },
+        "yourEuropeCategory": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory",
+          "@type": "@id"
+        }
+      },
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+    },
+    "ContactPoint": {
+      "@context": {
+        "address": {
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#address",
+          "@type": "@id"
+        },
+        "hasEmail": {
+          "@id": "https://schema.org/email",
+          "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "hasTelephone": {
+          "@id": "https://schema.org/telephone",
+          "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "openinghours": {
+          "@id": "https://schema.org/openingHours",
+          "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "website": {
+          "@id": "https://schema.org/url",
+          "@type": "@id"
+        }
+      },
+      "@id": "https://schema.org/ContactPoint"
+    },
+    "Cost": {
+      "@context": {
+        "description": {
+          "@id": "http://purl.org/dc/terms/description",
+          "@type": "@id"
+        },
+        "name": {
+          "@id": "http://purl.org/dc/terms/title",
+          "@type": "@id"
+        }
+      },
+      "@id": "http://data.europa.eu/m8g/Cost"
+    },
+    "Evidence": {
+      "@context": {
+        "description": {
+          "@id": "http://purl.org/dc/terms/description",
+          "@type": "@id"
+        },
+        "name": {
+          "@id": "http://purl.org/dc/terms/title",
+          "@type": "@id"
+        }
+      },
+      "@id": "http://data.europa.eu/m8g/Evidence"
+    },
+    "ExecutingAuthorityLevel": "http://www.w3.org/2004/02/skos/core#Concept",
+    "FinancialAdvantage": {
+      "@context": {
+        "description": {
+          "@id": "http://purl.org/dc/terms/description",
+          "@type": "@id"
+        },
+        "name": {
+          "@id": "http://purl.org/dc/terms/title",
+          "@type": "@id"
+        }
+      },
+      "@id": "http://data.europa.eu/m8g/Output"
+    },
+    "InstancePublicService": {
+      "@context": {
+        "additionalDescription": {
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription",
+          "@type": "@id"
+        },
+        "competentAuthorityLevel": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel",
+          "@type": "@id"
+        },
+        "description": {
+          "@id": "http://purl.org/dc/terms/description",
+          "@type": "@id"
+        },
+        "endDate": {
+          "@id": "https://schema.org/endDate",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "exception": {
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
+          "@type": "@id"
+        },
+        "executingAuthorityLevel": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
+          "@type": "@id"
+        },
+        "follows": {
+          "@id": "http://purl.org/vocab/cpsv#follows",
+          "@type": "@id"
+        },
+        "hasCompetentAuthority": {
+          "@container": "@set",
+          "@id": "http://data.europa.eu/m8g/hasCompetentAuthority",
+          "@type": "@id"
+        },
+        "hasContactPoint": {
+          "@container": "@set",
+          "@id": "http://data.europa.eu/m8g/hasContactPoint",
+          "@type": "@id"
+        },
+        "hasCost": {
+          "@container": "@set",
+          "@id": "http://data.europa.eu/m8g/hasCost",
+          "@type": "@id"
+        },
+        "hasExecutingAuthority": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+          "@type": "@id"
+        },
+        "hasLegalResource": {
+          "@container": "@set",
+          "@id": "http://data.europa.eu/m8g/hasLegalResource",
+          "@type": "@id"
+        },
+        "hasMoreInfo": {
+          "@container": "@set",
+          "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "@type": "@id"
+        },
+        "hasRequirement": {
+          "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
+          "@type": "@id"
+        },
+        "hasSource": {
+          "@id": "http://purl.org/dc/terms/source",
+          "@type": "@id"
+        },
+        "hasSupportingEvidence": {
+          "@container": "@set",
+          "@id": "http://data.europa.eu/m8g/hasSupportingEvidence",
+          "@type": "@id"
+        },
+        "instanceTag": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag",
+          "@type": "@id"
+        },
+        "keyword": {
+          "@container": "@set",
+          "@id": "http://www.w3.org/ns/dcat#keyword",
+          "@type": "@id"
+        },
+        "language": {
+          "@container": "@set",
+          "@id": "http://publications.europa.eu/resource/authority/language",
+          "@type": "@id"
+        },
+        "name": {
+          "@id": "http://purl.org/dc/terms/title",
+          "@type": "@id"
+        },
+        "produces": {
+          "@container": "@set",
+          "@id": "http://purl.org/vocab/cpsv#produces",
+          "@type": "@id"
+        },
+        "publicationMedium": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium",
+          "@type": "@id"
+        },
+        "regulation": {
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation",
+          "@type": "@id"
+        },
+        "spatial": {
+          "@container": "@set",
+          "@id": "http://purl.org/dc/terms/spatial",
+          "@type": "@id"
+        },
+        "startDate": {
+          "@id": "https://schema.org/startDate",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "targetAudience": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience",
+          "@type": "@id"
+        },
+        "theme": {
+          "@container": "@set",
+          "@id": "http://data.europa.eu/m8g/thematicArea",
+          "@type": "@id"
+        },
+        "type": {
+          "@id": "http://purl.org/dc/terms/type",
+          "@type": "@id"
+        },
+        "yourEuropeCategory": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory",
+          "@type": "@id"
+        }
+      },
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+    },
+    "InstanceTag": "http://www.w3.org/2004/02/skos/core#Concept",
+    "LegalResource": "http://data.europa.eu/eli/ontology#LegalResource",
+    "Procedure": {
+      "@context": {
+        "description": {
+          "@id": "http://purl.org/dc/terms/description",
+          "@type": "@id"
+        },
+        "hasWebsite": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite",
+          "@type": "@id"
+        },
+        "name": {
+          "@id": "http://purl.org/dc/terms/title",
+          "@type": "@id"
+        }
+      },
+      "@id": "http://purl.org/vocab/cpsv#Rule"
+    },
+    "PublicationMedium": "http://www.w3.org/2004/02/skos/core#Concept",
+    "PubliekeOrganisatie": "http://data.europa.eu/m8g/PublicOrganisation",
+    "Requirement": {
+      "@context": {
+        "description": {
+          "@id": "http://purl.org/dc/terms/description",
+          "@type": "@id"
+        },
+        "name": {
+          "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "@type": "@id"
+        }
+      },
+      "@id": "http://data.europa.eu/m8g/Requirement"
+    },
+    "Spatial": "http://www.w3.org/2004/02/skos/core#Concept",
+    "TargetAudience": "http://www.w3.org/2004/02/skos/core#Concept",
+    "Theme": "http://www.w3.org/2004/02/skos/core#Concept",
+    "Type": "http://www.w3.org/2004/02/skos/core#Concept",
+    "Website": {
+      "@context": {
+        "description": {
+          "@id": "http://purl.org/dc/terms/description",
+          "@type": "@id"
+        },
+        "location": {
+          "@id": "https://schema.org/url",
+          "@type": "@id"
+        },
+        "name": {
+          "@id": "http://purl.org/dc/terms/title",
+          "@type": "@id"
+        }
+      },
+      "@id": "https://schema.org/WebSite"
+    },
+    "YourEuropeCategory": "http://www.w3.org/2004/02/skos/core#Concept"
+  }
+}

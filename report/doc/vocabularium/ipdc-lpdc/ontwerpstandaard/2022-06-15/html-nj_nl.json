@@ -1,0 +1,647 @@
+{
+  "metadata": {
+    "title": "IPDC - LPDC (Vocabularium)",
+    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc",
+    "issued": "2024-02-28",
+    "filename": "ipdc-lpdc",
+    "navigation": {
+      "self": "https://productencatalogus.data.test-vlaanderen.be//doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2022-06-15"
+    },
+    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "documenttype": "voc",
+    "documentconfig": {},
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "statuslabel": "Ontwerp Standaard",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/56c97df100a79cf23b6039f16f42dcd449cf2b47",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/56c97df100a79cf23b6039f16f42dcd449cf2b47/CHANGELOG",
+    "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
+    "dependencies": [],
+    "usesVocs": [],
+    "usesAPs": []
+  },
+  "classes": [
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {
+        "nl": "Een conceptuele publieke service beschrijft een mogelijke dienstverlening (Public Service) die door besturen kan aangeboden worden. Het kan gebruikt worden als sjabloon om een public service vast te leggen. Daarnaast wordt het gebruikt om verschillende gelijkaardige public services te groeperen. Vele lokale besturen bieden bijvoorbeeld een vorm van een terrasvergunning aan. De conceptuele public service kan gebruikt worden om al deze terrasvergunningen te groeperen."
+      },
+      "usage": {},
+      "equivalent": [],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {
+        "nl": "We voorzien een subklasse 'FinancialAdvantage' van 'Output'. Deze beschrijft de premiebedragen/subsidiebedragen die het resultaat van de dienstverlening zijn."
+      },
+      "usage": {},
+      "equivalent": [],
+      "parents": [
+        "http://data.europa.eu/m8g/Output"
+      ]
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {
+        "nl": "This class represents the Public Service itself, as it is described in a public service catalogue. A Public Service is a mandatory or discretionary set of activities performed, or able to be performed, by or on behalf of a public organization, publicly funded and arise from public policy. Services may be for the benefit of an individual, a business, or other public authority, or groups of any of these. A service exists whether it is used or not, and the term 'benefit' may apply in the sense of enabling the fulfilment of an obligation. As defined in the revised version of the European Interoperability Framework, a European public service comprises any service provided by public administrations in Europe, or by other organizations on their behalf, to businesses, citizens or others public administrations."
+      },
+      "usage": {},
+      "equivalent": [],
+      "parents": []
+    }
+  ],
+  "properties": [
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {
+        "nl": "Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden."
+      },
+      "usage": {
+        "nl": "Rich text\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {
+        "nl": "Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden."
+      },
+      "usage": {
+        "nl": "Rich text\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {
+        "nl": "Tekstveld waarin uitzonderingen op procedures, kostprijzen, ... kunnen aangegeven worden"
+      },
+      "usage": {
+        "nl": "Rich text"
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {
+        "nl": "Tekstveld waarin uitzondering op procedures, kostprijzen, ... kunnen aangegeven worden"
+      },
+      "usage": {
+        "nl": "Rich text"
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#conceptTag",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#address",
+      "name": "address",
+      "label": {
+        "nl": "address"
+      },
+      "sort": "address",
+      "description": {
+        "nl": "Adres dat men kan aanschrijven of bezoeken."
+      },
+      "usage": {},
+      "domain": [
+        "https://schema.org/ContactPoint"
+      ],
+      "range": [
+        "http://www.w3.org/ns/locn#Address"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {
+        "nl": "This property represents free text for additional information regarding the description of the Public Service."
+      },
+      "usage": {
+        "nl": "Rich text"
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {
+        "nl": "This property represents free text for additional information regarding the description of the Public Service."
+      },
+      "usage": {
+        "nl": "Rich text"
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "role": "A",
+      "first_name": "Wouter",
+      "last_name": "De Cock",
+      "affiliation": {
+        "name": "WDC Solutions",
+        "website": "https://www.wdcsolutions.be"
+      },
+      "email": "wouter.decock@wdcsolutions.be"
+    },
+    {
+      "role": "E",
+      "first_name": "Dieter",
+      "last_name": "Van Peer",
+      "affiliation": {
+        "name": "Kunlabora",
+        "website": "https://www.kunlabora.be"
+      },
+      "email": "dieter.vanpeer@kunlabora.be"
+    },
+    {
+      "role": "E",
+      "first_name": "Heidi",
+      "last_name": "Bottu",
+      "affiliation": {
+        "name": "Kunlabora",
+        "website": "https://www.kunlabora.be"
+      },
+      "email": "heidi.bottu@kunlabora.be"
+    },
+    {
+      "role": "C",
+      "first_name": "Niels",
+      "last_name": "Vandekeybus",
+      "affiliation": {
+        "name": "redpencil",
+        "website": "https://redpencil.io"
+      },
+      "email": "niels.vandekeybus@redpencil.io"
+    },
+    {
+      "role": "C",
+      "first_name": "Bert",
+      "last_name": "Van Nuffelen",
+      "affiliation": {
+        "name": "Digitaal Vlaanderen",
+        "website": "https://www.vlaanderen.be/digitaal-vlaanderen"
+      },
+      "email": "bert.vannuffelen@vlaanderen.be"
+    },
+    {
+      "role": "C",
+      "first_name": "Felix",
+      "last_name": "Ruiz de Arcaute",
+      "affiliation": {
+        "name": "redpencil",
+        "website": "https://redpencil.io"
+      },
+      "email": "felix.ruizdearcaute@redpencil.io"
+    },
+    {
+      "role": "C",
+      "first_name": "Stefanie",
+      "last_name": "Kerkhof",
+      "affiliation": {
+        "name": "Digitaal Vlaanderen",
+        "website": "https://www.vlaanderen.be/digitaal-vlaanderen"
+      },
+      "email": "stefanie.kerkhof@vlaanderen.be"
+    },
+    {
+      "role": "C",
+      "first_name": "Seppe",
+      "last_name": "Gielen",
+      "affiliation": {
+        "name": "Kunlabora",
+        "website": "https://www.kunlabora.be"
+      },
+      "email": "seppe.gielen@kunlabora.be"
+    },
+    {
+      "role": "C",
+      "first_name": "Bart",
+      "last_name": "Gauquie",
+      "affiliation": {
+        "name": "Kunlabora",
+        "website": "https://www.kunlabora.be"
+      },
+      "email": "bart.gauquie@kunlabora.be"
+    },
+    {
+      "role": "C",
+      "first_name": "Boris",
+      "last_name": "De Vloed",
+      "affiliation": {
+        "name": "devloed.com",
+        "website": "https://www.linkedin.com/in/borisdevloed"
+      },
+      "email": "boris@devloed.com"
+    },
+    {
+      "role": "C",
+      "first_name": "Dirk",
+      "last_name": "De Smedt",
+      "affiliation": {
+        "name": "Digitaal Vlaanderen",
+        "website": "https://www.vlaanderen.be/digitaal-vlaanderen"
+      },
+      "email": "dirk.desmedt@vlaanderen.be"
+    },
+    {
+      "role": "C",
+      "first_name": "Kris",
+      "last_name": "Aerts",
+      "affiliation": {
+        "name": "Kunlabora",
+        "website": "https://www.kunlabora.be"
+      },
+      "email": "kris.aerts@kunlabora.be"
+    }
+  ],
+  "external_terms": [
+    {
+      "uri": "http://www.w3.org/ns/locn#Address",
+      "name": "Address",
+      "label": {
+        "nl": "Address"
+      },
+      "description": {},
+      "usage": {},
+      "sort": "Address",
+      "indvl": false,
+      "inpackage": false,
+      "inscope": true,
+      "show": true
+    },
+    {
+      "uri": "https://schema.org/ContactPoint",
+      "name": "Contactpoint",
+      "label": {
+        "nl": "ContactPoint"
+      },
+      "description": {
+        "nl": "This class represents the contact information for a Public Service, Channel, Public Organization, etc. It is defined in the Core Public Organization Vocabulary and is provided as a schema:ContactPoint. Like Channel, a Contact Point may have regular opening hours that are then overridden by, for example, public holidays, using the Opening Hours Specification class."
+      },
+      "usage": {},
+      "sort": "ContactPoint",
+      "indvl": false,
+      "inpackage": false,
+      "inscope": true,
+      "show": true
+    },
+    {
+      "uri": "https://www.w3.org/ns/locn#adminUnitL2",
+      "name": "administrativeunitlevel2",
+      "label": {
+        "nl": "administrativeUnitLevel2"
+      },
+      "description": {
+        "nl": "The region of the address, usually a county, state or other such area that typically encompasses several localities. The domain of locn:adminUnitL2 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type."
+      },
+      "usage": {
+        "nl": "Omwille van de meertaligheid kan er 1 waarde per taal zijn."
+      },
+      "sort": "administrativeUnitLevel2",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "https://schema.org/url",
+      "name": "website",
+      "label": {
+        "nl": "website"
+      },
+      "description": {
+        "nl": "A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs."
+      },
+      "usage": {},
+      "sort": "website",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "https://schema.org/telephone",
+      "name": "hastelephone",
+      "label": {
+        "nl": "hasTelephone"
+      },
+      "description": {
+        "nl": "A property through which a phone number for the Public Organization, or a representative of it, can be contacted."
+      },
+      "usage": {},
+      "sort": "hasTelephone",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "https://schema.org/openingHours",
+      "name": "openinghours",
+      "label": {
+        "nl": "openinghours"
+      },
+      "description": {
+        "nl": "The value of this property is structured text that gives the hours at which the contact point is normally available."
+      },
+      "usage": {
+        "nl": "Days are specified using two-letter combinations: Mo, Tu, We, Th, Fr, Sa, Su. For example, if the contact point is open Monday-Friday, 9 -5, the value of the openingHours property would be Mo-Fr 09:00-17:00. If the Contact Point is only available on Tuesday and Thursday between 6 and 8pm, the value would be Tu,Th 16:00-20:00."
+      },
+      "sort": "openinghours",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "https://schema.org/email",
+      "name": "hasemail",
+      "label": {
+        "nl": "hasEmail"
+      },
+      "description": {
+        "nl": "A property through which an e-mail address for the Public Organization, or a representative of it, can be contacted."
+      },
+      "usage": {},
+      "sort": "hasEmail",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://purl.org/dc/terms/source",
+      "name": "hassource",
+      "label": {
+        "nl": "hasSource"
+      },
+      "description": {},
+      "usage": {},
+      "sort": "hasSource",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://data.europa.eu/m8g/hasContactPoint",
+      "name": "hascontactpoint",
+      "label": {
+        "nl": "hasContactPoint"
+      },
+      "description": {
+        "nl": "A contact point for the service is almost always helpful. The value of this property, the contact information itself, should be provided using schema:ContactPoint. Note that the contact information should be relevant to the Public Service which may not be the same as contact information for the Competent Authority or any Participant."
+      },
+      "usage": {},
+      "sort": "hasContactPoint",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    }
+  ],
+  "documentroot": "/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2022-06-15"
+}
