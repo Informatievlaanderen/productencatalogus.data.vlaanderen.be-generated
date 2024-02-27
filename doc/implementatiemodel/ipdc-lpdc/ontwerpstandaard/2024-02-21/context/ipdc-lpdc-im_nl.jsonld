@@ -2,16 +2,8 @@
   "@context": {
     "Address": {
       "@context": {
-        "administrativeUnitLevel2": {
-          "@id": "https://www.w3.org/ns/locn#adminUnitL2",
-          "@type": "@id"
-        },
         "country": {
           "@id": "https://data.vlaanderen.be/ns/adres#land",
-          "@type": "@id"
-        },
-        "fullAddress": {
-          "@id": "https://data.vlaanderen.be/ns/adres#volledigAdres",
           "@type": "@id"
         },
         "houseNumber": {
@@ -54,6 +46,14 @@
           "@container": "@set",
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#conceptTag",
           "@type": "@id"
+        },
+        "dateCreated": {
+          "@id": "http://schema.org/dateCreated",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "dateModified": {
+          "@id": "http://schema.org/dateModified",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         },
         "description": {
           "@id": "http://purl.org/dc/terms/description",
@@ -100,6 +100,14 @@
           "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
           "@type": "@id"
         },
+        "isArchived": {
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived"
+        },
+        "isVersionOf": {
+          "@container": "@set",
+          "@id": "http://purl.org/dc/terms/isVersionOf",
+          "@type": "@id"
+        },
         "keyword": {
           "@container": "@set",
           "@id": "http://www.w3.org/ns/dcat#keyword",
@@ -113,6 +121,10 @@
           "@container": "@set",
           "@id": "http://purl.org/vocab/cpsv#produces",
           "@type": "@id"
+        },
+        "productNumber": {
+          "@id": "http://schema.org/productID",
+          "@type": "http://www.w3.org/2001/XMLSchema#string"
         },
         "publicationMedium": {
           "@container": "@set",
@@ -149,6 +161,15 @@
       },
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
     },
+    "ConceptualPublicServiceSnapshot": {
+      "@context": {
+        "generatedAtTime": {
+          "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      },
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
+    },
     "ContactPoint": {
       "@context": {
         "address": {
@@ -156,23 +177,26 @@
           "@type": "@id"
         },
         "hasEmail": {
-          "@id": "https://schema.org/email",
+          "@id": "http://schema.org/email",
           "@type": "http://www.w3.org/2001/XMLSchema#string"
         },
         "hasTelephone": {
-          "@id": "https://schema.org/telephone",
+          "@id": "http://schema.org/telephone",
           "@type": "http://www.w3.org/2001/XMLSchema#string"
         },
         "openinghours": {
-          "@id": "https://schema.org/openingHours",
+          "@id": "http://schema.org/openingHours",
           "@type": "http://www.w3.org/2001/XMLSchema#string"
         },
+        "order": {
+          "@id": "http://www.w3.org/ns/shacl#order"
+        },
         "website": {
-          "@id": "https://schema.org/url",
-          "@type": "@id"
+          "@id": "http://schema.org/url",
+          "@type": "http://www.w3.org/2001/XMLSchema#string"
         }
       },
-      "@id": "https://schema.org/ContactPoint"
+      "@id": "http://schema.org/ContactPoint"
     },
     "Cost": {
       "@context": {
@@ -183,11 +207,13 @@
         "name": {
           "@id": "http://purl.org/dc/terms/title",
           "@type": "@id"
+        },
+        "order": {
+          "@id": "http://www.w3.org/ns/shacl#order"
         }
       },
       "@id": "http://data.europa.eu/m8g/Cost"
     },
-    "Eli::LegalResource": "http://data.europa.eu/eli/ontology#LegalResource",
     "Evidence": {
       "@context": {
         "description": {
@@ -211,6 +237,9 @@
         "name": {
           "@id": "http://purl.org/dc/terms/title",
           "@type": "@id"
+        },
+        "order": {
+          "@id": "http://www.w3.org/ns/shacl#order"
         }
       },
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage"
@@ -225,6 +254,14 @@
           "@container": "@set",
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel",
           "@type": "@id"
+        },
+        "dateCreated": {
+          "@id": "http://schema.org/dateCreated",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "dateModified": {
+          "@id": "http://schema.org/dateModified",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         },
         "description": {
           "@id": "http://purl.org/dc/terms/description",
@@ -285,6 +322,14 @@
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag",
           "@type": "@id"
         },
+        "isArchived": {
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived"
+        },
+        "isVersionOf": {
+          "@container": "@set",
+          "@id": "http://purl.org/dc/terms/isVersionOf",
+          "@type": "@id"
+        },
         "keyword": {
           "@container": "@set",
           "@id": "http://www.w3.org/ns/dcat#keyword",
@@ -303,6 +348,10 @@
           "@container": "@set",
           "@id": "http://purl.org/vocab/cpsv#produces",
           "@type": "@id"
+        },
+        "productNumber": {
+          "@id": "http://schema.org/productID",
+          "@type": "http://www.w3.org/2001/XMLSchema#string"
         },
         "publicationMedium": {
           "@container": "@set",
@@ -344,8 +393,25 @@
       },
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
     },
+    "InstancePublicServiceSnapshot": {
+      "@context": {
+        "generatedAtTime": {
+          "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      },
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
+    },
     "InstanceTag": "http://www.w3.org/2004/02/skos/core#Concept",
     "Language": "http://www.w3.org/2004/02/skos/core#Concept",
+    "LegalResource": {
+      "@context": {
+        "order": {
+          "@id": "http://www.w3.org/ns/shacl#order"
+        }
+      },
+      "@id": "http://data.europa.eu/eli/ontology#LegalResource"
+    },
     "Procedure": {
       "@context": {
         "description": {
@@ -394,11 +460,15 @@
           "@type": "@id"
         },
         "location": {
-          "@id": "http://schema.org/url"
+          "@id": "http://schema.org/url",
+          "@type": "http://www.w3.org/2001/XMLSchema#string"
         },
         "name": {
           "@id": "http://purl.org/dc/terms/title",
           "@type": "@id"
+        },
+        "order": {
+          "@id": "http://www.w3.org/ns/shacl#order"
         }
       },
       "@id": "http://schema.org/WebSite"
