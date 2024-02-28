@@ -515,8 +515,8 @@
   "dependencies": [],
   "diagram": "ipdc-lpdc-ap",
   "disabled": false,
-  "documentcommit": "0585308e1358a91c78d20d7f18c234d6ef0c4068",
-  "dummy": "008",
+  "documentcommit": "37de3120ec88db0a0b06cc52d071b3638c024ff0",
+  "dummy": "009",
   "eap": "IPDC-LPDC-AP.eap",
   "editors": [
     {
@@ -1303,10 +1303,10 @@
       "EA-Guid": "{014618E4-5E49-45c9-90CB-D94CA9CC28AE}",
       "codelist": [],
       "definition": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+        "nl": "Specifies the relative order of this item compared to its siblings."
       },
       "definition-nl": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+        "nl": "Specifies the relative order of this item compared to its siblings."
       },
       "domain": [
         {
@@ -1336,21 +1336,26 @@
           {
             "key": "definition-nl",
             "note": "null",
-            "value": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+            "value": "Specifies the relative order of this item compared to its siblings."
           },
           {
             "key": "uri",
             "note": "null",
             "value": "http://www.w3.org/ns/shacl#order"
+          },
+          {
+            "key": "usageNote-nl",
+            "note": "null",
+            "value": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
         "definition": {
-          "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+          "nl": "Specifies the relative order of this item compared to its siblings."
         },
         "definition-en": "",
         "definition-nl": {
-          "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+          "nl": "Specifies the relative order of this item compared to its siblings."
         },
         "equivalent": "",
         "label": {
@@ -1363,9 +1368,13 @@
         "sameAs": "",
         "subclass": "",
         "subclass1": "",
-        "usage": "",
+        "usage": {
+          "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+        },
         "usageNote-en": "",
-        "usageNote-nl": ""
+        "usageNote-nl": {
+          "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+        }
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
@@ -1384,7 +1393,13 @@
           "EA-Package": "",
           "uri": "http://www.w3.org/2001/XMLSchema#integer"
         }
-      ]
+      ],
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+      },
+      "usageNote-nl": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+      }
     },
     {
       "@id": "http://www.w3.org/ns/shacl#order",
@@ -1392,10 +1407,10 @@
       "EA-Guid": "{02378DF6-6E08-44c0-9496-F93F002F0BB0}",
       "codelist": [],
       "definition": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+        "nl": "Specifies the relative order of this item compared to its siblings."
       },
       "definition-nl": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+        "nl": "Specifies the relative order of this item compared to its siblings."
       },
       "domain": [
         {
@@ -1430,16 +1445,21 @@
           {
             "key": "definition-nl",
             "note": "null",
-            "value": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+            "value": "Specifies the relative order of this item compared to its siblings."
+          },
+          {
+            "key": "usageNote-nl",
+            "note": "null",
+            "value": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
         "definition": {
-          "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+          "nl": "Specifies the relative order of this item compared to its siblings."
         },
         "definition-en": "",
         "definition-nl": {
-          "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+          "nl": "Specifies the relative order of this item compared to its siblings."
         },
         "equivalent": "",
         "label": {
@@ -1452,9 +1472,13 @@
         "sameAs": "",
         "subclass": "",
         "subclass1": "",
-        "usage": "",
+        "usage": {
+          "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+        },
         "usageNote-en": "",
-        "usageNote-nl": ""
+        "usageNote-nl": {
+          "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+        }
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
@@ -1473,7 +1497,13 @@
           "EA-Package": "",
           "uri": "http://www.w3.org/2001/XMLSchema#integer"
         }
-      ]
+      ],
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+      },
+      "usageNote-nl": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+      }
     },
     {
       "@id": "http://www.w3.org/ns/shacl#order",
@@ -1481,10 +1511,10 @@
       "EA-Guid": "{EAB20049-4406-4abf-8738-56069F1C4E03}",
       "codelist": [],
       "definition": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+        "nl": "Specifies the relative order of this item compared to its siblings."
       },
       "definition-nl": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+        "nl": "Specifies the relative order of this item compared to its siblings."
       },
       "domain": [
         {
@@ -1514,21 +1544,26 @@
           {
             "key": "definition-nl",
             "note": "null",
-            "value": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+            "value": "Specifies the relative order of this item compared to its siblings."
           },
           {
             "key": "uri",
             "note": "null",
             "value": "http://www.w3.org/ns/shacl#order"
+          },
+          {
+            "key": "usageNote-nl",
+            "note": "null",
+            "value": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
         "definition": {
-          "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+          "nl": "Specifies the relative order of this item compared to its siblings."
         },
         "definition-en": "",
         "definition-nl": {
-          "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+          "nl": "Specifies the relative order of this item compared to its siblings."
         },
         "equivalent": "",
         "label": {
@@ -1541,9 +1576,13 @@
         "sameAs": "",
         "subclass": "",
         "subclass1": "",
-        "usage": "",
+        "usage": {
+          "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+        },
         "usageNote-en": "",
-        "usageNote-nl": ""
+        "usageNote-nl": {
+          "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+        }
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
@@ -1562,7 +1601,13 @@
           "EA-Package": "",
           "uri": "http://www.w3.org/2001/XMLSchema#integer"
         }
-      ]
+      ],
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+      },
+      "usageNote-nl": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+      }
     },
     {
       "@id": "http://www.w3.org/ns/shacl#order",
@@ -1570,10 +1615,10 @@
       "EA-Guid": "{EC2AFECD-FA56-4b0b-BED3-0FF78DE3EFAE}",
       "codelist": [],
       "definition": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+        "nl": "Specifies the relative order of this item compared to its siblings."
       },
       "definition-nl": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+        "nl": "Specifies the relative order of this item compared to its siblings."
       },
       "domain": [
         {
@@ -1598,7 +1643,7 @@
           {
             "key": "definition-nl",
             "note": "null",
-            "value": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+            "value": "Specifies the relative order of this item compared to its siblings."
           },
           {
             "key": "label-nl",
@@ -1609,15 +1654,20 @@
             "key": "uri",
             "note": "null",
             "value": "http://www.w3.org/ns/shacl#order"
+          },
+          {
+            "key": "usageNote-nl",
+            "note": "null",
+            "value": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
         "definition": {
-          "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+          "nl": "Specifies the relative order of this item compared to its siblings."
         },
         "definition-en": "",
         "definition-nl": {
-          "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+          "nl": "Specifies the relative order of this item compared to its siblings."
         },
         "equivalent": "",
         "label": {
@@ -1630,9 +1680,13 @@
         "sameAs": "",
         "subclass": "",
         "subclass1": "",
-        "usage": "",
+        "usage": {
+          "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+        },
         "usageNote-en": "",
-        "usageNote-nl": ""
+        "usageNote-nl": {
+          "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+        }
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
@@ -1651,7 +1705,13 @@
           "EA-Package": "",
           "uri": "http://www.w3.org/2001/XMLSchema#integer"
         }
-      ]
+      ],
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+      },
+      "usageNote-nl": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+      }
     },
     {
       "@id": "http://www.w3.org/ns/shacl#order",
@@ -1659,10 +1719,10 @@
       "EA-Guid": "{B4478DC6-209B-4978-8034-2FC29E35A60E}",
       "codelist": [],
       "definition": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+        "nl": "Specifies the relative order of this item compared to its siblings."
       },
       "definition-nl": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+        "nl": "Specifies the relative order of this item compared to its siblings."
       },
       "domain": [
         {
@@ -1697,16 +1757,21 @@
           {
             "key": "definition-nl",
             "note": "null",
-            "value": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+            "value": "Specifies the relative order of this item compared to its siblings."
+          },
+          {
+            "key": "usageNote-nl",
+            "note": "null",
+            "value": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
         "definition": {
-          "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+          "nl": "Specifies the relative order of this item compared to its siblings."
         },
         "definition-en": "",
         "definition-nl": {
-          "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+          "nl": "Specifies the relative order of this item compared to its siblings."
         },
         "equivalent": "",
         "label": {
@@ -1719,9 +1784,13 @@
         "sameAs": "",
         "subclass": "",
         "subclass1": "",
-        "usage": "",
+        "usage": {
+          "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+        },
         "usageNote-en": "",
-        "usageNote-nl": ""
+        "usageNote-nl": {
+          "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+        }
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
@@ -1740,7 +1809,13 @@
           "EA-Package": "",
           "uri": "http://www.w3.org/2001/XMLSchema#integer"
         }
-      ]
+      ],
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+      },
+      "usageNote-nl": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+      }
     },
     {
       "@id": "http://www.w3.org/ns/prov#generatedAtTime",
@@ -5708,7 +5783,7 @@
           {
             "key": "usageNote-nl",
             "note": "null",
-            "value": "Rich text"
+            "value": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
           },
           {
             "key": "label-nl",
@@ -5736,11 +5811,11 @@
         "subclass": "",
         "subclass1": "",
         "usage": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         },
         "usageNote-en": "",
         "usageNote-nl": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         }
       },
       "generalization": [],
@@ -5763,10 +5838,10 @@
         }
       ],
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "usageNote-nl": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     },
     {
@@ -5814,7 +5889,7 @@
           {
             "key": "usageNote-nl",
             "note": "null",
-            "value": "Rich text"
+            "value": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
           },
           {
             "key": "label-nl",
@@ -5842,11 +5917,11 @@
         "subclass": "",
         "subclass1": "",
         "usage": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         },
         "usageNote-en": "",
         "usageNote-nl": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         }
       },
       "generalization": [],
@@ -5869,10 +5944,10 @@
         }
       ],
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "usageNote-nl": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     },
     {
@@ -5920,7 +5995,7 @@
           {
             "key": "usageNote-nl",
             "note": "null",
-            "value": "Rich text"
+            "value": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
           },
           {
             "key": "label-nl",
@@ -5948,11 +6023,11 @@
         "subclass": "",
         "subclass1": "",
         "usage": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         },
         "usageNote-en": "",
         "usageNote-nl": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         }
       },
       "generalization": [],
@@ -5975,10 +6050,10 @@
         }
       ],
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "usageNote-nl": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     },
     {
@@ -6026,7 +6101,7 @@
           {
             "key": "usageNote-nl",
             "note": "null",
-            "value": "Rich text"
+            "value": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
           },
           {
             "key": "label-nl",
@@ -6054,11 +6129,11 @@
         "subclass": "",
         "subclass1": "",
         "usage": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         },
         "usageNote-en": "",
         "usageNote-nl": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         }
       },
       "generalization": [],
@@ -6081,10 +6156,10 @@
         }
       ],
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "usageNote-nl": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     },
     {
@@ -6132,7 +6207,7 @@
           {
             "key": "usageNote-nl",
             "note": "null",
-            "value": "Rich text"
+            "value": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
           },
           {
             "key": "label-nl",
@@ -6160,11 +6235,11 @@
         "subclass": "",
         "subclass1": "",
         "usage": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         },
         "usageNote-en": "",
         "usageNote-nl": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         }
       },
       "generalization": [],
@@ -6187,10 +6262,10 @@
         }
       ],
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "usageNote-nl": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     },
     {
@@ -6238,7 +6313,7 @@
           {
             "key": "usageNote-nl",
             "note": "null",
-            "value": "Rich text"
+            "value": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
           },
           {
             "key": "label-nl",
@@ -6266,11 +6341,11 @@
         "subclass": "",
         "subclass1": "",
         "usage": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         },
         "usageNote-en": "",
         "usageNote-nl": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         }
       },
       "generalization": [],
@@ -6293,10 +6368,10 @@
         }
       ],
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "usageNote-nl": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     },
     {
@@ -6344,7 +6419,7 @@
           {
             "key": "usageNote-nl",
             "note": "null",
-            "value": "Rich text"
+            "value": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
           },
           {
             "key": "label-nl",
@@ -6372,11 +6447,11 @@
         "subclass": "",
         "subclass1": "",
         "usage": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         },
         "usageNote-en": "",
         "usageNote-nl": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         }
       },
       "generalization": [],
@@ -6399,10 +6474,10 @@
         }
       ],
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "usageNote-nl": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     },
     {
@@ -6450,7 +6525,7 @@
           {
             "key": "usageNote-nl",
             "note": "null",
-            "value": "Rich text"
+            "value": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
           },
           {
             "key": "label-nl",
@@ -6478,11 +6553,11 @@
         "subclass": "",
         "subclass1": "",
         "usage": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         },
         "usageNote-en": "",
         "usageNote-nl": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         }
       },
       "generalization": [],
@@ -6505,10 +6580,10 @@
         }
       ],
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "usageNote-nl": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     },
     {
@@ -9636,7 +9711,7 @@
           },
           {
             "key": "usageNote-nl",
-            "note": "Rich text - Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.",
+            "note": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.",
             "value": "NOTE"
           },
           {
@@ -9665,11 +9740,11 @@
         "subclass": "",
         "subclass1": "",
         "usage": {
-          "nl": "Rich text - Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
         },
         "usageNote-en": "",
         "usageNote-nl": {
-          "nl": "Rich text - Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
         }
       },
       "generalization": [],
@@ -9692,10 +9767,10 @@
         }
       ],
       "usage": {
-        "nl": "Rich text - Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
       },
       "usageNote-nl": {
-        "nl": "Rich text - Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
       }
     },
     {
@@ -9742,7 +9817,7 @@
           },
           {
             "key": "usageNote-nl",
-            "note": "Rich text - Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.",
+            "note": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.",
             "value": "NOTE"
           },
           {
@@ -9771,11 +9846,11 @@
         "subclass": "",
         "subclass1": "",
         "usage": {
-          "nl": "Rich text - Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
         },
         "usageNote-en": "",
         "usageNote-nl": {
-          "nl": "Rich text - Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
         }
       },
       "generalization": [],
@@ -9798,10 +9873,10 @@
         }
       ],
       "usage": {
-        "nl": "Rich text - Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
       },
       "usageNote-nl": {
-        "nl": "Rich text - Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
       }
     },
     {
@@ -10517,7 +10592,7 @@
           {
             "key": "usageNote-nl",
             "note": "null",
-            "value": "Rich text"
+            "value": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
           },
           {
             "key": "label-nl",
@@ -10545,11 +10620,11 @@
         "subclass": "",
         "subclass1": "",
         "usage": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         },
         "usageNote-en": "",
         "usageNote-nl": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         }
       },
       "generalization": [],
@@ -10572,10 +10647,10 @@
         }
       ],
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "usageNote-nl": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     },
     {
@@ -10618,7 +10693,7 @@
           {
             "key": "usageNote-nl",
             "note": "null",
-            "value": "Rich text"
+            "value": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
           },
           {
             "key": "label-nl",
@@ -10646,11 +10721,11 @@
         "subclass": "",
         "subclass1": "",
         "usage": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         },
         "usageNote-en": "",
         "usageNote-nl": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         }
       },
       "generalization": [],
@@ -10673,10 +10748,10 @@
         }
       ],
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "usageNote-nl": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     },
     {
@@ -11108,7 +11183,7 @@
           {
             "key": "usageNote-nl",
             "note": "null",
-            "value": "Rich text"
+            "value": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
           },
           {
             "key": "label-nl",
@@ -11136,11 +11211,11 @@
         "subclass": "",
         "subclass1": "",
         "usage": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         },
         "usageNote-en": "",
         "usageNote-nl": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         }
       },
       "generalization": [],
@@ -11163,10 +11238,10 @@
         }
       ],
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "usageNote-nl": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     },
     {
@@ -11209,7 +11284,7 @@
           {
             "key": "usageNote-nl",
             "note": "null",
-            "value": "Rich text"
+            "value": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
           },
           {
             "key": "label-nl",
@@ -11237,11 +11312,11 @@
         "subclass": "",
         "subclass1": "",
         "usage": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         },
         "usageNote-en": "",
         "usageNote-nl": {
-          "nl": "Rich text"
+          "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
         }
       },
       "generalization": [],
@@ -11264,10 +11339,10 @@
         }
       ],
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "usageNote-nl": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     }
   ],
@@ -11280,7 +11355,7 @@
   "title-nl": {
     "nl": "TODO"
   },
-  "toolchaincommit": "96376ce7a6b56e4232aab93d30d1e167ab424384",
+  "toolchaincommit": "2bd4543679fbaad39ac57cf9feb82a32529b2857",
   "translation": [
     {
       "language": "nl",

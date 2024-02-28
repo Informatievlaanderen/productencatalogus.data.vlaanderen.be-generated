@@ -138,7 +138,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich text - Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.",
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.",
         "en": "Enter your translation here"
       }
     },
@@ -154,7 +154,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich text - Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.",
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.",
         "en": "Enter your translation here"
       }
     },
@@ -274,7 +274,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich text",
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
         "en": "Enter your translation here"
       }
     },
@@ -290,7 +290,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich text",
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
         "en": "Enter your translation here"
       }
     },
@@ -366,7 +366,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich text",
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
         "en": "Enter your translation here"
       }
     },
@@ -382,7 +382,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich text",
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
         "en": "Enter your translation here"
       }
     }
@@ -798,7 +798,11 @@
         "en": "Enter your translation here"
       },
       "definition": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second.",
+        "nl": "Specifies the relative order of this item compared to its siblings.",
+        "en": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second.",
         "en": "Enter your translation here"
       }
     },
@@ -810,7 +814,11 @@
         "en": "Enter your translation here"
       },
       "definition": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second.",
+        "nl": "Specifies the relative order of this item compared to its siblings.",
+        "en": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second.",
         "en": "Enter your translation here"
       }
     },
@@ -822,7 +830,11 @@
         "en": "Enter your translation here"
       },
       "definition": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second.",
+        "nl": "Specifies the relative order of this item compared to its siblings.",
+        "en": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second.",
         "en": "Enter your translation here"
       }
     },
@@ -834,7 +846,11 @@
         "en": "Enter your translation here"
       },
       "definition": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second.",
+        "nl": "Specifies the relative order of this item compared to its siblings.",
+        "en": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second.",
         "en": "Enter your translation here"
       }
     },
@@ -846,7 +862,11 @@
         "en": "Enter your translation here"
       },
       "definition": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second.",
+        "nl": "Specifies the relative order of this item compared to its siblings.",
+        "en": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second.",
         "en": "Enter your translation here"
       }
     },
@@ -1402,7 +1422,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich text",
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
         "en": "Enter your translation here"
       }
     },
@@ -1418,7 +1438,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich text",
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
         "en": "Enter your translation here"
       }
     },
@@ -1434,7 +1454,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich text",
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
         "en": "Enter your translation here"
       }
     },
@@ -1450,7 +1470,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich text",
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
         "en": "Enter your translation here"
       }
     },
@@ -1466,7 +1486,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich text",
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
         "en": "Enter your translation here"
       }
     },
@@ -1482,7 +1502,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich text",
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
         "en": "Enter your translation here"
       }
     },
@@ -1498,7 +1518,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich text",
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
         "en": "Enter your translation here"
       }
     },
@@ -1514,7 +1534,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich text",
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
         "en": "Enter your translation here"
       }
     },

@@ -115,7 +115,7 @@
         "nl": "Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden."
       },
       "usage": {
-        "nl": "Rich text - Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
       }
     },
     {
@@ -128,7 +128,7 @@
         "nl": "Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden."
       },
       "usage": {
-        "nl": "Rich text - Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
       }
     },
     {
@@ -226,7 +226,7 @@
         "nl": "Tekstveld waarin uitzonderingen op procedures, kostprijzen, ... kunnen aangegeven worden"
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     },
     {
@@ -239,7 +239,7 @@
         "nl": "Tekstveld waarin uitzondering op procedures, kostprijzen, ... kunnen aangegeven worden"
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     },
     {
@@ -301,7 +301,7 @@
         "nl": "This property represents free text for additional information regarding the description of the Public Service."
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     },
     {
@@ -314,7 +314,7 @@
         "nl": "This property represents free text for additional information regarding the description of the Public Service."
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     }
   ],
@@ -656,7 +656,10 @@
         "nl": "order"
       },
       "definition": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+        "nl": "Specifies the relative order of this item compared to its siblings."
+      },
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
       }
     },
     {
@@ -666,7 +669,10 @@
         "nl": "order"
       },
       "definition": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+        "nl": "Specifies the relative order of this item compared to its siblings."
+      },
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
       }
     },
     {
@@ -676,7 +682,10 @@
         "nl": "order"
       },
       "definition": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+        "nl": "Specifies the relative order of this item compared to its siblings."
+      },
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
       }
     },
     {
@@ -686,7 +695,10 @@
         "nl": "order"
       },
       "definition": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+        "nl": "Specifies the relative order of this item compared to its siblings."
+      },
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
       }
     },
     {
@@ -696,7 +708,10 @@
         "nl": "order"
       },
       "definition": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+        "nl": "Specifies the relative order of this item compared to its siblings."
+      },
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
       }
     },
     {
@@ -746,7 +761,7 @@
       }
     },
     {
-      "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
+      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
       "name": "hasmoreinfo",
       "label": {
         "nl": "hasMoreInfo"
@@ -756,7 +771,7 @@
       }
     },
     {
-      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
+      "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
       "name": "hasmoreinfo",
       "label": {
         "nl": "hasMoreInfo"
@@ -1126,16 +1141,6 @@
       }
     },
     {
-      "EA-Guid": "{55F34410-3DA0-42fc-A8AD-E43C9735D39E}",
-      "name": "isversionof",
-      "label": {
-        "nl": "isVersionOf"
-      },
-      "definition": {
-        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-      }
-    },
-    {
       "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
       "name": "isversionof",
       "label": {
@@ -1143,6 +1148,16 @@
       },
       "definition": {
         "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+      }
+    },
+    {
+      "EA-Guid": "{55F34410-3DA0-42fc-A8AD-E43C9735D39E}",
+      "name": "isversionof",
+      "label": {
+        "nl": "isVersionOf"
+      },
+      "definition": {
+        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       }
     },
     {
@@ -1155,7 +1170,7 @@
         "nl": "This property represents a free text Description of the Output."
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     },
     {
@@ -1168,7 +1183,7 @@
         "nl": "This property represents a free text description of the Cost."
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     },
     {
@@ -1181,7 +1196,7 @@
         "nl": "This property represents a free text Description of the Rule."
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     },
     {
@@ -1194,7 +1209,7 @@
         "nl": "Geeft omschrijving van de vereiste input"
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     },
     {
@@ -1207,7 +1222,7 @@
         "nl": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement being instantiated."
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     },
     {
@@ -1220,7 +1235,7 @@
         "nl": "This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information."
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     },
     {
@@ -1233,7 +1248,7 @@
         "nl": "This property represents a free text description of the Website."
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     },
     {
@@ -1246,7 +1261,7 @@
         "nl": "This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information."
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       }
     },
     {
@@ -1286,7 +1301,7 @@
       }
     },
     {
-      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
+      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
       "name": "haslegalresource",
       "label": {
         "nl": "hasLegalResource"
@@ -1299,7 +1314,7 @@
       }
     },
     {
-      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
+      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
       "name": "haslegalresource",
       "label": {
         "nl": "hasLegalResource"
@@ -1342,7 +1357,7 @@
       }
     },
     {
-      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
+      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
       "name": "hascompetentauthority",
       "label": {
         "nl": "hasCompetentAuthority"
@@ -1355,7 +1370,7 @@
       }
     },
     {
-      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
+      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
       "name": "hascompetentauthority",
       "label": {
         "nl": "hasCompetentAuthority"

@@ -422,7 +422,7 @@
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
     <rdfs:label xml:lang="nl">additionalDescription</rdfs:label>
     <rdfs:comment xml:lang="nl">This property represents free text for additional information regarding the description of the Public Service.</rdfs:comment>
-    <ns1:usageNote xml:lang="nl">Rich text</ns1:usageNote>
+    <ns1:usageNote xml:lang="nl">Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan</ns1:usageNote>
     <rdfs:domain>
       <owl:Class rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService">
         <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
@@ -468,7 +468,7 @@
     <rdfs:label xml:lang="nl">exception</rdfs:label>
     <rdfs:comment xml:lang="nl">Tekstveld waarin uitzonderingen op procedures, kostprijzen, ... kunnen aangegeven worden</rdfs:comment>
     <rdfs:comment xml:lang="nl">Tekstveld waarin uitzondering op procedures, kostprijzen, ... kunnen aangegeven worden</rdfs:comment>
-    <ns1:usageNote xml:lang="nl">Rich text</ns1:usageNote>
+    <ns1:usageNote xml:lang="nl">Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan</ns1:usageNote>
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"/>
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"/>
     <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
@@ -511,7 +511,8 @@
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
     <rdfs:label xml:lang="nl">regulation</rdfs:label>
     <rdfs:comment xml:lang="nl">Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden.</rdfs:comment>
-    <ns1:usageNote xml:lang="nl">Rich text - Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.</ns1:usageNote>
+    <ns1:usageNote xml:lang="nl">Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.
+Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.</ns1:usageNote>
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"/>
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"/>
     <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>

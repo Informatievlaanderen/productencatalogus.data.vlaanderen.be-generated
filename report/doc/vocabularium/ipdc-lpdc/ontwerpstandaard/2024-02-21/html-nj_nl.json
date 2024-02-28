@@ -12,8 +12,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/0585308e1358a91c78d20d7f18c234d6ef0c4068",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/0585308e1358a91c78d20d7f18c234d6ef0c4068/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/37de3120ec88db0a0b06cc52d071b3638c024ff0",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/37de3120ec88db0a0b06cc52d071b3638c024ff0/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -190,7 +190,7 @@
         "nl": "Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden."
       },
       "usage": {
-        "nl": "Rich text - Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
       },
       "domain": [
         "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
@@ -211,7 +211,7 @@
         "nl": "Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden."
       },
       "usage": {
-        "nl": "Rich text - Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
       },
       "domain": [
         "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
@@ -375,7 +375,7 @@
         "nl": "Tekstveld waarin uitzonderingen op procedures, kostprijzen, ... kunnen aangegeven worden"
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "domain": [
         "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
@@ -396,7 +396,7 @@
         "nl": "Tekstveld waarin uitzondering op procedures, kostprijzen, ... kunnen aangegeven worden"
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "domain": [
         "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
@@ -499,7 +499,7 @@
         "nl": "This property represents free text for additional information regarding the description of the Public Service."
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "domain": [
         "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
@@ -520,7 +520,7 @@
         "nl": "This property represents free text for additional information regarding the description of the Public Service."
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "domain": [
         "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
@@ -1027,9 +1027,11 @@
         "nl": "order"
       },
       "description": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+        "nl": "Specifies the relative order of this item compared to its siblings."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+      },
       "sort": "order",
       "inscope": true,
       "indvl": false,
@@ -1043,9 +1045,11 @@
         "nl": "order"
       },
       "description": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+        "nl": "Specifies the relative order of this item compared to its siblings."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+      },
       "sort": "order",
       "inscope": true,
       "indvl": false,
@@ -1059,9 +1063,11 @@
         "nl": "order"
       },
       "description": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+        "nl": "Specifies the relative order of this item compared to its siblings."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+      },
       "sort": "order",
       "inscope": true,
       "indvl": false,
@@ -1075,9 +1081,11 @@
         "nl": "order"
       },
       "description": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+        "nl": "Specifies the relative order of this item compared to its siblings."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+      },
       "sort": "order",
       "inscope": true,
       "indvl": false,
@@ -1091,9 +1099,11 @@
         "nl": "order"
       },
       "description": {
-        "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+        "nl": "Specifies the relative order of this item compared to its siblings."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second."
+      },
       "sort": "order",
       "inscope": true,
       "indvl": false,
@@ -1790,7 +1800,7 @@
         "nl": "This property represents a free text Description of the Output."
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "sort": "description",
       "inscope": true,
@@ -1808,7 +1818,7 @@
         "nl": "This property represents a free text description of the Cost."
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "sort": "description",
       "inscope": true,
@@ -1826,7 +1836,7 @@
         "nl": "This property represents a free text Description of the Rule."
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "sort": "description",
       "inscope": true,
@@ -1844,7 +1854,7 @@
         "nl": "Geeft omschrijving van de vereiste input"
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "sort": "description",
       "inscope": true,
@@ -1862,7 +1872,7 @@
         "nl": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement being instantiated."
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "sort": "description",
       "inscope": true,
@@ -1880,7 +1890,7 @@
         "nl": "This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information."
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "sort": "description",
       "inscope": true,
@@ -1898,7 +1908,7 @@
         "nl": "This property represents a free text description of the Website."
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "sort": "description",
       "inscope": true,
@@ -1916,7 +1926,7 @@
         "nl": "This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information."
       },
       "usage": {
-        "nl": "Rich text"
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
       },
       "sort": "description",
       "inscope": true,
