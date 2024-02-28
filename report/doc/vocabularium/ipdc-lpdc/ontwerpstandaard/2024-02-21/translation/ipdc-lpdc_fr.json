@@ -720,6 +720,10 @@
       "label": {
         "nl": "postCode",
         "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The post code (a.k.a postal code, zip code etc.). Post codes are common elements in many countries' postal address systems. The domain of locn:postCode is locn:Address.",
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -727,6 +731,10 @@
       "name": "country",
       "label": {
         "nl": "country",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The uppermost administrative unit for the address, almost always a country. The domain of locn:adminUnitL1 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type.",
         "fr": "Enter your translation here"
       },
       "usage": {
@@ -740,6 +748,10 @@
       "label": {
         "nl": "municipality",
         "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The key postal division of the address, usually the city. (INSPIRE's definition is \"One or more names created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.\"). The domain of locn:postName is locn:Address.",
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -747,6 +759,10 @@
       "name": "thoroughfare",
       "label": {
         "nl": "thoroughfare",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "An address component that represents the name of a passage or way through from one location to another. A thoroughfare is not necessarily a road, it might be a waterway or some other feature. The domain of locn:thoroughfare is locn:Address.",
         "fr": "Enter your translation here"
       }
     },
@@ -756,6 +772,10 @@
       "label": {
         "nl": "houseNumber",
         "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "houseNumber is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator.",
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -763,6 +783,10 @@
       "name": "mailbox",
       "label": {
         "nl": "mailbox",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Mailbox is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator.",
         "fr": "Enter your translation here"
       }
     },

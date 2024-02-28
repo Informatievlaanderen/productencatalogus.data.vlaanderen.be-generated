@@ -721,6 +721,10 @@
       "label": {
         "nl": "postCode",
         "de": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The post code (a.k.a postal code, zip code etc.). Post codes are common elements in many countries' postal address systems. The domain of locn:postCode is locn:Address.",
+        "de": "Enter your translation here"
       }
     },
     {
@@ -728,6 +732,10 @@
       "name": "country",
       "label": {
         "nl": "country",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The uppermost administrative unit for the address, almost always a country. The domain of locn:adminUnitL1 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type.",
         "de": "Enter your translation here"
       },
       "usage": {
@@ -741,6 +749,10 @@
       "label": {
         "nl": "municipality",
         "de": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The key postal division of the address, usually the city. (INSPIRE's definition is \"One or more names created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.\"). The domain of locn:postName is locn:Address.",
+        "de": "Enter your translation here"
       }
     },
     {
@@ -748,6 +760,10 @@
       "name": "thoroughfare",
       "label": {
         "nl": "thoroughfare",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "An address component that represents the name of a passage or way through from one location to another. A thoroughfare is not necessarily a road, it might be a waterway or some other feature. The domain of locn:thoroughfare is locn:Address.",
         "de": "Enter your translation here"
       }
     },
@@ -757,6 +773,10 @@
       "label": {
         "nl": "houseNumber",
         "de": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "houseNumber is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator.",
+        "de": "Enter your translation here"
       }
     },
     {
@@ -764,6 +784,10 @@
       "name": "mailbox",
       "label": {
         "nl": "mailbox",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Mailbox is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator.",
         "de": "Enter your translation here"
       }
     },
@@ -884,18 +908,6 @@
       }
     },
     {
-      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
-      "name": "hasmoreinfo",
-      "label": {
-        "nl": "hasMoreInfo",
-        "de": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt",
-        "de": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
       "name": "hasmoreinfo",
       "label": {
@@ -908,7 +920,19 @@
       }
     },
     {
-      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
+      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
+      "name": "hasmoreinfo",
+      "label": {
+        "nl": "hasMoreInfo",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt",
+        "de": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
       "name": "hasrequirement",
       "label": {
         "nl": "hasRequirement",
@@ -920,7 +944,7 @@
       }
     },
     {
-      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
+      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
       "name": "hasrequirement",
       "label": {
         "nl": "hasRequirement",
@@ -1164,7 +1188,7 @@
       }
     },
     {
-      "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
+      "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
       "name": "follows",
       "label": {
         "nl": "follows",
@@ -1176,7 +1200,7 @@
       }
     },
     {
-      "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
+      "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
       "name": "follows",
       "label": {
         "nl": "follows",
@@ -1344,18 +1368,6 @@
       }
     },
     {
-      "EA-Guid": "{55F34410-3DA0-42fc-A8AD-E43C9735D39E}",
-      "name": "isversionof",
-      "label": {
-        "nl": "isVersionOf",
-        "de": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.",
-        "de": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
       "name": "isversionof",
       "label": {
@@ -1364,6 +1376,18 @@
       },
       "definition": {
         "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.",
+        "de": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{55F34410-3DA0-42fc-A8AD-E43C9735D39E}",
+      "name": "isversionof",
+      "label": {
+        "nl": "isVersionOf",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.",
         "de": "Enter your translation here"
       }
     },
@@ -1572,7 +1596,7 @@
       }
     },
     {
-      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
+      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
       "name": "hascost",
       "label": {
         "nl": "hasCost",
@@ -1584,7 +1608,7 @@
       }
     },
     {
-      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
       "name": "hascost",
       "label": {
         "nl": "hasCost",
@@ -1608,7 +1632,7 @@
       }
     },
     {
-      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
+      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
       "name": "hascompetentauthority",
       "label": {
         "nl": "hasCompetentAuthority",
@@ -1624,7 +1648,7 @@
       }
     },
     {
-      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
+      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
       "name": "hascompetentauthority",
       "label": {
         "nl": "hasCompetentAuthority",

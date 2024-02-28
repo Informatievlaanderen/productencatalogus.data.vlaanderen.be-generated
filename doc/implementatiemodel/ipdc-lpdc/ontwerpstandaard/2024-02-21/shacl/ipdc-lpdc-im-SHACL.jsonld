@@ -2414,6 +2414,9 @@
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#AddressShape/21fd2e018915cd010aee64c9aa451a414a1ad052",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#Address.country",
+          "sh:description": {
+            "nl": "The uppermost administrative unit for the address, almost always a country. The domain of locn:adminUnitL1 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type."
+          },
           "sh:maxCount": "1",
           "sh:name": {
             "nl": "country"
@@ -2424,6 +2427,9 @@
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#AddressShape/befb27de8dc27d6bf1cd2b4ba2ca8405e3cc2a51",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#Address.country",
           "sh:class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "nl": "The uppermost administrative unit for the address, almost always a country. The domain of locn:adminUnitL1 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type."
+          },
           "sh:name": {
             "nl": "country"
           },
@@ -2432,6 +2438,9 @@
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#AddressShape/1396096c421c140d5e3f85092a0fceedc5b73360",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#Address.houseNumber",
+          "sh:description": {
+            "nl": "houseNumber is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator."
+          },
           "sh:maxCount": "1",
           "sh:name": {
             "nl": "houseNumber"
@@ -2442,6 +2451,9 @@
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#AddressShape/d5a934069ba897dd42b8966bbe9b57734401fbdc",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#Address.houseNumber",
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "nl": "houseNumber is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator."
+          },
           "sh:name": {
             "nl": "houseNumber"
           },
@@ -2450,6 +2462,9 @@
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#AddressShape/60744b5dae58d88f153277e67b1d5eb563226e4d",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#Address.mailbox",
+          "sh:description": {
+            "nl": "Mailbox is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator."
+          },
           "sh:maxCount": "1",
           "sh:name": {
             "nl": "mailbox"
@@ -2460,6 +2475,9 @@
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#AddressShape/e7d94fbaebcd95164a899bd3a94fb91baed95e20",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#Address.mailbox",
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "nl": "Mailbox is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator."
+          },
           "sh:name": {
             "nl": "mailbox"
           },
@@ -2468,6 +2486,9 @@
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#AddressShape/82ea2ab4a5a74aa4dc66036ad6d54ec4901af8ba",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#Address.municipality",
+          "sh:description": {
+            "nl": "The key postal division of the address, usually the city. (INSPIRE's definition is \"One or more names created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.\"). The domain of locn:postName is locn:Address."
+          },
           "sh:maxCount": "1",
           "sh:name": {
             "nl": "municipality"
@@ -2478,6 +2499,9 @@
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#AddressShape/f9533d757dda18d2fc35a93f17cbd2550ea8718d",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#Address.municipality",
           "sh:class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "nl": "The key postal division of the address, usually the city. (INSPIRE's definition is \"One or more names created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.\"). The domain of locn:postName is locn:Address."
+          },
           "sh:name": {
             "nl": "municipality"
           },
@@ -2487,6 +2511,9 @@
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#AddressShape/5437282f70f7d43ca49ff1689570752d675896a2",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#Address.postCode",
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "nl": "The post code (a.k.a postal code, zip code etc.). Post codes are common elements in many countries' postal address systems. The domain of locn:postCode is locn:Address."
+          },
           "sh:name": {
             "nl": "postCode"
           },
@@ -2495,6 +2522,9 @@
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#AddressShape/f5900c9849b8b7babf6f887a4871fd44fa861f18",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#Address.postCode",
+          "sh:description": {
+            "nl": "The post code (a.k.a postal code, zip code etc.). Post codes are common elements in many countries' postal address systems. The domain of locn:postCode is locn:Address."
+          },
           "sh:maxCount": "1",
           "sh:name": {
             "nl": "postCode"
@@ -2505,6 +2535,9 @@
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#AddressShape/17384dfa4a75117e7dd2bc0f2bbf61ac91fd8676",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#Address.thoroughfare",
           "sh:class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "nl": "An address component that represents the name of a passage or way through from one location to another. A thoroughfare is not necessarily a road, it might be a waterway or some other feature. The domain of locn:thoroughfare is locn:Address."
+          },
           "sh:name": {
             "nl": "thoroughfare"
           },
@@ -2513,6 +2546,9 @@
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#AddressShape/edf517a4066ee468a174711e33c96a64fb7364a6",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#Address.thoroughfare",
+          "sh:description": {
+            "nl": "An address component that represents the name of a passage or way through from one location to another. A thoroughfare is not necessarily a road, it might be a waterway or some other feature. The domain of locn:thoroughfare is locn:Address."
+          },
           "sh:maxCount": "1",
           "sh:name": {
             "nl": "thoroughfare"

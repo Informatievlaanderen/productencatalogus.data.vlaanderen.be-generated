@@ -515,8 +515,8 @@
   "dependencies": [],
   "diagram": "ipdc-lpdc-ap",
   "disabled": false,
-  "documentcommit": "f50e3b4c52aacd72f8c992ea0155314f10ebcbec",
-  "dummy": "005",
+  "documentcommit": "025794fe8b75270c0d4634d468ff97ecebe89fa0",
+  "dummy": "006",
   "eap": "IPDC-LPDC-AP.eap",
   "editors": [
     {
@@ -747,8 +747,11 @@
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{0DBE9458-7F44-4b88-A16B-DD5D7684863B}",
       "codelist": [],
+      "definition": {
+        "nl": "The post code (a.k.a postal code, zip code etc.). Post codes are common elements in many countries' postal address systems. The domain of locn:postCode is locn:Address."
+      },
       "definition-nl": {
-        "nl": "TODO"
+        "nl": "The post code (a.k.a postal code, zip code etc.). Post codes are common elements in many countries' postal address systems. The domain of locn:postCode is locn:Address."
       },
       "domain": [
         {
@@ -781,16 +784,18 @@
             "value": "https://data.vlaanderen.be/ns/adres#postcode"
           },
           {
-            "key": "description-nl",
+            "key": "definition-nl",
             "note": "null",
             "value": "The post code (a.k.a postal code, zip code etc.). Post codes are common elements in many countries' postal address systems. The domain of locn:postCode is locn:Address."
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
-        "definition": "",
+        "definition": {
+          "nl": "The post code (a.k.a postal code, zip code etc.). Post codes are common elements in many countries' postal address systems. The domain of locn:postCode is locn:Address."
+        },
         "definition-en": "",
         "definition-nl": {
-          "nl": "TODO"
+          "nl": "The post code (a.k.a postal code, zip code etc.). Post codes are common elements in many countries' postal address systems. The domain of locn:postCode is locn:Address."
         },
         "equivalent": "",
         "label": {
@@ -831,8 +836,11 @@
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{61E5242D-5478-469d-9020-4F574F962150}",
       "codelist": [],
+      "definition": {
+        "nl": "The uppermost administrative unit for the address, almost always a country. The domain of locn:adminUnitL1 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type."
+      },
       "definition-nl": {
-        "nl": "TODO"
+        "nl": "The uppermost administrative unit for the address, almost always a country. The domain of locn:adminUnitL1 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type."
       },
       "domain": [
         {
@@ -866,21 +874,23 @@
             "value": "country"
           },
           {
-            "key": "description-nl",
-            "note": "The uppermost administrative unit for the address, almost always a country. The domain of locn:adminUnitL1 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type.",
-            "value": "NOTE"
-          },
-          {
             "key": "uri",
             "note": "null",
             "value": "https://data.vlaanderen.be/ns/adres#land"
+          },
+          {
+            "key": "definition-nl",
+            "note": "The uppermost administrative unit for the address, almost always a country. The domain of locn:adminUnitL1 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type.",
+            "value": "NOTE"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
-        "definition": "",
+        "definition": {
+          "nl": "The uppermost administrative unit for the address, almost always a country. The domain of locn:adminUnitL1 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type."
+        },
         "definition-en": "",
         "definition-nl": {
-          "nl": "TODO"
+          "nl": "The uppermost administrative unit for the address, almost always a country. The domain of locn:adminUnitL1 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type."
         },
         "equivalent": "",
         "label": {
@@ -932,8 +942,11 @@
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{2F6BFB61-AE7F-43f0-AC7F-61F74B412330}",
       "codelist": [],
+      "definition": {
+        "nl": "The key postal division of the address, usually the city. (INSPIRE's definition is \"One or more names created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.\"). The domain of locn:postName is locn:Address."
+      },
       "definition-nl": {
-        "nl": "TODO"
+        "nl": "The key postal division of the address, usually the city. (INSPIRE's definition is \"One or more names created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.\"). The domain of locn:postName is locn:Address."
       },
       "domain": [
         {
@@ -967,16 +980,18 @@
             "value": "https://data.vlaanderen.be/ns/adres#gemeentenaam"
           },
           {
-            "key": "description-nl",
+            "key": "definition-nl",
             "note": "The key postal division of the address, usually the city. (INSPIRE's definition is \"One or more names created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.\"). The domain of locn:postName is locn:Address.",
             "value": "NOTE"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
-        "definition": "",
+        "definition": {
+          "nl": "The key postal division of the address, usually the city. (INSPIRE's definition is \"One or more names created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.\"). The domain of locn:postName is locn:Address."
+        },
         "definition-en": "",
         "definition-nl": {
-          "nl": "TODO"
+          "nl": "The key postal division of the address, usually the city. (INSPIRE's definition is \"One or more names created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.\"). The domain of locn:postName is locn:Address."
         },
         "equivalent": "",
         "label": {
@@ -1018,8 +1033,11 @@
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{64F9D729-6247-4109-B6A2-7173B4326192}",
       "codelist": [],
+      "definition": {
+        "nl": "An address component that represents the name of a passage or way through from one location to another. A thoroughfare is not necessarily a road, it might be a waterway or some other feature. The domain of locn:thoroughfare is locn:Address."
+      },
       "definition-nl": {
-        "nl": "TODO"
+        "nl": "An address component that represents the name of a passage or way through from one location to another. A thoroughfare is not necessarily a road, it might be a waterway or some other feature. The domain of locn:thoroughfare is locn:Address."
       },
       "domain": [
         {
@@ -1053,16 +1071,18 @@
             "value": "https://data.vlaanderen.be/ns/adres#Straatnaam"
           },
           {
-            "key": "description-nl",
+            "key": "definition-nl",
             "note": "null",
             "value": "An address component that represents the name of a passage or way through from one location to another. A thoroughfare is not necessarily a road, it might be a waterway or some other feature. The domain of locn:thoroughfare is locn:Address."
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
-        "definition": "",
+        "definition": {
+          "nl": "An address component that represents the name of a passage or way through from one location to another. A thoroughfare is not necessarily a road, it might be a waterway or some other feature. The domain of locn:thoroughfare is locn:Address."
+        },
         "definition-en": "",
         "definition-nl": {
-          "nl": "TODO"
+          "nl": "An address component that represents the name of a passage or way through from one location to another. A thoroughfare is not necessarily a road, it might be a waterway or some other feature. The domain of locn:thoroughfare is locn:Address."
         },
         "equivalent": "",
         "label": {
@@ -1104,8 +1124,11 @@
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{B6B69C48-E000-4c53-9D2E-F9002B9330FA}",
       "codelist": [],
+      "definition": {
+        "nl": "houseNumber is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator."
+      },
       "definition-nl": {
-        "nl": "TODO"
+        "nl": "houseNumber is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator."
       },
       "domain": [
         {
@@ -1133,21 +1156,23 @@
             "value": "houseNumber"
           },
           {
-            "key": "description-nl",
-            "note": "null",
-            "value": "houseNumber is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator."
-          },
-          {
             "key": "uri",
             "note": "null",
             "value": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "houseNumber is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator."
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
-        "definition": "",
+        "definition": {
+          "nl": "houseNumber is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator."
+        },
         "definition-en": "",
         "definition-nl": {
-          "nl": "TODO"
+          "nl": "houseNumber is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator."
         },
         "equivalent": "",
         "label": {
@@ -1188,8 +1213,11 @@
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{FC91E467-EFC9-4367-A0A6-AE2C6BEED75A}",
       "codelist": [],
+      "definition": {
+        "nl": "Mailbox is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator."
+      },
       "definition-nl": {
-        "nl": "TODO"
+        "nl": "Mailbox is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator."
       },
       "domain": [
         {
@@ -1217,21 +1245,23 @@
             "value": "mailbox"
           },
           {
-            "key": "description-nl",
-            "note": "null",
-            "value": "Mailbox is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator."
-          },
-          {
             "key": "uri",
             "note": "null",
             "value": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Mailbox is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator."
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
-        "definition": "",
+        "definition": {
+          "nl": "Mailbox is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator."
+        },
         "definition-en": "",
         "definition-nl": {
-          "nl": "TODO"
+          "nl": "Mailbox is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator."
         },
         "equivalent": "",
         "label": {
@@ -11238,7 +11268,7 @@
   "title-nl": {
     "nl": "TODO"
   },
-  "toolchaincommit": "bae9e261a57c7f7fb3f6c9989f51733f7e3d79d8",
+  "toolchaincommit": "0c9d4b041d3f6118baf2e63b27d344e535fef566",
   "translation": [
     {
       "language": "nl",
