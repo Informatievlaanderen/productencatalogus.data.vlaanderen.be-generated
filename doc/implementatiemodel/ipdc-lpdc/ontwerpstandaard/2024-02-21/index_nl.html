@@ -243,8 +243,8 @@
 
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/8135199dbb2dec0114f16141693a7a0ca7438baf">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/8135199dbb2dec0114f16141693a7a0ca7438baf</a></dd>
-              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/8135199dbb2dec0114f16141693a7a0ca7438baf/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/8135199dbb2dec0114f16141693a7a0ca7438baf/CHANGELOG</a></dd>
+              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/ded698c5c5cb2ab2691b93471260b5e52f6d01f6">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/ded698c5c5cb2ab2691b93471260b5e52f6d01f6</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/ded698c5c5cb2ab2691b93471260b5e52f6d01f6/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/ded698c5c5cb2ab2691b93471260b5e52f6d01f6/CHANGELOG</a></dd>
               <dt>Opmerkingen en feedback</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/issues">https://github.com/Informatievlaanderen/ipdc-lpdc/issues</a></dd>
               <dt>Standaardenregister</dt><dd><a href="https://data.vlaanderen.be/standaarden">https://data.vlaanderen.be/standaarden</a></dd>
 
@@ -292,12 +292,47 @@
     Er wordt beschreven hoe er gecommuniceerd kan worden vanuit en naar de lokale producten- en dienstencatalogus (LPDC) en de interbestuurlijke producten- en dienstencatalogus (IPDC).
 </p>
 
-<h3>Meer info</h3>
+<h4>Meertaligheid</h4>
+<p>
+    Alle vertaalbare velden hebben het type TaalString. Een TaalString is de combinatie van een tekstuele waarde met
+    een aanduiding van de taal. De aanduiding van de taal wordt gedaan aan de hand van een
+    <a href="https://www.rfc-editor.org/rfc/rfc5646.html">language tag</a>. De standaard language tags die ondersteund
+    worden in dit implementatiemodel zijn de volgende. Houd er rekening mee dat op termijn nieuwe language tags ondersteund kunnen worden.
+    <ul>
+        <li><code>nl</code>: Nederlands (verplicht)</li>
+        <li><code>en</code>: Engels (optioneel)</li>
+        <li><code>fr</code>: Frans (optioneel)</li>
+        <li><code>de</code>: Duits (optioneel)</li>
+    </ul>
+</p>
+<p>
+    Om voor Nederlandse teksten het onderscheid te kunnen maken tussen formele teksten (u vorm) en informele teksten
+    (je vorm) werden enkele <a href="https://www.rfc-editor.org/rfc/rfc5646.html#section-2.2.7">private use language subtags</a> afgesproken.
+    <ul>
+        <li><code>nl-BE-x-formal</code>: formele tekst manueel ingegeven door een redacteur</li>
+        <li><code>nl-BE-x-informal</code>: informele tekst manueel ingegeven door een redacteur</li>
+        <li><code>nl-BE-x-generated-formal</code>: automatisch gegenereerde formele tekst</li>
+        <li><code>nl-BE-x-generated-informal</code>: automatisch gegenereerde informele tekst</li>
+    </ul>
+    De <code>nl</code> tag zal steeds aanwezig zijn. Hiernaast zal steeds ofwel de door een redacteur ingegeven formele vorm
+    (<code>nl-BE-x-formal</code>) of gegeneerde vorm (<code>nl-BE-x-generated-formal</code>) beschikbaar zijn. Alsook de door een
+    redacteur ingegeven informele vorm (<code>nl-BE-x-informal</code>) of gegeneerde vorm ( <code>nl-BE-x-generated-informal</code>)
+
+    Bij het schrijven naar de IPDC API zijn de <code>generated</code> tags niet toegelaten. Deze zullen genegeerd worden.
+</p>
+<p>
+    In het implementatiemodel worden de kardinaliteiten voor TaalStrings altijd aangegeven vanuit één taal. Zo geeft
+    kardinaliteit 1 aan dat er exact 1 tekstuele waarde per taal toegestaan is. Kardinaliteit 0..1 geeft aan dat er per taal
+    geen of één waarde toegelaten is. De uitzonderlijk kardinaliteit 0..* geeft aan dat er per taal meerdere waardes
+    toegestaan zijn.
+</p>
+
+<h4>Meer weten?</h4>
 <p>
     Een volledig overzicht van alle beschikbare concepten en instanties is terug te vinden in <a href="https://productencatalogus-v3.vlaanderen.be">de productencatalogus</a>.
     Achter de schermen wordt al deze dienstverlening bewaart in <a href="https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/interbestuurlijke-producten-en-dienstencatalogus-ipdc">IPDC</a>.
     Wens je de informatie over deze dienstverlening te integreren in je eigen oplossingen dan is dit mogelijk via de
-    <a href="https://ipdc.vlaanderen.be/docs/swagger-ui/index.html">IPDC API</a>. Neem hiervoor ook zeker een kijkje in
+    <a href="https://ipdc.vlaanderen.be/docs/swagger-ui/index.html">IPDC API</a>. Neem hiervoor zeker een kijkje in
     <a href="https://vlaamseoverheid.atlassian.net/wiki/external/6317081715/ZGU4MGNlODM2N2U1NDU5MGFlY2NlYzcxYmQyYWUwMTc">de aansluitersgids</a>.
 </p>
 

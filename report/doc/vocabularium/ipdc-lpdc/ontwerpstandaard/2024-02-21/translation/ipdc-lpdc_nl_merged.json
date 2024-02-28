@@ -560,8 +560,8 @@
   "dependencies": [],
   "diagram": "ipdc-lpdc-ap",
   "disabled": false,
-  "documentcommit": "8135199dbb2dec0114f16141693a7a0ca7438baf",
-  "dummy": "010",
+  "documentcommit": "ded698c5c5cb2ab2691b93471260b5e52f6d01f6",
+  "dummy": "011",
   "eap": "IPDC-LPDC-AP.eap",
   "editors": [
     {
@@ -2255,7 +2255,7 @@
     {
       "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
+      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
       "codelist": [],
       "definition": {
         "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
@@ -2265,15 +2265,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+          "EA-Name": "ConceptualPublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
         "EA-Name": "hasMoreInfo",
         "EA-Package": "",
         "EA-Range": "Website",
@@ -2350,7 +2350,7 @@
     {
       "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
+      "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
       "codelist": [],
       "definition": {
         "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
@@ -2360,15 +2360,15 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
         "EA-Name": "hasMoreInfo",
         "EA-Package": "",
         "EA-Range": "Website",
@@ -4075,7 +4075,7 @@
     {
       "@id": "http://purl.org/vocab/cpsv#produces",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
       "codelist": [],
       "definition": {
         "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
@@ -4085,15 +4085,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+          "EA-Name": "ConceptualPublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
         "EA-Name": "produces",
         "EA-Package": "",
         "EA-Range": "FinancialAdvantage",
@@ -4170,7 +4170,7 @@
     {
       "@id": "http://purl.org/vocab/cpsv#produces",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
       "codelist": [],
       "definition": {
         "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
@@ -4180,15 +4180,15 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
         "EA-Name": "produces",
         "EA-Package": "",
         "EA-Range": "FinancialAdvantage",
@@ -5596,101 +5596,6 @@
     {
       "@id": "http://purl.org/dc/terms/isVersionOf",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
-      "codelist": [],
-      "definition": {
-        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-      },
-      "definition-nl": {
-        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-      },
-      "domain": [
-        {
-          "EA-Name": "ConceptualPublicServiceSnapshot",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicServiceSnapshot",
-        "EA-Domain-Guid": "{D2B91D18-371A-4811-931C-4C667284F606}",
-        "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
-        "EA-Name": "isVersionOf",
-        "EA-Package": "",
-        "EA-Range": "ConceptualPublicService",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-          "EA-Name": "ConceptualPublicService",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-        },
-        "RawTags": [
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "isVersionOf"
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-          },
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://purl.org/dc/terms/isVersionOf"
-          }
-        ],
-        "Scope": "TRANSLATIONS_ONLY",
-        "definition": {
-          "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-        },
-        "definition-en": "",
-        "definition-nl": {
-          "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-        },
-        "derived": "false",
-        "destRole": "null",
-        "equivalent": "",
-        "label": {
-          "nl": "isVersionOf"
-        },
-        "label-en": "",
-        "label-nl": {
-          "nl": "isVersionOf"
-        },
-        "sameAs": "",
-        "sourceRole": "null",
-        "subclass": "",
-        "subclass1": "",
-        "usage": "",
-        "usageNote-en": "",
-        "usageNote-nl": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "nl": "isVersionOf"
-      },
-      "label-nl": {
-        "nl": "isVersionOf"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "1",
-      "name": "isversionof",
-      "range": [
-        {
-          "EA-GUID": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-          "EA-Name": "ConceptualPublicService",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-        }
-      ]
-    },
-    {
-      "@id": "http://purl.org/dc/terms/isVersionOf",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{55F34410-3DA0-42fc-A8AD-E43C9735D39E}",
       "codelist": [],
       "definition": {
@@ -5780,6 +5685,101 @@
           "EA-Name": "InstancePublicService",
           "EA-Package": "IPDC-LPDC",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+        }
+      ]
+    },
+    {
+      "@id": "http://purl.org/dc/terms/isVersionOf",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
+      "codelist": [],
+      "definition": {
+        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+      },
+      "definition-nl": {
+        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+      },
+      "domain": [
+        {
+          "EA-Name": "ConceptualPublicServiceSnapshot",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "ConceptualPublicServiceSnapshot",
+        "EA-Domain-Guid": "{D2B91D18-371A-4811-931C-4C667284F606}",
+        "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
+        "EA-Name": "isVersionOf",
+        "EA-Package": "",
+        "EA-Range": "ConceptualPublicService",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+          "EA-Name": "ConceptualPublicService",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+        },
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "isVersionOf"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://purl.org/dc/terms/isVersionOf"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "definition": {
+          "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        },
+        "definition-en": "",
+        "definition-nl": {
+          "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        },
+        "derived": "false",
+        "destRole": "null",
+        "equivalent": "",
+        "label": {
+          "nl": "isVersionOf"
+        },
+        "label-en": "",
+        "label-nl": {
+          "nl": "isVersionOf"
+        },
+        "sameAs": "",
+        "sourceRole": "null",
+        "subclass": "",
+        "subclass1": "",
+        "usage": "",
+        "usageNote-en": "",
+        "usageNote-nl": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "nl": "isVersionOf"
+      },
+      "label-nl": {
+        "nl": "isVersionOf"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "isversionof",
+      "range": [
+        {
+          "EA-GUID": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+          "EA-Name": "ConceptualPublicService",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ]
     },
@@ -6947,116 +6947,6 @@
     {
       "@id": "http://data.europa.eu/m8g/hasLegalResource",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
-      "codelist": [],
-      "definition": {
-        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-      },
-      "definition-nl": {
-        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-      },
-      "domain": [
-        {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
-        "EA-Name": "hasLegalResource",
-        "EA-Package": "",
-        "EA-Range": "eli::LegalResource",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
-          "EA-Name": "eli::LegalResource",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
-        },
-        "RawTags": [
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://data.europa.eu/m8g/hasLegalResource"
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-          },
-          {
-            "key": "usageNote-nl",
-            "note": "null",
-            "value": "Link naar de Vlaamse Codex"
-          },
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "hasLegalResource"
-          }
-        ],
-        "Scope": "TRANSLATIONS_ONLY",
-        "definition": {
-          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-        },
-        "definition-en": "",
-        "definition-nl": {
-          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-        },
-        "derived": "false",
-        "destRole": "null",
-        "equivalent": "",
-        "label": {
-          "nl": "hasLegalResource"
-        },
-        "label-en": "",
-        "label-nl": {
-          "nl": "hasLegalResource"
-        },
-        "sameAs": "",
-        "sourceRole": "null",
-        "subclass": "",
-        "subclass1": "",
-        "usage": {
-          "nl": "Link naar de Vlaamse Codex"
-        },
-        "usageNote-en": "",
-        "usageNote-nl": {
-          "nl": "Link naar de Vlaamse Codex"
-        }
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "nl": "hasLegalResource"
-      },
-      "label-nl": {
-        "nl": "hasLegalResource"
-      },
-      "maxCardinality": "*",
-      "minCardinality": "0",
-      "name": "haslegalresource",
-      "range": [
-        {
-          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
-          "EA-Name": "eli::LegalResource",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
-        }
-      ],
-      "usage": {
-        "nl": "Link naar de Vlaamse Codex"
-      },
-      "usageNote-nl": {
-        "nl": "Link naar de Vlaamse Codex"
-      }
-    },
-    {
-      "@id": "http://data.europa.eu/m8g/hasLegalResource",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
       "codelist": [],
       "definition": {
@@ -7165,9 +7055,119 @@
       }
     },
     {
+      "@id": "http://data.europa.eu/m8g/hasLegalResource",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
+      "codelist": [],
+      "definition": {
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+      },
+      "definition-nl": {
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+      },
+      "domain": [
+        {
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
+        "EA-Name": "hasLegalResource",
+        "EA-Package": "",
+        "EA-Range": "eli::LegalResource",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
+          "EA-Name": "eli::LegalResource",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
+        },
+        "RawTags": [
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://data.europa.eu/m8g/hasLegalResource"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+          },
+          {
+            "key": "usageNote-nl",
+            "note": "null",
+            "value": "Link naar de Vlaamse Codex"
+          },
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "hasLegalResource"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "definition": {
+          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+        },
+        "definition-en": "",
+        "definition-nl": {
+          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+        },
+        "derived": "false",
+        "destRole": "null",
+        "equivalent": "",
+        "label": {
+          "nl": "hasLegalResource"
+        },
+        "label-en": "",
+        "label-nl": {
+          "nl": "hasLegalResource"
+        },
+        "sameAs": "",
+        "sourceRole": "null",
+        "subclass": "",
+        "subclass1": "",
+        "usage": {
+          "nl": "Link naar de Vlaamse Codex"
+        },
+        "usageNote-en": "",
+        "usageNote-nl": {
+          "nl": "Link naar de Vlaamse Codex"
+        }
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "nl": "hasLegalResource"
+      },
+      "label-nl": {
+        "nl": "hasLegalResource"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "haslegalresource",
+      "range": [
+        {
+          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
+          "EA-Name": "eli::LegalResource",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
+        }
+      ],
+      "usage": {
+        "nl": "Link naar de Vlaamse Codex"
+      },
+      "usageNote-nl": {
+        "nl": "Link naar de Vlaamse Codex"
+      }
+    },
+    {
       "@id": "http://data.europa.eu/m8g/hasCost",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
       "codelist": [],
       "definition": {
         "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
@@ -7177,15 +7177,15 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
         "EA-Name": "hasCost",
         "EA-Package": "",
         "EA-Range": "Cost",
@@ -7262,7 +7262,7 @@
     {
       "@id": "http://data.europa.eu/m8g/hasCost",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
+      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
       "codelist": [],
       "definition": {
         "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
@@ -7272,15 +7272,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+          "EA-Name": "ConceptualPublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
         "EA-Name": "hasCost",
         "EA-Package": "",
         "EA-Range": "Cost",
@@ -11400,7 +11400,7 @@
   "title-nl": {
     "nl": "TODO"
   },
-  "toolchaincommit": "489a32097e666750a7e537ec43bb168e875fc455",
+  "toolchaincommit": "c371db725bf0a8a57e8fe3384657acd12c34a14e",
   "translation": [
     {
       "language": "nl",

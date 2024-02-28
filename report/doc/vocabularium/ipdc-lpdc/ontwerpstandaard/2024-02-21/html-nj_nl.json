@@ -12,8 +12,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/8135199dbb2dec0114f16141693a7a0ca7438baf",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/8135199dbb2dec0114f16141693a7a0ca7438baf/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/ded698c5c5cb2ab2691b93471260b5e52f6d01f6",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/ded698c5c5cb2ab2691b93471260b5e52f6d01f6/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -1771,7 +1771,7 @@
         "nl": "isVersionOf"
       },
       "description": {
-        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       },
       "usage": {},
       "sort": "isVersionOf",
@@ -1787,7 +1787,7 @@
         "nl": "isVersionOf"
       },
       "description": {
-        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       },
       "usage": {},
       "sort": "isVersionOf",
