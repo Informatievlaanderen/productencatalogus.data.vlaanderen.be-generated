@@ -243,8 +243,8 @@
 
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/73b9d0e7d6376784fb55d25964d7f4bead465691">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/73b9d0e7d6376784fb55d25964d7f4bead465691</a></dd>
-              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/73b9d0e7d6376784fb55d25964d7f4bead465691/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/73b9d0e7d6376784fb55d25964d7f4bead465691/CHANGELOG</a></dd>
+              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/58aeef143cb4c21bf42a41e3128a8748aedab5a6">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/58aeef143cb4c21bf42a41e3128a8748aedab5a6</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/58aeef143cb4c21bf42a41e3128a8748aedab5a6/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/58aeef143cb4c21bf42a41e3128a8748aedab5a6/CHANGELOG</a></dd>
               <dt>Opmerkingen en feedback</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/issues">https://github.com/Informatievlaanderen/ipdc-lpdc/issues</a></dd>
               <dt>Standaardenregister</dt><dd><a href="https://data.vlaanderen.be/standaarden">https://data.vlaanderen.be/standaarden</a></dd>
 
@@ -395,8 +395,6 @@ De nl taal tag wordt altijd voorzien, en bevat desnoods een copy van een van de 
                       <a href="#Conceptualpublicservice%3Ahasmoreinfo">hasMoreInfo</a>, 
                       <a href="#Conceptualpublicservice%3Ahasrequirement">hasRequirement</a>, 
                       <a href="#Conceptualpublicservice%3Aisarchived">isArchived</a>, 
-                      <a href="#Conceptualpublicservice%3Aisversionof">isVersionOf</a>, 
-                      <a href="#Conceptualpublicservice%3Aisversionof">isVersionOf</a>, 
                       <a href="#Conceptualpublicservice%3Akeyword">keyword</a>, 
                       <a href="#Conceptualpublicservice%3Aname">name</a>, 
                       <a href="#Conceptualpublicservice%3Aproduces">produces</a>, 
@@ -743,46 +741,6 @@ De nl taal tag wordt altijd voorzien, en bevat desnoods een copy van een van de 
                         <td></td>
                       </tr>
                     
-                      <tr id="Conceptualpublicservice%3Aisversionof" typeof="rdfs:Property" resource="http://purl.org/dc/terms/isVersionOf">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="http://purl.org/dc/terms/isVersionOf" data-toggle="tooltip" data-content="http://purl.org/dc/terms/isVersionOf" data-placement="right">
-                            isVersionOf</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			    
-			    <a href="#ConceptualPublicServiceSnapshot" data-placement="right">ConceptualPublicServiceSnapshot</a>
-			    
-                          
-                        </td>
-                        <td>1..*</td>
-                        <td property="rdfs:comment">Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Conceptualpublicservice%3Aisversionof" typeof="rdfs:Property" resource="http://purl.org/dc/terms/isVersionOf">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="http://purl.org/dc/terms/isVersionOf" data-toggle="tooltip" data-content="http://purl.org/dc/terms/isVersionOf" data-placement="right">
-                            isVersionOf</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			    
-			    <a href="#ConceptualPublicServiceSnapshot" data-placement="right">ConceptualPublicServiceSnapshot</a>
-			    
-                          
-                        </td>
-                        <td>1..*</td>
-                        <td property="rdfs:comment">Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
                       <tr id="Conceptualpublicservice%3Akeyword" typeof="rdfs:Property" resource="http://www.w3.org/ns/dcat#keyword">
                         <td>
                           <code property="rdfs:label">
@@ -1019,7 +977,8 @@ De nl taal tag wordt altijd voorzien, en bevat desnoods een copy van een van de 
                     <dt>Eigenschappen</dt>
 		     
                     <dd>Voor deze entiteit zijn de volgende eigenschappen gedefinieerd:
-                      <a href="#Conceptualpublicservicesnapshot%3Ageneratedattime">generatedAtTime</a>.</dd>
+                      <a href="#Conceptualpublicservicesnapshot%3Ageneratedattime">generatedAtTime</a>, 
+                      <a href="#Conceptualpublicservicesnapshot%3Aisversionof">isVersionOf</a>.</dd>
                     
                   </dl>
                 </div>
@@ -1055,6 +1014,26 @@ De nl taal tag wordt altijd voorzien, en bevat desnoods een copy van een van de 
                         </td>
                         <td>1</td>
                         <td property="rdfs:comment">Tijdstip waarop de snapshot van het concept gemaakt werd.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Conceptualpublicservicesnapshot%3Aisversionof" typeof="rdfs:Property" resource="http://purl.org/dc/terms/isVersionOf">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/isVersionOf" data-toggle="tooltip" data-content="http://purl.org/dc/terms/isVersionOf" data-placement="right">
+                            isVersionOf</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#ConceptualPublicService" data-placement="right">ConceptualPublicService</a>
+			    
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment">Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.</td>
                         <td property="vann:usageNote"></td>
                         <td></td>
                       </tr>
@@ -1521,8 +1500,6 @@ De nl taal tag wordt altijd voorzien, en bevat desnoods een copy van een van de 
                       <a href="#Instancepublicservice%3Ahassource">hasSource</a>, 
                       <a href="#Instancepublicservice%3Ainstancetag">instanceTag</a>, 
                       <a href="#Instancepublicservice%3Aisarchived">isArchived</a>, 
-                      <a href="#Instancepublicservice%3Aisversionof">isVersionOf</a>, 
-                      <a href="#Instancepublicservice%3Aisversionof">isVersionOf</a>, 
                       <a href="#Instancepublicservice%3Akeyword">keyword</a>, 
                       <a href="#Instancepublicservice%3Alanguage">language</a>, 
                       <a href="#Instancepublicservice%3Aname">name</a>, 
@@ -1911,46 +1888,6 @@ De nl taal tag wordt altijd voorzien, en bevat desnoods een copy van een van de 
                         <td></td>
                       </tr>
                     
-                      <tr id="Instancepublicservice%3Aisversionof" typeof="rdfs:Property" resource="http://purl.org/dc/terms/isVersionOf">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="http://purl.org/dc/terms/isVersionOf" data-toggle="tooltip" data-content="http://purl.org/dc/terms/isVersionOf" data-placement="right">
-                            isVersionOf</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			    
-			    <a href="#InstancePublicServiceSnapshot" data-placement="right">InstancePublicServiceSnapshot</a>
-			    
-                          
-                        </td>
-                        <td>1..*</td>
-                        <td property="rdfs:comment">Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Instancepublicservice%3Aisversionof" typeof="rdfs:Property" resource="http://purl.org/dc/terms/isVersionOf">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="http://purl.org/dc/terms/isVersionOf" data-toggle="tooltip" data-content="http://purl.org/dc/terms/isVersionOf" data-placement="right">
-                            isVersionOf</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			    
-			    <a href="#InstancePublicServiceSnapshot" data-placement="right">InstancePublicServiceSnapshot</a>
-			    
-                          
-                        </td>
-                        <td>1..*</td>
-                        <td property="rdfs:comment">Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
                       <tr id="Instancepublicservice%3Akeyword" typeof="rdfs:Property" resource="http://www.w3.org/ns/dcat#keyword">
                         <td>
                           <code property="rdfs:label">
@@ -2227,7 +2164,8 @@ De nl taal tag wordt altijd voorzien, en bevat desnoods een copy van een van de 
                     <dt>Eigenschappen</dt>
 		     
                     <dd>Voor deze entiteit zijn de volgende eigenschappen gedefinieerd:
-                      <a href="#Instancepublicservicesnapshot%3Ageneratedattime">generatedAtTime</a>.</dd>
+                      <a href="#Instancepublicservicesnapshot%3Ageneratedattime">generatedAtTime</a>, 
+                      <a href="#Instancepublicservicesnapshot%3Aisversionof">isVersionOf</a>.</dd>
                     
                   </dl>
                 </div>
@@ -2263,6 +2201,26 @@ De nl taal tag wordt altijd voorzien, en bevat desnoods een copy van een van de 
                         </td>
                         <td>1</td>
                         <td property="rdfs:comment">Tijdstip waarop de snapshot van de instantie gemaakt werd.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Instancepublicservicesnapshot%3Aisversionof" typeof="rdfs:Property" resource="http://purl.org/dc/terms/isVersionOf">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/isVersionOf" data-toggle="tooltip" data-content="http://purl.org/dc/terms/isVersionOf" data-placement="right">
+                            isVersionOf</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#InstancePublicService" data-placement="right">InstancePublicService</a>
+			    
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment">Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.</td>
                         <td property="vann:usageNote"></td>
                         <td></td>
                       </tr>

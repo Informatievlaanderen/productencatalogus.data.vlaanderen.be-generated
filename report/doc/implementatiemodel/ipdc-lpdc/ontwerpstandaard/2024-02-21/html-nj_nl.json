@@ -15,8 +15,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/73b9d0e7d6376784fb55d25964d7f4bead465691",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/73b9d0e7d6376784fb55d25964d7f4bead465691/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/58aeef143cb4c21bf42a41e3128a8748aedab5a6",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/58aeef143cb4c21bf42a41e3128a8748aedab5a6/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -941,86 +941,6 @@
           }
         },
         {
-          "uri": "http://purl.org/dc/terms/isVersionOf",
-          "name": "isversionof",
-          "sort": "isVersionOf",
-          "label": {
-            "nl": "isVersionOf"
-          },
-          "description": {
-            "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "ConceptualPublicService",
-              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "ConceptualPublicServiceSnapshot",
-              "range_uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#ConceptualPublicServiceSnapshot",
-              "range_puri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot",
-              "range_label": {
-                "nl": "ConceptualPublicServiceSnapshot"
-              }
-            }
-          ],
-          "cardinality": "1..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-nl": "isVersionOf",
-            "definition-nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.",
-            "uri": "http://purl.org/dc/terms/isVersionOf"
-          }
-        },
-        {
-          "uri": "http://purl.org/dc/terms/isVersionOf",
-          "name": "isversionof",
-          "sort": "isVersionOf",
-          "label": {
-            "nl": "isVersionOf"
-          },
-          "description": {
-            "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "ConceptualPublicService",
-              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "ConceptualPublicServiceSnapshot",
-              "range_uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#ConceptualPublicServiceSnapshot",
-              "range_puri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot",
-              "range_label": {
-                "nl": "ConceptualPublicServiceSnapshot"
-              }
-            }
-          ],
-          "cardinality": "1..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-nl": "isVersionOf",
-            "definition-nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.",
-            "uri": "http://purl.org/dc/terms/isVersionOf"
-          }
-        },
-        {
           "uri": "http://purl.org/dc/terms/description",
           "name": "description",
           "sort": "description",
@@ -1289,6 +1209,46 @@
             "label-nl": "generatedAtTime",
             "uri": "http://www.w3.org/ns/prov#generatedAtTime",
             "definition-nl": "Tijdstip waarop de snapshot van het concept gemaakt werd."
+          }
+        },
+        {
+          "uri": "http://purl.org/dc/terms/isVersionOf",
+          "name": "isversionof",
+          "sort": "isVersionOf",
+          "label": {
+            "nl": "isVersionOf"
+          },
+          "description": {
+            "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ConceptualPublicServiceSnapshot",
+              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "ConceptualPublicService",
+              "range_uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#ConceptualPublicService",
+              "range_puri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
+              "range_label": {
+                "nl": "ConceptualPublicService"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "isVersionOf",
+            "definition-nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.",
+            "uri": "http://purl.org/dc/terms/isVersionOf"
           }
         }
       ]
@@ -2473,86 +2433,6 @@
           }
         },
         {
-          "uri": "http://purl.org/dc/terms/isVersionOf",
-          "name": "isversionof",
-          "sort": "isVersionOf",
-          "label": {
-            "nl": "isVersionOf"
-          },
-          "description": {
-            "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "InstancePublicService",
-              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "InstancePublicServiceSnapshot",
-              "range_uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#InstancePublicServiceSnapshot",
-              "range_puri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot",
-              "range_label": {
-                "nl": "InstancePublicServiceSnapshot"
-              }
-            }
-          ],
-          "cardinality": "1..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-nl": "isVersionOf",
-            "definition-nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.",
-            "uri": "http://purl.org/dc/terms/isVersionOf"
-          }
-        },
-        {
-          "uri": "http://purl.org/dc/terms/isVersionOf",
-          "name": "isversionof",
-          "sort": "isVersionOf",
-          "label": {
-            "nl": "isVersionOf"
-          },
-          "description": {
-            "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "InstancePublicService",
-              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "InstancePublicServiceSnapshot",
-              "range_uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#InstancePublicServiceSnapshot",
-              "range_puri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot",
-              "range_label": {
-                "nl": "InstancePublicServiceSnapshot"
-              }
-            }
-          ],
-          "cardinality": "1..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-nl": "isVersionOf",
-            "definition-nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.",
-            "uri": "http://purl.org/dc/terms/isVersionOf"
-          }
-        },
-        {
           "uri": "http://purl.org/dc/terms/description",
           "name": "description",
           "sort": "description",
@@ -2861,6 +2741,46 @@
             "label-nl": "generatedAtTime",
             "definition-nl": "Tijdstip waarop de snapshot van de instantie gemaakt werd.",
             "uri": "http://www.w3.org/ns/prov#generatedAtTime"
+          }
+        },
+        {
+          "uri": "http://purl.org/dc/terms/isVersionOf",
+          "name": "isversionof",
+          "sort": "isVersionOf",
+          "label": {
+            "nl": "isVersionOf"
+          },
+          "description": {
+            "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "InstancePublicServiceSnapshot",
+              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "InstancePublicService",
+              "range_uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#InstancePublicService",
+              "range_puri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
+              "range_label": {
+                "nl": "InstancePublicService"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "isVersionOf",
+            "definition-nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.",
+            "uri": "http://purl.org/dc/terms/isVersionOf"
           }
         }
       ]

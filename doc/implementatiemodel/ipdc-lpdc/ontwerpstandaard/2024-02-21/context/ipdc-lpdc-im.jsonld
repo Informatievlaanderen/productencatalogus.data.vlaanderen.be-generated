@@ -103,11 +103,6 @@
         "isArchived": {
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived"
         },
-        "isVersionOf": {
-          "@container": "@set",
-          "@id": "http://purl.org/dc/terms/isVersionOf",
-          "@type": "@id"
-        },
         "keyword": {
           "@container": "@set",
           "@id": "http://www.w3.org/ns/dcat#keyword",
@@ -166,6 +161,10 @@
         "generatedAtTime": {
           "@id": "http://www.w3.org/ns/prov#generatedAtTime",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "isVersionOf": {
+          "@id": "http://purl.org/dc/terms/isVersionOf",
+          "@type": "@id"
         }
       },
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
@@ -325,11 +324,6 @@
         "isArchived": {
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived"
         },
-        "isVersionOf": {
-          "@container": "@set",
-          "@id": "http://purl.org/dc/terms/isVersionOf",
-          "@type": "@id"
-        },
         "keyword": {
           "@container": "@set",
           "@id": "http://www.w3.org/ns/dcat#keyword",
@@ -398,6 +392,10 @@
         "generatedAtTime": {
           "@id": "http://www.w3.org/ns/prov#generatedAtTime",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "isVersionOf": {
+          "@id": "http://purl.org/dc/terms/isVersionOf",
+          "@type": "@id"
         }
       },
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"

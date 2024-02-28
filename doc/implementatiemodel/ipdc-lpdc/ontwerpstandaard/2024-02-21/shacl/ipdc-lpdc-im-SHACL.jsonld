@@ -444,54 +444,6 @@
           "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived"
         },
         {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceShape/422d70649289ec3361aab99eb4df506ff39b4943",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicService.isVersionOf",
-          "sh:description": {
-            "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-          },
-          "sh:minCount": "1",
-          "sh:name": {
-            "nl": "isVersionOf"
-          },
-          "sh:path": "http://purl.org/dc/terms/isVersionOf"
-        },
-        {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceShape/422d70649289ec3361aab99eb4df506ff39b4943",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicService.isVersionOf",
-          "sh:description": {
-            "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-          },
-          "sh:minCount": "1",
-          "sh:name": {
-            "nl": "isVersionOf"
-          },
-          "sh:path": "http://purl.org/dc/terms/isVersionOf"
-        },
-        {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceShape/4eb6a4930343d771ba680528a412fa3ec1782cb6",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicService.isVersionOf",
-          "sh:class": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot",
-          "sh:description": {
-            "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-          },
-          "sh:name": {
-            "nl": "isVersionOf"
-          },
-          "sh:path": "http://purl.org/dc/terms/isVersionOf"
-        },
-        {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceShape/4eb6a4930343d771ba680528a412fa3ec1782cb6",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicService.isVersionOf",
-          "sh:class": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot",
-          "sh:description": {
-            "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-          },
-          "sh:name": {
-            "nl": "isVersionOf"
-          },
-          "sh:path": "http://purl.org/dc/terms/isVersionOf"
-        },
-        {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceShape/3894f9fa605c37b8ff4766859d3107f97cc5f934",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicService.keyword",
           "sh:class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -750,6 +702,42 @@
             "nl": "generatedAtTime"
           },
           "sh:path": "http://www.w3.org/ns/prov#generatedAtTime"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceSnapshotShape/422d70649289ec3361aab99eb4df506ff39b4943",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceSnapshot.isVersionOf",
+          "sh:description": {
+            "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "nl": "isVersionOf"
+          },
+          "sh:path": "http://purl.org/dc/terms/isVersionOf"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceSnapshotShape/4eb6a4930343d771ba680528a412fa3ec1782cb6",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceSnapshot.isVersionOf",
+          "sh:class": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
+          "sh:description": {
+            "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+          },
+          "sh:name": {
+            "nl": "isVersionOf"
+          },
+          "sh:path": "http://purl.org/dc/terms/isVersionOf"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceSnapshotShape/f2e320723a2baf1103f332efb535fd570dd22f77",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceSnapshot.isVersionOf",
+          "sh:description": {
+            "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "isVersionOf"
+          },
+          "sh:path": "http://purl.org/dc/terms/isVersionOf"
         }
       ],
       "sh:targetClass": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
@@ -1248,54 +1236,6 @@
           "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived"
         },
         {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceShape/422d70649289ec3361aab99eb4df506ff39b4943",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicService.isVersionOf",
-          "sh:description": {
-            "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-          },
-          "sh:minCount": "1",
-          "sh:name": {
-            "nl": "isVersionOf"
-          },
-          "sh:path": "http://purl.org/dc/terms/isVersionOf"
-        },
-        {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceShape/422d70649289ec3361aab99eb4df506ff39b4943",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicService.isVersionOf",
-          "sh:description": {
-            "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-          },
-          "sh:minCount": "1",
-          "sh:name": {
-            "nl": "isVersionOf"
-          },
-          "sh:path": "http://purl.org/dc/terms/isVersionOf"
-        },
-        {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceShape/4eb6a4930343d771ba680528a412fa3ec1782cb6",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicService.isVersionOf",
-          "sh:class": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot",
-          "sh:description": {
-            "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-          },
-          "sh:name": {
-            "nl": "isVersionOf"
-          },
-          "sh:path": "http://purl.org/dc/terms/isVersionOf"
-        },
-        {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceShape/4eb6a4930343d771ba680528a412fa3ec1782cb6",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicService.isVersionOf",
-          "sh:class": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot",
-          "sh:description": {
-            "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-          },
-          "sh:name": {
-            "nl": "isVersionOf"
-          },
-          "sh:path": "http://purl.org/dc/terms/isVersionOf"
-        },
-        {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceShape/3894f9fa605c37b8ff4766859d3107f97cc5f934",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicService.keyword",
           "sh:class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -1590,6 +1530,42 @@
             "nl": "generatedAtTime"
           },
           "sh:path": "http://www.w3.org/ns/prov#generatedAtTime"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceSnapshotShape/422d70649289ec3361aab99eb4df506ff39b4943",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceSnapshot.isVersionOf",
+          "sh:description": {
+            "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "nl": "isVersionOf"
+          },
+          "sh:path": "http://purl.org/dc/terms/isVersionOf"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceSnapshotShape/4eb6a4930343d771ba680528a412fa3ec1782cb6",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceSnapshot.isVersionOf",
+          "sh:class": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
+          "sh:description": {
+            "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+          },
+          "sh:name": {
+            "nl": "isVersionOf"
+          },
+          "sh:path": "http://purl.org/dc/terms/isVersionOf"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceSnapshotShape/f2e320723a2baf1103f332efb535fd570dd22f77",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceSnapshot.isVersionOf",
+          "sh:description": {
+            "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "isVersionOf"
+          },
+          "sh:path": "http://purl.org/dc/terms/isVersionOf"
         }
       ],
       "sh:targetClass": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
