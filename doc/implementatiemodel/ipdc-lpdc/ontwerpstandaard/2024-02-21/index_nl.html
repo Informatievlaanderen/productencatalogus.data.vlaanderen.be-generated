@@ -243,8 +243,8 @@
 
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/37de3120ec88db0a0b06cc52d071b3638c024ff0">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/37de3120ec88db0a0b06cc52d071b3638c024ff0</a></dd>
-              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/37de3120ec88db0a0b06cc52d071b3638c024ff0/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/37de3120ec88db0a0b06cc52d071b3638c024ff0/CHANGELOG</a></dd>
+              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/8135199dbb2dec0114f16141693a7a0ca7438baf">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/8135199dbb2dec0114f16141693a7a0ca7438baf</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/8135199dbb2dec0114f16141693a7a0ca7438baf/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/8135199dbb2dec0114f16141693a7a0ca7438baf/CHANGELOG</a></dd>
               <dt>Opmerkingen en feedback</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/issues">https://github.com/Informatievlaanderen/ipdc-lpdc/issues</a></dd>
               <dt>Standaardenregister</dt><dd><a href="https://data.vlaanderen.be/standaarden">https://data.vlaanderen.be/standaarden</a></dd>
 
@@ -279,17 +279,26 @@
             <div class="region region--no-space-top typography" id="summary">
                 <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Samenvatting</h2>
                 
-<p>Dit implementatiemodel is een implementatiemodel van het <a href="https://belgif.github.io/thematic/models/public%20services/index_en.html">ICEG applicatieprofiel public service</a>
-en volgt het <a href="https://data.vlaanderen.be/ns/dienst">OSLO Vocabularium 'Dienst'</a>. Het wordt gebruikt om data rond publieke dienstverlening uit te wisselen tussen IPDC (versie 3) en LPDC. Er wordt beschreven hoe er gecommuniceerd kan worden vanuit en naar de
-lokale producten- en dienstencatalogus (LPDC) en de interbestuurlijke producten- en dienstencatalogus (IPDC).</p>
-<p>Veel zaken worden overgenomen vanuit het ICEG model en zijn daarom enkel in het Engels beschreven.
-Specifieke uitbreidingen binnen dit datamodel worden wel in het Nederlands beschreven.</p>
+<p>
+    <em>
+        Dit implementatiemodel is een implementatiemodel van het <a href="https://belgif.github.io/thematic/models/public%20services/index_en.html">ICEG applicatieprofiel public service</a>
+        en volgt het <a href="https://data.vlaanderen.be/ns/dienst">OSLO Vocabularium 'Dienst'</a>.
+        Veel zaken worden overgenomen vanuit het ICEG model en zijn daarom enkel in het Engels beschreven. Specifieke uitbreidingen binnen dit datamodel worden wel in het Nederlands beschreven.
+    </em>
+</p>
 
-<p>Doordat er een verschil is tussen het formele en informele taalgebruik binnen de Vlaamse overheid en de lokale besturen is er beslist om dit te reflecteren binnen TaalStrings.
-Er wordt bij zowel het inlezen als het uitsturen van de Nederlandse taal een ondersteuning voorzien voor volgende tags: nl, nl-BE-x-formal, nl-BE-x-informal.
-Bij het uitsturen kan het ook zijn dat de volgende talen uitgestuurd worden nl-BE-x-generated-formal, nl-BE-x-generated-informal.
-Het verschil tussen het al dan niet bevatten van de -generated tag is of dit een originele taal was, gevalideerd door een persoon. Of een computer gegeneerde taal gebasseerd op een taalmodel dat dus nog imperfecties kan bevatten.
-De nl taal tag wordt altijd voorzien, en bevat desnoods een copy van een van de taalvarianten. Er kan echter geen garantie gegeven worden over welke taalvariant dit gaat.
+<p>
+    Dit implementatiemodel wordt gebruikt om data rond publieke dienstverlening uit te wisselen tussen IPDC (versie 3) en LPDC.
+    Er wordt beschreven hoe er gecommuniceerd kan worden vanuit en naar de lokale producten- en dienstencatalogus (LPDC) en de interbestuurlijke producten- en dienstencatalogus (IPDC).
+</p>
+
+<h3>Meer info</h3>
+<p>
+    Een volledig overzicht van alle beschikbare concepten en instanties is terug te vinden in <a href="https://productencatalogus-v3.vlaanderen.be">de productencatalogus</a>.
+    Achter de schermen wordt al deze dienstverlening bewaart in <a href="https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/interbestuurlijke-producten-en-dienstencatalogus-ipdc">IPDC</a>.
+    Wens je de informatie over deze dienstverlening te integreren in je eigen oplossingen dan is dit mogelijk via de
+    <a href="https://ipdc.vlaanderen.be/docs/swagger-ui/index.html">IPDC API</a>. Neem hiervoor ook zeker een kijkje in
+    <a href="https://vlaamseoverheid.atlassian.net/wiki/external/6317081715/ZGU4MGNlODM2N2U1NDU5MGFlY2NlYzcxYmQyYWUwMTc">de aansluitersgids</a>.
 </p>
 
             </div>
@@ -373,7 +382,9 @@ De nl taal tag wordt altijd voorzien, en bevat desnoods een copy van een van de 
               <h3 class="h3" id="Conceptualpublicservice"><a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService" data-placement="right">ConceptualPublicService</a></h3>
                 <div class="region region--no-space-top">
                   <dl>
-                    <dt>Beschrijving</dt><dd>Een conceptuele publieke service beschrijft een mogelijke dienstverlening (Public Service) die door besturen kan aangeboden worden. Het kan gebruikt worden als sjabloon om een public service vast te leggen. Daarnaast wordt het gebruikt om verschillende gelijkaardige public services te groeperen. Vele lokale besturen bieden bijvoorbeeld een vorm van een terrasvergunning aan. De conceptuele public service kan gebruikt worden om al deze terrasvergunningen te groeperen.</dd>
+                    <dt>Beschrijving</dt><dd>Dienstverlening van lokale besturen is vaak gestoeld op Vlaamse, federale of Europese wetgeving, die vertaald wordt naar een lokaal niveau. Dat betekent dat de basis gelijkaardig is voor elk lokaal bestuur, maar dat er mogelijk flexibiliteit bestaat voor de lokale invulling. Omdat we IPDC goed gevuld en up to date willen krijgen en houden, met een beperkte administratieve belasting, voorzien we het concept. Een concept is een sjabloon dat redacteurs van de Vlaamse overheid klaarzetten voor lokale besturen. Het bevat een algemene invulling van een overheidsdienstverlening, die in de meeste lokale contexten ook van toepassing kan zijn. Lokale besturen kunnen deze concepten raadplegen en beslissen om een eigen dienstverlening te registreren op basis van een concept. Op dat moment wordt een concept gekloond naar een instantie. Het lokaal bestuur kan deze instantie vervolgens volledig aanpassen en afstemmen op de lokale context. Op deze manier groepeert een concept ook alle verschillende lokale variaties van een gelijkaardige dienstverlening.</dd>
+                    
+                    <dt>Gebruik</dt><dd>Een goed voorbeeld van een concept is het huwelijk. Hoewel de beschrijving en voorwaarden van een huwelijk grotendeels hetzelfde zijn voor de verschillende gemeentes zijn er mogelijk toch lokale verschillen, zoals de locatie en prijs, die terug te vinden zijn in de respectievelijke instanties.</dd>
                     
 		    
                     <dt>Eigenschappen</dt>
@@ -761,7 +772,7 @@ De nl taal tag wordt altijd voorzien, en bevat desnoods een copy van een van de 
                         </td>
                         <td>0..*</td>
                         <td property="rdfs:comment">This property represents a keyword, term or phrase to describe the Public Service.</td>
-                        <td property="vann:usageNote">Er mogen meerdere zoektermen per taal zijn. Dit in tegenstelling tot alle andere velden van het type TaalString.</td>
+                        <td property="vann:usageNote">Er mogen meerdere termen per taal zijn. Dit in tegenstelling tot alle andere velden van het type TaalString.</td>
                         <td></td>
                       </tr>
                     
@@ -976,7 +987,9 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
               <h3 class="h3" id="Conceptualpublicservicesnapshot"><a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot" data-placement="right">ConceptualPublicServiceSnapshot</a></h3>
                 <div class="region region--no-space-top">
                   <dl>
-                    <dt>Beschrijving</dt><dd>Een conceptsnapshot geeft weer hoe een concept er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe conceptsnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een concept vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse ConceptualPublicService. Deze snapshots worden door IPDC aan de hand van een LDES beschikbaar gemaakt.</dd>
+                    <dt>Beschrijving</dt><dd>Een conceptsnapshot geeft weer hoe een concept er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe conceptsnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een concept vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse ConceptualPublicService.</dd>
+                    
+                    <dt>Gebruik</dt><dd>De conceptsnapshots worden door IPDC aan de hand van een linked data event stream (LDES) beschikbaar gemaakt. Deze LDES maakt de volledige historiek van alle concept wijzigingen beschikbaar voor aansluiters. Meer info over LDES is hier beschikbaar: https://semiceu.github.io/LinkedDataEventStreams</dd>
                     
 		    
                     <dt>Eigenschappen</dt>
@@ -1493,7 +1506,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
               <h3 class="h3" id="Instancepublicservice"><a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService" data-placement="right">InstancePublicService</a></h3>
                 <div class="region region--no-space-top">
                   <dl>
-                    <dt>Beschrijving</dt><dd>This class represents the Public Service itself, as it is described in a public service catalogue. A Public Service is a mandatory or discretionary set of activities performed, or able to be performed, by or on behalf of a public organization, publicly funded and arise from public policy. Services may be for the benefit of an individual, a business, or other public authority, or groups of any of these. A service exists whether it is used or not, and the term &#39;benefit&#39; may apply in the sense of enabling the fulfilment of an obligation. As defined in the revised version of the European Interoperability Framework, a European public service comprises any service provided by public administrations in Europe, or by other organizations on their behalf, to businesses, citizens or others public administrations.</dd>
+                    <dt>Beschrijving</dt><dd>Instanties zijn de werkelijke invulling van een product of dienstverlening. De bevoegde overheid kan variëren: federaal, Vlaams, provinciaal, en de dienstverlening kan uitgevoerd worden door nog een andere overheid zoals een lokaal bestuur. Een overheidsdienstverlening is een verplichte of optionele reeks activiteiten die (kunnen) worden uitgevoerd door of namens een openbare organisatie, publiekelijk gefinancierd en voortkomend uit het openbaar beleid. Diensten kunnen ten goede komen aan een individu, een organisatie of vereniging, een onderneming of een andere overheidsinstantie, of aan groepen van een van deze partijen. Een dienst bestaat ongeacht of deze wordt gebruikt of niet. Volgens de herziene versie van het Europees Interoperabiliteitskader omvat een Europese openbare dienst elke dienst die wordt verleend door overheidsinstanties in Europa, of door andere organisaties namens hen, aan bedrijven, burgers of andere overheidsinstanties.</dd>
                     
 		    
                     <dt>Eigenschappen</dt>
@@ -1925,7 +1938,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         </td>
                         <td>0..*</td>
                         <td property="rdfs:comment">This property represents a keyword, term or phrase to describe the Public Service.</td>
-                        <td property="vann:usageNote">Er mogen meerdere zoektermen per taal zijn. Dit in tegenstelling tot alle andere velden van het type TaalString.</td>
+                        <td property="vann:usageNote">Er mogen meerdere termen per taal zijn. Dit in tegenstelling tot alle andere velden van het type TaalString.</td>
                         <td></td>
                       </tr>
                     
@@ -2180,7 +2193,9 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
               <h3 class="h3" id="Instancepublicservicesnapshot"><a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot" data-placement="right">InstancePublicServiceSnapshot</a></h3>
                 <div class="region region--no-space-top">
                   <dl>
-                    <dt>Beschrijving</dt><dd>Een instantiesnapshot geeft weer hoe een instantie er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe instantiesnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een instantie vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse InstancePublicService. Deze snapshots worden door IPDC aan de hand van een LDES beschikbaar gemaakt.</dd>
+                    <dt>Beschrijving</dt><dd>Een instantiesnapshot geeft weer hoe een instantie er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe instantiesnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een instantie vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse InstancePublicService.</dd>
+                    
+                    <dt>Gebruik</dt><dd>De instantiesnapshots worden door IPDC aan de hand van een linked data event stream (LDES) beschikbaar gemaakt. Deze LDES maakt de volledige historiek van alle instantie wijzigingen beschikbaar voor aansluiters. Meer info over LDES is hier beschikbaar: https://semiceu.github.io/LinkedDataEventStreams</dd>
                     
 		    
                     <dt>Eigenschappen</dt>
