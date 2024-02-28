@@ -15,8 +15,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/007db5a56019977884b5ccbf60f37a69b077f8b9",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/007db5a56019977884b5ccbf60f37a69b077f8b9/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/0585308e1358a91c78d20d7f18c234d6ef0c4068",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/0585308e1358a91c78d20d7f18c234d6ef0c4068/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -76,7 +76,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-28/codelijsten/your-europe-categorie.ttl",
+          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/your-europe-categorie.ttl",
           "rawTags": {
             "label": "yourEuropeCategory",
             "definition-nl": "YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst.",
@@ -118,7 +118,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-28/codelijsten/doelgroep.ttl",
+          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/doelgroep.ttl",
           "rawTags": {
             "label-nl": "targetAudience",
             "usageNote-nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
@@ -202,7 +202,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-28/codelijsten/publicatie-kanaal.ttl",
+          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/publicatie-kanaal.ttl",
           "rawTags": {
             "label-nl": "publicationMedium",
             "definition-nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.",
@@ -283,7 +283,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-28/codelijsten/uitvoerend-bestuursniveau.ttl",
+          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/uitvoerend-bestuursniveau.ttl",
           "rawTags": {
             "label-nl": "executingAuthorityLevel",
             "definition-nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
@@ -367,7 +367,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-28/codelijsten/concept-tag.ttl",
+          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/concept-tag.ttl",
           "rawTags": {
             "label-nl": "conceptTag",
             "usageNote-nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
@@ -409,7 +409,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-28/codelijsten/bevoegd-bestuursniveau.ttl",
+          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/bevoegd-bestuursniveau.ttl",
           "rawTags": {
             "label-nl": "competentAuthorityLevel",
             "definition-nl": "Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
@@ -905,7 +905,7 @@
             }
           ],
           "cardinality": "0..1",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-28/codelijsten/type.ttl",
+          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/type.ttl",
           "rawTags": {
             "uri": "http://purl.org/dc/terms/type",
             "label-nl": "type",
@@ -1031,7 +1031,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-28/codelijsten/thema.ttl",
+          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/thema.ttl",
           "rawTags": {
             "uri": "http://data.europa.eu/m8g/thematicArea",
             "label-nl": "theme",
@@ -1468,7 +1468,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-28/codelijsten/your-europe-categorie.ttl",
+          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/your-europe-categorie.ttl",
           "rawTags": {
             "label-nl": "yourEuropeCategory",
             "usageNote-nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
@@ -1510,7 +1510,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-28/codelijsten/doelgroep.ttl",
+          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/doelgroep.ttl",
           "rawTags": {
             "label-nl": "targetAudience",
             "definition-nl": "Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team.",
@@ -1594,7 +1594,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-28/codelijsten/publicatie-kanaal.ttl",
+          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/publicatie-kanaal.ttl",
           "rawTags": {
             "label-nl": "publicationMedium",
             "definition-nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.",
@@ -1675,7 +1675,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-28/codelijsten/instantie-tag.ttl",
+          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/instantie-tag.ttl",
           "rawTags": {
             "label-nl": "instanceTag",
             "definition-nl": "Instantie tag voor een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
@@ -1717,7 +1717,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-28/codelijsten/uitvoerend-bestuursniveau.ttl",
+          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/uitvoerend-bestuursniveau.ttl",
           "rawTags": {
             "label-nl": "executingAuthorityLevel",
             "usageNote-nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
@@ -1801,7 +1801,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-28/codelijsten/bevoegd-bestuursniveau.ttl",
+          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/bevoegd-bestuursniveau.ttl",
           "rawTags": {
             "label-nl": "competentAuthorityLevel",
             "definition-nl": "Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
@@ -2340,7 +2340,7 @@
             }
           ],
           "cardinality": "0..1",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-28/codelijsten/type.ttl",
+          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/type.ttl",
           "rawTags": {
             "uri": "http://purl.org/dc/terms/type",
             "label-nl": "type",
@@ -2423,7 +2423,7 @@
             }
           ],
           "cardinality": "1..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-28/codelijsten/geografisch-toepassingsgebied.ttl",
+          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/geografisch-toepassingsgebied.ttl",
           "rawTags": {
             "uri": "http://purl.org/dc/terms/spatial",
             "label-nl": "spatial",
@@ -2549,7 +2549,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-28/codelijsten/thema.ttl",
+          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/thema.ttl",
           "rawTags": {
             "uri": "http://data.europa.eu/m8g/thematicArea",
             "label-nl": "theme",

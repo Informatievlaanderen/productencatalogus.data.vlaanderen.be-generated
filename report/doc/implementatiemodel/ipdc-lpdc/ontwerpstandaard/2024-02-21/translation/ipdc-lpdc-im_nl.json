@@ -746,7 +746,7 @@
       }
     },
     {
-      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
+      "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
       "name": "hasmoreinfo",
       "label": {
         "nl": "hasMoreInfo"
@@ -756,7 +756,7 @@
       }
     },
     {
-      "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
+      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
       "name": "hasmoreinfo",
       "label": {
         "nl": "hasMoreInfo"
@@ -1126,16 +1126,6 @@
       }
     },
     {
-      "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
-      "name": "isversionof",
-      "label": {
-        "nl": "isVersionOf"
-      },
-      "definition": {
-        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-      }
-    },
-    {
       "EA-Guid": "{55F34410-3DA0-42fc-A8AD-E43C9735D39E}",
       "name": "isversionof",
       "label": {
@@ -1143,6 +1133,16 @@
       },
       "definition": {
         "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+      }
+    },
+    {
+      "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
+      "name": "isversionof",
+      "label": {
+        "nl": "isVersionOf"
+      },
+      "definition": {
+        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       }
     },
     {
@@ -1286,7 +1286,7 @@
       }
     },
     {
-      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
+      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
       "name": "haslegalresource",
       "label": {
         "nl": "hasLegalResource"
@@ -1299,7 +1299,7 @@
       }
     },
     {
-      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
+      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
       "name": "haslegalresource",
       "label": {
         "nl": "hasLegalResource"
@@ -1342,7 +1342,7 @@
       }
     },
     {
-      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
+      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
       "name": "hascompetentauthority",
       "label": {
         "nl": "hasCompetentAuthority"
@@ -1355,7 +1355,7 @@
       }
     },
     {
-      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
+      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
       "name": "hascompetentauthority",
       "label": {
         "nl": "hasCompetentAuthority"
