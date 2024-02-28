@@ -123,12 +123,13 @@ skos:Concept a rdfs:Class;
   rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc>;
   rdfs:range skos:Concept .
 
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived> a rdf:Property;
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived> a owl:DatatypeProperty;
   rdfs:label "isArchived"@nl;
   rdfs:comment "Waarde die aangeeft of het concept gearchiveerd is."@nl;
   rdfs:domain <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService>,
     <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService>;
-  rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> .
+  rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc>;
+  rdfs:range xsd:boolean .
 
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> a owl:ObjectProperty;
   rdfs:label "publicationMedium"@nl;

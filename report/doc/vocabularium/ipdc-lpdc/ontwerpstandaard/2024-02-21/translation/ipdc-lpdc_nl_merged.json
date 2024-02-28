@@ -515,8 +515,8 @@
   "dependencies": [],
   "diagram": "ipdc-lpdc-ap",
   "disabled": false,
-  "documentcommit": "025794fe8b75270c0d4634d468ff97ecebe89fa0",
-  "dummy": "006",
+  "documentcommit": "007db5a56019977884b5ccbf60f37a69b077f8b9",
+  "dummy": "007",
   "eap": "IPDC-LPDC-AP.eap",
   "editors": [
     {
@@ -10008,7 +10008,7 @@
     },
     {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{19E5B70A-3C98-4cc7-BF34-B393B6C8CC6C}",
       "codelist": [],
       "definition": {
@@ -10029,12 +10029,12 @@
         "EA-Guid": "{19E5B70A-3C98-4cc7-BF34-B393B6C8CC6C}",
         "EA-Name": "isArchived",
         "EA-Package": "IPDC-LPDC",
-        "EA-Range": "boolean",
+        "EA-Range": "Boolean",
         "EA-Type": "attribute",
         "RangeData": {
-          "EA-Name": "",
+          "EA-Name": "Boolean",
           "EA-Package": "",
-          "uri": "null"
+          "uri": "http://www.w3.org/2001/XMLSchema#boolean"
         },
         "RawTags": [
           {
@@ -10082,11 +10082,17 @@
       "maxCardinality": "1",
       "minCardinality": "1",
       "name": "isarchived",
-      "range": []
+      "range": [
+        {
+          "EA-Name": "Boolean",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#boolean"
+        }
+      ]
     },
     {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{DF9CC690-571E-4b42-938C-7E3E66867FB3}",
       "codelist": [],
       "definition": {
@@ -10107,12 +10113,12 @@
         "EA-Guid": "{DF9CC690-571E-4b42-938C-7E3E66867FB3}",
         "EA-Name": "isArchived",
         "EA-Package": "IPDC-LPDC",
-        "EA-Range": "boolean",
+        "EA-Range": "Boolean",
         "EA-Type": "attribute",
         "RangeData": {
-          "EA-Name": "",
+          "EA-Name": "Boolean",
           "EA-Package": "",
-          "uri": "null"
+          "uri": "http://www.w3.org/2001/XMLSchema#boolean"
         },
         "RawTags": [
           {
@@ -10160,7 +10166,13 @@
       "maxCardinality": "1",
       "minCardinality": "1",
       "name": "isarchived",
-      "range": []
+      "range": [
+        {
+          "EA-Name": "Boolean",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#boolean"
+        }
+      ]
     },
     {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag",
@@ -11268,7 +11280,7 @@
   "title-nl": {
     "nl": "TODO"
   },
-  "toolchaincommit": "0c9d4b041d3f6118baf2e63b27d344e535fef566",
+  "toolchaincommit": "bf44f503c29bc51dee15d2d6f4122e042578d358",
   "translation": [
     {
       "language": "nl",

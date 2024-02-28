@@ -1366,7 +1366,7 @@
         },
         {
             "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
-            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "isarchived",
             "inpackage": "ACTIVE_PACKAGE",
             "label-nl": {
@@ -1388,11 +1388,11 @@
                 "EA-Type": "attribute",
                 "EA-Domain": "ConceptualPublicService",
                 "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-                "EA-Range": "boolean",
+                "EA-Range": "Boolean",
                 "RangeData": {
-                    "EA-Name": "",
+                    "EA-Name": "Boolean",
                     "EA-Package": "",
-                    "uri": "null"
+                    "uri": "http://www.w3.org/2001/XMLSchema#boolean"
                 },
                 "label": {
                     "nl": "isArchived"
@@ -1436,14 +1436,20 @@
                     "EA-Name": "ConceptualPublicService"
                 }
             ],
-            "range": [],
+            "range": [
+                {
+                    "EA-Name": "Boolean",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#boolean"
+                }
+            ],
             "generalization": [],
             "minCardinality": "1",
             "maxCardinality": "1"
         },
         {
             "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
-            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "isarchived",
             "inpackage": "ACTIVE_PACKAGE",
             "label-nl": {
@@ -1465,11 +1471,11 @@
                 "EA-Type": "attribute",
                 "EA-Domain": "InstancePublicService",
                 "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-                "EA-Range": "boolean",
+                "EA-Range": "Boolean",
                 "RangeData": {
-                    "EA-Name": "",
+                    "EA-Name": "Boolean",
                     "EA-Package": "",
-                    "uri": "null"
+                    "uri": "http://www.w3.org/2001/XMLSchema#boolean"
                 },
                 "label": {
                     "nl": "isArchived"
@@ -1513,7 +1519,13 @@
                     "EA-Name": "InstancePublicService"
                 }
             ],
-            "range": [],
+            "range": [
+                {
+                    "EA-Name": "Boolean",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#boolean"
+                }
+            ],
             "generalization": [],
             "minCardinality": "1",
             "maxCardinality": "1"
@@ -11145,12 +11157,12 @@
     "config": "config/config-voc.json",
     "branchtag": "main",
     "disabled": false,
-    "dummy": "006",
+    "dummy": "007",
     "filename": "config/ipdc-lpdc-voc.json",
     "navigation": {},
     "repository": "https://github.com/Informatievlaanderen/ipdc-lpdc",
     "urlref": "/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-02-21",
-    "documentcommit": "025794fe8b75270c0d4634d468ff97ecebe89fa0",
-    "toolchaincommit": "0c9d4b041d3f6118baf2e63b27d344e535fef566",
+    "documentcommit": "007db5a56019977884b5ccbf60f37a69b077f8b9",
+    "toolchaincommit": "bf44f503c29bc51dee15d2d6f4122e042578d358",
     "hostname": "https://productencatalogus.data.test-vlaanderen.be/"
 }

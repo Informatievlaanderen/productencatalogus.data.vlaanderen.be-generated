@@ -444,6 +444,18 @@
           "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived"
         },
         {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceShape/f43b16ed322fe71e0270c1685c09eb30bc83456a",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicService.isArchived",
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+          "sh:description": {
+            "nl": "Waarde die aangeeft of het concept gearchiveerd is."
+          },
+          "sh:name": {
+            "nl": "isArchived"
+          },
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived"
+        },
+        {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceShape/3894f9fa605c37b8ff4766859d3107f97cc5f934",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicService.keyword",
           "sh:class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -1242,6 +1254,18 @@
             "nl": "Waarde die aangeeft of het concept gearchiveerd is."
           },
           "sh:minCount": "1",
+          "sh:name": {
+            "nl": "isArchived"
+          },
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceShape/f43b16ed322fe71e0270c1685c09eb30bc83456a",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicService.isArchived",
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+          "sh:description": {
+            "nl": "Waarde die aangeeft of het concept gearchiveerd is."
+          },
           "sh:name": {
             "nl": "isArchived"
           },

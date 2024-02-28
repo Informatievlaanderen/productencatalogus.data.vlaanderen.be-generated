@@ -1366,7 +1366,7 @@
         },
         {
             "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
-            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "isarchived",
             "inpackage": "ACTIVE_PACKAGE",
             "label-nl": {
@@ -1388,11 +1388,11 @@
                 "EA-Type": "attribute",
                 "EA-Domain": "ConceptualPublicService",
                 "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-                "EA-Range": "boolean",
+                "EA-Range": "Boolean",
                 "RangeData": {
-                    "EA-Name": "",
+                    "EA-Name": "Boolean",
                     "EA-Package": "",
-                    "uri": "null"
+                    "uri": "http://www.w3.org/2001/XMLSchema#boolean"
                 },
                 "label": {
                     "nl": "isArchived"
@@ -1436,14 +1436,20 @@
                     "EA-Name": "ConceptualPublicService"
                 }
             ],
-            "range": [],
+            "range": [
+                {
+                    "EA-Name": "Boolean",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#boolean"
+                }
+            ],
             "generalization": [],
             "minCardinality": "1",
             "maxCardinality": "1"
         },
         {
             "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
-            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "isarchived",
             "inpackage": "ACTIVE_PACKAGE",
             "label-nl": {
@@ -1465,11 +1471,11 @@
                 "EA-Type": "attribute",
                 "EA-Domain": "InstancePublicService",
                 "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-                "EA-Range": "boolean",
+                "EA-Range": "Boolean",
                 "RangeData": {
-                    "EA-Name": "",
+                    "EA-Name": "Boolean",
                     "EA-Package": "",
-                    "uri": "null"
+                    "uri": "http://www.w3.org/2001/XMLSchema#boolean"
                 },
                 "label": {
                     "nl": "isArchived"
@@ -1513,7 +1519,13 @@
                     "EA-Name": "InstancePublicService"
                 }
             ],
-            "range": [],
+            "range": [
+                {
+                    "EA-Name": "Boolean",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#boolean"
+                }
+            ],
             "generalization": [],
             "minCardinality": "1",
             "maxCardinality": "1"

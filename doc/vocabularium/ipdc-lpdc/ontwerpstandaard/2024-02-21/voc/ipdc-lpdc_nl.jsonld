@@ -499,7 +499,7 @@
     },
     {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "label": {
         "nl": "isArchived"
       },
@@ -509,12 +509,14 @@
       "domain": [
         "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
       ],
-      "range": [],
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#boolean"
+      ],
       "generalization": []
     },
     {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "label": {
         "nl": "isArchived"
       },
@@ -524,7 +526,9 @@
       "domain": [
         "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
       ],
-      "range": [],
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#boolean"
+      ],
       "generalization": []
     },
     {
