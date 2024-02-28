@@ -502,6 +502,7 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ContactPointShape/64aec4e257ace317a5d97aa7e62c7b1f034bf4b3>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ContactPointShape/11960ef687afb16022eaa7f65b420fdac8dcb56d>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ContactPointShape/347096d39de4bcd54b41468aae2aabd0070999a9>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ContactPointShape/c71284d6d508493899132c623a106c1b9a2ce54f>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ContactPointShape/9ac9603e91a4902c78c494481f57fa4967e5a3a5>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ContactPointShape/a281a0d3a98ba358e3d3f716e1055bcc34f26b48>;
   shacl:targetClass schema:ContactPoint .
@@ -578,6 +579,12 @@
   shacl:name "website"@nl;
   shacl:path schema:url .
 
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ContactPointShape/c71284d6d508493899132c623a106c1b9a2ce54f> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ContactPoint.order";
+  shacl:datatype xsd:integer;
+  shacl:description "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."@nl;
+  shacl:name "order"@nl;
+  shacl:path shacl:order .
+
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#CostShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#CostShape/362d1bf0eab8051024cf5ec1345eb1ce50762580>,
@@ -587,7 +594,8 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#CostShape/398fb93e389fba9a790e6adb0152f10f2ba6023a>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#CostShape/96cdcbb0489a41ab01fc39c521f5ed607a0b2c41>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#CostShape/11960ef687afb16022eaa7f65b420fdac8dcb56d>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#CostShape/347096d39de4bcd54b41468aae2aabd0070999a9>;
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#CostShape/347096d39de4bcd54b41468aae2aabd0070999a9>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#CostShape/c71284d6d508493899132c623a106c1b9a2ce54f>;
   shacl:targetClass <http://data.europa.eu/m8g/Cost> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#CostShape/11960ef687afb16022eaa7f65b420fdac8dcb56d> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#Cost.order";
@@ -631,6 +639,12 @@
   shacl:minCount 1;
   shacl:name "name"@nl;
   shacl:path dc:title .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#CostShape/c71284d6d508493899132c623a106c1b9a2ce54f> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#Cost.order";
+  shacl:datatype xsd:integer;
+  shacl:description "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."@nl;
+  shacl:name "order"@nl;
+  shacl:path shacl:order .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#CostShape/d4d4f2399b8cf2f615ac658920373b714726bed0> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#Cost.description";
   shacl:class rdf:langString;
@@ -697,7 +711,8 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#FinancialAdvantageShape/398fb93e389fba9a790e6adb0152f10f2ba6023a>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#FinancialAdvantageShape/96cdcbb0489a41ab01fc39c521f5ed607a0b2c41>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#FinancialAdvantageShape/11960ef687afb16022eaa7f65b420fdac8dcb56d>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#FinancialAdvantageShape/347096d39de4bcd54b41468aae2aabd0070999a9>;
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#FinancialAdvantageShape/347096d39de4bcd54b41468aae2aabd0070999a9>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#FinancialAdvantageShape/c71284d6d508493899132c623a106c1b9a2ce54f>;
   shacl:targetClass <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#FinancialAdvantageShape/11960ef687afb16022eaa7f65b420fdac8dcb56d> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#FinancialAdvantage.order";
@@ -741,6 +756,12 @@
   shacl:minCount 1;
   shacl:name "name"@nl;
   shacl:path dc:title .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#FinancialAdvantageShape/c71284d6d508493899132c623a106c1b9a2ce54f> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#FinancialAdvantage.order";
+  shacl:datatype xsd:integer;
+  shacl:description "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."@nl;
+  shacl:name "order"@nl;
+  shacl:path shacl:order .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#FinancialAdvantageShape/d4d4f2399b8cf2f615ac658920373b714726bed0> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#FinancialAdvantage.description";
   shacl:class rdf:langString;
@@ -1325,7 +1346,8 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#WebsiteShape/398fb93e389fba9a790e6adb0152f10f2ba6023a>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#WebsiteShape/96cdcbb0489a41ab01fc39c521f5ed607a0b2c41>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#WebsiteShape/11960ef687afb16022eaa7f65b420fdac8dcb56d>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#WebsiteShape/347096d39de4bcd54b41468aae2aabd0070999a9>;
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#WebsiteShape/347096d39de4bcd54b41468aae2aabd0070999a9>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#WebsiteShape/c71284d6d508493899132c623a106c1b9a2ce54f>;
   shacl:targetClass schema:WebSite .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#WebsiteShape/07b402890dac875697136c8f54cafd842cbad6fa> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#Website.location";
@@ -1376,6 +1398,12 @@
   shacl:name "location"@nl;
   shacl:path schema:url .
 
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#WebsiteShape/c71284d6d508493899132c623a106c1b9a2ce54f> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#Website.order";
+  shacl:datatype xsd:integer;
+  shacl:description "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."@nl;
+  shacl:name "order"@nl;
+  shacl:path shacl:order .
+
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#WebsiteShape/d4d4f2399b8cf2f615ac658920373b714726bed0> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#Website.description";
   shacl:class rdf:langString;
   shacl:description "This property represents a free text description of the Website."@nl;
@@ -1395,7 +1423,8 @@
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#eli::LegalResourceShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#eli::LegalResourceShape/11960ef687afb16022eaa7f65b420fdac8dcb56d>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#eli::LegalResourceShape/347096d39de4bcd54b41468aae2aabd0070999a9>;
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#eli::LegalResourceShape/347096d39de4bcd54b41468aae2aabd0070999a9>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#eli::LegalResourceShape/c71284d6d508493899132c623a106c1b9a2ce54f>;
   shacl:targetClass <http://data.europa.eu/eli/ontology#LegalResource> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#eli::LegalResourceShape/11960ef687afb16022eaa7f65b420fdac8dcb56d> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#LegalResource.order";
@@ -1407,5 +1436,11 @@
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#eli::LegalResourceShape/347096d39de4bcd54b41468aae2aabd0070999a9> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#LegalResource.order";
   shacl:description "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."@nl;
   shacl:minCount 1;
+  shacl:name "order"@nl;
+  shacl:path shacl:order .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#eli::LegalResourceShape/c71284d6d508493899132c623a106c1b9a2ce54f> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#LegalResource.order";
+  shacl:datatype xsd:integer;
+  shacl:description "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."@nl;
   shacl:name "order"@nl;
   shacl:path shacl:order .

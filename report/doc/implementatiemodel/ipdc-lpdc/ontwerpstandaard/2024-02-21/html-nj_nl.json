@@ -2,7 +2,7 @@
   "metadata": {
     "title": "IPDC - LPDC (Implementatiemodel)",
     "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc",
-    "issued": "2024-02-28",
+    "issued": "2024-02-29",
     "baseURI": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#",
     "baseURIabbrev": "ipdcLpdc",
     "filename": "ipdc-lpdc-im",
@@ -15,8 +15,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/58aeef143cb4c21bf42a41e3128a8748aedab5a6",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/58aeef143cb4c21bf42a41e3128a8748aedab5a6/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/f50e3b4c52aacd72f8c992ea0155314f10ebcbec",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/f50e3b4c52aacd72f8c992ea0155314f10ebcbec/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -1295,8 +1295,21 @@
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage"
             }
           ],
-          "range": [],
-          "scopedrange": [],
+          "range": [
+            {
+              "range_label": "Integer",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#integer",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#integer",
+              "range_label": {
+                "nl": "Integer"
+              }
+            }
+          ],
           "cardinality": "1",
           "codelist_uri": "",
           "rawTags": {
@@ -2823,8 +2836,21 @@
               "uri": "http://data.europa.eu/eli/ontology#LegalResource"
             }
           ],
-          "range": [],
-          "scopedrange": [],
+          "range": [
+            {
+              "range_label": "Integer",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#integer",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#integer",
+              "range_label": {
+                "nl": "Integer"
+              }
+            }
+          ],
           "cardinality": "1",
           "codelist_uri": "",
           "rawTags": {
@@ -2870,8 +2896,21 @@
               "uri": "http://data.europa.eu/m8g/Cost"
             }
           ],
-          "range": [],
-          "scopedrange": [],
+          "range": [
+            {
+              "range_label": "Integer",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#integer",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#integer",
+              "range_label": {
+                "nl": "Integer"
+              }
+            }
+          ],
           "cardinality": "1",
           "codelist_uri": "",
           "rawTags": {
@@ -3453,8 +3492,21 @@
               "uri": "http://schema.org/ContactPoint"
             }
           ],
-          "range": [],
-          "scopedrange": [],
+          "range": [
+            {
+              "range_label": "Integer",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#integer",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#integer",
+              "range_label": {
+                "nl": "Integer"
+              }
+            }
+          ],
           "cardinality": "1",
           "codelist_uri": "",
           "rawTags": {
@@ -3663,8 +3715,21 @@
               "uri": "http://schema.org/WebSite"
             }
           ],
-          "range": [],
-          "scopedrange": [],
+          "range": [
+            {
+              "range_label": "Integer",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#integer",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#integer",
+              "range_label": {
+                "nl": "Integer"
+              }
+            }
+          ],
           "cardinality": "1",
           "codelist_uri": "",
           "rawTags": {

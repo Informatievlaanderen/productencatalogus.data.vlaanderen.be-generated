@@ -4912,7 +4912,7 @@
         },
         {
             "@id": "http://www.w3.org/ns/shacl#order",
-            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "order",
             "inpackage": "OTHER_PACKAGE",
             "label-nl": {
@@ -4934,11 +4934,11 @@
                 "EA-Type": "attribute",
                 "EA-Domain": "ContactPoint",
                 "EA-Domain-Guid": "{A87B22A4-91D0-494a-95F1-8C9B5CFAED6D}",
-                "EA-Range": "int",
+                "EA-Range": "Integer",
                 "RangeData": {
-                    "EA-Name": "",
+                    "EA-Name": "Integer",
                     "EA-Package": "",
-                    "uri": "null"
+                    "uri": "http://www.w3.org/2001/XMLSchema#integer"
                 },
                 "label": {
                     "nl": "order"
@@ -4987,14 +4987,20 @@
                     "EA-Name": "ContactPoint"
                 }
             ],
-            "range": [],
+            "range": [
+                {
+                    "EA-Name": "Integer",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
             "generalization": [],
             "minCardinality": "1",
             "maxCardinality": "1"
         },
         {
             "@id": "http://www.w3.org/ns/shacl#order",
-            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "order",
             "inpackage": "OTHER_PACKAGE",
             "label-nl": {
@@ -5016,11 +5022,11 @@
                 "EA-Type": "attribute",
                 "EA-Domain": "eli::LegalResource",
                 "EA-Domain-Guid": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
-                "EA-Range": "int",
+                "EA-Range": "Integer",
                 "RangeData": {
-                    "EA-Name": "",
+                    "EA-Name": "Integer",
                     "EA-Package": "",
-                    "uri": "null"
+                    "uri": "http://www.w3.org/2001/XMLSchema#integer"
                 },
                 "label": {
                     "nl": "order"
@@ -5069,14 +5075,20 @@
                     "EA-Name": "eli::LegalResource"
                 }
             ],
-            "range": [],
+            "range": [
+                {
+                    "EA-Name": "Integer",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
             "generalization": [],
             "minCardinality": "1",
             "maxCardinality": "1"
         },
         {
             "@id": "http://www.w3.org/ns/shacl#order",
-            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "order",
             "inpackage": "OTHER_PACKAGE",
             "label-nl": {
@@ -5098,11 +5110,11 @@
                 "EA-Type": "attribute",
                 "EA-Domain": "FinancialAdvantage",
                 "EA-Domain-Guid": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
-                "EA-Range": "int",
+                "EA-Range": "Integer",
                 "RangeData": {
-                    "EA-Name": "",
+                    "EA-Name": "Integer",
                     "EA-Package": "",
-                    "uri": "null"
+                    "uri": "http://www.w3.org/2001/XMLSchema#integer"
                 },
                 "label": {
                     "nl": "order"
@@ -5151,14 +5163,20 @@
                     "EA-Name": "FinancialAdvantage"
                 }
             ],
-            "range": [],
+            "range": [
+                {
+                    "EA-Name": "Integer",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
             "generalization": [],
             "minCardinality": "1",
             "maxCardinality": "1"
         },
         {
             "@id": "http://www.w3.org/ns/shacl#order",
-            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "order",
             "inpackage": "OTHER_PACKAGE",
             "label-nl": {
@@ -5180,11 +5198,11 @@
                 "EA-Type": "attribute",
                 "EA-Domain": "Cost",
                 "EA-Domain-Guid": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
-                "EA-Range": "int",
+                "EA-Range": "Integer",
                 "RangeData": {
-                    "EA-Name": "",
+                    "EA-Name": "Integer",
                     "EA-Package": "",
-                    "uri": "null"
+                    "uri": "http://www.w3.org/2001/XMLSchema#integer"
                 },
                 "label": {
                     "nl": "order"
@@ -5233,14 +5251,20 @@
                     "EA-Name": "Cost"
                 }
             ],
-            "range": [],
+            "range": [
+                {
+                    "EA-Name": "Integer",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
             "generalization": [],
             "minCardinality": "1",
             "maxCardinality": "1"
         },
         {
             "@id": "http://www.w3.org/ns/shacl#order",
-            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "order",
             "inpackage": "OTHER_PACKAGE",
             "label-nl": {
@@ -5262,11 +5286,11 @@
                 "EA-Type": "attribute",
                 "EA-Domain": "Website",
                 "EA-Domain-Guid": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
-                "EA-Range": "int",
+                "EA-Range": "Integer",
                 "RangeData": {
-                    "EA-Name": "",
+                    "EA-Name": "Integer",
                     "EA-Package": "",
-                    "uri": "null"
+                    "uri": "http://www.w3.org/2001/XMLSchema#integer"
                 },
                 "label": {
                     "nl": "order"
@@ -5315,7 +5339,13 @@
                     "EA-Name": "Website"
                 }
             ],
-            "range": [],
+            "range": [
+                {
+                    "EA-Name": "Integer",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
             "generalization": [],
             "minCardinality": "1",
             "maxCardinality": "1"
@@ -11076,7 +11106,7 @@
     "template": "ipdc-lpdc-voc.j2",
     "title": "IPDC - LPDC (Vocabularium)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-    "publication-date": "2024-02-28",
+    "publication-date": "2024-02-29",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "Contribution",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
@@ -11085,12 +11115,12 @@
     "config": "config/config-voc.json",
     "branchtag": "main",
     "disabled": false,
-    "dummy": "004",
+    "dummy": "005",
     "filename": "config/ipdc-lpdc-voc.json",
     "navigation": {},
     "repository": "https://github.com/Informatievlaanderen/ipdc-lpdc",
     "urlref": "/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-02-21",
-    "documentcommit": "58aeef143cb4c21bf42a41e3128a8748aedab5a6",
-    "toolchaincommit": "3d487baf7eb4c1db9da6ae7a1524391b9871a31d",
+    "documentcommit": "f50e3b4c52aacd72f8c992ea0155314f10ebcbec",
+    "toolchaincommit": "bae9e261a57c7f7fb3f6c9989f51733f7e3d79d8",
     "hostname": "https://productencatalogus.data.test-vlaanderen.be/"
 }

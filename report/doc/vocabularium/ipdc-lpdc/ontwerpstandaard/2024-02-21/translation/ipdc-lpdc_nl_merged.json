@@ -515,8 +515,8 @@
   "dependencies": [],
   "diagram": "ipdc-lpdc-ap",
   "disabled": false,
-  "documentcommit": "58aeef143cb4c21bf42a41e3128a8748aedab5a6",
-  "dummy": "004",
+  "documentcommit": "f50e3b4c52aacd72f8c992ea0155314f10ebcbec",
+  "dummy": "005",
   "eap": "IPDC-LPDC-AP.eap",
   "editors": [
     {
@@ -1269,7 +1269,7 @@
     },
     {
       "@id": "http://www.w3.org/ns/shacl#order",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{014618E4-5E49-45c9-90CB-D94CA9CC28AE}",
       "codelist": [],
       "definition": {
@@ -1290,12 +1290,12 @@
         "EA-Guid": "{014618E4-5E49-45c9-90CB-D94CA9CC28AE}",
         "EA-Name": "order",
         "EA-Package": "IPDC-LPDC",
-        "EA-Range": "int",
+        "EA-Range": "Integer",
         "EA-Type": "attribute",
         "RangeData": {
-          "EA-Name": "",
+          "EA-Name": "Integer",
           "EA-Package": "",
-          "uri": "null"
+          "uri": "http://www.w3.org/2001/XMLSchema#integer"
         },
         "RawTags": [
           {
@@ -1348,11 +1348,17 @@
       "maxCardinality": "1",
       "minCardinality": "1",
       "name": "order",
-      "range": []
+      "range": [
+        {
+          "EA-Name": "Integer",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      ]
     },
     {
       "@id": "http://www.w3.org/ns/shacl#order",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{02378DF6-6E08-44c0-9496-F93F002F0BB0}",
       "codelist": [],
       "definition": {
@@ -1373,12 +1379,12 @@
         "EA-Guid": "{02378DF6-6E08-44c0-9496-F93F002F0BB0}",
         "EA-Name": "order",
         "EA-Package": "IPDC-LPDC",
-        "EA-Range": "int",
+        "EA-Range": "Integer",
         "EA-Type": "attribute",
         "RangeData": {
-          "EA-Name": "",
+          "EA-Name": "Integer",
           "EA-Package": "",
-          "uri": "null"
+          "uri": "http://www.w3.org/2001/XMLSchema#integer"
         },
         "RawTags": [
           {
@@ -1431,11 +1437,17 @@
       "maxCardinality": "1",
       "minCardinality": "1",
       "name": "order",
-      "range": []
+      "range": [
+        {
+          "EA-Name": "Integer",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      ]
     },
     {
       "@id": "http://www.w3.org/ns/shacl#order",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{EAB20049-4406-4abf-8738-56069F1C4E03}",
       "codelist": [],
       "definition": {
@@ -1456,12 +1468,12 @@
         "EA-Guid": "{EAB20049-4406-4abf-8738-56069F1C4E03}",
         "EA-Name": "order",
         "EA-Package": "IPDC-LPDC",
-        "EA-Range": "int",
+        "EA-Range": "Integer",
         "EA-Type": "attribute",
         "RangeData": {
-          "EA-Name": "",
+          "EA-Name": "Integer",
           "EA-Package": "",
-          "uri": "null"
+          "uri": "http://www.w3.org/2001/XMLSchema#integer"
         },
         "RawTags": [
           {
@@ -1514,11 +1526,17 @@
       "maxCardinality": "1",
       "minCardinality": "1",
       "name": "order",
-      "range": []
+      "range": [
+        {
+          "EA-Name": "Integer",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      ]
     },
     {
       "@id": "http://www.w3.org/ns/shacl#order",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{EC2AFECD-FA56-4b0b-BED3-0FF78DE3EFAE}",
       "codelist": [],
       "definition": {
@@ -1539,12 +1557,12 @@
         "EA-Guid": "{EC2AFECD-FA56-4b0b-BED3-0FF78DE3EFAE}",
         "EA-Name": "order",
         "EA-Package": "IPDC-LPDC",
-        "EA-Range": "int",
+        "EA-Range": "Integer",
         "EA-Type": "attribute",
         "RangeData": {
-          "EA-Name": "",
+          "EA-Name": "Integer",
           "EA-Package": "",
-          "uri": "null"
+          "uri": "http://www.w3.org/2001/XMLSchema#integer"
         },
         "RawTags": [
           {
@@ -1597,11 +1615,17 @@
       "maxCardinality": "1",
       "minCardinality": "1",
       "name": "order",
-      "range": []
+      "range": [
+        {
+          "EA-Name": "Integer",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      ]
     },
     {
       "@id": "http://www.w3.org/ns/shacl#order",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{B4478DC6-209B-4978-8034-2FC29E35A60E}",
       "codelist": [],
       "definition": {
@@ -1622,12 +1646,12 @@
         "EA-Guid": "{B4478DC6-209B-4978-8034-2FC29E35A60E}",
         "EA-Name": "order",
         "EA-Package": "IPDC-LPDC",
-        "EA-Range": "int",
+        "EA-Range": "Integer",
         "EA-Type": "attribute",
         "RangeData": {
-          "EA-Name": "",
+          "EA-Name": "Integer",
           "EA-Package": "",
-          "uri": "null"
+          "uri": "http://www.w3.org/2001/XMLSchema#integer"
         },
         "RawTags": [
           {
@@ -1680,7 +1704,13 @@
       "maxCardinality": "1",
       "minCardinality": "1",
       "name": "order",
-      "range": []
+      "range": [
+        {
+          "EA-Name": "Integer",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      ]
     },
     {
       "@id": "http://www.w3.org/ns/prov#generatedAtTime",
@@ -11199,7 +11229,7 @@
       }
     }
   ],
-  "publication-date": "2024-02-28",
+  "publication-date": "2024-02-29",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "repository": "https://github.com/Informatievlaanderen/ipdc-lpdc",
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
@@ -11208,7 +11238,7 @@
   "title-nl": {
     "nl": "TODO"
   },
-  "toolchaincommit": "3d487baf7eb4c1db9da6ae7a1524391b9871a31d",
+  "toolchaincommit": "bae9e261a57c7f7fb3f6c9989f51733f7e3d79d8",
   "translation": [
     {
       "language": "nl",

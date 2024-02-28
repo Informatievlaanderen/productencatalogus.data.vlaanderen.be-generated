@@ -842,6 +842,18 @@
             "nl": "order"
           },
           "sh:path": "http://www.w3.org/ns/shacl#order"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#FinancialAdvantageShape/c71284d6d508493899132c623a106c1b9a2ce54f",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#FinancialAdvantage.order",
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "sh:description": {
+            "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+          },
+          "sh:name": {
+            "nl": "order"
+          },
+          "sh:path": "http://www.w3.org/ns/shacl#order"
         }
       ],
       "sh:targetClass": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage"
@@ -1598,6 +1610,18 @@
             "nl": "order"
           },
           "sh:path": "http://www.w3.org/ns/shacl#order"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#eli::LegalResourceShape/c71284d6d508493899132c623a106c1b9a2ce54f",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#LegalResource.order",
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "sh:description": {
+            "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+          },
+          "sh:name": {
+            "nl": "order"
+          },
+          "sh:path": "http://www.w3.org/ns/shacl#order"
         }
       ],
       "sh:targetClass": "http://data.europa.eu/eli/ontology#LegalResource"
@@ -1698,6 +1722,18 @@
             "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
           },
           "sh:minCount": "1",
+          "sh:name": {
+            "nl": "order"
+          },
+          "sh:path": "http://www.w3.org/ns/shacl#order"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#CostShape/c71284d6d508493899132c623a106c1b9a2ce54f",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#Cost.order",
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "sh:description": {
+            "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+          },
           "sh:name": {
             "nl": "order"
           },
@@ -2115,6 +2151,18 @@
           "sh:path": "http://www.w3.org/ns/shacl#order"
         },
         {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ContactPointShape/c71284d6d508493899132c623a106c1b9a2ce54f",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ContactPoint.order",
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "sh:description": {
+            "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+          },
+          "sh:name": {
+            "nl": "order"
+          },
+          "sh:path": "http://www.w3.org/ns/shacl#order"
+        },
+        {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ContactPointShape/9ac9603e91a4902c78c494481f57fa4967e5a3a5",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ContactPoint.website",
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
@@ -2261,6 +2309,18 @@
             "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
           },
           "sh:minCount": "1",
+          "sh:name": {
+            "nl": "order"
+          },
+          "sh:path": "http://www.w3.org/ns/shacl#order"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#WebsiteShape/c71284d6d508493899132c623a106c1b9a2ce54f",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#Website.order",
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "sh:description": {
+            "nl": "Specifies the relative order of this compared to its siblings. For example use 0 for the first, 1 for the second."
+          },
           "sh:name": {
             "nl": "order"
           },

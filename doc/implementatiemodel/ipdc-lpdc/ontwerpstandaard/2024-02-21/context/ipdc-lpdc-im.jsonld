@@ -188,7 +188,8 @@
           "@type": "http://www.w3.org/2001/XMLSchema#string"
         },
         "order": {
-          "@id": "http://www.w3.org/ns/shacl#order"
+          "@id": "http://www.w3.org/ns/shacl#order",
+          "@type": "http://www.w3.org/2001/XMLSchema#integer"
         },
         "website": {
           "@id": "http://schema.org/url",
@@ -208,7 +209,8 @@
           "@type": "@id"
         },
         "order": {
-          "@id": "http://www.w3.org/ns/shacl#order"
+          "@id": "http://www.w3.org/ns/shacl#order",
+          "@type": "http://www.w3.org/2001/XMLSchema#integer"
         }
       },
       "@id": "http://data.europa.eu/m8g/Cost"
@@ -238,7 +240,8 @@
           "@type": "@id"
         },
         "order": {
-          "@id": "http://www.w3.org/ns/shacl#order"
+          "@id": "http://www.w3.org/ns/shacl#order",
+          "@type": "http://www.w3.org/2001/XMLSchema#integer"
         }
       },
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage"
@@ -405,7 +408,8 @@
     "LegalResource": {
       "@context": {
         "order": {
-          "@id": "http://www.w3.org/ns/shacl#order"
+          "@id": "http://www.w3.org/ns/shacl#order",
+          "@type": "http://www.w3.org/2001/XMLSchema#integer"
         }
       },
       "@id": "http://data.europa.eu/eli/ontology#LegalResource"
@@ -466,7 +470,8 @@
           "@type": "@id"
         },
         "order": {
-          "@id": "http://www.w3.org/ns/shacl#order"
+          "@id": "http://www.w3.org/ns/shacl#order",
+          "@type": "http://www.w3.org/2001/XMLSchema#integer"
         }
       },
       "@id": "http://schema.org/WebSite"
