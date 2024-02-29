@@ -412,7 +412,7 @@
         "fr": "Enter your translation here"
       },
       "usage": {
-        "nl": "Link naar de Vlaamse Codex - The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology.",
+        "nl": "Link naar de Vlaamse Codex of een ander wetgevingsregsiter - The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology.",
         "fr": "Enter your translation here"
       }
     },
@@ -452,11 +452,11 @@
         "fr": "Enter your translation here"
       },
       "definition": {
-        "nl": "Een organisatie die volgens een wettelijk kader behoort tot de publieke sector,ongeacht het bestuursniveau waarop dat kader van kracht is.",
+        "nl": "Een organisatie die volgens een wettelijk kader behoort tot de publieke sector, ongeacht het bestuursniveau waarop dat kader van kracht is.",
         "fr": "Enter your translation here"
       },
       "usage": {
-        "nl": "OVO code uit het organisatieregister of link naar het organisatieportaal",
+        "nl": "Link naar het organisatieregister (wegwijs) op basis van de OVO code of link naar het organisatieportaal. Waar mogeijk probeert IPDC links naar het organisatieregister te leggen. Wanneer IPDC een link naar het organisatieportaal ontvangt probeert het de organisatie op te zoeken in het organisatieregister. Wanneer deze gevonden wordt zal de link naar het organisatieregister bewaard worden anders blijft de link naar het organisatieportaal behouden.",
         "fr": "Enter your translation here"
       }
     },
@@ -736,6 +736,10 @@
       "label": {
         "nl": "hasExecutingAuthority",
         "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Links naar de uitvoerende organisaties",
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -743,6 +747,10 @@
       "name": "hasexecutingauthority",
       "label": {
         "nl": "hasExecutingAuthority",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Links naar de uitvoerende organisaties",
         "fr": "Enter your translation here"
       }
     },

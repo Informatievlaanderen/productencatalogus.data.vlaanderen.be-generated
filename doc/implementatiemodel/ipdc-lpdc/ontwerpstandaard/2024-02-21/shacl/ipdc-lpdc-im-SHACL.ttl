@@ -328,6 +328,7 @@
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceShape/7b057073dff0413944b0d904c07cc203f5638500> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicService.hasExecutingAuthority";
   shacl:class <http://data.europa.eu/m8g/PublicOrganisation>;
+  shacl:description "Links naar de uitvoerende organisaties"@nl;
   shacl:name "hasExecutingAuthority"@nl;
   shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority> .
 
@@ -1023,6 +1024,7 @@
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceShape/7b057073dff0413944b0d904c07cc203f5638500> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicService.hasExecutingAuthority";
   shacl:class <http://data.europa.eu/m8g/PublicOrganisation>;
+  shacl:description "Links naar de uitvoerende organisaties"@nl;
   shacl:name "hasExecutingAuthority"@nl;
   shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority> .
 

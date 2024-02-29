@@ -517,8 +517,8 @@
   "dependencies": [],
   "diagram": "ipdc-lpdc-ap",
   "disabled": false,
-  "documentcommit": "011ad067966a573f260e9545838f4b6ebf28f450",
-  "dummy": "015",
+  "documentcommit": "589291336744553fa3ff059b8f791001b8057014",
+  "dummy": "016",
   "eap": "IPDC-LPDC-AP.eap",
   "editors": [
     {
@@ -732,12 +732,15 @@
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
       "ap-definition-nl": {
-        "nl": "TODO"
+        "nl": "Links naar de uitvoerende organisaties"
       },
       "ap-label-nl": {
         "nl": "hasExecutingAuthority"
       },
       "codelist": [],
+      "definition": {
+        "nl": "Links naar de uitvoerende organisaties"
+      },
       "domain": [
         {
           "EA-Name": "ConceptualPublicService",
@@ -769,18 +772,25 @@
             "key": "uri",
             "note": "null",
             "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Links naar de uitvoerende organisaties"
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-nl": {
-          "nl": "TODO"
+          "nl": "Links naar de uitvoerende organisaties"
         },
         "ap-label-nl": {
           "nl": "hasExecutingAuthority"
         },
         "ap-usageNote-nl": "",
-        "definition": "",
+        "definition": {
+          "nl": "Links naar de uitvoerende organisaties"
+        },
         "derived": "false",
         "destRole": "null",
         "label": {
@@ -811,12 +821,15 @@
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
       "ap-definition-nl": {
-        "nl": "TODO"
+        "nl": "Links naar de uitvoerende organisaties"
       },
       "ap-label-nl": {
         "nl": "hasExecutingAuthority"
       },
       "codelist": [],
+      "definition": {
+        "nl": "Links naar de uitvoerende organisaties"
+      },
       "domain": [
         {
           "EA-Name": "InstancePublicService",
@@ -848,18 +861,25 @@
             "key": "uri",
             "note": "null",
             "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Links naar de uitvoerende organisaties"
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-nl": {
-          "nl": "TODO"
+          "nl": "Links naar de uitvoerende organisaties"
         },
         "ap-label-nl": {
           "nl": "hasExecutingAuthority"
         },
         "ap-usageNote-nl": "",
-        "definition": "",
+        "definition": {
+          "nl": "Links naar de uitvoerende organisaties"
+        },
         "derived": "false",
         "destRole": "null",
         "label": {
@@ -7212,7 +7232,7 @@
           },
           {
             "key": "usageNote-nl",
-            "note": "Link naar de Vlaamse Codex - The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology.",
+            "note": "Link naar de Vlaamse Codex of een ander wetgevingsregsiter - The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology.",
             "value": "NOTE"
           },
           {
@@ -7238,7 +7258,7 @@
         },
         "parentclasses": "",
         "usage": {
-          "nl": "Link naar de Vlaamse Codex - The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology."
+          "nl": "Link naar de Vlaamse Codex of een ander wetgevingsregsiter - The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology."
         }
       },
       "inpackage": "OTHER_PACKAGE",
@@ -7247,7 +7267,7 @@
       },
       "name": "Legalresource",
       "usage": {
-        "nl": "Link naar de Vlaamse Codex - The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology."
+        "nl": "Link naar de Vlaamse Codex of een ander wetgevingsregsiter - The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology."
       }
     },
     {
@@ -7387,13 +7407,13 @@
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
       "ap-definition-nl": {
-        "nl": "Een organisatie die volgens een wettelijk kader behoort tot de publieke sector,ongeacht het bestuursniveau waarop dat kader van kracht is."
+        "nl": "Een organisatie die volgens een wettelijk kader behoort tot de publieke sector, ongeacht het bestuursniveau waarop dat kader van kracht is."
       },
       "ap-label-nl": {
         "nl": "PubliekeOrganisatie"
       },
       "definition": {
-        "nl": "Een organisatie die volgens een wettelijk kader behoort tot de publieke sector,ongeacht het bestuursniveau waarop dat kader van kracht is."
+        "nl": "Een organisatie die volgens een wettelijk kader behoort tot de publieke sector, ongeacht het bestuursniveau waarop dat kader van kracht is."
       },
       "extra": {
         "EA-Guid": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
@@ -7406,7 +7426,7 @@
           {
             "key": "definition-nl",
             "note": "null",
-            "value": "Een organisatie die volgens een wettelijk kader behoort tot de publieke sector,ongeacht het bestuursniveau waarop dat kader van kracht is."
+            "value": "Een organisatie die volgens een wettelijk kader behoort tot de publieke sector, ongeacht het bestuursniveau waarop dat kader van kracht is."
           },
           {
             "key": "uri",
@@ -7420,28 +7440,28 @@
           },
           {
             "key": "usageNote-nl",
-            "note": "null",
-            "value": "OVO code uit het organisatieregister of link naar het organisatieportaal"
+            "note": "Link naar het organisatieregister (wegwijs) op basis van de OVO code of link naar het organisatieportaal. Waar mogeijk probeert IPDC links naar het organisatieregister te leggen. Wanneer IPDC een link naar het organisatieportaal ontvangt probeert het de organisatie op te zoeken in het organisatieregister. Wanneer deze gevonden wordt zal de link naar het organisatieregister bewaard worden anders blijft de link naar het organisatieportaal behouden.",
+            "value": "NOTE"
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-nl": {
-          "nl": "Een organisatie die volgens een wettelijk kader behoort tot de publieke sector,ongeacht het bestuursniveau waarop dat kader van kracht is."
+          "nl": "Een organisatie die volgens een wettelijk kader behoort tot de publieke sector, ongeacht het bestuursniveau waarop dat kader van kracht is."
         },
         "ap-label-nl": {
           "nl": "PubliekeOrganisatie"
         },
         "ap-usageNote-nl": "",
         "definition": {
-          "nl": "Een organisatie die volgens een wettelijk kader behoort tot de publieke sector,ongeacht het bestuursniveau waarop dat kader van kracht is."
+          "nl": "Een organisatie die volgens een wettelijk kader behoort tot de publieke sector, ongeacht het bestuursniveau waarop dat kader van kracht is."
         },
         "label": {
           "nl": "PubliekeOrganisatie"
         },
         "parentclasses": "",
         "usage": {
-          "nl": "OVO code uit het organisatieregister of link naar het organisatieportaal"
+          "nl": "Link naar het organisatieregister (wegwijs) op basis van de OVO code of link naar het organisatieportaal. Waar mogeijk probeert IPDC links naar het organisatieregister te leggen. Wanneer IPDC een link naar het organisatieportaal ontvangt probeert het de organisatie op te zoeken in het organisatieregister. Wanneer deze gevonden wordt zal de link naar het organisatieregister bewaard worden anders blijft de link naar het organisatieportaal behouden."
         }
       },
       "inpackage": "OTHER_PACKAGE",
@@ -7450,7 +7470,7 @@
       },
       "name": "Publiekeorganisatie",
       "usage": {
-        "nl": "OVO code uit het organisatieregister of link naar het organisatieportaal"
+        "nl": "Link naar het organisatieregister (wegwijs) op basis van de OVO code of link naar het organisatieportaal. Waar mogeijk probeert IPDC links naar het organisatieregister te leggen. Wanneer IPDC een link naar het organisatieportaal ontvangt probeert het de organisatie op te zoeken in het organisatieregister. Wanneer deze gevonden wordt zal de link naar het organisatieregister bewaard worden anders blijft de link naar het organisatieportaal behouden."
       }
     },
     {
@@ -10519,7 +10539,7 @@
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
   "template": "ipdc-lpdc-im.j2",
   "title": "IPDC - LPDC (Implementatiemodel)",
-  "toolchaincommit": "ea7b87eda4a701bc1642e8ac2fb9e02da96c2086",
+  "toolchaincommit": "fffbad8ab9d0176b7d36100383e9ba3d3def857a",
   "translation": [
     {
       "language": "nl",

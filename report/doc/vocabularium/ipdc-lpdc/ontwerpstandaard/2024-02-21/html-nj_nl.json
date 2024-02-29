@@ -12,8 +12,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/011ad067966a573f260e9545838f4b6ebf28f450",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/011ad067966a573f260e9545838f4b6ebf28f450/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/589291336744553fa3ff059b8f791001b8057014",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/589291336744553fa3ff059b8f791001b8057014/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -670,7 +670,7 @@
         "nl": "This class represents the legislation, policy or policies that lie behind the Rules that govern the service."
       },
       "usage": {
-        "nl": "Link naar de Vlaamse Codex - The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology."
+        "nl": "Link naar de Vlaamse Codex of een ander wetgevingsregsiter - The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology."
       },
       "sort": "LegalResource",
       "indvl": false,
