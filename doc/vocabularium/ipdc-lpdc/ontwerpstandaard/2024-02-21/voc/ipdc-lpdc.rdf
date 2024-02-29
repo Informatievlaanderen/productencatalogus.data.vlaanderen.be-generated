@@ -505,7 +505,7 @@
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
     <rdfs:label xml:lang="nl">publicationMedium</rdfs:label>
     <rdfs:comment xml:lang="nl">Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.</rdfs:comment>
-    <ns1:usageNote xml:lang="nl">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</ns1:usageNote>
+    <ns1:usageNote xml:lang="nl">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn.</ns1:usageNote>
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"/>
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"/>
     <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>

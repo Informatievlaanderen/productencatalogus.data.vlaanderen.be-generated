@@ -135,7 +135,7 @@ skos:Concept a rdfs:Class;
 
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> a owl:ObjectProperty;
   rdfs:label "publicationMedium"@nl;
-  <http://purl.org/vocab/vann/usageNote> "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."@nl;
+  <http://purl.org/vocab/vann/usageNote> "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."@nl;
   rdfs:comment "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."@nl;
   rdfs:domain <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService>,
     <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService>;

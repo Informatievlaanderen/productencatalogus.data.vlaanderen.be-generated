@@ -125,7 +125,7 @@
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> <http://www.w3.org/2000/01/rdf-schema#label> "publicationMedium"@nl .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> <http://www.w3.org/2000/01/rdf-schema#comment> "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."@nl .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> <http://purl.org/vocab/vann/usageNote> "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."@nl .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> <http://purl.org/vocab/vann/usageNote> "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."@nl .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .

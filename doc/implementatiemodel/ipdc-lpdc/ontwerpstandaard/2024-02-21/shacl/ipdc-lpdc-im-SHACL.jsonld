@@ -519,7 +519,7 @@
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceShape/2476d2d34ae8e09236f4b9e647311fcf62b60104",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicService.productNumber",
           "sh:description": {
-            "nl": "Uniek nummer om op een unieke manier een instantie of concept te identificeren."
+            "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
           },
           "sh:maxCount": "1",
           "sh:name": {
@@ -531,7 +531,7 @@
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceShape/5ce6872f0ac03a81b53cfc0943fc8786e99553bd",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicService.productNumber",
           "sh:description": {
-            "nl": "Uniek nummer om op een unieke manier een instantie of concept te identificeren."
+            "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
           },
           "sh:minCount": "1",
           "sh:name": {
@@ -544,7 +544,7 @@
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicService.productNumber",
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:description": {
-            "nl": "Uniek nummer om op een unieke manier een instantie of concept te identificeren."
+            "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
           },
           "sh:name": {
             "nl": "productNumber"
@@ -1347,7 +1347,7 @@
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceShape/2476d2d34ae8e09236f4b9e647311fcf62b60104",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicService.productNumber",
           "sh:description": {
-            "nl": "Uniek nummer om op een unieke manier een instantie of concept te identificeren."
+            "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
           },
           "sh:maxCount": "1",
           "sh:name": {
@@ -1359,7 +1359,7 @@
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceShape/5ce6872f0ac03a81b53cfc0943fc8786e99553bd",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicService.productNumber",
           "sh:description": {
-            "nl": "Uniek nummer om op een unieke manier een instantie of concept te identificeren."
+            "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
           },
           "sh:minCount": "1",
           "sh:name": {
@@ -1372,7 +1372,7 @@
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicService.productNumber",
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:description": {
-            "nl": "Uniek nummer om op een unieke manier een instantie of concept te identificeren."
+            "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
           },
           "sh:name": {
             "nl": "productNumber"

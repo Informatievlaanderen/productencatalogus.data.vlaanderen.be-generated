@@ -560,8 +560,8 @@
   "dependencies": [],
   "diagram": "ipdc-lpdc-ap",
   "disabled": false,
-  "documentcommit": "e2448284a48a80431dfdabd39ae39509e7bcc154",
-  "dummy": "012",
+  "documentcommit": "4230162e654b5965ea15014347df262aa349115f",
+  "dummy": "013",
   "eap": "IPDC-LPDC-AP.eap",
   "editors": [
     {
@@ -2255,7 +2255,7 @@
     {
       "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
+      "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
       "codelist": [],
       "definition": {
         "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
@@ -2265,15 +2265,15 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
         "EA-Name": "hasMoreInfo",
         "EA-Package": "",
         "EA-Range": "Website",
@@ -2350,7 +2350,7 @@
     {
       "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
+      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
       "codelist": [],
       "definition": {
         "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
@@ -2360,15 +2360,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+          "EA-Name": "ConceptualPublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
         "EA-Name": "hasMoreInfo",
         "EA-Package": "",
         "EA-Range": "Website",
@@ -3113,10 +3113,10 @@
       "EA-Guid": "{82526185-873F-473a-990C-8F7FF830A023}",
       "codelist": [],
       "definition": {
-        "nl": "Uniek nummer om op een unieke manier een instantie of concept te identificeren."
+        "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
       },
       "definition-nl": {
-        "nl": "Uniek nummer om op een unieke manier een instantie of concept te identificeren."
+        "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
       },
       "domain": [
         {
@@ -3151,7 +3151,7 @@
           {
             "key": "definition-nl",
             "note": "null",
-            "value": "Uniek nummer om op een unieke manier een instantie of concept te identificeren."
+            "value": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
           },
           {
             "key": "usageNote-nl",
@@ -3161,11 +3161,11 @@
         ],
         "Scope": "TRANSLATIONS_ONLY",
         "definition": {
-          "nl": "Uniek nummer om op een unieke manier een instantie of concept te identificeren."
+          "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
         },
         "definition-en": "",
         "definition-nl": {
-          "nl": "Uniek nummer om op een unieke manier een instantie of concept te identificeren."
+          "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
         },
         "equivalent": "",
         "label": {
@@ -3217,10 +3217,10 @@
       "EA-Guid": "{A44DDC22-0861-4f4f-B3BF-348EBA5D961D}",
       "codelist": [],
       "definition": {
-        "nl": "Uniek nummer om op een unieke manier een instantie of concept te identificeren."
+        "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
       },
       "definition-nl": {
-        "nl": "Uniek nummer om op een unieke manier een instantie of concept te identificeren."
+        "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
       },
       "domain": [
         {
@@ -3250,7 +3250,7 @@
           {
             "key": "definition-nl",
             "note": "null",
-            "value": "Uniek nummer om op een unieke manier een instantie of concept te identificeren."
+            "value": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
           },
           {
             "key": "label-nl",
@@ -3265,11 +3265,11 @@
         ],
         "Scope": "TRANSLATIONS_ONLY",
         "definition": {
-          "nl": "Uniek nummer om op een unieke manier een instantie of concept te identificeren."
+          "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
         },
         "definition-en": "",
         "definition-nl": {
-          "nl": "Uniek nummer om op een unieke manier een instantie of concept te identificeren."
+          "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
         },
         "equivalent": "",
         "label": {
@@ -4075,7 +4075,7 @@
     {
       "@id": "http://purl.org/vocab/cpsv#produces",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
       "codelist": [],
       "definition": {
         "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
@@ -4085,15 +4085,15 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
         "EA-Name": "produces",
         "EA-Package": "",
         "EA-Range": "FinancialAdvantage",
@@ -4170,7 +4170,7 @@
     {
       "@id": "http://purl.org/vocab/cpsv#produces",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
       "codelist": [],
       "definition": {
         "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
@@ -4180,15 +4180,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+          "EA-Name": "ConceptualPublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
         "EA-Name": "produces",
         "EA-Package": "",
         "EA-Range": "FinancialAdvantage",
@@ -5596,101 +5596,6 @@
     {
       "@id": "http://purl.org/dc/terms/isVersionOf",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{55F34410-3DA0-42fc-A8AD-E43C9735D39E}",
-      "codelist": [],
-      "definition": {
-        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-      },
-      "definition-nl": {
-        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-      },
-      "domain": [
-        {
-          "EA-Name": "InstancePublicServiceSnapshot",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [],
-        "EA-Domain": "InstancePublicServiceSnapshot",
-        "EA-Domain-Guid": "{E861DC27-6881-4243-94C4-EF004C4DF728}",
-        "EA-Guid": "{55F34410-3DA0-42fc-A8AD-E43C9735D39E}",
-        "EA-Name": "isVersionOf",
-        "EA-Package": "",
-        "EA-Range": "InstancePublicService",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-          "EA-Name": "InstancePublicService",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-        },
-        "RawTags": [
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "isVersionOf"
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-          },
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://purl.org/dc/terms/isVersionOf"
-          }
-        ],
-        "Scope": "TRANSLATIONS_ONLY",
-        "definition": {
-          "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-        },
-        "definition-en": "",
-        "definition-nl": {
-          "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-        },
-        "derived": "false",
-        "destRole": "null",
-        "equivalent": "",
-        "label": {
-          "nl": "isVersionOf"
-        },
-        "label-en": "",
-        "label-nl": {
-          "nl": "isVersionOf"
-        },
-        "sameAs": "",
-        "sourceRole": "null",
-        "subclass": "",
-        "subclass1": "",
-        "usage": "",
-        "usageNote-en": "",
-        "usageNote-nl": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "nl": "isVersionOf"
-      },
-      "label-nl": {
-        "nl": "isVersionOf"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "1",
-      "name": "isversionof",
-      "range": [
-        {
-          "EA-GUID": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-          "EA-Name": "InstancePublicService",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-        }
-      ]
-    },
-    {
-      "@id": "http://purl.org/dc/terms/isVersionOf",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
       "codelist": [],
       "definition": {
@@ -5780,6 +5685,101 @@
           "EA-Name": "ConceptualPublicService",
           "EA-Package": "IPDC-LPDC",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+        }
+      ]
+    },
+    {
+      "@id": "http://purl.org/dc/terms/isVersionOf",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{55F34410-3DA0-42fc-A8AD-E43C9735D39E}",
+      "codelist": [],
+      "definition": {
+        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+      },
+      "definition-nl": {
+        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+      },
+      "domain": [
+        {
+          "EA-Name": "InstancePublicServiceSnapshot",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "InstancePublicServiceSnapshot",
+        "EA-Domain-Guid": "{E861DC27-6881-4243-94C4-EF004C4DF728}",
+        "EA-Guid": "{55F34410-3DA0-42fc-A8AD-E43C9735D39E}",
+        "EA-Name": "isVersionOf",
+        "EA-Package": "",
+        "EA-Range": "InstancePublicService",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+          "EA-Name": "InstancePublicService",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+        },
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "isVersionOf"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://purl.org/dc/terms/isVersionOf"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "definition": {
+          "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        },
+        "definition-en": "",
+        "definition-nl": {
+          "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        },
+        "derived": "false",
+        "destRole": "null",
+        "equivalent": "",
+        "label": {
+          "nl": "isVersionOf"
+        },
+        "label-en": "",
+        "label-nl": {
+          "nl": "isVersionOf"
+        },
+        "sameAs": "",
+        "sourceRole": "null",
+        "subclass": "",
+        "subclass1": "",
+        "usage": "",
+        "usageNote-en": "",
+        "usageNote-nl": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "nl": "isVersionOf"
+      },
+      "label-nl": {
+        "nl": "isVersionOf"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "isversionof",
+      "range": [
+        {
+          "EA-GUID": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+          "EA-Name": "InstancePublicService",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ]
     },
@@ -6988,11 +6988,6 @@
             "value": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
           },
           {
-            "key": "usageNote-nl",
-            "note": "null",
-            "value": "Link naar de Vlaamse Codex"
-          },
-          {
             "key": "label-nl",
             "note": "null",
             "value": "hasLegalResource"
@@ -7020,13 +7015,9 @@
         "sourceRole": "null",
         "subclass": "",
         "subclass1": "",
-        "usage": {
-          "nl": "Link naar de Vlaamse Codex"
-        },
+        "usage": "",
         "usageNote-en": "",
-        "usageNote-nl": {
-          "nl": "Link naar de Vlaamse Codex"
-        }
+        "usageNote-nl": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
@@ -7046,13 +7037,7 @@
           "EA-Package": "IPDC-LPDC",
           "uri": "http://data.europa.eu/eli/ontology#LegalResource"
         }
-      ],
-      "usage": {
-        "nl": "Link naar de Vlaamse Codex"
-      },
-      "usageNote-nl": {
-        "nl": "Link naar de Vlaamse Codex"
-      }
+      ]
     },
     {
       "@id": "http://data.europa.eu/m8g/hasLegalResource",
@@ -7098,11 +7083,6 @@
             "value": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
           },
           {
-            "key": "usageNote-nl",
-            "note": "null",
-            "value": "Link naar de Vlaamse Codex"
-          },
-          {
             "key": "label-nl",
             "note": "null",
             "value": "hasLegalResource"
@@ -7130,13 +7110,9 @@
         "sourceRole": "null",
         "subclass": "",
         "subclass1": "",
-        "usage": {
-          "nl": "Link naar de Vlaamse Codex"
-        },
+        "usage": "",
         "usageNote-en": "",
-        "usageNote-nl": {
-          "nl": "Link naar de Vlaamse Codex"
-        }
+        "usageNote-nl": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
@@ -7156,18 +7132,12 @@
           "EA-Package": "IPDC-LPDC",
           "uri": "http://data.europa.eu/eli/ontology#LegalResource"
         }
-      ],
-      "usage": {
-        "nl": "Link naar de Vlaamse Codex"
-      },
-      "usageNote-nl": {
-        "nl": "Link naar de Vlaamse Codex"
-      }
+      ]
     },
     {
       "@id": "http://data.europa.eu/m8g/hasCost",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
+      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
       "codelist": [],
       "definition": {
         "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
@@ -7177,15 +7147,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+          "EA-Name": "ConceptualPublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
         "EA-Name": "hasCost",
         "EA-Package": "",
         "EA-Range": "Cost",
@@ -7262,7 +7232,7 @@
     {
       "@id": "http://data.europa.eu/m8g/hasCost",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
       "codelist": [],
       "definition": {
         "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
@@ -7272,15 +7242,15 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
         "EA-Name": "hasCost",
         "EA-Package": "",
         "EA-Range": "Cost",
@@ -7493,11 +7463,6 @@
             "value": "NOTE"
           },
           {
-            "key": "usageNote-nl",
-            "note": "null",
-            "value": "OVO code uit het organisatieregister of link naar het organisatieportaal"
-          },
-          {
             "key": "label-nl",
             "note": "null",
             "value": "hasCompetentAuthority"
@@ -7525,13 +7490,9 @@
         "sourceRole": "null",
         "subclass": "",
         "subclass1": "",
-        "usage": {
-          "nl": "OVO code uit het organisatieregister of link naar het organisatieportaal"
-        },
+        "usage": "",
         "usageNote-en": "",
-        "usageNote-nl": {
-          "nl": "OVO code uit het organisatieregister of link naar het organisatieportaal"
-        }
+        "usageNote-nl": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
@@ -7551,13 +7512,7 @@
           "EA-Package": "OSLO-Organisatie",
           "uri": "http://data.europa.eu/m8g/PublicOrganisation"
         }
-      ],
-      "usage": {
-        "nl": "OVO code uit het organisatieregister of link naar het organisatieportaal"
-      },
-      "usageNote-nl": {
-        "nl": "OVO code uit het organisatieregister of link naar het organisatieportaal"
-      }
+      ]
     },
     {
       "@id": "http://data.europa.eu/m8g/hasCompetentAuthority",
@@ -7603,11 +7558,6 @@
             "value": "NOTE"
           },
           {
-            "key": "usageNote-nl",
-            "note": "null",
-            "value": "OVO code uit het organisatieregister of link naar het organisatieportaal"
-          },
-          {
             "key": "label-nl",
             "note": "null",
             "value": "hasCompetentAuthority"
@@ -7635,13 +7585,9 @@
         "sourceRole": "null",
         "subclass": "",
         "subclass1": "",
-        "usage": {
-          "nl": "OVO code uit het organisatieregister of link naar het organisatieportaal"
-        },
+        "usage": "",
         "usageNote-en": "",
-        "usageNote-nl": {
-          "nl": "OVO code uit het organisatieregister of link naar het organisatieportaal"
-        }
+        "usageNote-nl": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
@@ -7661,13 +7607,7 @@
           "EA-Package": "OSLO-Organisatie",
           "uri": "http://data.europa.eu/m8g/PublicOrganisation"
         }
-      ],
-      "usage": {
-        "nl": "OVO code uit het organisatieregister of link naar het organisatieportaal"
-      },
-      "usageNote-nl": {
-        "nl": "OVO code uit het organisatieregister of link naar het organisatieportaal"
-      }
+      ]
     }
   ],
   "externals": [
@@ -7701,7 +7641,7 @@
           },
           {
             "key": "usageNote-nl",
-            "note": "The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology.",
+            "note": "Link naar de Vlaamse Codex - The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology.",
             "value": "NOTE"
           },
           {
@@ -7731,11 +7671,11 @@
         "subclass": "",
         "subclass1": "",
         "usage": {
-          "nl": "The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology."
+          "nl": "Link naar de Vlaamse Codex - The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology."
         },
         "usageNote-en": "",
         "usageNote-nl": {
-          "nl": "The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology."
+          "nl": "Link naar de Vlaamse Codex - The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology."
         }
       },
       "inpackage": "OTHER_PACKAGE",
@@ -7747,10 +7687,10 @@
       },
       "name": "Legalresource",
       "usage": {
-        "nl": "The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology."
+        "nl": "Link naar de Vlaamse Codex - The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology."
       },
       "usageNote-nl": {
-        "nl": "The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology."
+        "nl": "Link naar de Vlaamse Codex - The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology."
       }
     },
     {
@@ -7934,6 +7874,11 @@
             "key": "label-nl",
             "note": "null",
             "value": "PubliekeOrganisatie"
+          },
+          {
+            "key": "usageNote-nl",
+            "note": "null",
+            "value": "OVO code uit het organisatieregister of link naar het organisatieportaal"
           }
         ],
         "Scope": "NOTHING",
@@ -7956,9 +7901,13 @@
         "sameAs": "",
         "subclass": "",
         "subclass1": "",
-        "usage": "",
+        "usage": {
+          "nl": "OVO code uit het organisatieregister of link naar het organisatieportaal"
+        },
         "usageNote-en": "",
-        "usageNote-nl": ""
+        "usageNote-nl": {
+          "nl": "OVO code uit het organisatieregister of link naar het organisatieportaal"
+        }
       },
       "inpackage": "OTHER_PACKAGE",
       "label": {
@@ -7967,7 +7916,13 @@
       "label-nl": {
         "nl": "PubliekeOrganisatie"
       },
-      "name": "Publiekeorganisatie"
+      "name": "Publiekeorganisatie",
+      "usage": {
+        "nl": "OVO code uit het organisatieregister of link naar het organisatieportaal"
+      },
+      "usageNote-nl": {
+        "nl": "OVO code uit het organisatieregister of link naar het organisatieportaal"
+      }
     },
     {
       "@id": "http://data.europa.eu/m8g/Requirement",
@@ -9968,8 +9923,8 @@
           },
           {
             "key": "usageNote-nl",
-            "note": "null",
-            "value": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+            "note": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn.",
+            "value": "NOTE"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -9992,11 +9947,11 @@
         "subclass": "",
         "subclass1": "",
         "usage": {
-          "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+          "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
         },
         "usageNote-en": "",
         "usageNote-nl": {
-          "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+          "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
         }
       },
       "generalization": [],
@@ -10019,10 +9974,10 @@
         }
       ],
       "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
       },
       "usageNote-nl": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
       }
     },
     {
@@ -10069,8 +10024,8 @@
           },
           {
             "key": "usageNote-nl",
-            "note": "null",
-            "value": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+            "note": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn.",
+            "value": "NOTE"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -10093,11 +10048,11 @@
         "subclass": "",
         "subclass1": "",
         "usage": {
-          "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+          "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
         },
         "usageNote-en": "",
         "usageNote-nl": {
-          "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+          "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
         }
       },
       "generalization": [],
@@ -10120,10 +10075,10 @@
         }
       ],
       "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
       },
       "usageNote-nl": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
       }
     },
     {
@@ -11400,7 +11355,7 @@
   "title-nl": {
     "nl": "TODO"
   },
-  "toolchaincommit": "ebf04a7e276be82bc805b38d8fe43192dce1f53d",
+  "toolchaincommit": "3cd857ec46229c6316fea7379db35dbcdca32c9e",
   "translation": [
     {
       "language": "nl",

@@ -12,8 +12,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/e2448284a48a80431dfdabd39ae39509e7bcc154",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/e2448284a48a80431dfdabd39ae39509e7bcc154/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/4230162e654b5965ea15014347df262aa349115f",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/4230162e654b5965ea15014347df262aa349115f/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -238,7 +238,7 @@
         "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
       },
       "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
       },
       "domain": [
         "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
@@ -259,7 +259,7 @@
         "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
       },
       "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
       },
       "domain": [
         "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
@@ -670,7 +670,7 @@
         "nl": "This class represents the legislation, policy or policies that lie behind the Rules that govern the service."
       },
       "usage": {
-        "nl": "The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology."
+        "nl": "Link naar de Vlaamse Codex - The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology."
       },
       "sort": "LegalResource",
       "indvl": false,
@@ -1339,7 +1339,7 @@
         "nl": "productNumber"
       },
       "description": {
-        "nl": "Uniek nummer om op een unieke manier een instantie of concept te identificeren."
+        "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
       },
       "usage": {
         "nl": "Het productnummer wordt automatisch door IPDC gegenereerd bij creatie. Dit nummer kan niet door een andere partij bepaald worden."
@@ -1357,7 +1357,7 @@
         "nl": "productNumber"
       },
       "description": {
-        "nl": "Uniek nummer om op een unieke manier een instantie of concept te identificeren."
+        "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
       },
       "usage": {
         "nl": "Het productnummer wordt automatisch door IPDC gegenereerd bij creatie. Dit nummer kan niet door een andere partij bepaald worden."
@@ -1771,7 +1771,7 @@
         "nl": "isVersionOf"
       },
       "description": {
-        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       },
       "usage": {},
       "sort": "isVersionOf",
@@ -1787,7 +1787,7 @@
         "nl": "isVersionOf"
       },
       "description": {
-        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       },
       "usage": {},
       "sort": "isVersionOf",
@@ -2001,9 +2001,7 @@
       "description": {
         "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
       },
-      "usage": {
-        "nl": "Link naar de Vlaamse Codex"
-      },
+      "usage": {},
       "sort": "hasLegalResource",
       "inscope": true,
       "indvl": false,
@@ -2019,9 +2017,7 @@
       "description": {
         "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
       },
-      "usage": {
-        "nl": "Link naar de Vlaamse Codex"
-      },
+      "usage": {},
       "sort": "hasLegalResource",
       "inscope": true,
       "indvl": false,
