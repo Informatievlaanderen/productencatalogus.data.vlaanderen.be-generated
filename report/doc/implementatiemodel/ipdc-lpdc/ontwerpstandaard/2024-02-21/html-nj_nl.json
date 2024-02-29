@@ -15,8 +15,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/4230162e654b5965ea15014347df262aa349115f",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/4230162e654b5965ea15014347df262aa349115f/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/1d36eb5454e5ee4676ab435f21bcc60f051f2a56",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/1d36eb5454e5ee4676ab435f21bcc60f051f2a56/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -3563,7 +3563,9 @@
           "description": {
             "nl": "De url van de website"
           },
-          "usage": {},
+          "usage": {
+            "nl": "Website locatie moet voldoen aan het formaat beschreven in RFC1738: https://datatracker.ietf.org/doc/html/rfc1738#section-3.3"
+          },
           "domain": [
             {
               "EA-Name": "ContactPoint",
@@ -3590,7 +3592,8 @@
           "rawTags": {
             "uri": "http://schema.org/url",
             "definition-nl": "De url van de website",
-            "label-nl": "website"
+            "label-nl": "website",
+            "usageNote-nl": "Website locatie moet voldoen aan het formaat beschreven in RFC1738: https://datatracker.ietf.org/doc/html/rfc1738#section-3.3"
           }
         },
         {
@@ -3686,7 +3689,9 @@
           "description": {
             "nl": "A property through which an e-mail address for the Public Organization, or a representative of it, can be contacted."
           },
-          "usage": {},
+          "usage": {
+            "nl": "Email adres moet voldoen aan het formaat beschreven in RFC2822: https://datatracker.ietf.org/doc/html/rfc2822#section-3.4.1"
+          },
           "domain": [
             {
               "EA-Name": "ContactPoint",
@@ -3713,7 +3718,8 @@
           "rawTags": {
             "uri": "http://schema.org/email",
             "definition-nl": "A property through which an e-mail address for the Public Organization, or a representative of it, can be contacted.",
-            "label-nl": "hasEmail"
+            "label-nl": "hasEmail",
+            "usageNote-nl": "Email adres moet voldoen aan het formaat beschreven in RFC2822: https://datatracker.ietf.org/doc/html/rfc2822#section-3.4.1"
           }
         }
       ]
@@ -3789,7 +3795,9 @@
           "description": {
             "nl": "De url van de website"
           },
-          "usage": {},
+          "usage": {
+            "nl": "Website locatie moet voldoen aan het formaat beschreven in RFC1738: https://datatracker.ietf.org/doc/html/rfc1738#section-3.3"
+          },
           "domain": [
             {
               "EA-Name": "Website",
@@ -3816,7 +3824,8 @@
           "rawTags": {
             "uri": "http://schema.org/url",
             "label-nl": "location",
-            "definition-nl": "De url van de website"
+            "definition-nl": "De url van de website",
+            "usageNote-nl": "Website locatie moet voldoen aan het formaat beschreven in RFC1738: https://datatracker.ietf.org/doc/html/rfc1738#section-3.3"
           }
         },
         {
