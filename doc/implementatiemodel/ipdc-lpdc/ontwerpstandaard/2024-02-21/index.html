@@ -243,8 +243,8 @@
 
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/1d36eb5454e5ee4676ab435f21bcc60f051f2a56">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/1d36eb5454e5ee4676ab435f21bcc60f051f2a56</a></dd>
-              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/1d36eb5454e5ee4676ab435f21bcc60f051f2a56/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/1d36eb5454e5ee4676ab435f21bcc60f051f2a56/CHANGELOG</a></dd>
+              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/011ad067966a573f260e9545838f4b6ebf28f450">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/011ad067966a573f260e9545838f4b6ebf28f450</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/011ad067966a573f260e9545838f4b6ebf28f450/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/011ad067966a573f260e9545838f4b6ebf28f450/CHANGELOG</a></dd>
               <dt>Opmerkingen en feedback</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/issues">https://github.com/Informatievlaanderen/ipdc-lpdc/issues</a></dd>
               <dt>Standaardenregister</dt><dd><a href="https://data.vlaanderen.be/standaarden">https://data.vlaanderen.be/standaarden</a></dd>
 
@@ -437,6 +437,7 @@
                       <a href="#Conceptualpublicservice%3Afollows">follows</a>, 
                       <a href="#Conceptualpublicservice%3Ahascompetentauthority">hasCompetentAuthority</a>, 
                       <a href="#Conceptualpublicservice%3Ahascost">hasCost</a>, 
+                      <a href="#Conceptualpublicservice%3Ahasexecutingauthority">hasExecutingAuthority</a>, 
                       <a href="#Conceptualpublicservice%3Ahaslegalresource">hasLegalResource</a>, 
                       <a href="#Conceptualpublicservice%3Ahasmoreinfo">hasMoreInfo</a>, 
                       <a href="#Conceptualpublicservice%3Ahasrequirement">hasRequirement</a>, 
@@ -707,6 +708,26 @@
                         </td>
                         <td>0..*</td>
                         <td property="rdfs:comment">The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Conceptualpublicservice%3Ahasexecutingauthority" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority" data-placement="right">
+                            hasExecutingAuthority</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#PubliekeOrganisatie" data-placement="right">PubliekeOrganisatie</a>
+			    
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment"></td>
                         <td property="vann:usageNote"></td>
                         <td></td>
                       </tr>
@@ -1559,6 +1580,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                       <a href="#Instancepublicservice%3Ahascompetentauthority">hasCompetentAuthority</a>, 
                       <a href="#Instancepublicservice%3Ahascontactpoint">hasContactPoint</a>, 
                       <a href="#Instancepublicservice%3Ahascost">hasCost</a>, 
+                      <a href="#Instancepublicservice%3Ahasexecutingauthority">hasExecutingAuthority</a>, 
                       <a href="#Instancepublicservice%3Ahaslegalresource">hasLegalResource</a>, 
                       <a href="#Instancepublicservice%3Ahasmoreinfo">hasMoreInfo</a>, 
                       <a href="#Instancepublicservice%3Ahasrequirement">hasRequirement</a>, 
@@ -1833,6 +1855,26 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         </td>
                         <td>0..*</td>
                         <td property="rdfs:comment">The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Instancepublicservice%3Ahasexecutingauthority" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority" data-placement="right">
+                            hasExecutingAuthority</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#PubliekeOrganisatie" data-placement="right">PubliekeOrganisatie</a>
+			    
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment"></td>
                         <td property="vann:usageNote"></td>
                         <td></td>
                       </tr>

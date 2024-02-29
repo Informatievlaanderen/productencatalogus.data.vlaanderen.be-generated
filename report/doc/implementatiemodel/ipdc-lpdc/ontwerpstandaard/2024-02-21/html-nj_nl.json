@@ -15,8 +15,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/1d36eb5454e5ee4676ab435f21bcc60f051f2a56",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/1d36eb5454e5ee4676ab435f21bcc60f051f2a56/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/011ad067966a573f260e9545838f4b6ebf28f450",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/011ad067966a573f260e9545838f4b6ebf28f450/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -459,6 +459,43 @@
             "definition-nl": "This property represents free text for additional information regarding the description of the Public Service.",
             "usageNote-nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
             "label-nl": "additionalDescription"
+          }
+        },
+        {
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+          "name": "hasexecutingauthority",
+          "sort": "hasExecutingAuthority",
+          "label": {
+            "nl": "hasExecutingAuthority"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ConceptualPublicService",
+              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "PubliekeOrganisatie",
+              "range_uri": "http://data.europa.eu/m8g/PublicOrganisation"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#PubliekeOrganisatie",
+              "range_puri": "http://data.europa.eu/m8g/PublicOrganisation",
+              "range_label": {
+                "nl": "PubliekeOrganisatie"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "hasExecutingAuthority",
+            "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
           }
         },
         {
@@ -1894,6 +1931,43 @@
             "label-nl": "language",
             "definition-nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union.",
             "usageNote-nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG."
+          }
+        },
+        {
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+          "name": "hasexecutingauthority",
+          "sort": "hasExecutingAuthority",
+          "label": {
+            "nl": "hasExecutingAuthority"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "InstancePublicService",
+              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "PubliekeOrganisatie",
+              "range_uri": "http://data.europa.eu/m8g/PublicOrganisation"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#PubliekeOrganisatie",
+              "range_puri": "http://data.europa.eu/m8g/PublicOrganisation",
+              "range_label": {
+                "nl": "PubliekeOrganisatie"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "hasExecutingAuthority",
+            "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
           }
         },
         {

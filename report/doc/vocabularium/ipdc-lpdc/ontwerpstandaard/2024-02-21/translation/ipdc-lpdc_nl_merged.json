@@ -560,8 +560,8 @@
   "dependencies": [],
   "diagram": "ipdc-lpdc-ap",
   "disabled": false,
-  "documentcommit": "1d36eb5454e5ee4676ab435f21bcc60f051f2a56",
-  "dummy": "014",
+  "documentcommit": "011ad067966a573f260e9545838f4b6ebf28f450",
+  "dummy": "015",
   "eap": "IPDC-LPDC-AP.eap",
   "editors": [
     {
@@ -784,6 +784,176 @@
           "EA-Name": "Website",
           "EA-Package": "IPDC-LPDC",
           "uri": "http://schema.org/WebSite"
+        }
+      ]
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
+      "codelist": [],
+      "definition-nl": {
+        "nl": "TODO"
+      },
+      "domain": [
+        {
+          "EA-Name": "ConceptualPublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
+        "EA-Name": "hasExecutingAuthority",
+        "EA-Package": "",
+        "EA-Range": "PubliekeOrganisatie",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+          "EA-Name": "PubliekeOrganisatie",
+          "EA-Package": "OSLO-Organisatie",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+        },
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "hasExecutingAuthority"
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
+          }
+        ],
+        "Scope": "NOTHING",
+        "definition": "",
+        "definition-en": "",
+        "definition-nl": {
+          "nl": "TODO"
+        },
+        "derived": "false",
+        "destRole": "null",
+        "equivalent": "",
+        "label": {
+          "nl": "hasExecutingAuthority"
+        },
+        "label-en": "",
+        "label-nl": {
+          "nl": "hasExecutingAuthority"
+        },
+        "sameAs": "",
+        "sourceRole": "null",
+        "subclass": "",
+        "subclass1": "",
+        "usage": "",
+        "usageNote-en": "",
+        "usageNote-nl": ""
+      },
+      "generalization": [],
+      "inpackage": "UNKNOWN",
+      "label": {
+        "nl": "hasExecutingAuthority"
+      },
+      "label-nl": {
+        "nl": "hasExecutingAuthority"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "hasexecutingauthority",
+      "range": [
+        {
+          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+          "EA-Name": "PubliekeOrganisatie",
+          "EA-Package": "OSLO-Organisatie",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+        }
+      ]
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+      "codelist": [],
+      "definition-nl": {
+        "nl": "TODO"
+      },
+      "domain": [
+        {
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+        "EA-Name": "hasExecutingAuthority",
+        "EA-Package": "",
+        "EA-Range": "PubliekeOrganisatie",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+          "EA-Name": "PubliekeOrganisatie",
+          "EA-Package": "OSLO-Organisatie",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+        },
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "hasExecutingAuthority"
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
+          }
+        ],
+        "Scope": "NOTHING",
+        "definition": "",
+        "definition-en": "",
+        "definition-nl": {
+          "nl": "TODO"
+        },
+        "derived": "false",
+        "destRole": "null",
+        "equivalent": "",
+        "label": {
+          "nl": "hasExecutingAuthority"
+        },
+        "label-en": "",
+        "label-nl": {
+          "nl": "hasExecutingAuthority"
+        },
+        "sameAs": "",
+        "sourceRole": "null",
+        "subclass": "",
+        "subclass1": "",
+        "usage": "",
+        "usageNote-en": "",
+        "usageNote-nl": ""
+      },
+      "generalization": [],
+      "inpackage": "UNKNOWN",
+      "label": {
+        "nl": "hasExecutingAuthority"
+      },
+      "label-nl": {
+        "nl": "hasExecutingAuthority"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "hasexecutingauthority",
+      "range": [
+        {
+          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+          "EA-Name": "PubliekeOrganisatie",
+          "EA-Package": "OSLO-Organisatie",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
         }
       ]
     },
@@ -11400,7 +11570,7 @@
   "title-nl": {
     "nl": "TODO"
   },
-  "toolchaincommit": "120091388d3584566db7115de49328ae170671b1",
+  "toolchaincommit": "ea7b87eda4a701bc1642e8ac2fb9e02da96c2086",
   "translation": [
     {
       "language": "nl",

@@ -154,6 +154,7 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceShape/c678d3b6ae22a358f800ce1cdb7f277c9efa4b62>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceShape/6ec95ec193a55ff92dd90efa0ec2571a9dcc0114>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceShape/311b694f260c7116aafcbc13ab79d692a00a345a>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceShape/7b057073dff0413944b0d904c07cc203f5638500>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceShape/7b6a65df2b22c29864bb641729bffa8961805bb4>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceShape/12226de35b69c4ce8dfcbbbe9e2b629b50357010>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceShape/9074cccea614f3f92b0325904643417e10ba7255>,
@@ -324,6 +325,11 @@
   shacl:description "Datum waarop de publieke dienstverlening stopgezet werd/wordt"@nl;
   shacl:name "endDate"@nl;
   shacl:path schema:endDate .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceShape/7b057073dff0413944b0d904c07cc203f5638500> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicService.hasExecutingAuthority";
+  shacl:class <http://data.europa.eu/m8g/PublicOrganisation>;
+  shacl:name "hasExecutingAuthority"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicServiceShape/7b6a65df2b22c29864bb641729bffa8961805bb4> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#ConceptualPublicService.hasLegalResource";
   shacl:class <http://data.europa.eu/eli/ontology#LegalResource>;
@@ -813,6 +819,7 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceShape/d1d1fc582921ca9bd7525c1ff1f02e2f58b19e6e>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceShape/2e2310f9e3c0b5a2b0636f4e320423145ba8074a>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceShape/311b694f260c7116aafcbc13ab79d692a00a345a>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceShape/7b057073dff0413944b0d904c07cc203f5638500>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceShape/7b6a65df2b22c29864bb641729bffa8961805bb4>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceShape/12226de35b69c4ce8dfcbbbe9e2b629b50357010>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceShape/9074cccea614f3f92b0325904643417e10ba7255>,
@@ -1013,6 +1020,11 @@
   shacl:description "Datum waarop de publieke dienstverlening stopgezet werd/wordt"@nl;
   shacl:name "endDate"@nl;
   shacl:path schema:endDate .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceShape/7b057073dff0413944b0d904c07cc203f5638500> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicService.hasExecutingAuthority";
+  shacl:class <http://data.europa.eu/m8g/PublicOrganisation>;
+  shacl:name "hasExecutingAuthority"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicServiceShape/7b6a65df2b22c29864bb641729bffa8961805bb4> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21#InstancePublicService.hasLegalResource";
   shacl:class <http://data.europa.eu/eli/ontology#LegalResource>;

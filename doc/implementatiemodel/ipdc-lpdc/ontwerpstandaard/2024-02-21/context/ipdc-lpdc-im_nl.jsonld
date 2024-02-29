@@ -86,6 +86,11 @@
           "@id": "http://data.europa.eu/m8g/hasCost",
           "@type": "@id"
         },
+        "hasExecutingAuthority": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+          "@type": "@id"
+        },
         "hasLegalResource": {
           "@container": "@set",
           "@id": "http://data.europa.eu/m8g/hasLegalResource",
@@ -300,6 +305,11 @@
         "hasCost": {
           "@container": "@set",
           "@id": "http://data.europa.eu/m8g/hasCost",
+          "@type": "@id"
+        },
+        "hasExecutingAuthority": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
           "@type": "@id"
         },
         "hasLegalResource": {

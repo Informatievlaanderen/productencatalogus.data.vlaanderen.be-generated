@@ -2,105 +2,111 @@ Load mapping config:config/config-ap.json
 WARNING:You shouldn't use 'user' reserved word as column name in the table t_datatypes (it refers to the database user).
  Escape it in your SQL! 
 (e.g. SELECT [USER] FROM TABLE WHERE [USER]='Joe')
-10:41:00 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
-10:41:00 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.IPDC-LPDC".
-10:41:00 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.IPDC-LPDC.IPDC-LPDC.data types".
-10:41:00 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.IPDC-LPDC.OSLO-Organisatie".
-10:41:00 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.IPDC-LPDC.OSLO-Generiek".
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model, Model.IPDC-LPDC.IPDC-LPDC.data types, Model.IPDC-LPDC.OSLO-Generiek, Model.IPDC-LPDC, Model.IPDC-LPDC.OSLO-Organisatie
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2004/02/skos/core#Concept): Model.IPDC-LPDC.IPDC-LPDC:PublicationMedium, Model.IPDC-LPDC.IPDC-LPDC:ThematicArea, Model.IPDC-LPDC.IPDC-LPDC:ConceptTag, Model.IPDC-LPDC.IPDC-LPDC:ExecutingAuthorityLevel, Model.IPDC-LPDC.IPDC-LPDC:SDGSubarea, Model.IPDC-LPDC.IPDC-LPDC:InstanceTag, Model.IPDC-LPDC.IPDC-LPDC:YourEuropeCategory, Model.IPDC-LPDC.IPDC-LPDC:TargetAudience, Model.IPDC-LPDC.IPDC-LPDC:Language, Model.IPDC-LPDC.OSLO-Generiek:NAL_currency, Model.IPDC-LPDC.IPDC-LPDC:Spatial, Model.IPDC-LPDC.IPDC-LPDC:Type, Model.IPDC-LPDC.IPDC-LPDC:Theme, Model.IPDC-LPDC.IPDC-LPDC:CompetentAuthorityLevel, Model.IPDC-LPDC.IPDC-LPDC:Sector, Model.IPDC-LPDC.IPDC-LPDC:RelatedLink, Model.IPDC-LPDC.OSLO-Generiek:Taalcode
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://purl.org/dc/terms/Location): Model.IPDC-LPDC.OSLO-Generiek:Plaats, Model.IPDC-LPDC.OSLO-Organisatie:Plaats, Model.IPDC-LPDC.IPDC-LPDC:Location
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/1999/02/22-rdf-syntax-ns#langString): Model.IPDC-LPDC.OSLO-Generiek:GeografischeNaam, Model.IPDC-LPDC.OSLO-Generiek:TaalString
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://schema.org/ContactPoint): Model.IPDC-LPDC.OSLO-Generiek:ContactInfo, Model.IPDC-LPDC.IPDC-LPDC:ContactPoint
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#public service): Model.IPDC-LPDC.IPDC-LPDC:public service, Model.IPDC-LPDC.IPDC-LPDC:public service
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://schema.org/telephone): Model.IPDC-LPDC.IPDC-LPDC:ContactPoint:hasTelephone, Model.IPDC-LPDC.OSLO-Generiek:ContactInfo:telefoon
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://schema.org/startDate): Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:startDate, Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:startDate
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/title): Model.IPDC-LPDC.IPDC-LPDC:Procedure:name, Model.IPDC-LPDC.IPDC-LPDC:Cost:name, Model.IPDC-LPDC.IPDC-LPDC:Evidence:name, Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:name, Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:name, Model.IPDC-LPDC.IPDC-LPDC:Requirement:name, Model.IPDC-LPDC.IPDC-LPDC:FinancialAdvantage:name, Model.IPDC-LPDC.IPDC-LPDC:Website:name, Model.IPDC-LPDC.IPDC-LPDC:Document:name
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/description): Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:description, Model.IPDC-LPDC.IPDC-LPDC:Procedure:description, Model.IPDC-LPDC.IPDC-LPDC:Cost:description, Model.IPDC-LPDC.IPDC-LPDC:Evidence:description, Model.IPDC-LPDC.IPDC-LPDC:Document:description, Model.IPDC-LPDC.IPDC-LPDC:Website:description, Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:description, Model.IPDC-LPDC.IPDC-LPDC:FinancialAdvantage:description, Model.IPDC-LPDC.IPDC-LPDC:Requirement:description
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/shacl#order): Model.IPDC-LPDC.IPDC-LPDC:ContactPoint:order, Model.IPDC-LPDC.IPDC-LPDC:eli::LegalResource:order, Model.IPDC-LPDC.IPDC-LPDC:Website:order, Model.IPDC-LPDC.IPDC-LPDC:FinancialAdvantage:order, Model.IPDC-LPDC.IPDC-LPDC:Cost:order
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://schema.org/endDate): Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:endDate, Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:endDate
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience): Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:targetAudience, Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:targetAudience
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory): Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:yourEuropeCategory, Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:yourEuropeCategory
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#identifier): Model.IPDC-LPDC.IPDC-LPDC:PublicServiceDataset:identifier, Model.IPDC-LPDC.IPDC-LPDC:ipdc::regelgeving:identifier, Model.IPDC-LPDC.IPDC-LPDC:Tag:identifier
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://schema.org/url): Model.IPDC-LPDC.IPDC-LPDC:ContactPoint:website, Model.IPDC-LPDC.IPDC-LPDC:Website:location
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#name): Model.IPDC-LPDC.IPDC-LPDC:Tag:name, Model.IPDC-LPDC.IPDC-LPDC:ipdc::regelgeving:name
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/prov#generatedAtTime): Model.IPDC-LPDC.IPDC-LPDC:InstancePublicServiceSnapshot:generatedAtTime, Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicServiceSnapshot:generatedAtTime
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://schema.org/productID): Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:productNumber, Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:productNumber
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived): Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:isArchived, Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:isArchived
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception): Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:exception, Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:exception
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation): Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:regulation, Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:regulation
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#website): Model.IPDC-LPDC.IPDC-LPDC:alternativeProductview:website, Model.IPDC-LPDC.IPDC-LPDC:applicationForm:website
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#description): Model.IPDC-LPDC.IPDC-LPDC:PublicServiceDataset:description, Model.IPDC-LPDC.IPDC-LPDC:Tag:description, Model.IPDC-LPDC.IPDC-LPDC:ipdc::regelgeving:description
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/2000/01/rdf-schema#label): Model.IPDC-LPDC.OSLO-Organisatie:Plaats:plaatsnaam, Model.IPDC-LPDC.OSLO-Generiek:Plaats:plaatsnaam
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/type): Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:type, Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:type
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://schema.org/dateCreated): Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:dateCreated, Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:dateCreated
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/dcat#keyword): Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:keyword, Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:keyword
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://schema.org/email): Model.IPDC-LPDC.IPDC-LPDC:ContactPoint:hasEmail, Model.IPDC-LPDC.OSLO-Generiek:ContactInfo:email
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium): Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:publicationMedium, Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:publicationMedium
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel): Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:competentAuthorityLevel, Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:competentAuthorityLevel
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription): Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:additionalDescription, Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:additionalDescription
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel): Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:executingAuthorityLevel, Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:executingAuthorityLevel
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://schema.org/dateModified): Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:dateModified, Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:dateModified
-10:41:00 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/thematicArea): Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:theme, Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:theme
-10:41:00 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.IPDC-LPDC.IPDC-LPDC".
-10:41:00 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.IPDC-LPDC.IPDC-LPDC".
-10:41:00 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.IPDC-LPDC.IPDC-LPDC".
-10:41:00 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.IPDC-LPDC.IPDC-LPDC".
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ContactPoint" .
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "eli::LegalResource" .
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "FinancialAdvantage" .
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Cost" .
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Procedure" .
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Evidence" .
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Requirement" .
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ConceptualPublicService" .
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Website" .
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PubliekeOrganisatie" .
-10:41:00 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.IPDC-LPDC.IPDC-LPDC:YourEuropeCategory".
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "YourEuropeCategory" .
-10:41:00 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.IPDC-LPDC.IPDC-LPDC:TargetAudience".
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TargetAudience" .
-10:41:00 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.IPDC-LPDC.IPDC-LPDC:Type".
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Type" .
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "InstancePublicService" .
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Address" .
-10:41:00 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.IPDC-LPDC.IPDC-LPDC:PublicationMedium".
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PublicationMedium" .
-10:41:00 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.IPDC-LPDC.IPDC-LPDC:InstanceTag".
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "InstanceTag" .
-10:41:00 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.IPDC-LPDC.IPDC-LPDC:ConceptTag".
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ConceptTag" .
-10:41:00 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.IPDC-LPDC.IPDC-LPDC:CompetentAuthorityLevel".
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "CompetentAuthorityLevel" .
-10:41:00 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.IPDC-LPDC.IPDC-LPDC:ExecutingAuthorityLevel".
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ExecutingAuthorityLevel" .
-10:41:00 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.IPDC-LPDC.IPDC-LPDC:Spatial".
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Spatial" .
-10:41:00 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.IPDC-LPDC.IPDC-LPDC:Theme".
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Theme" .
-10:41:00 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.IPDC-LPDC.IPDC-LPDC:Language".
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Language" .
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ConceptualPublicServiceSnapshot" .
-10:41:00 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "InstancePublicServiceSnapshot" .
-10:41:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:hasLegalResource" belongs to package "IPDC-LPDC" based on source and target definition.
-10:41:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:hasCost" belongs to package "IPDC-LPDC" based on source and target definition.
-10:41:00 WARN  c.g.i.o.c.UriAssigner - Ignoring connector "Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:hasExecutingAuthority" since it lacks a defining package.
-10:41:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:follows" belongs to package "IPDC-LPDC" based on source and target definition.
-10:41:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:hasRequirement" belongs to package "IPDC-LPDC" based on source and target definition.
-10:41:00 WARN  c.g.i.o.c.UriAssigner - Ignoring connector "Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:hasExecutingAuthority" since it lacks a defining package.
-10:41:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:follows" belongs to package "IPDC-LPDC" based on source and target definition.
-10:41:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicServiceSnapshot:isVersionOf" belongs to package "IPDC-LPDC" based on source and target definition.
-10:41:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:hasRequirement" belongs to package "IPDC-LPDC" based on source and target definition.
-10:41:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:hasContactPoint" belongs to package "IPDC-LPDC" based on source and target definition.
-10:41:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:produces" belongs to package "IPDC-LPDC" based on source and target definition.
-10:41:00 WARN  c.g.i.o.c.Converter - Package for connector Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:hasCompetentAuthority is unknown
-10:41:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:produces" belongs to package "IPDC-LPDC" based on source and target definition.
-10:41:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:hasMoreInfo" belongs to package "IPDC-LPDC" based on source and target definition.
-10:41:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:Requirement:hasSupportingEvidence" belongs to package "IPDC-LPDC" based on source and target definition.
-10:41:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:hasMoreInfo" belongs to package "IPDC-LPDC" based on source and target definition.
-10:41:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:Procedure:hasWebsite" belongs to package "IPDC-LPDC" based on source and target definition.
-10:41:00 WARN  c.g.i.o.c.Converter - Package for connector Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:hasCompetentAuthority is unknown
-10:41:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:hasSource" belongs to package "IPDC-LPDC" based on source and target definition.
-10:41:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:hasLegalResource" belongs to package "IPDC-LPDC" based on source and target definition.
-10:41:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:hasCost" belongs to package "IPDC-LPDC" based on source and target definition.
-10:41:00 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:InstancePublicServiceSnapshot:isVersionOf" belongs to package "IPDC-LPDC" based on source and target definition.
+12:21:28 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
+12:21:28 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.IPDC-LPDC".
+12:21:28 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.IPDC-LPDC.IPDC-LPDC.data types".
+12:21:28 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.IPDC-LPDC.OSLO-Organisatie".
+12:21:28 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.IPDC-LPDC.OSLO-Generiek".
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model.IPDC-LPDC.OSLO-Organisatie, Model.IPDC-LPDC.OSLO-Generiek, Model, Model.IPDC-LPDC, Model.IPDC-LPDC.IPDC-LPDC.data types
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2004/02/skos/core#Concept): Model.IPDC-LPDC.IPDC-LPDC:ConceptTag, Model.IPDC-LPDC.IPDC-LPDC:PublicationMedium, Model.IPDC-LPDC.IPDC-LPDC:ExecutingAuthorityLevel, Model.IPDC-LPDC.IPDC-LPDC:SDGSubarea, Model.IPDC-LPDC.IPDC-LPDC:Theme, Model.IPDC-LPDC.OSLO-Generiek:Taalcode, Model.IPDC-LPDC.IPDC-LPDC:ThematicArea, Model.IPDC-LPDC.IPDC-LPDC:CompetentAuthorityLevel, Model.IPDC-LPDC.IPDC-LPDC:Type, Model.IPDC-LPDC.IPDC-LPDC:RelatedLink, Model.IPDC-LPDC.IPDC-LPDC:InstanceTag, Model.IPDC-LPDC.OSLO-Generiek:NAL_currency, Model.IPDC-LPDC.IPDC-LPDC:TargetAudience, Model.IPDC-LPDC.IPDC-LPDC:Language, Model.IPDC-LPDC.IPDC-LPDC:YourEuropeCategory, Model.IPDC-LPDC.IPDC-LPDC:Spatial, Model.IPDC-LPDC.IPDC-LPDC:Sector
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/1999/02/22-rdf-syntax-ns#langString): Model.IPDC-LPDC.OSLO-Generiek:TaalString, Model.IPDC-LPDC.OSLO-Generiek:GeografischeNaam
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://purl.org/dc/terms/Location): Model.IPDC-LPDC.OSLO-Organisatie:Plaats, Model.IPDC-LPDC.OSLO-Generiek:Plaats, Model.IPDC-LPDC.IPDC-LPDC:Location
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://schema.org/ContactPoint): Model.IPDC-LPDC.OSLO-Generiek:ContactInfo, Model.IPDC-LPDC.IPDC-LPDC:ContactPoint
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#public service): Model.IPDC-LPDC.IPDC-LPDC:public service, Model.IPDC-LPDC.IPDC-LPDC:public service
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/thematicArea): Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:theme, Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:theme
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://schema.org/email): Model.IPDC-LPDC.OSLO-Generiek:ContactInfo:email, Model.IPDC-LPDC.IPDC-LPDC:ContactPoint:hasEmail
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/description): Model.IPDC-LPDC.IPDC-LPDC:FinancialAdvantage:description, Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:description, Model.IPDC-LPDC.IPDC-LPDC:Cost:description, Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:description, Model.IPDC-LPDC.IPDC-LPDC:Evidence:description, Model.IPDC-LPDC.IPDC-LPDC:Procedure:description, Model.IPDC-LPDC.IPDC-LPDC:Requirement:description, Model.IPDC-LPDC.IPDC-LPDC:Document:description, Model.IPDC-LPDC.IPDC-LPDC:Website:description
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception): Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:exception, Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:exception
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/title): Model.IPDC-LPDC.IPDC-LPDC:Evidence:name, Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:name, Model.IPDC-LPDC.IPDC-LPDC:Cost:name, Model.IPDC-LPDC.IPDC-LPDC:Website:name, Model.IPDC-LPDC.IPDC-LPDC:Document:name, Model.IPDC-LPDC.IPDC-LPDC:Procedure:name, Model.IPDC-LPDC.IPDC-LPDC:FinancialAdvantage:name, Model.IPDC-LPDC.IPDC-LPDC:Requirement:name, Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:name
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/dcat#keyword): Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:keyword, Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:keyword
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://schema.org/url): Model.IPDC-LPDC.IPDC-LPDC:Website:location, Model.IPDC-LPDC.IPDC-LPDC:ContactPoint:website
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel): Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:executingAuthorityLevel, Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:executingAuthorityLevel
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/type): Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:type, Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:type
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience): Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:targetAudience, Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:targetAudience
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://schema.org/startDate): Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:startDate, Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:startDate
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#website): Model.IPDC-LPDC.IPDC-LPDC:applicationForm:website, Model.IPDC-LPDC.IPDC-LPDC:alternativeProductview:website
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/shacl#order): Model.IPDC-LPDC.IPDC-LPDC:Cost:order, Model.IPDC-LPDC.IPDC-LPDC:ContactPoint:order, Model.IPDC-LPDC.IPDC-LPDC:Website:order, Model.IPDC-LPDC.IPDC-LPDC:eli::LegalResource:order, Model.IPDC-LPDC.IPDC-LPDC:FinancialAdvantage:order
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/2000/01/rdf-schema#label): Model.IPDC-LPDC.OSLO-Organisatie:Plaats:plaatsnaam, Model.IPDC-LPDC.OSLO-Generiek:Plaats:plaatsnaam
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory): Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:yourEuropeCategory, Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:yourEuropeCategory
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://schema.org/dateModified): Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:dateModified, Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:dateModified
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#description): Model.IPDC-LPDC.IPDC-LPDC:Tag:description, Model.IPDC-LPDC.IPDC-LPDC:PublicServiceDataset:description, Model.IPDC-LPDC.IPDC-LPDC:ipdc::regelgeving:description
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#name): Model.IPDC-LPDC.IPDC-LPDC:Tag:name, Model.IPDC-LPDC.IPDC-LPDC:ipdc::regelgeving:name
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived): Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:isArchived, Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:isArchived
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium): Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:publicationMedium, Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:publicationMedium
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://schema.org/dateCreated): Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:dateCreated, Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:dateCreated
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#identifier): Model.IPDC-LPDC.IPDC-LPDC:ipdc::regelgeving:identifier, Model.IPDC-LPDC.IPDC-LPDC:Tag:identifier, Model.IPDC-LPDC.IPDC-LPDC:PublicServiceDataset:identifier
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation): Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:regulation, Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:regulation
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/prov#generatedAtTime): Model.IPDC-LPDC.IPDC-LPDC:InstancePublicServiceSnapshot:generatedAtTime, Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicServiceSnapshot:generatedAtTime
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://schema.org/endDate): Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:endDate, Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:endDate
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://schema.org/telephone): Model.IPDC-LPDC.IPDC-LPDC:ContactPoint:hasTelephone, Model.IPDC-LPDC.OSLO-Generiek:ContactInfo:telefoon
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel): Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:competentAuthorityLevel, Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:competentAuthorityLevel
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription): Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:additionalDescription, Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:additionalDescription
+12:21:28 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://schema.org/productID): Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:productNumber, Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:productNumber
+12:21:28 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.IPDC-LPDC.IPDC-LPDC".
+12:21:28 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.IPDC-LPDC.IPDC-LPDC".
+12:21:28 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.IPDC-LPDC.IPDC-LPDC".
+12:21:28 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.IPDC-LPDC.IPDC-LPDC".
+12:21:28 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ContactPoint" .
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "eli::LegalResource" .
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "FinancialAdvantage" .
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Cost" .
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Procedure" .
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Evidence" .
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Requirement" .
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ConceptualPublicService" .
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Website" .
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PubliekeOrganisatie" .
+12:21:29 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.IPDC-LPDC.IPDC-LPDC:YourEuropeCategory".
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "YourEuropeCategory" .
+12:21:29 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.IPDC-LPDC.IPDC-LPDC:TargetAudience".
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TargetAudience" .
+12:21:29 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.IPDC-LPDC.IPDC-LPDC:Type".
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Type" .
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "InstancePublicService" .
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Address" .
+12:21:29 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.IPDC-LPDC.IPDC-LPDC:PublicationMedium".
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PublicationMedium" .
+12:21:29 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.IPDC-LPDC.IPDC-LPDC:InstanceTag".
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "InstanceTag" .
+12:21:29 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.IPDC-LPDC.IPDC-LPDC:ConceptTag".
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ConceptTag" .
+12:21:29 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.IPDC-LPDC.IPDC-LPDC:CompetentAuthorityLevel".
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "CompetentAuthorityLevel" .
+12:21:29 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.IPDC-LPDC.IPDC-LPDC:ExecutingAuthorityLevel".
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ExecutingAuthorityLevel" .
+12:21:29 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.IPDC-LPDC.IPDC-LPDC:Spatial".
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Spatial" .
+12:21:29 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.IPDC-LPDC.IPDC-LPDC:Theme".
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Theme" .
+12:21:29 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.IPDC-LPDC.IPDC-LPDC:Language".
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Language" .
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ConceptualPublicServiceSnapshot" .
+12:21:29 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "InstancePublicServiceSnapshot" .
+12:21:29 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:hasContactPoint" belongs to package "IPDC-LPDC" based on source and target definition.
+12:21:29 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:produces" belongs to package "IPDC-LPDC" based on source and target definition.
+12:21:29 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:follows" belongs to package "IPDC-LPDC" based on source and target definition.
+12:21:29 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:hasLegalResource" belongs to package "IPDC-LPDC" based on source and target definition.
+12:21:29 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:follows" belongs to package "IPDC-LPDC" based on source and target definition.
+12:21:29 WARN  c.g.i.o.c.Converter - Package for connector Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:hasExecutingAuthority is unknown
+12:21:29 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:hasExecutingAuthority".
+12:21:29 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:hasExecutingAuthority".
+12:21:29 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:hasExecutingAuthority".
+12:21:29 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:hasSource" belongs to package "IPDC-LPDC" based on source and target definition.
+12:21:29 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:hasRequirement" belongs to package "IPDC-LPDC" based on source and target definition.
+12:21:29 WARN  c.g.i.o.c.Converter - Package for connector Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:hasCompetentAuthority is unknown
+12:21:29 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:hasMoreInfo" belongs to package "IPDC-LPDC" based on source and target definition.
+12:21:29 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:hasLegalResource" belongs to package "IPDC-LPDC" based on source and target definition.
+12:21:29 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:hasCost" belongs to package "IPDC-LPDC" based on source and target definition.
+12:21:29 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:InstancePublicServiceSnapshot:isVersionOf" belongs to package "IPDC-LPDC" based on source and target definition.
+12:21:29 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:hasCost" belongs to package "IPDC-LPDC" based on source and target definition.
+12:21:29 WARN  c.g.i.o.c.Converter - Package for connector Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:hasExecutingAuthority is unknown
+12:21:29 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:hasExecutingAuthority".
+12:21:29 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:hasExecutingAuthority".
+12:21:29 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-nl" tag for "Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:hasExecutingAuthority".
+12:21:29 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:hasRequirement" belongs to package "IPDC-LPDC" based on source and target definition.
+12:21:29 WARN  c.g.i.o.c.Converter - Package for connector Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicService:hasCompetentAuthority is unknown
+12:21:29 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:Requirement:hasSupportingEvidence" belongs to package "IPDC-LPDC" based on source and target definition.
+12:21:29 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:hasMoreInfo" belongs to package "IPDC-LPDC" based on source and target definition.
+12:21:29 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:ConceptualPublicServiceSnapshot:isVersionOf" belongs to package "IPDC-LPDC" based on source and target definition.
+12:21:29 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:InstancePublicService:produces" belongs to package "IPDC-LPDC" based on source and target definition.
+12:21:29 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.IPDC-LPDC.IPDC-LPDC:Procedure:hasWebsite" belongs to package "IPDC-LPDC" based on source and target definition.

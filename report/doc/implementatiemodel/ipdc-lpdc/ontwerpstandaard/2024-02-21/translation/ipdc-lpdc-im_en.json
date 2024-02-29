@@ -732,6 +732,22 @@
       }
     },
     {
+      "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
+      "name": "hasexecutingauthority",
+      "label": {
+        "nl": "hasExecutingAuthority",
+        "en": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+      "name": "hasexecutingauthority",
+      "label": {
+        "nl": "hasExecutingAuthority",
+        "en": "Enter your translation here"
+      }
+    },
+    {
       "EA-Guid": "{0DBE9458-7F44-4b88-A16B-DD5D7684863B}",
       "name": "postcode",
       "label": {
@@ -944,7 +960,7 @@
       }
     },
     {
-      "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
+      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
       "name": "hasmoreinfo",
       "label": {
         "nl": "hasMoreInfo",
@@ -956,7 +972,7 @@
       }
     },
     {
-      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
+      "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
       "name": "hasmoreinfo",
       "label": {
         "nl": "hasMoreInfo",
@@ -1212,7 +1228,7 @@
       }
     },
     {
-      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
       "name": "produces",
       "label": {
         "nl": "produces",
@@ -1224,7 +1240,7 @@
       }
     },
     {
-      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
       "name": "produces",
       "label": {
         "nl": "produces",
@@ -1416,18 +1432,6 @@
       }
     },
     {
-      "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
-      "name": "isversionof",
-      "label": {
-        "nl": "isVersionOf",
-        "en": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{55F34410-3DA0-42fc-A8AD-E43C9735D39E}",
       "name": "isversionof",
       "label": {
@@ -1436,6 +1440,18 @@
       },
       "definition": {
         "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.",
+        "en": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
+      "name": "isversionof",
+      "label": {
+        "nl": "isVersionOf",
+        "en": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.",
         "en": "Enter your translation here"
       }
     },
@@ -1636,7 +1652,7 @@
       }
     },
     {
-      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
       "name": "hascost",
       "label": {
         "nl": "hasCost",
@@ -1648,7 +1664,7 @@
       }
     },
     {
-      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
+      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
       "name": "hascost",
       "label": {
         "nl": "hasCost",
