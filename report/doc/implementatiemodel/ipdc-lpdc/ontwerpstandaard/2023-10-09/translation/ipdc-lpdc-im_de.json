@@ -493,7 +493,7 @@
       }
     },
     {
-      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+      "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
       "name": "hasexecutingauthority",
       "label": {
         "nl": "hasExecutingAuthority",
@@ -505,7 +505,7 @@
       }
     },
     {
-      "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
+      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
       "name": "hasexecutingauthority",
       "label": {
         "nl": "hasExecutingAuthority",
@@ -805,18 +805,6 @@
       }
     },
     {
-      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
-      "name": "hasmoreinfo",
-      "label": {
-        "nl": "hasMoreInfo",
-        "de": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt",
-        "de": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
       "name": "hasmoreinfo",
       "label": {
@@ -829,14 +817,14 @@
       }
     },
     {
-      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
-      "name": "hasrequirement",
+      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
+      "name": "hasmoreinfo",
       "label": {
-        "nl": "hasRequirement",
+        "nl": "hasMoreInfo",
         "de": "Enter your translation here"
       },
       "definition": {
-        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
+        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt",
         "de": "Enter your translation here"
       }
     },
@@ -853,14 +841,14 @@
       }
     },
     {
-      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
-      "name": "produces",
+      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
+      "name": "hasrequirement",
       "label": {
-        "nl": "produces",
+        "nl": "hasRequirement",
         "de": "Enter your translation here"
       },
       "definition": {
-        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service.",
+        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
         "de": "Enter your translation here"
       }
     },
@@ -877,7 +865,19 @@
       }
     },
     {
-      "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
+      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+      "name": "produces",
+      "label": {
+        "nl": "produces",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service.",
+        "de": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
       "name": "follows",
       "label": {
         "nl": "follows",
@@ -889,7 +889,7 @@
       }
     },
     {
-      "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
+      "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
       "name": "follows",
       "label": {
         "nl": "follows",
@@ -1229,7 +1229,7 @@
       }
     },
     {
-      "EA-Guid": "{CA44BB8F-550D-4d15-BB91-0FBFF973D92C}",
+      "EA-Guid": "{545432DE-61CC-44f1-8C9F-810BDE874F69}",
       "name": "hassupportingevidence",
       "label": {
         "nl": "hasSupportingEvidence",
@@ -1241,7 +1241,7 @@
       }
     },
     {
-      "EA-Guid": "{545432DE-61CC-44f1-8C9F-810BDE874F69}",
+      "EA-Guid": "{CA44BB8F-550D-4d15-BB91-0FBFF973D92C}",
       "name": "hassupportingevidence",
       "label": {
         "nl": "hasSupportingEvidence",
@@ -1321,7 +1321,7 @@
       }
     },
     {
-      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
+      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
       "name": "hascompetentauthority",
       "label": {
         "nl": "hasCompetentAuthority",
@@ -1337,7 +1337,7 @@
       }
     },
     {
-      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
+      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
       "name": "hascompetentauthority",
       "label": {
         "nl": "hasCompetentAuthority",

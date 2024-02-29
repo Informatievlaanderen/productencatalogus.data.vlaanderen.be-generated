@@ -1,0 +1,1722 @@
+{
+  "classes": [
+    {
+      "EA-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+      "name": "Conceptualpublicservice",
+      "label": {
+        "nl": "ConceptualPublicService",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Dienstverlening van lokale besturen is vaak gestoeld op Vlaamse, federale of Europese wetgeving, die vertaald wordt naar een lokaal niveau. Dat betekent dat de basis gelijkaardig is voor elk lokaal bestuur, maar dat er mogelijk flexibiliteit bestaat voor de lokale invulling. Omdat we IPDC goed gevuld en up to date willen krijgen en houden, met een beperkte administratieve belasting, voorzien we het concept. Een concept is een sjabloon dat redacteurs van de Vlaamse overheid klaarzetten voor lokale besturen. Het bevat een algemene invulling van een overheidsdienstverlening, die in de meeste lokale contexten ook van toepassing kan zijn. Lokale besturen kunnen deze concepten raadplegen en beslissen om een eigen dienstverlening te registreren op basis van een concept. Op dat moment wordt een concept gekloond naar een instantie. Het lokaal bestuur kan deze instantie vervolgens volledig aanpassen en afstemmen op de lokale context. Op deze manier groepeert een concept ook alle verschillende lokale variaties van een gelijkaardige dienstverlening.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Een goed voorbeeld van een concept is het huwelijk. Hoewel de beschrijving en voorwaarden van een huwelijk grotendeels hetzelfde zijn voor de verschillende gemeentes zijn er mogelijk toch lokale verschillen, zoals de locatie en prijs, die terug te vinden zijn in de respectievelijke instanties.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{D2B91D18-371A-4811-931C-4C667284F606}",
+      "name": "Conceptualpublicservicesnapshot",
+      "label": {
+        "nl": "ConceptualPublicServiceSnapshot",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Een conceptsnapshot geeft weer hoe een concept er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe conceptsnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een concept vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse ConceptualPublicService.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De conceptsnapshots worden door IPDC aan de hand van een linked data event stream (LDES) beschikbaar gemaakt. Deze LDES maakt de volledige historiek van alle concept wijzigingen beschikbaar voor aansluiters. Meer info over LDES is hier beschikbaar: https://semiceu.github.io/LinkedDataEventStreams",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
+      "name": "Financialadvantage",
+      "label": {
+        "nl": "FinancialAdvantage",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "We voorzien een subklasse 'FinancialAdvantage' van 'Output'. Deze beschrijft de premiebedragen/subsidiebedragen die het resultaat van de dienstverlening zijn.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+      "name": "Instancepublicservice",
+      "label": {
+        "nl": "InstancePublicService",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Instanties zijn de werkelijke invulling van een product of dienstverlening. De bevoegde overheid kan variëren: federaal, Vlaams, provinciaal, en de dienstverlening kan uitgevoerd worden door nog een andere overheid zoals een lokaal bestuur. Een overheidsdienstverlening is een verplichte of optionele reeks activiteiten die (kunnen) worden uitgevoerd door of namens een openbare organisatie, publiekelijk gefinancierd en voortkomend uit het openbaar beleid. Diensten kunnen ten goede komen aan een individu, een organisatie of vereniging, een onderneming of een andere overheidsinstantie, of aan groepen van een van deze partijen. Een dienst bestaat ongeacht of deze wordt gebruikt of niet. Volgens de herziene versie van het Europees Interoperabiliteitskader omvat een Europese openbare dienst elke dienst die wordt verleend door overheidsinstanties in Europa, of door andere organisaties namens hen, aan bedrijven, burgers of andere overheidsinstanties.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{E861DC27-6881-4243-94C4-EF004C4DF728}",
+      "name": "Instancepublicservicesnapshot",
+      "label": {
+        "nl": "InstancePublicServiceSnapshot",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Een instantiesnapshot geeft weer hoe een instantie er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe instantiesnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een instantie vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse InstancePublicService.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De instantiesnapshots worden door IPDC aan de hand van een linked data event stream (LDES) beschikbaar gemaakt. Deze LDES maakt de volledige historiek van alle instantie wijzigingen beschikbaar voor aansluiters. Meer info over LDES is hier beschikbaar: https://semiceu.github.io/LinkedDataEventStreams",
+        "fr": "Enter your translation here"
+      }
+    }
+  ],
+  "properties": [
+    {
+      "EA-Guid": "{5930CD00-2F2B-4530-9325-8F5A05B7CE9A}",
+      "name": "youreuropecategory",
+      "label": {
+        "nl": "yourEuropeCategory",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{0B93FA7B-89C1-4c68-B764-15913B5E627A}",
+      "name": "youreuropecategory",
+      "label": {
+        "nl": "yourEuropeCategory",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{BC97577C-4E3B-4edb-9E86-2F85BEC00D8F}",
+      "name": "targetaudience",
+      "label": {
+        "nl": "targetAudience",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{D21E1AD3-89A2-4f8c-8CB8-7BEF2ADF15C3}",
+      "name": "targetaudience",
+      "label": {
+        "nl": "targetAudience",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{F0C35AE7-8323-4dc5-98D9-658096C94D85}",
+      "name": "regulation",
+      "label": {
+        "nl": "regulation",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{BCE27EE0-AD5C-4e1a-A038-857E5C47835A}",
+      "name": "regulation",
+      "label": {
+        "nl": "regulation",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{98EAE277-E6F7-470b-8202-62D1806DD0F6}",
+      "name": "publicationmedium",
+      "label": {
+        "nl": "publicationMedium",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{2E3A0DC8-B414-44fb-A660-273D95A00B74}",
+      "name": "publicationmedium",
+      "label": {
+        "nl": "publicationMedium",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{19E5B70A-3C98-4cc7-BF34-B393B6C8CC6C}",
+      "name": "isarchived",
+      "label": {
+        "nl": "isArchived",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Waarde die aangeeft of het concept gearchiveerd is.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{DF9CC690-571E-4b42-938C-7E3E66867FB3}",
+      "name": "isarchived",
+      "label": {
+        "nl": "isArchived",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Waarde die aangeeft of het concept gearchiveerd is.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{AA354A19-56F9-401d-8F0A-5C15E68BAC36}",
+      "name": "instancetag",
+      "label": {
+        "nl": "instanceTag",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Instantie tag voor een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Momenteel zijn er geen geldige waardes.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{7B0DD086-D5D2-4dad-A075-691710038D6F}",
+      "name": "executingauthoritylevel",
+      "label": {
+        "nl": "executingAuthorityLevel",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{4656CE62-2DD5-4536-B263-B988EBE8F8C5}",
+      "name": "executingauthoritylevel",
+      "label": {
+        "nl": "executingAuthorityLevel",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{B862B323-7B57-4ad2-93F0-361BCC804224}",
+      "name": "exception",
+      "label": {
+        "nl": "exception",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Tekstveld waarin uitzonderingen op procedures, kostprijzen, ... kunnen aangegeven worden",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{C764511E-C0CF-4962-B3F3-DBD64EEDBC4A}",
+      "name": "exception",
+      "label": {
+        "nl": "exception",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Tekstveld waarin uitzondering op procedures, kostprijzen, ... kunnen aangegeven worden",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{ABED5991-FC6D-4fd9-84AC-A649AE7054BA}",
+      "name": "concepttag",
+      "label": {
+        "nl": "conceptTag",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Concept tag voor een publieke dienst concept. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{E391A031-6184-4f93-89DD-56CC0A5C29CB}",
+      "name": "competentauthoritylevel",
+      "label": {
+        "nl": "competentAuthorityLevel",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{63901009-7C81-44a1-A814-95C0E0D98F5D}",
+      "name": "competentauthoritylevel",
+      "label": {
+        "nl": "competentAuthorityLevel",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{459BA292-8A1C-428d-958E-0F47C8B9F551}",
+      "name": "address",
+      "label": {
+        "nl": "address",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Adres dat men kan aanschrijven of bezoeken.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{40B9D503-6A49-4a93-A3AF-EB3B4AC62DA3}",
+      "name": "additionaldescription",
+      "label": {
+        "nl": "additionalDescription",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "This property represents free text for additional information regarding the description of the Public Service.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{9B97F00E-E553-4c2e-96FE-0806FF0CA570}",
+      "name": "additionaldescription",
+      "label": {
+        "nl": "additionalDescription",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "This property represents free text for additional information regarding the description of the Public Service.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "fr": "Enter your translation here"
+      }
+    }
+  ],
+  "externals": [
+    {
+      "EA-Guid": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
+      "name": "Legalresource",
+      "label": {
+        "nl": "LegalResource",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "This class represents the legislation, policy or policies that lie behind the Rules that govern the service.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Link naar de Vlaamse Codex of een ander wetgevingsregsiter - The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
+      "name": "Cost",
+      "label": {
+        "nl": "Cost",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Cost class represents any costs related to the execution of a Public Service that the Agent consuming it needs to pay.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{AB091799-B96F-43c2-9DDE-6F32F0100B3C}",
+      "name": "Evidence",
+      "label": {
+        "nl": "Evidence",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Evidence class is defined in the Core Criterion and Core Evidence vocabulary (CCCEV) as any resource that can document or support a response. It contains information that proves that a normal requirement exists or is true.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Although the wording of the definition is different, the semantics are an exact match for CPSV's Input class which it replaces. Evidence can be any resource - document, artefact - anything needed for executing the Public Service.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+      "name": "Publiekeorganisatie",
+      "label": {
+        "nl": "PubliekeOrganisatie",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Een organisatie die volgens een wettelijk kader behoort tot de publieke sector, ongeacht het bestuursniveau waarop dat kader van kracht is.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Link naar het organisatieregister (wegwijs) op basis van de OVO code of link naar het organisatieportaal. Waar mogeijk probeert IPDC links naar het organisatieregister te leggen. Wanneer IPDC een link naar het organisatieportaal ontvangt probeert het de organisatie op te zoeken in het organisatieregister. Wanneer deze gevonden wordt zal de link naar het organisatieregister bewaard worden anders blijft de link naar het organisatieportaal behouden.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
+      "name": "Requirement",
+      "label": {
+        "nl": "Requirement",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "A normal requirement is an atomic requirement. Some criteria can be expressed with several atomic requirements. A normal requirement can specify the expected value that the requirement response has to contain, or a range of threshold values within which the requirement response has to fit in. The normal requirement may apply to a certain period of time. It also can provide a list of candidate evidences that the responder can use to prove the normal requirement.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Not all public services are needed or usable by everyone. For example, the visa service operated by European countries is not needed by European citizens but is needed by some citizens from elsewhere, or public services offering unemployment benefits and grants are targeting specific societal groups. This model reuses the Core Criterion and Core Evidence Vocabulary for this class. The CCCEV provides more details but the Requirement class has three mandatory properties.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
+      "name": "Procedure",
+      "label": {
+        "nl": "Procedure",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Rule class represents a document that sets out the specific rules, guidelines or procedures that the Public Service follows. It includes the terms of service, licence, and authentication requirements of the Public Service. Instances of the Rule class are FRBR (Functional Requirements for Bibliographic Records) Expressions, that is, a concrete expression such as a document, of the more abstract concept of the rules themselves.This model does not envisage instances of the Rule class as machine-readable business rules. Detailed modelling of the rules related to Public Services is out of scope of this model.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{A87B22A4-91D0-494a-95F1-8C9B5CFAED6D}",
+      "name": "Contactpoint",
+      "label": {
+        "nl": "ContactPoint",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "This class represents the contact information for a Public Service, Channel, Public Organization, etc. It is defined in the Core Public Organization Vocabulary and is provided as a schema:ContactPoint. Like Channel, a Contact Point may have regular opening hours that are then overridden by, for example, public holidays, using the Opening Hours Specification class.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
+      "name": "Website",
+      "label": {
+        "nl": "Website",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via a URL.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{0FFDCC68-70AA-4365-8AE2-BD4B0122C0A6}",
+      "name": "Youreuropecategory",
+      "label": {
+        "nl": "YourEuropeCategory",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{365AA96E-B24E-4491-A948-84D43EC6F900}",
+      "name": "Targetaudience",
+      "label": {
+        "nl": "TargetAudience",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{B62F18BE-2384-478d-8B01-ABAE1F23010F}",
+      "name": "Type",
+      "label": {
+        "nl": "Type",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Type van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{3558D13F-3BF5-4aad-A24E-1F4F96D99A74}",
+      "name": "Publicationmedium",
+      "label": {
+        "nl": "PublicationMedium",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{16F1EFDB-BECD-41a1-A17A-AC8FDF0B5D68}",
+      "name": "Instancetag",
+      "label": {
+        "nl": "InstanceTag",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Instantie tag voor een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Momenteel zijn er geen geldige waardes.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{7A3BE628-EECF-423f-8C8F-E0740E9A6CE4}",
+      "name": "Concepttag",
+      "label": {
+        "nl": "ConceptTag",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Concept tag voor een publieke dienst concept. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{6E340942-8F33-4cf0-B870-D3BFFFAD7E1B}",
+      "name": "Competentauthoritylevel",
+      "label": {
+        "nl": "CompetentAuthorityLevel",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{E39E55FA-168A-4839-B9B3-1A0EF4A25F80}",
+      "name": "Executingauthoritylevel",
+      "label": {
+        "nl": "ExecutingAuthorityLevel",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{979347D8-CAD3-4d83-BEE5-8D054D35D54F}",
+      "name": "Spatial",
+      "label": {
+        "nl": "Spatial",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Geografisch toepassingsgebied van een pubieke dienst. Het geografisch toepassingsgebied wordt voorgesteld aan de hand van een NUTS of LAU code. NUTS codes zijn hierarisch ingedeeld in 4 niveau's. Op het hoogste niveau, NUTS 0, worden de landen ingedeeld en krijgt belgie de code BE. Eén niveau daaronder, NUTS 1, deelt Belgie verder op in de gewesten. Zo krijgt het Vlaams Gewest code BE2. Elk gewest wordt op zijn beurt op NUTS 2 niveau verder ingedeeld in de provincies. Zo krijgt de provincie Antwerpen bijvoorbeeld code BE21. Elke provincie wordt vervolgens op NUTS 3 niveau nog onderverdeeld in arrondissmenten. Zo krijgt het arrondissment Mechelen code BE212. Een fijnere opdeling in gemeenten kan vervolgens gemaakt worden met de LAU codes. Zo krijgt de gemeente Kontich LAU code 11024. Meer informatie over deze opdeling is hier terug te vinden: https://ec.europa.eu/eurostat/web/nuts. Zowel de NUTS als LAU codes worden beheerd door Eurostat. We volgen momenteel de NUTS 2021 classificatie en de laatst gevalideerde LAU 2019 classificatie. De NUTS codelijst wordt door Europa gepubliceerd op https://publications.europa.eu/resource/authority/nuts. Deze gaat echter niet tot op LAU niveau er bestaat ook geen gepubliceerde codelijst voor de LAU codes. Als oplossing maakte het IPDC - LPDC team een uitbreiding op de NUTS codelijst en werd een extra hierarchish niveau onder NUTS 3 toegevoegd om ook de gemeentes met hun LAU code beschikbaar te maken. De code voor een gemeente in deze codelijst is de concatenatie van de omvattende NUTS3 code voor de gemeente en de LAU code. Zo krijgt de gemeente Kontich bijvoorbeeld de code BE21111024.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Dit zijn alle NUTS en LAU codes die binnen het Vlaams Gewest en Brussels Hoofdstedelijk Gewest vallen en het Federaal niveau voorstellen.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{B2634D81-F204-4dcc-97ED-469F65090570}",
+      "name": "Theme",
+      "label": {
+        "nl": "Theme",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Thema van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{30141F06-519E-4f9e-9603-CF44FFCF47C2}",
+      "name": "Language",
+      "label": {
+        "nl": "Language",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
+      "name": "Address",
+      "label": {
+        "nl": "Address",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Adres dat men kan aanschrijven of bezoeken.",
+        "fr": "Enter your translation here"
+      }
+    }
+  ],
+  "externalproperties": [
+    {
+      "EA-Guid": "{D9015129-EBE8-4287-AEE3-253E7CD1E256}",
+      "name": "language",
+      "label": {
+        "nl": "language",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{CABD8E8C-BF44-46a0-80A6-6A69DCD570A6}",
+      "name": "haswebsite",
+      "label": {
+        "nl": "hasWebsite",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Link naar online locatie waar de procedure opgestart kan worden.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+      "name": "hasexecutingauthority",
+      "label": {
+        "nl": "hasExecutingAuthority",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Links naar de uitvoerende organisaties",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
+      "name": "hasexecutingauthority",
+      "label": {
+        "nl": "hasExecutingAuthority",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Links naar de uitvoerende organisaties",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{0DBE9458-7F44-4b88-A16B-DD5D7684863B}",
+      "name": "postcode",
+      "label": {
+        "nl": "postCode",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The post code (a.k.a postal code, zip code etc.). Post codes are common elements in many countries' postal address systems. The domain of locn:postCode is locn:Address.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{61E5242D-5478-469d-9020-4F574F962150}",
+      "name": "country",
+      "label": {
+        "nl": "country",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The uppermost administrative unit for the address, almost always a country. The domain of locn:adminUnitL1 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Best practice is to use the ISO 3166-1 code but if this is inappropriate for the context, country names should be provided in a consistent manner to reduce ambiguity. For example, either write 'United Kingdom' or 'UK' consistently throughout the data set and avoid mixing the two.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{2F6BFB61-AE7F-43f0-AC7F-61F74B412330}",
+      "name": "municipality",
+      "label": {
+        "nl": "municipality",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The key postal division of the address, usually the city. (INSPIRE's definition is \"One or more names created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.\"). The domain of locn:postName is locn:Address.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{64F9D729-6247-4109-B6A2-7173B4326192}",
+      "name": "thoroughfare",
+      "label": {
+        "nl": "thoroughfare",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "An address component that represents the name of a passage or way through from one location to another. A thoroughfare is not necessarily a road, it might be a waterway or some other feature. The domain of locn:thoroughfare is locn:Address.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{B6B69C48-E000-4c53-9D2E-F9002B9330FA}",
+      "name": "housenumber",
+      "label": {
+        "nl": "houseNumber",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "houseNumber is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{FC91E467-EFC9-4367-A0A6-AE2C6BEED75A}",
+      "name": "mailbox",
+      "label": {
+        "nl": "mailbox",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Mailbox is defined as a subproperty of locatordesignator by defining parentURI ttp://www.w3.org/ns/locn#locatorDesignator.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{014618E4-5E49-45c9-90CB-D94CA9CC28AE}",
+      "name": "order",
+      "label": {
+        "nl": "order",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Specifies the relative order of this item compared to its siblings.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{02378DF6-6E08-44c0-9496-F93F002F0BB0}",
+      "name": "order",
+      "label": {
+        "nl": "order",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Specifies the relative order of this item compared to its siblings.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{EAB20049-4406-4abf-8738-56069F1C4E03}",
+      "name": "order",
+      "label": {
+        "nl": "order",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Specifies the relative order of this item compared to its siblings.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{EC2AFECD-FA56-4b0b-BED3-0FF78DE3EFAE}",
+      "name": "order",
+      "label": {
+        "nl": "order",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Specifies the relative order of this item compared to its siblings.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{B4478DC6-209B-4978-8034-2FC29E35A60E}",
+      "name": "order",
+      "label": {
+        "nl": "order",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Specifies the relative order of this item compared to its siblings.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Items are sorted in ascending order, for example use 1 for the first, 2 for the second.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{1690B7D6-9F3C-472b-BD13-09297AF5153C}",
+      "name": "generatedattime",
+      "label": {
+        "nl": "generatedAtTime",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Tijdstip waarop de snapshot van het concept gemaakt werd.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{FE8F9E5B-9729-4d16-8E7A-4964F37EC18A}",
+      "name": "generatedattime",
+      "label": {
+        "nl": "generatedAtTime",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Tijdstip waarop de snapshot van de instantie gemaakt werd.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{CBC211C6-6760-4ae3-832E-7994E4FA5B49}",
+      "name": "keyword",
+      "label": {
+        "nl": "keyword",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "This property represents a keyword, term or phrase to describe the Public Service.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Er mogen meerdere termen per taal zijn. Dit in tegenstelling tot alle andere velden van het type TaalString.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{FE022F17-B5BA-45c4-93C0-EFACAD79DA4D}",
+      "name": "keyword",
+      "label": {
+        "nl": "keyword",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "This property represents a keyword, term or phrase to describe the Public Service.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Er mogen meerdere termen per taal zijn. Dit in tegenstelling tot alle andere velden van het type TaalString.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
+      "name": "hasmoreinfo",
+      "label": {
+        "nl": "hasMoreInfo",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
+      "name": "hasmoreinfo",
+      "label": {
+        "nl": "hasMoreInfo",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
+      "name": "hasrequirement",
+      "label": {
+        "nl": "hasRequirement",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
+      "name": "hasrequirement",
+      "label": {
+        "nl": "hasRequirement",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{282899F1-5DF2-4535-8F0E-C3D0FAD5F08C}",
+      "name": "website",
+      "label": {
+        "nl": "website",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "De url van de website",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Website locatie moet voldoen aan het formaat beschreven in RFC1738: https://datatracker.ietf.org/doc/html/rfc1738#section-3.3",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{14D2ECEE-4886-4880-9F24-3C56151C7009}",
+      "name": "location",
+      "label": {
+        "nl": "location",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "De url van de website",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Website locatie moet voldoen aan het formaat beschreven in RFC1738: https://datatracker.ietf.org/doc/html/rfc1738#section-3.3",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{AB586E18-B322-487a-A671-0ACD9A78B2B8}",
+      "name": "hastelephone",
+      "label": {
+        "nl": "hasTelephone",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "A property through which a phone number for the Public Organization, or a representative of it, can be contacted.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{CD90A19A-4294-43a7-8513-C8D769BBA146}",
+      "name": "startdate",
+      "label": {
+        "nl": "startDate",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Datum waarop de publieke dienstverlening actief aangeboden werd/wordt",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Een lege startdatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als een startdatum heel ver in het verleden.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{8BE878DA-620D-496e-AD4D-883A331D9E10}",
+      "name": "startdate",
+      "label": {
+        "nl": "startDate",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Datum waarop de publieke dienstverlening actief aangeboden werd/wordt",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Een lege startdatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als een startdatum heel ver in het verleden.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{82526185-873F-473a-990C-8F7FF830A023}",
+      "name": "productnumber",
+      "label": {
+        "nl": "productNumber",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Het productnummer wordt automatisch door IPDC gegenereerd bij creatie. Dit nummer kan niet door een andere partij bepaald worden.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{A44DDC22-0861-4f4f-B3BF-348EBA5D961D}",
+      "name": "productnumber",
+      "label": {
+        "nl": "productNumber",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Het productnummer wordt automatisch door IPDC gegenereerd bij creatie. Dit nummer kan niet door een andere partij bepaald worden.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{6D380293-E1B7-49fe-BD5E-0E96E46046B6}",
+      "name": "openinghours",
+      "label": {
+        "nl": "openinghours",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The value of this property is structured text that gives the hours at which the contact point is normally available.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Days are specified using two-letter combinations: Mo, Tu, We, Th, Fr, Sa, Su. For example, if the contact point is open Monday-Friday, 9 -5, the value of the openingHours property would be Mo-Fr 09:00-17:00. If the Contact Point is only available on Tuesday and Thursday between 6 and 8pm, the value would be Tu,Th 16:00-20:00.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{D8C442B2-9BF5-4a0c-91B4-51AACDAB9E34}",
+      "name": "enddate",
+      "label": {
+        "nl": "endDate",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Datum waarop de publieke dienstverlening stopgezet werd/wordt",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Een lege einddatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als geen einddatum.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{633AEC16-9638-4db2-9888-92ACA080B4D2}",
+      "name": "enddate",
+      "label": {
+        "nl": "endDate",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Datum waarop de publieke dienstverlening stopgezet werd/wordt",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Een lege einddatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als geen einddatum.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{6FEF5BEA-54FD-4a6b-BACD-42BB1DC81E2F}",
+      "name": "hasemail",
+      "label": {
+        "nl": "hasEmail",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "A property through which an e-mail address for the Public Organization, or a representative of it, can be contacted.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Email adres moet voldoen aan het formaat beschreven in RFC2822: https://datatracker.ietf.org/doc/html/rfc2822#section-3.4.1",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{334A997B-205D-4600-9B48-1CC0DFF3802E}",
+      "name": "datemodified",
+      "label": {
+        "nl": "dateModified",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Tijdstip waarop het concept door een redacteur laatst werd gewijzigd.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{CD41FB15-4BF2-4f70-B323-957B4865C00C}",
+      "name": "datemodified",
+      "label": {
+        "nl": "dateModified",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Tijdstip waarop de instantie door een redacteur laatst werd gewijzigd.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{6C24D0E3-3B03-42f7-B545-F543A9938E20}",
+      "name": "datecreated",
+      "label": {
+        "nl": "dateCreated",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Tijdstip waarop het concept door een redacteur werd aangemaakt.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{57620793-92B7-4533-8114-89D2D973460C}",
+      "name": "datecreated",
+      "label": {
+        "nl": "dateCreated",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Tijdstip waarop de instantie door een redacteur werd aangemaakt.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+      "name": "produces",
+      "label": {
+        "nl": "produces",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+      "name": "produces",
+      "label": {
+        "nl": "produces",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
+      "name": "follows",
+      "label": {
+        "nl": "follows",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
+      "name": "follows",
+      "label": {
+        "nl": "follows",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{61488CC7-5288-4edd-90F6-9BBCAC5527A6}",
+      "name": "type",
+      "label": {
+        "nl": "type",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Type van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{B5D5B1DB-550A-4cda-AB41-9E852DA108DC}",
+      "name": "type",
+      "label": {
+        "nl": "type",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Type van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{A421D277-3F77-46cf-8C63-38C83B6986AA}",
+      "name": "name",
+      "label": {
+        "nl": "name",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "This property represents the official Name of the Output.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{DF53E3DA-4ECC-42d3-AAC7-8E3E0FCD785E}",
+      "name": "name",
+      "label": {
+        "nl": "name",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "This property represents the name of the cost.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{3D13A56E-249A-4246-8AD6-EF50E53F4EE7}",
+      "name": "name",
+      "label": {
+        "nl": "name",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "This property represents the Name of the Rule.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{2DF8ED2E-6F77-4484-A6CB-CDCFDA38EDF5}",
+      "name": "name",
+      "label": {
+        "nl": "name",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "This property represents the official Name of the Evidence.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{F84A2EAE-6FDD-4eed-ACB0-4C48426A9CED}",
+      "name": "name",
+      "label": {
+        "nl": "name",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "This property represents the official Name of the Requirement.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{0C3F7635-5CAC-4faf-AF06-7B0076C9645F}",
+      "name": "name",
+      "label": {
+        "nl": "name",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "This property represents the official Name of the Public Service.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{505FD76E-432E-4063-866F-6FCD7B9B0072}",
+      "name": "name",
+      "label": {
+        "nl": "name",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "This property represents the name of the website.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{57BE4B30-C0DB-40e3-9EA6-10DD73AC9DA7}",
+      "name": "name",
+      "label": {
+        "nl": "name",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "This property represents the official Name of the Public Service.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{58F1C812-357E-4b8d-B24A-5082EEE51314}",
+      "name": "spatial",
+      "label": {
+        "nl": "spatial",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Geografisch toepassingsgebied van een pubieke dienst. Het geografisch toepassingsgebied wordt voorgesteld aan de hand van een NUTS of LAU code. NUTS codes zijn hierarisch ingedeeld in 4 niveau's. Op het hoogste niveau, NUTS 0, worden de landen ingedeeld en krijgt belgie de code BE. Eén niveau daaronder, NUTS 1, deelt Belgie verder op in de gewesten. Zo krijgt het Vlaams Gewest code BE2. Elk gewest wordt op zijn beurt op NUTS 2 niveau verder ingedeeld in de provincies. Zo krijgt de provincie Antwerpen bijvoorbeeld code BE21. Elke provincie wordt vervolgens op NUTS 3 niveau nog onderverdeeld in arrondissmenten. Zo krijgt het arrondissment Mechelen code BE212. Een fijnere opdeling in gemeenten kan vervolgens gemaakt worden met de LAU codes. Zo krijgt de gemeente Kontich LAU code 11024. Meer informatie over deze opdeling is hier terug te vinden: https://ec.europa.eu/eurostat/web/nuts. Zowel de NUTS als LAU codes worden beheerd door Eurostat. We volgen momenteel de NUTS 2021 classificatie en de laatst gevalideerde LAU 2019 classificatie. De NUTS codelijst wordt door Europa gepubliceerd op https://publications.europa.eu/resource/authority/nuts. Deze gaat echter niet tot op LAU niveau er bestaat ook geen gepubliceerde codelijst voor de LAU codes. Als oplossing maakte het IPDC - LPDC team een uitbreiding op de NUTS codelijst en werd een extra hierarchish niveau onder NUTS 3 toegevoegd om ook de gemeentes met hun LAU code beschikbaar te maken. De code voor een gemeente in deze codelijst is de concatenatie van de omvattende NUTS3 code voor de gemeente en de LAU code. Zo krijgt de gemeente Kontich bijvoorbeeld de code BE21111024.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Dit zijn alle NUTS en LAU codes die binnen het Vlaams Gewest en Brussels Hoofdstedelijk Gewest vallen en het Federaal niveau voorstellen.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{81D83355-57A6-4a43-9F2D-DC7C00DD6EE7}",
+      "name": "hassource",
+      "label": {
+        "nl": "hasSource",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Het concept op basis van welk deze instantie aangemaakt werd. De teksten van het concept werden gebruikt als sjabloonteksten gebruikt bij het aanmaken van de instantie. Instanties die werden aangemaakt op basis van hetzelfde concept worden via deze relatie gegroepeerd bij het gemeenschappelijke concept.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
+      "name": "isversionof",
+      "label": {
+        "nl": "isVersionOf",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{55F34410-3DA0-42fc-A8AD-E43C9735D39E}",
+      "name": "isversionof",
+      "label": {
+        "nl": "isVersionOf",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{E2A05D4E-A8E3-40c8-A25C-4F4FAFC8377B}",
+      "name": "description",
+      "label": {
+        "nl": "description",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "This property represents a free text Description of the Output.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{683B6DD5-08B2-4af6-81F5-0FFBB7F60A9E}",
+      "name": "description",
+      "label": {
+        "nl": "description",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "This property represents a free text description of the Cost.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{6C9947D9-26BB-481f-B5CD-286400811433}",
+      "name": "description",
+      "label": {
+        "nl": "description",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "This property represents a free text Description of the Rule.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{57A2DDC8-6FE6-47fd-AD14-96562D01A2D7}",
+      "name": "description",
+      "label": {
+        "nl": "description",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Geeft omschrijving van de vereiste input",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{CC44BEEB-CF24-47fc-A678-7EECD0509B4F}",
+      "name": "description",
+      "label": {
+        "nl": "description",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement being instantiated.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{84DC00A9-4183-4799-8255-BDB7878B6BEA}",
+      "name": "description",
+      "label": {
+        "nl": "description",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{4B4ED25C-CD27-405e-A5DD-04C7D1101ACA}",
+      "name": "description",
+      "label": {
+        "nl": "description",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "This property represents a free text description of the Website.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{E0DAEBF7-0117-4ac4-9D75-1B0933112C9F}",
+      "name": "description",
+      "label": {
+        "nl": "description",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{C7E22910-1356-4ada-AB90-41B9BDF382D3}",
+      "name": "theme",
+      "label": {
+        "nl": "theme",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Thema van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{ABE3FD6D-63D7-4c9e-88F4-CF743CFA07CA}",
+      "name": "theme",
+      "label": {
+        "nl": "theme",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Thema van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{17E9AE4F-5CEA-4cac-80EB-B55C5B5B2CD3}",
+      "name": "hassupportingevidence",
+      "label": {
+        "nl": "hasSupportingEvidence",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Evidence that supplies information (proof, support) for this Requirement.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
+      "name": "haslegalresource",
+      "label": {
+        "nl": "hasLegalResource",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
+      "name": "haslegalresource",
+      "label": {
+        "nl": "hasLegalResource",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+      "name": "hascost",
+      "label": {
+        "nl": "hasCost",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
+      "name": "hascost",
+      "label": {
+        "nl": "hasCost",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{836B7326-86C9-4a65-B122-841B3EEA50A6}",
+      "name": "hascontactpoint",
+      "label": {
+        "nl": "hasContactPoint",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "A contact point for the service is almost always helpful. The value of this property, the contact information itself, should be provided using schema:ContactPoint. Note that the contact information should be relevant to the Public Service which may not be the same as contact information for the Competent Authority or any Participant.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
+      "name": "hascompetentauthority",
+      "label": {
+        "nl": "hasCompetentAuthority",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\".",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
+      "name": "hascompetentauthority",
+      "label": {
+        "nl": "hasCompetentAuthority",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\".",
+        "fr": "Enter your translation here"
+      }
+    }
+  ]
+}

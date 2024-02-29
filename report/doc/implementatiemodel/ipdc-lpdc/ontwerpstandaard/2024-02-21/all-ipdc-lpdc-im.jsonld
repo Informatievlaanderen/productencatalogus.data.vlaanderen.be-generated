@@ -10410,16 +10410,17 @@
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
     "config": "config/config-ap.json",
-    "branchtag": "main",
+    "branchtag": "5892913",
     "disabled": false,
-    "dummy": "016",
+    "dummy": "017",
     "filename": "config/ipdc-lpdc-im.json",
     "navigation": {
+        "next": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29",
         "prev": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2023-10-09"
     },
     "repository": "https://github.com/Informatievlaanderen/ipdc-lpdc",
     "urlref": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21",
     "documentcommit": "589291336744553fa3ff059b8f791001b8057014",
-    "toolchaincommit": "fffbad8ab9d0176b7d36100383e9ba3d3def857a",
+    "toolchaincommit": "ca49548bcd780589b3514febcc0184b69417e99a",
     "hostname": "https://productencatalogus.data.test-vlaanderen.be/"
 }

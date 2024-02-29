@@ -1,18 +1,18 @@
 <http://fixme.com> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://fixme.com> <http://purl.org/dc/terms/license> "https://creativecommons.org/publicdomain/zero/1.0/" .
 <http://fixme.com> <http://purl.org/dc/terms/license> <https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0> .
-<http://fixme.com> <http://purl.org/dc/terms/mediator> _:g454620 .
+<http://fixme.com> <http://purl.org/dc/terms/mediator> _:g454640 .
 <http://fixme.com> <http://www.w3.org/2000/01/rdf-schema#label> "ipdc-lpdc-voc"@en .
 <http://fixme.com> <http://www.w3.org/2000/01/rdf-schema#label> "ipdc-lpdc-voc"@nl .
-<http://fixme.com> <http://xmlns.com/foaf/0.1/maker> _:g454640 .
-<http://fixme.com> <http://www.w3.org/2001/02pd/rec54#editor> _:g454680 .
-<http://fixme.com> <http://www.w3.org/2001/02pd/rec54#editor> _:g454720 .
-<http://fixme.com> <http://purl.org/dc/terms/contributor> _:g454760 .
-<http://fixme.com> <http://purl.org/dc/terms/contributor> _:g454800 .
-<http://fixme.com> <http://purl.org/dc/terms/contributor> _:g454840 .
-<http://fixme.com> <http://purl.org/dc/terms/contributor> _:g454880 .
-<http://fixme.com> <http://purl.org/dc/terms/contributor> _:g454920 .
-<http://fixme.com> <http://purl.org/dc/terms/contributor> _:g454960 .
+<http://fixme.com> <http://xmlns.com/foaf/0.1/maker> _:g454660 .
+<http://fixme.com> <http://www.w3.org/2001/02pd/rec54#editor> _:g454700 .
+<http://fixme.com> <http://www.w3.org/2001/02pd/rec54#editor> _:g454740 .
+<http://fixme.com> <http://purl.org/dc/terms/contributor> _:g454780 .
+<http://fixme.com> <http://purl.org/dc/terms/contributor> _:g454820 .
+<http://fixme.com> <http://purl.org/dc/terms/contributor> _:g454860 .
+<http://fixme.com> <http://purl.org/dc/terms/contributor> _:g454900 .
+<http://fixme.com> <http://purl.org/dc/terms/contributor> _:g454940 .
+<http://fixme.com> <http://purl.org/dc/terms/contributor> _:g454980 .
 <http://fixme.com> <http://purl.org/dc/terms/issued> "TODO" .
 <http://fixme.com> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.europa.eu/eli/ontology#LegalResource> .
 <http://fixme.com> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.europa.eu/m8g/Cost> .
@@ -178,72 +178,72 @@
 <http://fixme.com#Address.houseNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address> .
 <http://fixme.com#Address.houseNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://fixme.com#Address.houseNumber> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/locn#locatorDesignator> .
-_:g454620 <http://xmlns.com/foaf/0.1/homepage> <https://productencatalogus.data.vlaanderen.be> .
-_:g454620 <http://xmlns.com/foaf/0.1/mbox> <mailto:info@vlaanderen.be> .
-_:g454620 <http://xmlns.com/foaf/0.1/name> "Productencatalogus" .
-_:g454640 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:g454640 <http://schema.org/affiliation> _:g454660 .
-_:g454640 <http://xmlns.com/foaf/0.1/firstName> "Wouter" .
-_:g454640 <http://xmlns.com/foaf/0.1/lastName> "De Cock" .
-_:g454640 <http://xmlns.com/foaf/0.1/mbox> <mailto:wouter.decock@wdcsolutions.be> .
-_:g454660 <http://xmlns.com/foaf/0.1/homepage> <https://www.wdcsolutions.be> .
-_:g454660 <http://xmlns.com/foaf/0.1/name> "WDC Solutions" .
-_:g454680 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:g454680 <http://schema.org/affiliation> _:g454700 .
-_:g454680 <http://xmlns.com/foaf/0.1/firstName> "Dieter" .
-_:g454680 <http://xmlns.com/foaf/0.1/lastName> "Van Peer" .
-_:g454680 <http://xmlns.com/foaf/0.1/mbox> <mailto:dieter.vanpeer@kunlabora.be> .
-_:g454700 <http://xmlns.com/foaf/0.1/homepage> <https://www.kunlabora.be> .
-_:g454700 <http://xmlns.com/foaf/0.1/name> "Kunlabora" .
-_:g454720 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:g454720 <http://schema.org/affiliation> _:g454740 .
-_:g454720 <http://xmlns.com/foaf/0.1/firstName> "Heidi" .
-_:g454720 <http://xmlns.com/foaf/0.1/lastName> "Bottu" .
-_:g454720 <http://xmlns.com/foaf/0.1/mbox> <mailto:heidi.bottu@kunlabora.be> .
-_:g454740 <http://xmlns.com/foaf/0.1/homepage> <https://www.kunlabora.be> .
-_:g454740 <http://xmlns.com/foaf/0.1/name> "Kunlabora" .
-_:g454760 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:g454760 <http://schema.org/affiliation> _:g454780 .
-_:g454760 <http://xmlns.com/foaf/0.1/firstName> "Niels" .
-_:g454760 <http://xmlns.com/foaf/0.1/lastName> "Vandekeybus" .
-_:g454760 <http://xmlns.com/foaf/0.1/mbox> <mailto:niels.vandekeybus@redpencil.io> .
-_:g454780 <http://xmlns.com/foaf/0.1/homepage> <https://redpencil.io> .
-_:g454780 <http://xmlns.com/foaf/0.1/name> "redpencil" .
-_:g454800 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:g454800 <http://schema.org/affiliation> _:g454820 .
-_:g454800 <http://xmlns.com/foaf/0.1/firstName> "Bert" .
-_:g454800 <http://xmlns.com/foaf/0.1/lastName> "Van Nuffelen" .
-_:g454800 <http://xmlns.com/foaf/0.1/mbox> <mailto:bert.vannuffelen@vlaanderen.be> .
-_:g454820 <http://xmlns.com/foaf/0.1/homepage> <https://www.vlaanderen.be/digitaal-vlaanderen> .
-_:g454820 <http://xmlns.com/foaf/0.1/name> "Digitaal Vlaanderen" .
-_:g454840 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:g454840 <http://schema.org/affiliation> _:g454860 .
-_:g454840 <http://xmlns.com/foaf/0.1/firstName> "Felix" .
-_:g454840 <http://xmlns.com/foaf/0.1/lastName> "Ruiz de Arcaute" .
-_:g454840 <http://xmlns.com/foaf/0.1/mbox> <mailto:felix.ruizdearcaute@redpencil.io> .
-_:g454860 <http://xmlns.com/foaf/0.1/homepage> <https://redpencil.io> .
-_:g454860 <http://xmlns.com/foaf/0.1/name> "redpencil" .
-_:g454880 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:g454880 <http://schema.org/affiliation> _:g454900 .
-_:g454880 <http://xmlns.com/foaf/0.1/firstName> "Stefanie" .
-_:g454880 <http://xmlns.com/foaf/0.1/lastName> "Kerkhof" .
-_:g454880 <http://xmlns.com/foaf/0.1/mbox> <mailto:stefanie.kerkhof@vlaanderen.be> .
-_:g454900 <http://xmlns.com/foaf/0.1/homepage> <https://www.vlaanderen.be/digitaal-vlaanderen> .
-_:g454900 <http://xmlns.com/foaf/0.1/name> "Digitaal Vlaanderen" .
-_:g454920 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:g454920 <http://schema.org/affiliation> _:g454940 .
-_:g454920 <http://xmlns.com/foaf/0.1/firstName> "Boris" .
-_:g454920 <http://xmlns.com/foaf/0.1/lastName> "De Vloed" .
-_:g454920 <http://xmlns.com/foaf/0.1/mbox> <mailto:boris@devloed.com> .
-_:g454940 <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/borisdevloed> .
-_:g454940 <http://xmlns.com/foaf/0.1/name> "devloed.com" .
-_:g454960 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:g454960 <http://schema.org/affiliation> _:g454980 .
-_:g454960 <http://xmlns.com/foaf/0.1/firstName> "Dirk" .
-_:g454960 <http://xmlns.com/foaf/0.1/lastName> "De Smedt" .
-_:g454960 <http://xmlns.com/foaf/0.1/mbox> <mailto:dirk.desmedt@vlaanderen.be> .
-_:g454980 <http://xmlns.com/foaf/0.1/homepage> <https://www.vlaanderen.be/digitaal-vlaanderen> .
-_:g454980 <http://xmlns.com/foaf/0.1/name> "Digitaal Vlaanderen" .
+_:g454640 <http://xmlns.com/foaf/0.1/homepage> <https://productencatalogus.data.vlaanderen.be> .
+_:g454640 <http://xmlns.com/foaf/0.1/mbox> <mailto:info@vlaanderen.be> .
+_:g454640 <http://xmlns.com/foaf/0.1/name> "Productencatalogus" .
+_:g454660 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:g454660 <http://schema.org/affiliation> _:g454680 .
+_:g454660 <http://xmlns.com/foaf/0.1/firstName> "Wouter" .
+_:g454660 <http://xmlns.com/foaf/0.1/lastName> "De Cock" .
+_:g454660 <http://xmlns.com/foaf/0.1/mbox> <mailto:wouter.decock@wdcsolutions.be> .
+_:g454680 <http://xmlns.com/foaf/0.1/homepage> <https://www.wdcsolutions.be> .
+_:g454680 <http://xmlns.com/foaf/0.1/name> "WDC Solutions" .
+_:g454700 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:g454700 <http://schema.org/affiliation> _:g454720 .
+_:g454700 <http://xmlns.com/foaf/0.1/firstName> "Dieter" .
+_:g454700 <http://xmlns.com/foaf/0.1/lastName> "Van Peer" .
+_:g454700 <http://xmlns.com/foaf/0.1/mbox> <mailto:dieter.vanpeer@kunlabora.be> .
+_:g454720 <http://xmlns.com/foaf/0.1/homepage> <https://www.kunlabora.be> .
+_:g454720 <http://xmlns.com/foaf/0.1/name> "Kunlabora" .
+_:g454740 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:g454740 <http://schema.org/affiliation> _:g454760 .
+_:g454740 <http://xmlns.com/foaf/0.1/firstName> "Heidi" .
+_:g454740 <http://xmlns.com/foaf/0.1/lastName> "Bottu" .
+_:g454740 <http://xmlns.com/foaf/0.1/mbox> <mailto:heidi.bottu@kunlabora.be> .
+_:g454760 <http://xmlns.com/foaf/0.1/homepage> <https://www.kunlabora.be> .
+_:g454760 <http://xmlns.com/foaf/0.1/name> "Kunlabora" .
+_:g454780 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:g454780 <http://schema.org/affiliation> _:g454800 .
+_:g454780 <http://xmlns.com/foaf/0.1/firstName> "Niels" .
+_:g454780 <http://xmlns.com/foaf/0.1/lastName> "Vandekeybus" .
+_:g454780 <http://xmlns.com/foaf/0.1/mbox> <mailto:niels.vandekeybus@redpencil.io> .
+_:g454800 <http://xmlns.com/foaf/0.1/homepage> <https://redpencil.io> .
+_:g454800 <http://xmlns.com/foaf/0.1/name> "redpencil" .
+_:g454820 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:g454820 <http://schema.org/affiliation> _:g454840 .
+_:g454820 <http://xmlns.com/foaf/0.1/firstName> "Bert" .
+_:g454820 <http://xmlns.com/foaf/0.1/lastName> "Van Nuffelen" .
+_:g454820 <http://xmlns.com/foaf/0.1/mbox> <mailto:bert.vannuffelen@vlaanderen.be> .
+_:g454840 <http://xmlns.com/foaf/0.1/homepage> <https://www.vlaanderen.be/digitaal-vlaanderen> .
+_:g454840 <http://xmlns.com/foaf/0.1/name> "Digitaal Vlaanderen" .
+_:g454860 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:g454860 <http://schema.org/affiliation> _:g454880 .
+_:g454860 <http://xmlns.com/foaf/0.1/firstName> "Felix" .
+_:g454860 <http://xmlns.com/foaf/0.1/lastName> "Ruiz de Arcaute" .
+_:g454860 <http://xmlns.com/foaf/0.1/mbox> <mailto:felix.ruizdearcaute@redpencil.io> .
+_:g454880 <http://xmlns.com/foaf/0.1/homepage> <https://redpencil.io> .
+_:g454880 <http://xmlns.com/foaf/0.1/name> "redpencil" .
+_:g454900 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:g454900 <http://schema.org/affiliation> _:g454920 .
+_:g454900 <http://xmlns.com/foaf/0.1/firstName> "Stefanie" .
+_:g454900 <http://xmlns.com/foaf/0.1/lastName> "Kerkhof" .
+_:g454900 <http://xmlns.com/foaf/0.1/mbox> <mailto:stefanie.kerkhof@vlaanderen.be> .
+_:g454920 <http://xmlns.com/foaf/0.1/homepage> <https://www.vlaanderen.be/digitaal-vlaanderen> .
+_:g454920 <http://xmlns.com/foaf/0.1/name> "Digitaal Vlaanderen" .
+_:g454940 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:g454940 <http://schema.org/affiliation> _:g454960 .
+_:g454940 <http://xmlns.com/foaf/0.1/firstName> "Boris" .
+_:g454940 <http://xmlns.com/foaf/0.1/lastName> "De Vloed" .
+_:g454940 <http://xmlns.com/foaf/0.1/mbox> <mailto:boris@devloed.com> .
+_:g454960 <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/borisdevloed> .
+_:g454960 <http://xmlns.com/foaf/0.1/name> "devloed.com" .
+_:g454980 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:g454980 <http://schema.org/affiliation> _:g455000 .
+_:g454980 <http://xmlns.com/foaf/0.1/firstName> "Dirk" .
+_:g454980 <http://xmlns.com/foaf/0.1/lastName> "De Smedt" .
+_:g454980 <http://xmlns.com/foaf/0.1/mbox> <mailto:dirk.desmedt@vlaanderen.be> .
+_:g455000 <http://xmlns.com/foaf/0.1/homepage> <https://www.vlaanderen.be/digitaal-vlaanderen> .
+_:g455000 <http://xmlns.com/foaf/0.1/name> "Digitaal Vlaanderen" .
 <http://data.europa.eu/eli/ontology#LegalResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://data.europa.eu/eli/ontology#LegalResource> <http://www.w3.org/2000/01/rdf-schema#label> "LegalResource"@nl .
 <http://data.europa.eu/m8g/Cost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .

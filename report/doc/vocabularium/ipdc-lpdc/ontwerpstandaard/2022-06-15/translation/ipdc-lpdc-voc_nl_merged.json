@@ -638,7 +638,7 @@
   "diagram": "ipdc-lpdc-ap",
   "disabled": false,
   "documentcommit": "9f0e2db89cf66140eed82f4a70741ac5e06f6e61",
-  "dummy": "001",
+  "dummy": "002",
   "eap": "IPDC-LPDC-AP.eap",
   "editors": [
     {
@@ -7979,7 +7979,9 @@
   },
   "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
   "name": "ipdc-lpdc-voc",
-  "navigation": {},
+  "navigation": {
+    "next": "/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-02-21"
+  },
   "properties": [
     {
       "@id": "http://fixme.com#yourEuropeCategories",
@@ -10430,7 +10432,7 @@
   "title-nl": {
     "nl": "TODO"
   },
-  "toolchaincommit": "27cfbdbc1d0cab8c3c624a58405ded9d1983c491",
+  "toolchaincommit": "ca49548bcd780589b3514febcc0184b69417e99a",
   "translation": [
     {
       "language": "nl",

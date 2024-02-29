@@ -5,6 +5,8 @@
     "issued": "2024-02-29",
     "filename": "ipdc-lpdc",
     "navigation": {
+      "next": "/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-02-29",
+      "prev": "/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2022-06-15",
       "self": "https://productencatalogus.data.test-vlaanderen.be//doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-02-21"
     },
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
@@ -1777,7 +1779,7 @@
         "nl": "isVersionOf"
       },
       "description": {
-        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       },
       "usage": {},
       "sort": "isVersionOf",
@@ -1793,7 +1795,7 @@
         "nl": "isVersionOf"
       },
       "description": {
-        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       },
       "usage": {},
       "sort": "isVersionOf",
