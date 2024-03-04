@@ -800,6 +800,8 @@
   shacl:property <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29#InstancePublicServiceShape/61ede3097db630275578502c3ed09d8d46836e6d>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29#InstancePublicServiceShape/989e58d945902fb7857a7dbeab232a911cd6408b>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29#InstancePublicServiceShape/dcf9f7126f93e6e8038d53b5cee827e1b78ba941>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29#InstancePublicServiceShape/016f4b6004e008d8b8ef78553be855735503cbd7>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29#InstancePublicServiceShape/a39c1d0f1762122e5a8a63bd92b469123c76709d>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29#InstancePublicServiceShape/50e24807c1435b1ada2336089f70a01b789f285a>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29#InstancePublicServiceShape/bd1cb4c3436f6c4f4322465c372e17f2e8a68ac6>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29#InstancePublicServiceShape/f1af44a31efc98bcdf83480a396a330d3404a9c1>,
@@ -853,6 +855,12 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29#InstancePublicServiceShape/322371a77364a50f049d46180f6192532eea26dc>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29#InstancePublicServiceShape/1cd3b40ebb585b6dea4ab5c776c06a230d222114>;
   shacl:targetClass <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService> .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29#InstancePublicServiceShape/016f4b6004e008d8b8ef78553be855735503cbd7> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29#InstancePublicService.createdBy";
+  shacl:description "Link naar de organisatie die de instantie aanmaakte"@nl;
+  shacl:maxCount 1;
+  shacl:name "createdBy"@nl;
+  shacl:path <http://purl.org/pav/createdBy> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29#InstancePublicServiceShape/01c0c4d558c89c3dc42c1be055d56b9a6e0b10ee> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29#InstancePublicService.regulation";
   shacl:class rdf:langString;
@@ -1105,6 +1113,12 @@
   shacl:maxCount 1;
   shacl:name "follows"@nl;
   shacl:path <http://purl.org/vocab/cpsv#follows> .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29#InstancePublicServiceShape/a39c1d0f1762122e5a8a63bd92b469123c76709d> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29#InstancePublicService.createdBy";
+  shacl:class <http://data.europa.eu/m8g/PublicOrganisation>;
+  shacl:description "Link naar de organisatie die de instantie aanmaakte"@nl;
+  shacl:name "createdBy"@nl;
+  shacl:path <http://purl.org/pav/createdBy> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29#InstancePublicServiceShape/a7dc60730b2dff086ede8409e204586e13f8d203> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29#InstancePublicService.productNumber";
   shacl:datatype xsd:string;

@@ -15,8 +15,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/589291336744553fa3ff059b8f791001b8057014",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/589291336744553fa3ff059b8f791001b8057014/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/8a92668cfda45cd7d1b05964e6c1515d59524754",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/8a92668cfda45cd7d1b05964e6c1515d59524754/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -2386,6 +2386,46 @@
             "uri": "http://purl.org/vocab/cpsv#follows",
             "definition-nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario.",
             "label-nl": "follows"
+          }
+        },
+        {
+          "uri": "http://purl.org/pav/createdBy",
+          "name": "createdby",
+          "sort": "createdBy",
+          "label": {
+            "nl": "createdBy"
+          },
+          "description": {
+            "nl": "Link naar de organisatie die de instantie aanmaakte"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "InstancePublicService",
+              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "PubliekeOrganisatie",
+              "range_uri": "http://data.europa.eu/m8g/PublicOrganisation"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#PubliekeOrganisatie",
+              "range_puri": "http://data.europa.eu/m8g/PublicOrganisation",
+              "range_label": {
+                "nl": "PubliekeOrganisatie"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "createdBy",
+            "uri": "http://purl.org/pav/createdBy",
+            "definition-nl": "Link naar de organisatie die de instantie aanmaakte"
           }
         },
         {

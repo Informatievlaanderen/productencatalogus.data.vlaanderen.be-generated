@@ -263,6 +263,10 @@
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel",
           "@type": "@id"
         },
+        "createdBy": {
+          "@id": "http://purl.org/pav/createdBy",
+          "@type": "@id"
+        },
         "dateCreated": {
           "@id": "http://schema.org/dateCreated",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"

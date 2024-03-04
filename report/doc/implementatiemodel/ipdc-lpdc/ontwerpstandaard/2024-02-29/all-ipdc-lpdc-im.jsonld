@@ -7527,6 +7527,94 @@
             "maxCardinality": "1"
         },
         {
+            "@id": "http://purl.org/pav/createdBy",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "createdby",
+            "inpackage": "UNKNOWN",
+            "definition": {
+                "nl": "Link naar de organisatie die de instantie aanmaakte"
+            },
+            "label": {
+                "nl": "createdBy"
+            },
+            "ap-label-nl": {
+                "nl": "createdBy"
+            },
+            "ap-definition-nl": {
+                "nl": "Link naar de organisatie die de instantie aanmaakte"
+            },
+            "extra": {
+                "EA-Name": "createdBy",
+                "EA-Guid": "{CB80FF60-F68B-43a4-9F8B-701511288CD0}",
+                "derived": "false",
+                "EA-Package": "",
+                "EA-Type": "connector",
+                "EA-Domain": "InstancePublicService",
+                "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+                "EA-Range": "PubliekeOrganisatie",
+                "RangeData": {
+                    "EA-Name": "PubliekeOrganisatie",
+                    "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+                    "EA-Package": "OSLO-Organisatie",
+                    "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+                },
+                "sourceRole": "null",
+                "destRole": "null",
+                "label": {
+                    "nl": "createdBy"
+                },
+                "definition": {
+                    "nl": "Link naar de organisatie die de instantie aanmaakte"
+                },
+                "usage": "",
+                "ap-label-nl": {
+                    "nl": "createdBy"
+                },
+                "ap-definition-nl": {
+                    "nl": "Link naar de organisatie die de instantie aanmaakte"
+                },
+                "ap-usageNote-nl": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "label-nl",
+                        "value": "createdBy",
+                        "note": "null"
+                    },
+                    {
+                        "key": "uri",
+                        "value": "http://purl.org/pav/createdBy",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "Link naar de organisatie die de instantie aanmaakte",
+                        "note": "null"
+                    }
+                ],
+                "DestRoleTags": [],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
+                    "EA-Name": "InstancePublicService"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "PubliekeOrganisatie",
+                    "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+                    "EA-Package": "OSLO-Organisatie",
+                    "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "0",
+            "maxCardinality": "1"
+        },
+        {
             "@id": "http://purl.org/dc/terms/type",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
             "name": "type",
@@ -10412,14 +10500,14 @@
     "config": "config/config-ap.json",
     "branchtag": "ontwerp-2024-02-29",
     "disabled": false,
-    "dummy": "001",
+    "dummy": "002",
     "filename": "config/ipdc-lpdc-im.json",
     "navigation": {
         "prev": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21"
     },
     "repository": "https://github.com/Informatievlaanderen/ipdc-lpdc",
     "urlref": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29",
-    "documentcommit": "589291336744553fa3ff059b8f791001b8057014",
-    "toolchaincommit": "ca49548bcd780589b3514febcc0184b69417e99a",
+    "documentcommit": "8a92668cfda45cd7d1b05964e6c1515d59524754",
+    "toolchaincommit": "b40df714569b6ae20a699db7c093ffc017853458",
     "hostname": "https://productencatalogus.data.test-vlaanderen.be/"
 }
