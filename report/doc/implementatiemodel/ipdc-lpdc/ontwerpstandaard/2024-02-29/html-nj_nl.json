@@ -15,8 +15,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/c839282eb1889d9216dd56b8be975dee21b2b3c8",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/c839282eb1889d9216dd56b8be975dee21b2b3c8/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/aab75c6aa4f53012b0eac59c0c53724351e557ea",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/aab75c6aa4f53012b0eac59c0c53724351e557ea/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -3583,12 +3583,15 @@
       "description": {
         "nl": "This class represents the contact information for a Public Service, Channel, Public Organization, etc. It is defined in the Core Public Organization Vocabulary and is provided as a schema:ContactPoint. Like Channel, a Contact Point may have regular opening hours that are then overridden by, for example, public holidays, using the Opening Hours Specification class."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Minstens één van de attributen moet ingevuld zijn met een niet lege waarde."
+      },
       "parents": [],
       "rawTags": {
         "uri": "http://schema.org/ContactPoint",
         "definition-nl": "This class represents the contact information for a Public Service, Channel, Public Organization, etc. It is defined in the Core Public Organization Vocabulary and is provided as a schema:ContactPoint. Like Channel, a Contact Point may have regular opening hours that are then overridden by, for example, public holidays, using the Opening Hours Specification class.",
-        "label-nl": "ContactPoint"
+        "label-nl": "ContactPoint",
+        "usageNote-nl": "Minstens één van de attributen moet ingevuld zijn met een niet lege waarde."
       },
       "properties": [
         {
@@ -4454,12 +4457,15 @@
       "description": {
         "nl": "Adres dat men kan aanschrijven of bezoeken."
       },
-      "usage": {},
+      "usage": {
+        "nl": "Minstens één van de attributen moet ingevuld zijn met een niet lege waarde."
+      },
       "parents": [],
       "rawTags": {
         "uri": "http://www.w3.org/ns/locn#Address",
         "label-nl": "Address",
-        "definition-nl": "Adres dat men kan aanschrijven of bezoeken."
+        "definition-nl": "Adres dat men kan aanschrijven of bezoeken.",
+        "usageNote-nl": "Minstens één van de attributen moet ingevuld zijn met een niet lege waarde."
       },
       "properties": [
         {
