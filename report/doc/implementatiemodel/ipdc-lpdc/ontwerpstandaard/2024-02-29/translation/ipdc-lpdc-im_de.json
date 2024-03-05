@@ -712,22 +712,6 @@
   ],
   "externalproperties": [
     {
-      "EA-Guid": "{D9015129-EBE8-4287-AEE3-253E7CD1E256}",
-      "name": "language",
-      "label": {
-        "nl": "language",
-        "de": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union.",
-        "de": "Enter your translation here"
-      },
-      "usage": {
-        "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG.",
-        "de": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{CABD8E8C-BF44-46a0-80A6-6A69DCD570A6}",
       "name": "haswebsite",
       "label": {
@@ -1456,6 +1440,22 @@
       },
       "definition": {
         "nl": "Het concept op basis van welk deze instantie aangemaakt werd. De teksten van het concept werden gebruikt als sjabloonteksten gebruikt bij het aanmaken van de instantie. Instanties die werden aangemaakt op basis van hetzelfde concept worden via deze relatie gegroepeerd bij het gemeenschappelijke concept.",
+        "de": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{D9015129-EBE8-4287-AEE3-253E7CD1E256}",
+      "name": "language",
+      "label": {
+        "nl": "language",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG. De language concept URI's maken gebruik van het http protocol.",
         "de": "Enter your translation here"
       }
     },

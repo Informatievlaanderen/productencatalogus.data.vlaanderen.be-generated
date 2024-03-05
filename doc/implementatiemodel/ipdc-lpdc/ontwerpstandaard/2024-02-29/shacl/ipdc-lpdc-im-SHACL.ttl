@@ -920,7 +920,7 @@
   shacl:class skos:Concept;
   shacl:description "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."@nl;
   shacl:name "language"@nl;
-  shacl:path <https://publications.europa.eu/resource/authority/language> .
+  shacl:path dc:language .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29#InstancePublicServiceShape/2e2310f9e3c0b5a2b0636f4e320423145ba8074a> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29#InstancePublicService.hasContactPoint";
   shacl:class schema:ContactPoint;

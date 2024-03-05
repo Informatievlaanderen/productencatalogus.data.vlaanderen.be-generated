@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/aab75c6aa4f53012b0eac59c0c53724351e557ea",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/aab75c6aa4f53012b0eac59c0c53724351e557ea/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/f58385776332d5d798ceec03c50ccb331bad336f",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/f58385776332d5d798ceec03c50ccb331bad336f/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -998,24 +998,6 @@
       "show": true
     },
     {
-      "uri": "https://publications.europa.eu/resource/authority/language",
-      "name": "language",
-      "label": {
-        "nl": "language"
-      },
-      "description": {
-        "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
-      },
-      "usage": {
-        "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG."
-      },
-      "sort": "language",
-      "inscope": true,
-      "indvl": false,
-      "inpackage": false,
-      "show": true
-    },
-    {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite",
       "name": "haswebsite",
       "label": {
@@ -1776,13 +1758,31 @@
       "show": true
     },
     {
+      "uri": "http://purl.org/dc/terms/language",
+      "name": "language",
+      "label": {
+        "nl": "language"
+      },
+      "description": {
+        "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
+      },
+      "usage": {
+        "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG. De language concept URI's maken gebruik van het http protocol."
+      },
+      "sort": "language",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
       "uri": "http://purl.org/dc/terms/isVersionOf",
       "name": "isversionof",
       "label": {
         "nl": "isVersionOf"
       },
       "description": {
-        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       },
       "usage": {},
       "sort": "isVersionOf",
@@ -1798,7 +1798,7 @@
         "nl": "isVersionOf"
       },
       "description": {
-        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       },
       "usage": {},
       "sort": "isVersionOf",

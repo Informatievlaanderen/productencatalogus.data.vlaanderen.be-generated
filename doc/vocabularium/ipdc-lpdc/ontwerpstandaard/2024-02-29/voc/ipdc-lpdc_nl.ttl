@@ -191,6 +191,9 @@ dc:description a rdf:Property;
 dc:isVersionOf a rdf:Property;
   rdfs:label "isVersionOf"@nl .
 
+dc:language a rdf:Property;
+  rdfs:label "language"@nl .
+
 dc:source a rdf:Property;
   rdfs:label "hasSource"@nl .
 
@@ -272,9 +275,6 @@ shacl:order a rdf:Property;
 
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite> a rdf:Property;
   rdfs:label "hasWebsite"@nl .
-
-<https://publications.europa.eu/resource/authority/language> a rdf:Property;
-  rdfs:label "language"@nl .
 
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService> a owl:Class;
   rdfs:label "ConceptualPublicService"@nl;
@@ -389,7 +389,6 @@ shacl:order a rdf:Property;
     schema:WebSite,
     skos:Concept,
     <http://www.w3.org/ns/locn#Address>,
-    <https://publications.europa.eu/resource/authority/language>,
     <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite>,
     <https://data.vlaanderen.be/ns/adres#postcode>,
     <https://data.vlaanderen.be/ns/adres#land>,
@@ -417,6 +416,7 @@ shacl:order a rdf:Property;
     dc:title,
     dc:spatial,
     dc:source,
+    dc:language,
     dc:isVersionOf,
     dc:description,
     <http://data.europa.eu/m8g/thematicArea>,

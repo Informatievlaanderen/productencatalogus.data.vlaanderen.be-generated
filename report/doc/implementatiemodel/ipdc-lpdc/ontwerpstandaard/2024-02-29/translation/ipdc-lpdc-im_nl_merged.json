@@ -517,8 +517,8 @@
   "dependencies": [],
   "diagram": "ipdc-lpdc-ap",
   "disabled": false,
-  "documentcommit": "aab75c6aa4f53012b0eac59c0c53724351e557ea",
-  "dummy": "004",
+  "documentcommit": "f58385776332d5d798ceec03c50ccb331bad336f",
+  "dummy": "006",
   "eap": "IPDC-LPDC-AP.eap",
   "editors": [
     {
@@ -543,101 +543,6 @@
     }
   ],
   "externalproperties": [
-    {
-      "@id": "https://publications.europa.eu/resource/authority/language",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{D9015129-EBE8-4287-AEE3-253E7CD1E256}",
-      "ap-definition-nl": {
-        "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
-      },
-      "ap-label-nl": {
-        "nl": "language"
-      },
-      "codelist": [],
-      "definition": {
-        "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
-      },
-      "domain": [
-        {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{D9015129-EBE8-4287-AEE3-253E7CD1E256}",
-        "EA-Name": "language",
-        "EA-Package": "IPDC-LPDC",
-        "EA-Range": "Language",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-GUID": "{30141F06-519E-4f9e-9603-CF44FFCF47C2}",
-          "EA-Name": "Language",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-        },
-        "RawTags": [
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "https://publications.europa.eu/resource/authority/language"
-          },
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "language"
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
-          },
-          {
-            "key": "usageNote-nl",
-            "note": "null",
-            "value": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG."
-          }
-        ],
-        "Scope": "TRANSLATIONS_ONLY",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
-        },
-        "ap-label-nl": {
-          "nl": "language"
-        },
-        "ap-usageNote-nl": "",
-        "definition": {
-          "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
-        },
-        "label": {
-          "nl": "language"
-        },
-        "usage": {
-          "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG."
-        }
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "label": {
-        "nl": "language"
-      },
-      "maxCardinality": "*",
-      "minCardinality": "0",
-      "name": "language",
-      "range": [
-        {
-          "EA-GUID": "{30141F06-519E-4f9e-9603-CF44FFCF47C2}",
-          "EA-Name": "Language",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-        }
-      ],
-      "usage": {
-        "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG."
-      }
-    },
     {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
@@ -5439,6 +5344,101 @@
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ]
+    },
+    {
+      "@id": "http://purl.org/dc/terms/language",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{D9015129-EBE8-4287-AEE3-253E7CD1E256}",
+      "ap-definition-nl": {
+        "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
+      },
+      "ap-label-nl": {
+        "nl": "language"
+      },
+      "codelist": [],
+      "definition": {
+        "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
+      },
+      "domain": [
+        {
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{D9015129-EBE8-4287-AEE3-253E7CD1E256}",
+        "EA-Name": "language",
+        "EA-Package": "IPDC-LPDC",
+        "EA-Range": "Language",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{30141F06-519E-4f9e-9603-CF44FFCF47C2}",
+          "EA-Name": "Language",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "RawTags": [
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://purl.org/dc/terms/language"
+          },
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "language"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
+          },
+          {
+            "key": "usageNote-nl",
+            "note": "null",
+            "value": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG. De language concept URI's maken gebruik van het http protocol."
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
+        },
+        "ap-label-nl": {
+          "nl": "language"
+        },
+        "ap-usageNote-nl": "",
+        "definition": {
+          "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
+        },
+        "label": {
+          "nl": "language"
+        },
+        "usage": {
+          "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG. De language concept URI's maken gebruik van het http protocol."
+        }
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "nl": "language"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "language",
+      "range": [
+        {
+          "EA-GUID": "{30141F06-519E-4f9e-9603-CF44FFCF47C2}",
+          "EA-Name": "Language",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ],
+      "usage": {
+        "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG. De language concept URI's maken gebruik van het http protocol."
+      }
     },
     {
       "@id": "http://purl.org/dc/terms/isVersionOf",
@@ -10648,7 +10648,7 @@
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
   "template": "ipdc-lpdc-im.j2",
   "title": "IPDC - LPDC (Implementatiemodel)",
-  "toolchaincommit": "93d5169be0194f2b62c384feb5a2b957266cc7b4",
+  "toolchaincommit": "3c00cd54d8fabede64c9232cae6520ddf08b1d9c",
   "translation": [
     {
       "language": "nl",

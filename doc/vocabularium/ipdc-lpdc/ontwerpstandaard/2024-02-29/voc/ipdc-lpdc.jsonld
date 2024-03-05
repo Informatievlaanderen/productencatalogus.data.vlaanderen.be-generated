@@ -763,13 +763,6 @@
   "externalproperties": [
     {
       "name": {
-        "nl": "language"
-      },
-      "@id": "https://publications.europa.eu/resource/authority/language",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
         "nl": "hasWebsite"
       },
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite",
@@ -1123,6 +1116,13 @@
         "nl": "hasSource"
       },
       "@id": "http://purl.org/dc/terms/source",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "language"
+      },
+      "@id": "http://purl.org/dc/terms/language",
       "@type": "rdf:Property"
     },
     {

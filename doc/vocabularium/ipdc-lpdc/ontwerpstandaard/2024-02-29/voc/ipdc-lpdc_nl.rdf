@@ -227,11 +227,6 @@
           </rdfs:Class>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
-          <rdf:Property rdf:about="https://publications.europa.eu/resource/authority/language">
-            <rdfs:label xml:lang="nl">language</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
           <rdf:Property rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite">
             <rdfs:label xml:lang="nl">hasWebsite</rdfs:label>
           </rdf:Property>
@@ -365,6 +360,11 @@
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://purl.org/dc/terms/source">
             <rdfs:label xml:lang="nl">hasSource</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://purl.org/dc/terms/language">
+            <rdfs:label xml:lang="nl">language</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>

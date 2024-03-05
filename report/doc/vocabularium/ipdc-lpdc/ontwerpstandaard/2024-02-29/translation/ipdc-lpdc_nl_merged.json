@@ -560,8 +560,8 @@
   "dependencies": [],
   "diagram": "ipdc-lpdc-ap",
   "disabled": false,
-  "documentcommit": "aab75c6aa4f53012b0eac59c0c53724351e557ea",
-  "dummy": "004",
+  "documentcommit": "f58385776332d5d798ceec03c50ccb331bad336f",
+  "dummy": "006",
   "eap": "IPDC-LPDC-AP.eap",
   "editors": [
     {
@@ -586,112 +586,6 @@
     }
   ],
   "externalproperties": [
-    {
-      "@id": "https://publications.europa.eu/resource/authority/language",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{D9015129-EBE8-4287-AEE3-253E7CD1E256}",
-      "codelist": [],
-      "definition": {
-        "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
-      },
-      "definition-nl": {
-        "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
-      },
-      "domain": [
-        {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{D9015129-EBE8-4287-AEE3-253E7CD1E256}",
-        "EA-Name": "language",
-        "EA-Package": "IPDC-LPDC",
-        "EA-Range": "Language",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-GUID": "{30141F06-519E-4f9e-9603-CF44FFCF47C2}",
-          "EA-Name": "Language",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-        },
-        "RawTags": [
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "https://publications.europa.eu/resource/authority/language"
-          },
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "language"
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
-          },
-          {
-            "key": "usageNote-nl",
-            "note": "null",
-            "value": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG."
-          }
-        ],
-        "Scope": "TRANSLATIONS_ONLY",
-        "definition": {
-          "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
-        },
-        "definition-en": "",
-        "definition-nl": {
-          "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
-        },
-        "equivalent": "",
-        "label": {
-          "nl": "language"
-        },
-        "label-en": "",
-        "label-nl": {
-          "nl": "language"
-        },
-        "sameAs": "",
-        "subclass": "",
-        "subclass1": "",
-        "usage": {
-          "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG."
-        },
-        "usageNote-en": "",
-        "usageNote-nl": {
-          "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG."
-        }
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "label": {
-        "nl": "language"
-      },
-      "label-nl": {
-        "nl": "language"
-      },
-      "maxCardinality": "*",
-      "minCardinality": "0",
-      "name": "language",
-      "range": [
-        {
-          "EA-GUID": "{30141F06-519E-4f9e-9603-CF44FFCF47C2}",
-          "EA-Name": "Language",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-        }
-      ],
-      "usage": {
-        "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG."
-      },
-      "usageNote-nl": {
-        "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG."
-      }
-    },
     {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
@@ -790,7 +684,7 @@
     {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+      "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
       "codelist": [],
       "definition": {
         "nl": "Links naar de uitvoerende organisaties"
@@ -800,15 +694,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+          "EA-Name": "ConceptualPublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
         "EA-Name": "hasExecutingAuthority",
         "EA-Package": "",
         "EA-Range": "PubliekeOrganisatie",
@@ -885,7 +779,7 @@
     {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
+      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
       "codelist": [],
       "definition": {
         "nl": "Links naar de uitvoerende organisaties"
@@ -895,15 +789,15 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
         "EA-Name": "hasExecutingAuthority",
         "EA-Package": "",
         "EA-Range": "PubliekeOrganisatie",
@@ -2445,7 +2339,7 @@
     {
       "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
+      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
       "codelist": [],
       "definition": {
         "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
@@ -2455,15 +2349,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+          "EA-Name": "ConceptualPublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
         "EA-Name": "hasMoreInfo",
         "EA-Package": "",
         "EA-Range": "Website",
@@ -2540,7 +2434,7 @@
     {
       "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
+      "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
       "codelist": [],
       "definition": {
         "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
@@ -2550,15 +2444,15 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
         "EA-Name": "hasMoreInfo",
         "EA-Package": "",
         "EA-Range": "Website",
@@ -4310,7 +4204,7 @@
     {
       "@id": "http://purl.org/vocab/cpsv#produces",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
       "codelist": [],
       "definition": {
         "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
@@ -4320,15 +4214,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+          "EA-Name": "ConceptualPublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
         "EA-Name": "produces",
         "EA-Package": "",
         "EA-Range": "FinancialAdvantage",
@@ -4405,7 +4299,7 @@
     {
       "@id": "http://purl.org/vocab/cpsv#produces",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
       "codelist": [],
       "definition": {
         "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
@@ -4415,15 +4309,15 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
         "EA-Name": "produces",
         "EA-Package": "",
         "EA-Range": "FinancialAdvantage",
@@ -5924,99 +5818,110 @@
       ]
     },
     {
-      "@id": "http://purl.org/dc/terms/isVersionOf",
+      "@id": "http://purl.org/dc/terms/language",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
+      "EA-Guid": "{D9015129-EBE8-4287-AEE3-253E7CD1E256}",
       "codelist": [],
       "definition": {
-        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
       },
       "definition-nl": {
-        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicServiceSnapshot",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
-        "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicServiceSnapshot",
-        "EA-Domain-Guid": "{D2B91D18-371A-4811-931C-4C667284F606}",
-        "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
-        "EA-Name": "isVersionOf",
-        "EA-Package": "",
-        "EA-Range": "ConceptualPublicService",
-        "EA-Type": "connector",
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{D9015129-EBE8-4287-AEE3-253E7CD1E256}",
+        "EA-Name": "language",
+        "EA-Package": "IPDC-LPDC",
+        "EA-Range": "Language",
+        "EA-Type": "attribute",
         "RangeData": {
-          "EA-GUID": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-          "EA-Name": "ConceptualPublicService",
+          "EA-GUID": "{30141F06-519E-4f9e-9603-CF44FFCF47C2}",
+          "EA-Name": "Language",
           "EA-Package": "IPDC-LPDC",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
         "RawTags": [
           {
+            "key": "uri",
+            "note": "null",
+            "value": "http://purl.org/dc/terms/language"
+          },
+          {
             "key": "label-nl",
             "note": "null",
-            "value": "isVersionOf"
+            "value": "language"
           },
           {
             "key": "definition-nl",
             "note": "null",
-            "value": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+            "value": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
           },
           {
-            "key": "uri",
+            "key": "usageNote-nl",
             "note": "null",
-            "value": "http://purl.org/dc/terms/isVersionOf"
+            "value": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG. De language concept URI's maken gebruik van het http protocol."
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
         "definition": {
-          "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+          "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
         },
         "definition-en": "",
         "definition-nl": {
-          "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+          "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
         },
-        "derived": "false",
-        "destRole": "null",
         "equivalent": "",
         "label": {
-          "nl": "isVersionOf"
+          "nl": "language"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "isVersionOf"
+          "nl": "language"
         },
         "sameAs": "",
-        "sourceRole": "null",
         "subclass": "",
         "subclass1": "",
-        "usage": "",
+        "usage": {
+          "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG. De language concept URI's maken gebruik van het http protocol."
+        },
         "usageNote-en": "",
-        "usageNote-nl": ""
+        "usageNote-nl": {
+          "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG. De language concept URI's maken gebruik van het http protocol."
+        }
       },
       "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
+      "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "isVersionOf"
+        "nl": "language"
       },
       "label-nl": {
-        "nl": "isVersionOf"
+        "nl": "language"
       },
-      "maxCardinality": "1",
-      "minCardinality": "1",
-      "name": "isversionof",
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "language",
       "range": [
         {
-          "EA-GUID": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-          "EA-Name": "ConceptualPublicService",
+          "EA-GUID": "{30141F06-519E-4f9e-9603-CF44FFCF47C2}",
+          "EA-Name": "Language",
           "EA-Package": "IPDC-LPDC",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
-      ]
+      ],
+      "usage": {
+        "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG. De language concept URI's maken gebruik van het http protocol."
+      },
+      "usageNote-nl": {
+        "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG. De language concept URI's maken gebruik van het http protocol."
+      }
     },
     {
       "@id": "http://purl.org/dc/terms/isVersionOf",
@@ -6110,6 +6015,101 @@
           "EA-Name": "InstancePublicService",
           "EA-Package": "IPDC-LPDC",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+        }
+      ]
+    },
+    {
+      "@id": "http://purl.org/dc/terms/isVersionOf",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
+      "codelist": [],
+      "definition": {
+        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+      },
+      "definition-nl": {
+        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+      },
+      "domain": [
+        {
+          "EA-Name": "ConceptualPublicServiceSnapshot",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "ConceptualPublicServiceSnapshot",
+        "EA-Domain-Guid": "{D2B91D18-371A-4811-931C-4C667284F606}",
+        "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
+        "EA-Name": "isVersionOf",
+        "EA-Package": "",
+        "EA-Range": "ConceptualPublicService",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+          "EA-Name": "ConceptualPublicService",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+        },
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "isVersionOf"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://purl.org/dc/terms/isVersionOf"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "definition": {
+          "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        },
+        "definition-en": "",
+        "definition-nl": {
+          "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        },
+        "derived": "false",
+        "destRole": "null",
+        "equivalent": "",
+        "label": {
+          "nl": "isVersionOf"
+        },
+        "label-en": "",
+        "label-nl": {
+          "nl": "isVersionOf"
+        },
+        "sameAs": "",
+        "sourceRole": "null",
+        "subclass": "",
+        "subclass1": "",
+        "usage": "",
+        "usageNote-en": "",
+        "usageNote-nl": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "nl": "isVersionOf"
+      },
+      "label-nl": {
+        "nl": "isVersionOf"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "isversionof",
+      "range": [
+        {
+          "EA-GUID": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+          "EA-Name": "ConceptualPublicService",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ]
     },
@@ -7467,7 +7467,7 @@
     {
       "@id": "http://data.europa.eu/m8g/hasCost",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
       "codelist": [],
       "definition": {
         "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
@@ -7477,15 +7477,15 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
         "EA-Name": "hasCost",
         "EA-Package": "",
         "EA-Range": "Cost",
@@ -7562,7 +7562,7 @@
     {
       "@id": "http://data.europa.eu/m8g/hasCost",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
+      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
       "codelist": [],
       "definition": {
         "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
@@ -7572,15 +7572,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+          "EA-Name": "ConceptualPublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
         "EA-Name": "hasCost",
         "EA-Package": "",
         "EA-Range": "Cost",
@@ -11717,7 +11717,7 @@
   "title-nl": {
     "nl": "TODO"
   },
-  "toolchaincommit": "93d5169be0194f2b62c384feb5a2b957266cc7b4",
+  "toolchaincommit": "3c00cd54d8fabede64c9232cae6520ddf08b1d9c",
   "translation": [
     {
       "language": "nl",
