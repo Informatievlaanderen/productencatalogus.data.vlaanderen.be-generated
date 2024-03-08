@@ -140,10 +140,10 @@
   "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
   "issued": "TODO",
   "navigation": {
-    "prev": "/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-02-21"
+    "prev": "/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-02-29"
   },
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-  "publication-date": "2024-02-29",
+  "publication-date": "2024-03-08",
   "classes": [
     {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
@@ -195,7 +195,9 @@
       "definition": {
         "nl": "Instanties zijn de werkelijke invulling van een product of dienstverlening. De bevoegde overheid kan variëren: federaal, Vlaams, provinciaal, en de dienstverlening kan uitgevoerd worden door nog een andere overheid zoals een lokaal bestuur. Een overheidsdienstverlening is een verplichte of optionele reeks activiteiten die (kunnen) worden uitgevoerd door of namens een openbare organisatie, publiekelijk gefinancierd en voortkomend uit het openbaar beleid. Diensten kunnen ten goede komen aan een individu, een organisatie of vereniging, een onderneming of een andere overheidsinstantie, of aan groepen van een van deze partijen. Een dienst bestaat ongeacht of deze wordt gebruikt of niet. Volgens de herziene versie van het Europees Interoperabiliteitskader omvat een Europese openbare dienst elke dienst die wordt verleend door overheidsinstanties in Europa, of door andere organisaties namens hen, aan bedrijven, burgers of andere overheidsinstanties."
       },
-      "parents": []
+      "parents": [
+        "http://purl.org/vocab/cpsv#PublicService"
+      ]
     },
     {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot",
@@ -532,7 +534,7 @@
         "nl": "isArchived"
       },
       "definition": {
-        "nl": "Waarde die aangeeft of het concept gearchiveerd is."
+        "nl": "Waarde die aangeeft of de instantie gearchiveerd is."
       },
       "domain": [
         "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
@@ -763,13 +765,6 @@
   "externalproperties": [
     {
       "name": {
-        "nl": "language"
-      },
-      "@id": "https://publications.europa.eu/resource/authority/language",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
         "nl": "hasWebsite"
       },
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite",
@@ -911,6 +906,13 @@
     {
       "name": {
         "nl": "website"
+      },
+      "@id": "http://schema.org/url",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "location"
       },
       "@id": "http://schema.org/url",
       "@type": "rdf:Property"
@@ -1113,6 +1115,13 @@
     },
     {
       "name": {
+        "nl": "name"
+      },
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
         "nl": "spatial"
       },
       "@id": "http://purl.org/dc/terms/spatial",
@@ -1127,6 +1136,13 @@
     },
     {
       "name": {
+        "nl": "language"
+      },
+      "@id": "http://purl.org/dc/terms/language",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
         "nl": "isVersionOf"
       },
       "@id": "http://purl.org/dc/terms/isVersionOf",
@@ -1137,6 +1153,13 @@
         "nl": "isVersionOf"
       },
       "@id": "http://purl.org/dc/terms/isVersionOf",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "description"
+      },
+      "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property"
     },
     {

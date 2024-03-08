@@ -127,7 +127,8 @@ skos:Concept a rdfs:Class;
 
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived> a owl:DatatypeProperty;
   rdfs:label "isArchived"@nl;
-  rdfs:comment "Waarde die aangeeft of het concept gearchiveerd is."@nl;
+  rdfs:comment "Waarde die aangeeft of het concept gearchiveerd is."@nl,
+    "Waarde die aangeeft of de instantie gearchiveerd is."@nl;
   rdfs:domain <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService>,
     <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService>;
   rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc>;
@@ -190,6 +191,9 @@ dc:description a rdf:Property;
 
 dc:isVersionOf a rdf:Property;
   rdfs:label "isVersionOf"@nl .
+
+dc:language a rdf:Property;
+  rdfs:label "language"@nl .
 
 dc:source a rdf:Property;
   rdfs:label "hasSource"@nl .
@@ -273,9 +277,6 @@ shacl:order a rdf:Property;
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite> a rdf:Property;
   rdfs:label "hasWebsite"@nl .
 
-<https://publications.europa.eu/resource/authority/language> a rdf:Property;
-  rdfs:label "language"@nl .
-
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService> a owl:Class;
   rdfs:label "ConceptualPublicService"@nl;
   <http://purl.org/vocab/vann/usageNote> "Een goed voorbeeld van een concept is het huwelijk. Hoewel de beschrijving en voorwaarden van een huwelijk grotendeels hetzelfde zijn voor de verschillende gemeentes zijn er mogelijk toch lokale verschillen, zoals de locatie en prijs, die terug te vinden zijn in de respectievelijke instanties."@nl;
@@ -285,7 +286,8 @@ shacl:order a rdf:Property;
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService> a owl:Class;
   rdfs:label "InstancePublicService"@nl;
   rdfs:comment "Instanties zijn de werkelijke invulling van een product of dienstverlening. De bevoegde overheid kan variëren: federaal, Vlaams, provinciaal, en de dienstverlening kan uitgevoerd worden door nog een andere overheid zoals een lokaal bestuur. Een overheidsdienstverlening is een verplichte of optionele reeks activiteiten die (kunnen) worden uitgevoerd door of namens een openbare organisatie, publiekelijk gefinancierd en voortkomend uit het openbaar beleid. Diensten kunnen ten goede komen aan een individu, een organisatie of vereniging, een onderneming of een andere overheidsinstantie, of aan groepen van een van deze partijen. Een dienst bestaat ongeacht of deze wordt gebruikt of niet. Volgens de herziene versie van het Europees Interoperabiliteitskader omvat een Europese openbare dienst elke dienst die wordt verleend door overheidsinstanties in Europa, of door andere organisaties namens hen, aan bedrijven, burgers of andere overheidsinstanties."@nl;
-  rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> .
+  rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc>;
+  rdfs:subClassOf <http://purl.org/vocab/cpsv#PublicService> .
 
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> a owl:Ontology;
   rdfs:label "ipdc-lpdc"@en,
@@ -389,7 +391,6 @@ shacl:order a rdf:Property;
     schema:WebSite,
     skos:Concept,
     <http://www.w3.org/ns/locn#Address>,
-    <https://publications.europa.eu/resource/authority/language>,
     <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite>,
     <https://data.vlaanderen.be/ns/adres#postcode>,
     <https://data.vlaanderen.be/ns/adres#land>,
@@ -417,6 +418,7 @@ shacl:order a rdf:Property;
     dc:title,
     dc:spatial,
     dc:source,
+    dc:language,
     dc:isVersionOf,
     dc:description,
     <http://data.europa.eu/m8g/thematicArea>,

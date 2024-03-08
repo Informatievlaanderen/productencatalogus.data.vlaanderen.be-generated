@@ -46,11 +46,11 @@
               <div class="head" role="status" id="status">
               <dl>
               <dt>Status</dt><dd><a href="https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard">https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard</a></dd>
-              <dt>Uitgegeven op</dt><dd>2024-02-29</dd>
-              <dt>Deze versie</dt><dd><a href="https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29">https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29</a></dd>
+              <dt>Uitgegeven op</dt><dd>2024-03-08</dd>
+              <dt>Deze versie</dt><dd><a href="https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-08">https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-08</a></dd>
               
               
-              <dt>Vorige versie</dt><dd><a href="/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21">/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21</a></dd>
+              <dt>Vorige versie</dt><dd><a href="/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29">/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29</a></dd>
               
               </dl>
               </div>
@@ -243,8 +243,8 @@
 
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/589291336744553fa3ff059b8f791001b8057014">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/589291336744553fa3ff059b8f791001b8057014</a></dd>
-              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/589291336744553fa3ff059b8f791001b8057014/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/589291336744553fa3ff059b8f791001b8057014/CHANGELOG</a></dd>
+              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/1d13a8d07bfc323564408638524717e398d2a180">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/1d13a8d07bfc323564408638524717e398d2a180</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/1d13a8d07bfc323564408638524717e398d2a180/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/1d13a8d07bfc323564408638524717e398d2a180/CHANGELOG</a></dd>
               <dt>Opmerkingen en feedback</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/issues">https://github.com/Informatievlaanderen/ipdc-lpdc/issues</a></dd>
               <dt>Standaardenregister</dt><dd><a href="https://data.vlaanderen.be/standaarden">https://data.vlaanderen.be/standaarden</a></dd>
 
@@ -343,7 +343,7 @@
                 <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Status van dit document</h2>
                 
                 <p>
-                  Dit implementatiemodel heeft status <a href="https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard">Ontwerp Standaard</a> en werd uitgegeven op 2024-02-29.
+                  Dit implementatiemodel heeft status <a href="https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard">Ontwerp Standaard</a> en werd uitgegeven op 2024-03-08.
 	        </p><p>
                   Informatie over het gevolgde proces en de beslissingen om tot deze specificatie te komen zijn beschikbaar in het 
                   <a href="https://data.vlaanderen.be/standaarden">standaardenregister</a>.
@@ -403,8 +403,8 @@
             </div>
 
             <div class="region region--no-space-top">
-              <a href="/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29/html/overview.jpg" target="_blank">
-                 <img src="/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29/html/overview.jpg" />
+              <a href="/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-08/html/overview.jpg" target="_blank">
+                 <img src="/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-08/html/overview.jpg" />
               </a>
               
               
@@ -1124,6 +1124,8 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                   <dl>
                     <dt>Beschrijving</dt><dd>This class represents the contact information for a Public Service, Channel, Public Organization, etc. It is defined in the Core Public Organization Vocabulary and is provided as a schema:ContactPoint. Like Channel, a Contact Point may have regular opening hours that are then overridden by, for example, public holidays, using the Opening Hours Specification class.</dd>
                     
+                    <dt>Gebruik</dt><dd>Minstens één van de attributen moet ingevuld zijn met een niet lege waarde.</dd>
+                    
 		    
                     <dt>Eigenschappen</dt>
 		     
@@ -1564,12 +1566,17 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                   <dl>
                     <dt>Beschrijving</dt><dd>Instanties zijn de werkelijke invulling van een product of dienstverlening. De bevoegde overheid kan variëren: federaal, Vlaams, provinciaal, en de dienstverlening kan uitgevoerd worden door nog een andere overheid zoals een lokaal bestuur. Een overheidsdienstverlening is een verplichte of optionele reeks activiteiten die (kunnen) worden uitgevoerd door of namens een openbare organisatie, publiekelijk gefinancierd en voortkomend uit het openbaar beleid. Diensten kunnen ten goede komen aan een individu, een organisatie of vereniging, een onderneming of een andere overheidsinstantie, of aan groepen van een van deze partijen. Een dienst bestaat ongeacht of deze wordt gebruikt of niet. Volgens de herziene versie van het Europees Interoperabiliteitskader omvat een Europese openbare dienst elke dienst die wordt verleend door overheidsinstanties in Europa, of door andere organisaties namens hen, aan bedrijven, burgers of andere overheidsinstanties.</dd>
                     
-		    
+		     
+		    <dt>Subklasse van <dt><dd>
+                        <a href="http://purl.org/vocab/cpsv#PublicService">PublicService</a>
+		   </dd>
+                    
                     <dt>Eigenschappen</dt>
 		     
                     <dd>Voor deze entiteit zijn de volgende eigenschappen gedefinieerd:
                       <a href="#Instancepublicservice%3Aadditionaldescription">additionalDescription</a>, 
                       <a href="#Instancepublicservice%3Acompetentauthoritylevel">competentAuthorityLevel</a>, 
+                      <a href="#Instancepublicservice%3Acreatedby">createdBy</a>, 
                       <a href="#Instancepublicservice%3Adatecreated">dateCreated</a>, 
                       <a href="#Instancepublicservice%3Adatemodified">dateModified</a>, 
                       <a href="#Instancepublicservice%3Adescription">description</a>, 
@@ -1657,6 +1664,26 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td property="rdfs:comment">Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
                         <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/bevoegd-bestuursniveau.ttl">Link</a></td>
+                      </tr>
+                    
+                      <tr id="Instancepublicservice%3Acreatedby" typeof="rdfs:Property" resource="http://purl.org/pav/createdBy">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/pav/createdBy" data-toggle="tooltip" data-content="http://purl.org/pav/createdBy" data-placement="right">
+                            createdBy</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#PubliekeOrganisatie" data-placement="right">PubliekeOrganisatie</a>
+			    
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Link naar de organisatie die de instantie aanmaakte</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
                       </tr>
                     
                       <tr id="Instancepublicservice%3Adatecreated" typeof="rdfs:Property" resource="http://schema.org/dateCreated">
@@ -1994,7 +2021,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                           
                         </td>
                         <td>1</td>
-                        <td property="rdfs:comment">Waarde die aangeeft of het concept gearchiveerd is.</td>
+                        <td property="rdfs:comment">Waarde die aangeeft of de instantie gearchiveerd is.</td>
                         <td property="vann:usageNote"></td>
                         <td></td>
                       </tr>
@@ -2019,10 +2046,10 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td></td>
                       </tr>
                     
-                      <tr id="Instancepublicservice%3Alanguage" typeof="rdfs:Property" resource="https://publications.europa.eu/resource/authority/language">
+                      <tr id="Instancepublicservice%3Alanguage" typeof="rdfs:Property" resource="http://purl.org/dc/terms/language">
                         <td>
                           <code property="rdfs:label">
-                            <a href="https://publications.europa.eu/resource/authority/language" data-toggle="tooltip" data-content="https://publications.europa.eu/resource/authority/language" data-placement="right">
+                            <a href="http://purl.org/dc/terms/language" data-toggle="tooltip" data-content="http://purl.org/dc/terms/language" data-placement="right">
                             language</a>
                           </code>
                         </td>
@@ -2035,7 +2062,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         </td>
                         <td>0..*</td>
                         <td property="rdfs:comment">Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union.</td>
-                        <td property="vann:usageNote">De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG.</td>
+                        <td property="vann:usageNote">De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG. De language concept URI's maken gebruik van het http protocol.</td>
                         <td><a href="https://publications.europa.eu/resource/authority/language">Link</a></td>
                       </tr>
                     
@@ -2351,12 +2378,15 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                   <dl>
                     <dt>Beschrijving</dt><dd>This class represents the legislation, policy or policies that lie behind the Rules that govern the service.</dd>
                     
-                    <dt>Gebruik</dt><dd>Link naar de Vlaamse Codex of een ander wetgevingsregsiter - The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in "Council conclusions inviting the introduction of the European Legislation Identifier (ELI)". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology.</dd>
+                    <dt>Gebruik</dt><dd>Link naar de Vlaamse Codex of een ander wetgevingsregister - The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in "Council conclusions inviting the introduction of the European Legislation Identifier (ELI)". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology.</dd>
                     
 		    
                     <dt>Eigenschappen</dt>
 		     
                     <dd>Voor deze entiteit zijn de volgende eigenschappen gedefinieerd:
+                      <a href="#Legalresource%3Adescription">description</a>, 
+                      <a href="#Legalresource%3Alocation">location</a>, 
+                      <a href="#Legalresource%3Aname">name</a>, 
                       <a href="#Legalresource%3Aorder">order</a>.</dd>
                     
                   </dl>
@@ -2376,6 +2406,66 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                     </thead>
 
                     <tbody class="supertype">
+                    
+                      <tr id="Legalresource%3Adescription" typeof="rdfs:Property" resource="http://purl.org/dc/terms/description">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/description" data-toggle="tooltip" data-content="http://purl.org/dc/terms/description" data-placement="right">
+                            description</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">This property represents a free text description of the legal resource.</td>
+                        <td property="vann:usageNote">Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Legalresource%3Alocation" typeof="rdfs:Property" resource="http://schema.org/url">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://schema.org/url" data-toggle="tooltip" data-content="http://schema.org/url" data-placement="right">
+                            location</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
+                            
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment">De url van de legal resource</td>
+                        <td property="vann:usageNote">Legal resource locatie moet voldoen aan het formaat beschreven in RFC1738: https://datatracker.ietf.org/doc/html/rfc1738#section-3.3</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Legalresource%3Aname" typeof="rdfs:Property" resource="http://purl.org/dc/terms/title">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/title" data-toggle="tooltip" data-content="http://purl.org/dc/terms/title" data-placement="right">
+                            name</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">This property represents the name of the legal resource.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
                     
                       <tr id="Legalresource%3Aorder" typeof="rdfs:Property" resource="http://www.w3.org/ns/shacl#order">
                         <td>
@@ -2752,6 +2842,8 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                   <dl>
                     <dt>Beschrijving</dt><dd>Adres dat men kan aanschrijven of bezoeken.</dd>
                     
+                    <dt>Gebruik</dt><dd>Minstens één van de attributen moet ingevuld zijn met een niet lege waarde.</dd>
+                    
 		    
                     <dt>Eigenschappen</dt>
 		     
@@ -2906,14 +2998,14 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                 <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">JSON-LD context</h2>
                 (niet normatief)
                 
-                <p>Een herbruikbare JSON-LD context definitie voor dit implementatiemodel is terug te vinden op: <a href="/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29/context/ipdc-lpdc-im.jsonld" target="_blank">/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29/context/ipdc-lpdc-im.jsonld</a></p>
+                <p>Een herbruikbare JSON-LD context definitie voor dit implementatiemodel is terug te vinden op: <a href="/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-08/context/ipdc-lpdc-im.jsonld" target="_blank">/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-08/context/ipdc-lpdc-im.jsonld</a></p>
                 
             </div>
             <div class="region region--no-space-top" id="shacl">
                 <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">SHACL template</h2>
                 (niet normatief)
                 
-                <p>Een herbruikbare SHACL template definitie voor dit implementatiemodel is terug te vinden op: <a href="/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29/shacl/ipdc-lpdc-im-SHACL.ttl" target="_blank">/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-29/shacl/ipdc-lpdc-im-SHACL.ttl</a></p>
+                <p>Een herbruikbare SHACL template definitie voor dit implementatiemodel is terug te vinden op: <a href="/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-08/shacl/ipdc-lpdc-im-SHACL.ttl" target="_blank">/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-08/shacl/ipdc-lpdc-im-SHACL.ttl</a></p>
                 
             </div>
           </div>

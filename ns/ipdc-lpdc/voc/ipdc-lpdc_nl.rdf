@@ -227,11 +227,6 @@
           </rdfs:Class>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
-          <rdf:Property rdf:about="https://publications.europa.eu/resource/authority/language">
-            <rdfs:label xml:lang="nl">language</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
           <rdf:Property rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite">
             <rdfs:label xml:lang="nl">hasWebsite</rdfs:label>
           </rdf:Property>
@@ -368,6 +363,11 @@
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://purl.org/dc/terms/language">
+            <rdfs:label xml:lang="nl">language</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
           <rdf:Property rdf:about="http://purl.org/dc/terms/isVersionOf">
             <rdfs:label xml:lang="nl">isVersionOf</rdfs:label>
           </rdf:Property>
@@ -438,6 +438,7 @@
         <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
         <rdfs:label xml:lang="nl">InstancePublicService</rdfs:label>
         <rdfs:comment xml:lang="nl">Instanties zijn de werkelijke invulling van een product of dienstverlening. De bevoegde overheid kan variëren: federaal, Vlaams, provinciaal,… en de dienstverlening kan uitgevoerd worden door nog een andere overheid zoals een lokaal bestuur. Een overheidsdienstverlening is een verplichte of optionele reeks activiteiten die (kunnen) worden uitgevoerd door of namens een openbare organisatie, publiekelijk gefinancierd en voortkomend uit het openbaar beleid. Diensten kunnen ten goede komen aan een individu, een organisatie of vereniging, een onderneming of een andere overheidsinstantie, of aan groepen van een van deze partijen. Een dienst bestaat ongeacht of deze wordt gebruikt of niet. Volgens de herziene versie van het Europees Interoperabiliteitskader omvat een Europese openbare dienst elke dienst die wordt verleend door overheidsinstanties in Europa, of door andere organisaties namens hen, aan bedrijven, burgers of andere overheidsinstanties.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
       </owl:Class>
     </rdfs:domain>
     <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
@@ -497,6 +498,7 @@
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
     <rdfs:label xml:lang="nl">isArchived</rdfs:label>
     <rdfs:comment xml:lang="nl">Waarde die aangeeft of het concept gearchiveerd is.</rdfs:comment>
+    <rdfs:comment xml:lang="nl">Waarde die aangeeft of de instantie gearchiveerd is.</rdfs:comment>
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"/>
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
