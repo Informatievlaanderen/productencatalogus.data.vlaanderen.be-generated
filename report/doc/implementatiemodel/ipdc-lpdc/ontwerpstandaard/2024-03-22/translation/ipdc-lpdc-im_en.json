@@ -151,7 +151,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.",
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.",
         "en": "Enter your translation here"
       }
     },
@@ -167,7 +167,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.",
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.",
         "en": "Enter your translation here"
       }
     },
@@ -287,7 +287,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
         "en": "Enter your translation here"
       }
     },
@@ -303,7 +303,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
         "en": "Enter your translation here"
       }
     },
@@ -379,7 +379,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
         "en": "Enter your translation here"
       }
     },
@@ -395,7 +395,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
         "en": "Enter your translation here"
       }
     }
@@ -724,7 +724,7 @@
       }
     },
     {
-      "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
+      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
       "name": "hasexecutingauthority",
       "label": {
         "nl": "hasExecutingAuthority",
@@ -736,7 +736,7 @@
       }
     },
     {
-      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+      "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
       "name": "hasexecutingauthority",
       "label": {
         "nl": "hasExecutingAuthority",
@@ -956,7 +956,7 @@
       }
     },
     {
-      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
+      "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
       "name": "hasmoreinfo",
       "label": {
         "nl": "hasMoreInfo",
@@ -968,7 +968,7 @@
       }
     },
     {
-      "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
+      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
       "name": "hasmoreinfo",
       "label": {
         "nl": "hasMoreInfo",
@@ -1107,7 +1107,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Het productnummer wordt automatisch door IPDC gegenereerd bij creatie. Dit nummer kan niet door een andere partij bepaald worden.",
+        "nl": "Bij het aanmaken van een nieuw concept kan geen productnummer doorgegeven worden aan IPDC of LPDC. De productnummers worden beheerd door IPDC en bij creatie van een nieuw concept zal een uniek productnummer toegekend worden in IPDC. Hierdoor zal bij het uitlezen van IPDC steeds een productnummer beschikbaar zijn op elk concept.",
         "en": "Enter your translation here"
       }
     },
@@ -1123,7 +1123,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Het productnummer wordt automatisch door IPDC gegenereerd bij creatie. Dit nummer kan niet door een andere partij bepaald worden.",
+        "nl": "Bij het aanmaken van een nieuwe instantie kan geen productnummer doorgegeven worden aan IPDC of LPDC. De productnummers worden beheerd door IPDC en bij creatie van een nieuwe instantie zal een uniek productnummer toegekend worden in IPDC. Hierdoor zal bij het uitlezen van IPDC steeds een productnummer beschikbaar zijn op elke instantie.",
         "en": "Enter your translation here"
       }
     },
@@ -1240,18 +1240,6 @@
       }
     },
     {
-      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
-      "name": "produces",
-      "label": {
-        "nl": "produces",
-        "en": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
       "name": "produces",
       "label": {
@@ -1264,7 +1252,19 @@
       }
     },
     {
-      "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
+      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+      "name": "produces",
+      "label": {
+        "nl": "produces",
+        "en": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service.",
+        "en": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
       "name": "follows",
       "label": {
         "nl": "follows",
@@ -1276,7 +1276,7 @@
       }
     },
     {
-      "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
+      "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
       "name": "follows",
       "label": {
         "nl": "follows",
@@ -1519,7 +1519,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
         "en": "Enter your translation here"
       }
     },
@@ -1535,7 +1535,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
         "en": "Enter your translation here"
       }
     },
@@ -1551,7 +1551,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
         "en": "Enter your translation here"
       }
     },
@@ -1567,7 +1567,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
         "en": "Enter your translation here"
       }
     },
@@ -1583,7 +1583,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
         "en": "Enter your translation here"
       }
     },
@@ -1599,7 +1599,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
         "en": "Enter your translation here"
       }
     },
@@ -1615,7 +1615,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
         "en": "Enter your translation here"
       }
     },
@@ -1631,7 +1631,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
         "en": "Enter your translation here"
       }
     },
@@ -1647,7 +1647,7 @@
         "en": "Enter your translation here"
       },
       "usage": {
-        "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
         "en": "Enter your translation here"
       }
     },
@@ -1696,7 +1696,7 @@
       }
     },
     {
-      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
+      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
       "name": "haslegalresource",
       "label": {
         "nl": "hasLegalResource",
@@ -1708,7 +1708,7 @@
       }
     },
     {
-      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
+      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
       "name": "haslegalresource",
       "label": {
         "nl": "hasLegalResource",
@@ -1756,7 +1756,7 @@
       }
     },
     {
-      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
+      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
       "name": "hascompetentauthority",
       "label": {
         "nl": "hasCompetentAuthority",
@@ -1768,7 +1768,7 @@
       }
     },
     {
-      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
+      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
       "name": "hascompetentauthority",
       "label": {
         "nl": "hasCompetentAuthority",

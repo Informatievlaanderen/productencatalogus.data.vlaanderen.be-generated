@@ -540,18 +540,6 @@
           "sh:path": "http://schema.org/productID"
         },
         {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/5ce6872f0ac03a81b53cfc0943fc8786e99553bd",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.productNumber",
-          "sh:description": {
-            "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
-          },
-          "sh:minCount": "1",
-          "sh:name": {
-            "nl": "productNumber"
-          },
-          "sh:path": "http://schema.org/productID"
-        },
-        {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/a7dc60730b2dff086ede8409e204586e13f8d203",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.productNumber",
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
@@ -1398,18 +1386,6 @@
             "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
           },
           "sh:maxCount": "1",
-          "sh:name": {
-            "nl": "productNumber"
-          },
-          "sh:path": "http://schema.org/productID"
-        },
-        {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/5ce6872f0ac03a81b53cfc0943fc8786e99553bd",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicService.productNumber",
-          "sh:description": {
-            "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
-          },
-          "sh:minCount": "1",
           "sh:name": {
             "nl": "productNumber"
           },

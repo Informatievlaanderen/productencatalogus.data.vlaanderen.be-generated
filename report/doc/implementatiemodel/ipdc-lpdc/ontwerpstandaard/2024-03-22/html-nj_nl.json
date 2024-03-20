@@ -15,8 +15,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/c4b01ab7ba4165927cb73d5793e5ddbd5c425217",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/c4b01ab7ba4165927cb73d5793e5ddbd5c425217/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/3d6691816fb795117a0e10f022b528ad7e4db081",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/3d6691816fb795117a0e10f022b528ad7e4db081/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -139,7 +139,7 @@
             "nl": "Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden."
           },
           "usage": {
-            "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
+            "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
           },
           "domain": [
             {
@@ -165,7 +165,7 @@
           "cardinality": "0..1",
           "codelist_uri": "",
           "rawTags": {
-            "usageNote-nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.",
+            "usageNote-nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.",
             "definition-nl": "Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden.",
             "label-nl": "regulation"
           }
@@ -304,7 +304,7 @@
             "nl": "Tekstveld waarin uitzonderingen op procedures, kostprijzen, ... kunnen aangegeven worden"
           },
           "usage": {
-            "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
+            "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
           },
           "domain": [
             {
@@ -331,7 +331,7 @@
           "codelist_uri": "",
           "rawTags": {
             "definition-nl": "Tekstveld waarin uitzonderingen op procedures, kostprijzen, ... kunnen aangegeven worden",
-            "usageNote-nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+            "usageNote-nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
             "label-nl": "exception"
           }
         },
@@ -430,7 +430,7 @@
             "nl": "This property represents free text for additional information regarding the description of the Public Service."
           },
           "usage": {
-            "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
+            "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
           },
           "domain": [
             {
@@ -457,7 +457,7 @@
           "codelist_uri": "",
           "rawTags": {
             "definition-nl": "This property represents free text for additional information regarding the description of the Public Service.",
-            "usageNote-nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+            "usageNote-nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
             "label-nl": "additionalDescription"
           }
         },
@@ -678,7 +678,7 @@
             "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
           },
           "usage": {
-            "nl": "Het productnummer wordt automatisch door IPDC gegenereerd bij creatie. Dit nummer kan niet door een andere partij bepaald worden."
+            "nl": "Bij het aanmaken van een nieuw concept kan geen productnummer doorgegeven worden aan IPDC of LPDC. De productnummers worden beheerd door IPDC en bij creatie van een nieuw concept zal een uniek productnummer toegekend worden in IPDC. Hierdoor zal bij het uitlezen van IPDC steeds een productnummer beschikbaar zijn op elk concept."
           },
           "domain": [
             {
@@ -701,13 +701,13 @@
               }
             }
           ],
-          "cardinality": "1",
+          "cardinality": "0..1",
           "codelist_uri": "",
           "rawTags": {
             "uri": "http://schema.org/productID",
             "label-nl": "productNumber",
             "definition-nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren.",
-            "usageNote-nl": "Het productnummer wordt automatisch door IPDC gegenereerd bij creatie. Dit nummer kan niet door een andere partij bepaald worden."
+            "usageNote-nl": "Bij het aanmaken van een nieuw concept kan geen productnummer doorgegeven worden aan IPDC of LPDC. De productnummers worden beheerd door IPDC en bij creatie van een nieuw concept zal een uniek productnummer toegekend worden in IPDC. Hierdoor zal bij het uitlezen van IPDC steeds een productnummer beschikbaar zijn op elk concept."
           }
         },
         {
@@ -1007,7 +1007,7 @@
             "nl": "This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information."
           },
           "usage": {
-            "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
+            "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
           },
           "domain": [
             {
@@ -1035,7 +1035,7 @@
           "rawTags": {
             "uri": "http://purl.org/dc/terms/description",
             "definition-nl": "This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information.",
-            "usageNote-nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+            "usageNote-nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
             "label-nl": "description"
           }
         },
@@ -1425,7 +1425,7 @@
             "nl": "This property represents a free text Description of the Output."
           },
           "usage": {
-            "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
+            "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
           },
           "domain": [
             {
@@ -1453,7 +1453,7 @@
           "rawTags": {
             "uri": "http://purl.org/dc/terms/description",
             "definition-nl": "This property represents a free text Description of the Output.",
-            "usageNote-nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+            "usageNote-nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
             "label-nl": "description"
           }
         }
@@ -1579,7 +1579,7 @@
             "nl": "Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden."
           },
           "usage": {
-            "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
+            "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
           },
           "domain": [
             {
@@ -1606,7 +1606,7 @@
           "codelist_uri": "",
           "rawTags": {
             "definition-nl": "Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden.",
-            "usageNote-nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.",
+            "usageNote-nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.",
             "label-nl": "regulation"
           }
         },
@@ -1786,7 +1786,7 @@
             "nl": "Tekstveld waarin uitzondering op procedures, kostprijzen, ... kunnen aangegeven worden"
           },
           "usage": {
-            "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
+            "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
           },
           "domain": [
             {
@@ -1813,7 +1813,7 @@
           "codelist_uri": "",
           "rawTags": {
             "definition-nl": "Tekstveld waarin uitzondering op procedures, kostprijzen, ... kunnen aangegeven worden",
-            "usageNote-nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+            "usageNote-nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
             "label-nl": "exception"
           }
         },
@@ -1870,7 +1870,7 @@
             "nl": "This property represents free text for additional information regarding the description of the Public Service."
           },
           "usage": {
-            "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
+            "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
           },
           "domain": [
             {
@@ -1897,7 +1897,7 @@
           "codelist_uri": "",
           "rawTags": {
             "definition-nl": "This property represents free text for additional information regarding the description of the Public Service.",
-            "usageNote-nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+            "usageNote-nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
             "label-nl": "additionalDescription"
           }
         },
@@ -2118,7 +2118,7 @@
             "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
           },
           "usage": {
-            "nl": "Het productnummer wordt automatisch door IPDC gegenereerd bij creatie. Dit nummer kan niet door een andere partij bepaald worden."
+            "nl": "Bij het aanmaken van een nieuwe instantie kan geen productnummer doorgegeven worden aan IPDC of LPDC. De productnummers worden beheerd door IPDC en bij creatie van een nieuwe instantie zal een uniek productnummer toegekend worden in IPDC. Hierdoor zal bij het uitlezen van IPDC steeds een productnummer beschikbaar zijn op elke instantie."
           },
           "domain": [
             {
@@ -2141,10 +2141,10 @@
               }
             }
           ],
-          "cardinality": "1",
+          "cardinality": "0..1",
           "codelist_uri": "",
           "rawTags": {
-            "usageNote-nl": "Het productnummer wordt automatisch door IPDC gegenereerd bij creatie. Dit nummer kan niet door een andere partij bepaald worden.",
+            "usageNote-nl": "Bij het aanmaken van een nieuwe instantie kan geen productnummer doorgegeven worden aan IPDC of LPDC. De productnummers worden beheerd door IPDC en bij creatie van een nieuwe instantie zal een uniek productnummer toegekend worden in IPDC. Hierdoor zal bij het uitlezen van IPDC steeds een productnummer beschikbaar zijn op elke instantie.",
             "definition-nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren.",
             "label-nl": "productNumber",
             "uri": "http://schema.org/productID"
@@ -2613,7 +2613,7 @@
             "nl": "This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information."
           },
           "usage": {
-            "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
+            "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
           },
           "domain": [
             {
@@ -2641,7 +2641,7 @@
           "rawTags": {
             "definition-nl": "This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information.",
             "uri": "http://purl.org/dc/terms/description",
-            "usageNote-nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+            "usageNote-nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
             "label-nl": "description"
           }
         },
@@ -3110,7 +3110,7 @@
             "nl": "This property represents a free text description of the legal resource."
           },
           "usage": {
-            "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
+            "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
           },
           "domain": [
             {
@@ -3137,7 +3137,7 @@
           "codelist_uri": "",
           "rawTags": {
             "label-nl": "description",
-            "usageNote-nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+            "usageNote-nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
             "uri": "http://purl.org/dc/terms/description",
             "definition-nl": "This property represents a free text description of the legal resource."
           }
@@ -3256,7 +3256,7 @@
             "nl": "This property represents a free text description of the Cost."
           },
           "usage": {
-            "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
+            "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
           },
           "domain": [
             {
@@ -3284,7 +3284,7 @@
           "rawTags": {
             "uri": "http://purl.org/dc/terms/description",
             "definition-nl": "This property represents a free text description of the Cost.",
-            "usageNote-nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+            "usageNote-nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
             "label-nl": "description"
           }
         }
@@ -3362,7 +3362,7 @@
             "nl": "Geeft omschrijving van de vereiste input"
           },
           "usage": {
-            "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
+            "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
           },
           "domain": [
             {
@@ -3390,7 +3390,7 @@
           "rawTags": {
             "uri": "http://purl.org/dc/terms/description",
             "definition-nl": "Geeft omschrijving van de vereiste input",
-            "usageNote-nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+            "usageNote-nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
             "label-nl": "description"
           }
         }
@@ -3490,7 +3490,7 @@
             "nl": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement being instantiated."
           },
           "usage": {
-            "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
+            "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
           },
           "domain": [
             {
@@ -3518,7 +3518,7 @@
           "rawTags": {
             "uri": "http://purl.org/dc/terms/description",
             "definition-nl": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement being instantiated.",
-            "usageNote-nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+            "usageNote-nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
             "label-nl": "description"
           }
         },
@@ -3673,7 +3673,7 @@
             "nl": "This property represents a free text Description of the Rule."
           },
           "usage": {
-            "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
+            "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
           },
           "domain": [
             {
@@ -3701,7 +3701,7 @@
           "rawTags": {
             "uri": "http://purl.org/dc/terms/description",
             "definition-nl": "This property represents a free text Description of the Rule.",
-            "usageNote-nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+            "usageNote-nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
             "label-nl": "description"
           }
         }
@@ -4136,7 +4136,7 @@
             "nl": "This property represents a free text description of the Website."
           },
           "usage": {
-            "nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"
+            "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
           },
           "domain": [
             {
@@ -4164,7 +4164,7 @@
           "rawTags": {
             "uri": "http://purl.org/dc/terms/description",
             "definition-nl": "This property represents a free text description of the Website.",
-            "usageNote-nl": "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan",
+            "usageNote-nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
             "label-nl": "description"
           }
         }

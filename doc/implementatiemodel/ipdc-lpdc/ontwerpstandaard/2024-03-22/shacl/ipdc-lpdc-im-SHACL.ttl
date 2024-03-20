@@ -168,7 +168,6 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/96cdcbb0489a41ab01fc39c521f5ed607a0b2c41>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/53bd38e3d33ba488ee41d290d32c1df211accc84>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/2476d2d34ae8e09236f4b9e647311fcf62b60104>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/5ce6872f0ac03a81b53cfc0943fc8786e99553bd>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/a7dc60730b2dff086ede8409e204586e13f8d203>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/84f9c94203326482a08086fcedae8c2b75538a2e>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/01c0c4d558c89c3dc42c1be055d56b9a6e0b10ee>,
@@ -295,12 +294,6 @@
   shacl:description "Tekstveld waarin uitzonderingen op procedures, kostprijzen, ... kunnen aangegeven worden"@nl;
   shacl:name "exception"@nl;
   shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception> .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/5ce6872f0ac03a81b53cfc0943fc8786e99553bd> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.productNumber";
-  shacl:description "Identificatienummer om op een unieke manier een instantie of concept te identificeren."@nl;
-  shacl:minCount 1;
-  shacl:name "productNumber"@nl;
-  shacl:path schema:productID .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/61ede3097db630275578502c3ed09d8d46836e6d> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.additionalDescription";
   shacl:description "This property represents free text for additional information regarding the description of the Public Service."@nl;
@@ -840,7 +833,6 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/96cdcbb0489a41ab01fc39c521f5ed607a0b2c41>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/53bd38e3d33ba488ee41d290d32c1df211accc84>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/2476d2d34ae8e09236f4b9e647311fcf62b60104>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/5ce6872f0ac03a81b53cfc0943fc8786e99553bd>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/a7dc60730b2dff086ede8409e204586e13f8d203>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/84f9c94203326482a08086fcedae8c2b75538a2e>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/01c0c4d558c89c3dc42c1be055d56b9a6e0b10ee>,
@@ -993,12 +985,6 @@
   shacl:description "Tekstveld waarin uitzondering op procedures, kostprijzen, ... kunnen aangegeven worden"@nl;
   shacl:name "exception"@nl;
   shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception> .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/5ce6872f0ac03a81b53cfc0943fc8786e99553bd> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicService.productNumber";
-  shacl:description "Identificatienummer om op een unieke manier een instantie of concept te identificeren."@nl;
-  shacl:minCount 1;
-  shacl:name "productNumber"@nl;
-  shacl:path schema:productID .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/61ede3097db630275578502c3ed09d8d46836e6d> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicService.additionalDescription";
   shacl:description "This property represents free text for additional information regarding the description of the Public Service."@nl;

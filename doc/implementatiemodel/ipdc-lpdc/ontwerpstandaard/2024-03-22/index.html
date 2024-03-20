@@ -243,8 +243,8 @@
 
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/c4b01ab7ba4165927cb73d5793e5ddbd5c425217">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/c4b01ab7ba4165927cb73d5793e5ddbd5c425217</a></dd>
-              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/c4b01ab7ba4165927cb73d5793e5ddbd5c425217/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/c4b01ab7ba4165927cb73d5793e5ddbd5c425217/CHANGELOG</a></dd>
+              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/3d6691816fb795117a0e10f022b528ad7e4db081">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/3d6691816fb795117a0e10f022b528ad7e4db081</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/3d6691816fb795117a0e10f022b528ad7e4db081/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/3d6691816fb795117a0e10f022b528ad7e4db081/CHANGELOG</a></dd>
               <dt>Opmerkingen en feedback</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/issues">https://github.com/Informatievlaanderen/ipdc-lpdc/issues</a></dd>
               <dt>Standaardenregister</dt><dd><a href="https://data.vlaanderen.be/standaarden">https://data.vlaanderen.be/standaarden</a></dd>
 
@@ -489,7 +489,7 @@
                         </td>
                         <td>0..1</td>
                         <td property="rdfs:comment">This property represents free text for additional information regarding the description of the Public Service.</td>
-                        <td property="vann:usageNote">Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan</td>
+                        <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.</td>
                         <td></td>
                       </tr>
                     
@@ -589,7 +589,7 @@
                         </td>
                         <td>1</td>
                         <td property="rdfs:comment">This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information.</td>
-                        <td property="vann:usageNote">Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan</td>
+                        <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.</td>
                         <td></td>
                       </tr>
                     
@@ -629,7 +629,7 @@
                         </td>
                         <td>0..1</td>
                         <td property="rdfs:comment">Tekstveld waarin uitzonderingen op procedures, kostprijzen, ... kunnen aangegeven worden</td>
-                        <td property="vann:usageNote">Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan</td>
+                        <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.</td>
                         <td></td>
                       </tr>
                     
@@ -887,9 +887,9 @@
                             
                           
                         </td>
-                        <td>1</td>
+                        <td>0..1</td>
                         <td property="rdfs:comment">Identificatienummer om op een unieke manier een instantie of concept te identificeren.</td>
-                        <td property="vann:usageNote">Het productnummer wordt automatisch door IPDC gegenereerd bij creatie. Dit nummer kan niet door een andere partij bepaald worden.</td>
+                        <td property="vann:usageNote">Bij het aanmaken van een nieuw concept kan geen productnummer doorgegeven worden aan IPDC of LPDC. De productnummers worden beheerd door IPDC en bij creatie van een nieuw concept zal een uniek productnummer toegekend worden in IPDC. Hierdoor zal bij het uitlezen van IPDC steeds een productnummer beschikbaar zijn op elk concept.</td>
                         <td></td>
                       </tr>
                     
@@ -929,7 +929,7 @@
                         </td>
                         <td>0..1</td>
                         <td property="rdfs:comment">Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden.</td>
-                        <td property="vann:usageNote">Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.
+                        <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.
 Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.</td>
                         <td></td>
                       </tr>
@@ -1330,7 +1330,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         </td>
                         <td>1</td>
                         <td property="rdfs:comment">This property represents a free text description of the Cost.</td>
-                        <td property="vann:usageNote">Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan</td>
+                        <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.</td>
                         <td></td>
                       </tr>
                     
@@ -1429,7 +1429,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         </td>
                         <td>1</td>
                         <td property="rdfs:comment">Geeft omschrijving van de vereiste input</td>
-                        <td property="vann:usageNote">Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan</td>
+                        <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.</td>
                         <td></td>
                       </tr>
                     
@@ -1511,7 +1511,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         </td>
                         <td>1</td>
                         <td property="rdfs:comment">This property represents a free text Description of the Output.</td>
-                        <td property="vann:usageNote">Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan</td>
+                        <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.</td>
                         <td></td>
                       </tr>
                     
@@ -1643,7 +1643,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         </td>
                         <td>0..1</td>
                         <td property="rdfs:comment">This property represents free text for additional information regarding the description of the Public Service.</td>
-                        <td property="vann:usageNote">Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan</td>
+                        <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.</td>
                         <td></td>
                       </tr>
                     
@@ -1743,7 +1743,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         </td>
                         <td>1</td>
                         <td property="rdfs:comment">This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information.</td>
-                        <td property="vann:usageNote">Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan</td>
+                        <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.</td>
                         <td></td>
                       </tr>
                     
@@ -1783,7 +1783,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         </td>
                         <td>0..1</td>
                         <td property="rdfs:comment">Tekstveld waarin uitzondering op procedures, kostprijzen, ... kunnen aangegeven worden</td>
-                        <td property="vann:usageNote">Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan</td>
+                        <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.</td>
                         <td></td>
                       </tr>
                     
@@ -2121,9 +2121,9 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                             
                           
                         </td>
-                        <td>1</td>
+                        <td>0..1</td>
                         <td property="rdfs:comment">Identificatienummer om op een unieke manier een instantie of concept te identificeren.</td>
-                        <td property="vann:usageNote">Het productnummer wordt automatisch door IPDC gegenereerd bij creatie. Dit nummer kan niet door een andere partij bepaald worden.</td>
+                        <td property="vann:usageNote">Bij het aanmaken van een nieuwe instantie kan geen productnummer doorgegeven worden aan IPDC of LPDC. De productnummers worden beheerd door IPDC en bij creatie van een nieuwe instantie zal een uniek productnummer toegekend worden in IPDC. Hierdoor zal bij het uitlezen van IPDC steeds een productnummer beschikbaar zijn op elke instantie.</td>
                         <td></td>
                       </tr>
                     
@@ -2163,7 +2163,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         </td>
                         <td>0..1</td>
                         <td property="rdfs:comment">Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden.</td>
-                        <td property="vann:usageNote">Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.
+                        <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.
 Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.</td>
                         <td></td>
                       </tr>
@@ -2424,7 +2424,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         </td>
                         <td>0..1</td>
                         <td property="rdfs:comment">This property represents a free text description of the legal resource.</td>
-                        <td property="vann:usageNote">Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan</td>
+                        <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.</td>
                         <td></td>
                       </tr>
                     
@@ -2542,7 +2542,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         </td>
                         <td>1</td>
                         <td property="rdfs:comment">This property represents a free text Description of the Rule.</td>
-                        <td property="vann:usageNote">Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan</td>
+                        <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.</td>
                         <td></td>
                       </tr>
                     
@@ -2660,7 +2660,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         </td>
                         <td>1</td>
                         <td property="rdfs:comment">A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement being instantiated.</td>
-                        <td property="vann:usageNote">Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan</td>
+                        <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.</td>
                         <td></td>
                       </tr>
                     
@@ -2759,7 +2759,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         </td>
                         <td>0..1</td>
                         <td property="rdfs:comment">This property represents a free text description of the Website.</td>
-                        <td property="vann:usageNote">Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan</td>
+                        <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.</td>
                         <td></td>
                       </tr>
                     

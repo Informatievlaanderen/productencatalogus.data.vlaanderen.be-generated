@@ -118,7 +118,7 @@
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation> <http://www.w3.org/2000/01/rdf-schema#label> "regulation"@nl .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation> <http://www.w3.org/2000/01/rdf-schema#comment> "Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden."@nl .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation> <http://purl.org/vocab/vann/usageNote> "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."@nl .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation> <http://purl.org/vocab/vann/usageNote> "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."@nl .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
@@ -158,7 +158,7 @@
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception> <http://www.w3.org/2000/01/rdf-schema#label> "exception"@nl .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception> <http://www.w3.org/2000/01/rdf-schema#comment> "Tekstveld waarin uitzonderingen op procedures, kostprijzen, ... kunnen aangegeven worden"@nl .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception> <http://www.w3.org/2000/01/rdf-schema#comment> "Tekstveld waarin uitzondering op procedures, kostprijzen, ... kunnen aangegeven worden"@nl .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception> <http://purl.org/vocab/vann/usageNote> "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"@nl .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception> <http://purl.org/vocab/vann/usageNote> "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."@nl .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
@@ -191,7 +191,7 @@
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription> <http://www.w3.org/2000/01/rdf-schema#label> "additionalDescription"@nl .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents free text for additional information regarding the description of the Public Service."@nl .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription> <http://purl.org/vocab/vann/usageNote> "Rich Text (HTML): uitvoerbare (JavaScript) code en anchor tags met relatieve urls niet toegestaan"@nl .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription> <http://purl.org/vocab/vann/usageNote> "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."@nl .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
