@@ -110,6 +110,11 @@
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijst",
           "@type": "@id"
         },
+        "ipdcCodelijstNaastDiagram": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijstNaastDiagram",
+          "@type": "@id"
+        },
         "isArchived": {
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
           "@type": "http://www.w3.org/2001/XMLSchema#boolean"

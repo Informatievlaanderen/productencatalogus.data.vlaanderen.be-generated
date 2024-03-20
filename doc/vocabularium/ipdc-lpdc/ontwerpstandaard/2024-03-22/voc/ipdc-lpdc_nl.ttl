@@ -134,6 +134,14 @@ skos:Concept a rdfs:Class;
   rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc>;
   rdfs:range skos:Concept .
 
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijstNaastDiagram> a owl:ObjectProperty;
+  rdfs:label "ipdcCodelijstNaastDiagram"@nl;
+  <http://purl.org/vocab/vann/usageNote> "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."@nl;
+  rdfs:comment "Test codelijst om na te gaan dat datatype naast diagram beter werkt (def)"@nl;
+  rdfs:domain <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService>;
+  rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc>;
+  rdfs:range skos:Concept .
+
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived> a owl:DatatypeProperty;
   rdfs:label "isArchived"@nl;
   rdfs:comment "Waarde die aangeeft of het concept gearchiveerd is."@nl,
