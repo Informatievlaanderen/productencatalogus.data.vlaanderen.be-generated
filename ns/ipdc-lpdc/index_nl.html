@@ -39,11 +39,11 @@
               <div class="head" role="status" id="status">
               <dl>
               <dt>Status</dt><dd><a href="https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard">https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard</a></dd>
-              <dt>Uitgegeven op</dt><dd>2024-03-08</dd>
-              <dt>Deze versie</dt><dd><a href="https://productencatalogus.data.test-vlaanderen.be//doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-03-08">https://productencatalogus.data.test-vlaanderen.be//doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-03-08</a></dd>
+              <dt>Uitgegeven op</dt><dd>2024-03-22</dd>
+              <dt>Deze versie</dt><dd><a href="https://productencatalogus.data.test-vlaanderen.be//doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-03-22">https://productencatalogus.data.test-vlaanderen.be//doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-03-22</a></dd>
               
               
-              <dt>Vorige versie</dt><dd><a href="/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-02-29">/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-02-29</a></dd>
+              <dt>Vorige versie</dt><dd><a href="/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-03-08">/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-03-08</a></dd>
               
               </dl>
               </div>
@@ -235,8 +235,8 @@
                 </div>
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/1d13a8d07bfc323564408638524717e398d2a180">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/1d13a8d07bfc323564408638524717e398d2a180</a></dd>
-              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/1d13a8d07bfc323564408638524717e398d2a180/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/1d13a8d07bfc323564408638524717e398d2a180/CHANGELOG</a></dd>
+              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/c4b01ab7ba4165927cb73d5793e5ddbd5c425217">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/c4b01ab7ba4165927cb73d5793e5ddbd5c425217</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/c4b01ab7ba4165927cb73d5793e5ddbd5c425217/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/c4b01ab7ba4165927cb73d5793e5ddbd5c425217/CHANGELOG</a></dd>
               <dt id="feedbackurl">Opmerkingen en feedback</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/issues">https://github.com/Informatievlaanderen/ipdc-lpdc/issues</a></dd>
               <dt>Standaardenregister</dt><dd><a href="https://data.vlaanderen.be/standaarden">https://data.vlaanderen.be/standaarden</a></dd>
 
@@ -304,11 +304,12 @@
         <li>nl-BE-x-generated-formal: automatisch gegenereerde formele tekst</li>
         <li>nl-BE-x-generated-informal: automatisch gegenereerde informele tekst</li>
     </ul>
-    De nl tag zal steeds aanwezig zijn. Hiernaast zal steeds ofwel de door een redacteur ingegeven formele vorm
-    (nl-BE-x-formal) of gegeneerde formele vorm (nl-BE-x-generated-formal) beschikbaar zijn. Alsook de door een
-    redacteur ingegeven informele vorm (nl-BE-x-informal) of gegeneerde informele vorm ( nl-BE-x-generated-informal)
-
-    Bij het schrijven naar de IPDC API zijn de generated tags niet toegelaten. Deze zullen genegeerd worden.
+    Bij het schrijven naar IPDC of LPDC, of bij het doorgeven van wijzigingen via LDES mag slechts één enkele van de volgende language tags doorgegeven worden: nl-BE-x-formal, nl-BE-x-informal of nl.
+    Bij voorkeur wordt gekozen voor nl-BE-x-formal of nl-BE-x-informal. Op deze manier is duidelijk in welke vorm de redacteur de oorspronkelijke tekst schreef.
+    Bij het schrijven naar de IPDC of LPDC zijn de generated tags nl-BE-x-generated-formal en nl-BE-x-generated-informal niet toegelaten. Deze zullen genegeerd worden.
+    <br/>
+    Bij het uitlezen van IPDC zal de nl tag steeds aanwezig zijn. Hiernaast zal steeds ofwel de door een redacteur ingegeven formele vorm (nl-BE-x-formal) of gegeneerde formele vorm (nl-BE-x-generated-formal) beschikbaar zijn.
+    Alsook de door een redacteur ingegeven informele vorm (nl-BE-x-informal) of gegeneerde informele vorm (nl-BE-x-generated-informal).
 </p>
 <p>
     In het implementatiemodel worden de kardinaliteiten voor TaalStrings altijd aangegeven vanuit één taal. Zo geeft
