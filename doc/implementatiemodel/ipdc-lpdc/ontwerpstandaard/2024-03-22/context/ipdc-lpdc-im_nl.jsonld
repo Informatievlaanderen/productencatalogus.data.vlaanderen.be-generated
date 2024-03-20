@@ -105,6 +105,11 @@
           "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
           "@type": "@id"
         },
+        "ipdcCodelijst": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijst",
+          "@type": "@id"
+        },
         "isArchived": {
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
           "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -420,6 +425,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
     },
     "InstanceTag": "http://www.w3.org/2004/02/skos/core#Concept",
+    "IpdcCodelijst": "http://www.w3.org/2004/02/skos/core#Concept",
     "Language": "http://www.w3.org/2004/02/skos/core#Concept",
     "LegalResource": {
       "@context": {

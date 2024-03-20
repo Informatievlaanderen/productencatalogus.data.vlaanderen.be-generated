@@ -186,6 +186,19 @@
       }
     },
     {
+      "EA-Guid": "{F66769B4-FBC4-47d8-ACF4-EE031B2E8373}",
+      "name": "ipdccodelijst",
+      "label": {
+        "nl": "ipdcCodelijst"
+      },
+      "definition": {
+        "nl": "Test ipdc codelijst"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+      }
+    },
+    {
       "EA-Guid": "{AA354A19-56F9-401d-8F0A-5C15E68BAC36}",
       "name": "instancetag",
       "label": {
@@ -564,6 +577,10 @@
       "usage": {
         "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG."
       }
+    },
+    {
+      "EA-Guid": "{B1183A21-F3E7-4ce3-8450-34EF869FAD53}",
+      "name": ""
     },
     {
       "EA-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
@@ -1440,7 +1457,7 @@
       }
     },
     {
-      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
+      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
       "name": "hascompetentauthority",
       "label": {
         "nl": "hasCompetentAuthority"
@@ -1450,7 +1467,7 @@
       }
     },
     {
-      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
+      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
       "name": "hascompetentauthority",
       "label": {
         "nl": "hasCompetentAuthority"
