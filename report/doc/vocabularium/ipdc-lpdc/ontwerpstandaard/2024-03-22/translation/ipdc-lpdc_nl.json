@@ -580,7 +580,16 @@
     },
     {
       "EA-Guid": "{B1183A21-F3E7-4ce3-8450-34EF869FAD53}",
-      "name": ""
+      "name": "Ipdccodelijst",
+      "label": {
+        "nl": "IpdcCodelijst"
+      },
+      "definition": {
+        "nl": "Test codelijst om na te gaan dat datatype beter werkt dan enumeration"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in volgend ttl bestand https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/bevoegd-bestuursniveau.ttl"
+      }
     },
     {
       "EA-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
@@ -1407,16 +1416,6 @@
       }
     },
     {
-      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
-      "name": "haslegalresource",
-      "label": {
-        "nl": "hasLegalResource"
-      },
-      "definition": {
-        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-      }
-    },
-    {
       "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
       "name": "haslegalresource",
       "label": {
@@ -1427,7 +1426,17 @@
       }
     },
     {
-      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
+      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
+      "name": "haslegalresource",
+      "label": {
+        "nl": "hasLegalResource"
+      },
+      "definition": {
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+      }
+    },
+    {
+      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
       "name": "hascost",
       "label": {
         "nl": "hasCost"
@@ -1437,7 +1446,7 @@
       }
     },
     {
-      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
       "name": "hascost",
       "label": {
         "nl": "hasCost"
@@ -1457,7 +1466,7 @@
       }
     },
     {
-      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
+      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
       "name": "hascompetentauthority",
       "label": {
         "nl": "hasCompetentAuthority"
@@ -1467,7 +1476,7 @@
       }
     },
     {
-      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
+      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
       "name": "hascompetentauthority",
       "label": {
         "nl": "hasCompetentAuthority"

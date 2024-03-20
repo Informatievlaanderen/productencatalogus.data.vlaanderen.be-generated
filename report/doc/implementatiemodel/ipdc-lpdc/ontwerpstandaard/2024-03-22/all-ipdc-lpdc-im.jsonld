@@ -3872,8 +3872,20 @@
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
             "ap-codelist": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/bevoegd-bestuursniveau.ttl",
+            "usage": {
+                "nl": "De geldige waardes zijn te vinden in volgend ttl bestand https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/bevoegd-bestuursniveau.ttl"
+            },
+            "definition": {
+                "nl": "Test codelijst om na te gaan dat datatype beter werkt dan enumeration"
+            },
+            "label": {
+                "nl": "IpdcCodelijst"
+            },
+            "ap-label-nl": {
+                "nl": "IpdcCodelijst"
+            },
             "ap-definition-nl": {
-                "nl": "TODO"
+                "nl": "Test codelijst om na te gaan dat datatype beter werkt dan enumeration"
             },
             "extra": {
                 "EA-Name": "IpdcCodelijst",
@@ -3883,12 +3895,20 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
-                "definition": "",
-                "usage": "",
-                "ap-label-nl": "",
+                "label": {
+                    "nl": "IpdcCodelijst"
+                },
+                "definition": {
+                    "nl": "Test codelijst om na te gaan dat datatype beter werkt dan enumeration"
+                },
+                "usage": {
+                    "nl": "De geldige waardes zijn te vinden in volgend ttl bestand https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/bevoegd-bestuursniveau.ttl"
+                },
+                "ap-label-nl": {
+                    "nl": "IpdcCodelijst"
+                },
                 "ap-definition-nl": {
-                    "nl": "TODO"
+                    "nl": "Test codelijst om na te gaan dat datatype beter werkt dan enumeration"
                 },
                 "ap-usageNote-nl": "",
                 "ap-codelist": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/bevoegd-bestuursniveau.ttl",
@@ -3902,11 +3922,26 @@
                         "key": "uri",
                         "value": "http://www.w3.org/2004/02/skos/core#Concept",
                         "note": "null"
+                    },
+                    {
+                        "key": "label-nl",
+                        "value": "IpdcCodelijst",
+                        "note": "null"
+                    },
+                    {
+                        "key": "usageNote-nl",
+                        "value": "De geldige waardes zijn te vinden in volgend ttl bestand https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/bevoegd-bestuursniveau.ttl",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "Test codelijst om na te gaan dat datatype beter werkt dan enumeration",
+                        "note": "null"
                     }
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
             },
-            "name": ""
+            "name": "Ipdccodelijst"
         },
         {
             "@id": "http://www.w3.org/ns/locn#Address",
@@ -4087,94 +4122,6 @@
             },
             "extra": {
                 "EA-Name": "hasExecutingAuthority",
-                "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
-                "derived": "false",
-                "EA-Package": "",
-                "EA-Type": "connector",
-                "EA-Domain": "ConceptualPublicService",
-                "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-                "EA-Range": "PubliekeOrganisatie",
-                "RangeData": {
-                    "EA-Name": "PubliekeOrganisatie",
-                    "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
-                    "EA-Package": "OSLO-Organisatie",
-                    "uri": "http://data.europa.eu/m8g/PublicOrganisation"
-                },
-                "sourceRole": "null",
-                "destRole": "null",
-                "label": {
-                    "nl": "hasExecutingAuthority"
-                },
-                "definition": {
-                    "nl": "Links naar de uitvoerende organisaties"
-                },
-                "usage": "",
-                "ap-label-nl": {
-                    "nl": "hasExecutingAuthority"
-                },
-                "ap-definition-nl": {
-                    "nl": "Links naar de uitvoerende organisaties"
-                },
-                "ap-usageNote-nl": "",
-                "ap-codelist": "",
-                "RawTags": [
-                    {
-                        "key": "label-nl",
-                        "value": "hasExecutingAuthority",
-                        "note": "null"
-                    },
-                    {
-                        "key": "uri",
-                        "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
-                        "note": "null"
-                    },
-                    {
-                        "key": "definition-nl",
-                        "value": "Links naar de uitvoerende organisaties",
-                        "note": "null"
-                    }
-                ],
-                "DestRoleTags": [],
-                "Scope": "NOTHING"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
-                    "EA-Name": "ConceptualPublicService"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "PubliekeOrganisatie",
-                    "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
-                    "EA-Package": "OSLO-Organisatie",
-                    "uri": "http://data.europa.eu/m8g/PublicOrganisation"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "0",
-            "maxCardinality": "*"
-        },
-        {
-            "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "hasexecutingauthority",
-            "inpackage": "UNKNOWN",
-            "definition": {
-                "nl": "Links naar de uitvoerende organisaties"
-            },
-            "label": {
-                "nl": "hasExecutingAuthority"
-            },
-            "ap-label-nl": {
-                "nl": "hasExecutingAuthority"
-            },
-            "ap-definition-nl": {
-                "nl": "Links naar de uitvoerende organisaties"
-            },
-            "extra": {
-                "EA-Name": "hasExecutingAuthority",
                 "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
                 "derived": "false",
                 "EA-Package": "",
@@ -4230,6 +4177,94 @@
                 {
                     "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
                     "EA-Name": "InstancePublicService"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "PubliekeOrganisatie",
+                    "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+                    "EA-Package": "OSLO-Organisatie",
+                    "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "0",
+            "maxCardinality": "*"
+        },
+        {
+            "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "hasexecutingauthority",
+            "inpackage": "UNKNOWN",
+            "definition": {
+                "nl": "Links naar de uitvoerende organisaties"
+            },
+            "label": {
+                "nl": "hasExecutingAuthority"
+            },
+            "ap-label-nl": {
+                "nl": "hasExecutingAuthority"
+            },
+            "ap-definition-nl": {
+                "nl": "Links naar de uitvoerende organisaties"
+            },
+            "extra": {
+                "EA-Name": "hasExecutingAuthority",
+                "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
+                "derived": "false",
+                "EA-Package": "",
+                "EA-Type": "connector",
+                "EA-Domain": "ConceptualPublicService",
+                "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+                "EA-Range": "PubliekeOrganisatie",
+                "RangeData": {
+                    "EA-Name": "PubliekeOrganisatie",
+                    "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+                    "EA-Package": "OSLO-Organisatie",
+                    "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+                },
+                "sourceRole": "null",
+                "destRole": "null",
+                "label": {
+                    "nl": "hasExecutingAuthority"
+                },
+                "definition": {
+                    "nl": "Links naar de uitvoerende organisaties"
+                },
+                "usage": "",
+                "ap-label-nl": {
+                    "nl": "hasExecutingAuthority"
+                },
+                "ap-definition-nl": {
+                    "nl": "Links naar de uitvoerende organisaties"
+                },
+                "ap-usageNote-nl": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "label-nl",
+                        "value": "hasExecutingAuthority",
+                        "note": "null"
+                    },
+                    {
+                        "key": "uri",
+                        "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "Links naar de uitvoerende organisaties",
+                        "note": "null"
+                    }
+                ],
+                "DestRoleTags": [],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
+                    "EA-Name": "ConceptualPublicService"
                 }
             ],
             "range": [
@@ -7523,94 +7558,6 @@
             },
             "extra": {
                 "EA-Name": "follows",
-                "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
-                "derived": "false",
-                "EA-Package": "",
-                "EA-Type": "connector",
-                "EA-Domain": "InstancePublicService",
-                "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-                "EA-Range": "Procedure",
-                "RangeData": {
-                    "EA-Name": "Procedure",
-                    "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "http://purl.org/vocab/cpsv#Rule"
-                },
-                "sourceRole": "null",
-                "destRole": "null",
-                "label": {
-                    "nl": "follows"
-                },
-                "definition": {
-                    "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-                },
-                "usage": "",
-                "ap-label-nl": {
-                    "nl": "follows"
-                },
-                "ap-definition-nl": {
-                    "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-                },
-                "ap-usageNote-nl": "",
-                "ap-codelist": "",
-                "RawTags": [
-                    {
-                        "key": "uri",
-                        "value": "http://purl.org/vocab/cpsv#follows",
-                        "note": "null"
-                    },
-                    {
-                        "key": "definition-nl",
-                        "value": "NOTE",
-                        "note": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-                    },
-                    {
-                        "key": "label-nl",
-                        "value": "follows",
-                        "note": "null"
-                    }
-                ],
-                "DestRoleTags": [],
-                "Scope": "TRANSLATIONS_ONLY"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
-                    "EA-Name": "InstancePublicService"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "Procedure",
-                    "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "http://purl.org/vocab/cpsv#Rule"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "0",
-            "maxCardinality": "1"
-        },
-        {
-            "@id": "http://purl.org/vocab/cpsv#follows",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "follows",
-            "inpackage": "ACTIVE_PACKAGE",
-            "definition": {
-                "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-            },
-            "label": {
-                "nl": "follows"
-            },
-            "ap-label-nl": {
-                "nl": "follows"
-            },
-            "ap-definition-nl": {
-                "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-            },
-            "extra": {
-                "EA-Name": "follows",
                 "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
                 "derived": "false",
                 "EA-Package": "",
@@ -7666,6 +7613,94 @@
                 {
                     "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
                     "EA-Name": "ConceptualPublicService"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "Procedure",
+                    "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
+                    "EA-Package": "IPDC-LPDC",
+                    "uri": "http://purl.org/vocab/cpsv#Rule"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "0",
+            "maxCardinality": "1"
+        },
+        {
+            "@id": "http://purl.org/vocab/cpsv#follows",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "follows",
+            "inpackage": "ACTIVE_PACKAGE",
+            "definition": {
+                "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+            },
+            "label": {
+                "nl": "follows"
+            },
+            "ap-label-nl": {
+                "nl": "follows"
+            },
+            "ap-definition-nl": {
+                "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+            },
+            "extra": {
+                "EA-Name": "follows",
+                "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
+                "derived": "false",
+                "EA-Package": "",
+                "EA-Type": "connector",
+                "EA-Domain": "InstancePublicService",
+                "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+                "EA-Range": "Procedure",
+                "RangeData": {
+                    "EA-Name": "Procedure",
+                    "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
+                    "EA-Package": "IPDC-LPDC",
+                    "uri": "http://purl.org/vocab/cpsv#Rule"
+                },
+                "sourceRole": "null",
+                "destRole": "null",
+                "label": {
+                    "nl": "follows"
+                },
+                "definition": {
+                    "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+                },
+                "usage": "",
+                "ap-label-nl": {
+                    "nl": "follows"
+                },
+                "ap-definition-nl": {
+                    "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+                },
+                "ap-usageNote-nl": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "uri",
+                        "value": "http://purl.org/vocab/cpsv#follows",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "NOTE",
+                        "note": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+                    },
+                    {
+                        "key": "label-nl",
+                        "value": "follows",
+                        "note": "null"
+                    }
+                ],
+                "DestRoleTags": [],
+                "Scope": "TRANSLATIONS_ONLY"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
+                    "EA-Name": "InstancePublicService"
                 }
             ],
             "range": [
@@ -8994,94 +9029,6 @@
             "name": "isversionof",
             "inpackage": "ACTIVE_PACKAGE",
             "definition": {
-                "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-            },
-            "label": {
-                "nl": "isVersionOf"
-            },
-            "ap-label-nl": {
-                "nl": "isVersionOf"
-            },
-            "ap-definition-nl": {
-                "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-            },
-            "extra": {
-                "EA-Name": "isVersionOf",
-                "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
-                "derived": "false",
-                "EA-Package": "",
-                "EA-Type": "connector",
-                "EA-Domain": "ConceptualPublicServiceSnapshot",
-                "EA-Domain-Guid": "{D2B91D18-371A-4811-931C-4C667284F606}",
-                "EA-Range": "ConceptualPublicService",
-                "RangeData": {
-                    "EA-Name": "ConceptualPublicService",
-                    "EA-GUID": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-                },
-                "sourceRole": "null",
-                "destRole": "null",
-                "label": {
-                    "nl": "isVersionOf"
-                },
-                "definition": {
-                    "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-                },
-                "usage": "",
-                "ap-label-nl": {
-                    "nl": "isVersionOf"
-                },
-                "ap-definition-nl": {
-                    "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-                },
-                "ap-usageNote-nl": "",
-                "ap-codelist": "",
-                "RawTags": [
-                    {
-                        "key": "label-nl",
-                        "value": "isVersionOf",
-                        "note": "null"
-                    },
-                    {
-                        "key": "definition-nl",
-                        "value": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.",
-                        "note": "null"
-                    },
-                    {
-                        "key": "uri",
-                        "value": "http://purl.org/dc/terms/isVersionOf",
-                        "note": "null"
-                    }
-                ],
-                "DestRoleTags": [],
-                "Scope": "TRANSLATIONS_ONLY"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot",
-                    "EA-Name": "ConceptualPublicServiceSnapshot"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "ConceptualPublicService",
-                    "EA-GUID": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "1",
-            "maxCardinality": "1"
-        },
-        {
-            "@id": "http://purl.org/dc/terms/isVersionOf",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "isversionof",
-            "inpackage": "ACTIVE_PACKAGE",
-            "definition": {
                 "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
             },
             "label": {
@@ -9158,6 +9105,94 @@
                     "EA-GUID": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
                     "EA-Package": "IPDC-LPDC",
                     "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "1",
+            "maxCardinality": "1"
+        },
+        {
+            "@id": "http://purl.org/dc/terms/isVersionOf",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "isversionof",
+            "inpackage": "ACTIVE_PACKAGE",
+            "definition": {
+                "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+            },
+            "label": {
+                "nl": "isVersionOf"
+            },
+            "ap-label-nl": {
+                "nl": "isVersionOf"
+            },
+            "ap-definition-nl": {
+                "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+            },
+            "extra": {
+                "EA-Name": "isVersionOf",
+                "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
+                "derived": "false",
+                "EA-Package": "",
+                "EA-Type": "connector",
+                "EA-Domain": "ConceptualPublicServiceSnapshot",
+                "EA-Domain-Guid": "{D2B91D18-371A-4811-931C-4C667284F606}",
+                "EA-Range": "ConceptualPublicService",
+                "RangeData": {
+                    "EA-Name": "ConceptualPublicService",
+                    "EA-GUID": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+                    "EA-Package": "IPDC-LPDC",
+                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+                },
+                "sourceRole": "null",
+                "destRole": "null",
+                "label": {
+                    "nl": "isVersionOf"
+                },
+                "definition": {
+                    "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+                },
+                "usage": "",
+                "ap-label-nl": {
+                    "nl": "isVersionOf"
+                },
+                "ap-definition-nl": {
+                    "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+                },
+                "ap-usageNote-nl": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "label-nl",
+                        "value": "isVersionOf",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "uri",
+                        "value": "http://purl.org/dc/terms/isVersionOf",
+                        "note": "null"
+                    }
+                ],
+                "DestRoleTags": [],
+                "Scope": "TRANSLATIONS_ONLY"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot",
+                    "EA-Name": "ConceptualPublicServiceSnapshot"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "ConceptualPublicService",
+                    "EA-GUID": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+                    "EA-Package": "IPDC-LPDC",
+                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
                 }
             ],
             "generalization": [],
@@ -10311,94 +10346,6 @@
             },
             "extra": {
                 "EA-Name": "hasLegalResource",
-                "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
-                "derived": "false",
-                "EA-Package": "",
-                "EA-Type": "connector",
-                "EA-Domain": "InstancePublicService",
-                "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-                "EA-Range": "eli::LegalResource",
-                "RangeData": {
-                    "EA-Name": "eli::LegalResource",
-                    "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "http://data.europa.eu/eli/ontology#LegalResource"
-                },
-                "sourceRole": "null",
-                "destRole": "null",
-                "label": {
-                    "nl": "hasLegalResource"
-                },
-                "definition": {
-                    "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-                },
-                "usage": "",
-                "ap-label-nl": {
-                    "nl": "hasLegalResource"
-                },
-                "ap-definition-nl": {
-                    "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-                },
-                "ap-usageNote-nl": "",
-                "ap-codelist": "",
-                "RawTags": [
-                    {
-                        "key": "uri",
-                        "value": "http://data.europa.eu/m8g/hasLegalResource",
-                        "note": "null"
-                    },
-                    {
-                        "key": "definition-nl",
-                        "value": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.",
-                        "note": "null"
-                    },
-                    {
-                        "key": "label-nl",
-                        "value": "hasLegalResource",
-                        "note": "null"
-                    }
-                ],
-                "DestRoleTags": [],
-                "Scope": "TRANSLATIONS_ONLY"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
-                    "EA-Name": "InstancePublicService"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "eli::LegalResource",
-                    "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "http://data.europa.eu/eli/ontology#LegalResource"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "0",
-            "maxCardinality": "*"
-        },
-        {
-            "@id": "http://data.europa.eu/m8g/hasLegalResource",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "haslegalresource",
-            "inpackage": "ACTIVE_PACKAGE",
-            "definition": {
-                "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-            },
-            "label": {
-                "nl": "hasLegalResource"
-            },
-            "ap-label-nl": {
-                "nl": "hasLegalResource"
-            },
-            "ap-definition-nl": {
-                "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-            },
-            "extra": {
-                "EA-Name": "hasLegalResource",
                 "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
                 "derived": "false",
                 "EA-Package": "",
@@ -10454,6 +10401,94 @@
                 {
                     "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
                     "EA-Name": "ConceptualPublicService"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "eli::LegalResource",
+                    "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
+                    "EA-Package": "IPDC-LPDC",
+                    "uri": "http://data.europa.eu/eli/ontology#LegalResource"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "0",
+            "maxCardinality": "*"
+        },
+        {
+            "@id": "http://data.europa.eu/m8g/hasLegalResource",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "haslegalresource",
+            "inpackage": "ACTIVE_PACKAGE",
+            "definition": {
+                "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+            },
+            "label": {
+                "nl": "hasLegalResource"
+            },
+            "ap-label-nl": {
+                "nl": "hasLegalResource"
+            },
+            "ap-definition-nl": {
+                "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+            },
+            "extra": {
+                "EA-Name": "hasLegalResource",
+                "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
+                "derived": "false",
+                "EA-Package": "",
+                "EA-Type": "connector",
+                "EA-Domain": "InstancePublicService",
+                "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+                "EA-Range": "eli::LegalResource",
+                "RangeData": {
+                    "EA-Name": "eli::LegalResource",
+                    "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
+                    "EA-Package": "IPDC-LPDC",
+                    "uri": "http://data.europa.eu/eli/ontology#LegalResource"
+                },
+                "sourceRole": "null",
+                "destRole": "null",
+                "label": {
+                    "nl": "hasLegalResource"
+                },
+                "definition": {
+                    "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+                },
+                "usage": "",
+                "ap-label-nl": {
+                    "nl": "hasLegalResource"
+                },
+                "ap-definition-nl": {
+                    "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+                },
+                "ap-usageNote-nl": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "uri",
+                        "value": "http://data.europa.eu/m8g/hasLegalResource",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "label-nl",
+                        "value": "hasLegalResource",
+                        "note": "null"
+                    }
+                ],
+                "DestRoleTags": [],
+                "Scope": "TRANSLATIONS_ONLY"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
+                    "EA-Name": "InstancePublicService"
                 }
             ],
             "range": [
@@ -10751,94 +10786,6 @@
             },
             "extra": {
                 "EA-Name": "hasCompetentAuthority",
-                "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
-                "derived": "false",
-                "EA-Package": "",
-                "EA-Type": "connector",
-                "EA-Domain": "InstancePublicService",
-                "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-                "EA-Range": "PubliekeOrganisatie",
-                "RangeData": {
-                    "EA-Name": "PubliekeOrganisatie",
-                    "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
-                    "EA-Package": "OSLO-Organisatie",
-                    "uri": "http://data.europa.eu/m8g/PublicOrganisation"
-                },
-                "sourceRole": "null",
-                "destRole": "null",
-                "label": {
-                    "nl": "hasCompetentAuthority"
-                },
-                "definition": {
-                    "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
-                },
-                "usage": "",
-                "ap-label-nl": {
-                    "nl": "hasCompetentAuthority"
-                },
-                "ap-definition-nl": {
-                    "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
-                },
-                "ap-usageNote-nl": "",
-                "ap-codelist": "",
-                "RawTags": [
-                    {
-                        "key": "uri",
-                        "value": "http://data.europa.eu/m8g/hasCompetentAuthority",
-                        "note": "null"
-                    },
-                    {
-                        "key": "definition-nl",
-                        "value": "NOTE",
-                        "note": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
-                    },
-                    {
-                        "key": "label-nl",
-                        "value": "hasCompetentAuthority",
-                        "note": "null"
-                    }
-                ],
-                "DestRoleTags": [],
-                "Scope": "NOTHING"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
-                    "EA-Name": "InstancePublicService"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "PubliekeOrganisatie",
-                    "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
-                    "EA-Package": "OSLO-Organisatie",
-                    "uri": "http://data.europa.eu/m8g/PublicOrganisation"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "1",
-            "maxCardinality": "*"
-        },
-        {
-            "@id": "http://data.europa.eu/m8g/hasCompetentAuthority",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "hascompetentauthority",
-            "inpackage": "UNKNOWN",
-            "definition": {
-                "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
-            },
-            "label": {
-                "nl": "hasCompetentAuthority"
-            },
-            "ap-label-nl": {
-                "nl": "hasCompetentAuthority"
-            },
-            "ap-definition-nl": {
-                "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
-            },
-            "extra": {
-                "EA-Name": "hasCompetentAuthority",
                 "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
                 "derived": "false",
                 "EA-Package": "",
@@ -10907,6 +10854,94 @@
             "generalization": [],
             "minCardinality": "0",
             "maxCardinality": "*"
+        },
+        {
+            "@id": "http://data.europa.eu/m8g/hasCompetentAuthority",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "hascompetentauthority",
+            "inpackage": "UNKNOWN",
+            "definition": {
+                "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
+            },
+            "label": {
+                "nl": "hasCompetentAuthority"
+            },
+            "ap-label-nl": {
+                "nl": "hasCompetentAuthority"
+            },
+            "ap-definition-nl": {
+                "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
+            },
+            "extra": {
+                "EA-Name": "hasCompetentAuthority",
+                "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
+                "derived": "false",
+                "EA-Package": "",
+                "EA-Type": "connector",
+                "EA-Domain": "InstancePublicService",
+                "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+                "EA-Range": "PubliekeOrganisatie",
+                "RangeData": {
+                    "EA-Name": "PubliekeOrganisatie",
+                    "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+                    "EA-Package": "OSLO-Organisatie",
+                    "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+                },
+                "sourceRole": "null",
+                "destRole": "null",
+                "label": {
+                    "nl": "hasCompetentAuthority"
+                },
+                "definition": {
+                    "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
+                },
+                "usage": "",
+                "ap-label-nl": {
+                    "nl": "hasCompetentAuthority"
+                },
+                "ap-definition-nl": {
+                    "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
+                },
+                "ap-usageNote-nl": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "uri",
+                        "value": "http://data.europa.eu/m8g/hasCompetentAuthority",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "NOTE",
+                        "note": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
+                    },
+                    {
+                        "key": "label-nl",
+                        "value": "hasCompetentAuthority",
+                        "note": "null"
+                    }
+                ],
+                "DestRoleTags": [],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
+                    "EA-Name": "InstancePublicService"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "PubliekeOrganisatie",
+                    "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+                    "EA-Package": "OSLO-Organisatie",
+                    "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "1",
+            "maxCardinality": "*"
         }
     ],
     "name": "ipdc-lpdc-im",
@@ -10926,14 +10961,14 @@
     "config": "config/config-ap.json",
     "branchtag": "ontwerp-2024-03-22",
     "disabled": false,
-    "dummy": "004",
+    "dummy": "005",
     "filename": "config/ipdc-lpdc-im.json",
     "navigation": {
         "prev": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-08"
     },
     "repository": "https://github.com/Informatievlaanderen/ipdc-lpdc",
     "urlref": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22",
-    "documentcommit": "5b96fa752013770a134449d125d038cec856e267",
-    "toolchaincommit": "b027728faf3edc58b7b7af66e30fef14e6d13515",
+    "documentcommit": "3031b340e39f969dae09a9212bdc61c83a72e1e8",
+    "toolchaincommit": "1dfffce0a171d26ed974e06d13362cc39dd93b53",
     "hostname": "https://productencatalogus.data.test-vlaanderen.be/"
 }

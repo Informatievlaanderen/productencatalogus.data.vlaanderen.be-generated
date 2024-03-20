@@ -432,6 +432,18 @@
           "sh:path": "http://vocab.belgif.be/ns/publicservice#hasRequirement"
         },
         {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/2b2905557f3318e8b72fc6994953d4588eab34fa",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.ipdcCodelijst",
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "nl": "Test ipdc codelijst"
+          },
+          "sh:name": {
+            "nl": "ipdcCodelijst"
+          },
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijst"
+        },
+        {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/0863db7ed9530b9b39e9256c69fa46b64f0366a7",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.isArchived",
           "sh:description": {
@@ -2533,6 +2545,13 @@
     },
     {
       "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LanguageShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#IpdcCodelijstShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],

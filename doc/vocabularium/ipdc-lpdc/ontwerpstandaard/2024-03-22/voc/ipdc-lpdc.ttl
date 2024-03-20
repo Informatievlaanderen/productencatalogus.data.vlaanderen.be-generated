@@ -42,7 +42,8 @@ skos:Concept a rdfs:Class;
     "ExecutingAuthorityLevel"@nl,
     "Spatial"@nl,
     "Theme"@nl,
-    "Language"@nl .
+    "Language"@nl,
+    "IpdcCodelijst"@nl .
 
 <http://www.w3.org/ns/locn#Address> a rdfs:Class;
   rdfs:label "Address"@nl .

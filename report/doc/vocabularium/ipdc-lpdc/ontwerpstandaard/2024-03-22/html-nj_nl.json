@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/5b96fa752013770a134449d125d038cec856e267",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/5b96fa752013770a134449d125d038cec856e267/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/3031b340e39f969dae09a9212bdc61c83a72e1e8",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/3031b340e39f969dae09a9212bdc61c83a72e1e8/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -997,6 +997,24 @@
         "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG."
       },
       "sort": "Language",
+      "indvl": false,
+      "inpackage": false,
+      "inscope": true,
+      "show": true
+    },
+    {
+      "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+      "name": "Ipdccodelijst",
+      "label": {
+        "nl": "IpdcCodelijst"
+      },
+      "description": {
+        "nl": "Test codelijst om na te gaan dat datatype beter werkt dan enumeration"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in volgend ttl bestand https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/bevoegd-bestuursniveau.ttl"
+      },
+      "sort": "IpdcCodelijst",
       "indvl": false,
       "inpackage": false,
       "inscope": true,
