@@ -569,8 +569,8 @@
   "dependencies": [],
   "diagram": "ipdc-lpdc-ap",
   "disabled": false,
-  "documentcommit": "a66049e04e2c8e2e087290b6ff888bd8e13c4be6",
-  "dummy": "009",
+  "documentcommit": "821686ca00b9a33f6eabff32bcbcc1b5c79cdaef",
+  "dummy": "010",
   "eap": "IPDC-LPDC-AP.eap",
   "editors": [
     {
@@ -4825,6 +4825,11 @@
             "key": "usageNote-nl",
             "note": "null",
             "value": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+          },
+          {
+            "key": "ap-codelist",
+            "note": "null",
+            "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/type.ttl"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -4931,6 +4936,11 @@
             "key": "usageNote-nl",
             "note": "null",
             "value": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+          },
+          {
+            "key": "ap-codelist",
+            "note": "null",
+            "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/type.ttl"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -5856,6 +5866,11 @@
             "key": "definition-nl",
             "note": "Geografisch toepassingsgebied van een pubieke dienst. Het geografisch toepassingsgebied wordt voorgesteld aan de hand van een NUTS of LAU code. NUTS codes zijn hierarisch ingedeeld in 4 niveau's. Op het hoogste niveau, NUTS 0, worden de landen ingedeeld en krijgt belgie de code BE. Eén niveau daaronder, NUTS 1, deelt Belgie verder op in de gewesten. Zo krijgt het Vlaams Gewest code BE2. Elk gewest wordt op zijn beurt op NUTS 2 niveau verder ingedeeld in de provincies. Zo krijgt de provincie Antwerpen bijvoorbeeld code BE21. Elke provincie wordt vervolgens op NUTS 3 niveau nog onderverdeeld in arrondissmenten. Zo krijgt het arrondissment Mechelen code BE212. Een fijnere opdeling in gemeenten kan vervolgens gemaakt worden met de LAU codes. Zo krijgt de gemeente Kontich LAU code 11024. Meer informatie over deze opdeling is hier terug te vinden: https://ec.europa.eu/eurostat/web/nuts. Zowel de NUTS als LAU codes worden beheerd door Eurostat. We volgen momenteel de NUTS 2021 classificatie en de laatst gevalideerde LAU 2019 classificatie. De NUTS codelijst wordt door Europa gepubliceerd op https://publications.europa.eu/resource/authority/nuts. Deze gaat echter niet tot op LAU niveau er bestaat ook geen gepubliceerde codelijst voor de LAU codes. Als oplossing maakte het IPDC - LPDC team een uitbreiding op de NUTS codelijst en werd een extra hierarchish niveau onder NUTS 3 toegevoegd om ook de gemeentes met hun LAU code beschikbaar te maken. De code voor een gemeente in deze codelijst is de concatenatie van de omvattende NUTS3 code voor de gemeente en de LAU code. Zo krijgt de gemeente Kontich bijvoorbeeld de code BE21111024.",
             "value": "NOTE"
+          },
+          {
+            "key": "ap-codelist",
+            "note": "null",
+            "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/geografisch-toepassingsgebied.ttl"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -6057,6 +6072,11 @@
             "key": "usageNote-nl",
             "note": "null",
             "value": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG. De language concept URI's maken gebruik van het http protocol."
+          },
+          {
+            "key": "ap-codelist",
+            "note": "null",
+            "value": "https://publications.europa.eu/resource/authority/language"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -7307,6 +7327,11 @@
             "key": "usageNote-nl",
             "note": "null",
             "value": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+          },
+          {
+            "key": "ap-codelist",
+            "note": "null",
+            "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/thema.ttl"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -7413,6 +7438,11 @@
             "key": "usageNote-nl",
             "note": "null",
             "value": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+          },
+          {
+            "key": "ap-codelist",
+            "note": "null",
+            "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/thema.ttl"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -8996,11 +9026,6 @@
         },
         "RawTags": [
           {
-            "key": "label",
-            "note": "null",
-            "value": "yourEuropeCategory"
-          },
-          {
             "key": "definition-nl",
             "note": "YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst.",
             "value": "NOTE"
@@ -9009,6 +9034,16 @@
             "key": "usageNote-nl",
             "note": "null",
             "value": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+          },
+          {
+            "key": "ap-codelist",
+            "note": "null",
+            "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/your-europe-categorie.ttl"
+          },
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "yourEuropeCategory"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -9025,7 +9060,7 @@
         },
         "label-en": "",
         "label-nl": {
-          "nl": "TODO"
+          "nl": "yourEuropeCategory"
         },
         "sameAs": "",
         "subclass": "",
@@ -9044,7 +9079,7 @@
         "nl": "yourEuropeCategory"
       },
       "label-nl": {
-        "nl": "TODO"
+        "nl": "yourEuropeCategory"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -9110,6 +9145,11 @@
             "key": "definition-nl",
             "note": "YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst.",
             "value": "NOTE"
+          },
+          {
+            "key": "ap-codelist",
+            "note": "null",
+            "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/your-europe-categorie.ttl"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -9211,6 +9251,11 @@
             "key": "definition-nl",
             "note": "null",
             "value": "Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team."
+          },
+          {
+            "key": "ap-codelist",
+            "note": "null",
+            "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/doelgroep.ttl"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -9312,6 +9357,11 @@
             "key": "usageNote-nl",
             "note": "null",
             "value": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+          },
+          {
+            "key": "ap-codelist",
+            "note": "null",
+            "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/doelgroep.ttl"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -9625,6 +9675,11 @@
             "key": "usageNote-nl",
             "note": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn.",
             "value": "NOTE"
+          },
+          {
+            "key": "ap-codelist",
+            "note": "null",
+            "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/publicatie-kanaal.ttl"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -9726,6 +9781,11 @@
             "key": "usageNote-nl",
             "note": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn.",
             "value": "NOTE"
+          },
+          {
+            "key": "ap-codelist",
+            "note": "null",
+            "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/publicatie-kanaal.ttl"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -9995,6 +10055,11 @@
             "key": "usageNote-nl",
             "note": "null",
             "value": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Momenteel zijn er geen geldige waardes."
+          },
+          {
+            "key": "ap-codelist",
+            "note": "null",
+            "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/instantie-tag.ttl"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -10096,6 +10161,11 @@
             "key": "usageNote-nl",
             "note": "null",
             "value": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+          },
+          {
+            "key": "ap-codelist",
+            "note": "null",
+            "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/uitvoerend-bestuursniveau.ttl"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -10197,6 +10267,11 @@
             "key": "definition-nl",
             "note": "null",
             "value": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+          },
+          {
+            "key": "ap-codelist",
+            "note": "null",
+            "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/uitvoerend-bestuursniveau.ttl"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -10500,6 +10575,11 @@
             "key": "definition-nl",
             "note": "null",
             "value": "Concept tag voor een publieke dienst concept. Deze codelijst is in het beheer van het IPDC - LPDC team."
+          },
+          {
+            "key": "ap-codelist",
+            "note": "null",
+            "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/concept-tag.ttl"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -10601,6 +10681,11 @@
             "key": "usageNote-nl",
             "note": "null",
             "value": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+          },
+          {
+            "key": "ap-codelist",
+            "note": "null",
+            "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/bevoegd-bestuursniveau.ttl"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -10702,6 +10787,11 @@
             "key": "usageNote-nl",
             "note": "null",
             "value": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+          },
+          {
+            "key": "ap-codelist",
+            "note": "null",
+            "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/bevoegd-bestuursniveau.ttl"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -11055,7 +11145,7 @@
   "title-nl": {
     "nl": "TODO"
   },
-  "toolchaincommit": "0af3a715789b5cd3058a150e58138f6a086cb507",
+  "toolchaincommit": "701d25cd5be6f8e6079215d53289fdeba9a92d59",
   "translation": [
     {
       "language": "nl",

@@ -132,6 +132,30 @@
           "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription"
         },
         {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/66a1e1f4c9574a2ca4db7465cbe5e77ae9aa410d",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.competentAuthorityLevel",
+          "sh:description": {
+            "nl": "Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+          },
+          "sh:name": {
+            "nl": "competentAuthorityLevel"
+          },
+          "sh:node": {
+            "@type": "sh:NodeShape",
+            "rdfs:comment": "codelist restriction",
+            "sh:property": {
+              "sh:class": "skos:ConceptScheme",
+              "sh:hasValue": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/bevoegd-bestuursniveau.ttl",
+              "sh:minCount": "1",
+              "sh:nodeKind": "sh:IRI",
+              "sh:path": "skos:inScheme"
+            }
+          },
+          "sh:nodeKind": "sh:IRI",
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel",
+          "sh:severity": "sh:Warning"
+        },
+        {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/dcf9f7126f93e6e8038d53b5cee827e1b78ba941",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.competentAuthorityLevel",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -142,6 +166,30 @@
             "nl": "competentAuthorityLevel"
           },
           "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/1d16b4dae1885c6e94fcbe8b644f9914dff94da2",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.conceptTag",
+          "sh:description": {
+            "nl": "Concept tag voor een publieke dienst concept. Deze codelijst is in het beheer van het IPDC - LPDC team."
+          },
+          "sh:name": {
+            "nl": "conceptTag"
+          },
+          "sh:node": {
+            "@type": "sh:NodeShape",
+            "rdfs:comment": "codelist restriction",
+            "sh:property": {
+              "sh:class": "skos:ConceptScheme",
+              "sh:hasValue": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/concept-tag.ttl",
+              "sh:minCount": "1",
+              "sh:nodeKind": "sh:IRI",
+              "sh:path": "skos:inScheme"
+            }
+          },
+          "sh:nodeKind": "sh:IRI",
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#conceptTag",
+          "sh:severity": "sh:Warning"
         },
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/a79796f82283d4cea91d658f4d7bfd1f966262b3",
@@ -310,6 +358,30 @@
             "nl": "exception"
           },
           "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/e8f4884d925dfecc1365362019dd15a87985dd89",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.executingAuthorityLevel",
+          "sh:description": {
+            "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+          },
+          "sh:name": {
+            "nl": "executingAuthorityLevel"
+          },
+          "sh:node": {
+            "@type": "sh:NodeShape",
+            "rdfs:comment": "codelist restriction",
+            "sh:property": {
+              "sh:class": "skos:ConceptScheme",
+              "sh:hasValue": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/uitvoerend-bestuursniveau.ttl",
+              "sh:minCount": "1",
+              "sh:nodeKind": "sh:IRI",
+              "sh:path": "skos:inScheme"
+            }
+          },
+          "sh:nodeKind": "sh:IRI",
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
+          "sh:severity": "sh:Warning"
         },
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/f240a599e3e3cc8b4f7156968ba9f4c8b0fb338e",
@@ -552,6 +624,30 @@
           "sh:path": "http://schema.org/productID"
         },
         {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/0f0983bf028d24a3e10ca082c5bada42de2f6b33",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.publicationMedium",
+          "sh:description": {
+            "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
+          },
+          "sh:name": {
+            "nl": "publicationMedium"
+          },
+          "sh:node": {
+            "@type": "sh:NodeShape",
+            "rdfs:comment": "codelist restriction",
+            "sh:property": {
+              "sh:class": "skos:ConceptScheme",
+              "sh:hasValue": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/publicatie-kanaal.ttl",
+              "sh:minCount": "1",
+              "sh:nodeKind": "sh:IRI",
+              "sh:path": "skos:inScheme"
+            }
+          },
+          "sh:nodeKind": "sh:IRI",
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium",
+          "sh:severity": "sh:Warning"
+        },
+        {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/84f9c94203326482a08086fcedae8c2b75538a2e",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.publicationMedium",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -612,6 +708,30 @@
           "sh:path": "http://schema.org/startDate"
         },
         {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/191813fcb79f185a163618b15f526859e0ac0e53",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.targetAudience",
+          "sh:description": {
+            "nl": "Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team."
+          },
+          "sh:name": {
+            "nl": "targetAudience"
+          },
+          "sh:node": {
+            "@type": "sh:NodeShape",
+            "rdfs:comment": "codelist restriction",
+            "sh:property": {
+              "sh:class": "skos:ConceptScheme",
+              "sh:hasValue": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/doelgroep.ttl",
+              "sh:minCount": "1",
+              "sh:nodeKind": "sh:IRI",
+              "sh:path": "skos:inScheme"
+            }
+          },
+          "sh:nodeKind": "sh:IRI",
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience",
+          "sh:severity": "sh:Warning"
+        },
+        {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/e7c5f846b4eff8ddcdba3368a20e140041a448e3",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.targetAudience",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -622,6 +742,30 @@
             "nl": "targetAudience"
           },
           "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/db8717b32182dc93dfa0ca4e471f48020e18e3a7",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.theme",
+          "sh:description": {
+            "nl": "Thema van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+          },
+          "sh:name": {
+            "nl": "theme"
+          },
+          "sh:node": {
+            "@type": "sh:NodeShape",
+            "rdfs:comment": "codelist restriction",
+            "sh:property": {
+              "sh:class": "skos:ConceptScheme",
+              "sh:hasValue": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/thema.ttl",
+              "sh:minCount": "1",
+              "sh:nodeKind": "sh:IRI",
+              "sh:path": "skos:inScheme"
+            }
+          },
+          "sh:nodeKind": "sh:IRI",
+          "sh:path": "http://data.europa.eu/m8g/thematicArea",
+          "sh:severity": "sh:Warning"
         },
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/dede6a68a95ac0f43ca88def472d8fc001f86ebe",
@@ -660,6 +804,30 @@
           "sh:path": "http://purl.org/dc/terms/type"
         },
         {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/5c05b2329b8b6b86a3e412dab53926322de0af61",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.type",
+          "sh:description": {
+            "nl": "Type van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+          },
+          "sh:name": {
+            "nl": "type"
+          },
+          "sh:node": {
+            "@type": "sh:NodeShape",
+            "rdfs:comment": "codelist restriction",
+            "sh:property": {
+              "sh:class": "skos:ConceptScheme",
+              "sh:hasValue": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/type.ttl",
+              "sh:minCount": "1",
+              "sh:nodeKind": "sh:IRI",
+              "sh:path": "skos:inScheme"
+            }
+          },
+          "sh:nodeKind": "sh:IRI",
+          "sh:path": "http://purl.org/dc/terms/type",
+          "sh:severity": "sh:Warning"
+        },
+        {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/1cd3b40ebb585b6dea4ab5c776c06a230d222114",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.yourEuropeCategory",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -670,6 +838,30 @@
             "nl": "yourEuropeCategory"
           },
           "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/56f1750ce605410ba1aaa6b7df4eab41d653cfa7",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.yourEuropeCategory",
+          "sh:description": {
+            "nl": "YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst."
+          },
+          "sh:name": {
+            "nl": "yourEuropeCategory"
+          },
+          "sh:node": {
+            "@type": "sh:NodeShape",
+            "rdfs:comment": "codelist restriction",
+            "sh:property": {
+              "sh:class": "skos:ConceptScheme",
+              "sh:hasValue": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/your-europe-categorie.ttl",
+              "sh:minCount": "1",
+              "sh:nodeKind": "sh:IRI",
+              "sh:path": "skos:inScheme"
+            }
+          },
+          "sh:nodeKind": "sh:IRI",
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory",
+          "sh:severity": "sh:Warning"
         }
       ],
       "sh:targetClass": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
@@ -900,6 +1092,30 @@
           "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription"
         },
         {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/66a1e1f4c9574a2ca4db7465cbe5e77ae9aa410d",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicService.competentAuthorityLevel",
+          "sh:description": {
+            "nl": "Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+          },
+          "sh:name": {
+            "nl": "competentAuthorityLevel"
+          },
+          "sh:node": {
+            "@type": "sh:NodeShape",
+            "rdfs:comment": "codelist restriction",
+            "sh:property": {
+              "sh:class": "skos:ConceptScheme",
+              "sh:hasValue": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/bevoegd-bestuursniveau.ttl",
+              "sh:minCount": "1",
+              "sh:nodeKind": "sh:IRI",
+              "sh:path": "skos:inScheme"
+            }
+          },
+          "sh:nodeKind": "sh:IRI",
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel",
+          "sh:severity": "sh:Warning"
+        },
+        {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/dcf9f7126f93e6e8038d53b5cee827e1b78ba941",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicService.competentAuthorityLevel",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1092,6 +1308,30 @@
           "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception"
         },
         {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/e8f4884d925dfecc1365362019dd15a87985dd89",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicService.executingAuthorityLevel",
+          "sh:description": {
+            "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+          },
+          "sh:name": {
+            "nl": "executingAuthorityLevel"
+          },
+          "sh:node": {
+            "@type": "sh:NodeShape",
+            "rdfs:comment": "codelist restriction",
+            "sh:property": {
+              "sh:class": "skos:ConceptScheme",
+              "sh:hasValue": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/uitvoerend-bestuursniveau.ttl",
+              "sh:minCount": "1",
+              "sh:nodeKind": "sh:IRI",
+              "sh:path": "skos:inScheme"
+            }
+          },
+          "sh:nodeKind": "sh:IRI",
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
+          "sh:severity": "sh:Warning"
+        },
+        {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/f240a599e3e3cc8b4f7156968ba9f4c8b0fb338e",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicService.executingAuthorityLevel",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1272,6 +1512,30 @@
           "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag"
         },
         {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/a412ba80daf481c5a0e99ec666fa2aa80cda8c7c",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicService.instanceTag",
+          "sh:description": {
+            "nl": "Instantie tag voor een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+          },
+          "sh:name": {
+            "nl": "instanceTag"
+          },
+          "sh:node": {
+            "@type": "sh:NodeShape",
+            "rdfs:comment": "codelist restriction",
+            "sh:property": {
+              "sh:class": "skos:ConceptScheme",
+              "sh:hasValue": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/instantie-tag.ttl",
+              "sh:minCount": "1",
+              "sh:nodeKind": "sh:IRI",
+              "sh:path": "skos:inScheme"
+            }
+          },
+          "sh:nodeKind": "sh:IRI",
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag",
+          "sh:severity": "sh:Warning"
+        },
+        {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/0863db7ed9530b9b39e9256c69fa46b64f0366a7",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicService.isArchived",
           "sh:description": {
@@ -1330,6 +1594,30 @@
             "nl": "language"
           },
           "sh:path": "http://purl.org/dc/terms/language"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/f21e520b7ae1e3707181b7335ef714a1b57d5bcb",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicService.language",
+          "sh:description": {
+            "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
+          },
+          "sh:name": {
+            "nl": "language"
+          },
+          "sh:node": {
+            "@type": "sh:NodeShape",
+            "rdfs:comment": "codelist restriction",
+            "sh:property": {
+              "sh:class": "skos:ConceptScheme",
+              "sh:hasValue": "https://publications.europa.eu/resource/authority/language",
+              "sh:minCount": "1",
+              "sh:nodeKind": "sh:IRI",
+              "sh:path": "skos:inScheme"
+            }
+          },
+          "sh:nodeKind": "sh:IRI",
+          "sh:path": "http://purl.org/dc/terms/language",
+          "sh:severity": "sh:Warning"
         },
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/263a563c5bed08cdaadf4a0fd0a5fb9874d742bc",
@@ -1404,6 +1692,30 @@
           "sh:path": "http://schema.org/productID"
         },
         {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/0f0983bf028d24a3e10ca082c5bada42de2f6b33",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicService.publicationMedium",
+          "sh:description": {
+            "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
+          },
+          "sh:name": {
+            "nl": "publicationMedium"
+          },
+          "sh:node": {
+            "@type": "sh:NodeShape",
+            "rdfs:comment": "codelist restriction",
+            "sh:property": {
+              "sh:class": "skos:ConceptScheme",
+              "sh:hasValue": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/publicatie-kanaal.ttl",
+              "sh:minCount": "1",
+              "sh:nodeKind": "sh:IRI",
+              "sh:path": "skos:inScheme"
+            }
+          },
+          "sh:nodeKind": "sh:IRI",
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium",
+          "sh:severity": "sh:Warning"
+        },
+        {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/84f9c94203326482a08086fcedae8c2b75538a2e",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicService.publicationMedium",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1464,6 +1776,30 @@
           "sh:path": "http://purl.org/dc/terms/spatial"
         },
         {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/b99f6a3d38a54b8b1907a42a8c6639688e9f8378",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicService.spatial",
+          "sh:description": {
+            "nl": "Geografisch toepassingsgebied van een pubieke dienst. Het geografisch toepassingsgebied wordt voorgesteld aan de hand van een NUTS of LAU code. NUTS codes zijn hierarisch ingedeeld in 4 niveau's. Op het hoogste niveau, NUTS 0, worden de landen ingedeeld en krijgt belgie de code BE. Eén niveau daaronder, NUTS 1, deelt Belgie verder op in de gewesten. Zo krijgt het Vlaams Gewest code BE2. Elk gewest wordt op zijn beurt op NUTS 2 niveau verder ingedeeld in de provincies. Zo krijgt de provincie Antwerpen bijvoorbeeld code BE21. Elke provincie wordt vervolgens op NUTS 3 niveau nog onderverdeeld in arrondissmenten. Zo krijgt het arrondissment Mechelen code BE212. Een fijnere opdeling in gemeenten kan vervolgens gemaakt worden met de LAU codes. Zo krijgt de gemeente Kontich LAU code 11024. Meer informatie over deze opdeling is hier terug te vinden: https://ec.europa.eu/eurostat/web/nuts. Zowel de NUTS als LAU codes worden beheerd door Eurostat. We volgen momenteel de NUTS 2021 classificatie en de laatst gevalideerde LAU 2019 classificatie. De NUTS codelijst wordt door Europa gepubliceerd op https://publications.europa.eu/resource/authority/nuts. Deze gaat echter niet tot op LAU niveau er bestaat ook geen gepubliceerde codelijst voor de LAU codes. Als oplossing maakte het IPDC - LPDC team een uitbreiding op de NUTS codelijst en werd een extra hierarchish niveau onder NUTS 3 toegevoegd om ook de gemeentes met hun LAU code beschikbaar te maken. De code voor een gemeente in deze codelijst is de concatenatie van de omvattende NUTS3 code voor de gemeente en de LAU code. Zo krijgt de gemeente Kontich bijvoorbeeld de code BE21111024."
+          },
+          "sh:name": {
+            "nl": "spatial"
+          },
+          "sh:node": {
+            "@type": "sh:NodeShape",
+            "rdfs:comment": "codelist restriction",
+            "sh:property": {
+              "sh:class": "skos:ConceptScheme",
+              "sh:hasValue": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/geografisch-toepassingsgebied.ttl",
+              "sh:minCount": "1",
+              "sh:nodeKind": "sh:IRI",
+              "sh:path": "skos:inScheme"
+            }
+          },
+          "sh:nodeKind": "sh:IRI",
+          "sh:path": "http://purl.org/dc/terms/spatial",
+          "sh:severity": "sh:Warning"
+        },
+        {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/562a29d5624930f47fd3ec78296e38e1513a9663",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicService.startDate",
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
@@ -1488,6 +1824,30 @@
           "sh:path": "http://schema.org/startDate"
         },
         {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/191813fcb79f185a163618b15f526859e0ac0e53",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicService.targetAudience",
+          "sh:description": {
+            "nl": "Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team."
+          },
+          "sh:name": {
+            "nl": "targetAudience"
+          },
+          "sh:node": {
+            "@type": "sh:NodeShape",
+            "rdfs:comment": "codelist restriction",
+            "sh:property": {
+              "sh:class": "skos:ConceptScheme",
+              "sh:hasValue": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/doelgroep.ttl",
+              "sh:minCount": "1",
+              "sh:nodeKind": "sh:IRI",
+              "sh:path": "skos:inScheme"
+            }
+          },
+          "sh:nodeKind": "sh:IRI",
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience",
+          "sh:severity": "sh:Warning"
+        },
+        {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/e7c5f846b4eff8ddcdba3368a20e140041a448e3",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicService.targetAudience",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1498,6 +1858,30 @@
             "nl": "targetAudience"
           },
           "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/db8717b32182dc93dfa0ca4e471f48020e18e3a7",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicService.theme",
+          "sh:description": {
+            "nl": "Thema van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+          },
+          "sh:name": {
+            "nl": "theme"
+          },
+          "sh:node": {
+            "@type": "sh:NodeShape",
+            "rdfs:comment": "codelist restriction",
+            "sh:property": {
+              "sh:class": "skos:ConceptScheme",
+              "sh:hasValue": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/thema.ttl",
+              "sh:minCount": "1",
+              "sh:nodeKind": "sh:IRI",
+              "sh:path": "skos:inScheme"
+            }
+          },
+          "sh:nodeKind": "sh:IRI",
+          "sh:path": "http://data.europa.eu/m8g/thematicArea",
+          "sh:severity": "sh:Warning"
         },
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/dede6a68a95ac0f43ca88def472d8fc001f86ebe",
@@ -1536,6 +1920,30 @@
           "sh:path": "http://purl.org/dc/terms/type"
         },
         {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/5c05b2329b8b6b86a3e412dab53926322de0af61",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicService.type",
+          "sh:description": {
+            "nl": "Type van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+          },
+          "sh:name": {
+            "nl": "type"
+          },
+          "sh:node": {
+            "@type": "sh:NodeShape",
+            "rdfs:comment": "codelist restriction",
+            "sh:property": {
+              "sh:class": "skos:ConceptScheme",
+              "sh:hasValue": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/type.ttl",
+              "sh:minCount": "1",
+              "sh:nodeKind": "sh:IRI",
+              "sh:path": "skos:inScheme"
+            }
+          },
+          "sh:nodeKind": "sh:IRI",
+          "sh:path": "http://purl.org/dc/terms/type",
+          "sh:severity": "sh:Warning"
+        },
+        {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/1cd3b40ebb585b6dea4ab5c776c06a230d222114",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicService.yourEuropeCategory",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1546,6 +1954,30 @@
             "nl": "yourEuropeCategory"
           },
           "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape/56f1750ce605410ba1aaa6b7df4eab41d653cfa7",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicService.yourEuropeCategory",
+          "sh:description": {
+            "nl": "YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst."
+          },
+          "sh:name": {
+            "nl": "yourEuropeCategory"
+          },
+          "sh:node": {
+            "@type": "sh:NodeShape",
+            "rdfs:comment": "codelist restriction",
+            "sh:property": {
+              "sh:class": "skos:ConceptScheme",
+              "sh:hasValue": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/your-europe-categorie.ttl",
+              "sh:minCount": "1",
+              "sh:nodeKind": "sh:IRI",
+              "sh:path": "skos:inScheme"
+            }
+          },
+          "sh:nodeKind": "sh:IRI",
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory",
+          "sh:severity": "sh:Warning"
         }
       ],
       "sh:targetClass": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
