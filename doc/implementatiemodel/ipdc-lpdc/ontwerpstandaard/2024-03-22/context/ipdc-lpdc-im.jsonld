@@ -29,12 +29,8 @@
       },
       "@id": "http://www.w3.org/ns/locn#Address"
     },
-    "ConceptualPublicService": {
+    "Concept": {
       "@context": {
-        "additionalDescription": {
-          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription",
-          "@type": "@id"
-        },
         "competentAuthorityLevel": {
           "@container": "@set",
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel",
@@ -152,6 +148,10 @@
           "@id": "http://purl.org/dc/terms/type",
           "@type": "@id"
         },
+        "verdereBeschrijving": {
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription",
+          "@type": "@id"
+        },
         "yourEuropeCategory": {
           "@container": "@set",
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory",
@@ -175,7 +175,7 @@
     },
     "ContactPoint": {
       "@context": {
-        "address": {
+        "adres": {
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#address",
           "@type": "@id"
         },

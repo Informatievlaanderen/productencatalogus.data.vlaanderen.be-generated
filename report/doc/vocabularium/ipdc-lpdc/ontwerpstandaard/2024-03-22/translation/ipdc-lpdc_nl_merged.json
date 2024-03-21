@@ -104,7 +104,7 @@
       },
       "extra": {
         "EA-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Name": "ConceptualPublicService",
+        "EA-Name": "Concept",
         "EA-Package": "IPDC-LPDC",
         "EA-Parents": "",
         "EA-Parents2": [],
@@ -118,12 +118,17 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "ConceptualPublicService"
+            "value": "Concept"
           },
           {
             "key": "usageNote-nl",
             "note": "Een goed voorbeeld van een concept is het huwelijk. Hoewel de beschrijving en voorwaarden van een huwelijk grotendeels hetzelfde zijn voor de verschillende gemeentes zijn er mogelijk toch lokale verschillen, zoals de locatie en prijs, die terug te vinden zijn in de respectievelijke instanties.",
             "value": "NOTE"
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "ConceptualPublicService"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -136,11 +141,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "ConceptualPublicService"
+          "nl": "Concept"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "ConceptualPublicService"
+          "nl": "Concept"
         },
         "parentclasses": "",
         "sameAs": "",
@@ -156,12 +161,12 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "ConceptualPublicService"
+        "nl": "Concept"
       },
       "label-nl": {
-        "nl": "ConceptualPublicService"
+        "nl": "Concept"
       },
-      "name": "Conceptualpublicservice",
+      "name": "Concept",
       "parents": [],
       "usage": {
         "nl": "Een goed voorbeeld van een concept is het huwelijk. Hoewel de beschrijving en voorwaarden van een huwelijk grotendeels hetzelfde zijn voor de verschillende gemeentes zijn er mogelijk toch lokale verschillen, zoals de locatie en prijs, die terug te vinden zijn in de respectievelijke instanties."
@@ -569,8 +574,8 @@
   "dependencies": [],
   "diagram": "ipdc-lpdc-ap",
   "disabled": false,
-  "documentcommit": "d974a8cddcbad3cd7e3a6585d278168a3c270124",
-  "dummy": "012",
+  "documentcommit": "ba00939157f771e5f67f719a405196b9ed9b6b70",
+  "dummy": "013",
   "eap": "IPDC-LPDC-AP.eap",
   "editors": [
     {
@@ -703,13 +708,13 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
         "EA-Name": "hasExecutingAuthority",
@@ -2131,12 +2136,12 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{CBC211C6-6760-4ae3-832E-7994E4FA5B49}",
         "EA-Name": "keyword",
@@ -2343,13 +2348,13 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
         "EA-Name": "hasMoreInfo",
@@ -2533,13 +2538,13 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
         "EA-Name": "hasRequirement",
@@ -3124,12 +3129,12 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{CD90A19A-4294-43a7-8513-C8D769BBA146}",
         "EA-Name": "startDate",
@@ -3332,12 +3337,12 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{82526185-873F-473a-990C-8F7FF830A023}",
         "EA-Name": "productNumber",
@@ -3644,12 +3649,12 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{D8C442B2-9BF5-4a0c-91B4-51AACDAB9E34}",
         "EA-Name": "endDate",
@@ -3956,12 +3961,12 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{334A997B-205D-4600-9B48-1CC0DFF3802E}",
         "EA-Name": "dateModified",
@@ -4134,12 +4139,12 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{6C24D0E3-3B03-42f7-B545-F543A9938E20}",
         "EA-Name": "dateCreated",
@@ -4312,13 +4317,13 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
         "EA-Name": "produces",
@@ -4597,13 +4602,13 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
         "EA-Name": "follows",
@@ -4787,12 +4792,12 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{61488CC7-5288-4edd-90F6-9BBCAC5527A6}",
         "EA-Name": "type",
@@ -5555,12 +5560,12 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{0C3F7635-5CAC-4faf-AF06-7B0076C9645F}",
         "EA-Name": "name",
@@ -5950,11 +5955,11 @@
         "EA-Guid": "{81D83355-57A6-4a43-9F2D-DC7C00DD6EE7}",
         "EA-Name": "hasSource",
         "EA-Package": "",
-        "EA-Range": "ConceptualPublicService",
+        "EA-Range": "Concept",
         "EA-Type": "connector",
         "RangeData": {
           "EA-GUID": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "EA-Package": "IPDC-LPDC",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         },
@@ -6015,7 +6020,7 @@
       "range": [
         {
           "EA-GUID": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "EA-Package": "IPDC-LPDC",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
@@ -6156,11 +6161,11 @@
         "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
         "EA-Name": "isVersionOf",
         "EA-Package": "",
-        "EA-Range": "ConceptualPublicService",
+        "EA-Range": "Concept",
         "EA-Type": "connector",
         "RangeData": {
           "EA-GUID": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "EA-Package": "IPDC-LPDC",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         },
@@ -6221,7 +6226,7 @@
       "range": [
         {
           "EA-GUID": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "EA-Package": "IPDC-LPDC",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
@@ -6971,12 +6976,12 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{84DC00A9-4183-4799-8255-BDB7878B6BEA}",
         "EA-Name": "description",
@@ -7289,12 +7294,12 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{C7E22910-1356-4ada-AB90-41B9BDF382D3}",
         "EA-Name": "theme",
@@ -7612,13 +7617,13 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
         "EA-Name": "hasLegalResource",
@@ -7897,13 +7902,13 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
         "EA-Name": "hasCost",
@@ -8182,13 +8187,13 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
         "EA-Name": "hasCompetentAuthority",
@@ -9006,12 +9011,12 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{5930CD00-2F2B-4530-9325-8F5A05B7CE9A}",
         "EA-Name": "yourEuropeCategory",
@@ -9218,12 +9223,12 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{BC97577C-4E3B-4edb-9E86-2F85BEC00D8F}",
         "EA-Name": "targetAudience",
@@ -9430,12 +9435,12 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{F0C35AE7-8323-4dc5-98D9-658096C94D85}",
         "EA-Name": "regulation",
@@ -9642,12 +9647,12 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{98EAE277-E6F7-470b-8202-62D1806DD0F6}",
         "EA-Name": "publicationMedium",
@@ -9854,12 +9859,12 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{19E5B70A-3C98-4cc7-BF34-B393B6C8CC6C}",
         "EA-Name": "isArchived",
@@ -10128,12 +10133,12 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{7B0DD086-D5D2-4dad-A075-691710038D6F}",
         "EA-Name": "executingAuthorityLevel",
@@ -10340,12 +10345,12 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{B862B323-7B57-4ad2-93F0-361BCC804224}",
         "EA-Name": "exception",
@@ -10542,12 +10547,12 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{ABED5991-FC6D-4fd9-84AC-A649AE7054BA}",
         "EA-Name": "conceptTag",
@@ -10648,12 +10653,12 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{E391A031-6184-4f93-89DD-56CC0A5C29CB}",
         "EA-Name": "competentAuthorityLevel",
@@ -10869,7 +10874,7 @@
         "EA-Domain": "ContactPoint",
         "EA-Domain-Guid": "{A87B22A4-91D0-494a-95F1-8C9B5CFAED6D}",
         "EA-Guid": "{778B0EAB-7B83-4c67-B32F-6FFE8A101460}",
-        "EA-Name": "address",
+        "EA-Name": "adres",
         "EA-Package": "",
         "EA-Range": "Address",
         "EA-Type": "connector",
@@ -10883,12 +10888,17 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "address"
+            "value": "adres"
           },
           {
             "key": "definition-nl",
             "note": "null",
             "value": "Adres dat men kan aanschrijven of bezoeken."
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "address"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -10903,11 +10913,11 @@
         "destRole": "null",
         "equivalent": "",
         "label": {
-          "nl": "address"
+          "nl": "adres"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "address"
+          "nl": "adres"
         },
         "sameAs": "",
         "sourceRole": "null",
@@ -10920,14 +10930,14 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "address"
+        "nl": "adres"
       },
       "label-nl": {
-        "nl": "address"
+        "nl": "adres"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "address",
+      "name": "adres",
       "range": [
         {
           "EA-GUID": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
@@ -10950,15 +10960,15 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
+          "EA-Name": "Concept",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{40B9D503-6A49-4a93-A3AF-EB3B4AC62DA3}",
-        "EA-Name": "additionalDescription",
+        "EA-Name": "verdereBeschrijving",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -10982,6 +10992,11 @@
           {
             "key": "label-nl",
             "note": "null",
+            "value": "verdereBeschrijving"
+          },
+          {
+            "key": "name",
+            "note": "null",
             "value": "additionalDescription"
           }
         ],
@@ -10995,11 +11010,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "additionalDescription"
+          "nl": "verdereBeschrijving"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "additionalDescription"
+          "nl": "verdereBeschrijving"
         },
         "sameAs": "",
         "subclass": "",
@@ -11015,14 +11030,14 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "additionalDescription"
+        "nl": "verdereBeschrijving"
       },
       "label-nl": {
-        "nl": "additionalDescription"
+        "nl": "verdereBeschrijving"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "additionaldescription",
+      "name": "verderebeschrijving",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -11149,7 +11164,7 @@
   "title-nl": {
     "nl": "TODO"
   },
-  "toolchaincommit": "13e1cdbadefa9e9d6c2db18889ab54d19ce1c3b0",
+  "toolchaincommit": "772a5f01eedc6e562f8816741f1d1b58b11d833c",
   "translation": [
     {
       "language": "nl",

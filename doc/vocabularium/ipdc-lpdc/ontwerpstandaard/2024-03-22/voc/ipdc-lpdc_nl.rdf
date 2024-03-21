@@ -407,13 +407,14 @@
   </owl:Class>
   <owl:ObjectProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription">
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
+    <rdfs:label xml:lang="nl">verdereBeschrijving</rdfs:label>
     <rdfs:label xml:lang="nl">additionalDescription</rdfs:label>
     <rdfs:comment xml:lang="nl">This property represents free text for additional information regarding the description of the Public Service.</rdfs:comment>
     <ns1:usageNote xml:lang="nl">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.</ns1:usageNote>
     <rdfs:domain>
       <owl:Class rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService">
         <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
-        <rdfs:label xml:lang="nl">ConceptualPublicService</rdfs:label>
+        <rdfs:label xml:lang="nl">Concept</rdfs:label>
         <rdfs:comment xml:lang="nl">Dienstverlening van lokale besturen is vaak gestoeld op Vlaamse, federale of Europese wetgeving, die vertaald wordt naar een lokaal niveau. Dat betekent dat de basis gelijkaardig is voor elk lokaal bestuur, maar dat er mogelijk flexibiliteit bestaat voor de lokale invulling. Omdat we IPDC goed gevuld en up to date willen krijgen en houden, met een beperkte administratieve belasting, voorzien we het concept. Een concept is een sjabloon dat redacteurs van de Vlaamse overheid klaarzetten voor lokale besturen. Het bevat een algemene invulling van een overheidsdienstverlening, die in de meeste lokale contexten ook van toepassing kan zijn. Lokale besturen kunnen deze concepten raadplegen en beslissen om een eigen dienstverlening te registreren op basis van een concept. Op dat moment wordt een concept gekloond naar een instantie. Het lokaal bestuur kan deze instantie vervolgens volledig aanpassen en afstemmen op de lokale context. Op deze manier groepeert een concept ook alle verschillende lokale variaties van een gelijkaardige dienstverlening.</rdfs:comment>
         <ns1:usageNote xml:lang="nl">Een goed voorbeeld van een concept is het huwelijk. Hoewel de beschrijving en voorwaarden van een huwelijk grotendeels hetzelfde zijn voor de verschillende gemeentes zijn er mogelijk toch lokale verschillen, zoals de locatie en prijs, die terug te vinden zijn in de respectievelijke instanties.</ns1:usageNote>
       </owl:Class>
@@ -430,7 +431,7 @@
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#address">
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
-    <rdfs:label xml:lang="nl">address</rdfs:label>
+    <rdfs:label xml:lang="nl">adres</rdfs:label>
     <rdfs:comment xml:lang="nl">Adres dat men kan aanschrijven of bezoeken.</rdfs:comment>
     <rdfs:domain rdf:resource="http://schema.org/ContactPoint"/>
     <rdfs:range rdf:resource="http://www.w3.org/ns/locn#Address"/>

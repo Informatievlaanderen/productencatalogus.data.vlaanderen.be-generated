@@ -15,8 +15,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/d974a8cddcbad3cd7e3a6585d278168a3c270124",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/d974a8cddcbad3cd7e3a6585d278168a3c270124/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/ba00939157f771e5f67f719a405196b9ed9b6b70",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/ba00939157f771e5f67f719a405196b9ed9b6b70/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -26,11 +26,11 @@
   "classes": [
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
-      "name": "Conceptualpublicservice",
+      "name": "Concept",
       "label": {
-        "nl": "ConceptualPublicService"
+        "nl": "Concept"
       },
-      "sort": "ConceptualPublicService",
+      "sort": "Concept",
       "description": {
         "nl": "Dienstverlening van lokale besturen is vaak gestoeld op Vlaamse, federale of Europese wetgeving, die vertaald wordt naar een lokaal niveau. Dat betekent dat de basis gelijkaardig is voor elk lokaal bestuur, maar dat er mogelijk flexibiliteit bestaat voor de lokale invulling. Omdat we IPDC goed gevuld en up to date willen krijgen en houden, met een beperkte administratieve belasting, voorzien we het concept. Een concept is een sjabloon dat redacteurs van de Vlaamse overheid klaarzetten voor lokale besturen. Het bevat een algemene invulling van een overheidsdienstverlening, die in de meeste lokale contexten ook van toepassing kan zijn. Lokale besturen kunnen deze concepten raadplegen en beslissen om een eigen dienstverlening te registreren op basis van een concept. Op dat moment wordt een concept gekloond naar een instantie. Het lokaal bestuur kan deze instantie vervolgens volledig aanpassen en afstemmen op de lokale context. Op deze manier groepeert een concept ook alle verschillende lokale variaties van een gelijkaardige dienstverlening."
       },
@@ -40,8 +40,9 @@
       "parents": [],
       "rawTags": {
         "definition-nl": "Dienstverlening van lokale besturen is vaak gestoeld op Vlaamse, federale of Europese wetgeving, die vertaald wordt naar een lokaal niveau. Dat betekent dat de basis gelijkaardig is voor elk lokaal bestuur, maar dat er mogelijk flexibiliteit bestaat voor de lokale invulling. Omdat we IPDC goed gevuld en up to date willen krijgen en houden, met een beperkte administratieve belasting, voorzien we het concept. Een concept is een sjabloon dat redacteurs van de Vlaamse overheid klaarzetten voor lokale besturen. Het bevat een algemene invulling van een overheidsdienstverlening, die in de meeste lokale contexten ook van toepassing kan zijn. Lokale besturen kunnen deze concepten raadplegen en beslissen om een eigen dienstverlening te registreren op basis van een concept. Op dat moment wordt een concept gekloond naar een instantie. Het lokaal bestuur kan deze instantie vervolgens volledig aanpassen en afstemmen op de lokale context. Op deze manier groepeert een concept ook alle verschillende lokale variaties van een gelijkaardige dienstverlening.",
-        "label-nl": "ConceptualPublicService",
-        "usageNote-nl": "Een goed voorbeeld van een concept is het huwelijk. Hoewel de beschrijving en voorwaarden van een huwelijk grotendeels hetzelfde zijn voor de verschillende gemeentes zijn er mogelijk toch lokale verschillen, zoals de locatie en prijs, die terug te vinden zijn in de respectievelijke instanties."
+        "label-nl": "Concept",
+        "usageNote-nl": "Een goed voorbeeld van een concept is het huwelijk. Hoewel de beschrijving en voorwaarden van een huwelijk grotendeels hetzelfde zijn voor de verschillende gemeentes zijn er mogelijk toch lokale verschillen, zoals de locatie en prijs, die terug te vinden zijn in de respectievelijke instanties.",
+        "name": "ConceptualPublicService"
       },
       "properties": [
         {
@@ -59,7 +60,7 @@
           },
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -102,7 +103,7 @@
           },
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -145,7 +146,7 @@
           },
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -187,7 +188,7 @@
           },
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -228,7 +229,7 @@
           "usage": {},
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -269,7 +270,7 @@
           },
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -312,7 +313,7 @@
           },
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -354,7 +355,7 @@
           },
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -397,7 +398,7 @@
           },
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -427,10 +428,10 @@
         },
         {
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription",
-          "name": "additionaldescription",
-          "sort": "additionalDescription",
+          "name": "verderebeschrijving",
+          "sort": "verdereBeschrijving",
           "label": {
-            "nl": "additionalDescription"
+            "nl": "verdereBeschrijving"
           },
           "description": {
             "nl": "This property represents free text for additional information regarding the description of the Public Service."
@@ -440,7 +441,7 @@
           },
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -464,7 +465,8 @@
           "rawTags": {
             "definition-nl": "This property represents free text for additional information regarding the description of the Public Service.",
             "usageNote-nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
-            "label-nl": "additionalDescription"
+            "label-nl": "verdereBeschrijving",
+            "name": "additionalDescription"
           }
         },
         {
@@ -480,7 +482,7 @@
           "usage": {},
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -522,7 +524,7 @@
           },
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -563,7 +565,7 @@
           "usage": {},
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -603,7 +605,7 @@
           "usage": {},
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -645,7 +647,7 @@
           },
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -688,7 +690,7 @@
           },
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -731,7 +733,7 @@
           },
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -772,7 +774,7 @@
           "usage": {},
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -812,7 +814,7 @@
           "usage": {},
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -852,7 +854,7 @@
           "usage": {},
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -892,7 +894,7 @@
           "usage": {},
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -934,7 +936,7 @@
           },
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -976,7 +978,7 @@
           "usage": {},
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -1018,7 +1020,7 @@
           },
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -1061,7 +1063,7 @@
           },
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -1103,7 +1105,7 @@
           "usage": {},
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -1143,7 +1145,7 @@
           "usage": {},
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -1183,7 +1185,7 @@
           "usage": {},
           "domain": [
             {
-              "EA-Name": "ConceptualPublicService",
+              "EA-Name": "Concept",
               "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
@@ -1291,16 +1293,16 @@
           ],
           "range": [
             {
-              "range_label": "ConceptualPublicService",
+              "range_label": "Concept",
               "range_uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "#ConceptualPublicService",
+              "range_uri": "#Concept",
               "range_puri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
               "range_label": {
-                "nl": "ConceptualPublicService"
+                "nl": "Concept"
               }
             }
           ],
@@ -2554,16 +2556,16 @@
           ],
           "range": [
             {
-              "range_label": "ConceptualPublicService",
+              "range_label": "Concept",
               "range_uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "#ConceptualPublicService",
+              "range_uri": "#Concept",
               "range_puri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
               "range_label": {
-                "nl": "ConceptualPublicService"
+                "nl": "Concept"
               }
             }
           ],
@@ -3748,10 +3750,10 @@
       "properties": [
         {
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#address",
-          "name": "address",
-          "sort": "address",
+          "name": "adres",
+          "sort": "adres",
           "label": {
-            "nl": "address"
+            "nl": "adres"
           },
           "description": {
             "nl": "Adres dat men kan aanschrijven of bezoeken."
@@ -3781,8 +3783,9 @@
           "cardinality": "0..1",
           "codelist_uri": "",
           "rawTags": {
-            "label-nl": "address",
-            "definition-nl": "Adres dat men kan aanschrijven of bezoeken."
+            "label-nl": "adres",
+            "definition-nl": "Adres dat men kan aanschrijven of bezoeken.",
+            "name": "address"
           }
         },
         {
@@ -4696,8 +4699,8 @@
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#address",
       "name": {
-        "nl": "address",
-        "undefined": "address"
+        "nl": "adres",
+        "undefined": "adres"
       },
       "description": {},
       "domain": [
@@ -4711,8 +4714,8 @@
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription",
       "name": {
-        "nl": "additionalDescription",
-        "undefined": "additionaldescription"
+        "nl": "verdereBeschrijving",
+        "undefined": "verderebeschrijving"
       },
       "description": {},
       "domain": [

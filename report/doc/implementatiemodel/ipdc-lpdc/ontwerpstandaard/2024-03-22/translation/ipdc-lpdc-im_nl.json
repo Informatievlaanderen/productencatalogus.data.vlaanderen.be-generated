@@ -3,9 +3,9 @@
   "classes": [
     {
       "EA-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-      "name": "Conceptualpublicservice",
+      "name": "Concept",
       "label": {
-        "nl": "ConceptualPublicService"
+        "nl": "Concept"
       },
       "definition": {
         "nl": "Dienstverlening van lokale besturen is vaak gestoeld op Vlaamse, federale of Europese wetgeving, die vertaald wordt naar een lokaal niveau. Dat betekent dat de basis gelijkaardig is voor elk lokaal bestuur, maar dat er mogelijk flexibiliteit bestaat voor de lokale invulling. Omdat we IPDC goed gevuld en up to date willen krijgen en houden, met een beperkte administratieve belasting, voorzien we het concept. Een concept is een sjabloon dat redacteurs van de Vlaamse overheid klaarzetten voor lokale besturen. Het bevat een algemene invulling van een overheidsdienstverlening, die in de meeste lokale contexten ook van toepassing kan zijn. Lokale besturen kunnen deze concepten raadplegen en beslissen om een eigen dienstverlening te registreren op basis van een concept. Op dat moment wordt een concept gekloond naar een instantie. Het lokaal bestuur kan deze instantie vervolgens volledig aanpassen en afstemmen op de lokale context. Op deze manier groepeert een concept ook alle verschillende lokale variaties van een gelijkaardige dienstverlening."
@@ -292,9 +292,9 @@
     },
     {
       "EA-Guid": "{778B0EAB-7B83-4c67-B32F-6FFE8A101460}",
-      "name": "address",
+      "name": "adres",
       "label": {
-        "nl": "address"
+        "nl": "adres"
       },
       "definition": {
         "nl": "Adres dat men kan aanschrijven of bezoeken."
@@ -302,9 +302,9 @@
     },
     {
       "EA-Guid": "{40B9D503-6A49-4a93-A3AF-EB3B4AC62DA3}",
-      "name": "additionaldescription",
+      "name": "verderebeschrijving",
       "label": {
-        "nl": "additionalDescription"
+        "nl": "verdereBeschrijving"
       },
       "definition": {
         "nl": "This property represents free text for additional information regarding the description of the Public Service."
@@ -660,7 +660,7 @@
       }
     },
     {
-      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
+      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
       "name": "hasrequirement",
       "label": {
         "nl": "hasRequirement"
@@ -670,7 +670,7 @@
       }
     },
     {
-      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
+      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
       "name": "hasrequirement",
       "label": {
         "nl": "hasRequirement"
@@ -873,7 +873,7 @@
       }
     },
     {
-      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
       "name": "produces",
       "label": {
         "nl": "produces"
@@ -883,7 +883,7 @@
       }
     },
     {
-      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
       "name": "produces",
       "label": {
         "nl": "produces"
@@ -1268,7 +1268,7 @@
       }
     },
     {
-      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
+      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
       "name": "hascost",
       "label": {
         "nl": "hasCost"
@@ -1278,7 +1278,7 @@
       }
     },
     {
-      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
       "name": "hascost",
       "label": {
         "nl": "hasCost"
@@ -1298,7 +1298,7 @@
       }
     },
     {
-      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
+      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
       "name": "hascompetentauthority",
       "label": {
         "nl": "hasCompetentAuthority"
@@ -1308,7 +1308,7 @@
       }
     },
     {
-      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
+      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
       "name": "hascompetentauthority",
       "label": {
         "nl": "hasCompetentAuthority"

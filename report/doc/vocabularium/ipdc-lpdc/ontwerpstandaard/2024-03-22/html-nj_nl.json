@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/d974a8cddcbad3cd7e3a6585d278168a3c270124",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/d974a8cddcbad3cd7e3a6585d278168a3c270124/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/ba00939157f771e5f67f719a405196b9ed9b6b70",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/ba00939157f771e5f67f719a405196b9ed9b6b70/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -24,11 +24,11 @@
   "classes": [
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
-      "name": "Conceptualpublicservice",
+      "name": "Concept",
       "label": {
-        "nl": "ConceptualPublicService"
+        "nl": "Concept"
       },
-      "sort": "ConceptualPublicService",
+      "sort": "Concept",
       "description": {
         "nl": "Dienstverlening van lokale besturen is vaak gestoeld op Vlaamse, federale of Europese wetgeving, die vertaald wordt naar een lokaal niveau. Dat betekent dat de basis gelijkaardig is voor elk lokaal bestuur, maar dat er mogelijk flexibiliteit bestaat voor de lokale invulling. Omdat we IPDC goed gevuld en up to date willen krijgen en houden, met een beperkte administratieve belasting, voorzien we het concept. Een concept is een sjabloon dat redacteurs van de Vlaamse overheid klaarzetten voor lokale besturen. Het bevat een algemene invulling van een overheidsdienstverlening, die in de meeste lokale contexten ook van toepassing kan zijn. Lokale besturen kunnen deze concepten raadplegen en beslissen om een eigen dienstverlening te registreren op basis van een concept. Op dat moment wordt een concept gekloond naar een instantie. Het lokaal bestuur kan deze instantie vervolgens volledig aanpassen en afstemmen op de lokale context. Op deze manier groepeert een concept ook alle verschillende lokale variaties van een gelijkaardige dienstverlening."
       },
@@ -480,11 +480,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#address",
-      "name": "address",
+      "name": "adres",
       "label": {
-        "nl": "address"
+        "nl": "adres"
       },
-      "sort": "address",
+      "sort": "adres",
       "description": {
         "nl": "Adres dat men kan aanschrijven of bezoeken."
       },
@@ -499,11 +499,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription",
-      "name": "additionaldescription",
+      "name": "verderebeschrijving",
       "label": {
-        "nl": "additionalDescription"
+        "nl": "verdereBeschrijving"
       },
-      "sort": "additionalDescription",
+      "sort": "verdereBeschrijving",
       "description": {
         "nl": "This property represents free text for additional information regarding the description of the Public Service."
       },
