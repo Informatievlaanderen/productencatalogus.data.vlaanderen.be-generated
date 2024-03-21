@@ -187,7 +187,7 @@
       },
       "extra": {
         "EA-Guid": "{D2B91D18-371A-4811-931C-4C667284F606}",
-        "EA-Name": "ConceptualPublicServiceSnapshot",
+        "EA-Name": "ConceptSnapshot",
         "EA-Package": "IPDC-LPDC",
         "EA-Parents": "",
         "EA-Parents2": [],
@@ -196,7 +196,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "ConceptualPublicServiceSnapshot"
+            "value": "ConceptSnapshot"
           },
           {
             "key": "definition-nl",
@@ -207,6 +207,11 @@
             "key": "usageNote-nl",
             "note": "De conceptsnapshots worden door IPDC aan de hand van een linked data event stream (LDES) beschikbaar gemaakt. Deze LDES maakt de volledige historiek van alle concept wijzigingen beschikbaar voor aansluiters. Meer info over LDES is hier beschikbaar: https://semiceu.github.io/LinkedDataEventStreams",
             "value": "NOTE"
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "ConceptualPublicServiceSnapshot"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -219,11 +224,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "ConceptualPublicServiceSnapshot"
+          "nl": "ConceptSnapshot"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "ConceptualPublicServiceSnapshot"
+          "nl": "ConceptSnapshot"
         },
         "parentclasses": "",
         "sameAs": "",
@@ -239,12 +244,12 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "ConceptualPublicServiceSnapshot"
+        "nl": "ConceptSnapshot"
       },
       "label-nl": {
-        "nl": "ConceptualPublicServiceSnapshot"
+        "nl": "ConceptSnapshot"
       },
-      "name": "Conceptualpublicservicesnapshot",
+      "name": "Conceptsnapshot",
       "parents": [],
       "usage": {
         "nl": "De conceptsnapshots worden door IPDC aan de hand van een linked data event stream (LDES) beschikbaar gemaakt. Deze LDES maakt de volledige historiek van alle concept wijzigingen beschikbaar voor aansluiters. Meer info over LDES is hier beschikbaar: https://semiceu.github.io/LinkedDataEventStreams"
@@ -265,7 +270,7 @@
       },
       "extra": {
         "EA-Guid": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
-        "EA-Name": "FinancialAdvantage",
+        "EA-Name": "FinancieelVoordeel",
         "EA-Package": "IPDC-LPDC",
         "EA-Parents": "",
         "EA-Parents2": [
@@ -286,6 +291,11 @@
           {
             "key": "label-nl",
             "note": "null",
+            "value": "FinancieelVoordeel"
+          },
+          {
+            "key": "name",
+            "note": "null",
             "value": "FinancialAdvantage"
           }
         ],
@@ -299,11 +309,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "FinancialAdvantage"
+          "nl": "FinancieelVoordeel"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "FinancialAdvantage"
+          "nl": "FinancieelVoordeel"
         },
         "parentclasses": "http://data.europa.eu/m8g/Output",
         "sameAs": "",
@@ -315,12 +325,12 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "FinancialAdvantage"
+        "nl": "FinancieelVoordeel"
       },
       "label-nl": {
-        "nl": "FinancialAdvantage"
+        "nl": "FinancieelVoordeel"
       },
-      "name": "Financialadvantage",
+      "name": "Financieelvoordeel",
       "parents": [
         "http://data.europa.eu/m8g/Output"
       ]
@@ -337,7 +347,7 @@
       },
       "extra": {
         "EA-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Name": "InstancePublicService",
+        "EA-Name": "Instantie",
         "EA-Package": "IPDC-LPDC",
         "EA-Parents": "",
         "EA-Parents2": [
@@ -358,6 +368,11 @@
           {
             "key": "label-nl",
             "note": "null",
+            "value": "Instantie"
+          },
+          {
+            "key": "name",
+            "note": "null",
             "value": "InstancePublicService"
           }
         ],
@@ -371,11 +386,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "InstancePublicService"
+          "nl": "Instantie"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "InstancePublicService"
+          "nl": "Instantie"
         },
         "parentclasses": "http://purl.org/vocab/cpsv#PublicService",
         "sameAs": "",
@@ -387,12 +402,12 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "InstancePublicService"
+        "nl": "Instantie"
       },
       "label-nl": {
-        "nl": "InstancePublicService"
+        "nl": "Instantie"
       },
-      "name": "Instancepublicservice",
+      "name": "Instantie",
       "parents": [
         "http://purl.org/vocab/cpsv#PublicService"
       ]
@@ -409,7 +424,7 @@
       },
       "extra": {
         "EA-Guid": "{E861DC27-6881-4243-94C4-EF004C4DF728}",
-        "EA-Name": "InstancePublicServiceSnapshot",
+        "EA-Name": "InstantieSnapshot",
         "EA-Package": "IPDC-LPDC",
         "EA-Parents": "",
         "EA-Parents2": [],
@@ -423,12 +438,17 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "InstancePublicServiceSnapshot"
+            "value": "InstantieSnapshot"
           },
           {
             "key": "usageNote-nl",
             "note": "De instantiesnapshots worden door IPDC aan de hand van een linked data event stream (LDES) beschikbaar gemaakt. Deze LDES maakt de volledige historiek van alle instantie wijzigingen beschikbaar voor aansluiters. Meer info over LDES is hier beschikbaar: https://semiceu.github.io/LinkedDataEventStreams",
             "value": "NOTE"
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "InstancePublicServiceSnapshot"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -441,11 +461,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "InstancePublicServiceSnapshot"
+          "nl": "InstantieSnapshot"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "InstancePublicServiceSnapshot"
+          "nl": "InstantieSnapshot"
         },
         "parentclasses": "",
         "sameAs": "",
@@ -461,12 +481,12 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "InstancePublicServiceSnapshot"
+        "nl": "InstantieSnapshot"
       },
       "label-nl": {
-        "nl": "InstancePublicServiceSnapshot"
+        "nl": "InstantieSnapshot"
       },
-      "name": "Instancepublicservicesnapshot",
+      "name": "Instantiesnapshot",
       "parents": [],
       "usage": {
         "nl": "De instantiesnapshots worden door IPDC aan de hand van een linked data event stream (LDES) beschikbaar gemaakt. Deze LDES maakt de volledige historiek van alle instantie wijzigingen beschikbaar voor aansluiters. Meer info over LDES is hier beschikbaar: https://semiceu.github.io/LinkedDataEventStreams"
@@ -574,8 +594,8 @@
   "dependencies": [],
   "diagram": "ipdc-lpdc-ap",
   "disabled": false,
-  "documentcommit": "ba00939157f771e5f67f719a405196b9ed9b6b70",
-  "dummy": "013",
+  "documentcommit": "00c121a1003901b0cbce8e61c20c5f2a3ee905c0",
+  "dummy": "014",
   "eap": "IPDC-LPDC-AP.eap",
   "editors": [
     {
@@ -622,7 +642,7 @@
         "EA-Domain": "Procedure",
         "EA-Domain-Guid": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
         "EA-Guid": "{CABD8E8C-BF44-46a0-80A6-6A69DCD570A6}",
-        "EA-Name": "hasWebsite",
+        "EA-Name": "websites",
         "EA-Package": "",
         "EA-Range": "Website",
         "EA-Type": "connector",
@@ -646,7 +666,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "hasWebsite"
+            "value": "websites"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -661,11 +681,11 @@
         "destRole": "null",
         "equivalent": "",
         "label": {
-          "nl": "hasWebsite"
+          "nl": "websites"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "hasWebsite"
+          "nl": "websites"
         },
         "sameAs": "",
         "sourceRole": "null",
@@ -678,14 +698,14 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "hasWebsite"
+        "nl": "websites"
       },
       "label-nl": {
-        "nl": "hasWebsite"
+        "nl": "websites"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "haswebsite",
+      "name": "websites",
       "range": [
         {
           "EA-GUID": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
@@ -717,7 +737,7 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
-        "EA-Name": "hasExecutingAuthority",
+        "EA-Name": "uitvoerendeOverheden",
         "EA-Package": "",
         "EA-Range": "PubliekeOrganisatie",
         "EA-Type": "connector",
@@ -731,7 +751,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "hasExecutingAuthority"
+            "value": "uitvoerendeOverheden"
           },
           {
             "key": "uri",
@@ -756,11 +776,11 @@
         "destRole": "null",
         "equivalent": "",
         "label": {
-          "nl": "hasExecutingAuthority"
+          "nl": "uitvoerendeOverheden"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "hasExecutingAuthority"
+          "nl": "uitvoerendeOverheden"
         },
         "sameAs": "",
         "sourceRole": "null",
@@ -773,14 +793,14 @@
       "generalization": [],
       "inpackage": "UNKNOWN",
       "label": {
-        "nl": "hasExecutingAuthority"
+        "nl": "uitvoerendeOverheden"
       },
       "label-nl": {
-        "nl": "hasExecutingAuthority"
+        "nl": "uitvoerendeOverheden"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "hasexecutingauthority",
+      "name": "uitvoerendeoverheden",
       "range": [
         {
           "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
@@ -803,16 +823,16 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
-        "EA-Name": "hasExecutingAuthority",
+        "EA-Name": "uitvoerendeOverheden",
         "EA-Package": "",
         "EA-Range": "PubliekeOrganisatie",
         "EA-Type": "connector",
@@ -826,7 +846,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "hasExecutingAuthority"
+            "value": "uitvoerendeOverheden"
           },
           {
             "key": "uri",
@@ -851,11 +871,11 @@
         "destRole": "null",
         "equivalent": "",
         "label": {
-          "nl": "hasExecutingAuthority"
+          "nl": "uitvoerendeOverheden"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "hasExecutingAuthority"
+          "nl": "uitvoerendeOverheden"
         },
         "sameAs": "",
         "sourceRole": "null",
@@ -868,14 +888,14 @@
       "generalization": [],
       "inpackage": "UNKNOWN",
       "label": {
-        "nl": "hasExecutingAuthority"
+        "nl": "uitvoerendeOverheden"
       },
       "label-nl": {
-        "nl": "hasExecutingAuthority"
+        "nl": "uitvoerendeOverheden"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "hasexecutingauthority",
+      "name": "uitvoerendeoverheden",
       "range": [
         {
           "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
@@ -898,12 +918,12 @@
       },
       "domain": [
         {
-          "EA-Name": "Address",
+          "EA-Name": "Adres",
           "uri": "http://www.w3.org/ns/locn#Address"
         }
       ],
       "extra": {
-        "EA-Domain": "Address",
+        "EA-Domain": "Adres",
         "EA-Domain-Guid": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
         "EA-Guid": "{B0343F87-0586-4e4e-8189-C19BAFC99D17}",
         "EA-Name": "postcode",
@@ -987,15 +1007,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Address",
+          "EA-Name": "Adres",
           "uri": "http://www.w3.org/ns/locn#Address"
         }
       ],
       "extra": {
-        "EA-Domain": "Address",
+        "EA-Domain": "Adres",
         "EA-Domain-Guid": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
         "EA-Guid": "{DF5AA79A-AD47-4aee-A3DE-EFA35B8F5F74}",
-        "EA-Name": "country",
+        "EA-Name": "land",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -1014,7 +1034,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "country"
+            "value": "land"
           },
           {
             "key": "uri",
@@ -1032,11 +1052,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "country"
+          "nl": "land"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "country"
+          "nl": "land"
         },
         "sameAs": "",
         "subclass": "",
@@ -1048,14 +1068,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "country"
+        "nl": "land"
       },
       "label-nl": {
-        "nl": "country"
+        "nl": "land"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "country",
+      "name": "land",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -1078,15 +1098,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Address",
+          "EA-Name": "Adres",
           "uri": "http://www.w3.org/ns/locn#Address"
         }
       ],
       "extra": {
-        "EA-Domain": "Address",
+        "EA-Domain": "Adres",
         "EA-Domain-Guid": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
         "EA-Guid": "{289F6E89-204E-4fcf-8AC0-18190C6AAEC0}",
-        "EA-Name": "municipality",
+        "EA-Name": "gemeentenaam",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -1100,7 +1120,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "municipality"
+            "value": "gemeentenaam"
           },
           {
             "key": "definition-nl",
@@ -1123,11 +1143,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "municipality"
+          "nl": "gemeentenaam"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "municipality"
+          "nl": "gemeentenaam"
         },
         "sameAs": "",
         "subclass": "",
@@ -1139,14 +1159,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "municipality"
+        "nl": "gemeentenaam"
       },
       "label-nl": {
-        "nl": "municipality"
+        "nl": "gemeentenaam"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "municipality",
+      "name": "gemeentenaam",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -1169,15 +1189,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Address",
+          "EA-Name": "Adres",
           "uri": "http://www.w3.org/ns/locn#Address"
         }
       ],
       "extra": {
-        "EA-Domain": "Address",
+        "EA-Domain": "Adres",
         "EA-Domain-Guid": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
         "EA-Guid": "{D7AF15F7-68A7-4372-BB46-56D9D7334CB4}",
-        "EA-Name": "thoroughfare",
+        "EA-Name": "straatnaam",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -1191,7 +1211,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "thoroughfare"
+            "value": "straatnaam"
           },
           {
             "key": "definition-nl",
@@ -1214,11 +1234,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "thoroughfare"
+          "nl": "straatnaam"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "thoroughfare"
+          "nl": "straatnaam"
         },
         "sameAs": "",
         "subclass": "",
@@ -1230,14 +1250,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "thoroughfare"
+        "nl": "straatnaam"
       },
       "label-nl": {
-        "nl": "thoroughfare"
+        "nl": "straatnaam"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "thoroughfare",
+      "name": "straatnaam",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -1260,15 +1280,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Address",
+          "EA-Name": "Adres",
           "uri": "http://www.w3.org/ns/locn#Address"
         }
       ],
       "extra": {
-        "EA-Domain": "Address",
+        "EA-Domain": "Adres",
         "EA-Domain-Guid": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
         "EA-Guid": "{5324C255-EA01-4793-AF34-048DC53452A4}",
-        "EA-Name": "houseNumber",
+        "EA-Name": "huisnummer",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "String",
         "EA-Type": "attribute",
@@ -1281,7 +1301,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "houseNumber"
+            "value": "huisnummer"
           },
           {
             "key": "definition-nl",
@@ -1304,11 +1324,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "houseNumber"
+          "nl": "huisnummer"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "houseNumber"
+          "nl": "huisnummer"
         },
         "sameAs": "",
         "subclass": "",
@@ -1320,14 +1340,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "houseNumber"
+        "nl": "huisnummer"
       },
       "label-nl": {
-        "nl": "houseNumber"
+        "nl": "huisnummer"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "housenumber",
+      "name": "huisnummer",
       "range": [
         {
           "EA-Name": "String",
@@ -1349,15 +1369,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Address",
+          "EA-Name": "Adres",
           "uri": "http://www.w3.org/ns/locn#Address"
         }
       ],
       "extra": {
-        "EA-Domain": "Address",
+        "EA-Domain": "Adres",
         "EA-Domain-Guid": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
         "EA-Guid": "{E425F3AA-CF11-42b7-8D2C-54AB3CCD1D4D}",
-        "EA-Name": "mailbox",
+        "EA-Name": "busnummer",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "String",
         "EA-Type": "attribute",
@@ -1370,7 +1390,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "mailbox"
+            "value": "busnummer"
           },
           {
             "key": "uri",
@@ -1393,11 +1413,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "mailbox"
+          "nl": "busnummer"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "mailbox"
+          "nl": "busnummer"
         },
         "sameAs": "",
         "subclass": "",
@@ -1409,14 +1429,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "mailbox"
+        "nl": "busnummer"
       },
       "label-nl": {
-        "nl": "mailbox"
+        "nl": "busnummer"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "mailbox",
+      "name": "busnummer",
       "range": [
         {
           "EA-Name": "String",
@@ -1438,12 +1458,12 @@
       },
       "domain": [
         {
-          "EA-Name": "ContactPoint",
+          "EA-Name": "Contactgegevens",
           "uri": "http://schema.org/ContactPoint"
         }
       ],
       "extra": {
-        "EA-Domain": "ContactPoint",
+        "EA-Domain": "Contactgegevens",
         "EA-Domain-Guid": "{A87B22A4-91D0-494a-95F1-8C9B5CFAED6D}",
         "EA-Guid": "{014618E4-5E49-45c9-90CB-D94CA9CC28AE}",
         "EA-Name": "order",
@@ -1542,12 +1562,12 @@
       },
       "domain": [
         {
-          "EA-Name": "LegalResource",
+          "EA-Name": "Regelgeving",
           "uri": "http://data.europa.eu/eli/ontology#LegalResource"
         }
       ],
       "extra": {
-        "EA-Domain": "LegalResource",
+        "EA-Domain": "Regelgeving",
         "EA-Domain-Guid": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
         "EA-Guid": "{02378DF6-6E08-44c0-9496-F93F002F0BB0}",
         "EA-Name": "order",
@@ -1646,12 +1666,12 @@
       },
       "domain": [
         {
-          "EA-Name": "FinancialAdvantage",
+          "EA-Name": "FinancieelVoordeel",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage"
         }
       ],
       "extra": {
-        "EA-Domain": "FinancialAdvantage",
+        "EA-Domain": "FinancieelVoordeel",
         "EA-Domain-Guid": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
         "EA-Guid": "{EAB20049-4406-4abf-8738-56069F1C4E03}",
         "EA-Name": "order",
@@ -1750,12 +1770,12 @@
       },
       "domain": [
         {
-          "EA-Name": "Cost",
+          "EA-Name": "Kost",
           "uri": "http://data.europa.eu/m8g/Cost"
         }
       ],
       "extra": {
-        "EA-Domain": "Cost",
+        "EA-Domain": "Kost",
         "EA-Domain-Guid": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
         "EA-Guid": "{EC2AFECD-FA56-4b0b-BED3-0FF78DE3EFAE}",
         "EA-Name": "order",
@@ -1958,12 +1978,12 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicServiceSnapshot",
+          "EA-Name": "ConceptSnapshot",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
         }
       ],
       "extra": {
-        "EA-Domain": "ConceptualPublicServiceSnapshot",
+        "EA-Domain": "ConceptSnapshot",
         "EA-Domain-Guid": "{D2B91D18-371A-4811-931C-4C667284F606}",
         "EA-Guid": "{1690B7D6-9F3C-472b-BD13-09297AF5153C}",
         "EA-Name": "generatedAtTime",
@@ -2047,12 +2067,12 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicServiceSnapshot",
+          "EA-Name": "InstantieSnapshot",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
         }
       ],
       "extra": {
-        "EA-Domain": "InstancePublicServiceSnapshot",
+        "EA-Domain": "InstantieSnapshot",
         "EA-Domain-Guid": "{E861DC27-6881-4243-94C4-EF004C4DF728}",
         "EA-Guid": "{FE8F9E5B-9729-4d16-8E7A-4964F37EC18A}",
         "EA-Name": "generatedAtTime",
@@ -2144,7 +2164,7 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{CBC211C6-6760-4ae3-832E-7994E4FA5B49}",
-        "EA-Name": "keyword",
+        "EA-Name": "zoektermen",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -2173,7 +2193,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "keyword"
+            "value": "zoektermen"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -2186,11 +2206,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "keyword"
+          "nl": "zoektermen"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "keyword"
+          "nl": "zoektermen"
         },
         "sameAs": "",
         "subclass": "",
@@ -2206,14 +2226,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "keyword"
+        "nl": "zoektermen"
       },
       "label-nl": {
-        "nl": "keyword"
+        "nl": "zoektermen"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "keyword",
+      "name": "zoektermen",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -2242,15 +2262,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{FE022F17-B5BA-45c4-93C0-EFACAD79DA4D}",
-        "EA-Name": "keyword",
+        "EA-Name": "zoektermen",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -2279,7 +2299,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "keyword"
+            "value": "zoektermen"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -2292,11 +2312,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "keyword"
+          "nl": "zoektermen"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "keyword"
+          "nl": "zoektermen"
         },
         "sameAs": "",
         "subclass": "",
@@ -2312,14 +2332,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "keyword"
+        "nl": "zoektermen"
       },
       "label-nl": {
-        "nl": "keyword"
+        "nl": "zoektermen"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "keyword",
+      "name": "zoektermen",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -2357,7 +2377,7 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
-        "EA-Name": "hasMoreInfo",
+        "EA-Name": "websites",
         "EA-Package": "",
         "EA-Range": "Website",
         "EA-Type": "connector",
@@ -2381,7 +2401,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "hasMoreInfo"
+            "value": "websites"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -2396,11 +2416,11 @@
         "destRole": "null",
         "equivalent": "",
         "label": {
-          "nl": "hasMoreInfo"
+          "nl": "websites"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "hasMoreInfo"
+          "nl": "websites"
         },
         "sameAs": "",
         "sourceRole": "null",
@@ -2413,14 +2433,14 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "hasMoreInfo"
+        "nl": "websites"
       },
       "label-nl": {
-        "nl": "hasMoreInfo"
+        "nl": "websites"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "hasmoreinfo",
+      "name": "websites",
       "range": [
         {
           "EA-GUID": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
@@ -2443,16 +2463,16 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
-        "EA-Name": "hasMoreInfo",
+        "EA-Name": "websites",
         "EA-Package": "",
         "EA-Range": "Website",
         "EA-Type": "connector",
@@ -2476,7 +2496,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "hasMoreInfo"
+            "value": "websites"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -2491,11 +2511,11 @@
         "destRole": "null",
         "equivalent": "",
         "label": {
-          "nl": "hasMoreInfo"
+          "nl": "websites"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "hasMoreInfo"
+          "nl": "websites"
         },
         "sameAs": "",
         "sourceRole": "null",
@@ -2508,14 +2528,14 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "hasMoreInfo"
+        "nl": "websites"
       },
       "label-nl": {
-        "nl": "hasMoreInfo"
+        "nl": "websites"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "hasmoreinfo",
+      "name": "websites",
       "range": [
         {
           "EA-GUID": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
@@ -2547,13 +2567,13 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
-        "EA-Name": "hasRequirement",
+        "EA-Name": "voorwaarden",
         "EA-Package": "",
-        "EA-Range": "Requirement",
+        "EA-Range": "Voorwaarde",
         "EA-Type": "connector",
         "RangeData": {
           "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
-          "EA-Name": "Requirement",
+          "EA-Name": "Voorwaarde",
           "EA-Package": "IPDC-LPDC",
           "uri": "http://data.europa.eu/m8g/Requirement"
         },
@@ -2571,7 +2591,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "hasRequirement"
+            "value": "voorwaarden"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -2586,11 +2606,11 @@
         "destRole": "null",
         "equivalent": "",
         "label": {
-          "nl": "hasRequirement"
+          "nl": "voorwaarden"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "hasRequirement"
+          "nl": "voorwaarden"
         },
         "sameAs": "",
         "sourceRole": "null",
@@ -2603,18 +2623,18 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "hasRequirement"
+        "nl": "voorwaarden"
       },
       "label-nl": {
-        "nl": "hasRequirement"
+        "nl": "voorwaarden"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "hasrequirement",
+      "name": "voorwaarden",
       "range": [
         {
           "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
-          "EA-Name": "Requirement",
+          "EA-Name": "Voorwaarde",
           "EA-Package": "IPDC-LPDC",
           "uri": "http://data.europa.eu/m8g/Requirement"
         }
@@ -2633,22 +2653,22 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
-        "EA-Name": "hasRequirement",
+        "EA-Name": "voorwaarden",
         "EA-Package": "",
-        "EA-Range": "Requirement",
+        "EA-Range": "Voorwaarde",
         "EA-Type": "connector",
         "RangeData": {
           "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
-          "EA-Name": "Requirement",
+          "EA-Name": "Voorwaarde",
           "EA-Package": "IPDC-LPDC",
           "uri": "http://data.europa.eu/m8g/Requirement"
         },
@@ -2666,7 +2686,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "hasRequirement"
+            "value": "voorwaarden"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -2681,11 +2701,11 @@
         "destRole": "null",
         "equivalent": "",
         "label": {
-          "nl": "hasRequirement"
+          "nl": "voorwaarden"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "hasRequirement"
+          "nl": "voorwaarden"
         },
         "sameAs": "",
         "sourceRole": "null",
@@ -2698,18 +2718,18 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "hasRequirement"
+        "nl": "voorwaarden"
       },
       "label-nl": {
-        "nl": "hasRequirement"
+        "nl": "voorwaarden"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "hasrequirement",
+      "name": "voorwaarden",
       "range": [
         {
           "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
-          "EA-Name": "Requirement",
+          "EA-Name": "Voorwaarde",
           "EA-Package": "IPDC-LPDC",
           "uri": "http://data.europa.eu/m8g/Requirement"
         }
@@ -2728,15 +2748,15 @@
       },
       "domain": [
         {
-          "EA-Name": "ContactPoint",
+          "EA-Name": "Contactgegevens",
           "uri": "http://schema.org/ContactPoint"
         }
       ],
       "extra": {
-        "EA-Domain": "ContactPoint",
+        "EA-Domain": "Contactgegevens",
         "EA-Domain-Guid": "{A87B22A4-91D0-494a-95F1-8C9B5CFAED6D}",
         "EA-Guid": "{282899F1-5DF2-4535-8F0E-C3D0FAD5F08C}",
-        "EA-Name": "website",
+        "EA-Name": "url",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "String",
         "EA-Type": "attribute",
@@ -2759,7 +2779,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "website"
+            "value": "url"
           },
           {
             "key": "usageNote-nl",
@@ -2777,11 +2797,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "website"
+          "nl": "url"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "website"
+          "nl": "url"
         },
         "sameAs": "",
         "subclass": "",
@@ -2797,14 +2817,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "website"
+        "nl": "url"
       },
       "label-nl": {
-        "nl": "website"
+        "nl": "url"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "website",
+      "name": "url",
       "range": [
         {
           "EA-Name": "String",
@@ -2832,15 +2852,15 @@
       },
       "domain": [
         {
-          "EA-Name": "LegalResource",
+          "EA-Name": "Regelgeving",
           "uri": "http://data.europa.eu/eli/ontology#LegalResource"
         }
       ],
       "extra": {
-        "EA-Domain": "LegalResource",
+        "EA-Domain": "Regelgeving",
         "EA-Domain-Guid": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
         "EA-Guid": "{9BB35E55-3D0C-4826-8554-EAF05852396D}",
-        "EA-Name": "location",
+        "EA-Name": "url",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "String",
         "EA-Type": "attribute",
@@ -2858,7 +2878,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "location"
+            "value": "url"
           },
           {
             "key": "definition-nl",
@@ -2881,11 +2901,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "location"
+          "nl": "url"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "location"
+          "nl": "url"
         },
         "sameAs": "",
         "subclass": "",
@@ -2901,14 +2921,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "location"
+        "nl": "url"
       },
       "label-nl": {
-        "nl": "location"
+        "nl": "url"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "location",
+      "name": "url",
       "range": [
         {
           "EA-Name": "String",
@@ -2944,7 +2964,7 @@
         "EA-Domain": "Website",
         "EA-Domain-Guid": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
         "EA-Guid": "{14D2ECEE-4886-4880-9F24-3C56151C7009}",
-        "EA-Name": "location",
+        "EA-Name": "url",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "String",
         "EA-Type": "attribute",
@@ -2962,7 +2982,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "location"
+            "value": "url"
           },
           {
             "key": "definition-nl",
@@ -2985,11 +3005,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "location"
+          "nl": "url"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "location"
+          "nl": "url"
         },
         "sameAs": "",
         "subclass": "",
@@ -3005,14 +3025,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "location"
+        "nl": "url"
       },
       "label-nl": {
-        "nl": "location"
+        "nl": "url"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "location",
+      "name": "url",
       "range": [
         {
           "EA-Name": "String",
@@ -3040,15 +3060,15 @@
       },
       "domain": [
         {
-          "EA-Name": "ContactPoint",
+          "EA-Name": "Contactgegevens",
           "uri": "http://schema.org/ContactPoint"
         }
       ],
       "extra": {
-        "EA-Domain": "ContactPoint",
+        "EA-Domain": "Contactgegevens",
         "EA-Domain-Guid": "{A87B22A4-91D0-494a-95F1-8C9B5CFAED6D}",
         "EA-Guid": "{AB586E18-B322-487a-A671-0ACD9A78B2B8}",
-        "EA-Name": "hasTelephone",
+        "EA-Name": "telefoonnummer",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "String",
         "EA-Type": "attribute",
@@ -3071,7 +3091,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "hasTelephone"
+            "value": "telefoonnummer"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -3084,11 +3104,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "hasTelephone"
+          "nl": "telefoonnummer"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "hasTelephone"
+          "nl": "telefoonnummer"
         },
         "sameAs": "",
         "subclass": "",
@@ -3100,14 +3120,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "hasTelephone"
+        "nl": "telefoonnummer"
       },
       "label-nl": {
-        "nl": "hasTelephone"
+        "nl": "telefoonnummer"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "hastelephone",
+      "name": "telefoonnummer",
       "range": [
         {
           "EA-Name": "String",
@@ -3137,7 +3157,7 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{CD90A19A-4294-43a7-8513-C8D769BBA146}",
-        "EA-Name": "startDate",
+        "EA-Name": "startDienstVerlening",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "DateTime",
         "EA-Type": "attribute",
@@ -3165,7 +3185,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "startDate"
+            "value": "startDienstVerlening"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -3178,11 +3198,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "startDate"
+          "nl": "startDienstVerlening"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "startDate"
+          "nl": "startDienstVerlening"
         },
         "sameAs": "",
         "subclass": "",
@@ -3198,14 +3218,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "startDate"
+        "nl": "startDienstVerlening"
       },
       "label-nl": {
-        "nl": "startDate"
+        "nl": "startDienstVerlening"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "startdate",
+      "name": "startdienstverlening",
       "range": [
         {
           "EA-Name": "DateTime",
@@ -3233,15 +3253,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{8BE878DA-620D-496e-AD4D-883A331D9E10}",
-        "EA-Name": "startDate",
+        "EA-Name": "startDienstVerlening",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "DateTime",
         "EA-Type": "attribute",
@@ -3269,7 +3289,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "startDate"
+            "value": "startDienstVerlening"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -3282,11 +3302,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "startDate"
+          "nl": "startDienstVerlening"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "startDate"
+          "nl": "startDienstVerlening"
         },
         "sameAs": "",
         "subclass": "",
@@ -3302,14 +3322,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "startDate"
+        "nl": "startDienstVerlening"
       },
       "label-nl": {
-        "nl": "startDate"
+        "nl": "startDienstVerlening"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "startdate",
+      "name": "startdienstverlening",
       "range": [
         {
           "EA-Name": "DateTime",
@@ -3345,7 +3365,7 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{82526185-873F-473a-990C-8F7FF830A023}",
-        "EA-Name": "productNumber",
+        "EA-Name": "productnummer",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "String",
         "EA-Type": "attribute",
@@ -3363,7 +3383,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "productNumber"
+            "value": "productnummer"
           },
           {
             "key": "definition-nl",
@@ -3386,11 +3406,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "productNumber"
+          "nl": "productnummer"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "productNumber"
+          "nl": "productnummer"
         },
         "sameAs": "",
         "subclass": "",
@@ -3406,14 +3426,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "productNumber"
+        "nl": "productnummer"
       },
       "label-nl": {
-        "nl": "productNumber"
+        "nl": "productnummer"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "productnumber",
+      "name": "productnummer",
       "range": [
         {
           "EA-Name": "String",
@@ -3441,15 +3461,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{A44DDC22-0861-4f4f-B3BF-348EBA5D961D}",
-        "EA-Name": "productNumber",
+        "EA-Name": "productnummer",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "String",
         "EA-Type": "attribute",
@@ -3472,7 +3492,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "productNumber"
+            "value": "productnummer"
           },
           {
             "key": "uri",
@@ -3490,11 +3510,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "productNumber"
+          "nl": "productnummer"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "productNumber"
+          "nl": "productnummer"
         },
         "sameAs": "",
         "subclass": "",
@@ -3510,14 +3530,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "productNumber"
+        "nl": "productnummer"
       },
       "label-nl": {
-        "nl": "productNumber"
+        "nl": "productnummer"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "productnumber",
+      "name": "productnummer",
       "range": [
         {
           "EA-Name": "String",
@@ -3545,15 +3565,15 @@
       },
       "domain": [
         {
-          "EA-Name": "ContactPoint",
+          "EA-Name": "Contactgegevens",
           "uri": "http://schema.org/ContactPoint"
         }
       ],
       "extra": {
-        "EA-Domain": "ContactPoint",
+        "EA-Domain": "Contactgegevens",
         "EA-Domain-Guid": "{A87B22A4-91D0-494a-95F1-8C9B5CFAED6D}",
         "EA-Guid": "{6D380293-E1B7-49fe-BD5E-0E96E46046B6}",
-        "EA-Name": "openinghours",
+        "EA-Name": "openingsuren",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "String",
         "EA-Type": "attribute",
@@ -3576,7 +3596,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "openinghours"
+            "value": "openingsuren"
           },
           {
             "key": "usageNote-nl",
@@ -3594,11 +3614,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "openinghours"
+          "nl": "openingsuren"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "openinghours"
+          "nl": "openingsuren"
         },
         "sameAs": "",
         "subclass": "",
@@ -3614,14 +3634,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "openinghours"
+        "nl": "openingsuren"
       },
       "label-nl": {
-        "nl": "openinghours"
+        "nl": "openingsuren"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "openinghours",
+      "name": "openingsuren",
       "range": [
         {
           "EA-Name": "String",
@@ -3657,7 +3677,7 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{D8C442B2-9BF5-4a0c-91B4-51AACDAB9E34}",
-        "EA-Name": "endDate",
+        "EA-Name": "eindeDienstVerlening",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "DateTime",
         "EA-Type": "attribute",
@@ -3685,7 +3705,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "endDate"
+            "value": "eindeDienstVerlening"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -3698,11 +3718,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "endDate"
+          "nl": "eindeDienstVerlening"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "endDate"
+          "nl": "eindeDienstVerlening"
         },
         "sameAs": "",
         "subclass": "",
@@ -3718,14 +3738,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "endDate"
+        "nl": "eindeDienstVerlening"
       },
       "label-nl": {
-        "nl": "endDate"
+        "nl": "eindeDienstVerlening"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "enddate",
+      "name": "eindedienstverlening",
       "range": [
         {
           "EA-Name": "DateTime",
@@ -3753,15 +3773,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{633AEC16-9638-4db2-9888-92ACA080B4D2}",
-        "EA-Name": "endDate",
+        "EA-Name": "eindeDienstVerlening",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "DateTime",
         "EA-Type": "attribute",
@@ -3789,7 +3809,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "endDate"
+            "value": "eindeDienstVerlening"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -3802,11 +3822,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "endDate"
+          "nl": "eindeDienstVerlening"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "endDate"
+          "nl": "eindeDienstVerlening"
         },
         "sameAs": "",
         "subclass": "",
@@ -3822,14 +3842,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "endDate"
+        "nl": "eindeDienstVerlening"
       },
       "label-nl": {
-        "nl": "endDate"
+        "nl": "eindeDienstVerlening"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "enddate",
+      "name": "eindedienstverlening",
       "range": [
         {
           "EA-Name": "DateTime",
@@ -3857,15 +3877,15 @@
       },
       "domain": [
         {
-          "EA-Name": "ContactPoint",
+          "EA-Name": "Contactgegevens",
           "uri": "http://schema.org/ContactPoint"
         }
       ],
       "extra": {
-        "EA-Domain": "ContactPoint",
+        "EA-Domain": "Contactgegevens",
         "EA-Domain-Guid": "{A87B22A4-91D0-494a-95F1-8C9B5CFAED6D}",
         "EA-Guid": "{6FEF5BEA-54FD-4a6b-BACD-42BB1DC81E2F}",
-        "EA-Name": "hasEmail",
+        "EA-Name": "email",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "String",
         "EA-Type": "attribute",
@@ -3888,7 +3908,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "hasEmail"
+            "value": "email"
           },
           {
             "key": "usageNote-nl",
@@ -3906,11 +3926,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "hasEmail"
+          "nl": "email"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "hasEmail"
+          "nl": "email"
         },
         "sameAs": "",
         "subclass": "",
@@ -3926,14 +3946,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "hasEmail"
+        "nl": "email"
       },
       "label-nl": {
-        "nl": "hasEmail"
+        "nl": "email"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "hasemail",
+      "name": "email",
       "range": [
         {
           "EA-Name": "String",
@@ -3969,7 +3989,7 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{334A997B-205D-4600-9B48-1CC0DFF3802E}",
-        "EA-Name": "dateModified",
+        "EA-Name": "laatstGewijzigd",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "DateTime",
         "EA-Type": "attribute",
@@ -3987,7 +4007,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "dateModified"
+            "value": "laatstGewijzigd"
           },
           {
             "key": "definition-nl",
@@ -4005,11 +4025,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "dateModified"
+          "nl": "laatstGewijzigd"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "dateModified"
+          "nl": "laatstGewijzigd"
         },
         "sameAs": "",
         "subclass": "",
@@ -4021,14 +4041,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "dateModified"
+        "nl": "laatstGewijzigd"
       },
       "label-nl": {
-        "nl": "dateModified"
+        "nl": "laatstGewijzigd"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "datemodified",
+      "name": "laatstgewijzigd",
       "range": [
         {
           "EA-Name": "DateTime",
@@ -4050,15 +4070,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{CD41FB15-4BF2-4f70-B323-957B4865C00C}",
-        "EA-Name": "dateModified",
+        "EA-Name": "laatstGewijzigd",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "DateTime",
         "EA-Type": "attribute",
@@ -4076,7 +4096,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "dateModified"
+            "value": "laatstGewijzigd"
           },
           {
             "key": "definition-nl",
@@ -4094,11 +4114,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "dateModified"
+          "nl": "laatstGewijzigd"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "dateModified"
+          "nl": "laatstGewijzigd"
         },
         "sameAs": "",
         "subclass": "",
@@ -4110,14 +4130,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "dateModified"
+        "nl": "laatstGewijzigd"
       },
       "label-nl": {
-        "nl": "dateModified"
+        "nl": "laatstGewijzigd"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "datemodified",
+      "name": "laatstgewijzigd",
       "range": [
         {
           "EA-Name": "DateTime",
@@ -4147,7 +4167,7 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{6C24D0E3-3B03-42f7-B545-F543A9938E20}",
-        "EA-Name": "dateCreated",
+        "EA-Name": "creatie",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "DateTime",
         "EA-Type": "attribute",
@@ -4165,7 +4185,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "dateCreated"
+            "value": "creatie"
           },
           {
             "key": "definition-nl",
@@ -4183,11 +4203,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "dateCreated"
+          "nl": "creatie"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "dateCreated"
+          "nl": "creatie"
         },
         "sameAs": "",
         "subclass": "",
@@ -4199,14 +4219,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "dateCreated"
+        "nl": "creatie"
       },
       "label-nl": {
-        "nl": "dateCreated"
+        "nl": "creatie"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "datecreated",
+      "name": "creatie",
       "range": [
         {
           "EA-Name": "DateTime",
@@ -4228,15 +4248,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{57620793-92B7-4533-8114-89D2D973460C}",
-        "EA-Name": "dateCreated",
+        "EA-Name": "creatie",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "DateTime",
         "EA-Type": "attribute",
@@ -4254,7 +4274,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "dateCreated"
+            "value": "creatie"
           },
           {
             "key": "definition-nl",
@@ -4272,11 +4292,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "dateCreated"
+          "nl": "creatie"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "dateCreated"
+          "nl": "creatie"
         },
         "sameAs": "",
         "subclass": "",
@@ -4288,14 +4308,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "dateCreated"
+        "nl": "creatie"
       },
       "label-nl": {
-        "nl": "dateCreated"
+        "nl": "creatie"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "datecreated",
+      "name": "creatie",
       "range": [
         {
           "EA-Name": "DateTime",
@@ -4326,13 +4346,13 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
-        "EA-Name": "produces",
+        "EA-Name": "financieleVoordelen",
         "EA-Package": "",
-        "EA-Range": "FinancialAdvantage",
+        "EA-Range": "FinancieelVoordeel",
         "EA-Type": "connector",
         "RangeData": {
           "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
-          "EA-Name": "FinancialAdvantage",
+          "EA-Name": "FinancieelVoordeel",
           "EA-Package": "IPDC-LPDC",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage"
         },
@@ -4350,7 +4370,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "produces"
+            "value": "financieleVoordelen"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -4365,11 +4385,11 @@
         "destRole": "null",
         "equivalent": "",
         "label": {
-          "nl": "produces"
+          "nl": "financieleVoordelen"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "produces"
+          "nl": "financieleVoordelen"
         },
         "sameAs": "",
         "sourceRole": "null",
@@ -4382,18 +4402,18 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "produces"
+        "nl": "financieleVoordelen"
       },
       "label-nl": {
-        "nl": "produces"
+        "nl": "financieleVoordelen"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "produces",
+      "name": "financielevoordelen",
       "range": [
         {
           "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
-          "EA-Name": "FinancialAdvantage",
+          "EA-Name": "FinancieelVoordeel",
           "EA-Package": "IPDC-LPDC",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage"
         }
@@ -4412,22 +4432,22 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
-        "EA-Name": "produces",
+        "EA-Name": "financieleVoordelen",
         "EA-Package": "",
-        "EA-Range": "FinancialAdvantage",
+        "EA-Range": "FinancieelVoordeel",
         "EA-Type": "connector",
         "RangeData": {
           "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
-          "EA-Name": "FinancialAdvantage",
+          "EA-Name": "FinancieelVoordeel",
           "EA-Package": "IPDC-LPDC",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage"
         },
@@ -4445,7 +4465,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "produces"
+            "value": "financieleVoordelen"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -4460,11 +4480,11 @@
         "destRole": "null",
         "equivalent": "",
         "label": {
-          "nl": "produces"
+          "nl": "financieleVoordelen"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "produces"
+          "nl": "financieleVoordelen"
         },
         "sameAs": "",
         "sourceRole": "null",
@@ -4477,18 +4497,18 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "produces"
+        "nl": "financieleVoordelen"
       },
       "label-nl": {
-        "nl": "produces"
+        "nl": "financieleVoordelen"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "produces",
+      "name": "financielevoordelen",
       "range": [
         {
           "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
-          "EA-Name": "FinancialAdvantage",
+          "EA-Name": "FinancieelVoordeel",
           "EA-Package": "IPDC-LPDC",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage"
         }
@@ -4507,16 +4527,16 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
-        "EA-Name": "follows",
+        "EA-Name": "procedures",
         "EA-Package": "",
         "EA-Range": "Procedure",
         "EA-Type": "connector",
@@ -4540,7 +4560,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "follows"
+            "value": "procedures"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -4555,11 +4575,11 @@
         "destRole": "null",
         "equivalent": "",
         "label": {
-          "nl": "follows"
+          "nl": "procedures"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "follows"
+          "nl": "procedures"
         },
         "sameAs": "",
         "sourceRole": "null",
@@ -4572,14 +4592,14 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "follows"
+        "nl": "procedures"
       },
       "label-nl": {
-        "nl": "follows"
+        "nl": "procedures"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "follows",
+      "name": "procedures",
       "range": [
         {
           "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
@@ -4611,7 +4631,7 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
-        "EA-Name": "follows",
+        "EA-Name": "procedures",
         "EA-Package": "",
         "EA-Range": "Procedure",
         "EA-Type": "connector",
@@ -4635,7 +4655,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "follows"
+            "value": "procedures"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -4650,11 +4670,11 @@
         "destRole": "null",
         "equivalent": "",
         "label": {
-          "nl": "follows"
+          "nl": "procedures"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "follows"
+          "nl": "procedures"
         },
         "sameAs": "",
         "sourceRole": "null",
@@ -4667,14 +4687,14 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "follows"
+        "nl": "procedures"
       },
       "label-nl": {
-        "nl": "follows"
+        "nl": "procedures"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "follows",
+      "name": "procedures",
       "range": [
         {
           "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
@@ -4697,13 +4717,13 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{CB80FF60-F68B-43a4-9F8B-701511288CD0}",
         "EA-Name": "createdBy",
@@ -4903,12 +4923,12 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{B5D5B1DB-550A-4cda-AB41-9E852DA108DC}",
         "EA-Name": "type",
@@ -5014,15 +5034,15 @@
       },
       "domain": [
         {
-          "EA-Name": "LegalResource",
+          "EA-Name": "Regelgeving",
           "uri": "http://data.europa.eu/eli/ontology#LegalResource"
         }
       ],
       "extra": {
-        "EA-Domain": "LegalResource",
+        "EA-Domain": "Regelgeving",
         "EA-Domain-Guid": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
         "EA-Guid": "{FC6284AD-8210-4235-9D96-9911030D3EB6}",
-        "EA-Name": "name",
+        "EA-Name": "naam",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -5036,7 +5056,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "name"
+            "value": "naam"
           },
           {
             "key": "definition-nl",
@@ -5059,11 +5079,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "name"
+          "nl": "naam"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "name"
+          "nl": "naam"
         },
         "sameAs": "",
         "subclass": "",
@@ -5075,14 +5095,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "name"
+        "nl": "naam"
       },
       "label-nl": {
-        "nl": "name"
+        "nl": "naam"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "name",
+      "name": "naam",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -5105,15 +5125,15 @@
       },
       "domain": [
         {
-          "EA-Name": "FinancialAdvantage",
+          "EA-Name": "FinancieelVoordeel",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage"
         }
       ],
       "extra": {
-        "EA-Domain": "FinancialAdvantage",
+        "EA-Domain": "FinancieelVoordeel",
         "EA-Domain-Guid": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
         "EA-Guid": "{A421D277-3F77-46cf-8C63-38C83B6986AA}",
-        "EA-Name": "name",
+        "EA-Name": "naam",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -5137,7 +5157,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "name"
+            "value": "naam"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -5150,11 +5170,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "name"
+          "nl": "naam"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "name"
+          "nl": "naam"
         },
         "sameAs": "",
         "subclass": "",
@@ -5166,14 +5186,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "name"
+        "nl": "naam"
       },
       "label-nl": {
-        "nl": "name"
+        "nl": "naam"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "name",
+      "name": "naam",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -5196,15 +5216,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Cost",
+          "EA-Name": "Kost",
           "uri": "http://data.europa.eu/m8g/Cost"
         }
       ],
       "extra": {
-        "EA-Domain": "Cost",
+        "EA-Domain": "Kost",
         "EA-Domain-Guid": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
         "EA-Guid": "{DF53E3DA-4ECC-42d3-AAC7-8E3E0FCD785E}",
-        "EA-Name": "name",
+        "EA-Name": "naam",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -5228,7 +5248,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "name"
+            "value": "naam"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -5241,11 +5261,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "name"
+          "nl": "naam"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "name"
+          "nl": "naam"
         },
         "sameAs": "",
         "subclass": "",
@@ -5257,14 +5277,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "name"
+        "nl": "naam"
       },
       "label-nl": {
-        "nl": "name"
+        "nl": "naam"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "name",
+      "name": "naam",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -5295,7 +5315,7 @@
         "EA-Domain": "Procedure",
         "EA-Domain-Guid": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
         "EA-Guid": "{3D13A56E-249A-4246-8AD6-EF50E53F4EE7}",
-        "EA-Name": "name",
+        "EA-Name": "naam",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -5319,7 +5339,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "name"
+            "value": "naam"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -5332,11 +5352,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "name"
+          "nl": "naam"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "name"
+          "nl": "naam"
         },
         "sameAs": "",
         "subclass": "",
@@ -5348,14 +5368,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "name"
+        "nl": "naam"
       },
       "label-nl": {
-        "nl": "name"
+        "nl": "naam"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "name",
+      "name": "naam",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -5378,15 +5398,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Evidence",
+          "EA-Name": "Bewijs",
           "uri": "http://data.europa.eu/m8g/Evidence"
         }
       ],
       "extra": {
-        "EA-Domain": "Evidence",
+        "EA-Domain": "Bewijs",
         "EA-Domain-Guid": "{AB091799-B96F-43c2-9DDE-6F32F0100B3C}",
         "EA-Guid": "{2DF8ED2E-6F77-4484-A6CB-CDCFDA38EDF5}",
-        "EA-Name": "name",
+        "EA-Name": "naam",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -5410,7 +5430,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "name"
+            "value": "naam"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -5423,11 +5443,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "name"
+          "nl": "naam"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "name"
+          "nl": "naam"
         },
         "sameAs": "",
         "subclass": "",
@@ -5439,14 +5459,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "name"
+        "nl": "naam"
       },
       "label-nl": {
-        "nl": "name"
+        "nl": "naam"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "name",
+      "name": "naam",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -5469,15 +5489,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Requirement",
+          "EA-Name": "Voorwaarde",
           "uri": "http://data.europa.eu/m8g/Requirement"
         }
       ],
       "extra": {
-        "EA-Domain": "Requirement",
+        "EA-Domain": "Voorwaarde",
         "EA-Domain-Guid": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
         "EA-Guid": "{F84A2EAE-6FDD-4eed-ACB0-4C48426A9CED}",
-        "EA-Name": "name",
+        "EA-Name": "naam",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -5501,7 +5521,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "name"
+            "value": "naam"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -5514,11 +5534,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "name"
+          "nl": "naam"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "name"
+          "nl": "naam"
         },
         "sameAs": "",
         "subclass": "",
@@ -5530,14 +5550,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "name"
+        "nl": "naam"
       },
       "label-nl": {
-        "nl": "name"
+        "nl": "naam"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "name",
+      "name": "naam",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -5568,7 +5588,7 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{0C3F7635-5CAC-4faf-AF06-7B0076C9645F}",
-        "EA-Name": "name",
+        "EA-Name": "naam",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -5592,7 +5612,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "name"
+            "value": "naam"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -5605,11 +5625,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "name"
+          "nl": "naam"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "name"
+          "nl": "naam"
         },
         "sameAs": "",
         "subclass": "",
@@ -5621,14 +5641,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "name"
+        "nl": "naam"
       },
       "label-nl": {
-        "nl": "name"
+        "nl": "naam"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "name",
+      "name": "naam",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -5659,7 +5679,7 @@
         "EA-Domain": "Website",
         "EA-Domain-Guid": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
         "EA-Guid": "{505FD76E-432E-4063-866F-6FCD7B9B0072}",
-        "EA-Name": "name",
+        "EA-Name": "naam",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -5683,7 +5703,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "name"
+            "value": "naam"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -5696,11 +5716,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "name"
+          "nl": "naam"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "name"
+          "nl": "naam"
         },
         "sameAs": "",
         "subclass": "",
@@ -5712,14 +5732,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "name"
+        "nl": "naam"
       },
       "label-nl": {
-        "nl": "name"
+        "nl": "naam"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "name",
+      "name": "naam",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -5742,15 +5762,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{57BE4B30-C0DB-40e3-9EA6-10DD73AC9DA7}",
-        "EA-Name": "name",
+        "EA-Name": "naam",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -5774,7 +5794,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "name"
+            "value": "naam"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -5787,11 +5807,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "name"
+          "nl": "naam"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "name"
+          "nl": "naam"
         },
         "sameAs": "",
         "subclass": "",
@@ -5803,14 +5823,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "name"
+        "nl": "naam"
       },
       "label-nl": {
-        "nl": "name"
+        "nl": "naam"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "name",
+      "name": "naam",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -5833,21 +5853,21 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{58F1C812-357E-4b8d-B24A-5082EEE51314}",
-        "EA-Name": "spatial",
+        "EA-Name": "geografischToepassingsgebieden",
         "EA-Package": "IPDC-LPDC",
-        "EA-Range": "Spatial",
+        "EA-Range": "GeografischToepassingsgebied",
         "EA-Type": "attribute",
         "RangeData": {
           "EA-GUID": "{979347D8-CAD3-4d83-BEE5-8D054D35D54F}",
-          "EA-Name": "Spatial",
+          "EA-Name": "GeografischToepassingsgebied",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
@@ -5860,7 +5880,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "spatial"
+            "value": "geografischToepassingsgebieden"
           },
           {
             "key": "usageNote-nl",
@@ -5888,11 +5908,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "spatial"
+          "nl": "geografischToepassingsgebieden"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "spatial"
+          "nl": "geografischToepassingsgebieden"
         },
         "sameAs": "",
         "subclass": "",
@@ -5908,18 +5928,18 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "spatial"
+        "nl": "geografischToepassingsgebieden"
       },
       "label-nl": {
-        "nl": "spatial"
+        "nl": "geografischToepassingsgebieden"
       },
       "maxCardinality": "*",
       "minCardinality": "1",
-      "name": "spatial",
+      "name": "geografischtoepassingsgebieden",
       "range": [
         {
           "EA-GUID": "{979347D8-CAD3-4d83-BEE5-8D054D35D54F}",
-          "EA-Name": "Spatial",
+          "EA-Name": "GeografischToepassingsgebied",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
@@ -5944,16 +5964,16 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{81D83355-57A6-4a43-9F2D-DC7C00DD6EE7}",
-        "EA-Name": "hasSource",
+        "EA-Name": "linkedConcept",
         "EA-Package": "",
         "EA-Range": "Concept",
         "EA-Type": "connector",
@@ -5972,7 +5992,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "hasSource"
+            "value": "linkedConcept"
           },
           {
             "key": "definition-nl",
@@ -5992,11 +6012,11 @@
         "destRole": "null",
         "equivalent": "",
         "label": {
-          "nl": "hasSource"
+          "nl": "linkedConcept"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "hasSource"
+          "nl": "linkedConcept"
         },
         "sameAs": "",
         "sourceRole": "null",
@@ -6009,14 +6029,14 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "hasSource"
+        "nl": "linkedConcept"
       },
       "label-nl": {
-        "nl": "hasSource"
+        "nl": "linkedConcept"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "hassource",
+      "name": "linkedconcept",
       "range": [
         {
           "EA-GUID": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
@@ -6039,21 +6059,21 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{D9015129-EBE8-4287-AEE3-253E7CD1E256}",
-        "EA-Name": "language",
+        "EA-Name": "talen",
         "EA-Package": "IPDC-LPDC",
-        "EA-Range": "Language",
+        "EA-Range": "TaalDienstverlening",
         "EA-Type": "attribute",
         "RangeData": {
           "EA-GUID": "{30141F06-519E-4f9e-9603-CF44FFCF47C2}",
-          "EA-Name": "Language",
+          "EA-Name": "TaalDienstverlening",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
@@ -6066,7 +6086,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "language"
+            "value": "talen"
           },
           {
             "key": "definition-nl",
@@ -6094,11 +6114,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "language"
+          "nl": "talen"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "language"
+          "nl": "talen"
         },
         "sameAs": "",
         "subclass": "",
@@ -6114,18 +6134,18 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "language"
+        "nl": "talen"
       },
       "label-nl": {
-        "nl": "language"
+        "nl": "talen"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "language",
+      "name": "talen",
       "range": [
         {
           "EA-GUID": "{30141F06-519E-4f9e-9603-CF44FFCF47C2}",
-          "EA-Name": "Language",
+          "EA-Name": "TaalDienstverlening",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
@@ -6150,13 +6170,13 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicServiceSnapshot",
+          "EA-Name": "ConceptSnapshot",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicServiceSnapshot",
+        "EA-Domain": "ConceptSnapshot",
         "EA-Domain-Guid": "{D2B91D18-371A-4811-931C-4C667284F606}",
         "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
         "EA-Name": "isVersionOf",
@@ -6245,22 +6265,22 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicServiceSnapshot",
+          "EA-Name": "InstantieSnapshot",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicServiceSnapshot",
+        "EA-Domain": "InstantieSnapshot",
         "EA-Domain-Guid": "{E861DC27-6881-4243-94C4-EF004C4DF728}",
         "EA-Guid": "{55F34410-3DA0-42fc-A8AD-E43C9735D39E}",
         "EA-Name": "isVersionOf",
         "EA-Package": "",
-        "EA-Range": "InstancePublicService",
+        "EA-Range": "Instantie",
         "EA-Type": "connector",
         "RangeData": {
           "EA-GUID": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "EA-Package": "IPDC-LPDC",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         },
@@ -6321,7 +6341,7 @@
       "range": [
         {
           "EA-GUID": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "EA-Package": "IPDC-LPDC",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
@@ -6340,15 +6360,15 @@
       },
       "domain": [
         {
-          "EA-Name": "LegalResource",
+          "EA-Name": "Regelgeving",
           "uri": "http://data.europa.eu/eli/ontology#LegalResource"
         }
       ],
       "extra": {
-        "EA-Domain": "LegalResource",
+        "EA-Domain": "Regelgeving",
         "EA-Domain-Guid": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
         "EA-Guid": "{0F7BFE4E-D721-4fbd-93CB-DE1D02FDB423}",
-        "EA-Name": "description",
+        "EA-Name": "beschrijving",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -6362,7 +6382,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "description"
+            "value": "beschrijving"
           },
           {
             "key": "usageNote-nl",
@@ -6390,11 +6410,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "description"
+          "nl": "beschrijving"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "description"
+          "nl": "beschrijving"
         },
         "sameAs": "",
         "subclass": "",
@@ -6410,14 +6430,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "label-nl": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "description",
+      "name": "beschrijving",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -6446,15 +6466,15 @@
       },
       "domain": [
         {
-          "EA-Name": "FinancialAdvantage",
+          "EA-Name": "FinancieelVoordeel",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage"
         }
       ],
       "extra": {
-        "EA-Domain": "FinancialAdvantage",
+        "EA-Domain": "FinancieelVoordeel",
         "EA-Domain-Guid": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
         "EA-Guid": "{E2A05D4E-A8E3-40c8-A25C-4F4FAFC8377B}",
-        "EA-Name": "description",
+        "EA-Name": "beschrijving",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -6483,7 +6503,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "description"
+            "value": "beschrijving"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -6496,11 +6516,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "description"
+          "nl": "beschrijving"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "description"
+          "nl": "beschrijving"
         },
         "sameAs": "",
         "subclass": "",
@@ -6516,14 +6536,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "label-nl": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "description",
+      "name": "beschrijving",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -6552,15 +6572,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Cost",
+          "EA-Name": "Kost",
           "uri": "http://data.europa.eu/m8g/Cost"
         }
       ],
       "extra": {
-        "EA-Domain": "Cost",
+        "EA-Domain": "Kost",
         "EA-Domain-Guid": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
         "EA-Guid": "{683B6DD5-08B2-4af6-81F5-0FFBB7F60A9E}",
-        "EA-Name": "description",
+        "EA-Name": "beschrijving",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -6589,7 +6609,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "description"
+            "value": "beschrijving"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -6602,11 +6622,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "description"
+          "nl": "beschrijving"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "description"
+          "nl": "beschrijving"
         },
         "sameAs": "",
         "subclass": "",
@@ -6622,14 +6642,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "label-nl": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "description",
+      "name": "beschrijving",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -6666,7 +6686,7 @@
         "EA-Domain": "Procedure",
         "EA-Domain-Guid": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
         "EA-Guid": "{6C9947D9-26BB-481f-B5CD-286400811433}",
-        "EA-Name": "description",
+        "EA-Name": "beschrijving",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -6695,7 +6715,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "description"
+            "value": "beschrijving"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -6708,11 +6728,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "description"
+          "nl": "beschrijving"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "description"
+          "nl": "beschrijving"
         },
         "sameAs": "",
         "subclass": "",
@@ -6728,14 +6748,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "label-nl": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "description",
+      "name": "beschrijving",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -6764,15 +6784,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Evidence",
+          "EA-Name": "Bewijs",
           "uri": "http://data.europa.eu/m8g/Evidence"
         }
       ],
       "extra": {
-        "EA-Domain": "Evidence",
+        "EA-Domain": "Bewijs",
         "EA-Domain-Guid": "{AB091799-B96F-43c2-9DDE-6F32F0100B3C}",
         "EA-Guid": "{57A2DDC8-6FE6-47fd-AD14-96562D01A2D7}",
-        "EA-Name": "description",
+        "EA-Name": "beschrijving",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -6801,7 +6821,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "description"
+            "value": "beschrijving"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -6814,11 +6834,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "description"
+          "nl": "beschrijving"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "description"
+          "nl": "beschrijving"
         },
         "sameAs": "",
         "subclass": "",
@@ -6834,14 +6854,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "label-nl": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "description",
+      "name": "beschrijving",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -6870,15 +6890,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Requirement",
+          "EA-Name": "Voorwaarde",
           "uri": "http://data.europa.eu/m8g/Requirement"
         }
       ],
       "extra": {
-        "EA-Domain": "Requirement",
+        "EA-Domain": "Voorwaarde",
         "EA-Domain-Guid": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
         "EA-Guid": "{CC44BEEB-CF24-47fc-A678-7EECD0509B4F}",
-        "EA-Name": "description",
+        "EA-Name": "beschrijving",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -6907,7 +6927,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "description"
+            "value": "beschrijving"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -6920,11 +6940,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "description"
+          "nl": "beschrijving"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "description"
+          "nl": "beschrijving"
         },
         "sameAs": "",
         "subclass": "",
@@ -6940,14 +6960,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "label-nl": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "description",
+      "name": "beschrijving",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -6984,7 +7004,7 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{84DC00A9-4183-4799-8255-BDB7878B6BEA}",
-        "EA-Name": "description",
+        "EA-Name": "beschrijving",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -7013,7 +7033,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "description"
+            "value": "beschrijving"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -7026,11 +7046,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "description"
+          "nl": "beschrijving"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "description"
+          "nl": "beschrijving"
         },
         "sameAs": "",
         "subclass": "",
@@ -7046,14 +7066,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "label-nl": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "description",
+      "name": "beschrijving",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -7090,7 +7110,7 @@
         "EA-Domain": "Website",
         "EA-Domain-Guid": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
         "EA-Guid": "{4B4ED25C-CD27-405e-A5DD-04C7D1101ACA}",
-        "EA-Name": "description",
+        "EA-Name": "beschrijving",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -7119,7 +7139,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "description"
+            "value": "beschrijving"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -7132,11 +7152,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "description"
+          "nl": "beschrijving"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "description"
+          "nl": "beschrijving"
         },
         "sameAs": "",
         "subclass": "",
@@ -7152,14 +7172,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "label-nl": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "description",
+      "name": "beschrijving",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -7188,15 +7208,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{E0DAEBF7-0117-4ac4-9D75-1B0933112C9F}",
-        "EA-Name": "description",
+        "EA-Name": "beschrijving",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -7225,7 +7245,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "description"
+            "value": "beschrijving"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -7238,11 +7258,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "description"
+          "nl": "beschrijving"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "description"
+          "nl": "beschrijving"
         },
         "sameAs": "",
         "subclass": "",
@@ -7258,14 +7278,14 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "label-nl": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "description",
+      "name": "beschrijving",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -7302,13 +7322,13 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{C7E22910-1356-4ada-AB90-41B9BDF382D3}",
-        "EA-Name": "theme",
+        "EA-Name": "themas",
         "EA-Package": "IPDC-LPDC",
-        "EA-Range": "Theme",
+        "EA-Range": "Thema",
         "EA-Type": "attribute",
         "RangeData": {
           "EA-GUID": "{B2634D81-F204-4dcc-97ED-469F65090570}",
-          "EA-Name": "Theme",
+          "EA-Name": "Thema",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
@@ -7321,7 +7341,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "theme"
+            "value": "themas"
           },
           {
             "key": "definition-nl",
@@ -7349,11 +7369,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "theme"
+          "nl": "themas"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "theme"
+          "nl": "themas"
         },
         "sameAs": "",
         "subclass": "",
@@ -7369,18 +7389,18 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "theme"
+        "nl": "themas"
       },
       "label-nl": {
-        "nl": "theme"
+        "nl": "themas"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "theme",
+      "name": "themas",
       "range": [
         {
           "EA-GUID": "{B2634D81-F204-4dcc-97ED-469F65090570}",
-          "EA-Name": "Theme",
+          "EA-Name": "Thema",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
@@ -7405,21 +7425,21 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{ABE3FD6D-63D7-4c9e-88F4-CF743CFA07CA}",
-        "EA-Name": "theme",
+        "EA-Name": "themas",
         "EA-Package": "IPDC-LPDC",
-        "EA-Range": "Theme",
+        "EA-Range": "Thema",
         "EA-Type": "attribute",
         "RangeData": {
           "EA-GUID": "{B2634D81-F204-4dcc-97ED-469F65090570}",
-          "EA-Name": "Theme",
+          "EA-Name": "Thema",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
@@ -7432,7 +7452,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "theme"
+            "value": "themas"
           },
           {
             "key": "definition-nl",
@@ -7460,11 +7480,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "theme"
+          "nl": "themas"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "theme"
+          "nl": "themas"
         },
         "sameAs": "",
         "subclass": "",
@@ -7480,18 +7500,18 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "theme"
+        "nl": "themas"
       },
       "label-nl": {
-        "nl": "theme"
+        "nl": "themas"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "theme",
+      "name": "themas",
       "range": [
         {
           "EA-GUID": "{B2634D81-F204-4dcc-97ED-469F65090570}",
-          "EA-Name": "Theme",
+          "EA-Name": "Thema",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
@@ -7516,7 +7536,7 @@
       },
       "domain": [
         {
-          "EA-Name": "Requirement",
+          "EA-Name": "Voorwaarde",
           "uri": "http://data.europa.eu/m8g/Requirement"
         }
       ],
@@ -7528,16 +7548,16 @@
             "value": "NOTE"
           }
         ],
-        "EA-Domain": "Requirement",
+        "EA-Domain": "Voorwaarde",
         "EA-Domain-Guid": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
         "EA-Guid": "{17E9AE4F-5CEA-4cac-80EB-B55C5B5B2CD3}",
-        "EA-Name": "hasSupportingEvidence",
+        "EA-Name": "bewijs",
         "EA-Package": "",
-        "EA-Range": "Evidence",
+        "EA-Range": "Bewijs",
         "EA-Type": "connector",
         "RangeData": {
           "EA-GUID": "{AB091799-B96F-43c2-9DDE-6F32F0100B3C}",
-          "EA-Name": "Evidence",
+          "EA-Name": "Bewijs",
           "EA-Package": "IPDC-LPDC",
           "uri": "http://data.europa.eu/m8g/Evidence"
         },
@@ -7555,7 +7575,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "hasSupportingEvidence"
+            "value": "bewijs"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -7570,11 +7590,11 @@
         "destRole": "null",
         "equivalent": "",
         "label": {
-          "nl": "hasSupportingEvidence"
+          "nl": "bewijs"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "hasSupportingEvidence"
+          "nl": "bewijs"
         },
         "sameAs": "",
         "sourceRole": "null",
@@ -7587,18 +7607,18 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "hasSupportingEvidence"
+        "nl": "bewijs"
       },
       "label-nl": {
-        "nl": "hasSupportingEvidence"
+        "nl": "bewijs"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "hassupportingevidence",
+      "name": "bewijs",
       "range": [
         {
           "EA-GUID": "{AB091799-B96F-43c2-9DDE-6F32F0100B3C}",
-          "EA-Name": "Evidence",
+          "EA-Name": "Bewijs",
           "EA-Package": "IPDC-LPDC",
           "uri": "http://data.europa.eu/m8g/Evidence"
         }
@@ -7626,13 +7646,13 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
-        "EA-Name": "hasLegalResource",
+        "EA-Name": "regelgeving",
         "EA-Package": "",
-        "EA-Range": "LegalResource",
+        "EA-Range": "Regelgeving",
         "EA-Type": "connector",
         "RangeData": {
           "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
-          "EA-Name": "LegalResource",
+          "EA-Name": "Regelgeving",
           "EA-Package": "IPDC-LPDC",
           "uri": "http://data.europa.eu/eli/ontology#LegalResource"
         },
@@ -7650,7 +7670,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "hasLegalResource"
+            "value": "regelgeving"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -7665,11 +7685,11 @@
         "destRole": "null",
         "equivalent": "",
         "label": {
-          "nl": "hasLegalResource"
+          "nl": "regelgeving"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "hasLegalResource"
+          "nl": "regelgeving"
         },
         "sameAs": "",
         "sourceRole": "null",
@@ -7682,18 +7702,18 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "hasLegalResource"
+        "nl": "regelgeving"
       },
       "label-nl": {
-        "nl": "hasLegalResource"
+        "nl": "regelgeving"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "haslegalresource",
+      "name": "regelgeving",
       "range": [
         {
           "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
-          "EA-Name": "LegalResource",
+          "EA-Name": "Regelgeving",
           "EA-Package": "IPDC-LPDC",
           "uri": "http://data.europa.eu/eli/ontology#LegalResource"
         }
@@ -7712,22 +7732,22 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
-        "EA-Name": "hasLegalResource",
+        "EA-Name": "regelgeving",
         "EA-Package": "",
-        "EA-Range": "LegalResource",
+        "EA-Range": "Regelgeving",
         "EA-Type": "connector",
         "RangeData": {
           "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
-          "EA-Name": "LegalResource",
+          "EA-Name": "Regelgeving",
           "EA-Package": "IPDC-LPDC",
           "uri": "http://data.europa.eu/eli/ontology#LegalResource"
         },
@@ -7745,7 +7765,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "hasLegalResource"
+            "value": "regelgeving"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -7760,11 +7780,11 @@
         "destRole": "null",
         "equivalent": "",
         "label": {
-          "nl": "hasLegalResource"
+          "nl": "regelgeving"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "hasLegalResource"
+          "nl": "regelgeving"
         },
         "sameAs": "",
         "sourceRole": "null",
@@ -7777,18 +7797,18 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "hasLegalResource"
+        "nl": "regelgeving"
       },
       "label-nl": {
-        "nl": "hasLegalResource"
+        "nl": "regelgeving"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "haslegalresource",
+      "name": "regelgeving",
       "range": [
         {
           "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
-          "EA-Name": "LegalResource",
+          "EA-Name": "Regelgeving",
           "EA-Package": "IPDC-LPDC",
           "uri": "http://data.europa.eu/eli/ontology#LegalResource"
         }
@@ -7807,22 +7827,22 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
-        "EA-Name": "hasCost",
+        "EA-Name": "kosten",
         "EA-Package": "",
-        "EA-Range": "Cost",
+        "EA-Range": "Kost",
         "EA-Type": "connector",
         "RangeData": {
           "EA-GUID": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
-          "EA-Name": "Cost",
+          "EA-Name": "Kost",
           "EA-Package": "IPDC-LPDC",
           "uri": "http://data.europa.eu/m8g/Cost"
         },
@@ -7840,7 +7860,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "hasCost"
+            "value": "kosten"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -7855,11 +7875,11 @@
         "destRole": "null",
         "equivalent": "",
         "label": {
-          "nl": "hasCost"
+          "nl": "kosten"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "hasCost"
+          "nl": "kosten"
         },
         "sameAs": "",
         "sourceRole": "null",
@@ -7872,18 +7892,18 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "hasCost"
+        "nl": "kosten"
       },
       "label-nl": {
-        "nl": "hasCost"
+        "nl": "kosten"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "hascost",
+      "name": "kosten",
       "range": [
         {
           "EA-GUID": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
-          "EA-Name": "Cost",
+          "EA-Name": "Kost",
           "EA-Package": "IPDC-LPDC",
           "uri": "http://data.europa.eu/m8g/Cost"
         }
@@ -7911,13 +7931,13 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
-        "EA-Name": "hasCost",
+        "EA-Name": "kosten",
         "EA-Package": "",
-        "EA-Range": "Cost",
+        "EA-Range": "Kost",
         "EA-Type": "connector",
         "RangeData": {
           "EA-GUID": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
-          "EA-Name": "Cost",
+          "EA-Name": "Kost",
           "EA-Package": "IPDC-LPDC",
           "uri": "http://data.europa.eu/m8g/Cost"
         },
@@ -7935,7 +7955,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "hasCost"
+            "value": "kosten"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -7950,11 +7970,11 @@
         "destRole": "null",
         "equivalent": "",
         "label": {
-          "nl": "hasCost"
+          "nl": "kosten"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "hasCost"
+          "nl": "kosten"
         },
         "sameAs": "",
         "sourceRole": "null",
@@ -7967,18 +7987,18 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "hasCost"
+        "nl": "kosten"
       },
       "label-nl": {
-        "nl": "hasCost"
+        "nl": "kosten"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "hascost",
+      "name": "kosten",
       "range": [
         {
           "EA-GUID": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
-          "EA-Name": "Cost",
+          "EA-Name": "Kost",
           "EA-Package": "IPDC-LPDC",
           "uri": "http://data.europa.eu/m8g/Cost"
         }
@@ -7997,22 +8017,22 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{836B7326-86C9-4a65-B122-841B3EEA50A6}",
-        "EA-Name": "hasContactPoint",
+        "EA-Name": "contactgegevens",
         "EA-Package": "",
-        "EA-Range": "ContactPoint",
+        "EA-Range": "Contactgegevens",
         "EA-Type": "connector",
         "RangeData": {
           "EA-GUID": "{A87B22A4-91D0-494a-95F1-8C9B5CFAED6D}",
-          "EA-Name": "ContactPoint",
+          "EA-Name": "Contactgegevens",
           "EA-Package": "IPDC-LPDC",
           "uri": "http://schema.org/ContactPoint"
         },
@@ -8025,7 +8045,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "hasContactPoint"
+            "value": "contactgegevens"
           },
           {
             "key": "definition-nl",
@@ -8045,11 +8065,11 @@
         "destRole": "null",
         "equivalent": "",
         "label": {
-          "nl": "hasContactPoint"
+          "nl": "contactgegevens"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "hasContactPoint"
+          "nl": "contactgegevens"
         },
         "sameAs": "",
         "sourceRole": "null",
@@ -8062,18 +8082,18 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "hasContactPoint"
+        "nl": "contactgegevens"
       },
       "label-nl": {
-        "nl": "hasContactPoint"
+        "nl": "contactgegevens"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "hascontactpoint",
+      "name": "contactgegevens",
       "range": [
         {
           "EA-GUID": "{A87B22A4-91D0-494a-95F1-8C9B5CFAED6D}",
-          "EA-Name": "ContactPoint",
+          "EA-Name": "Contactgegevens",
           "EA-Package": "IPDC-LPDC",
           "uri": "http://schema.org/ContactPoint"
         }
@@ -8092,16 +8112,16 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
-        "EA-Name": "hasCompetentAuthority",
+        "EA-Name": "bevoegdeOverheden",
         "EA-Package": "",
         "EA-Range": "PubliekeOrganisatie",
         "EA-Type": "connector",
@@ -8125,7 +8145,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "hasCompetentAuthority"
+            "value": "bevoegdeOverheden"
           }
         ],
         "Scope": "NOTHING",
@@ -8140,11 +8160,11 @@
         "destRole": "null",
         "equivalent": "",
         "label": {
-          "nl": "hasCompetentAuthority"
+          "nl": "bevoegdeOverheden"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "hasCompetentAuthority"
+          "nl": "bevoegdeOverheden"
         },
         "sameAs": "",
         "sourceRole": "null",
@@ -8157,14 +8177,14 @@
       "generalization": [],
       "inpackage": "UNKNOWN",
       "label": {
-        "nl": "hasCompetentAuthority"
+        "nl": "bevoegdeOverheden"
       },
       "label-nl": {
-        "nl": "hasCompetentAuthority"
+        "nl": "bevoegdeOverheden"
       },
       "maxCardinality": "*",
       "minCardinality": "1",
-      "name": "hascompetentauthority",
+      "name": "bevoegdeoverheden",
       "range": [
         {
           "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
@@ -8196,7 +8216,7 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
-        "EA-Name": "hasCompetentAuthority",
+        "EA-Name": "bevoegdeOverheden",
         "EA-Package": "",
         "EA-Range": "PubliekeOrganisatie",
         "EA-Type": "connector",
@@ -8220,7 +8240,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "hasCompetentAuthority"
+            "value": "bevoegdeOverheden"
           }
         ],
         "Scope": "NOTHING",
@@ -8235,11 +8255,11 @@
         "destRole": "null",
         "equivalent": "",
         "label": {
-          "nl": "hasCompetentAuthority"
+          "nl": "bevoegdeOverheden"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "hasCompetentAuthority"
+          "nl": "bevoegdeOverheden"
         },
         "sameAs": "",
         "sourceRole": "null",
@@ -8252,14 +8272,14 @@
       "generalization": [],
       "inpackage": "UNKNOWN",
       "label": {
-        "nl": "hasCompetentAuthority"
+        "nl": "bevoegdeOverheden"
       },
       "label-nl": {
-        "nl": "hasCompetentAuthority"
+        "nl": "bevoegdeOverheden"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "hascompetentauthority",
+      "name": "bevoegdeoverheden",
       "range": [
         {
           "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
@@ -8283,7 +8303,7 @@
       },
       "extra": {
         "EA-Guid": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
-        "EA-Name": "LegalResource",
+        "EA-Name": "Regelgeving",
         "EA-Package": "IPDC-LPDC",
         "EA-Parents": "",
         "EA-Parents2": [],
@@ -8307,7 +8327,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "LegalResource"
+            "value": "Regelgeving"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -8320,11 +8340,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "LegalResource"
+          "nl": "Regelgeving"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "LegalResource"
+          "nl": "Regelgeving"
         },
         "parentclasses": "",
         "sameAs": "",
@@ -8340,12 +8360,12 @@
       },
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "LegalResource"
+        "nl": "Regelgeving"
       },
       "label-nl": {
-        "nl": "LegalResource"
+        "nl": "Regelgeving"
       },
-      "name": "Legalresource",
+      "name": "Regelgeving",
       "usage": {
         "nl": "Link naar de Vlaamse Codex of een ander wetgevingsregister - The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology."
       },
@@ -8365,7 +8385,7 @@
       },
       "extra": {
         "EA-Guid": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
-        "EA-Name": "Cost",
+        "EA-Name": "Kost",
         "EA-Package": "IPDC-LPDC",
         "EA-Parents": "",
         "EA-Parents2": [],
@@ -8384,7 +8404,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "Cost"
+            "value": "Kost"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -8397,11 +8417,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "Cost"
+          "nl": "Kost"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "Cost"
+          "nl": "Kost"
         },
         "parentclasses": "",
         "sameAs": "",
@@ -8413,12 +8433,12 @@
       },
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "Cost"
+        "nl": "Kost"
       },
       "label-nl": {
-        "nl": "Cost"
+        "nl": "Kost"
       },
-      "name": "Cost"
+      "name": "Kost"
     },
     {
       "@id": "http://data.europa.eu/m8g/Evidence",
@@ -8432,7 +8452,7 @@
       },
       "extra": {
         "EA-Guid": "{AB091799-B96F-43c2-9DDE-6F32F0100B3C}",
-        "EA-Name": "Evidence",
+        "EA-Name": "Bewijs",
         "EA-Package": "IPDC-LPDC",
         "EA-Parents": "",
         "EA-Parents2": [],
@@ -8456,7 +8476,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "Evidence"
+            "value": "Bewijs"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -8469,11 +8489,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "Evidence"
+          "nl": "Bewijs"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "Evidence"
+          "nl": "Bewijs"
         },
         "parentclasses": "",
         "sameAs": "",
@@ -8489,12 +8509,12 @@
       },
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "Evidence"
+        "nl": "Bewijs"
       },
       "label-nl": {
-        "nl": "Evidence"
+        "nl": "Bewijs"
       },
-      "name": "Evidence",
+      "name": "Bewijs",
       "usage": {
         "nl": "Although the wording of the definition is different, the semantics are an exact match for CPSV's Input class which it replaces. Evidence can be any resource - document, artefact - anything needed for executing the Public Service."
       },
@@ -8596,7 +8616,7 @@
       },
       "extra": {
         "EA-Guid": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
-        "EA-Name": "Requirement",
+        "EA-Name": "Voorwaarde",
         "EA-Package": "IPDC-LPDC",
         "EA-Parents": "",
         "EA-Parents2": [],
@@ -8620,7 +8640,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "Requirement"
+            "value": "Voorwaarde"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -8633,11 +8653,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "Requirement"
+          "nl": "Voorwaarde"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "Requirement"
+          "nl": "Voorwaarde"
         },
         "parentclasses": "",
         "sameAs": "",
@@ -8653,12 +8673,12 @@
       },
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "Requirement"
+        "nl": "Voorwaarde"
       },
       "label-nl": {
-        "nl": "Requirement"
+        "nl": "Voorwaarde"
       },
-      "name": "Requirement",
+      "name": "Voorwaarde",
       "usage": {
         "nl": "Not all public services are needed or usable by everyone. For example, the visa service operated by European countries is not needed by European citizens but is needed by some citizens from elsewhere, or public services offering unemployment benefits and grants are targeting specific societal groups. This model reuses the Core Criterion and Core Evidence Vocabulary for this class. The CCCEV provides more details but the Requirement class has three mandatory properties."
       },
@@ -8745,7 +8765,7 @@
       },
       "extra": {
         "EA-Guid": "{A87B22A4-91D0-494a-95F1-8C9B5CFAED6D}",
-        "EA-Name": "ContactPoint",
+        "EA-Name": "Contactgegevens",
         "EA-Package": "IPDC-LPDC",
         "EA-Parents": "",
         "EA-Parents2": [],
@@ -8764,7 +8784,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "ContactPoint"
+            "value": "Contactgegevens"
           },
           {
             "key": "usageNote-nl",
@@ -8782,11 +8802,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "ContactPoint"
+          "nl": "Contactgegevens"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "ContactPoint"
+          "nl": "Contactgegevens"
         },
         "parentclasses": "",
         "sameAs": "",
@@ -8802,12 +8822,12 @@
       },
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "ContactPoint"
+        "nl": "Contactgegevens"
       },
       "label-nl": {
-        "nl": "ContactPoint"
+        "nl": "Contactgegevens"
       },
-      "name": "Contactpoint",
+      "name": "Contactgegevens",
       "usage": {
         "nl": "Minstens één van de attributen moet ingevuld zijn met een niet lege waarde."
       },
@@ -8894,7 +8914,7 @@
       },
       "extra": {
         "EA-Guid": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
-        "EA-Name": "Address",
+        "EA-Name": "Adres",
         "EA-Package": "IPDC-LPDC",
         "EA-Parents": "",
         "EA-Parents2": [],
@@ -8903,7 +8923,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "Address"
+            "value": "Adres"
           },
           {
             "key": "definition-nl",
@@ -8931,11 +8951,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "Address"
+          "nl": "Adres"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "Address"
+          "nl": "Adres"
         },
         "parentclasses": "",
         "sameAs": "",
@@ -8951,12 +8971,12 @@
       },
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "Address"
+        "nl": "Adres"
       },
       "label-nl": {
-        "nl": "Address"
+        "nl": "Adres"
       },
-      "name": "Address",
+      "name": "Adres",
       "usage": {
         "nl": "Minstens één van de attributen moet ingevuld zijn met een niet lege waarde."
       },
@@ -9019,13 +9039,13 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{5930CD00-2F2B-4530-9325-8F5A05B7CE9A}",
-        "EA-Name": "yourEuropeCategory",
+        "EA-Name": "yourEuropeCategorieen",
         "EA-Package": "IPDC-LPDC",
-        "EA-Range": "YourEuropeCategory",
+        "EA-Range": "YourEuropeCategorie",
         "EA-Type": "attribute",
         "RangeData": {
           "EA-GUID": "{0FFDCC68-70AA-4365-8AE2-BD4B0122C0A6}",
-          "EA-Name": "YourEuropeCategory",
+          "EA-Name": "YourEuropeCategorie",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
@@ -9048,6 +9068,11 @@
           {
             "key": "label-nl",
             "note": "null",
+            "value": "yourEuropeCategorieen"
+          },
+          {
+            "key": "name",
+            "note": "null",
             "value": "yourEuropeCategory"
           }
         ],
@@ -9061,11 +9086,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "yourEuropeCategory"
+          "nl": "yourEuropeCategorieen"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "yourEuropeCategory"
+          "nl": "yourEuropeCategorieen"
         },
         "sameAs": "",
         "subclass": "",
@@ -9081,18 +9106,18 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "yourEuropeCategory"
+        "nl": "yourEuropeCategorieen"
       },
       "label-nl": {
-        "nl": "yourEuropeCategory"
+        "nl": "yourEuropeCategorieen"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "youreuropecategory",
+      "name": "youreuropecategorieen",
       "range": [
         {
           "EA-GUID": "{0FFDCC68-70AA-4365-8AE2-BD4B0122C0A6}",
-          "EA-Name": "YourEuropeCategory",
+          "EA-Name": "YourEuropeCategorie",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
@@ -9117,21 +9142,21 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{0B93FA7B-89C1-4c68-B764-15913B5E627A}",
-        "EA-Name": "yourEuropeCategory",
+        "EA-Name": "yourEuropeCategorieen",
         "EA-Package": "IPDC-LPDC",
-        "EA-Range": "YourEuropeCategory",
+        "EA-Range": "YourEuropeCategorie",
         "EA-Type": "attribute",
         "RangeData": {
           "EA-GUID": "{0FFDCC68-70AA-4365-8AE2-BD4B0122C0A6}",
-          "EA-Name": "YourEuropeCategory",
+          "EA-Name": "YourEuropeCategorie",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
@@ -9139,7 +9164,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "yourEuropeCategory"
+            "value": "yourEuropeCategorieen"
           },
           {
             "key": "usageNote-nl",
@@ -9155,6 +9180,11 @@
             "key": "ap-codelist",
             "note": "null",
             "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/your-europe-categorie.ttl"
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "yourEuropeCategory"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -9167,11 +9197,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "yourEuropeCategory"
+          "nl": "yourEuropeCategorieen"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "yourEuropeCategory"
+          "nl": "yourEuropeCategorieen"
         },
         "sameAs": "",
         "subclass": "",
@@ -9187,18 +9217,18 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "yourEuropeCategory"
+        "nl": "yourEuropeCategorieen"
       },
       "label-nl": {
-        "nl": "yourEuropeCategory"
+        "nl": "yourEuropeCategorieen"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "youreuropecategory",
+      "name": "youreuropecategorieen",
       "range": [
         {
           "EA-GUID": "{0FFDCC68-70AA-4365-8AE2-BD4B0122C0A6}",
-          "EA-Name": "YourEuropeCategory",
+          "EA-Name": "YourEuropeCategorie",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
@@ -9231,13 +9261,13 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{BC97577C-4E3B-4edb-9E86-2F85BEC00D8F}",
-        "EA-Name": "targetAudience",
+        "EA-Name": "doelgroepen",
         "EA-Package": "IPDC-LPDC",
-        "EA-Range": "TargetAudience",
+        "EA-Range": "Doelgroep",
         "EA-Type": "attribute",
         "RangeData": {
           "EA-GUID": "{365AA96E-B24E-4491-A948-84D43EC6F900}",
-          "EA-Name": "TargetAudience",
+          "EA-Name": "Doelgroep",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
@@ -9245,7 +9275,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "targetAudience"
+            "value": "doelgroepen"
           },
           {
             "key": "usageNote-nl",
@@ -9261,6 +9291,11 @@
             "key": "ap-codelist",
             "note": "null",
             "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/doelgroep.ttl"
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "targetAudience"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -9273,11 +9308,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "targetAudience"
+          "nl": "doelgroepen"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "targetAudience"
+          "nl": "doelgroepen"
         },
         "sameAs": "",
         "subclass": "",
@@ -9293,18 +9328,18 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "targetAudience"
+        "nl": "doelgroepen"
       },
       "label-nl": {
-        "nl": "targetAudience"
+        "nl": "doelgroepen"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "targetaudience",
+      "name": "doelgroepen",
       "range": [
         {
           "EA-GUID": "{365AA96E-B24E-4491-A948-84D43EC6F900}",
-          "EA-Name": "TargetAudience",
+          "EA-Name": "Doelgroep",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
@@ -9329,21 +9364,21 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{D21E1AD3-89A2-4f8c-8CB8-7BEF2ADF15C3}",
-        "EA-Name": "targetAudience",
+        "EA-Name": "doelgroepen",
         "EA-Package": "IPDC-LPDC",
-        "EA-Range": "TargetAudience",
+        "EA-Range": "Doelgroep",
         "EA-Type": "attribute",
         "RangeData": {
           "EA-GUID": "{365AA96E-B24E-4491-A948-84D43EC6F900}",
-          "EA-Name": "TargetAudience",
+          "EA-Name": "Doelgroep",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
@@ -9351,7 +9386,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "targetAudience"
+            "value": "doelgroepen"
           },
           {
             "key": "definition-nl",
@@ -9367,6 +9402,11 @@
             "key": "ap-codelist",
             "note": "null",
             "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/doelgroep.ttl"
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "targetAudience"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -9379,11 +9419,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "targetAudience"
+          "nl": "doelgroepen"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "targetAudience"
+          "nl": "doelgroepen"
         },
         "sameAs": "",
         "subclass": "",
@@ -9399,18 +9439,18 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "targetAudience"
+        "nl": "doelgroepen"
       },
       "label-nl": {
-        "nl": "targetAudience"
+        "nl": "doelgroepen"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "targetaudience",
+      "name": "doelgroepen",
       "range": [
         {
           "EA-GUID": "{365AA96E-B24E-4491-A948-84D43EC6F900}",
-          "EA-Name": "TargetAudience",
+          "EA-Name": "Doelgroep",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
@@ -9443,7 +9483,7 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{F0C35AE7-8323-4dc5-98D9-658096C94D85}",
-        "EA-Name": "regulation",
+        "EA-Name": "regelgevingTekst",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -9472,6 +9512,11 @@
           {
             "key": "label-nl",
             "note": "null",
+            "value": "regelgevingTekst"
+          },
+          {
+            "key": "name",
+            "note": "null",
             "value": "regulation"
           }
         ],
@@ -9485,11 +9530,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "regulation"
+          "nl": "regelgevingTekst"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "regulation"
+          "nl": "regelgevingTekst"
         },
         "sameAs": "",
         "subclass": "",
@@ -9505,14 +9550,14 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "regulation"
+        "nl": "regelgevingTekst"
       },
       "label-nl": {
-        "nl": "regulation"
+        "nl": "regelgevingTekst"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "regulation",
+      "name": "regelgevingtekst",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -9541,15 +9586,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{BCE27EE0-AD5C-4e1a-A038-857E5C47835A}",
-        "EA-Name": "regulation",
+        "EA-Name": "regelgevingTekst",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -9578,6 +9623,11 @@
           {
             "key": "label-nl",
             "note": "null",
+            "value": "regelgevingTekst"
+          },
+          {
+            "key": "name",
+            "note": "null",
             "value": "regulation"
           }
         ],
@@ -9591,11 +9641,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "regulation"
+          "nl": "regelgevingTekst"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "regulation"
+          "nl": "regelgevingTekst"
         },
         "sameAs": "",
         "subclass": "",
@@ -9611,14 +9661,14 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "regulation"
+        "nl": "regelgevingTekst"
       },
       "label-nl": {
-        "nl": "regulation"
+        "nl": "regelgevingTekst"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "regulation",
+      "name": "regelgevingtekst",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -9655,13 +9705,13 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{98EAE277-E6F7-470b-8202-62D1806DD0F6}",
-        "EA-Name": "publicationMedium",
+        "EA-Name": "publicatiekanalen",
         "EA-Package": "IPDC-LPDC",
-        "EA-Range": "PublicationMedium",
+        "EA-Range": "Publicatiekanaal",
         "EA-Type": "attribute",
         "RangeData": {
           "EA-GUID": "{3558D13F-3BF5-4aad-A24E-1F4F96D99A74}",
-          "EA-Name": "PublicationMedium",
+          "EA-Name": "Publicatiekanaal",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
@@ -9669,7 +9719,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "publicationMedium"
+            "value": "publicatiekanalen"
           },
           {
             "key": "definition-nl",
@@ -9685,6 +9735,11 @@
             "key": "ap-codelist",
             "note": "null",
             "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/publicatie-kanaal.ttl"
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "publicationMedium"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -9697,11 +9752,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "publicationMedium"
+          "nl": "publicatiekanalen"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "publicationMedium"
+          "nl": "publicatiekanalen"
         },
         "sameAs": "",
         "subclass": "",
@@ -9717,18 +9772,18 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "publicationMedium"
+        "nl": "publicatiekanalen"
       },
       "label-nl": {
-        "nl": "publicationMedium"
+        "nl": "publicatiekanalen"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "publicationmedium",
+      "name": "publicatiekanalen",
       "range": [
         {
           "EA-GUID": "{3558D13F-3BF5-4aad-A24E-1F4F96D99A74}",
-          "EA-Name": "PublicationMedium",
+          "EA-Name": "Publicatiekanaal",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
@@ -9753,21 +9808,21 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{2E3A0DC8-B414-44fb-A660-273D95A00B74}",
-        "EA-Name": "publicationMedium",
+        "EA-Name": "publicatiekanalen",
         "EA-Package": "IPDC-LPDC",
-        "EA-Range": "PublicationMedium",
+        "EA-Range": "Publicatiekanaal",
         "EA-Type": "attribute",
         "RangeData": {
           "EA-GUID": "{3558D13F-3BF5-4aad-A24E-1F4F96D99A74}",
-          "EA-Name": "PublicationMedium",
+          "EA-Name": "Publicatiekanaal",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
@@ -9775,7 +9830,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "publicationMedium"
+            "value": "publicatiekanalen"
           },
           {
             "key": "definition-nl",
@@ -9791,6 +9846,11 @@
             "key": "ap-codelist",
             "note": "null",
             "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/publicatie-kanaal.ttl"
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "publicationMedium"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -9803,11 +9863,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "publicationMedium"
+          "nl": "publicatiekanalen"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "publicationMedium"
+          "nl": "publicatiekanalen"
         },
         "sameAs": "",
         "subclass": "",
@@ -9823,18 +9883,18 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "publicationMedium"
+        "nl": "publicatiekanalen"
       },
       "label-nl": {
-        "nl": "publicationMedium"
+        "nl": "publicatiekanalen"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "publicationmedium",
+      "name": "publicatiekanalen",
       "range": [
         {
           "EA-GUID": "{3558D13F-3BF5-4aad-A24E-1F4F96D99A74}",
-          "EA-Name": "PublicationMedium",
+          "EA-Name": "Publicatiekanaal",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
@@ -9867,7 +9927,7 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{19E5B70A-3C98-4cc7-BF34-B393B6C8CC6C}",
-        "EA-Name": "isArchived",
+        "EA-Name": "gearchiveerd",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "Boolean",
         "EA-Type": "attribute",
@@ -9880,12 +9940,17 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "isArchived"
+            "value": "gearchiveerd"
           },
           {
             "key": "definition-nl",
             "note": "null",
             "value": "Waarde die aangeeft of het concept gearchiveerd is."
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "isArchived"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -9898,11 +9963,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "isArchived"
+          "nl": "gearchiveerd"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "isArchived"
+          "nl": "gearchiveerd"
         },
         "sameAs": "",
         "subclass": "",
@@ -9914,14 +9979,14 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "isArchived"
+        "nl": "gearchiveerd"
       },
       "label-nl": {
-        "nl": "isArchived"
+        "nl": "gearchiveerd"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "isarchived",
+      "name": "gearchiveerd",
       "range": [
         {
           "EA-Name": "Boolean",
@@ -9943,15 +10008,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{DF9CC690-571E-4b42-938C-7E3E66867FB3}",
-        "EA-Name": "isArchived",
+        "EA-Name": "gearchiveerd",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "Boolean",
         "EA-Type": "attribute",
@@ -9964,12 +10029,17 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "isArchived"
+            "value": "gearchiveerd"
           },
           {
             "key": "definition-nl",
             "note": "null",
             "value": "Waarde die aangeeft of de instantie gearchiveerd is."
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "isArchived"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -9982,11 +10052,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "isArchived"
+          "nl": "gearchiveerd"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "isArchived"
+          "nl": "gearchiveerd"
         },
         "sameAs": "",
         "subclass": "",
@@ -9998,14 +10068,14 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "isArchived"
+        "nl": "gearchiveerd"
       },
       "label-nl": {
-        "nl": "isArchived"
+        "nl": "gearchiveerd"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "isarchived",
+      "name": "gearchiveerd",
       "range": [
         {
           "EA-Name": "Boolean",
@@ -10027,21 +10097,21 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{AA354A19-56F9-401d-8F0A-5C15E68BAC36}",
-        "EA-Name": "instanceTag",
+        "EA-Name": "tags",
         "EA-Package": "IPDC-LPDC",
-        "EA-Range": "InstanceTag",
+        "EA-Range": "InstantieTag",
         "EA-Type": "attribute",
         "RangeData": {
           "EA-GUID": "{16F1EFDB-BECD-41a1-A17A-AC8FDF0B5D68}",
-          "EA-Name": "InstanceTag",
+          "EA-Name": "InstantieTag",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
@@ -10049,7 +10119,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "instanceTag"
+            "value": "tags"
           },
           {
             "key": "definition-nl",
@@ -10065,6 +10135,11 @@
             "key": "ap-codelist",
             "note": "null",
             "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/instantie-tag.ttl"
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "instanceTag"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -10077,11 +10152,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "instanceTag"
+          "nl": "tags"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "instanceTag"
+          "nl": "tags"
         },
         "sameAs": "",
         "subclass": "",
@@ -10097,18 +10172,18 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "instanceTag"
+        "nl": "tags"
       },
       "label-nl": {
-        "nl": "instanceTag"
+        "nl": "tags"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "instancetag",
+      "name": "tags",
       "range": [
         {
           "EA-GUID": "{16F1EFDB-BECD-41a1-A17A-AC8FDF0B5D68}",
-          "EA-Name": "InstanceTag",
+          "EA-Name": "InstantieTag",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
@@ -10141,13 +10216,13 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{7B0DD086-D5D2-4dad-A075-691710038D6F}",
-        "EA-Name": "executingAuthorityLevel",
+        "EA-Name": "uitvoerendBestuursniveaus",
         "EA-Package": "IPDC-LPDC",
-        "EA-Range": "ExecutingAuthorityLevel",
+        "EA-Range": "UitvoerendBestuursniveau",
         "EA-Type": "attribute",
         "RangeData": {
           "EA-GUID": "{E39E55FA-168A-4839-B9B3-1A0EF4A25F80}",
-          "EA-Name": "ExecutingAuthorityLevel",
+          "EA-Name": "UitvoerendBestuursniveau",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
@@ -10155,7 +10230,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "executingAuthorityLevel"
+            "value": "uitvoerendBestuursniveaus"
           },
           {
             "key": "definition-nl",
@@ -10171,6 +10246,11 @@
             "key": "ap-codelist",
             "note": "null",
             "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/uitvoerend-bestuursniveau.ttl"
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "executingAuthorityLevel"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -10183,11 +10263,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "executingAuthorityLevel"
+          "nl": "uitvoerendBestuursniveaus"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "executingAuthorityLevel"
+          "nl": "uitvoerendBestuursniveaus"
         },
         "sameAs": "",
         "subclass": "",
@@ -10203,18 +10283,18 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "executingAuthorityLevel"
+        "nl": "uitvoerendBestuursniveaus"
       },
       "label-nl": {
-        "nl": "executingAuthorityLevel"
+        "nl": "uitvoerendBestuursniveaus"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "executingauthoritylevel",
+      "name": "uitvoerendbestuursniveaus",
       "range": [
         {
           "EA-GUID": "{E39E55FA-168A-4839-B9B3-1A0EF4A25F80}",
-          "EA-Name": "ExecutingAuthorityLevel",
+          "EA-Name": "UitvoerendBestuursniveau",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
@@ -10239,21 +10319,21 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{4656CE62-2DD5-4536-B263-B988EBE8F8C5}",
-        "EA-Name": "executingAuthorityLevel",
+        "EA-Name": "uitvoerendBestuursniveaus",
         "EA-Package": "IPDC-LPDC",
-        "EA-Range": "ExecutingAuthorityLevel",
+        "EA-Range": "UitvoerendBestuursniveau",
         "EA-Type": "attribute",
         "RangeData": {
           "EA-GUID": "{E39E55FA-168A-4839-B9B3-1A0EF4A25F80}",
-          "EA-Name": "ExecutingAuthorityLevel",
+          "EA-Name": "UitvoerendBestuursniveau",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
@@ -10261,7 +10341,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "executingAuthorityLevel"
+            "value": "uitvoerendBestuursniveaus"
           },
           {
             "key": "usageNote-nl",
@@ -10277,6 +10357,11 @@
             "key": "ap-codelist",
             "note": "null",
             "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/uitvoerend-bestuursniveau.ttl"
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "executingAuthorityLevel"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -10289,11 +10374,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "executingAuthorityLevel"
+          "nl": "uitvoerendBestuursniveaus"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "executingAuthorityLevel"
+          "nl": "uitvoerendBestuursniveaus"
         },
         "sameAs": "",
         "subclass": "",
@@ -10309,18 +10394,18 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "executingAuthorityLevel"
+        "nl": "uitvoerendBestuursniveaus"
       },
       "label-nl": {
-        "nl": "executingAuthorityLevel"
+        "nl": "uitvoerendBestuursniveaus"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "executingauthoritylevel",
+      "name": "uitvoerendbestuursniveaus",
       "range": [
         {
           "EA-GUID": "{E39E55FA-168A-4839-B9B3-1A0EF4A25F80}",
-          "EA-Name": "ExecutingAuthorityLevel",
+          "EA-Name": "UitvoerendBestuursniveau",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
@@ -10353,7 +10438,7 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{B862B323-7B57-4ad2-93F0-361BCC804224}",
-        "EA-Name": "exception",
+        "EA-Name": "uitzonderingen",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -10377,6 +10462,11 @@
           {
             "key": "label-nl",
             "note": "null",
+            "value": "uitzonderingen"
+          },
+          {
+            "key": "name",
+            "note": "null",
             "value": "exception"
           }
         ],
@@ -10390,11 +10480,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "exception"
+          "nl": "uitzonderingen"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "exception"
+          "nl": "uitzonderingen"
         },
         "sameAs": "",
         "subclass": "",
@@ -10410,14 +10500,14 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "exception"
+        "nl": "uitzonderingen"
       },
       "label-nl": {
-        "nl": "exception"
+        "nl": "uitzonderingen"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "exception",
+      "name": "uitzonderingen",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -10446,15 +10536,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{C764511E-C0CF-4962-B3F3-DBD64EEDBC4A}",
-        "EA-Name": "exception",
+        "EA-Name": "uitzonderingen",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -10478,6 +10568,11 @@
           {
             "key": "label-nl",
             "note": "null",
+            "value": "uitzonderingen"
+          },
+          {
+            "key": "name",
+            "note": "null",
             "value": "exception"
           }
         ],
@@ -10491,11 +10586,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "exception"
+          "nl": "uitzonderingen"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "exception"
+          "nl": "uitzonderingen"
         },
         "sameAs": "",
         "subclass": "",
@@ -10511,14 +10606,14 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "exception"
+        "nl": "uitzonderingen"
       },
       "label-nl": {
-        "nl": "exception"
+        "nl": "uitzonderingen"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "exception",
+      "name": "uitzonderingen",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -10555,7 +10650,7 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{ABED5991-FC6D-4fd9-84AC-A649AE7054BA}",
-        "EA-Name": "conceptTag",
+        "EA-Name": "tags",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "ConceptTag",
         "EA-Type": "attribute",
@@ -10569,7 +10664,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "conceptTag"
+            "value": "tags"
           },
           {
             "key": "usageNote-nl",
@@ -10585,6 +10680,11 @@
             "key": "ap-codelist",
             "note": "null",
             "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/concept-tag.ttl"
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "conceptTag"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -10597,11 +10697,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "conceptTag"
+          "nl": "tags"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "conceptTag"
+          "nl": "tags"
         },
         "sameAs": "",
         "subclass": "",
@@ -10617,14 +10717,14 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "conceptTag"
+        "nl": "tags"
       },
       "label-nl": {
-        "nl": "conceptTag"
+        "nl": "tags"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "concepttag",
+      "name": "tags",
       "range": [
         {
           "EA-GUID": "{7A3BE628-EECF-423f-8C8F-E0740E9A6CE4}",
@@ -10661,13 +10761,13 @@
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
         "EA-Guid": "{E391A031-6184-4f93-89DD-56CC0A5C29CB}",
-        "EA-Name": "competentAuthorityLevel",
+        "EA-Name": "bevoegdBestuursniveaus",
         "EA-Package": "IPDC-LPDC",
-        "EA-Range": "CompetentAuthorityLevel",
+        "EA-Range": "BevoegdBestuursniveau",
         "EA-Type": "attribute",
         "RangeData": {
           "EA-GUID": "{6E340942-8F33-4cf0-B870-D3BFFFAD7E1B}",
-          "EA-Name": "CompetentAuthorityLevel",
+          "EA-Name": "BevoegdBestuursniveau",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
@@ -10675,7 +10775,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "competentAuthorityLevel"
+            "value": "bevoegdBestuursniveaus"
           },
           {
             "key": "definition-nl",
@@ -10691,6 +10791,11 @@
             "key": "ap-codelist",
             "note": "null",
             "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/bevoegd-bestuursniveau.ttl"
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "competentAuthorityLevel"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -10703,11 +10808,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "competentAuthorityLevel"
+          "nl": "bevoegdBestuursniveaus"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "competentAuthorityLevel"
+          "nl": "bevoegdBestuursniveaus"
         },
         "sameAs": "",
         "subclass": "",
@@ -10723,18 +10828,18 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "competentAuthorityLevel"
+        "nl": "bevoegdBestuursniveaus"
       },
       "label-nl": {
-        "nl": "competentAuthorityLevel"
+        "nl": "bevoegdBestuursniveaus"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "competentauthoritylevel",
+      "name": "bevoegdbestuursniveaus",
       "range": [
         {
           "EA-GUID": "{6E340942-8F33-4cf0-B870-D3BFFFAD7E1B}",
-          "EA-Name": "CompetentAuthorityLevel",
+          "EA-Name": "BevoegdBestuursniveau",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
@@ -10759,21 +10864,21 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{63901009-7C81-44a1-A814-95C0E0D98F5D}",
-        "EA-Name": "competentAuthorityLevel",
+        "EA-Name": "bevoegdBestuursniveaus",
         "EA-Package": "IPDC-LPDC",
-        "EA-Range": "CompetentAuthorityLevel",
+        "EA-Range": "BevoegdBestuursniveau",
         "EA-Type": "attribute",
         "RangeData": {
           "EA-GUID": "{6E340942-8F33-4cf0-B870-D3BFFFAD7E1B}",
-          "EA-Name": "CompetentAuthorityLevel",
+          "EA-Name": "BevoegdBestuursniveau",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
@@ -10781,7 +10886,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "competentAuthorityLevel"
+            "value": "bevoegdBestuursniveaus"
           },
           {
             "key": "definition-nl",
@@ -10797,6 +10902,11 @@
             "key": "ap-codelist",
             "note": "null",
             "value": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/bevoegd-bestuursniveau.ttl"
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "competentAuthorityLevel"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -10809,11 +10919,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "competentAuthorityLevel"
+          "nl": "bevoegdBestuursniveaus"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "competentAuthorityLevel"
+          "nl": "bevoegdBestuursniveaus"
         },
         "sameAs": "",
         "subclass": "",
@@ -10829,18 +10939,18 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "competentAuthorityLevel"
+        "nl": "bevoegdBestuursniveaus"
       },
       "label-nl": {
-        "nl": "competentAuthorityLevel"
+        "nl": "bevoegdBestuursniveaus"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "competentauthoritylevel",
+      "name": "bevoegdbestuursniveaus",
       "range": [
         {
           "EA-GUID": "{6E340942-8F33-4cf0-B870-D3BFFFAD7E1B}",
-          "EA-Name": "CompetentAuthorityLevel",
+          "EA-Name": "BevoegdBestuursniveau",
           "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
@@ -10865,22 +10975,22 @@
       },
       "domain": [
         {
-          "EA-Name": "ContactPoint",
+          "EA-Name": "Contactgegevens",
           "uri": "http://schema.org/ContactPoint"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ContactPoint",
+        "EA-Domain": "Contactgegevens",
         "EA-Domain-Guid": "{A87B22A4-91D0-494a-95F1-8C9B5CFAED6D}",
         "EA-Guid": "{778B0EAB-7B83-4c67-B32F-6FFE8A101460}",
         "EA-Name": "adres",
         "EA-Package": "",
-        "EA-Range": "Address",
+        "EA-Range": "Adres",
         "EA-Type": "connector",
         "RangeData": {
           "EA-GUID": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
-          "EA-Name": "Address",
+          "EA-Name": "Adres",
           "EA-Package": "IPDC-LPDC",
           "uri": "http://www.w3.org/ns/locn#Address"
         },
@@ -10941,7 +11051,7 @@
       "range": [
         {
           "EA-GUID": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
-          "EA-Name": "Address",
+          "EA-Name": "Adres",
           "EA-Package": "IPDC-LPDC",
           "uri": "http://www.w3.org/ns/locn#Address"
         }
@@ -11066,15 +11176,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
+          "EA-Name": "Instantie",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
-        "EA-Domain": "InstancePublicService",
+        "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{9B97F00E-E553-4c2e-96FE-0806FF0CA570}",
-        "EA-Name": "additionalDescription",
+        "EA-Name": "verdereBeschrijving",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
@@ -11098,6 +11208,11 @@
           {
             "key": "label-nl",
             "note": "null",
+            "value": "verdereBeschrijving"
+          },
+          {
+            "key": "name",
+            "note": "null",
             "value": "additionalDescription"
           }
         ],
@@ -11111,11 +11226,11 @@
         },
         "equivalent": "",
         "label": {
-          "nl": "additionalDescription"
+          "nl": "verdereBeschrijving"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "additionalDescription"
+          "nl": "verdereBeschrijving"
         },
         "sameAs": "",
         "subclass": "",
@@ -11131,14 +11246,14 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "additionalDescription"
+        "nl": "verdereBeschrijving"
       },
       "label-nl": {
-        "nl": "additionalDescription"
+        "nl": "verdereBeschrijving"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "additionaldescription",
+      "name": "verderebeschrijving",
       "range": [
         {
           "EA-GUID": "{C02272FC-C129-4649-B911-B47FEDFA9693}",
@@ -11164,7 +11279,7 @@
   "title-nl": {
     "nl": "TODO"
   },
-  "toolchaincommit": "772a5f01eedc6e562f8816741f1d1b58b11d833c",
+  "toolchaincommit": "d060fbd1fc6aa9d830f9822cc451f35cf35c75b8",
   "translation": [
     {
       "language": "nl",

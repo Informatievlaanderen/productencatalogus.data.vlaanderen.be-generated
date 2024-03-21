@@ -173,22 +173,22 @@
         <dc:issued>TODO</dc:issued>
         <rdfs:seeAlso>
           <rdfs:Class rdf:about="http://data.europa.eu/eli/ontology#LegalResource">
-            <rdfs:label xml:lang="nl">LegalResource</rdfs:label>
+            <rdfs:label xml:lang="nl">Regelgeving</rdfs:label>
           </rdfs:Class>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdfs:Class rdf:about="http://data.europa.eu/m8g/Cost">
-            <rdfs:label xml:lang="nl">Cost</rdfs:label>
+            <rdfs:label xml:lang="nl">Kost</rdfs:label>
           </rdfs:Class>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdfs:Class rdf:about="http://data.europa.eu/m8g/Evidence">
-            <rdfs:label xml:lang="nl">Evidence</rdfs:label>
+            <rdfs:label xml:lang="nl">Bewijs</rdfs:label>
           </rdfs:Class>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdfs:Class rdf:about="http://data.europa.eu/m8g/Requirement">
-            <rdfs:label xml:lang="nl">Requirement</rdfs:label>
+            <rdfs:label xml:lang="nl">Voorwaarde</rdfs:label>
           </rdfs:Class>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
@@ -198,7 +198,7 @@
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdfs:Class rdf:about="http://schema.org/ContactPoint">
-            <rdfs:label xml:lang="nl">ContactPoint</rdfs:label>
+            <rdfs:label xml:lang="nl">Contactgegevens</rdfs:label>
           </rdfs:Class>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
@@ -208,12 +208,12 @@
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdfs:Class rdf:about="http://www.w3.org/ns/locn#Address">
-            <rdfs:label xml:lang="nl">Address</rdfs:label>
+            <rdfs:label xml:lang="nl">Adres</rdfs:label>
           </rdfs:Class>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite">
-            <rdfs:label xml:lang="nl">hasWebsite</rdfs:label>
+            <rdfs:label xml:lang="nl">websites</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
@@ -223,27 +223,27 @@
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="https://data.vlaanderen.be/ns/adres#land">
-            <rdfs:label xml:lang="nl">country</rdfs:label>
+            <rdfs:label xml:lang="nl">land</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="https://data.vlaanderen.be/ns/adres#gemeentenaam">
-            <rdfs:label xml:lang="nl">municipality</rdfs:label>
+            <rdfs:label xml:lang="nl">gemeentenaam</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="https://data.vlaanderen.be/ns/adres#Straatnaam">
-            <rdfs:label xml:lang="nl">thoroughfare</rdfs:label>
+            <rdfs:label xml:lang="nl">straatnaam</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer">
-            <rdfs:label xml:lang="nl">houseNumber</rdfs:label>
+            <rdfs:label xml:lang="nl">huisnummer</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer">
-            <rdfs:label xml:lang="nl">mailbox</rdfs:label>
+            <rdfs:label xml:lang="nl">busnummer</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
@@ -258,73 +258,72 @@
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://www.w3.org/ns/dcat#keyword">
-            <rdfs:label xml:lang="nl">keyword</rdfs:label>
+            <rdfs:label xml:lang="nl">zoektermen</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
-            <rdfs:label xml:lang="nl">hasMoreInfo</rdfs:label>
+            <rdfs:label xml:lang="nl">websites</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://vocab.belgif.be/ns/publicservice#hasRequirement">
-            <rdfs:label xml:lang="nl">hasRequirement</rdfs:label>
+            <rdfs:label xml:lang="nl">voorwaarden</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://schema.org/url">
-            <rdfs:label xml:lang="nl">website</rdfs:label>
-            <rdfs:label xml:lang="nl">location</rdfs:label>
+            <rdfs:label xml:lang="nl">url</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://schema.org/telephone">
-            <rdfs:label xml:lang="nl">hasTelephone</rdfs:label>
+            <rdfs:label xml:lang="nl">telefoonnummer</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://schema.org/startDate">
-            <rdfs:label xml:lang="nl">startDate</rdfs:label>
+            <rdfs:label xml:lang="nl">startDienstVerlening</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://schema.org/productID">
-            <rdfs:label xml:lang="nl">productNumber</rdfs:label>
+            <rdfs:label xml:lang="nl">productnummer</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://schema.org/openingHours">
-            <rdfs:label xml:lang="nl">openinghours</rdfs:label>
+            <rdfs:label xml:lang="nl">openingsuren</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://schema.org/endDate">
-            <rdfs:label xml:lang="nl">endDate</rdfs:label>
+            <rdfs:label xml:lang="nl">eindeDienstVerlening</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://schema.org/email">
-            <rdfs:label xml:lang="nl">hasEmail</rdfs:label>
+            <rdfs:label xml:lang="nl">email</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://schema.org/dateModified">
-            <rdfs:label xml:lang="nl">dateModified</rdfs:label>
+            <rdfs:label xml:lang="nl">laatstGewijzigd</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://schema.org/dateCreated">
-            <rdfs:label xml:lang="nl">dateCreated</rdfs:label>
+            <rdfs:label xml:lang="nl">creatie</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://purl.org/vocab/cpsv#produces">
-            <rdfs:label xml:lang="nl">produces</rdfs:label>
+            <rdfs:label xml:lang="nl">financieleVoordelen</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://purl.org/vocab/cpsv#follows">
-            <rdfs:label xml:lang="nl">follows</rdfs:label>
+            <rdfs:label xml:lang="nl">procedures</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
@@ -334,22 +333,22 @@
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://purl.org/dc/terms/title">
-            <rdfs:label xml:lang="nl">name</rdfs:label>
+            <rdfs:label xml:lang="nl">naam</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://purl.org/dc/terms/spatial">
-            <rdfs:label xml:lang="nl">spatial</rdfs:label>
+            <rdfs:label xml:lang="nl">geografischToepassingsgebieden</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://purl.org/dc/terms/source">
-            <rdfs:label xml:lang="nl">hasSource</rdfs:label>
+            <rdfs:label xml:lang="nl">linkedConcept</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://purl.org/dc/terms/language">
-            <rdfs:label xml:lang="nl">language</rdfs:label>
+            <rdfs:label xml:lang="nl">talen</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
@@ -359,56 +358,55 @@
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://purl.org/dc/terms/description">
-            <rdfs:label xml:lang="nl">description</rdfs:label>
+            <rdfs:label xml:lang="nl">beschrijving</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://data.europa.eu/m8g/thematicArea">
-            <rdfs:label xml:lang="nl">theme</rdfs:label>
+            <rdfs:label xml:lang="nl">themas</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://data.europa.eu/m8g/hasSupportingEvidence">
-            <rdfs:label xml:lang="nl">hasSupportingEvidence</rdfs:label>
+            <rdfs:label xml:lang="nl">bewijs</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://data.europa.eu/m8g/hasLegalResource">
-            <rdfs:label xml:lang="nl">hasLegalResource</rdfs:label>
+            <rdfs:label xml:lang="nl">regelgeving</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://data.europa.eu/m8g/hasCost">
-            <rdfs:label xml:lang="nl">hasCost</rdfs:label>
+            <rdfs:label xml:lang="nl">kosten</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
           <rdf:Property rdf:about="http://data.europa.eu/m8g/hasContactPoint">
-            <rdfs:label xml:lang="nl">hasContactPoint</rdfs:label>
+            <rdfs:label xml:lang="nl">contactgegevens</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
       </owl:Ontology>
     </rdfs:isDefinedBy>
-    <rdfs:label xml:lang="nl">ConceptualPublicServiceSnapshot</rdfs:label>
+    <rdfs:label xml:lang="nl">ConceptSnapshot</rdfs:label>
     <rdfs:comment xml:lang="nl">Een conceptsnapshot geeft weer hoe een concept er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe conceptsnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een concept vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse ConceptualPublicService.</rdfs:comment>
     <ns1:usageNote xml:lang="nl">De conceptsnapshots worden door IPDC aan de hand van een linked data event stream (LDES) beschikbaar gemaakt. Deze LDES maakt de volledige historiek van alle concept wijzigingen beschikbaar voor aansluiters. Meer info over LDES is hier beschikbaar: https://semiceu.github.io/LinkedDataEventStreams</ns1:usageNote>
   </owl:Class>
   <owl:Class rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage">
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
-    <rdfs:label xml:lang="nl">FinancialAdvantage</rdfs:label>
+    <rdfs:label xml:lang="nl">FinancieelVoordeel</rdfs:label>
     <rdfs:comment xml:lang="nl">We voorzien een subklasse 'FinancialAdvantage' van 'Output'. Deze beschrijft de premiebedragen/subsidiebedragen die het resultaat van de dienstverlening zijn.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="http://data.europa.eu/m8g/Output"/>
   </owl:Class>
   <owl:Class rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot">
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
-    <rdfs:label xml:lang="nl">InstancePublicServiceSnapshot</rdfs:label>
+    <rdfs:label xml:lang="nl">InstantieSnapshot</rdfs:label>
     <rdfs:comment xml:lang="nl">Een instantiesnapshot geeft weer hoe een instantie er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe instantiesnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een instantie vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse InstancePublicService.</rdfs:comment>
     <ns1:usageNote xml:lang="nl">De instantiesnapshots worden door IPDC aan de hand van een linked data event stream (LDES) beschikbaar gemaakt. Deze LDES maakt de volledige historiek van alle instantie wijzigingen beschikbaar voor aansluiters. Meer info over LDES is hier beschikbaar: https://semiceu.github.io/LinkedDataEventStreams</ns1:usageNote>
   </owl:Class>
   <owl:ObjectProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription">
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
     <rdfs:label xml:lang="nl">verdereBeschrijving</rdfs:label>
-    <rdfs:label xml:lang="nl">additionalDescription</rdfs:label>
     <rdfs:comment xml:lang="nl">This property represents free text for additional information regarding the description of the Public Service.</rdfs:comment>
     <ns1:usageNote xml:lang="nl">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.</ns1:usageNote>
     <rdfs:domain>
@@ -422,7 +420,7 @@
     <rdfs:domain>
       <owl:Class rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService">
         <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
-        <rdfs:label xml:lang="nl">InstancePublicService</rdfs:label>
+        <rdfs:label xml:lang="nl">Instantie</rdfs:label>
         <rdfs:comment xml:lang="nl">Instanties zijn de werkelijke invulling van een product of dienstverlening. De bevoegde overheid kan variëren: federaal, Vlaams, provinciaal,… en de dienstverlening kan uitgevoerd worden door nog een andere overheid zoals een lokaal bestuur. Een overheidsdienstverlening is een verplichte of optionele reeks activiteiten die (kunnen) worden uitgevoerd door of namens een openbare organisatie, publiekelijk gefinancierd en voortkomend uit het openbaar beleid. Diensten kunnen ten goede komen aan een individu, een organisatie of vereniging, een onderneming of een andere overheidsinstantie, of aan groepen van een van deze partijen. Een dienst bestaat ongeacht of deze wordt gebruikt of niet. Volgens de herziene versie van het Europees Interoperabiliteitskader omvat een Europese openbare dienst elke dienst die wordt verleend door overheidsinstanties in Europa, of door andere organisaties namens hen, aan bedrijven, burgers of andere overheidsinstanties.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
       </owl:Class>
@@ -438,7 +436,7 @@
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel">
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
-    <rdfs:label xml:lang="nl">competentAuthorityLevel</rdfs:label>
+    <rdfs:label xml:lang="nl">bevoegdBestuursniveaus</rdfs:label>
     <rdfs:comment xml:lang="nl">Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</rdfs:comment>
     <ns1:usageNote xml:lang="nl">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</ns1:usageNote>
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"/>
@@ -447,7 +445,7 @@
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#conceptTag">
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
-    <rdfs:label xml:lang="nl">conceptTag</rdfs:label>
+    <rdfs:label xml:lang="nl">tags</rdfs:label>
     <rdfs:comment xml:lang="nl">Concept tag voor een publieke dienst concept. Deze codelijst is in het beheer van het IPDC - LPDC team.</rdfs:comment>
     <ns1:usageNote xml:lang="nl">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</ns1:usageNote>
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"/>
@@ -455,7 +453,7 @@
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception">
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
-    <rdfs:label xml:lang="nl">exception</rdfs:label>
+    <rdfs:label xml:lang="nl">uitzonderingen</rdfs:label>
     <rdfs:comment xml:lang="nl">Tekstveld waarin uitzonderingen op procedures, kostprijzen, ... kunnen aangegeven worden</rdfs:comment>
     <rdfs:comment xml:lang="nl">Tekstveld waarin uitzondering op procedures, kostprijzen, ... kunnen aangegeven worden</rdfs:comment>
     <ns1:usageNote xml:lang="nl">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.</ns1:usageNote>
@@ -465,7 +463,7 @@
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel">
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
-    <rdfs:label xml:lang="nl">executingAuthorityLevel</rdfs:label>
+    <rdfs:label xml:lang="nl">uitvoerendBestuursniveaus</rdfs:label>
     <rdfs:comment xml:lang="nl">Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</rdfs:comment>
     <ns1:usageNote xml:lang="nl">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</ns1:usageNote>
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"/>
@@ -474,7 +472,7 @@
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag">
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
-    <rdfs:label xml:lang="nl">instanceTag</rdfs:label>
+    <rdfs:label xml:lang="nl">tags</rdfs:label>
     <rdfs:comment xml:lang="nl">Instantie tag voor een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</rdfs:comment>
     <ns1:usageNote xml:lang="nl">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Momenteel zijn er geen geldige waardes.</ns1:usageNote>
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"/>
@@ -482,7 +480,7 @@
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived">
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
-    <rdfs:label xml:lang="nl">isArchived</rdfs:label>
+    <rdfs:label xml:lang="nl">gearchiveerd</rdfs:label>
     <rdfs:comment xml:lang="nl">Waarde die aangeeft of het concept gearchiveerd is.</rdfs:comment>
     <rdfs:comment xml:lang="nl">Waarde die aangeeft of de instantie gearchiveerd is.</rdfs:comment>
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"/>
@@ -491,7 +489,7 @@
   </owl:DatatypeProperty>
   <owl:ObjectProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium">
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
-    <rdfs:label xml:lang="nl">publicationMedium</rdfs:label>
+    <rdfs:label xml:lang="nl">publicatiekanalen</rdfs:label>
     <rdfs:comment xml:lang="nl">Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.</rdfs:comment>
     <ns1:usageNote xml:lang="nl">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn.</ns1:usageNote>
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"/>
@@ -500,7 +498,7 @@
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation">
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
-    <rdfs:label xml:lang="nl">regulation</rdfs:label>
+    <rdfs:label xml:lang="nl">regelgevingTekst</rdfs:label>
     <rdfs:comment xml:lang="nl">Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden.</rdfs:comment>
     <ns1:usageNote xml:lang="nl">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.
 Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.</ns1:usageNote>
@@ -510,7 +508,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience">
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
-    <rdfs:label xml:lang="nl">targetAudience</rdfs:label>
+    <rdfs:label xml:lang="nl">doelgroepen</rdfs:label>
     <rdfs:comment xml:lang="nl">Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team.</rdfs:comment>
     <ns1:usageNote xml:lang="nl">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</ns1:usageNote>
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"/>
@@ -519,7 +517,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory">
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
-    <rdfs:label xml:lang="nl">yourEuropeCategory</rdfs:label>
+    <rdfs:label xml:lang="nl">yourEuropeCategorieen</rdfs:label>
     <rdfs:comment xml:lang="nl">YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst.</rdfs:comment>
     <ns1:usageNote xml:lang="nl">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</ns1:usageNote>
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"/>

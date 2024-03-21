@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/ba00939157f771e5f67f719a405196b9ed9b6b70",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/ba00939157f771e5f67f719a405196b9ed9b6b70/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/00c121a1003901b0cbce8e61c20c5f2a3ee905c0",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/00c121a1003901b0cbce8e61c20c5f2a3ee905c0/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -40,11 +40,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot",
-      "name": "Conceptualpublicservicesnapshot",
+      "name": "Conceptsnapshot",
       "label": {
-        "nl": "ConceptualPublicServiceSnapshot"
+        "nl": "ConceptSnapshot"
       },
-      "sort": "ConceptualPublicServiceSnapshot",
+      "sort": "ConceptSnapshot",
       "description": {
         "nl": "Een conceptsnapshot geeft weer hoe een concept er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe conceptsnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een concept vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse ConceptualPublicService."
       },
@@ -56,11 +56,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage",
-      "name": "Financialadvantage",
+      "name": "Financieelvoordeel",
       "label": {
-        "nl": "FinancialAdvantage"
+        "nl": "FinancieelVoordeel"
       },
-      "sort": "FinancialAdvantage",
+      "sort": "FinancieelVoordeel",
       "description": {
         "nl": "We voorzien een subklasse 'FinancialAdvantage' van 'Output'. Deze beschrijft de premiebedragen/subsidiebedragen die het resultaat van de dienstverlening zijn."
       },
@@ -72,11 +72,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
-      "name": "Instancepublicservice",
+      "name": "Instantie",
       "label": {
-        "nl": "InstancePublicService"
+        "nl": "Instantie"
       },
-      "sort": "InstancePublicService",
+      "sort": "Instantie",
       "description": {
         "nl": "Instanties zijn de werkelijke invulling van een product of dienstverlening. De bevoegde overheid kan variëren: federaal, Vlaams, provinciaal, en de dienstverlening kan uitgevoerd worden door nog een andere overheid zoals een lokaal bestuur. Een overheidsdienstverlening is een verplichte of optionele reeks activiteiten die (kunnen) worden uitgevoerd door of namens een openbare organisatie, publiekelijk gefinancierd en voortkomend uit het openbaar beleid. Diensten kunnen ten goede komen aan een individu, een organisatie of vereniging, een onderneming of een andere overheidsinstantie, of aan groepen van een van deze partijen. Een dienst bestaat ongeacht of deze wordt gebruikt of niet. Volgens de herziene versie van het Europees Interoperabiliteitskader omvat een Europese openbare dienst elke dienst die wordt verleend door overheidsinstanties in Europa, of door andere organisaties namens hen, aan bedrijven, burgers of andere overheidsinstanties."
       },
@@ -88,11 +88,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot",
-      "name": "Instancepublicservicesnapshot",
+      "name": "Instantiesnapshot",
       "label": {
-        "nl": "InstancePublicServiceSnapshot"
+        "nl": "InstantieSnapshot"
       },
-      "sort": "InstancePublicServiceSnapshot",
+      "sort": "InstantieSnapshot",
       "description": {
         "nl": "Een instantiesnapshot geeft weer hoe een instantie er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe instantiesnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een instantie vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse InstancePublicService."
       },
@@ -106,11 +106,11 @@
   "properties": [
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory",
-      "name": "youreuropecategory",
+      "name": "youreuropecategorieen",
       "label": {
-        "nl": "yourEuropeCategory"
+        "nl": "yourEuropeCategorieen"
       },
-      "sort": "yourEuropeCategory",
+      "sort": "yourEuropeCategorieen",
       "description": {
         "nl": "YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst."
       },
@@ -127,11 +127,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory",
-      "name": "youreuropecategory",
+      "name": "youreuropecategorieen",
       "label": {
-        "nl": "yourEuropeCategory"
+        "nl": "yourEuropeCategorieen"
       },
-      "sort": "yourEuropeCategory",
+      "sort": "yourEuropeCategorieen",
       "description": {
         "nl": "YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst."
       },
@@ -148,11 +148,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience",
-      "name": "targetaudience",
+      "name": "doelgroepen",
       "label": {
-        "nl": "targetAudience"
+        "nl": "doelgroepen"
       },
-      "sort": "targetAudience",
+      "sort": "doelgroepen",
       "description": {
         "nl": "Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team."
       },
@@ -169,11 +169,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience",
-      "name": "targetaudience",
+      "name": "doelgroepen",
       "label": {
-        "nl": "targetAudience"
+        "nl": "doelgroepen"
       },
-      "sort": "targetAudience",
+      "sort": "doelgroepen",
       "description": {
         "nl": "Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team."
       },
@@ -190,11 +190,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation",
-      "name": "regulation",
+      "name": "regelgevingtekst",
       "label": {
-        "nl": "regulation"
+        "nl": "regelgevingTekst"
       },
-      "sort": "regulation",
+      "sort": "regelgevingTekst",
       "description": {
         "nl": "Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden."
       },
@@ -211,11 +211,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation",
-      "name": "regulation",
+      "name": "regelgevingtekst",
       "label": {
-        "nl": "regulation"
+        "nl": "regelgevingTekst"
       },
-      "sort": "regulation",
+      "sort": "regelgevingTekst",
       "description": {
         "nl": "Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden."
       },
@@ -232,11 +232,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium",
-      "name": "publicationmedium",
+      "name": "publicatiekanalen",
       "label": {
-        "nl": "publicationMedium"
+        "nl": "publicatiekanalen"
       },
-      "sort": "publicationMedium",
+      "sort": "publicatiekanalen",
       "description": {
         "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
       },
@@ -253,11 +253,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium",
-      "name": "publicationmedium",
+      "name": "publicatiekanalen",
       "label": {
-        "nl": "publicationMedium"
+        "nl": "publicatiekanalen"
       },
-      "sort": "publicationMedium",
+      "sort": "publicatiekanalen",
       "description": {
         "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
       },
@@ -274,11 +274,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
-      "name": "isarchived",
+      "name": "gearchiveerd",
       "label": {
-        "nl": "isArchived"
+        "nl": "gearchiveerd"
       },
-      "sort": "isArchived",
+      "sort": "gearchiveerd",
       "description": {
         "nl": "Waarde die aangeeft of het concept gearchiveerd is."
       },
@@ -293,11 +293,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
-      "name": "isarchived",
+      "name": "gearchiveerd",
       "label": {
-        "nl": "isArchived"
+        "nl": "gearchiveerd"
       },
-      "sort": "isArchived",
+      "sort": "gearchiveerd",
       "description": {
         "nl": "Waarde die aangeeft of de instantie gearchiveerd is."
       },
@@ -312,11 +312,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag",
-      "name": "instancetag",
+      "name": "tags",
       "label": {
-        "nl": "instanceTag"
+        "nl": "tags"
       },
-      "sort": "instanceTag",
+      "sort": "tags",
       "description": {
         "nl": "Instantie tag voor een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
       },
@@ -333,11 +333,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
-      "name": "executingauthoritylevel",
+      "name": "uitvoerendbestuursniveaus",
       "label": {
-        "nl": "executingAuthorityLevel"
+        "nl": "uitvoerendBestuursniveaus"
       },
-      "sort": "executingAuthorityLevel",
+      "sort": "uitvoerendBestuursniveaus",
       "description": {
         "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
       },
@@ -354,11 +354,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
-      "name": "executingauthoritylevel",
+      "name": "uitvoerendbestuursniveaus",
       "label": {
-        "nl": "executingAuthorityLevel"
+        "nl": "uitvoerendBestuursniveaus"
       },
-      "sort": "executingAuthorityLevel",
+      "sort": "uitvoerendBestuursniveaus",
       "description": {
         "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
       },
@@ -375,11 +375,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
-      "name": "exception",
+      "name": "uitzonderingen",
       "label": {
-        "nl": "exception"
+        "nl": "uitzonderingen"
       },
-      "sort": "exception",
+      "sort": "uitzonderingen",
       "description": {
         "nl": "Tekstveld waarin uitzonderingen op procedures, kostprijzen, ... kunnen aangegeven worden"
       },
@@ -396,11 +396,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
-      "name": "exception",
+      "name": "uitzonderingen",
       "label": {
-        "nl": "exception"
+        "nl": "uitzonderingen"
       },
-      "sort": "exception",
+      "sort": "uitzonderingen",
       "description": {
         "nl": "Tekstveld waarin uitzondering op procedures, kostprijzen, ... kunnen aangegeven worden"
       },
@@ -417,11 +417,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#conceptTag",
-      "name": "concepttag",
+      "name": "tags",
       "label": {
-        "nl": "conceptTag"
+        "nl": "tags"
       },
-      "sort": "conceptTag",
+      "sort": "tags",
       "description": {
         "nl": "Concept tag voor een publieke dienst concept. Deze codelijst is in het beheer van het IPDC - LPDC team."
       },
@@ -438,11 +438,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel",
-      "name": "competentauthoritylevel",
+      "name": "bevoegdbestuursniveaus",
       "label": {
-        "nl": "competentAuthorityLevel"
+        "nl": "bevoegdBestuursniveaus"
       },
-      "sort": "competentAuthorityLevel",
+      "sort": "bevoegdBestuursniveaus",
       "description": {
         "nl": "Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
       },
@@ -459,11 +459,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel",
-      "name": "competentauthoritylevel",
+      "name": "bevoegdbestuursniveaus",
       "label": {
-        "nl": "competentAuthorityLevel"
+        "nl": "bevoegdBestuursniveaus"
       },
-      "sort": "competentAuthorityLevel",
+      "sort": "bevoegdBestuursniveaus",
       "description": {
         "nl": "Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
       },
@@ -520,11 +520,11 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription",
-      "name": "additionaldescription",
+      "name": "verderebeschrijving",
       "label": {
-        "nl": "additionalDescription"
+        "nl": "verdereBeschrijving"
       },
-      "sort": "additionalDescription",
+      "sort": "verdereBeschrijving",
       "description": {
         "nl": "This property represents free text for additional information regarding the description of the Public Service."
       },
@@ -665,9 +665,9 @@
   "external_terms": [
     {
       "uri": "http://data.europa.eu/eli/ontology#LegalResource",
-      "name": "Legalresource",
+      "name": "Regelgeving",
       "label": {
-        "nl": "LegalResource"
+        "nl": "Regelgeving"
       },
       "description": {
         "nl": "This class represents the legislation, policy or policies that lie behind the Rules that govern the service."
@@ -675,7 +675,7 @@
       "usage": {
         "nl": "Link naar de Vlaamse Codex of een ander wetgevingsregister - The definition and properties of the Legal Resource class in the CPSV-AP are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition ...) we refer to the ELI ontology."
       },
-      "sort": "LegalResource",
+      "sort": "Regelgeving",
       "indvl": false,
       "inpackage": false,
       "inscope": true,
@@ -683,15 +683,15 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/Cost",
-      "name": "Cost",
+      "name": "Kost",
       "label": {
-        "nl": "Cost"
+        "nl": "Kost"
       },
       "description": {
         "nl": "The Cost class represents any costs related to the execution of a Public Service that the Agent consuming it needs to pay."
       },
       "usage": {},
-      "sort": "Cost",
+      "sort": "Kost",
       "indvl": false,
       "inpackage": false,
       "inscope": true,
@@ -699,9 +699,9 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/Evidence",
-      "name": "Evidence",
+      "name": "Bewijs",
       "label": {
-        "nl": "Evidence"
+        "nl": "Bewijs"
       },
       "description": {
         "nl": "The Evidence class is defined in the Core Criterion and Core Evidence vocabulary (CCCEV) as any resource that can document or support a response. It contains information that proves that a normal requirement exists or is true."
@@ -709,7 +709,7 @@
       "usage": {
         "nl": "Although the wording of the definition is different, the semantics are an exact match for CPSV's Input class which it replaces. Evidence can be any resource - document, artefact - anything needed for executing the Public Service."
       },
-      "sort": "Evidence",
+      "sort": "Bewijs",
       "indvl": false,
       "inpackage": false,
       "inscope": true,
@@ -717,9 +717,9 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/Requirement",
-      "name": "Requirement",
+      "name": "Voorwaarde",
       "label": {
-        "nl": "Requirement"
+        "nl": "Voorwaarde"
       },
       "description": {
         "nl": "A normal requirement is an atomic requirement. Some criteria can be expressed with several atomic requirements. A normal requirement can specify the expected value that the requirement response has to contain, or a range of threshold values within which the requirement response has to fit in. The normal requirement may apply to a certain period of time. It also can provide a list of candidate evidences that the responder can use to prove the normal requirement."
@@ -727,7 +727,7 @@
       "usage": {
         "nl": "Not all public services are needed or usable by everyone. For example, the visa service operated by European countries is not needed by European citizens but is needed by some citizens from elsewhere, or public services offering unemployment benefits and grants are targeting specific societal groups. This model reuses the Core Criterion and Core Evidence Vocabulary for this class. The CCCEV provides more details but the Requirement class has three mandatory properties."
       },
-      "sort": "Requirement",
+      "sort": "Voorwaarde",
       "indvl": false,
       "inpackage": false,
       "inscope": true,
@@ -751,9 +751,9 @@
     },
     {
       "uri": "http://schema.org/ContactPoint",
-      "name": "Contactpoint",
+      "name": "Contactgegevens",
       "label": {
-        "nl": "ContactPoint"
+        "nl": "Contactgegevens"
       },
       "description": {
         "nl": "This class represents the contact information for a Public Service, Channel, Public Organization, etc. It is defined in the Core Public Organization Vocabulary and is provided as a schema:ContactPoint. Like Channel, a Contact Point may have regular opening hours that are then overridden by, for example, public holidays, using the Opening Hours Specification class."
@@ -761,7 +761,7 @@
       "usage": {
         "nl": "Minstens één van de attributen moet ingevuld zijn met een niet lege waarde."
       },
-      "sort": "ContactPoint",
+      "sort": "Contactgegevens",
       "indvl": false,
       "inpackage": false,
       "inscope": true,
@@ -785,9 +785,9 @@
     },
     {
       "uri": "http://www.w3.org/ns/locn#Address",
-      "name": "Address",
+      "name": "Adres",
       "label": {
-        "nl": "Address"
+        "nl": "Adres"
       },
       "description": {
         "nl": "Adres dat men kan aanschrijven of bezoeken."
@@ -795,7 +795,7 @@
       "usage": {
         "nl": "Minstens één van de attributen moet ingevuld zijn met een niet lege waarde."
       },
-      "sort": "Address",
+      "sort": "Adres",
       "indvl": false,
       "inpackage": false,
       "inscope": true,
@@ -803,15 +803,15 @@
     },
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite",
-      "name": "haswebsite",
+      "name": "websites",
       "label": {
-        "nl": "hasWebsite"
+        "nl": "websites"
       },
       "description": {
         "nl": "Link naar online locatie waar de procedure opgestart kan worden."
       },
       "usage": {},
-      "sort": "hasWebsite",
+      "sort": "websites",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -941,9 +941,9 @@
     },
     {
       "uri": "http://www.w3.org/ns/dcat#keyword",
-      "name": "keyword",
+      "name": "zoektermen",
       "label": {
-        "nl": "keyword"
+        "nl": "zoektermen"
       },
       "description": {
         "nl": "This property represents a keyword, term or phrase to describe the Public Service."
@@ -951,7 +951,7 @@
       "usage": {
         "nl": "Er mogen meerdere termen per taal zijn. Dit in tegenstelling tot alle andere velden van het type TaalString."
       },
-      "sort": "keyword",
+      "sort": "zoektermen",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -959,9 +959,9 @@
     },
     {
       "uri": "http://www.w3.org/ns/dcat#keyword",
-      "name": "keyword",
+      "name": "zoektermen",
       "label": {
-        "nl": "keyword"
+        "nl": "zoektermen"
       },
       "description": {
         "nl": "This property represents a keyword, term or phrase to describe the Public Service."
@@ -969,7 +969,7 @@
       "usage": {
         "nl": "Er mogen meerdere termen per taal zijn. Dit in tegenstelling tot alle andere velden van het type TaalString."
       },
-      "sort": "keyword",
+      "sort": "zoektermen",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -977,15 +977,15 @@
     },
     {
       "uri": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-      "name": "hasmoreinfo",
+      "name": "websites",
       "label": {
-        "nl": "hasMoreInfo"
+        "nl": "websites"
       },
       "description": {
         "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
       },
       "usage": {},
-      "sort": "hasMoreInfo",
+      "sort": "websites",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -993,15 +993,15 @@
     },
     {
       "uri": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-      "name": "hasmoreinfo",
+      "name": "websites",
       "label": {
-        "nl": "hasMoreInfo"
+        "nl": "websites"
       },
       "description": {
         "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
       },
       "usage": {},
-      "sort": "hasMoreInfo",
+      "sort": "websites",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1009,15 +1009,15 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
-      "name": "hasrequirement",
+      "name": "voorwaarden",
       "label": {
-        "nl": "hasRequirement"
+        "nl": "voorwaarden"
       },
       "description": {
         "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
       },
       "usage": {},
-      "sort": "hasRequirement",
+      "sort": "voorwaarden",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1025,15 +1025,15 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
-      "name": "hasrequirement",
+      "name": "voorwaarden",
       "label": {
-        "nl": "hasRequirement"
+        "nl": "voorwaarden"
       },
       "description": {
         "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
       },
       "usage": {},
-      "sort": "hasRequirement",
+      "sort": "voorwaarden",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1041,9 +1041,9 @@
     },
     {
       "uri": "http://schema.org/url",
-      "name": "website",
+      "name": "url",
       "label": {
-        "nl": "website"
+        "nl": "url"
       },
       "description": {
         "nl": "De url van de website"
@@ -1051,7 +1051,7 @@
       "usage": {
         "nl": "Website locatie moet voldoen aan het formaat beschreven in RFC1738: https://datatracker.ietf.org/doc/html/rfc1738#section-3.3"
       },
-      "sort": "website",
+      "sort": "url",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1059,9 +1059,9 @@
     },
     {
       "uri": "http://schema.org/url",
-      "name": "location",
+      "name": "url",
       "label": {
-        "nl": "location"
+        "nl": "url"
       },
       "description": {
         "nl": "De url van de legal resource"
@@ -1069,7 +1069,7 @@
       "usage": {
         "nl": "Legal resource locatie moet voldoen aan het formaat beschreven in RFC1738: https://datatracker.ietf.org/doc/html/rfc1738#section-3.3"
       },
-      "sort": "location",
+      "sort": "url",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1077,9 +1077,9 @@
     },
     {
       "uri": "http://schema.org/url",
-      "name": "location",
+      "name": "url",
       "label": {
-        "nl": "location"
+        "nl": "url"
       },
       "description": {
         "nl": "De url van de website"
@@ -1087,7 +1087,7 @@
       "usage": {
         "nl": "Website locatie moet voldoen aan het formaat beschreven in RFC1738: https://datatracker.ietf.org/doc/html/rfc1738#section-3.3"
       },
-      "sort": "location",
+      "sort": "url",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1095,15 +1095,15 @@
     },
     {
       "uri": "http://schema.org/telephone",
-      "name": "hastelephone",
+      "name": "telefoonnummer",
       "label": {
-        "nl": "hasTelephone"
+        "nl": "telefoonnummer"
       },
       "description": {
         "nl": "A property through which a phone number for the Public Organization, or a representative of it, can be contacted."
       },
       "usage": {},
-      "sort": "hasTelephone",
+      "sort": "telefoonnummer",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1111,9 +1111,9 @@
     },
     {
       "uri": "http://schema.org/startDate",
-      "name": "startdate",
+      "name": "startdienstverlening",
       "label": {
-        "nl": "startDate"
+        "nl": "startDienstVerlening"
       },
       "description": {
         "nl": "Datum waarop de publieke dienstverlening actief aangeboden werd/wordt"
@@ -1121,7 +1121,7 @@
       "usage": {
         "nl": "Een lege startdatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als een startdatum heel ver in het verleden."
       },
-      "sort": "startDate",
+      "sort": "startDienstVerlening",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1129,9 +1129,9 @@
     },
     {
       "uri": "http://schema.org/startDate",
-      "name": "startdate",
+      "name": "startdienstverlening",
       "label": {
-        "nl": "startDate"
+        "nl": "startDienstVerlening"
       },
       "description": {
         "nl": "Datum waarop de publieke dienstverlening actief aangeboden werd/wordt"
@@ -1139,7 +1139,7 @@
       "usage": {
         "nl": "Een lege startdatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als een startdatum heel ver in het verleden."
       },
-      "sort": "startDate",
+      "sort": "startDienstVerlening",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1147,9 +1147,9 @@
     },
     {
       "uri": "http://schema.org/productID",
-      "name": "productnumber",
+      "name": "productnummer",
       "label": {
-        "nl": "productNumber"
+        "nl": "productnummer"
       },
       "description": {
         "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
@@ -1157,7 +1157,7 @@
       "usage": {
         "nl": "Bij het aanmaken van een nieuw concept kan geen productnummer doorgegeven worden aan IPDC of LPDC. De productnummers worden beheerd door IPDC en bij creatie van een nieuw concept zal een uniek productnummer toegekend worden in IPDC. Hierdoor zal bij het uitlezen van IPDC steeds een productnummer beschikbaar zijn op elk concept."
       },
-      "sort": "productNumber",
+      "sort": "productnummer",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1165,9 +1165,9 @@
     },
     {
       "uri": "http://schema.org/productID",
-      "name": "productnumber",
+      "name": "productnummer",
       "label": {
-        "nl": "productNumber"
+        "nl": "productnummer"
       },
       "description": {
         "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
@@ -1175,7 +1175,7 @@
       "usage": {
         "nl": "Bij het aanmaken van een nieuwe instantie kan geen productnummer doorgegeven worden aan IPDC of LPDC. De productnummers worden beheerd door IPDC en bij creatie van een nieuwe instantie zal een uniek productnummer toegekend worden in IPDC. Hierdoor zal bij het uitlezen van IPDC steeds een productnummer beschikbaar zijn op elke instantie."
       },
-      "sort": "productNumber",
+      "sort": "productnummer",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1183,9 +1183,9 @@
     },
     {
       "uri": "http://schema.org/openingHours",
-      "name": "openinghours",
+      "name": "openingsuren",
       "label": {
-        "nl": "openinghours"
+        "nl": "openingsuren"
       },
       "description": {
         "nl": "The value of this property is structured text that gives the hours at which the contact point is normally available."
@@ -1193,7 +1193,7 @@
       "usage": {
         "nl": "Days are specified using two-letter combinations: Mo, Tu, We, Th, Fr, Sa, Su. For example, if the contact point is open Monday-Friday, 9 -5, the value of the openingHours property would be Mo-Fr 09:00-17:00. If the Contact Point is only available on Tuesday and Thursday between 6 and 8pm, the value would be Tu,Th 16:00-20:00."
       },
-      "sort": "openinghours",
+      "sort": "openingsuren",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1201,9 +1201,9 @@
     },
     {
       "uri": "http://schema.org/endDate",
-      "name": "enddate",
+      "name": "eindedienstverlening",
       "label": {
-        "nl": "endDate"
+        "nl": "eindeDienstVerlening"
       },
       "description": {
         "nl": "Datum waarop de publieke dienstverlening stopgezet werd/wordt"
@@ -1211,7 +1211,7 @@
       "usage": {
         "nl": "Een lege einddatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als geen einddatum."
       },
-      "sort": "endDate",
+      "sort": "eindeDienstVerlening",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1219,9 +1219,9 @@
     },
     {
       "uri": "http://schema.org/endDate",
-      "name": "enddate",
+      "name": "eindedienstverlening",
       "label": {
-        "nl": "endDate"
+        "nl": "eindeDienstVerlening"
       },
       "description": {
         "nl": "Datum waarop de publieke dienstverlening stopgezet werd/wordt"
@@ -1229,7 +1229,7 @@
       "usage": {
         "nl": "Een lege einddatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als geen einddatum."
       },
-      "sort": "endDate",
+      "sort": "eindeDienstVerlening",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1237,9 +1237,9 @@
     },
     {
       "uri": "http://schema.org/email",
-      "name": "hasemail",
+      "name": "email",
       "label": {
-        "nl": "hasEmail"
+        "nl": "email"
       },
       "description": {
         "nl": "A property through which an e-mail address for the Public Organization, or a representative of it, can be contacted."
@@ -1247,7 +1247,7 @@
       "usage": {
         "nl": "Email adres moet voldoen aan het formaat beschreven in RFC2822: https://datatracker.ietf.org/doc/html/rfc2822#section-3.4.1"
       },
-      "sort": "hasEmail",
+      "sort": "email",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1255,15 +1255,15 @@
     },
     {
       "uri": "http://schema.org/dateModified",
-      "name": "datemodified",
+      "name": "laatstgewijzigd",
       "label": {
-        "nl": "dateModified"
+        "nl": "laatstGewijzigd"
       },
       "description": {
         "nl": "Tijdstip waarop het concept door een redacteur laatst werd gewijzigd."
       },
       "usage": {},
-      "sort": "dateModified",
+      "sort": "laatstGewijzigd",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1271,15 +1271,15 @@
     },
     {
       "uri": "http://schema.org/dateModified",
-      "name": "datemodified",
+      "name": "laatstgewijzigd",
       "label": {
-        "nl": "dateModified"
+        "nl": "laatstGewijzigd"
       },
       "description": {
         "nl": "Tijdstip waarop de instantie door een redacteur laatst werd gewijzigd."
       },
       "usage": {},
-      "sort": "dateModified",
+      "sort": "laatstGewijzigd",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1287,15 +1287,15 @@
     },
     {
       "uri": "http://schema.org/dateCreated",
-      "name": "datecreated",
+      "name": "creatie",
       "label": {
-        "nl": "dateCreated"
+        "nl": "creatie"
       },
       "description": {
         "nl": "Tijdstip waarop het concept door een redacteur werd aangemaakt."
       },
       "usage": {},
-      "sort": "dateCreated",
+      "sort": "creatie",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1303,15 +1303,15 @@
     },
     {
       "uri": "http://schema.org/dateCreated",
-      "name": "datecreated",
+      "name": "creatie",
       "label": {
-        "nl": "dateCreated"
+        "nl": "creatie"
       },
       "description": {
         "nl": "Tijdstip waarop de instantie door een redacteur werd aangemaakt."
       },
       "usage": {},
-      "sort": "dateCreated",
+      "sort": "creatie",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1319,15 +1319,15 @@
     },
     {
       "uri": "http://purl.org/vocab/cpsv#produces",
-      "name": "produces",
+      "name": "financielevoordelen",
       "label": {
-        "nl": "produces"
+        "nl": "financieleVoordelen"
       },
       "description": {
         "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
       },
       "usage": {},
-      "sort": "produces",
+      "sort": "financieleVoordelen",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1335,15 +1335,15 @@
     },
     {
       "uri": "http://purl.org/vocab/cpsv#produces",
-      "name": "produces",
+      "name": "financielevoordelen",
       "label": {
-        "nl": "produces"
+        "nl": "financieleVoordelen"
       },
       "description": {
         "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
       },
       "usage": {},
-      "sort": "produces",
+      "sort": "financieleVoordelen",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1351,15 +1351,15 @@
     },
     {
       "uri": "http://purl.org/vocab/cpsv#follows",
-      "name": "follows",
+      "name": "procedures",
       "label": {
-        "nl": "follows"
+        "nl": "procedures"
       },
       "description": {
         "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
       },
       "usage": {},
-      "sort": "follows",
+      "sort": "procedures",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1367,15 +1367,15 @@
     },
     {
       "uri": "http://purl.org/vocab/cpsv#follows",
-      "name": "follows",
+      "name": "procedures",
       "label": {
-        "nl": "follows"
+        "nl": "procedures"
       },
       "description": {
         "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
       },
       "usage": {},
-      "sort": "follows",
+      "sort": "procedures",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1419,15 +1419,15 @@
     },
     {
       "uri": "http://purl.org/dc/terms/title",
-      "name": "name",
+      "name": "naam",
       "label": {
-        "nl": "name"
+        "nl": "naam"
       },
       "description": {
         "nl": "This property represents the name of the legal resource."
       },
       "usage": {},
-      "sort": "name",
+      "sort": "naam",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1435,15 +1435,15 @@
     },
     {
       "uri": "http://purl.org/dc/terms/title",
-      "name": "name",
+      "name": "naam",
       "label": {
-        "nl": "name"
+        "nl": "naam"
       },
       "description": {
         "nl": "This property represents the official Name of the Output."
       },
       "usage": {},
-      "sort": "name",
+      "sort": "naam",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1451,15 +1451,15 @@
     },
     {
       "uri": "http://purl.org/dc/terms/title",
-      "name": "name",
+      "name": "naam",
       "label": {
-        "nl": "name"
+        "nl": "naam"
       },
       "description": {
         "nl": "This property represents the name of the cost."
       },
       "usage": {},
-      "sort": "name",
+      "sort": "naam",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1467,15 +1467,15 @@
     },
     {
       "uri": "http://purl.org/dc/terms/title",
-      "name": "name",
+      "name": "naam",
       "label": {
-        "nl": "name"
+        "nl": "naam"
       },
       "description": {
         "nl": "This property represents the Name of the Rule."
       },
       "usage": {},
-      "sort": "name",
+      "sort": "naam",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1483,15 +1483,15 @@
     },
     {
       "uri": "http://purl.org/dc/terms/title",
-      "name": "name",
+      "name": "naam",
       "label": {
-        "nl": "name"
+        "nl": "naam"
       },
       "description": {
         "nl": "This property represents the official Name of the Evidence."
       },
       "usage": {},
-      "sort": "name",
+      "sort": "naam",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1499,15 +1499,15 @@
     },
     {
       "uri": "http://purl.org/dc/terms/title",
-      "name": "name",
+      "name": "naam",
       "label": {
-        "nl": "name"
+        "nl": "naam"
       },
       "description": {
         "nl": "This property represents the official Name of the Requirement."
       },
       "usage": {},
-      "sort": "name",
+      "sort": "naam",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1515,15 +1515,15 @@
     },
     {
       "uri": "http://purl.org/dc/terms/title",
-      "name": "name",
+      "name": "naam",
       "label": {
-        "nl": "name"
+        "nl": "naam"
       },
       "description": {
         "nl": "This property represents the official Name of the Public Service."
       },
       "usage": {},
-      "sort": "name",
+      "sort": "naam",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1531,15 +1531,15 @@
     },
     {
       "uri": "http://purl.org/dc/terms/title",
-      "name": "name",
+      "name": "naam",
       "label": {
-        "nl": "name"
+        "nl": "naam"
       },
       "description": {
         "nl": "This property represents the name of the website."
       },
       "usage": {},
-      "sort": "name",
+      "sort": "naam",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1547,15 +1547,15 @@
     },
     {
       "uri": "http://purl.org/dc/terms/title",
-      "name": "name",
+      "name": "naam",
       "label": {
-        "nl": "name"
+        "nl": "naam"
       },
       "description": {
         "nl": "This property represents the official Name of the Public Service."
       },
       "usage": {},
-      "sort": "name",
+      "sort": "naam",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1563,9 +1563,9 @@
     },
     {
       "uri": "http://purl.org/dc/terms/spatial",
-      "name": "spatial",
+      "name": "geografischtoepassingsgebieden",
       "label": {
-        "nl": "spatial"
+        "nl": "geografischToepassingsgebieden"
       },
       "description": {
         "nl": "Geografisch toepassingsgebied van een pubieke dienst. Het geografisch toepassingsgebied wordt voorgesteld aan de hand van een NUTS of LAU code. NUTS codes zijn hierarisch ingedeeld in 4 niveau's. Op het hoogste niveau, NUTS 0, worden de landen ingedeeld en krijgt belgie de code BE. Eén niveau daaronder, NUTS 1, deelt Belgie verder op in de gewesten. Zo krijgt het Vlaams Gewest code BE2. Elk gewest wordt op zijn beurt op NUTS 2 niveau verder ingedeeld in de provincies. Zo krijgt de provincie Antwerpen bijvoorbeeld code BE21. Elke provincie wordt vervolgens op NUTS 3 niveau nog onderverdeeld in arrondissmenten. Zo krijgt het arrondissment Mechelen code BE212. Een fijnere opdeling in gemeenten kan vervolgens gemaakt worden met de LAU codes. Zo krijgt de gemeente Kontich LAU code 11024. Meer informatie over deze opdeling is hier terug te vinden: https://ec.europa.eu/eurostat/web/nuts. Zowel de NUTS als LAU codes worden beheerd door Eurostat. We volgen momenteel de NUTS 2021 classificatie en de laatst gevalideerde LAU 2019 classificatie. De NUTS codelijst wordt door Europa gepubliceerd op https://publications.europa.eu/resource/authority/nuts. Deze gaat echter niet tot op LAU niveau er bestaat ook geen gepubliceerde codelijst voor de LAU codes. Als oplossing maakte het IPDC - LPDC team een uitbreiding op de NUTS codelijst en werd een extra hierarchish niveau onder NUTS 3 toegevoegd om ook de gemeentes met hun LAU code beschikbaar te maken. De code voor een gemeente in deze codelijst is de concatenatie van de omvattende NUTS3 code voor de gemeente en de LAU code. Zo krijgt de gemeente Kontich bijvoorbeeld de code BE21111024."
@@ -1573,7 +1573,7 @@
       "usage": {
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Dit zijn alle NUTS en LAU codes die binnen het Vlaams Gewest en Brussels Hoofdstedelijk Gewest vallen en het Federaal niveau voorstellen."
       },
-      "sort": "spatial",
+      "sort": "geografischToepassingsgebieden",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1581,15 +1581,15 @@
     },
     {
       "uri": "http://purl.org/dc/terms/source",
-      "name": "hassource",
+      "name": "linkedconcept",
       "label": {
-        "nl": "hasSource"
+        "nl": "linkedConcept"
       },
       "description": {
         "nl": "Het concept op basis van welk deze instantie aangemaakt werd. De teksten van het concept werden gebruikt als sjabloonteksten gebruikt bij het aanmaken van de instantie. Instanties die werden aangemaakt op basis van hetzelfde concept worden via deze relatie gegroepeerd bij het gemeenschappelijke concept."
       },
       "usage": {},
-      "sort": "hasSource",
+      "sort": "linkedConcept",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1597,9 +1597,9 @@
     },
     {
       "uri": "http://purl.org/dc/terms/language",
-      "name": "language",
+      "name": "talen",
       "label": {
-        "nl": "language"
+        "nl": "talen"
       },
       "description": {
         "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
@@ -1607,7 +1607,7 @@
       "usage": {
         "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG. De language concept URI's maken gebruik van het http protocol."
       },
-      "sort": "language",
+      "sort": "talen",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1647,9 +1647,9 @@
     },
     {
       "uri": "http://purl.org/dc/terms/description",
-      "name": "description",
+      "name": "beschrijving",
       "label": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "description": {
         "nl": "This property represents a free text description of the legal resource."
@@ -1657,7 +1657,7 @@
       "usage": {
         "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
       },
-      "sort": "description",
+      "sort": "beschrijving",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1665,9 +1665,9 @@
     },
     {
       "uri": "http://purl.org/dc/terms/description",
-      "name": "description",
+      "name": "beschrijving",
       "label": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "description": {
         "nl": "This property represents a free text Description of the Output."
@@ -1675,7 +1675,7 @@
       "usage": {
         "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
       },
-      "sort": "description",
+      "sort": "beschrijving",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1683,9 +1683,9 @@
     },
     {
       "uri": "http://purl.org/dc/terms/description",
-      "name": "description",
+      "name": "beschrijving",
       "label": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "description": {
         "nl": "This property represents a free text description of the Cost."
@@ -1693,7 +1693,7 @@
       "usage": {
         "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
       },
-      "sort": "description",
+      "sort": "beschrijving",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1701,9 +1701,9 @@
     },
     {
       "uri": "http://purl.org/dc/terms/description",
-      "name": "description",
+      "name": "beschrijving",
       "label": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "description": {
         "nl": "This property represents a free text Description of the Rule."
@@ -1711,7 +1711,7 @@
       "usage": {
         "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
       },
-      "sort": "description",
+      "sort": "beschrijving",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1719,9 +1719,9 @@
     },
     {
       "uri": "http://purl.org/dc/terms/description",
-      "name": "description",
+      "name": "beschrijving",
       "label": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "description": {
         "nl": "Geeft omschrijving van de vereiste input"
@@ -1729,7 +1729,7 @@
       "usage": {
         "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
       },
-      "sort": "description",
+      "sort": "beschrijving",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1737,9 +1737,9 @@
     },
     {
       "uri": "http://purl.org/dc/terms/description",
-      "name": "description",
+      "name": "beschrijving",
       "label": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "description": {
         "nl": "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement being instantiated."
@@ -1747,7 +1747,7 @@
       "usage": {
         "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
       },
-      "sort": "description",
+      "sort": "beschrijving",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1755,9 +1755,9 @@
     },
     {
       "uri": "http://purl.org/dc/terms/description",
-      "name": "description",
+      "name": "beschrijving",
       "label": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "description": {
         "nl": "This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information."
@@ -1765,7 +1765,7 @@
       "usage": {
         "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
       },
-      "sort": "description",
+      "sort": "beschrijving",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1773,9 +1773,9 @@
     },
     {
       "uri": "http://purl.org/dc/terms/description",
-      "name": "description",
+      "name": "beschrijving",
       "label": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "description": {
         "nl": "This property represents a free text description of the Website."
@@ -1783,7 +1783,7 @@
       "usage": {
         "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
       },
-      "sort": "description",
+      "sort": "beschrijving",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1791,9 +1791,9 @@
     },
     {
       "uri": "http://purl.org/dc/terms/description",
-      "name": "description",
+      "name": "beschrijving",
       "label": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "description": {
         "nl": "This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information."
@@ -1801,7 +1801,7 @@
       "usage": {
         "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
       },
-      "sort": "description",
+      "sort": "beschrijving",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1809,9 +1809,9 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/thematicArea",
-      "name": "theme",
+      "name": "themas",
       "label": {
-        "nl": "theme"
+        "nl": "themas"
       },
       "description": {
         "nl": "Thema van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
@@ -1819,7 +1819,7 @@
       "usage": {
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
       },
-      "sort": "theme",
+      "sort": "themas",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1827,9 +1827,9 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/thematicArea",
-      "name": "theme",
+      "name": "themas",
       "label": {
-        "nl": "theme"
+        "nl": "themas"
       },
       "description": {
         "nl": "Thema van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
@@ -1837,7 +1837,7 @@
       "usage": {
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
       },
-      "sort": "theme",
+      "sort": "themas",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1845,15 +1845,15 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/hasSupportingEvidence",
-      "name": "hassupportingevidence",
+      "name": "bewijs",
       "label": {
-        "nl": "hasSupportingEvidence"
+        "nl": "bewijs"
       },
       "description": {
         "nl": "The Evidence that supplies information (proof, support) for this Requirement."
       },
       "usage": {},
-      "sort": "hasSupportingEvidence",
+      "sort": "bewijs",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1861,15 +1861,15 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/hasLegalResource",
-      "name": "haslegalresource",
+      "name": "regelgeving",
       "label": {
-        "nl": "hasLegalResource"
+        "nl": "regelgeving"
       },
       "description": {
         "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
       },
       "usage": {},
-      "sort": "hasLegalResource",
+      "sort": "regelgeving",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1877,15 +1877,15 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/hasLegalResource",
-      "name": "haslegalresource",
+      "name": "regelgeving",
       "label": {
-        "nl": "hasLegalResource"
+        "nl": "regelgeving"
       },
       "description": {
         "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
       },
       "usage": {},
-      "sort": "hasLegalResource",
+      "sort": "regelgeving",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1893,15 +1893,15 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/hasCost",
-      "name": "hascost",
+      "name": "kosten",
       "label": {
-        "nl": "hasCost"
+        "nl": "kosten"
       },
       "description": {
         "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
       },
       "usage": {},
-      "sort": "hasCost",
+      "sort": "kosten",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1909,15 +1909,15 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/hasCost",
-      "name": "hascost",
+      "name": "kosten",
       "label": {
-        "nl": "hasCost"
+        "nl": "kosten"
       },
       "description": {
         "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
       },
       "usage": {},
-      "sort": "hasCost",
+      "sort": "kosten",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1925,15 +1925,15 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/hasContactPoint",
-      "name": "hascontactpoint",
+      "name": "contactgegevens",
       "label": {
-        "nl": "hasContactPoint"
+        "nl": "contactgegevens"
       },
       "description": {
         "nl": "A contact point for the service is almost always helpful. The value of this property, the contact information itself, should be provided using schema:ContactPoint. Note that the contact information should be relevant to the Public Service which may not be the same as contact information for the Competent Authority or any Participant."
       },
       "usage": {},
-      "sort": "hasContactPoint",
+      "sort": "contactgegevens",
       "inscope": true,
       "indvl": false,
       "inpackage": false,

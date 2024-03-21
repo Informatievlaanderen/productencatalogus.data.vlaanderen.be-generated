@@ -163,7 +163,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "label": {
-        "nl": "ConceptualPublicServiceSnapshot"
+        "nl": "ConceptSnapshot"
       },
       "definition": {
         "nl": "Een conceptsnapshot geeft weer hoe een concept er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe conceptsnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een concept vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse ConceptualPublicService."
@@ -177,7 +177,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "label": {
-        "nl": "FinancialAdvantage"
+        "nl": "FinancieelVoordeel"
       },
       "definition": {
         "nl": "We voorzien een subklasse 'FinancialAdvantage' van 'Output'. Deze beschrijft de premiebedragen/subsidiebedragen die het resultaat van de dienstverlening zijn."
@@ -190,7 +190,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "label": {
-        "nl": "InstancePublicService"
+        "nl": "Instantie"
       },
       "definition": {
         "nl": "Instanties zijn de werkelijke invulling van een product of dienstverlening. De bevoegde overheid kan variëren: federaal, Vlaams, provinciaal, en de dienstverlening kan uitgevoerd worden door nog een andere overheid zoals een lokaal bestuur. Een overheidsdienstverlening is een verplichte of optionele reeks activiteiten die (kunnen) worden uitgevoerd door of namens een openbare organisatie, publiekelijk gefinancierd en voortkomend uit het openbaar beleid. Diensten kunnen ten goede komen aan een individu, een organisatie of vereniging, een onderneming of een andere overheidsinstantie, of aan groepen van een van deze partijen. Een dienst bestaat ongeacht of deze wordt gebruikt of niet. Volgens de herziene versie van het Europees Interoperabiliteitskader omvat een Europese openbare dienst elke dienst die wordt verleend door overheidsinstanties in Europa, of door andere organisaties namens hen, aan bedrijven, burgers of andere overheidsinstanties."
@@ -203,7 +203,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "label": {
-        "nl": "InstancePublicServiceSnapshot"
+        "nl": "InstantieSnapshot"
       },
       "definition": {
         "nl": "Een instantiesnapshot geeft weer hoe een instantie er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe instantiesnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een instantie vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse InstancePublicService."
@@ -217,28 +217,28 @@
   "externals": [
     {
       "name": {
-        "nl": "LegalResource"
+        "nl": "Regelgeving"
       },
       "@id": "http://data.europa.eu/eli/ontology#LegalResource",
       "@type": "rdfs:Class"
     },
     {
       "name": {
-        "nl": "Cost"
+        "nl": "Kost"
       },
       "@id": "http://data.europa.eu/m8g/Cost",
       "@type": "rdfs:Class"
     },
     {
       "name": {
-        "nl": "Evidence"
+        "nl": "Bewijs"
       },
       "@id": "http://data.europa.eu/m8g/Evidence",
       "@type": "rdfs:Class"
     },
     {
       "name": {
-        "nl": "Requirement"
+        "nl": "Voorwaarde"
       },
       "@id": "http://data.europa.eu/m8g/Requirement",
       "@type": "rdfs:Class"
@@ -252,7 +252,7 @@
     },
     {
       "name": {
-        "nl": "ContactPoint"
+        "nl": "Contactgegevens"
       },
       "@id": "http://schema.org/ContactPoint",
       "@type": "rdfs:Class"
@@ -266,7 +266,7 @@
     },
     {
       "name": {
-        "nl": "Address"
+        "nl": "Adres"
       },
       "@id": "http://www.w3.org/ns/locn#Address",
       "@type": "rdfs:Class"
@@ -277,7 +277,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "label": {
-        "nl": "yourEuropeCategory"
+        "nl": "yourEuropeCategorieen"
       },
       "definition": {
         "nl": "YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst."
@@ -297,7 +297,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "label": {
-        "nl": "yourEuropeCategory"
+        "nl": "yourEuropeCategorieen"
       },
       "definition": {
         "nl": "YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst."
@@ -317,7 +317,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "label": {
-        "nl": "targetAudience"
+        "nl": "doelgroepen"
       },
       "definition": {
         "nl": "Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team."
@@ -337,7 +337,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "label": {
-        "nl": "targetAudience"
+        "nl": "doelgroepen"
       },
       "definition": {
         "nl": "Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team."
@@ -357,7 +357,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "label": {
-        "nl": "regulation"
+        "nl": "regelgevingTekst"
       },
       "definition": {
         "nl": "Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden."
@@ -377,7 +377,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "label": {
-        "nl": "regulation"
+        "nl": "regelgevingTekst"
       },
       "definition": {
         "nl": "Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden."
@@ -397,7 +397,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "label": {
-        "nl": "publicationMedium"
+        "nl": "publicatiekanalen"
       },
       "definition": {
         "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
@@ -417,7 +417,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "label": {
-        "nl": "publicationMedium"
+        "nl": "publicatiekanalen"
       },
       "definition": {
         "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
@@ -437,7 +437,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "label": {
-        "nl": "isArchived"
+        "nl": "gearchiveerd"
       },
       "definition": {
         "nl": "Waarde die aangeeft of het concept gearchiveerd is."
@@ -454,7 +454,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "label": {
-        "nl": "isArchived"
+        "nl": "gearchiveerd"
       },
       "definition": {
         "nl": "Waarde die aangeeft of de instantie gearchiveerd is."
@@ -471,7 +471,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "label": {
-        "nl": "instanceTag"
+        "nl": "tags"
       },
       "definition": {
         "nl": "Instantie tag voor een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
@@ -491,7 +491,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "label": {
-        "nl": "executingAuthorityLevel"
+        "nl": "uitvoerendBestuursniveaus"
       },
       "definition": {
         "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
@@ -511,7 +511,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "label": {
-        "nl": "executingAuthorityLevel"
+        "nl": "uitvoerendBestuursniveaus"
       },
       "definition": {
         "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
@@ -531,7 +531,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "label": {
-        "nl": "exception"
+        "nl": "uitzonderingen"
       },
       "definition": {
         "nl": "Tekstveld waarin uitzonderingen op procedures, kostprijzen, ... kunnen aangegeven worden"
@@ -551,7 +551,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "label": {
-        "nl": "exception"
+        "nl": "uitzonderingen"
       },
       "definition": {
         "nl": "Tekstveld waarin uitzondering op procedures, kostprijzen, ... kunnen aangegeven worden"
@@ -571,7 +571,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#conceptTag",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "label": {
-        "nl": "conceptTag"
+        "nl": "tags"
       },
       "definition": {
         "nl": "Concept tag voor een publieke dienst concept. Deze codelijst is in het beheer van het IPDC - LPDC team."
@@ -591,7 +591,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "label": {
-        "nl": "competentAuthorityLevel"
+        "nl": "bevoegdBestuursniveaus"
       },
       "definition": {
         "nl": "Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
@@ -611,7 +611,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "label": {
-        "nl": "competentAuthorityLevel"
+        "nl": "bevoegdBestuursniveaus"
       },
       "definition": {
         "nl": "Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
@@ -668,7 +668,7 @@
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "label": {
-        "nl": "additionalDescription"
+        "nl": "verdereBeschrijving"
       },
       "definition": {
         "nl": "This property represents free text for additional information regarding the description of the Public Service."
@@ -688,7 +688,7 @@
   "externalproperties": [
     {
       "name": {
-        "nl": "hasWebsite"
+        "nl": "websites"
       },
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite",
       "@type": "rdf:Property"
@@ -702,35 +702,35 @@
     },
     {
       "name": {
-        "nl": "country"
+        "nl": "land"
       },
       "@id": "https://data.vlaanderen.be/ns/adres#land",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "municipality"
+        "nl": "gemeentenaam"
       },
       "@id": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "thoroughfare"
+        "nl": "straatnaam"
       },
       "@id": "https://data.vlaanderen.be/ns/adres#Straatnaam",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "houseNumber"
+        "nl": "huisnummer"
       },
       "@id": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "mailbox"
+        "nl": "busnummer"
       },
       "@id": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
       "@type": "rdf:Property"
@@ -786,182 +786,182 @@
     },
     {
       "name": {
-        "nl": "keyword"
+        "nl": "zoektermen"
       },
       "@id": "http://www.w3.org/ns/dcat#keyword",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "keyword"
+        "nl": "zoektermen"
       },
       "@id": "http://www.w3.org/ns/dcat#keyword",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "hasMoreInfo"
+        "nl": "websites"
       },
       "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "hasMoreInfo"
+        "nl": "websites"
       },
       "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "hasRequirement"
+        "nl": "voorwaarden"
       },
       "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "hasRequirement"
+        "nl": "voorwaarden"
       },
       "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "website"
+        "nl": "url"
       },
       "@id": "http://schema.org/url",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "location"
+        "nl": "url"
       },
       "@id": "http://schema.org/url",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "location"
+        "nl": "url"
       },
       "@id": "http://schema.org/url",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "hasTelephone"
+        "nl": "telefoonnummer"
       },
       "@id": "http://schema.org/telephone",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "startDate"
+        "nl": "startDienstVerlening"
       },
       "@id": "http://schema.org/startDate",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "startDate"
+        "nl": "startDienstVerlening"
       },
       "@id": "http://schema.org/startDate",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "productNumber"
+        "nl": "productnummer"
       },
       "@id": "http://schema.org/productID",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "productNumber"
+        "nl": "productnummer"
       },
       "@id": "http://schema.org/productID",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "openinghours"
+        "nl": "openingsuren"
       },
       "@id": "http://schema.org/openingHours",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "endDate"
+        "nl": "eindeDienstVerlening"
       },
       "@id": "http://schema.org/endDate",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "endDate"
+        "nl": "eindeDienstVerlening"
       },
       "@id": "http://schema.org/endDate",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "hasEmail"
+        "nl": "email"
       },
       "@id": "http://schema.org/email",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "dateModified"
+        "nl": "laatstGewijzigd"
       },
       "@id": "http://schema.org/dateModified",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "dateModified"
+        "nl": "laatstGewijzigd"
       },
       "@id": "http://schema.org/dateModified",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "dateCreated"
+        "nl": "creatie"
       },
       "@id": "http://schema.org/dateCreated",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "dateCreated"
+        "nl": "creatie"
       },
       "@id": "http://schema.org/dateCreated",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "produces"
+        "nl": "financieleVoordelen"
       },
       "@id": "http://purl.org/vocab/cpsv#produces",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "produces"
+        "nl": "financieleVoordelen"
       },
       "@id": "http://purl.org/vocab/cpsv#produces",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "follows"
+        "nl": "procedures"
       },
       "@id": "http://purl.org/vocab/cpsv#follows",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "follows"
+        "nl": "procedures"
       },
       "@id": "http://purl.org/vocab/cpsv#follows",
       "@type": "rdf:Property"
@@ -982,84 +982,84 @@
     },
     {
       "name": {
-        "nl": "name"
+        "nl": "naam"
       },
       "@id": "http://purl.org/dc/terms/title",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "name"
+        "nl": "naam"
       },
       "@id": "http://purl.org/dc/terms/title",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "name"
+        "nl": "naam"
       },
       "@id": "http://purl.org/dc/terms/title",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "name"
+        "nl": "naam"
       },
       "@id": "http://purl.org/dc/terms/title",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "name"
+        "nl": "naam"
       },
       "@id": "http://purl.org/dc/terms/title",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "name"
+        "nl": "naam"
       },
       "@id": "http://purl.org/dc/terms/title",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "name"
+        "nl": "naam"
       },
       "@id": "http://purl.org/dc/terms/title",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "name"
+        "nl": "naam"
       },
       "@id": "http://purl.org/dc/terms/title",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "name"
+        "nl": "naam"
       },
       "@id": "http://purl.org/dc/terms/title",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "spatial"
+        "nl": "geografischToepassingsgebieden"
       },
       "@id": "http://purl.org/dc/terms/spatial",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "hasSource"
+        "nl": "linkedConcept"
       },
       "@id": "http://purl.org/dc/terms/source",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "language"
+        "nl": "talen"
       },
       "@id": "http://purl.org/dc/terms/language",
       "@type": "rdf:Property"
@@ -1080,119 +1080,119 @@
     },
     {
       "name": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "description"
+        "nl": "beschrijving"
       },
       "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "theme"
+        "nl": "themas"
       },
       "@id": "http://data.europa.eu/m8g/thematicArea",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "theme"
+        "nl": "themas"
       },
       "@id": "http://data.europa.eu/m8g/thematicArea",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "hasSupportingEvidence"
+        "nl": "bewijs"
       },
       "@id": "http://data.europa.eu/m8g/hasSupportingEvidence",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "hasLegalResource"
+        "nl": "regelgeving"
       },
       "@id": "http://data.europa.eu/m8g/hasLegalResource",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "hasLegalResource"
+        "nl": "regelgeving"
       },
       "@id": "http://data.europa.eu/m8g/hasLegalResource",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "hasCost"
+        "nl": "kosten"
       },
       "@id": "http://data.europa.eu/m8g/hasCost",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "hasCost"
+        "nl": "kosten"
       },
       "@id": "http://data.europa.eu/m8g/hasCost",
       "@type": "rdf:Property"
     },
     {
       "name": {
-        "nl": "hasContactPoint"
+        "nl": "contactgegevens"
       },
       "@id": "http://data.europa.eu/m8g/hasContactPoint",
       "@type": "rdf:Property"
