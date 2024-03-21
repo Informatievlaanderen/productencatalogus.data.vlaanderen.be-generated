@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/821686ca00b9a33f6eabff32bcbcc1b5c79cdaef",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/821686ca00b9a33f6eabff32bcbcc1b5c79cdaef/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/8270537df5789c2fd9f864f035f220af421abed6",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/8270537df5789c2fd9f864f035f220af421abed6/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -778,6 +778,24 @@
       },
       "usage": {},
       "sort": "Website",
+      "indvl": false,
+      "inpackage": false,
+      "inscope": true,
+      "show": true
+    },
+    {
+      "uri": "http://www.w3.org/ns/locn#Address",
+      "name": "Address",
+      "label": {
+        "nl": "Address"
+      },
+      "description": {
+        "nl": "Adres dat men kan aanschrijven of bezoeken."
+      },
+      "usage": {
+        "nl": "Minstens één van de attributen moet ingevuld zijn met een niet lege waarde."
+      },
+      "sort": "Address",
       "indvl": false,
       "inpackage": false,
       "inscope": true,
@@ -1602,7 +1620,7 @@
         "nl": "isVersionOf"
       },
       "description": {
-        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       },
       "usage": {},
       "sort": "isVersionOf",
@@ -1618,7 +1636,7 @@
         "nl": "isVersionOf"
       },
       "description": {
-        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       },
       "usage": {},
       "sort": "isVersionOf",

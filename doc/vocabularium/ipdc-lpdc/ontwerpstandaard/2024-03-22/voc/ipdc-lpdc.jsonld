@@ -263,6 +263,13 @@
       },
       "@id": "http://schema.org/WebSite",
       "@type": "rdfs:Class"
+    },
+    {
+      "name": {
+        "nl": "Address"
+      },
+      "@id": "http://www.w3.org/ns/locn#Address",
+      "@type": "rdfs:Class"
     }
   ],
   "properties": [
@@ -684,6 +691,48 @@
         "nl": "hasWebsite"
       },
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "postCode"
+      },
+      "@id": "https://data.vlaanderen.be/ns/adres#postcode",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "country"
+      },
+      "@id": "https://data.vlaanderen.be/ns/adres#land",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "municipality"
+      },
+      "@id": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "thoroughfare"
+      },
+      "@id": "https://data.vlaanderen.be/ns/adres#Straatnaam",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "houseNumber"
+      },
+      "@id": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "mailbox"
+      },
+      "@id": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
       "@type": "rdf:Property"
     },
     {

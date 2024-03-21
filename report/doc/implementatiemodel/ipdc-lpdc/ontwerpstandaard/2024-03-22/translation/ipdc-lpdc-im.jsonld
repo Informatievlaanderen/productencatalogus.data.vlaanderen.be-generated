@@ -2251,7 +2251,7 @@
         "RangeData": {
           "EA-Name": "Address",
           "EA-GUID": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
-          "EA-Package": "data types",
+          "EA-Package": "IPDC-LPDC",
           "uri": "http://www.w3.org/ns/locn#Address"
         },
         "label": {
@@ -2294,7 +2294,7 @@
         {
           "EA-Name": "Address",
           "EA-GUID": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
-          "EA-Package": "data types",
+          "EA-Package": "IPDC-LPDC",
           "uri": "http://www.w3.org/ns/locn#Address"
         }
       ],
@@ -3034,7 +3034,7 @@
       "extra": {
         "EA-Name": "Address",
         "EA-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
-        "EA-Package": "data types",
+        "EA-Package": "IPDC-LPDC",
         "EA-Type": "DATATYPE",
         "EA-Parents": "",
         "EA-Parents2": [],
@@ -3078,7 +3078,7 @@
             "note": "null"
           }
         ],
-        "Scope": "NOTHING"
+        "Scope": "TRANSLATIONS_ONLY"
       },
       "name": "Address"
     }
@@ -3191,94 +3191,6 @@
       },
       "extra": {
         "EA-Name": "hasExecutingAuthority",
-        "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Range": "PubliekeOrganisatie",
-        "RangeData": {
-          "EA-Name": "PubliekeOrganisatie",
-          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
-          "EA-Package": "OSLO-Organisatie",
-          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
-        },
-        "sourceRole": "null",
-        "destRole": "null",
-        "label": {
-          "nl": "hasExecutingAuthority"
-        },
-        "definition": {
-          "nl": "Links naar de uitvoerende organisaties"
-        },
-        "usage": "",
-        "ap-label-nl": {
-          "nl": "hasExecutingAuthority"
-        },
-        "ap-definition-nl": {
-          "nl": "Links naar de uitvoerende organisaties"
-        },
-        "ap-usageNote-nl": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "label-nl",
-            "value": "hasExecutingAuthority",
-            "note": "null"
-          },
-          {
-            "key": "uri",
-            "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "Links naar de uitvoerende organisaties",
-            "note": "null"
-          }
-        ],
-        "DestRoleTags": [],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
-          "EA-Name": "ConceptualPublicService"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "PubliekeOrganisatie",
-          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
-          "EA-Package": "OSLO-Organisatie",
-          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "hasexecutingauthority",
-      "inpackage": "UNKNOWN",
-      "definition": {
-        "nl": "Links naar de uitvoerende organisaties"
-      },
-      "label": {
-        "nl": "hasExecutingAuthority"
-      },
-      "ap-label-nl": {
-        "nl": "hasExecutingAuthority"
-      },
-      "ap-definition-nl": {
-        "nl": "Links naar de uitvoerende organisaties"
-      },
-      "extra": {
-        "EA-Name": "hasExecutingAuthority",
         "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
         "derived": "false",
         "EA-Package": "",
@@ -3349,6 +3261,94 @@
       "maxCardinality": "*"
     },
     {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "hasexecutingauthority",
+      "inpackage": "UNKNOWN",
+      "definition": {
+        "nl": "Links naar de uitvoerende organisaties"
+      },
+      "label": {
+        "nl": "hasExecutingAuthority"
+      },
+      "ap-label-nl": {
+        "nl": "hasExecutingAuthority"
+      },
+      "ap-definition-nl": {
+        "nl": "Links naar de uitvoerende organisaties"
+      },
+      "extra": {
+        "EA-Name": "hasExecutingAuthority",
+        "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Range": "PubliekeOrganisatie",
+        "RangeData": {
+          "EA-Name": "PubliekeOrganisatie",
+          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+          "EA-Package": "OSLO-Organisatie",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+        },
+        "sourceRole": "null",
+        "destRole": "null",
+        "label": {
+          "nl": "hasExecutingAuthority"
+        },
+        "definition": {
+          "nl": "Links naar de uitvoerende organisaties"
+        },
+        "usage": "",
+        "ap-label-nl": {
+          "nl": "hasExecutingAuthority"
+        },
+        "ap-definition-nl": {
+          "nl": "Links naar de uitvoerende organisaties"
+        },
+        "ap-usageNote-nl": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "value": "hasExecutingAuthority",
+            "note": "null"
+          },
+          {
+            "key": "uri",
+            "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "Links naar de uitvoerende organisaties",
+            "note": "null"
+          }
+        ],
+        "DestRoleTags": [],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
+          "EA-Name": "ConceptualPublicService"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "PubliekeOrganisatie",
+          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+          "EA-Package": "OSLO-Organisatie",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
       "@id": "https://data.vlaanderen.be/ns/adres#postcode",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "name": "postcode",
@@ -3368,7 +3368,7 @@
       "extra": {
         "EA-Name": "postCode",
         "EA-Guid": "{0DBE9458-7F44-4b88-A16B-DD5D7684863B}",
-        "EA-Package": "data types",
+        "EA-Package": "IPDC-LPDC",
         "EA-Type": "attribute",
         "EA-Domain": "Address",
         "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
@@ -3410,7 +3410,7 @@
             "note": "Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt."
           }
         ],
-        "Scope": "NOTHING"
+        "Scope": "TRANSLATIONS_ONLY"
       },
       "codelist": [],
       "domain": [
@@ -3450,7 +3450,7 @@
       "extra": {
         "EA-Name": "country",
         "EA-Guid": "{61E5242D-5478-469d-9020-4F574F962150}",
-        "EA-Package": "data types",
+        "EA-Package": "IPDC-LPDC",
         "EA-Type": "attribute",
         "EA-Domain": "Address",
         "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
@@ -3493,7 +3493,7 @@
             "note": "null"
           }
         ],
-        "Scope": "NOTHING"
+        "Scope": "TRANSLATIONS_ONLY"
       },
       "codelist": [],
       "domain": [
@@ -3534,7 +3534,7 @@
       "extra": {
         "EA-Name": "municipality",
         "EA-Guid": "{2F6BFB61-AE7F-43f0-AC7F-61F74B412330}",
-        "EA-Package": "data types",
+        "EA-Package": "IPDC-LPDC",
         "EA-Type": "attribute",
         "EA-Domain": "Address",
         "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
@@ -3577,7 +3577,7 @@
             "note": "The key postal division of the address, usually the city. (INSPIRE's definition is \"One or more names created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.\"). The domain of locn:postName is locn:Address."
           }
         ],
-        "Scope": "NOTHING"
+        "Scope": "TRANSLATIONS_ONLY"
       },
       "codelist": [],
       "domain": [
@@ -3618,7 +3618,7 @@
       "extra": {
         "EA-Name": "thoroughfare",
         "EA-Guid": "{64F9D729-6247-4109-B6A2-7173B4326192}",
-        "EA-Package": "data types",
+        "EA-Package": "IPDC-LPDC",
         "EA-Type": "attribute",
         "EA-Domain": "Address",
         "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
@@ -3661,7 +3661,7 @@
             "note": "Adrescomponent met de naam die officieel werd toegekend aan een straat (baan, doorgang, plein) of aan een gehucht en waaraan adressen kunnen zijn gekoppeld."
           }
         ],
-        "Scope": "NOTHING"
+        "Scope": "TRANSLATIONS_ONLY"
       },
       "codelist": [],
       "domain": [
@@ -3702,7 +3702,7 @@
       "extra": {
         "EA-Name": "houseNumber",
         "EA-Guid": "{B6B69C48-E000-4c53-9D2E-F9002B9330FA}",
-        "EA-Package": "data types",
+        "EA-Package": "IPDC-LPDC",
         "EA-Type": "attribute",
         "EA-Domain": "Address",
         "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
@@ -3744,7 +3744,7 @@
             "note": "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen."
           }
         ],
-        "Scope": "NOTHING"
+        "Scope": "TRANSLATIONS_ONLY"
       },
       "codelist": [],
       "domain": [
@@ -3784,7 +3784,7 @@
       "extra": {
         "EA-Name": "mailbox",
         "EA-Guid": "{FC91E467-EFC9-4367-A0A6-AE2C6BEED75A}",
-        "EA-Package": "data types",
+        "EA-Package": "IPDC-LPDC",
         "EA-Type": "attribute",
         "EA-Domain": "Address",
         "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
@@ -3826,7 +3826,7 @@
             "note": "Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben."
           }
         ],
-        "Scope": "NOTHING"
+        "Scope": "TRANSLATIONS_ONLY"
       },
       "codelist": [],
       "domain": [
@@ -4677,94 +4677,6 @@
       },
       "extra": {
         "EA-Name": "hasMoreInfo",
-        "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Range": "Website",
-        "RangeData": {
-          "EA-Name": "Website",
-          "EA-GUID": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://schema.org/WebSite"
-        },
-        "sourceRole": "null",
-        "destRole": "null",
-        "label": {
-          "nl": "hasMoreInfo"
-        },
-        "definition": {
-          "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
-        },
-        "usage": "",
-        "ap-label-nl": {
-          "nl": "hasMoreInfo"
-        },
-        "ap-definition-nl": {
-          "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
-        },
-        "ap-usageNote-nl": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt",
-            "note": "null"
-          },
-          {
-            "key": "label-nl",
-            "value": "hasMoreInfo",
-            "note": "null"
-          }
-        ],
-        "DestRoleTags": [],
-        "Scope": "TRANSLATIONS_ONLY"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
-          "EA-Name": "InstancePublicService"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Website",
-          "EA-GUID": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://schema.org/WebSite"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "hasmoreinfo",
-      "inpackage": "ACTIVE_PACKAGE",
-      "definition": {
-        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
-      },
-      "label": {
-        "nl": "hasMoreInfo"
-      },
-      "ap-label-nl": {
-        "nl": "hasMoreInfo"
-      },
-      "ap-definition-nl": {
-        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
-      },
-      "extra": {
-        "EA-Name": "hasMoreInfo",
         "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
         "derived": "false",
         "EA-Package": "",
@@ -4820,6 +4732,94 @@
         {
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
           "EA-Name": "ConceptualPublicService"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Website",
+          "EA-GUID": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://schema.org/WebSite"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "hasmoreinfo",
+      "inpackage": "ACTIVE_PACKAGE",
+      "definition": {
+        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
+      },
+      "label": {
+        "nl": "hasMoreInfo"
+      },
+      "ap-label-nl": {
+        "nl": "hasMoreInfo"
+      },
+      "ap-definition-nl": {
+        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
+      },
+      "extra": {
+        "EA-Name": "hasMoreInfo",
+        "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Range": "Website",
+        "RangeData": {
+          "EA-Name": "Website",
+          "EA-GUID": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://schema.org/WebSite"
+        },
+        "sourceRole": "null",
+        "destRole": "null",
+        "label": {
+          "nl": "hasMoreInfo"
+        },
+        "definition": {
+          "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
+        },
+        "usage": "",
+        "ap-label-nl": {
+          "nl": "hasMoreInfo"
+        },
+        "ap-definition-nl": {
+          "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
+        },
+        "ap-usageNote-nl": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "uri",
+            "value": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt",
+            "note": "null"
+          },
+          {
+            "key": "label-nl",
+            "value": "hasMoreInfo",
+            "note": "null"
+          }
+        ],
+        "DestRoleTags": [],
+        "Scope": "TRANSLATIONS_ONLY"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
+          "EA-Name": "InstancePublicService"
         }
       ],
       "range": [
@@ -6627,94 +6627,6 @@
       },
       "extra": {
         "EA-Name": "follows",
-        "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Range": "Procedure",
-        "RangeData": {
-          "EA-Name": "Procedure",
-          "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://purl.org/vocab/cpsv#Rule"
-        },
-        "sourceRole": "null",
-        "destRole": "null",
-        "label": {
-          "nl": "follows"
-        },
-        "definition": {
-          "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-        },
-        "usage": "",
-        "ap-label-nl": {
-          "nl": "follows"
-        },
-        "ap-definition-nl": {
-          "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-        },
-        "ap-usageNote-nl": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "http://purl.org/vocab/cpsv#follows",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "NOTE",
-            "note": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-          },
-          {
-            "key": "label-nl",
-            "value": "follows",
-            "note": "null"
-          }
-        ],
-        "DestRoleTags": [],
-        "Scope": "TRANSLATIONS_ONLY"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
-          "EA-Name": "ConceptualPublicService"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Procedure",
-          "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://purl.org/vocab/cpsv#Rule"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "1"
-    },
-    {
-      "@id": "http://purl.org/vocab/cpsv#follows",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "follows",
-      "inpackage": "ACTIVE_PACKAGE",
-      "definition": {
-        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-      },
-      "label": {
-        "nl": "follows"
-      },
-      "ap-label-nl": {
-        "nl": "follows"
-      },
-      "ap-definition-nl": {
-        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-      },
-      "extra": {
-        "EA-Name": "follows",
         "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
         "derived": "false",
         "EA-Package": "",
@@ -6770,6 +6682,94 @@
         {
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
           "EA-Name": "InstancePublicService"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Procedure",
+          "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://purl.org/vocab/cpsv#Rule"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://purl.org/vocab/cpsv#follows",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "follows",
+      "inpackage": "ACTIVE_PACKAGE",
+      "definition": {
+        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+      },
+      "label": {
+        "nl": "follows"
+      },
+      "ap-label-nl": {
+        "nl": "follows"
+      },
+      "ap-definition-nl": {
+        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+      },
+      "extra": {
+        "EA-Name": "follows",
+        "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Range": "Procedure",
+        "RangeData": {
+          "EA-Name": "Procedure",
+          "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://purl.org/vocab/cpsv#Rule"
+        },
+        "sourceRole": "null",
+        "destRole": "null",
+        "label": {
+          "nl": "follows"
+        },
+        "definition": {
+          "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+        },
+        "usage": "",
+        "ap-label-nl": {
+          "nl": "follows"
+        },
+        "ap-definition-nl": {
+          "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+        },
+        "ap-usageNote-nl": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "uri",
+            "value": "http://purl.org/vocab/cpsv#follows",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "NOTE",
+            "note": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+          },
+          {
+            "key": "label-nl",
+            "value": "follows",
+            "note": "null"
+          }
+        ],
+        "DestRoleTags": [],
+        "Scope": "TRANSLATIONS_ONLY"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
+          "EA-Name": "ConceptualPublicService"
         }
       ],
       "range": [
@@ -10066,15 +10066,15 @@
   "config": "config/config-ap.json",
   "branchtag": "ontwerp-2024-03-22",
   "disabled": false,
-  "dummy": "010",
+  "dummy": "011",
   "filename": "config/ipdc-lpdc-im.json",
   "navigation": {
     "prev": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-08"
   },
   "repository": "https://github.com/Informatievlaanderen/ipdc-lpdc",
   "urlref": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22",
-  "documentcommit": "821686ca00b9a33f6eabff32bcbcc1b5c79cdaef",
-  "toolchaincommit": "701d25cd5be6f8e6079215d53289fdeba9a92d59",
+  "documentcommit": "8270537df5789c2fd9f864f035f220af421abed6",
+  "toolchaincommit": "36e809987ad652ac972c59c74119f048d76ef057",
   "hostname": "https://productencatalogus.data.test-vlaanderen.be/",
   "translation": [
     {

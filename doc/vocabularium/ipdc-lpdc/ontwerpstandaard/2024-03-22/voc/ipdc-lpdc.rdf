@@ -207,8 +207,43 @@
           </rdfs:Class>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
+          <rdfs:Class rdf:about="http://www.w3.org/ns/locn#Address">
+            <rdfs:label xml:lang="nl">Address</rdfs:label>
+          </rdfs:Class>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
           <rdf:Property rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite">
             <rdfs:label xml:lang="nl">hasWebsite</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="https://data.vlaanderen.be/ns/adres#postcode">
+            <rdfs:label xml:lang="nl">postCode</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="https://data.vlaanderen.be/ns/adres#land">
+            <rdfs:label xml:lang="nl">country</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="https://data.vlaanderen.be/ns/adres#gemeentenaam">
+            <rdfs:label xml:lang="nl">municipality</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="https://data.vlaanderen.be/ns/adres#Straatnaam">
+            <rdfs:label xml:lang="nl">thoroughfare</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer">
+            <rdfs:label xml:lang="nl">houseNumber</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer">
+            <rdfs:label xml:lang="nl">mailbox</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
