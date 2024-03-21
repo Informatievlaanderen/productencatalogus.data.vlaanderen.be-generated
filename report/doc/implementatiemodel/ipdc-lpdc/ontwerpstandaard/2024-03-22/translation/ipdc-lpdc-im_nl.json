@@ -252,6 +252,19 @@
       }
     },
     {
+      "EA-Guid": "{21B1F4C9-5DCE-46c7-8D66-FD701BBFD67E}",
+      "name": "execlevelnaastdiagram",
+      "label": {
+        "nl": "execLevelNaastDiagram"
+      },
+      "definition": {
+        "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team. naast diagram"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+      }
+    },
+    {
       "EA-Guid": "{B862B323-7B57-4ad2-93F0-361BCC804224}",
       "name": "exception",
       "label": {
@@ -1055,7 +1068,7 @@
       }
     },
     {
-      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
       "name": "produces",
       "label": {
         "nl": "produces"
@@ -1065,7 +1078,7 @@
       }
     },
     {
-      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
       "name": "produces",
       "label": {
         "nl": "produces"
@@ -1257,16 +1270,6 @@
       }
     },
     {
-      "EA-Guid": "{55F34410-3DA0-42fc-A8AD-E43C9735D39E}",
-      "name": "isversionof",
-      "label": {
-        "nl": "isVersionOf"
-      },
-      "definition": {
-        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-      }
-    },
-    {
       "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
       "name": "isversionof",
       "label": {
@@ -1274,6 +1277,16 @@
       },
       "definition": {
         "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+      }
+    },
+    {
+      "EA-Guid": "{55F34410-3DA0-42fc-A8AD-E43C9735D39E}",
+      "name": "isversionof",
+      "label": {
+        "nl": "isVersionOf"
+      },
+      "definition": {
+        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       }
     },
     {
@@ -1480,7 +1493,7 @@
       }
     },
     {
-      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
+      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
       "name": "hascompetentauthority",
       "label": {
         "nl": "hasCompetentAuthority"
@@ -1490,7 +1503,7 @@
       }
     },
     {
-      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
+      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
       "name": "hascompetentauthority",
       "label": {
         "nl": "hasCompetentAuthority"

@@ -109,6 +109,14 @@ skos:Concept a rdfs:Class;
   rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc>;
   rdfs:range rdf:langString .
 
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#execLevelNaastDiagram> a owl:ObjectProperty;
+  rdfs:label "execLevelNaastDiagram"@nl;
+  <http://purl.org/vocab/vann/usageNote> "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."@nl;
+  rdfs:comment "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team. naast diagram"@nl;
+  rdfs:domain <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService>;
+  rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc>;
+  rdfs:range skos:Concept .
+
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel> a owl:ObjectProperty;
   rdfs:label "executingAuthorityLevel"@nl;
   <http://purl.org/vocab/vann/usageNote> "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."@nl;

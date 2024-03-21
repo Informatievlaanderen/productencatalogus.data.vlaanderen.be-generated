@@ -150,6 +150,7 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/77d13dc38cefba76577b0777bf3b72333f54f470>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/56f2776de0d9e95fe73a4c24a5c8e578501a3cb7>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/fcf8c3e8d11f6fb65e0c3a93b6b58f710c3c8570>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/156dbff4f8e4c8e40bca8ecad372d05b4e208748>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/f240a599e3e3cc8b4f7156968ba9f4c8b0fb338e>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/9c470a5841331a6af2938bc63fb93c2ac40ca53e>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/c678d3b6ae22a358f800ce1cdb7f277c9efa4b62>,
@@ -207,6 +208,12 @@
   shacl:description "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"@nl;
   shacl:name "hasMoreInfo"@nl;
   shacl:path rdfs:seeAlso .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/156dbff4f8e4c8e40bca8ecad372d05b4e208748> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.execLevelNaastDiagram";
+  shacl:class skos:Concept;
+  shacl:description "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team. naast diagram"@nl;
+  shacl:name "execLevelNaastDiagram"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#execLevelNaastDiagram> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/1cd3b40ebb585b6dea4ab5c776c06a230d222114> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.yourEuropeCategory";
   shacl:class skos:Concept;

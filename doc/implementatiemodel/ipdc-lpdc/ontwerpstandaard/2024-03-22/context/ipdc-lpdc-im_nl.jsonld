@@ -67,6 +67,11 @@
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
           "@type": "@id"
         },
+        "execLevelNaastDiagram": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#execLevelNaastDiagram",
+          "@type": "@id"
+        },
         "executingAuthorityLevel": {
           "@container": "@set",
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",

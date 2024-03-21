@@ -478,6 +478,14 @@
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"/>
     <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
   </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#execLevelNaastDiagram">
+    <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
+    <rdfs:label xml:lang="nl">execLevelNaastDiagram</rdfs:label>
+    <rdfs:comment xml:lang="nl">Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team. naast diagram</rdfs:comment>
+    <ns1:usageNote xml:lang="nl">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</ns1:usageNote>
+    <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel">
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
     <rdfs:label xml:lang="nl">executingAuthorityLevel</rdfs:label>

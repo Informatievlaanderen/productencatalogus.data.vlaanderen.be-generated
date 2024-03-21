@@ -569,8 +569,8 @@
   "dependencies": [],
   "diagram": "ipdc-lpdc-ap",
   "disabled": false,
-  "documentcommit": "6b99e070e91943f790d7cc2e39bb6f2a91174db3",
-  "dummy": "006",
+  "documentcommit": "fcc9c800630d60ba5135718f64b8bdf6ca5c973d",
+  "dummy": "007",
   "eap": "IPDC-LPDC-AP.eap",
   "editors": [
     {
@@ -11506,6 +11506,107 @@
       }
     },
     {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#execLevelNaastDiagram",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{21B1F4C9-5DCE-46c7-8D66-FD701BBFD67E}",
+      "codelist": [],
+      "definition": {
+        "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team. naast diagram"
+      },
+      "definition-nl": {
+        "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team. naast diagram"
+      },
+      "domain": [
+        {
+          "EA-Name": "ConceptualPublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{21B1F4C9-5DCE-46c7-8D66-FD701BBFD67E}",
+        "EA-Name": "execLevelNaastDiagram",
+        "EA-Package": "IPDC-LPDC",
+        "EA-Range": "ExecutingAuthorityLevelNaastDiagram",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{98BAF6D7-D482-4abd-B5C7-61CE634F82EE}",
+          "EA-Name": "ExecutingAuthorityLevelNaastDiagram",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "execLevelNaastDiagram"
+          },
+          {
+            "key": "usageNote-nl",
+            "note": "null",
+            "value": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team. naast diagram"
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "definition": {
+          "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team. naast diagram"
+        },
+        "definition-en": "",
+        "definition-nl": {
+          "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team. naast diagram"
+        },
+        "equivalent": "",
+        "label": {
+          "nl": "execLevelNaastDiagram"
+        },
+        "label-en": "",
+        "label-nl": {
+          "nl": "execLevelNaastDiagram"
+        },
+        "sameAs": "",
+        "subclass": "",
+        "subclass1": "",
+        "usage": {
+          "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+        },
+        "usageNote-en": "",
+        "usageNote-nl": {
+          "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+        }
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "nl": "execLevelNaastDiagram"
+      },
+      "label-nl": {
+        "nl": "execLevelNaastDiagram"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "execlevelnaastdiagram",
+      "range": [
+        {
+          "EA-GUID": "{98BAF6D7-D482-4abd-B5C7-61CE634F82EE}",
+          "EA-Name": "ExecutingAuthorityLevelNaastDiagram",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ],
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+      },
+      "usageNote-nl": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+      }
+    },
+    {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{B862B323-7B57-4ad2-93F0-361BCC804224}",
@@ -12308,7 +12409,7 @@
   "title-nl": {
     "nl": "TODO"
   },
-  "toolchaincommit": "62b8fe536e7ded118151f188970e4ac1ce4c20fd",
+  "toolchaincommit": "01f890127943cbded25d81da4a68fad939f4fd29",
   "translation": [
     {
       "language": "nl",

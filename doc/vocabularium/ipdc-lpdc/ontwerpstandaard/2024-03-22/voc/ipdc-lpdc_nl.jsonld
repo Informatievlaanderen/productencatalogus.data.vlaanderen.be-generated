@@ -652,6 +652,26 @@
       "generalization": []
     },
     {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#execLevelNaastDiagram",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "label": {
+        "nl": "execLevelNaastDiagram"
+      },
+      "definition": {
+        "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team. naast diagram"
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
+    },
+    {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "label": {

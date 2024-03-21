@@ -15,8 +15,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/6b99e070e91943f790d7cc2e39bb6f2a91174db3",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/6b99e070e91943f790d7cc2e39bb6f2a91174db3/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/fcc9c800630d60ba5135718f64b8bdf6ca5c973d",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/fcc9c800630d60ba5135718f64b8bdf6ca5c973d/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -375,6 +375,48 @@
             "label-nl": "executingAuthorityLevel",
             "definition-nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
             "usageNote-nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+          }
+        },
+        {
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#execLevelNaastDiagram",
+          "name": "execlevelnaastdiagram",
+          "sort": "execLevelNaastDiagram",
+          "label": {
+            "nl": "execLevelNaastDiagram"
+          },
+          "description": {
+            "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team. naast diagram"
+          },
+          "usage": {
+            "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+          },
+          "domain": [
+            {
+              "EA-Name": "ConceptualPublicService",
+              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "ExecutingAuthorityLevelNaastDiagram",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_label": {
+                "nl": "ExecutingAuthorityLevelNaastDiagram"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "execLevelNaastDiagram",
+            "usageNote-nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
+            "definition-nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team. naast diagram"
           }
         },
         {
@@ -4441,6 +4483,21 @@
       "name": {
         "nl": "executingAuthorityLevel",
         "undefined": "executingauthoritylevel"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#execLevelNaastDiagram",
+      "name": {
+        "nl": "execLevelNaastDiagram",
+        "undefined": "execlevelnaastdiagram"
       },
       "description": {},
       "domain": [
