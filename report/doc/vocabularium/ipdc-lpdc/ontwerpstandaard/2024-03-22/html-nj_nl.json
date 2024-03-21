@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/3cd9bd0c048d864b9cbcd13c984776c26b05564e",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/3cd9bd0c048d864b9cbcd13c984776c26b05564e/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/a66049e04e2c8e2e087290b6ff888bd8e13c4be6",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/a66049e04e2c8e2e087290b6ff888bd8e13c4be6/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -778,24 +778,6 @@
       },
       "usage": {},
       "sort": "Website",
-      "indvl": false,
-      "inpackage": false,
-      "inscope": true,
-      "show": true
-    },
-    {
-      "uri": "http://www.w3.org/ns/locn#Address",
-      "name": "Address",
-      "label": {
-        "nl": "Address"
-      },
-      "description": {
-        "nl": "Adres dat men kan aanschrijven of bezoeken."
-      },
-      "usage": {
-        "nl": "Minstens één van de attributen moet ingevuld zijn met een niet lege waarde."
-      },
-      "sort": "Address",
       "indvl": false,
       "inpackage": false,
       "inscope": true,

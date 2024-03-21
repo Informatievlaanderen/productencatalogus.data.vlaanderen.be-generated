@@ -250,7 +250,7 @@
           {
             "label": "Output",
             "name": "cv::Output",
-            "package": "IPDC-LPDC",
+            "package": "classes",
             "uri": "http://data.europa.eu/m8g/Output"
           }
         ],
@@ -316,7 +316,7 @@
           {
             "label": "PublicService",
             "name": "cpsv::PublicService",
-            "package": "IPDC-LPDC",
+            "package": "classes",
             "uri": "http://purl.org/vocab/cpsv#PublicService"
           }
         ],
@@ -526,8 +526,8 @@
   "dependencies": [],
   "diagram": "ipdc-lpdc-ap",
   "disabled": false,
-  "documentcommit": "3cd9bd0c048d864b9cbcd13c984776c26b05564e",
-  "dummy": "008",
+  "documentcommit": "a66049e04e2c8e2e087290b6ff888bd8e13c4be6",
+  "dummy": "009",
   "eap": "IPDC-LPDC-AP.eap",
   "editors": [
     {
@@ -844,7 +844,7 @@
         "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
         "EA-Guid": "{0DBE9458-7F44-4b88-A16B-DD5D7684863B}",
         "EA-Name": "postCode",
-        "EA-Package": "IPDC-LPDC",
+        "EA-Package": "data types",
         "EA-Range": "String",
         "EA-Type": "attribute",
         "RangeData": {
@@ -869,7 +869,7 @@
             "value": "NOTE"
           }
         ],
-        "Scope": "TRANSLATIONS_ONLY",
+        "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-nl": {
           "nl": "Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt."
@@ -927,7 +927,7 @@
         "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
         "EA-Guid": "{61E5242D-5478-469d-9020-4F574F962150}",
         "EA-Name": "country",
-        "EA-Package": "IPDC-LPDC",
+        "EA-Package": "data types",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
         "RangeData": {
@@ -953,7 +953,7 @@
             "value": "Land waarin het adres gelegen is."
           }
         ],
-        "Scope": "TRANSLATIONS_ONLY",
+        "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-nl": {
           "nl": "Land waarin het adres gelegen is."
@@ -1012,7 +1012,7 @@
         "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
         "EA-Guid": "{2F6BFB61-AE7F-43f0-AC7F-61F74B412330}",
         "EA-Name": "municipality",
-        "EA-Package": "IPDC-LPDC",
+        "EA-Package": "data types",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
         "RangeData": {
@@ -1038,7 +1038,7 @@
             "value": "Gemeentenaam van het adres."
           }
         ],
-        "Scope": "TRANSLATIONS_ONLY",
+        "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-nl": {
           "nl": "Gemeentenaam van het adres."
@@ -1097,7 +1097,7 @@
         "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
         "EA-Guid": "{64F9D729-6247-4109-B6A2-7173B4326192}",
         "EA-Name": "thoroughfare",
-        "EA-Package": "IPDC-LPDC",
+        "EA-Package": "data types",
         "EA-Range": "TaalString",
         "EA-Type": "attribute",
         "RangeData": {
@@ -1123,7 +1123,7 @@
             "value": "NOTE"
           }
         ],
-        "Scope": "TRANSLATIONS_ONLY",
+        "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-nl": {
           "nl": "Adrescomponent met de naam die officieel werd toegekend aan een straat (baan, doorgang, plein) of aan een gehucht en waaraan adressen kunnen zijn gekoppeld."
@@ -1182,7 +1182,7 @@
         "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
         "EA-Guid": "{B6B69C48-E000-4c53-9D2E-F9002B9330FA}",
         "EA-Name": "houseNumber",
-        "EA-Package": "IPDC-LPDC",
+        "EA-Package": "data types",
         "EA-Range": "String",
         "EA-Type": "attribute",
         "RangeData": {
@@ -1207,7 +1207,7 @@
             "value": "NOTE"
           }
         ],
-        "Scope": "TRANSLATIONS_ONLY",
+        "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-nl": {
           "nl": "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen."
@@ -1265,7 +1265,7 @@
         "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
         "EA-Guid": "{FC91E467-EFC9-4367-A0A6-AE2C6BEED75A}",
         "EA-Name": "mailbox",
-        "EA-Package": "IPDC-LPDC",
+        "EA-Package": "data types",
         "EA-Range": "String",
         "EA-Type": "attribute",
         "RangeData": {
@@ -1290,7 +1290,7 @@
             "value": "NOTE"
           }
         ],
-        "Scope": "TRANSLATIONS_ONLY",
+        "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-nl": {
           "nl": "Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben."
@@ -1432,12 +1432,12 @@
       },
       "domain": [
         {
-          "EA-Name": "eli::LegalResource",
+          "EA-Name": "LegalResource",
           "uri": "http://data.europa.eu/eli/ontology#LegalResource"
         }
       ],
       "extra": {
-        "EA-Domain": "eli::LegalResource",
+        "EA-Domain": "LegalResource",
         "EA-Domain-Guid": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
         "EA-Guid": "{02378DF6-6E08-44c0-9496-F93F002F0BB0}",
         "EA-Name": "order",
@@ -2147,95 +2147,6 @@
     {
       "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
-      "ap-definition-nl": {
-        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
-      },
-      "ap-label-nl": {
-        "nl": "hasMoreInfo"
-      },
-      "codelist": [],
-      "definition": {
-        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
-      },
-      "domain": [
-        {
-          "EA-Name": "ConceptualPublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
-        "EA-Name": "hasMoreInfo",
-        "EA-Package": "",
-        "EA-Range": "Website",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
-          "EA-Name": "Website",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://schema.org/WebSite"
-        },
-        "RawTags": [
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
-          },
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "hasMoreInfo"
-          }
-        ],
-        "Scope": "TRANSLATIONS_ONLY",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
-        },
-        "ap-label-nl": {
-          "nl": "hasMoreInfo"
-        },
-        "ap-usageNote-nl": "",
-        "definition": {
-          "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
-        },
-        "derived": "false",
-        "destRole": "null",
-        "label": {
-          "nl": "hasMoreInfo"
-        },
-        "sourceRole": "null",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "nl": "hasMoreInfo"
-      },
-      "maxCardinality": "*",
-      "minCardinality": "0",
-      "name": "hasmoreinfo",
-      "range": [
-        {
-          "EA-GUID": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
-          "EA-Name": "Website",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://schema.org/WebSite"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
       "ap-definition-nl": {
         "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
@@ -2323,9 +2234,98 @@
       ]
     },
     {
+      "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
+      "ap-definition-nl": {
+        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
+      },
+      "ap-label-nl": {
+        "nl": "hasMoreInfo"
+      },
+      "codelist": [],
+      "definition": {
+        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
+      },
+      "domain": [
+        {
+          "EA-Name": "ConceptualPublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
+        "EA-Name": "hasMoreInfo",
+        "EA-Package": "",
+        "EA-Range": "Website",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
+          "EA-Name": "Website",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://schema.org/WebSite"
+        },
+        "RawTags": [
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
+          },
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "hasMoreInfo"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
+        },
+        "ap-label-nl": {
+          "nl": "hasMoreInfo"
+        },
+        "ap-usageNote-nl": "",
+        "definition": {
+          "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
+        },
+        "derived": "false",
+        "destRole": "null",
+        "label": {
+          "nl": "hasMoreInfo"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "nl": "hasMoreInfo"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "hasmoreinfo",
+      "range": [
+        {
+          "EA-GUID": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
+          "EA-Name": "Website",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://schema.org/WebSite"
+        }
+      ]
+    },
+    {
       "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
+      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
       "ap-definition-nl": {
         "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
       },
@@ -2338,15 +2338,15 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
         "EA-Name": "hasRequirement",
         "EA-Package": "",
         "EA-Range": "Requirement",
@@ -2365,7 +2365,7 @@
           },
           {
             "key": "definition-nl",
-            "note": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
+            "note": "null",
             "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
           },
           {
@@ -2414,7 +2414,7 @@
     {
       "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
+      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
       "ap-definition-nl": {
         "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
       },
@@ -2427,15 +2427,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+          "EA-Name": "ConceptualPublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
         "EA-Name": "hasRequirement",
         "EA-Package": "",
         "EA-Range": "Requirement",
@@ -2454,7 +2454,7 @@
           },
           {
             "key": "definition-nl",
-            "note": "null",
+            "note": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
             "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
           },
           {
@@ -2609,12 +2609,12 @@
       },
       "domain": [
         {
-          "EA-Name": "eli::LegalResource",
+          "EA-Name": "LegalResource",
           "uri": "http://data.europa.eu/eli/ontology#LegalResource"
         }
       ],
       "extra": {
-        "EA-Domain": "eli::LegalResource",
+        "EA-Domain": "LegalResource",
         "EA-Domain-Guid": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
         "EA-Guid": "{9BB35E55-3D0C-4826-8554-EAF05852396D}",
         "EA-Name": "location",
@@ -3941,7 +3941,7 @@
     {
       "@id": "http://purl.org/vocab/cpsv#produces",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
       "ap-definition-nl": {
         "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
       },
@@ -3954,15 +3954,15 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
         "EA-Name": "produces",
         "EA-Package": "",
         "EA-Range": "FinancialAdvantage",
@@ -4030,7 +4030,7 @@
     {
       "@id": "http://purl.org/vocab/cpsv#produces",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
       "ap-definition-nl": {
         "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
       },
@@ -4043,15 +4043,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+          "EA-Name": "ConceptualPublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
         "EA-Name": "produces",
         "EA-Package": "",
         "EA-Range": "FinancialAdvantage",
@@ -4414,7 +4414,7 @@
         "RangeData": {
           "EA-GUID": "{B62F18BE-2384-478d-8B01-ABAE1F23010F}",
           "EA-Name": "Type",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
         "RawTags": [
@@ -4470,7 +4470,7 @@
         {
           "EA-GUID": "{B62F18BE-2384-478d-8B01-ABAE1F23010F}",
           "EA-Name": "Type",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
       ],
@@ -4509,7 +4509,7 @@
         "RangeData": {
           "EA-GUID": "{B62F18BE-2384-478d-8B01-ABAE1F23010F}",
           "EA-Name": "Type",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
         "RawTags": [
@@ -4565,7 +4565,7 @@
         {
           "EA-GUID": "{B62F18BE-2384-478d-8B01-ABAE1F23010F}",
           "EA-Name": "Type",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
       ],
@@ -4589,12 +4589,12 @@
       },
       "domain": [
         {
-          "EA-Name": "eli::LegalResource",
+          "EA-Name": "LegalResource",
           "uri": "http://data.europa.eu/eli/ontology#LegalResource"
         }
       ],
       "extra": {
-        "EA-Domain": "eli::LegalResource",
+        "EA-Domain": "LegalResource",
         "EA-Domain-Guid": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
         "EA-Guid": "{FC6284AD-8210-4235-9D96-9911030D3EB6}",
         "EA-Name": "name",
@@ -5369,7 +5369,7 @@
         "RangeData": {
           "EA-GUID": "{979347D8-CAD3-4d83-BEE5-8D054D35D54F}",
           "EA-Name": "Spatial",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
         "RawTags": [
@@ -5425,7 +5425,7 @@
         {
           "EA-GUID": "{979347D8-CAD3-4d83-BEE5-8D054D35D54F}",
           "EA-Name": "Spatial",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
       ],
@@ -5553,7 +5553,7 @@
         "RangeData": {
           "EA-GUID": "{30141F06-519E-4f9e-9603-CF44FFCF47C2}",
           "EA-Name": "Language",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
         "RawTags": [
@@ -5609,7 +5609,7 @@
         {
           "EA-GUID": "{30141F06-519E-4f9e-9603-CF44FFCF47C2}",
           "EA-Name": "Language",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
       ],
@@ -5811,12 +5811,12 @@
       },
       "domain": [
         {
-          "EA-Name": "eli::LegalResource",
+          "EA-Name": "LegalResource",
           "uri": "http://data.europa.eu/eli/ontology#LegalResource"
         }
       ],
       "extra": {
-        "EA-Domain": "eli::LegalResource",
+        "EA-Domain": "LegalResource",
         "EA-Domain-Guid": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
         "EA-Guid": "{0F7BFE4E-D721-4fbd-93CB-DE1D02FDB423}",
         "EA-Name": "description",
@@ -6681,7 +6681,7 @@
         "RangeData": {
           "EA-GUID": "{B2634D81-F204-4dcc-97ED-469F65090570}",
           "EA-Name": "Theme",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
         "RawTags": [
@@ -6737,7 +6737,7 @@
         {
           "EA-GUID": "{B2634D81-F204-4dcc-97ED-469F65090570}",
           "EA-Name": "Theme",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
       ],
@@ -6776,7 +6776,7 @@
         "RangeData": {
           "EA-GUID": "{B2634D81-F204-4dcc-97ED-469F65090570}",
           "EA-Name": "Theme",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
         "RawTags": [
@@ -6832,7 +6832,7 @@
         {
           "EA-GUID": "{B2634D81-F204-4dcc-97ED-469F65090570}",
           "EA-Name": "Theme",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
       ],
@@ -6938,95 +6938,6 @@
     {
       "@id": "http://data.europa.eu/m8g/hasLegalResource",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
-      "ap-definition-nl": {
-        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-      },
-      "ap-label-nl": {
-        "nl": "hasLegalResource"
-      },
-      "codelist": [],
-      "definition": {
-        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-      },
-      "domain": [
-        {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
-        "EA-Name": "hasLegalResource",
-        "EA-Package": "",
-        "EA-Range": "eli::LegalResource",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
-          "EA-Name": "eli::LegalResource",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
-        },
-        "RawTags": [
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://data.europa.eu/m8g/hasLegalResource"
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-          },
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "hasLegalResource"
-          }
-        ],
-        "Scope": "TRANSLATIONS_ONLY",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-        },
-        "ap-label-nl": {
-          "nl": "hasLegalResource"
-        },
-        "ap-usageNote-nl": "",
-        "definition": {
-          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-        },
-        "derived": "false",
-        "destRole": "null",
-        "label": {
-          "nl": "hasLegalResource"
-        },
-        "sourceRole": "null",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "nl": "hasLegalResource"
-      },
-      "maxCardinality": "*",
-      "minCardinality": "0",
-      "name": "haslegalresource",
-      "range": [
-        {
-          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
-          "EA-Name": "eli::LegalResource",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
-        }
-      ]
-    },
-    {
-      "@id": "http://data.europa.eu/m8g/hasLegalResource",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
       "ap-definition-nl": {
         "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
@@ -7051,11 +6962,11 @@
         "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
         "EA-Name": "hasLegalResource",
         "EA-Package": "",
-        "EA-Range": "eli::LegalResource",
+        "EA-Range": "LegalResource",
         "EA-Type": "connector",
         "RangeData": {
           "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
-          "EA-Name": "eli::LegalResource",
+          "EA-Name": "LegalResource",
           "EA-Package": "IPDC-LPDC",
           "uri": "http://data.europa.eu/eli/ontology#LegalResource"
         },
@@ -7107,7 +7018,96 @@
       "range": [
         {
           "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
-          "EA-Name": "eli::LegalResource",
+          "EA-Name": "LegalResource",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
+        }
+      ]
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/hasLegalResource",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
+      "ap-definition-nl": {
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+      },
+      "ap-label-nl": {
+        "nl": "hasLegalResource"
+      },
+      "codelist": [],
+      "definition": {
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+      },
+      "domain": [
+        {
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
+        "EA-Name": "hasLegalResource",
+        "EA-Package": "",
+        "EA-Range": "LegalResource",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
+          "EA-Name": "LegalResource",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
+        },
+        "RawTags": [
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://data.europa.eu/m8g/hasLegalResource"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+          },
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "hasLegalResource"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+        },
+        "ap-label-nl": {
+          "nl": "hasLegalResource"
+        },
+        "ap-usageNote-nl": "",
+        "definition": {
+          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+        },
+        "derived": "false",
+        "destRole": "null",
+        "label": {
+          "nl": "hasLegalResource"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "nl": "hasLegalResource"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "haslegalresource",
+      "range": [
+        {
+          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
+          "EA-Name": "LegalResource",
           "EA-Package": "IPDC-LPDC",
           "uri": "http://data.europa.eu/eli/ontology#LegalResource"
         }
@@ -7116,7 +7116,7 @@
     {
       "@id": "http://data.europa.eu/m8g/hasCost",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
+      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
       "ap-definition-nl": {
         "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
       },
@@ -7129,15 +7129,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+          "EA-Name": "ConceptualPublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
         "EA-Name": "hasCost",
         "EA-Package": "",
         "EA-Range": "Cost",
@@ -7205,7 +7205,7 @@
     {
       "@id": "http://data.europa.eu/m8g/hasCost",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
       "ap-definition-nl": {
         "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
       },
@@ -7218,15 +7218,15 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
         "EA-Name": "hasCost",
         "EA-Package": "",
         "EA-Range": "Cost",
@@ -7575,7 +7575,7 @@
       },
       "extra": {
         "EA-Guid": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
-        "EA-Name": "eli::LegalResource",
+        "EA-Name": "LegalResource",
         "EA-Package": "IPDC-LPDC",
         "EA-Parents": "",
         "EA-Parents2": [],
@@ -8114,7 +8114,7 @@
       "extra": {
         "EA-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
         "EA-Name": "Address",
-        "EA-Package": "IPDC-LPDC",
+        "EA-Package": "data types",
         "EA-Parents": "",
         "EA-Parents2": [],
         "EA-Type": "DATATYPE",
@@ -8140,7 +8140,7 @@
             "value": "Minstens één van de attributen moet ingevuld zijn met een niet lege waarde."
           }
         ],
-        "Scope": "TRANSLATIONS_ONLY",
+        "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-nl": {
           "nl": "Adres dat men kan aanschrijven of bezoeken."
@@ -8232,7 +8232,7 @@
         "RangeData": {
           "EA-GUID": "{0FFDCC68-70AA-4365-8AE2-BD4B0122C0A6}",
           "EA-Name": "YourEuropeCategory",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
         "RawTags": [
@@ -8281,7 +8281,7 @@
         {
           "EA-GUID": "{0FFDCC68-70AA-4365-8AE2-BD4B0122C0A6}",
           "EA-Name": "YourEuropeCategory",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
       ],
@@ -8320,7 +8320,7 @@
         "RangeData": {
           "EA-GUID": "{0FFDCC68-70AA-4365-8AE2-BD4B0122C0A6}",
           "EA-Name": "YourEuropeCategory",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
         "RawTags": [
@@ -8371,7 +8371,7 @@
         {
           "EA-GUID": "{0FFDCC68-70AA-4365-8AE2-BD4B0122C0A6}",
           "EA-Name": "YourEuropeCategory",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
       ],
@@ -8410,7 +8410,7 @@
         "RangeData": {
           "EA-GUID": "{365AA96E-B24E-4491-A948-84D43EC6F900}",
           "EA-Name": "TargetAudience",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
         "RawTags": [
@@ -8461,7 +8461,7 @@
         {
           "EA-GUID": "{365AA96E-B24E-4491-A948-84D43EC6F900}",
           "EA-Name": "TargetAudience",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
       ],
@@ -8500,7 +8500,7 @@
         "RangeData": {
           "EA-GUID": "{365AA96E-B24E-4491-A948-84D43EC6F900}",
           "EA-Name": "TargetAudience",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
         "RawTags": [
@@ -8551,7 +8551,7 @@
         {
           "EA-GUID": "{365AA96E-B24E-4491-A948-84D43EC6F900}",
           "EA-Name": "TargetAudience",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
       ],
@@ -8780,7 +8780,7 @@
         "RangeData": {
           "EA-GUID": "{3558D13F-3BF5-4aad-A24E-1F4F96D99A74}",
           "EA-Name": "PublicationMedium",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
         "RawTags": [
@@ -8831,7 +8831,7 @@
         {
           "EA-GUID": "{3558D13F-3BF5-4aad-A24E-1F4F96D99A74}",
           "EA-Name": "PublicationMedium",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
       ],
@@ -8870,7 +8870,7 @@
         "RangeData": {
           "EA-GUID": "{3558D13F-3BF5-4aad-A24E-1F4F96D99A74}",
           "EA-Name": "PublicationMedium",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
         "RawTags": [
@@ -8921,7 +8921,7 @@
         {
           "EA-GUID": "{3558D13F-3BF5-4aad-A24E-1F4F96D99A74}",
           "EA-Name": "PublicationMedium",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
       ],
@@ -9116,7 +9116,7 @@
         "RangeData": {
           "EA-GUID": "{16F1EFDB-BECD-41a1-A17A-AC8FDF0B5D68}",
           "EA-Name": "InstanceTag",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
         "RawTags": [
@@ -9167,7 +9167,7 @@
         {
           "EA-GUID": "{16F1EFDB-BECD-41a1-A17A-AC8FDF0B5D68}",
           "EA-Name": "InstanceTag",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
       ],
@@ -9206,7 +9206,7 @@
         "RangeData": {
           "EA-GUID": "{E39E55FA-168A-4839-B9B3-1A0EF4A25F80}",
           "EA-Name": "ExecutingAuthorityLevel",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
         "RawTags": [
@@ -9257,7 +9257,7 @@
         {
           "EA-GUID": "{E39E55FA-168A-4839-B9B3-1A0EF4A25F80}",
           "EA-Name": "ExecutingAuthorityLevel",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
       ],
@@ -9296,7 +9296,7 @@
         "RangeData": {
           "EA-GUID": "{E39E55FA-168A-4839-B9B3-1A0EF4A25F80}",
           "EA-Name": "ExecutingAuthorityLevel",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
         "RawTags": [
@@ -9347,7 +9347,7 @@
         {
           "EA-GUID": "{E39E55FA-168A-4839-B9B3-1A0EF4A25F80}",
           "EA-Name": "ExecutingAuthorityLevel",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
       ],
@@ -9566,7 +9566,7 @@
         "RangeData": {
           "EA-GUID": "{7A3BE628-EECF-423f-8C8F-E0740E9A6CE4}",
           "EA-Name": "ConceptTag",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
         "RawTags": [
@@ -9617,7 +9617,7 @@
         {
           "EA-GUID": "{7A3BE628-EECF-423f-8C8F-E0740E9A6CE4}",
           "EA-Name": "ConceptTag",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
       ],
@@ -9656,7 +9656,7 @@
         "RangeData": {
           "EA-GUID": "{6E340942-8F33-4cf0-B870-D3BFFFAD7E1B}",
           "EA-Name": "CompetentAuthorityLevel",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
         "RawTags": [
@@ -9707,7 +9707,7 @@
         {
           "EA-GUID": "{6E340942-8F33-4cf0-B870-D3BFFFAD7E1B}",
           "EA-Name": "CompetentAuthorityLevel",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
       ],
@@ -9746,7 +9746,7 @@
         "RangeData": {
           "EA-GUID": "{6E340942-8F33-4cf0-B870-D3BFFFAD7E1B}",
           "EA-Name": "CompetentAuthorityLevel",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
         "RawTags": [
@@ -9797,7 +9797,7 @@
         {
           "EA-GUID": "{6E340942-8F33-4cf0-B870-D3BFFFAD7E1B}",
           "EA-Name": "CompetentAuthorityLevel",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "codelijsten",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
       ],
@@ -9836,7 +9836,7 @@
         "RangeData": {
           "EA-GUID": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
           "EA-Name": "Address",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "data types",
           "uri": "http://www.w3.org/ns/locn#Address"
         },
         "RawTags": [
@@ -9880,7 +9880,7 @@
         {
           "EA-GUID": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
           "EA-Name": "Address",
-          "EA-Package": "IPDC-LPDC",
+          "EA-Package": "data types",
           "uri": "http://www.w3.org/ns/locn#Address"
         }
       ]
@@ -10073,7 +10073,7 @@
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
   "template": "ipdc-lpdc-im.j2",
   "title": "IPDC - LPDC (Implementatiemodel)",
-  "toolchaincommit": "57ca95067bc6548907c71e94589338ee2b43a729",
+  "toolchaincommit": "0af3a715789b5cd3058a150e58138f6a086cb507",
   "translation": [
     {
       "language": "nl",

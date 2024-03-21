@@ -639,16 +639,6 @@
       }
     },
     {
-      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
-      "name": "hasmoreinfo",
-      "label": {
-        "nl": "hasMoreInfo"
-      },
-      "definition": {
-        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
-      }
-    },
-    {
       "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
       "name": "hasmoreinfo",
       "label": {
@@ -659,7 +649,17 @@
       }
     },
     {
-      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
+      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
+      "name": "hasmoreinfo",
+      "label": {
+        "nl": "hasMoreInfo"
+      },
+      "definition": {
+        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
+      }
+    },
+    {
+      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
       "name": "hasrequirement",
       "label": {
         "nl": "hasRequirement"
@@ -669,7 +669,7 @@
       }
     },
     {
-      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
+      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
       "name": "hasrequirement",
       "label": {
         "nl": "hasRequirement"
@@ -872,7 +872,7 @@
       }
     },
     {
-      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
       "name": "produces",
       "label": {
         "nl": "produces"
@@ -882,7 +882,7 @@
       }
     },
     {
-      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
       "name": "produces",
       "label": {
         "nl": "produces"
@@ -1247,16 +1247,6 @@
       }
     },
     {
-      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
-      "name": "haslegalresource",
-      "label": {
-        "nl": "hasLegalResource"
-      },
-      "definition": {
-        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-      }
-    },
-    {
       "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
       "name": "haslegalresource",
       "label": {
@@ -1267,7 +1257,17 @@
       }
     },
     {
-      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
+      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
+      "name": "haslegalresource",
+      "label": {
+        "nl": "hasLegalResource"
+      },
+      "definition": {
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+      }
+    },
+    {
+      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
       "name": "hascost",
       "label": {
         "nl": "hasCost"
@@ -1277,7 +1277,7 @@
       }
     },
     {
-      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
       "name": "hascost",
       "label": {
         "nl": "hasCost"

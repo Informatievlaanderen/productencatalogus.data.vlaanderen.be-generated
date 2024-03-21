@@ -13,7 +13,7 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#FinancialAdvantageShape>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceShape>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstancePublicServiceSnapshotShape>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#eli::LegalResourceShape>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResourceShape>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#CostShape>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#EvidenceShape>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#PubliekeOrganisatieShape>,
@@ -1207,6 +1207,80 @@
   shacl:name "isVersionOf"@nl;
   shacl:path dc:isVersionOf .
 
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResourceShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResourceShape/362d1bf0eab8051024cf5ec1345eb1ce50762580>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResourceShape/d4d4f2399b8cf2f615ac658920373b714726bed0>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResourceShape/07b402890dac875697136c8f54cafd842cbad6fa>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResourceShape/a7760ef34c8bc85460f186072f4aaefd62ae6213>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResourceShape/e709ed2c4b3e15bab1284ecc2e8ca7358b3608a9>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResourceShape/263a563c5bed08cdaadf4a0fd0a5fb9874d742bc>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResourceShape/398fb93e389fba9a790e6adb0152f10f2ba6023a>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResourceShape/11960ef687afb16022eaa7f65b420fdac8dcb56d>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResourceShape/347096d39de4bcd54b41468aae2aabd0070999a9>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResourceShape/c71284d6d508493899132c623a106c1b9a2ce54f>;
+  shacl:targetClass <http://data.europa.eu/eli/ontology#LegalResource> .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResourceShape/07b402890dac875697136c8f54cafd842cbad6fa> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResource.location";
+  shacl:description "De url van de legal resource"@nl;
+  shacl:maxCount 1;
+  shacl:name "location"@nl;
+  shacl:path schema:url .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResourceShape/11960ef687afb16022eaa7f65b420fdac8dcb56d> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResource.order";
+  shacl:description "Specifies the relative order of this item compared to its siblings."@nl;
+  shacl:maxCount 1;
+  shacl:name "order"@nl;
+  shacl:path shacl:order .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResourceShape/263a563c5bed08cdaadf4a0fd0a5fb9874d742bc> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResource.name";
+  shacl:class rdf:langString;
+  shacl:description "This property represents the name of the legal resource."@nl;
+  shacl:name "name"@nl;
+  shacl:path dc:title .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResourceShape/347096d39de4bcd54b41468aae2aabd0070999a9> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResource.order";
+  shacl:description "Specifies the relative order of this item compared to its siblings."@nl;
+  shacl:minCount 1;
+  shacl:name "order"@nl;
+  shacl:path shacl:order .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResourceShape/362d1bf0eab8051024cf5ec1345eb1ce50762580> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResource.description";
+  shacl:description "This property represents a free text description of the legal resource."@nl;
+  shacl:maxCount 1;
+  shacl:name "description"@nl;
+  shacl:path dc:description .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResourceShape/398fb93e389fba9a790e6adb0152f10f2ba6023a> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResource.name";
+  shacl:description "This property represents the name of the legal resource."@nl;
+  shacl:maxCount 1;
+  shacl:name "name"@nl;
+  shacl:path dc:title .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResourceShape/a7760ef34c8bc85460f186072f4aaefd62ae6213> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResource.location";
+  shacl:datatype xsd:string;
+  shacl:description "De url van de legal resource"@nl;
+  shacl:name "location"@nl;
+  shacl:path schema:url .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResourceShape/c71284d6d508493899132c623a106c1b9a2ce54f> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResource.order";
+  shacl:datatype xsd:integer;
+  shacl:description "Specifies the relative order of this item compared to its siblings."@nl;
+  shacl:name "order"@nl;
+  shacl:path shacl:order .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResourceShape/d4d4f2399b8cf2f615ac658920373b714726bed0> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResource.description";
+  shacl:class rdf:langString;
+  shacl:description "This property represents a free text description of the legal resource."@nl;
+  shacl:name "description"@nl;
+  shacl:path dc:description .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResourceShape/e709ed2c4b3e15bab1284ecc2e8ca7358b3608a9> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResource.location";
+  shacl:description "De url van de legal resource"@nl;
+  shacl:minCount 1;
+  shacl:name "location"@nl;
+  shacl:path schema:url .
+
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ProcedureShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ProcedureShape/362d1bf0eab8051024cf5ec1345eb1ce50762580>,
@@ -1401,80 +1475,6 @@
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#WebsiteShape/e709ed2c4b3e15bab1284ecc2e8ca7358b3608a9> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Website.location";
   shacl:description "De url van de website"@nl;
-  shacl:minCount 1;
-  shacl:name "location"@nl;
-  shacl:path schema:url .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#eli::LegalResourceShape> a shacl:NodeShape;
-  shacl:closed false;
-  shacl:property <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#eli::LegalResourceShape/362d1bf0eab8051024cf5ec1345eb1ce50762580>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#eli::LegalResourceShape/d4d4f2399b8cf2f615ac658920373b714726bed0>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#eli::LegalResourceShape/07b402890dac875697136c8f54cafd842cbad6fa>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#eli::LegalResourceShape/a7760ef34c8bc85460f186072f4aaefd62ae6213>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#eli::LegalResourceShape/e709ed2c4b3e15bab1284ecc2e8ca7358b3608a9>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#eli::LegalResourceShape/263a563c5bed08cdaadf4a0fd0a5fb9874d742bc>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#eli::LegalResourceShape/398fb93e389fba9a790e6adb0152f10f2ba6023a>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#eli::LegalResourceShape/11960ef687afb16022eaa7f65b420fdac8dcb56d>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#eli::LegalResourceShape/347096d39de4bcd54b41468aae2aabd0070999a9>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#eli::LegalResourceShape/c71284d6d508493899132c623a106c1b9a2ce54f>;
-  shacl:targetClass <http://data.europa.eu/eli/ontology#LegalResource> .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#eli::LegalResourceShape/07b402890dac875697136c8f54cafd842cbad6fa> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResource.location";
-  shacl:description "De url van de legal resource"@nl;
-  shacl:maxCount 1;
-  shacl:name "location"@nl;
-  shacl:path schema:url .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#eli::LegalResourceShape/11960ef687afb16022eaa7f65b420fdac8dcb56d> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResource.order";
-  shacl:description "Specifies the relative order of this item compared to its siblings."@nl;
-  shacl:maxCount 1;
-  shacl:name "order"@nl;
-  shacl:path shacl:order .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#eli::LegalResourceShape/263a563c5bed08cdaadf4a0fd0a5fb9874d742bc> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResource.name";
-  shacl:class rdf:langString;
-  shacl:description "This property represents the name of the legal resource."@nl;
-  shacl:name "name"@nl;
-  shacl:path dc:title .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#eli::LegalResourceShape/347096d39de4bcd54b41468aae2aabd0070999a9> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResource.order";
-  shacl:description "Specifies the relative order of this item compared to its siblings."@nl;
-  shacl:minCount 1;
-  shacl:name "order"@nl;
-  shacl:path shacl:order .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#eli::LegalResourceShape/362d1bf0eab8051024cf5ec1345eb1ce50762580> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResource.description";
-  shacl:description "This property represents a free text description of the legal resource."@nl;
-  shacl:maxCount 1;
-  shacl:name "description"@nl;
-  shacl:path dc:description .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#eli::LegalResourceShape/398fb93e389fba9a790e6adb0152f10f2ba6023a> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResource.name";
-  shacl:description "This property represents the name of the legal resource."@nl;
-  shacl:maxCount 1;
-  shacl:name "name"@nl;
-  shacl:path dc:title .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#eli::LegalResourceShape/a7760ef34c8bc85460f186072f4aaefd62ae6213> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResource.location";
-  shacl:datatype xsd:string;
-  shacl:description "De url van de legal resource"@nl;
-  shacl:name "location"@nl;
-  shacl:path schema:url .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#eli::LegalResourceShape/c71284d6d508493899132c623a106c1b9a2ce54f> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResource.order";
-  shacl:datatype xsd:integer;
-  shacl:description "Specifies the relative order of this item compared to its siblings."@nl;
-  shacl:name "order"@nl;
-  shacl:path shacl:order .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#eli::LegalResourceShape/d4d4f2399b8cf2f615ac658920373b714726bed0> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResource.description";
-  shacl:class rdf:langString;
-  shacl:description "This property represents a free text description of the legal resource."@nl;
-  shacl:name "description"@nl;
-  shacl:path dc:description .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#eli::LegalResourceShape/e709ed2c4b3e15bab1284ecc2e8ca7358b3608a9> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LegalResource.location";
-  shacl:description "De url van de legal resource"@nl;
   shacl:minCount 1;
   shacl:name "location"@nl;
   shacl:path schema:url .
