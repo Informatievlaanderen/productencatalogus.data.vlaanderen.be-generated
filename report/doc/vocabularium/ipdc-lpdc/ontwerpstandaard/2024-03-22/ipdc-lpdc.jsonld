@@ -2463,18 +2463,21 @@
             },
             "extra": {
                 "EA-Name": "address",
-                "EA-Guid": "{459BA292-8A1C-428d-958E-0F47C8B9F551}",
-                "EA-Package": "IPDC-LPDC",
-                "EA-Type": "attribute",
+                "EA-Guid": "{778B0EAB-7B83-4c67-B32F-6FFE8A101460}",
+                "derived": "false",
+                "EA-Package": "",
+                "EA-Type": "connector",
                 "EA-Domain": "ContactPoint",
                 "EA-Domain-Guid": "{A87B22A4-91D0-494a-95F1-8C9B5CFAED6D}",
                 "EA-Range": "Address",
                 "RangeData": {
                     "EA-Name": "Address",
-                    "EA-GUID": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
+                    "EA-GUID": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
                     "EA-Package": "IPDC-LPDC",
                     "uri": "http://www.w3.org/ns/locn#Address"
                 },
+                "sourceRole": "null",
+                "destRole": "null",
                 "label": {
                     "nl": "address"
                 },
@@ -2498,16 +2501,17 @@
                 "sameAs": "",
                 "RawTags": [
                     {
-                        "key": "definition-nl",
-                        "value": "Adres dat men kan aanschrijven of bezoeken.",
-                        "note": "null"
-                    },
-                    {
                         "key": "label-nl",
                         "value": "address",
                         "note": "null"
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "Adres dat men kan aanschrijven of bezoeken.",
+                        "note": "null"
                     }
                 ],
+                "DestRoleTags": [],
                 "Scope": "FULL_DEFINITON"
             },
             "codelist": [],
@@ -2520,7 +2524,7 @@
             "range": [
                 {
                     "EA-Name": "Address",
-                    "EA-GUID": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
+                    "EA-GUID": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
                     "EA-Package": "IPDC-LPDC",
                     "uri": "http://www.w3.org/ns/locn#Address"
                 }
@@ -3358,9 +3362,9 @@
             },
             "extra": {
                 "EA-Name": "Address",
-                "EA-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
+                "EA-Guid": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
                 "EA-Package": "IPDC-LPDC",
-                "EA-Type": "DATATYPE",
+                "EA-Type": "CLASS",
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
@@ -3391,11 +3395,6 @@
                 "sameAs": "",
                 "RawTags": [
                     {
-                        "key": "uri",
-                        "value": "http://www.w3.org/ns/locn#Address",
-                        "note": "null"
-                    },
-                    {
                         "key": "label-nl",
                         "value": "Address",
                         "note": "null"
@@ -3403,6 +3402,11 @@
                     {
                         "key": "definition-nl",
                         "value": "Adres dat men kan aanschrijven of bezoeken.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "uri",
+                        "value": "http://www.w3.org/ns/locn#Address",
                         "note": "null"
                     },
                     {
@@ -3705,24 +3709,24 @@
             "name": "postcode",
             "inpackage": "OTHER_PACKAGE",
             "label-nl": {
-                "nl": "postCode"
+                "nl": "postcode"
             },
             "definition": {
                 "nl": "Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt."
             },
             "label": {
-                "nl": "postCode"
+                "nl": "postcode"
             },
             "definition-nl": {
                 "nl": "Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt."
             },
             "extra": {
-                "EA-Name": "postCode",
-                "EA-Guid": "{0DBE9458-7F44-4b88-A16B-DD5D7684863B}",
+                "EA-Name": "postcode",
+                "EA-Guid": "{B0343F87-0586-4e4e-8189-C19BAFC99D17}",
                 "EA-Package": "IPDC-LPDC",
                 "EA-Type": "attribute",
                 "EA-Domain": "Address",
-                "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
+                "EA-Domain-Guid": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
                 "EA-Range": "String",
                 "RangeData": {
                     "EA-Name": "String",
@@ -3730,14 +3734,14 @@
                     "uri": "http://www.w3.org/2001/XMLSchema#string"
                 },
                 "label": {
-                    "nl": "postCode"
+                    "nl": "postcode"
                 },
                 "definition": {
                     "nl": "Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt."
                 },
                 "usage": "",
                 "label-nl": {
-                    "nl": "postCode"
+                    "nl": "postcode"
                 },
                 "definition-nl": {
                     "nl": "Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt."
@@ -3753,18 +3757,18 @@
                 "RawTags": [
                     {
                         "key": "label-nl",
-                        "value": "postCode",
+                        "value": "postcode",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt.",
                         "note": "null"
                     },
                     {
                         "key": "uri",
                         "value": "https://data.vlaanderen.be/ns/adres#postcode",
                         "note": "null"
-                    },
-                    {
-                        "key": "definition-nl",
-                        "value": "NOTE",
-                        "note": "Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt."
                     }
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
@@ -3806,11 +3810,11 @@
             },
             "extra": {
                 "EA-Name": "country",
-                "EA-Guid": "{61E5242D-5478-469d-9020-4F574F962150}",
+                "EA-Guid": "{DF5AA79A-AD47-4aee-A3DE-EFA35B8F5F74}",
                 "EA-Package": "IPDC-LPDC",
                 "EA-Type": "attribute",
                 "EA-Domain": "Address",
-                "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
+                "EA-Domain-Guid": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
                 "EA-Range": "TaalString",
                 "RangeData": {
                     "EA-Name": "TaalString",
@@ -3841,6 +3845,11 @@
                 "sameAs": "",
                 "RawTags": [
                     {
+                        "key": "definition-nl",
+                        "value": "Land waarin het adres gelegen is.",
+                        "note": "null"
+                    },
+                    {
                         "key": "label-nl",
                         "value": "country",
                         "note": "null"
@@ -3848,11 +3857,6 @@
                     {
                         "key": "uri",
                         "value": "https://data.vlaanderen.be/ns/adres#land",
-                        "note": "null"
-                    },
-                    {
-                        "key": "definition-nl",
-                        "value": "Land waarin het adres gelegen is.",
                         "note": "null"
                     }
                 ],
@@ -3896,11 +3900,11 @@
             },
             "extra": {
                 "EA-Name": "municipality",
-                "EA-Guid": "{2F6BFB61-AE7F-43f0-AC7F-61F74B412330}",
+                "EA-Guid": "{289F6E89-204E-4fcf-8AC0-18190C6AAEC0}",
                 "EA-Package": "IPDC-LPDC",
                 "EA-Type": "attribute",
                 "EA-Domain": "Address",
-                "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
+                "EA-Domain-Guid": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
                 "EA-Range": "TaalString",
                 "RangeData": {
                     "EA-Name": "TaalString",
@@ -3936,14 +3940,14 @@
                         "note": "null"
                     },
                     {
-                        "key": "uri",
-                        "value": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+                        "key": "definition-nl",
+                        "value": "Gemeentenaam van het adres.",
                         "note": "null"
                     },
                     {
-                        "key": "definition-nl",
-                        "value": "Gemeentenaam van het adres.",
-                        "note": "The key postal division of the address, usually the city. (INSPIRE's definition is \"One or more names created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.\"). The domain of locn:postName is locn:Address."
+                        "key": "uri",
+                        "value": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+                        "note": "null"
                     }
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
@@ -3986,11 +3990,11 @@
             },
             "extra": {
                 "EA-Name": "thoroughfare",
-                "EA-Guid": "{64F9D729-6247-4109-B6A2-7173B4326192}",
+                "EA-Guid": "{D7AF15F7-68A7-4372-BB46-56D9D7334CB4}",
                 "EA-Package": "IPDC-LPDC",
                 "EA-Type": "attribute",
                 "EA-Domain": "Address",
-                "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
+                "EA-Domain-Guid": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
                 "EA-Range": "TaalString",
                 "RangeData": {
                     "EA-Name": "TaalString",
@@ -4026,14 +4030,14 @@
                         "note": "null"
                     },
                     {
-                        "key": "uri",
-                        "value": "https://data.vlaanderen.be/ns/adres#Straatnaam",
+                        "key": "definition-nl",
+                        "value": "Adrescomponent met de naam die officieel werd toegekend aan een straat (baan, doorgang, plein) of aan een gehucht en waaraan adressen kunnen zijn gekoppeld.",
                         "note": "null"
                     },
                     {
-                        "key": "definition-nl",
-                        "value": "NOTE",
-                        "note": "Adrescomponent met de naam die officieel werd toegekend aan een straat (baan, doorgang, plein) of aan een gehucht en waaraan adressen kunnen zijn gekoppeld."
+                        "key": "uri",
+                        "value": "https://data.vlaanderen.be/ns/adres#Straatnaam",
+                        "note": "null"
                     }
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
@@ -4076,11 +4080,11 @@
             },
             "extra": {
                 "EA-Name": "houseNumber",
-                "EA-Guid": "{B6B69C48-E000-4c53-9D2E-F9002B9330FA}",
+                "EA-Guid": "{5324C255-EA01-4793-AF34-048DC53452A4}",
                 "EA-Package": "IPDC-LPDC",
                 "EA-Type": "attribute",
                 "EA-Domain": "Address",
-                "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
+                "EA-Domain-Guid": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
                 "EA-Range": "String",
                 "RangeData": {
                     "EA-Name": "String",
@@ -4115,14 +4119,14 @@
                         "note": "null"
                     },
                     {
-                        "key": "uri",
-                        "value": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+                        "key": "definition-nl",
+                        "value": "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen.",
                         "note": "null"
                     },
                     {
-                        "key": "definition-nl",
-                        "value": "NOTE",
-                        "note": "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen."
+                        "key": "uri",
+                        "value": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+                        "note": "null"
                     }
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
@@ -4164,11 +4168,11 @@
             },
             "extra": {
                 "EA-Name": "mailbox",
-                "EA-Guid": "{FC91E467-EFC9-4367-A0A6-AE2C6BEED75A}",
+                "EA-Guid": "{E425F3AA-CF11-42b7-8D2C-54AB3CCD1D4D}",
                 "EA-Package": "IPDC-LPDC",
                 "EA-Type": "attribute",
                 "EA-Domain": "Address",
-                "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
+                "EA-Domain-Guid": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
                 "EA-Range": "String",
                 "RangeData": {
                     "EA-Name": "String",
@@ -5341,100 +5345,6 @@
             },
             "extra": {
                 "EA-Name": "hasRequirement",
-                "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
-                "derived": "false",
-                "EA-Package": "",
-                "EA-Type": "connector",
-                "EA-Domain": "InstancePublicService",
-                "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-                "EA-Range": "Requirement",
-                "RangeData": {
-                    "EA-Name": "Requirement",
-                    "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "http://data.europa.eu/m8g/Requirement"
-                },
-                "sourceRole": "null",
-                "destRole": "null",
-                "label": {
-                    "nl": "hasRequirement"
-                },
-                "definition": {
-                    "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
-                },
-                "usage": "",
-                "label-nl": {
-                    "nl": "hasRequirement"
-                },
-                "definition-nl": {
-                    "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
-                },
-                "usageNote-nl": "",
-                "label-en": "",
-                "definition-en": "",
-                "usageNote-en": "",
-                "equivalent": "",
-                "subclass": "",
-                "subclass1": "",
-                "sameAs": "",
-                "RawTags": [
-                    {
-                        "key": "uri",
-                        "value": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
-                        "note": "null"
-                    },
-                    {
-                        "key": "definition-nl",
-                        "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
-                        "note": "null"
-                    },
-                    {
-                        "key": "label-nl",
-                        "value": "hasRequirement",
-                        "note": "null"
-                    }
-                ],
-                "DestRoleTags": [],
-                "Scope": "TRANSLATIONS_ONLY"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
-                    "EA-Name": "InstancePublicService"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "Requirement",
-                    "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "http://data.europa.eu/m8g/Requirement"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "0",
-            "maxCardinality": "1"
-        },
-        {
-            "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "hasrequirement",
-            "inpackage": "ACTIVE_PACKAGE",
-            "label-nl": {
-                "nl": "hasRequirement"
-            },
-            "definition": {
-                "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
-            },
-            "label": {
-                "nl": "hasRequirement"
-            },
-            "definition-nl": {
-                "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
-            },
-            "extra": {
-                "EA-Name": "hasRequirement",
                 "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
                 "derived": "false",
                 "EA-Package": "",
@@ -5496,6 +5406,100 @@
                 {
                     "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
                     "EA-Name": "ConceptualPublicService"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "Requirement",
+                    "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
+                    "EA-Package": "IPDC-LPDC",
+                    "uri": "http://data.europa.eu/m8g/Requirement"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "0",
+            "maxCardinality": "1"
+        },
+        {
+            "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "hasrequirement",
+            "inpackage": "ACTIVE_PACKAGE",
+            "label-nl": {
+                "nl": "hasRequirement"
+            },
+            "definition": {
+                "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+            },
+            "label": {
+                "nl": "hasRequirement"
+            },
+            "definition-nl": {
+                "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+            },
+            "extra": {
+                "EA-Name": "hasRequirement",
+                "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
+                "derived": "false",
+                "EA-Package": "",
+                "EA-Type": "connector",
+                "EA-Domain": "InstancePublicService",
+                "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+                "EA-Range": "Requirement",
+                "RangeData": {
+                    "EA-Name": "Requirement",
+                    "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
+                    "EA-Package": "IPDC-LPDC",
+                    "uri": "http://data.europa.eu/m8g/Requirement"
+                },
+                "sourceRole": "null",
+                "destRole": "null",
+                "label": {
+                    "nl": "hasRequirement"
+                },
+                "definition": {
+                    "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+                },
+                "usage": "",
+                "label-nl": {
+                    "nl": "hasRequirement"
+                },
+                "definition-nl": {
+                    "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+                },
+                "usageNote-nl": "",
+                "label-en": "",
+                "definition-en": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
+                "RawTags": [
+                    {
+                        "key": "uri",
+                        "value": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "label-nl",
+                        "value": "hasRequirement",
+                        "note": "null"
+                    }
+                ],
+                "DestRoleTags": [],
+                "Scope": "TRANSLATIONS_ONLY"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
+                    "EA-Name": "InstancePublicService"
                 }
             ],
             "range": [
@@ -7290,100 +7294,6 @@
             },
             "extra": {
                 "EA-Name": "follows",
-                "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
-                "derived": "false",
-                "EA-Package": "",
-                "EA-Type": "connector",
-                "EA-Domain": "ConceptualPublicService",
-                "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-                "EA-Range": "Procedure",
-                "RangeData": {
-                    "EA-Name": "Procedure",
-                    "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "http://purl.org/vocab/cpsv#Rule"
-                },
-                "sourceRole": "null",
-                "destRole": "null",
-                "label": {
-                    "nl": "follows"
-                },
-                "definition": {
-                    "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-                },
-                "usage": "",
-                "label-nl": {
-                    "nl": "follows"
-                },
-                "definition-nl": {
-                    "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-                },
-                "usageNote-nl": "",
-                "label-en": "",
-                "definition-en": "",
-                "usageNote-en": "",
-                "equivalent": "",
-                "subclass": "",
-                "subclass1": "",
-                "sameAs": "",
-                "RawTags": [
-                    {
-                        "key": "uri",
-                        "value": "http://purl.org/vocab/cpsv#follows",
-                        "note": "null"
-                    },
-                    {
-                        "key": "definition-nl",
-                        "value": "NOTE",
-                        "note": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-                    },
-                    {
-                        "key": "label-nl",
-                        "value": "follows",
-                        "note": "null"
-                    }
-                ],
-                "DestRoleTags": [],
-                "Scope": "TRANSLATIONS_ONLY"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
-                    "EA-Name": "ConceptualPublicService"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "Procedure",
-                    "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "http://purl.org/vocab/cpsv#Rule"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "0",
-            "maxCardinality": "1"
-        },
-        {
-            "@id": "http://purl.org/vocab/cpsv#follows",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "follows",
-            "inpackage": "ACTIVE_PACKAGE",
-            "label-nl": {
-                "nl": "follows"
-            },
-            "definition": {
-                "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-            },
-            "label": {
-                "nl": "follows"
-            },
-            "definition-nl": {
-                "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-            },
-            "extra": {
-                "EA-Name": "follows",
                 "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
                 "derived": "false",
                 "EA-Package": "",
@@ -7445,6 +7355,100 @@
                 {
                     "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
                     "EA-Name": "InstancePublicService"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "Procedure",
+                    "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
+                    "EA-Package": "IPDC-LPDC",
+                    "uri": "http://purl.org/vocab/cpsv#Rule"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "0",
+            "maxCardinality": "1"
+        },
+        {
+            "@id": "http://purl.org/vocab/cpsv#follows",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "follows",
+            "inpackage": "ACTIVE_PACKAGE",
+            "label-nl": {
+                "nl": "follows"
+            },
+            "definition": {
+                "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+            },
+            "label": {
+                "nl": "follows"
+            },
+            "definition-nl": {
+                "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+            },
+            "extra": {
+                "EA-Name": "follows",
+                "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
+                "derived": "false",
+                "EA-Package": "",
+                "EA-Type": "connector",
+                "EA-Domain": "ConceptualPublicService",
+                "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+                "EA-Range": "Procedure",
+                "RangeData": {
+                    "EA-Name": "Procedure",
+                    "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
+                    "EA-Package": "IPDC-LPDC",
+                    "uri": "http://purl.org/vocab/cpsv#Rule"
+                },
+                "sourceRole": "null",
+                "destRole": "null",
+                "label": {
+                    "nl": "follows"
+                },
+                "definition": {
+                    "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+                },
+                "usage": "",
+                "label-nl": {
+                    "nl": "follows"
+                },
+                "definition-nl": {
+                    "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+                },
+                "usageNote-nl": "",
+                "label-en": "",
+                "definition-en": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
+                "RawTags": [
+                    {
+                        "key": "uri",
+                        "value": "http://purl.org/vocab/cpsv#follows",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "NOTE",
+                        "note": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+                    },
+                    {
+                        "key": "label-nl",
+                        "value": "follows",
+                        "note": "null"
+                    }
+                ],
+                "DestRoleTags": [],
+                "Scope": "TRANSLATIONS_ONLY"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
+                    "EA-Name": "ConceptualPublicService"
                 }
             ],
             "range": [
@@ -10557,100 +10561,6 @@
             },
             "extra": {
                 "EA-Name": "hasCost",
-                "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
-                "derived": "false",
-                "EA-Package": "",
-                "EA-Type": "connector",
-                "EA-Domain": "ConceptualPublicService",
-                "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-                "EA-Range": "Cost",
-                "RangeData": {
-                    "EA-Name": "Cost",
-                    "EA-GUID": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "http://data.europa.eu/m8g/Cost"
-                },
-                "sourceRole": "null",
-                "destRole": "null",
-                "label": {
-                    "nl": "hasCost"
-                },
-                "definition": {
-                    "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
-                },
-                "usage": "",
-                "label-nl": {
-                    "nl": "hasCost"
-                },
-                "definition-nl": {
-                    "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
-                },
-                "usageNote-nl": "",
-                "label-en": "",
-                "definition-en": "",
-                "usageNote-en": "",
-                "equivalent": "",
-                "subclass": "",
-                "subclass1": "",
-                "sameAs": "",
-                "RawTags": [
-                    {
-                        "key": "uri",
-                        "value": "http://data.europa.eu/m8g/hasCost",
-                        "note": "null"
-                    },
-                    {
-                        "key": "definition-nl",
-                        "value": "NOTE",
-                        "note": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
-                    },
-                    {
-                        "key": "label-nl",
-                        "value": "hasCost",
-                        "note": "null"
-                    }
-                ],
-                "DestRoleTags": [],
-                "Scope": "TRANSLATIONS_ONLY"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
-                    "EA-Name": "ConceptualPublicService"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "Cost",
-                    "EA-GUID": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "http://data.europa.eu/m8g/Cost"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "0",
-            "maxCardinality": "*"
-        },
-        {
-            "@id": "http://data.europa.eu/m8g/hasCost",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "hascost",
-            "inpackage": "ACTIVE_PACKAGE",
-            "label-nl": {
-                "nl": "hasCost"
-            },
-            "definition": {
-                "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
-            },
-            "label": {
-                "nl": "hasCost"
-            },
-            "definition-nl": {
-                "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
-            },
-            "extra": {
-                "EA-Name": "hasCost",
                 "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
                 "derived": "false",
                 "EA-Package": "",
@@ -10712,6 +10622,100 @@
                 {
                     "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
                     "EA-Name": "InstancePublicService"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "Cost",
+                    "EA-GUID": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
+                    "EA-Package": "IPDC-LPDC",
+                    "uri": "http://data.europa.eu/m8g/Cost"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "0",
+            "maxCardinality": "*"
+        },
+        {
+            "@id": "http://data.europa.eu/m8g/hasCost",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "hascost",
+            "inpackage": "ACTIVE_PACKAGE",
+            "label-nl": {
+                "nl": "hasCost"
+            },
+            "definition": {
+                "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
+            },
+            "label": {
+                "nl": "hasCost"
+            },
+            "definition-nl": {
+                "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
+            },
+            "extra": {
+                "EA-Name": "hasCost",
+                "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+                "derived": "false",
+                "EA-Package": "",
+                "EA-Type": "connector",
+                "EA-Domain": "ConceptualPublicService",
+                "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+                "EA-Range": "Cost",
+                "RangeData": {
+                    "EA-Name": "Cost",
+                    "EA-GUID": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
+                    "EA-Package": "IPDC-LPDC",
+                    "uri": "http://data.europa.eu/m8g/Cost"
+                },
+                "sourceRole": "null",
+                "destRole": "null",
+                "label": {
+                    "nl": "hasCost"
+                },
+                "definition": {
+                    "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
+                },
+                "usage": "",
+                "label-nl": {
+                    "nl": "hasCost"
+                },
+                "definition-nl": {
+                    "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
+                },
+                "usageNote-nl": "",
+                "label-en": "",
+                "definition-en": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
+                "RawTags": [
+                    {
+                        "key": "uri",
+                        "value": "http://data.europa.eu/m8g/hasCost",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "NOTE",
+                        "note": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
+                    },
+                    {
+                        "key": "label-nl",
+                        "value": "hasCost",
+                        "note": "null"
+                    }
+                ],
+                "DestRoleTags": [],
+                "Scope": "TRANSLATIONS_ONLY"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
+                    "EA-Name": "ConceptualPublicService"
                 }
             ],
             "range": [

@@ -15,8 +15,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/8270537df5789c2fd9f864f035f220af421abed6",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/8270537df5789c2fd9f864f035f220af421abed6/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/d974a8cddcbad3cd7e3a6585d278168a3c270124",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/d974a8cddcbad3cd7e3a6585d278168a3c270124/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -3781,8 +3781,8 @@
           "cardinality": "0..1",
           "codelist_uri": "",
           "rawTags": {
-            "definition-nl": "Adres dat men kan aanschrijven of bezoeken.",
-            "label-nl": "address"
+            "label-nl": "address",
+            "definition-nl": "Adres dat men kan aanschrijven of bezoeken."
           }
         },
         {
@@ -4184,6 +4184,269 @@
             "definition-nl": "This property represents a free text description of the Website.",
             "usageNote-nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.",
             "label-nl": "description"
+          }
+        }
+      ]
+    },
+    {
+      "uri": "http://www.w3.org/ns/locn#Address",
+      "name": "Address",
+      "label": {
+        "nl": "Address"
+      },
+      "sort": "Address",
+      "description": {
+        "nl": "Adres dat men kan aanschrijven of bezoeken."
+      },
+      "usage": {
+        "nl": "Minstens één van de attributen moet ingevuld zijn met een niet lege waarde."
+      },
+      "parents": [],
+      "rawTags": {
+        "label-nl": "Address",
+        "definition-nl": "Adres dat men kan aanschrijven of bezoeken.",
+        "uri": "http://www.w3.org/ns/locn#Address",
+        "usageNote-nl": "Minstens één van de attributen moet ingevuld zijn met een niet lege waarde."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#postcode",
+          "name": "postcode",
+          "sort": "postcode",
+          "label": {
+            "nl": "postcode"
+          },
+          "description": {
+            "nl": "Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Address",
+              "uri": "http://www.w3.org/ns/locn#Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "nl": "String"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "postcode",
+            "definition-nl": "Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt.",
+            "uri": "https://data.vlaanderen.be/ns/adres#postcode"
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#land",
+          "name": "country",
+          "sort": "country",
+          "label": {
+            "nl": "country"
+          },
+          "description": {
+            "nl": "Land waarin het adres gelegen is."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Address",
+              "uri": "http://www.w3.org/ns/locn#Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "TaalString",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "nl": "TaalString"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-nl": "Land waarin het adres gelegen is.",
+            "label-nl": "country",
+            "uri": "https://data.vlaanderen.be/ns/adres#land"
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+          "name": "municipality",
+          "sort": "municipality",
+          "label": {
+            "nl": "municipality"
+          },
+          "description": {
+            "nl": "Gemeentenaam van het adres."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Address",
+              "uri": "http://www.w3.org/ns/locn#Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "TaalString",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "nl": "TaalString"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "municipality",
+            "definition-nl": "Gemeentenaam van het adres.",
+            "uri": "https://data.vlaanderen.be/ns/adres#gemeentenaam"
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#Straatnaam",
+          "name": "thoroughfare",
+          "sort": "thoroughfare",
+          "label": {
+            "nl": "thoroughfare"
+          },
+          "description": {
+            "nl": "Adrescomponent met de naam die officieel werd toegekend aan een straat (baan, doorgang, plein) of aan een gehucht en waaraan adressen kunnen zijn gekoppeld."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Address",
+              "uri": "http://www.w3.org/ns/locn#Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "TaalString",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "nl": "TaalString"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "thoroughfare",
+            "definition-nl": "Adrescomponent met de naam die officieel werd toegekend aan een straat (baan, doorgang, plein) of aan een gehucht en waaraan adressen kunnen zijn gekoppeld.",
+            "uri": "https://data.vlaanderen.be/ns/adres#Straatnaam"
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+          "name": "housenumber",
+          "sort": "houseNumber",
+          "label": {
+            "nl": "houseNumber"
+          },
+          "description": {
+            "nl": "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Address",
+              "uri": "http://www.w3.org/ns/locn#Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "nl": "String"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "houseNumber",
+            "definition-nl": "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen.",
+            "uri": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer"
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
+          "name": "mailbox",
+          "sort": "mailbox",
+          "label": {
+            "nl": "mailbox"
+          },
+          "description": {
+            "nl": "Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Address",
+              "uri": "http://www.w3.org/ns/locn#Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "nl": "String"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "mailbox",
+            "uri": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
+            "definition-nl": "Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben."
           }
         }
       ]
@@ -4598,271 +4861,7 @@
       "email": "kris.aerts@kunlabora.be"
     }
   ],
-  "datatypes": [
-    {
-      "uri": "http://www.w3.org/ns/locn#Address",
-      "name": "Address",
-      "label": {
-        "nl": "Address"
-      },
-      "sort": "Address",
-      "description": {
-        "nl": "Adres dat men kan aanschrijven of bezoeken."
-      },
-      "usage": {
-        "nl": "Minstens één van de attributen moet ingevuld zijn met een niet lege waarde."
-      },
-      "parents": [],
-      "rawTags": {
-        "uri": "http://www.w3.org/ns/locn#Address",
-        "label-nl": "Address",
-        "definition-nl": "Adres dat men kan aanschrijven of bezoeken.",
-        "usageNote-nl": "Minstens één van de attributen moet ingevuld zijn met een niet lege waarde."
-      },
-      "properties": [
-        {
-          "uri": "https://data.vlaanderen.be/ns/adres#postcode",
-          "name": "postcode",
-          "sort": "postCode",
-          "label": {
-            "nl": "postCode"
-          },
-          "description": {
-            "nl": "Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Address",
-              "uri": "http://www.w3.org/ns/locn#Address"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "String",
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_label": {
-                "nl": "String"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-nl": "postCode",
-            "uri": "https://data.vlaanderen.be/ns/adres#postcode",
-            "definition-nl": "Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt."
-          }
-        },
-        {
-          "uri": "https://data.vlaanderen.be/ns/adres#land",
-          "name": "country",
-          "sort": "country",
-          "label": {
-            "nl": "country"
-          },
-          "description": {
-            "nl": "Land waarin het adres gelegen is."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Address",
-              "uri": "http://www.w3.org/ns/locn#Address"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "TaalString",
-              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-              "range_label": {
-                "nl": "TaalString"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-nl": "country",
-            "uri": "https://data.vlaanderen.be/ns/adres#land",
-            "definition-nl": "Land waarin het adres gelegen is."
-          }
-        },
-        {
-          "uri": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
-          "name": "municipality",
-          "sort": "municipality",
-          "label": {
-            "nl": "municipality"
-          },
-          "description": {
-            "nl": "Gemeentenaam van het adres."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Address",
-              "uri": "http://www.w3.org/ns/locn#Address"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "TaalString",
-              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-              "range_label": {
-                "nl": "TaalString"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-nl": "municipality",
-            "uri": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
-            "definition-nl": "Gemeentenaam van het adres."
-          }
-        },
-        {
-          "uri": "https://data.vlaanderen.be/ns/adres#Straatnaam",
-          "name": "thoroughfare",
-          "sort": "thoroughfare",
-          "label": {
-            "nl": "thoroughfare"
-          },
-          "description": {
-            "nl": "Adrescomponent met de naam die officieel werd toegekend aan een straat (baan, doorgang, plein) of aan een gehucht en waaraan adressen kunnen zijn gekoppeld."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Address",
-              "uri": "http://www.w3.org/ns/locn#Address"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "TaalString",
-              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-              "range_label": {
-                "nl": "TaalString"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-nl": "thoroughfare",
-            "uri": "https://data.vlaanderen.be/ns/adres#Straatnaam",
-            "definition-nl": "Adrescomponent met de naam die officieel werd toegekend aan een straat (baan, doorgang, plein) of aan een gehucht en waaraan adressen kunnen zijn gekoppeld."
-          }
-        },
-        {
-          "uri": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
-          "name": "housenumber",
-          "sort": "houseNumber",
-          "label": {
-            "nl": "houseNumber"
-          },
-          "description": {
-            "nl": "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Address",
-              "uri": "http://www.w3.org/ns/locn#Address"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "String",
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_label": {
-                "nl": "String"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-nl": "houseNumber",
-            "uri": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
-            "definition-nl": "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen."
-          }
-        },
-        {
-          "uri": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
-          "name": "mailbox",
-          "sort": "mailbox",
-          "label": {
-            "nl": "mailbox"
-          },
-          "description": {
-            "nl": "Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Address",
-              "uri": "http://www.w3.org/ns/locn#Address"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "String",
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_label": {
-                "nl": "String"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-nl": "mailbox",
-            "uri": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
-            "definition-nl": "Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben."
-          }
-        }
-      ]
-    }
-  ],
+  "datatypes": [],
   "parents": [],
   "documentroot": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22"
 }

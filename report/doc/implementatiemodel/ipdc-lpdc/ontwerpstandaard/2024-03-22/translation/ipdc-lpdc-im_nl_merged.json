@@ -526,8 +526,8 @@
   "dependencies": [],
   "diagram": "ipdc-lpdc-ap",
   "disabled": false,
-  "documentcommit": "8270537df5789c2fd9f864f035f220af421abed6",
-  "dummy": "011",
+  "documentcommit": "d974a8cddcbad3cd7e3a6585d278168a3c270124",
+  "dummy": "012",
   "eap": "IPDC-LPDC-AP.eap",
   "editors": [
     {
@@ -644,95 +644,6 @@
     {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
-      "ap-definition-nl": {
-        "nl": "Links naar de uitvoerende organisaties"
-      },
-      "ap-label-nl": {
-        "nl": "hasExecutingAuthority"
-      },
-      "codelist": [],
-      "definition": {
-        "nl": "Links naar de uitvoerende organisaties"
-      },
-      "domain": [
-        {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
-        "EA-Name": "hasExecutingAuthority",
-        "EA-Package": "",
-        "EA-Range": "PubliekeOrganisatie",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
-          "EA-Name": "PubliekeOrganisatie",
-          "EA-Package": "OSLO-Organisatie",
-          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
-        },
-        "RawTags": [
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "hasExecutingAuthority"
-          },
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "Links naar de uitvoerende organisaties"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "Links naar de uitvoerende organisaties"
-        },
-        "ap-label-nl": {
-          "nl": "hasExecutingAuthority"
-        },
-        "ap-usageNote-nl": "",
-        "definition": {
-          "nl": "Links naar de uitvoerende organisaties"
-        },
-        "derived": "false",
-        "destRole": "null",
-        "label": {
-          "nl": "hasExecutingAuthority"
-        },
-        "sourceRole": "null",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "UNKNOWN",
-      "label": {
-        "nl": "hasExecutingAuthority"
-      },
-      "maxCardinality": "*",
-      "minCardinality": "0",
-      "name": "hasexecutingauthority",
-      "range": [
-        {
-          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
-          "EA-Name": "PubliekeOrganisatie",
-          "EA-Package": "OSLO-Organisatie",
-          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
-        }
-      ]
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
       "ap-definition-nl": {
         "nl": "Links naar de uitvoerende organisaties"
@@ -820,14 +731,103 @@
       ]
     },
     {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+      "ap-definition-nl": {
+        "nl": "Links naar de uitvoerende organisaties"
+      },
+      "ap-label-nl": {
+        "nl": "hasExecutingAuthority"
+      },
+      "codelist": [],
+      "definition": {
+        "nl": "Links naar de uitvoerende organisaties"
+      },
+      "domain": [
+        {
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+        "EA-Name": "hasExecutingAuthority",
+        "EA-Package": "",
+        "EA-Range": "PubliekeOrganisatie",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+          "EA-Name": "PubliekeOrganisatie",
+          "EA-Package": "OSLO-Organisatie",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+        },
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "hasExecutingAuthority"
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Links naar de uitvoerende organisaties"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "Links naar de uitvoerende organisaties"
+        },
+        "ap-label-nl": {
+          "nl": "hasExecutingAuthority"
+        },
+        "ap-usageNote-nl": "",
+        "definition": {
+          "nl": "Links naar de uitvoerende organisaties"
+        },
+        "derived": "false",
+        "destRole": "null",
+        "label": {
+          "nl": "hasExecutingAuthority"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "UNKNOWN",
+      "label": {
+        "nl": "hasExecutingAuthority"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "hasexecutingauthority",
+      "range": [
+        {
+          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+          "EA-Name": "PubliekeOrganisatie",
+          "EA-Package": "OSLO-Organisatie",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+        }
+      ]
+    },
+    {
       "@id": "https://data.vlaanderen.be/ns/adres#postcode",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{0DBE9458-7F44-4b88-A16B-DD5D7684863B}",
+      "EA-Guid": "{B0343F87-0586-4e4e-8189-C19BAFC99D17}",
       "ap-definition-nl": {
         "nl": "Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt."
       },
       "ap-label-nl": {
-        "nl": "postCode"
+        "nl": "postcode"
       },
       "codelist": [],
       "definition": {
@@ -841,9 +841,9 @@
       ],
       "extra": {
         "EA-Domain": "Address",
-        "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
-        "EA-Guid": "{0DBE9458-7F44-4b88-A16B-DD5D7684863B}",
-        "EA-Name": "postCode",
+        "EA-Domain-Guid": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
+        "EA-Guid": "{B0343F87-0586-4e4e-8189-C19BAFC99D17}",
+        "EA-Name": "postcode",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "String",
         "EA-Type": "attribute",
@@ -856,17 +856,17 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "postCode"
+            "value": "postcode"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt."
           },
           {
             "key": "uri",
             "note": "null",
             "value": "https://data.vlaanderen.be/ns/adres#postcode"
-          },
-          {
-            "key": "definition-nl",
-            "note": "Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt.",
-            "value": "NOTE"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -875,21 +875,21 @@
           "nl": "Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt."
         },
         "ap-label-nl": {
-          "nl": "postCode"
+          "nl": "postcode"
         },
         "ap-usageNote-nl": "",
         "definition": {
           "nl": "Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt."
         },
         "label": {
-          "nl": "postCode"
+          "nl": "postcode"
         },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "postCode"
+        "nl": "postcode"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -905,7 +905,7 @@
     {
       "@id": "https://data.vlaanderen.be/ns/adres#land",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{61E5242D-5478-469d-9020-4F574F962150}",
+      "EA-Guid": "{DF5AA79A-AD47-4aee-A3DE-EFA35B8F5F74}",
       "ap-definition-nl": {
         "nl": "Land waarin het adres gelegen is."
       },
@@ -924,8 +924,8 @@
       ],
       "extra": {
         "EA-Domain": "Address",
-        "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
-        "EA-Guid": "{61E5242D-5478-469d-9020-4F574F962150}",
+        "EA-Domain-Guid": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
+        "EA-Guid": "{DF5AA79A-AD47-4aee-A3DE-EFA35B8F5F74}",
         "EA-Name": "country",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
@@ -938,6 +938,11 @@
         },
         "RawTags": [
           {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Land waarin het adres gelegen is."
+          },
+          {
             "key": "label-nl",
             "note": "null",
             "value": "country"
@@ -946,11 +951,6 @@
             "key": "uri",
             "note": "null",
             "value": "https://data.vlaanderen.be/ns/adres#land"
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "Land waarin het adres gelegen is."
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -990,7 +990,7 @@
     {
       "@id": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{2F6BFB61-AE7F-43f0-AC7F-61F74B412330}",
+      "EA-Guid": "{289F6E89-204E-4fcf-8AC0-18190C6AAEC0}",
       "ap-definition-nl": {
         "nl": "Gemeentenaam van het adres."
       },
@@ -1009,8 +1009,8 @@
       ],
       "extra": {
         "EA-Domain": "Address",
-        "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
-        "EA-Guid": "{2F6BFB61-AE7F-43f0-AC7F-61F74B412330}",
+        "EA-Domain-Guid": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
+        "EA-Guid": "{289F6E89-204E-4fcf-8AC0-18190C6AAEC0}",
         "EA-Name": "municipality",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
@@ -1028,14 +1028,14 @@
             "value": "municipality"
           },
           {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Gemeentenaam van het adres."
+          },
+          {
             "key": "uri",
             "note": "null",
             "value": "https://data.vlaanderen.be/ns/adres#gemeentenaam"
-          },
-          {
-            "key": "definition-nl",
-            "note": "The key postal division of the address, usually the city. (INSPIRE's definition is \"One or more names created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.\"). The domain of locn:postName is locn:Address.",
-            "value": "Gemeentenaam van het adres."
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -1075,7 +1075,7 @@
     {
       "@id": "https://data.vlaanderen.be/ns/adres#Straatnaam",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{64F9D729-6247-4109-B6A2-7173B4326192}",
+      "EA-Guid": "{D7AF15F7-68A7-4372-BB46-56D9D7334CB4}",
       "ap-definition-nl": {
         "nl": "Adrescomponent met de naam die officieel werd toegekend aan een straat (baan, doorgang, plein) of aan een gehucht en waaraan adressen kunnen zijn gekoppeld."
       },
@@ -1094,8 +1094,8 @@
       ],
       "extra": {
         "EA-Domain": "Address",
-        "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
-        "EA-Guid": "{64F9D729-6247-4109-B6A2-7173B4326192}",
+        "EA-Domain-Guid": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
+        "EA-Guid": "{D7AF15F7-68A7-4372-BB46-56D9D7334CB4}",
         "EA-Name": "thoroughfare",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "TaalString",
@@ -1113,14 +1113,14 @@
             "value": "thoroughfare"
           },
           {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Adrescomponent met de naam die officieel werd toegekend aan een straat (baan, doorgang, plein) of aan een gehucht en waaraan adressen kunnen zijn gekoppeld."
+          },
+          {
             "key": "uri",
             "note": "null",
             "value": "https://data.vlaanderen.be/ns/adres#Straatnaam"
-          },
-          {
-            "key": "definition-nl",
-            "note": "Adrescomponent met de naam die officieel werd toegekend aan een straat (baan, doorgang, plein) of aan een gehucht en waaraan adressen kunnen zijn gekoppeld.",
-            "value": "NOTE"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -1160,7 +1160,7 @@
     {
       "@id": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{B6B69C48-E000-4c53-9D2E-F9002B9330FA}",
+      "EA-Guid": "{5324C255-EA01-4793-AF34-048DC53452A4}",
       "ap-definition-nl": {
         "nl": "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen."
       },
@@ -1179,8 +1179,8 @@
       ],
       "extra": {
         "EA-Domain": "Address",
-        "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
-        "EA-Guid": "{B6B69C48-E000-4c53-9D2E-F9002B9330FA}",
+        "EA-Domain-Guid": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
+        "EA-Guid": "{5324C255-EA01-4793-AF34-048DC53452A4}",
         "EA-Name": "houseNumber",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "String",
@@ -1197,14 +1197,14 @@
             "value": "houseNumber"
           },
           {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen."
+          },
+          {
             "key": "uri",
             "note": "null",
             "value": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer"
-          },
-          {
-            "key": "definition-nl",
-            "note": "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen.",
-            "value": "NOTE"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -1243,7 +1243,7 @@
     {
       "@id": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{FC91E467-EFC9-4367-A0A6-AE2C6BEED75A}",
+      "EA-Guid": "{E425F3AA-CF11-42b7-8D2C-54AB3CCD1D4D}",
       "ap-definition-nl": {
         "nl": "Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben."
       },
@@ -1262,8 +1262,8 @@
       ],
       "extra": {
         "EA-Domain": "Address",
-        "EA-Domain-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
-        "EA-Guid": "{FC91E467-EFC9-4367-A0A6-AE2C6BEED75A}",
+        "EA-Domain-Guid": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
+        "EA-Guid": "{E425F3AA-CF11-42b7-8D2C-54AB3CCD1D4D}",
         "EA-Name": "mailbox",
         "EA-Package": "IPDC-LPDC",
         "EA-Range": "String",
@@ -3941,7 +3941,7 @@
     {
       "@id": "http://purl.org/vocab/cpsv#produces",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
       "ap-definition-nl": {
         "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
       },
@@ -3954,15 +3954,15 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
         "EA-Name": "produces",
         "EA-Package": "",
         "EA-Range": "FinancialAdvantage",
@@ -4030,7 +4030,7 @@
     {
       "@id": "http://purl.org/vocab/cpsv#produces",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
       "ap-definition-nl": {
         "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
       },
@@ -4043,15 +4043,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+          "EA-Name": "ConceptualPublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
         "EA-Name": "produces",
         "EA-Package": "",
         "EA-Range": "FinancialAdvantage",
@@ -5644,95 +5644,6 @@
     {
       "@id": "http://purl.org/dc/terms/isVersionOf",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{55F34410-3DA0-42fc-A8AD-E43C9735D39E}",
-      "ap-definition-nl": {
-        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-      },
-      "ap-label-nl": {
-        "nl": "isVersionOf"
-      },
-      "codelist": [],
-      "definition": {
-        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-      },
-      "domain": [
-        {
-          "EA-Name": "InstancePublicServiceSnapshot",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [],
-        "EA-Domain": "InstancePublicServiceSnapshot",
-        "EA-Domain-Guid": "{E861DC27-6881-4243-94C4-EF004C4DF728}",
-        "EA-Guid": "{55F34410-3DA0-42fc-A8AD-E43C9735D39E}",
-        "EA-Name": "isVersionOf",
-        "EA-Package": "",
-        "EA-Range": "InstancePublicService",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-          "EA-Name": "InstancePublicService",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-        },
-        "RawTags": [
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "isVersionOf"
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-          },
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://purl.org/dc/terms/isVersionOf"
-          }
-        ],
-        "Scope": "TRANSLATIONS_ONLY",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-        },
-        "ap-label-nl": {
-          "nl": "isVersionOf"
-        },
-        "ap-usageNote-nl": "",
-        "definition": {
-          "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-        },
-        "derived": "false",
-        "destRole": "null",
-        "label": {
-          "nl": "isVersionOf"
-        },
-        "sourceRole": "null",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "nl": "isVersionOf"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "1",
-      "name": "isversionof",
-      "range": [
-        {
-          "EA-GUID": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-          "EA-Name": "InstancePublicService",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-        }
-      ]
-    },
-    {
-      "@id": "http://purl.org/dc/terms/isVersionOf",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
       "ap-definition-nl": {
         "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
@@ -5816,6 +5727,95 @@
           "EA-Name": "ConceptualPublicService",
           "EA-Package": "IPDC-LPDC",
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+        }
+      ]
+    },
+    {
+      "@id": "http://purl.org/dc/terms/isVersionOf",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{55F34410-3DA0-42fc-A8AD-E43C9735D39E}",
+      "ap-definition-nl": {
+        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+      },
+      "ap-label-nl": {
+        "nl": "isVersionOf"
+      },
+      "codelist": [],
+      "definition": {
+        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+      },
+      "domain": [
+        {
+          "EA-Name": "InstancePublicServiceSnapshot",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "InstancePublicServiceSnapshot",
+        "EA-Domain-Guid": "{E861DC27-6881-4243-94C4-EF004C4DF728}",
+        "EA-Guid": "{55F34410-3DA0-42fc-A8AD-E43C9735D39E}",
+        "EA-Name": "isVersionOf",
+        "EA-Package": "",
+        "EA-Range": "InstancePublicService",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+          "EA-Name": "InstancePublicService",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+        },
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "isVersionOf"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://purl.org/dc/terms/isVersionOf"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        },
+        "ap-label-nl": {
+          "nl": "isVersionOf"
+        },
+        "ap-usageNote-nl": "",
+        "definition": {
+          "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        },
+        "derived": "false",
+        "destRole": "null",
+        "label": {
+          "nl": "isVersionOf"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "nl": "isVersionOf"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "isversionof",
+      "range": [
+        {
+          "EA-GUID": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+          "EA-Name": "InstancePublicService",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ]
     },
@@ -6974,7 +6974,7 @@
     {
       "@id": "http://data.europa.eu/m8g/hasLegalResource",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
+      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
       "ap-definition-nl": {
         "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
       },
@@ -6987,15 +6987,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+          "EA-Name": "ConceptualPublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
         "EA-Name": "hasLegalResource",
         "EA-Package": "",
         "EA-Range": "LegalResource",
@@ -7063,7 +7063,7 @@
     {
       "@id": "http://data.europa.eu/m8g/hasLegalResource",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
+      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
       "ap-definition-nl": {
         "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
       },
@@ -7076,15 +7076,15 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
         "EA-Name": "hasLegalResource",
         "EA-Package": "",
         "EA-Range": "LegalResource",
@@ -7419,95 +7419,6 @@
     {
       "@id": "http://data.europa.eu/m8g/hasCompetentAuthority",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
-      "ap-definition-nl": {
-        "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
-      },
-      "ap-label-nl": {
-        "nl": "hasCompetentAuthority"
-      },
-      "codelist": [],
-      "definition": {
-        "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
-      },
-      "domain": [
-        {
-          "EA-Name": "ConceptualPublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
-        "EA-Name": "hasCompetentAuthority",
-        "EA-Package": "",
-        "EA-Range": "PubliekeOrganisatie",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
-          "EA-Name": "PubliekeOrganisatie",
-          "EA-Package": "OSLO-Organisatie",
-          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
-        },
-        "RawTags": [
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://data.europa.eu/m8g/hasCompetentAuthority"
-          },
-          {
-            "key": "definition-nl",
-            "note": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\".",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "hasCompetentAuthority"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
-        },
-        "ap-label-nl": {
-          "nl": "hasCompetentAuthority"
-        },
-        "ap-usageNote-nl": "",
-        "definition": {
-          "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
-        },
-        "derived": "false",
-        "destRole": "null",
-        "label": {
-          "nl": "hasCompetentAuthority"
-        },
-        "sourceRole": "null",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "UNKNOWN",
-      "label": {
-        "nl": "hasCompetentAuthority"
-      },
-      "maxCardinality": "*",
-      "minCardinality": "0",
-      "name": "hascompetentauthority",
-      "range": [
-        {
-          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
-          "EA-Name": "PubliekeOrganisatie",
-          "EA-Package": "OSLO-Organisatie",
-          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
-        }
-      ]
-    },
-    {
-      "@id": "http://data.europa.eu/m8g/hasCompetentAuthority",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
       "ap-definition-nl": {
         "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
@@ -7584,6 +7495,95 @@
       },
       "maxCardinality": "*",
       "minCardinality": "1",
+      "name": "hascompetentauthority",
+      "range": [
+        {
+          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+          "EA-Name": "PubliekeOrganisatie",
+          "EA-Package": "OSLO-Organisatie",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+        }
+      ]
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/hasCompetentAuthority",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
+      "ap-definition-nl": {
+        "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
+      },
+      "ap-label-nl": {
+        "nl": "hasCompetentAuthority"
+      },
+      "codelist": [],
+      "definition": {
+        "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
+      },
+      "domain": [
+        {
+          "EA-Name": "ConceptualPublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
+        "EA-Name": "hasCompetentAuthority",
+        "EA-Package": "",
+        "EA-Range": "PubliekeOrganisatie",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+          "EA-Name": "PubliekeOrganisatie",
+          "EA-Package": "OSLO-Organisatie",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+        },
+        "RawTags": [
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://data.europa.eu/m8g/hasCompetentAuthority"
+          },
+          {
+            "key": "definition-nl",
+            "note": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\".",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "hasCompetentAuthority"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
+        },
+        "ap-label-nl": {
+          "nl": "hasCompetentAuthority"
+        },
+        "ap-usageNote-nl": "",
+        "definition": {
+          "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
+        },
+        "derived": "false",
+        "destRole": "null",
+        "label": {
+          "nl": "hasCompetentAuthority"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "UNKNOWN",
+      "label": {
+        "nl": "hasCompetentAuthority"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
       "name": "hascompetentauthority",
       "range": [
         {
@@ -8137,7 +8137,7 @@
     {
       "@id": "http://www.w3.org/ns/locn#Address",
       "@type": "http://www.w3.org/2002/07/owl#Class",
-      "EA-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
+      "EA-Guid": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
       "ap-definition-nl": {
         "nl": "Adres dat men kan aanschrijven of bezoeken."
       },
@@ -8148,18 +8148,13 @@
         "nl": "Adres dat men kan aanschrijven of bezoeken."
       },
       "extra": {
-        "EA-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
+        "EA-Guid": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
         "EA-Name": "Address",
         "EA-Package": "IPDC-LPDC",
         "EA-Parents": "",
         "EA-Parents2": [],
-        "EA-Type": "DATATYPE",
+        "EA-Type": "CLASS",
         "RawTags": [
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://www.w3.org/ns/locn#Address"
-          },
           {
             "key": "label-nl",
             "note": "null",
@@ -8169,6 +8164,11 @@
             "key": "definition-nl",
             "note": "null",
             "value": "Adres dat men kan aanschrijven of bezoeken."
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://www.w3.org/ns/locn#Address"
           },
           {
             "key": "usageNote-nl",
@@ -9921,7 +9921,7 @@
     {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#address",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{459BA292-8A1C-428d-958E-0F47C8B9F551}",
+      "EA-Guid": "{778B0EAB-7B83-4c67-B32F-6FFE8A101460}",
       "ap-definition-nl": {
         "nl": "Adres dat men kan aanschrijven of bezoeken."
       },
@@ -9939,29 +9939,30 @@
         }
       ],
       "extra": {
+        "DestRoleTags": [],
         "EA-Domain": "ContactPoint",
         "EA-Domain-Guid": "{A87B22A4-91D0-494a-95F1-8C9B5CFAED6D}",
-        "EA-Guid": "{459BA292-8A1C-428d-958E-0F47C8B9F551}",
+        "EA-Guid": "{778B0EAB-7B83-4c67-B32F-6FFE8A101460}",
         "EA-Name": "address",
-        "EA-Package": "IPDC-LPDC",
+        "EA-Package": "",
         "EA-Range": "Address",
-        "EA-Type": "attribute",
+        "EA-Type": "connector",
         "RangeData": {
-          "EA-GUID": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
+          "EA-GUID": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
           "EA-Name": "Address",
           "EA-Package": "IPDC-LPDC",
           "uri": "http://www.w3.org/ns/locn#Address"
         },
         "RawTags": [
           {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "Adres dat men kan aanschrijven of bezoeken."
-          },
-          {
             "key": "label-nl",
             "note": "null",
             "value": "address"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Adres dat men kan aanschrijven of bezoeken."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -9976,9 +9977,12 @@
         "definition": {
           "nl": "Adres dat men kan aanschrijven of bezoeken."
         },
+        "derived": "false",
+        "destRole": "null",
         "label": {
           "nl": "address"
         },
+        "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
@@ -9991,7 +9995,7 @@
       "name": "address",
       "range": [
         {
-          "EA-GUID": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
+          "EA-GUID": "{5D8B559D-7DB3-4c24-A048-C91BA84785FD}",
           "EA-Name": "Address",
           "EA-Package": "IPDC-LPDC",
           "uri": "http://www.w3.org/ns/locn#Address"
@@ -10186,7 +10190,7 @@
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
   "template": "ipdc-lpdc-im.j2",
   "title": "IPDC - LPDC (Implementatiemodel)",
-  "toolchaincommit": "36e809987ad652ac972c59c74119f048d76ef057",
+  "toolchaincommit": "13e1cdbadefa9e9d6c2db18889ab54d19ce1c3b0",
   "translation": [
     {
       "language": "nl",

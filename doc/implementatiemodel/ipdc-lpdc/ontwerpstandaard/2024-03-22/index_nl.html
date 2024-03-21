@@ -243,8 +243,8 @@
 
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/8270537df5789c2fd9f864f035f220af421abed6">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/8270537df5789c2fd9f864f035f220af421abed6</a></dd>
-              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/8270537df5789c2fd9f864f035f220af421abed6/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/8270537df5789c2fd9f864f035f220af421abed6/CHANGELOG</a></dd>
+              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/d974a8cddcbad3cd7e3a6585d278168a3c270124">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/d974a8cddcbad3cd7e3a6585d278168a3c270124</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/d974a8cddcbad3cd7e3a6585d278168a3c270124/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/d974a8cddcbad3cd7e3a6585d278168a3c270124/CHANGELOG</a></dd>
               <dt>Opmerkingen en feedback</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/issues">https://github.com/Informatievlaanderen/ipdc-lpdc/issues</a></dd>
               <dt>Standaardenregister</dt><dd><a href="https://data.vlaanderen.be/standaarden">https://data.vlaanderen.be/standaarden</a></dd>
 
@@ -374,6 +374,7 @@
                     <p>In dit document wordt correct gebruik van de volgende entiteiten toegelicht:
                       <br />
                       |
+                      <a href="#Address">Address</a> |
                       <a href="#Conceptualpublicservice">ConceptualPublicService</a> |
                       <a href="#Conceptualpublicservicesnapshot">ConceptualPublicServiceSnapshot</a> |
                       <a href="#Contactpoint">ContactPoint</a> |
@@ -391,14 +392,6 @@
                   </div>
                   
                   
-                  <div class="region region--no-space-top">
-                    <p> In dit document worden de volgende datatypes toegelicht:
-                      <br />
-                      |
-                      <a href="#Address">Address</a> |
-                    </p>
-                  </div>
-                  
                 </div>
               </div>
             </div>
@@ -412,6 +405,169 @@
             </div>
             <div class="region region--no-space-top">
               <h2 class="h2">Entiteiten</h2>
+            </div>
+            
+              <div class="region region--no-space-top">
+              <h3 class="h3" id="Address"><a href="http://www.w3.org/ns/locn#Address" data-toggle="tooltip" data-content="http://www.w3.org/ns/locn#Address" data-placement="right">Address</a></h3>
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Beschrijving</dt><dd>Adres dat men kan aanschrijven of bezoeken.</dd>
+                    
+                    <dt>Gebruik</dt><dd>Minstens één van de attributen moet ingevuld zijn met een niet lege waarde.</dd>
+                    
+		    
+                    <dt>Eigenschappen</dt>
+		     
+                    <dd>Voor deze entiteit zijn de volgende eigenschappen gedefinieerd:
+                      <a href="#Address%3Acountry">country</a>, 
+                      <a href="#Address%3Ahousenumber">houseNumber</a>, 
+                      <a href="#Address%3Amailbox">mailbox</a>, 
+                      <a href="#Address%3Amunicipality">municipality</a>, 
+                      <a href="#Address%3Apostcode">postcode</a>, 
+                      <a href="#Address%3Athoroughfare">thoroughfare</a>.</dd>
+                    
+                  </dl>
+                </div>
+		 
+                <div class="u-table-overflow">
+                  <table class="data-table">
+                    <thead>
+                      <tr class="data-table__header">
+                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Eigenschap</th>
+                        <th class="data-table__header-title--sortable">Verwacht Type</th>
+                        <th class="data-table__header-title--sortable">Kardinaliteit</th>
+                        <th class="data-table__header-title--sortable">Beschrijving</th>
+                        <th class="data-table__header-title--sortable">Gebruik</th>
+                        <th class="data-table__header-title--sortable">Codelijst</th>
+                      </tr>
+                    </thead>
+
+                    <tbody class="supertype">
+                    
+                      <tr id="Address%3Acountry" typeof="rdfs:Property" resource="https://data.vlaanderen.be/ns/adres#land">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://data.vlaanderen.be/ns/adres#land" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/adres#land" data-placement="right">
+                            country</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Land waarin het adres gelegen is.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Address%3Ahousenumber" typeof="rdfs:Property" resource="https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer" data-placement="right">
+                            houseNumber</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Address%3Amailbox" typeof="rdfs:Property" resource="https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer" data-placement="right">
+                            mailbox</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Address%3Amunicipality" typeof="rdfs:Property" resource="https://data.vlaanderen.be/ns/adres#gemeentenaam">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://data.vlaanderen.be/ns/adres#gemeentenaam" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/adres#gemeentenaam" data-placement="right">
+                            municipality</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Gemeentenaam van het adres.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Address%3Apostcode" typeof="rdfs:Property" resource="https://data.vlaanderen.be/ns/adres#postcode">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://data.vlaanderen.be/ns/adres#postcode" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/adres#postcode" data-placement="right">
+                            postcode</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Address%3Athoroughfare" typeof="rdfs:Property" resource="https://data.vlaanderen.be/ns/adres#Straatnaam">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://data.vlaanderen.be/ns/adres#Straatnaam" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/adres#Straatnaam" data-placement="right">
+                            thoroughfare</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Adrescomponent met de naam die officieel werd toegekend aan een straat (baan, doorgang, plein) of aan een gehucht en waaraan adressen kunnen zijn gekoppeld.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+      			  
             </div>
             
               <div class="region region--no-space-top">
@@ -2833,165 +2989,6 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
             
             <div class="region region--no-space-top">
               <h2 class="h2">Datatypes</h2>
-            </div>
-            
-            <div class="region region--no-space-top">
-              
-              <h3 class="h3" id="Address"><a href="http://www.w3.org/ns/locn#Address" data-toggle="tooltip" data-content="http://www.w3.org/ns/locn#Address" data-placement="right">Address</a></h3>
-	      
-                <div class="region region--no-space-top">
-                  <dl>
-                    <dt>Beschrijving</dt><dd>Adres dat men kan aanschrijven of bezoeken.</dd>
-                    
-                    <dt>Gebruik</dt><dd>Minstens één van de attributen moet ingevuld zijn met een niet lege waarde.</dd>
-                    
-		    
-                    <dt>Eigenschappen</dt>
-		     
-                    <dd>Voor dit datatype zijn de volgende eigenschappen gedefinieerd:
-                      <a href="#Address%3Acountry">country</a>, 
-                      <a href="#Address%3Ahousenumber">houseNumber</a>, 
-                      <a href="#Address%3Amailbox">mailbox</a>, 
-                      <a href="#Address%3Amunicipality">municipality</a>, 
-                      <a href="#Address%3Apostcode">postCode</a>, 
-                      <a href="#Address%3Athoroughfare">thoroughfare</a>.</dd>
-                    
-                  </dl>
-                </div>
-		 
-                <div class="u-table-overflow">
-                  <table class="data-table">
-                    <thead>
-                      <tr class="data-table__header">
-                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Eigenschap</th>
-                        <th class="data-table__header-title--sortable">Verwacht Type</th>
-                        <th class="data-table__header-title--sortable">Kardinaliteit</th>
-                        <th class="data-table__header-title--sortable">Beschrijving</th>
-                        <th class="data-table__header-title--sortable">Gebruik</th>
-                        <th class="data-table__header-title--sortable">Codelijst</th>
-                      </tr>
-                    </thead>
-
-                    <tbody class="supertype">
-                      
-                      <tr id="Address%3Acountry" typeof="rdfs:Property" resource="https://data.vlaanderen.be/ns/adres#land">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://data.vlaanderen.be/ns/adres#land" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/adres#land" data-placement="right">country</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
-                            
-                          
-                        </td>
-                        <td>0..1</td>
-                        <td property="rdfs:comment">Land waarin het adres gelegen is.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                      
-                      <tr id="Address%3Ahousenumber" typeof="rdfs:Property" resource="https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer" data-placement="right">houseNumber</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
-                            
-                          
-                        </td>
-                        <td>0..1</td>
-                        <td property="rdfs:comment">Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                      
-                      <tr id="Address%3Amailbox" typeof="rdfs:Property" resource="https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer" data-placement="right">mailbox</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
-                            
-                          
-                        </td>
-                        <td>0..1</td>
-                        <td property="rdfs:comment">Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                      
-                      <tr id="Address%3Amunicipality" typeof="rdfs:Property" resource="https://data.vlaanderen.be/ns/adres#gemeentenaam">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://data.vlaanderen.be/ns/adres#gemeentenaam" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/adres#gemeentenaam" data-placement="right">municipality</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
-                            
-                          
-                        </td>
-                        <td>0..1</td>
-                        <td property="rdfs:comment">Gemeentenaam van het adres.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                      
-                      <tr id="Address%3Apostcode" typeof="rdfs:Property" resource="https://data.vlaanderen.be/ns/adres#postcode">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://data.vlaanderen.be/ns/adres#postcode" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/adres#postcode" data-placement="right">postCode</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
-                            
-                          
-                        </td>
-                        <td>0..1</td>
-                        <td property="rdfs:comment">Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                      
-                      <tr id="Address%3Athoroughfare" typeof="rdfs:Property" resource="https://data.vlaanderen.be/ns/adres#Straatnaam">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://data.vlaanderen.be/ns/adres#Straatnaam" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/adres#Straatnaam" data-placement="right">thoroughfare</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
-                            
-                          
-                        </td>
-                        <td>0..1</td>
-                        <td property="rdfs:comment">Adrescomponent met de naam die officieel werd toegekend aan een straat (baan, doorgang, plein) of aan een gehucht en waaraan adressen kunnen zijn gekoppeld.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                      
-                    </tbody>
-                  </table>
-                </div>
-                
             </div>
             
             

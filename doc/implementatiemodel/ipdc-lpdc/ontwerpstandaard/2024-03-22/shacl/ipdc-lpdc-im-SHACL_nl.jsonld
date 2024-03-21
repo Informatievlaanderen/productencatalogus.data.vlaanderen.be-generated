@@ -2995,26 +2995,26 @@
           "sh:path": "https://data.vlaanderen.be/ns/adres#gemeentenaam"
         },
         {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#AddressShape/5437282f70f7d43ca49ff1689570752d675896a2",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Address.postCode",
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#AddressShape/37246edbcb4a7afcd798b2cb2c36c3c01062c58d",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Address.postcode",
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:description": {
             "nl": "Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt."
           },
           "sh:name": {
-            "nl": "postCode"
+            "nl": "postcode"
           },
           "sh:path": "https://data.vlaanderen.be/ns/adres#postcode"
         },
         {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#AddressShape/f5900c9849b8b7babf6f887a4871fd44fa861f18",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Address.postCode",
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#AddressShape/a5dc410fc15e90c98bcfa80de12bb9ed0c53d325",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Address.postcode",
           "sh:description": {
             "nl": "Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "postCode"
+            "nl": "postcode"
           },
           "sh:path": "https://data.vlaanderen.be/ns/adres#postcode"
         },

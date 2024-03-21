@@ -33,8 +33,8 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#AddressShape/e7d94fbaebcd95164a899bd3a94fb91baed95e20>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#AddressShape/82ea2ab4a5a74aa4dc66036ad6d54ec4901af8ba>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#AddressShape/f9533d757dda18d2fc35a93f17cbd2550ea8718d>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#AddressShape/5437282f70f7d43ca49ff1689570752d675896a2>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#AddressShape/f5900c9849b8b7babf6f887a4871fd44fa861f18>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#AddressShape/37246edbcb4a7afcd798b2cb2c36c3c01062c58d>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#AddressShape/a5dc410fc15e90c98bcfa80de12bb9ed0c53d325>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#AddressShape/17384dfa4a75117e7dd2bc0f2bbf61ac91fd8676>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#AddressShape/edf517a4066ee468a174711e33c96a64fb7364a6>;
   shacl:targetClass <http://www.w3.org/ns/locn#Address> .
@@ -57,10 +57,10 @@
   shacl:name "country"@nl;
   shacl:path <https://data.vlaanderen.be/ns/adres#land> .
 
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#AddressShape/5437282f70f7d43ca49ff1689570752d675896a2> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Address.postCode";
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#AddressShape/37246edbcb4a7afcd798b2cb2c36c3c01062c58d> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Address.postcode";
   shacl:datatype xsd:string;
   shacl:description "Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt."@nl;
-  shacl:name "postCode"@nl;
+  shacl:name "postcode"@nl;
   shacl:path <https://data.vlaanderen.be/ns/adres#postcode> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#AddressShape/60744b5dae58d88f153277e67b1d5eb563226e4d> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Address.mailbox";
@@ -74,6 +74,12 @@
   shacl:maxCount 1;
   shacl:name "municipality"@nl;
   shacl:path <https://data.vlaanderen.be/ns/adres#gemeentenaam> .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#AddressShape/a5dc410fc15e90c98bcfa80de12bb9ed0c53d325> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Address.postcode";
+  shacl:description "Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt."@nl;
+  shacl:maxCount 1;
+  shacl:name "postcode"@nl;
+  shacl:path <https://data.vlaanderen.be/ns/adres#postcode> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#AddressShape/befb27de8dc27d6bf1cd2b4ba2ca8405e3cc2a51> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Address.country";
   shacl:class rdf:langString;
@@ -98,12 +104,6 @@
   shacl:maxCount 1;
   shacl:name "thoroughfare"@nl;
   shacl:path <https://data.vlaanderen.be/ns/adres#Straatnaam> .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#AddressShape/f5900c9849b8b7babf6f887a4871fd44fa861f18> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Address.postCode";
-  shacl:description "Code waarmee het geografisch gebied dat de adressen voor postale doeleinden groepeert aanduidt."@nl;
-  shacl:maxCount 1;
-  shacl:name "postCode"@nl;
-  shacl:path <https://data.vlaanderen.be/ns/adres#postcode> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#AddressShape/f9533d757dda18d2fc35a93f17cbd2550ea8718d> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Address.municipality";
   shacl:class rdf:langString;
