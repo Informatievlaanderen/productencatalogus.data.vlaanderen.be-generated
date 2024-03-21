@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dc="http://purl.org/dc/terms/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:ns0="http://www.w3.org/2001/02pd/rec54#" xmlns:schema="http://schema.org/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:shacl="http://www.w3.org/ns/shacl#" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:ns1="http://purl.org/vocab/vann/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dc="http://purl.org/dc/terms/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:ns0="http://www.w3.org/2001/02pd/rec54#" xmlns:schema="http://schema.org/" xmlns:shacl="http://www.w3.org/ns/shacl#" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:ns1="http://purl.org/vocab/vann/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
   <owl:Class rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot">
     <rdfs:isDefinedBy>
       <owl:Ontology rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc">
         <dc:license>https://creativecommons.org/publicdomain/zero/1.0/</dc:license>
         <dc:license rdf:resource="https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"/>
         <dc:mediator>
-          <rdf:Description rdf:nodeID="g454740">
+          <rdf:Description rdf:nodeID="g454720">
             <foaf:homepage rdf:resource="https://productencatalogus.data.vlaanderen.be"/>
             <foaf:mbox rdf:resource="mailto:info@vlaanderen.be"/>
             <foaf:name>Productencatalogus</foaf:name>
@@ -15,9 +15,9 @@
         <rdfs:label xml:lang="en">ipdc-lpdc</rdfs:label>
         <rdfs:label xml:lang="nl">ipdc-lpdc</rdfs:label>
         <foaf:maker>
-          <foaf:Person rdf:nodeID="g454760">
+          <foaf:Person rdf:nodeID="g454740">
             <schema:affiliation>
-              <rdf:Description rdf:nodeID="g454780">
+              <rdf:Description rdf:nodeID="g454760">
                 <foaf:homepage rdf:resource="https://www.wdcsolutions.be"/>
                 <foaf:name>WDC Solutions</foaf:name>
               </rdf:Description>
@@ -28,9 +28,9 @@
           </foaf:Person>
         </foaf:maker>
         <ns0:editor>
-          <foaf:Person rdf:nodeID="g454800">
+          <foaf:Person rdf:nodeID="g454780">
             <schema:affiliation>
-              <rdf:Description rdf:nodeID="g454820">
+              <rdf:Description rdf:nodeID="g454800">
                 <foaf:homepage rdf:resource="https://www.kunlabora.be"/>
                 <foaf:name>Kunlabora</foaf:name>
               </rdf:Description>
@@ -41,9 +41,9 @@
           </foaf:Person>
         </ns0:editor>
         <ns0:editor>
-          <foaf:Person rdf:nodeID="g454840">
+          <foaf:Person rdf:nodeID="g454820">
             <schema:affiliation>
-              <rdf:Description rdf:nodeID="g454860">
+              <rdf:Description rdf:nodeID="g454840">
                 <foaf:homepage rdf:resource="https://www.kunlabora.be"/>
                 <foaf:name>Kunlabora</foaf:name>
               </rdf:Description>
@@ -54,9 +54,9 @@
           </foaf:Person>
         </ns0:editor>
         <dc:contributor>
-          <foaf:Person rdf:nodeID="g454880">
+          <foaf:Person rdf:nodeID="g454860">
             <schema:affiliation>
-              <rdf:Description rdf:nodeID="g454900">
+              <rdf:Description rdf:nodeID="g454880">
                 <foaf:homepage rdf:resource="https://redpencil.io"/>
                 <foaf:name>redpencil</foaf:name>
               </rdf:Description>
@@ -67,9 +67,9 @@
           </foaf:Person>
         </dc:contributor>
         <dc:contributor>
-          <foaf:Person rdf:nodeID="g454920">
+          <foaf:Person rdf:nodeID="g454900">
             <schema:affiliation>
-              <rdf:Description rdf:nodeID="g454940">
+              <rdf:Description rdf:nodeID="g454920">
                 <foaf:homepage rdf:resource="https://www.vlaanderen.be/digitaal-vlaanderen"/>
                 <foaf:name>Digitaal Vlaanderen</foaf:name>
               </rdf:Description>
@@ -80,9 +80,9 @@
           </foaf:Person>
         </dc:contributor>
         <dc:contributor>
-          <foaf:Person rdf:nodeID="g454960">
+          <foaf:Person rdf:nodeID="g454940">
             <schema:affiliation>
-              <rdf:Description rdf:nodeID="g454980">
+              <rdf:Description rdf:nodeID="g454960">
                 <foaf:homepage rdf:resource="https://redpencil.io"/>
                 <foaf:name>redpencil</foaf:name>
               </rdf:Description>
@@ -93,9 +93,9 @@
           </foaf:Person>
         </dc:contributor>
         <dc:contributor>
-          <foaf:Person rdf:nodeID="g455000">
+          <foaf:Person rdf:nodeID="g454980">
             <schema:affiliation>
-              <rdf:Description rdf:nodeID="g455020">
+              <rdf:Description rdf:nodeID="g455000">
                 <foaf:homepage rdf:resource="https://www.vlaanderen.be/digitaal-vlaanderen"/>
                 <foaf:name>Digitaal Vlaanderen</foaf:name>
               </rdf:Description>
@@ -106,9 +106,9 @@
           </foaf:Person>
         </dc:contributor>
         <dc:contributor>
-          <foaf:Person rdf:nodeID="g455040">
+          <foaf:Person rdf:nodeID="g455020">
             <schema:affiliation>
-              <rdf:Description rdf:nodeID="g455060">
+              <rdf:Description rdf:nodeID="g455040">
                 <foaf:homepage rdf:resource="https://www.kunlabora.be"/>
                 <foaf:name>Kunlabora</foaf:name>
               </rdf:Description>
@@ -119,9 +119,9 @@
           </foaf:Person>
         </dc:contributor>
         <dc:contributor>
-          <foaf:Person rdf:nodeID="g455080">
+          <foaf:Person rdf:nodeID="g455060">
             <schema:affiliation>
-              <rdf:Description rdf:nodeID="g455100">
+              <rdf:Description rdf:nodeID="g455080">
                 <foaf:homepage rdf:resource="https://www.kunlabora.be"/>
                 <foaf:name>Kunlabora</foaf:name>
               </rdf:Description>
@@ -132,9 +132,9 @@
           </foaf:Person>
         </dc:contributor>
         <dc:contributor>
-          <foaf:Person rdf:nodeID="g455120">
+          <foaf:Person rdf:nodeID="g455100">
             <schema:affiliation>
-              <rdf:Description rdf:nodeID="g455140">
+              <rdf:Description rdf:nodeID="g455120">
                 <foaf:homepage rdf:resource="https://www.linkedin.com/in/borisdevloed"/>
                 <foaf:name>devloed.com</foaf:name>
               </rdf:Description>
@@ -145,9 +145,9 @@
           </foaf:Person>
         </dc:contributor>
         <dc:contributor>
-          <foaf:Person rdf:nodeID="g455160">
+          <foaf:Person rdf:nodeID="g455140">
             <schema:affiliation>
-              <rdf:Description rdf:nodeID="g455180">
+              <rdf:Description rdf:nodeID="g455160">
                 <foaf:homepage rdf:resource="https://www.vlaanderen.be/digitaal-vlaanderen"/>
                 <foaf:name>Digitaal Vlaanderen</foaf:name>
               </rdf:Description>
@@ -158,9 +158,9 @@
           </foaf:Person>
         </dc:contributor>
         <dc:contributor>
-          <foaf:Person rdf:nodeID="g455200">
+          <foaf:Person rdf:nodeID="g455180">
             <schema:affiliation>
-              <rdf:Description rdf:nodeID="g455220">
+              <rdf:Description rdf:nodeID="g455200">
                 <foaf:homepage rdf:resource="https://www.kunlabora.be"/>
                 <foaf:name>Kunlabora</foaf:name>
               </rdf:Description>
@@ -204,22 +204,6 @@
         <rdfs:seeAlso>
           <rdfs:Class rdf:about="http://schema.org/WebSite">
             <rdfs:label xml:lang="nl">Website</rdfs:label>
-          </rdfs:Class>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
-            <rdfs:label xml:lang="nl">YourEuropeCategory</rdfs:label>
-            <rdfs:label xml:lang="nl">TargetAudience</rdfs:label>
-            <rdfs:label xml:lang="nl">Type</rdfs:label>
-            <rdfs:label xml:lang="nl">PublicationMedium</rdfs:label>
-            <rdfs:label xml:lang="nl">InstanceTag</rdfs:label>
-            <rdfs:label xml:lang="nl">ConceptTag</rdfs:label>
-            <rdfs:label xml:lang="nl">CompetentAuthorityLevel</rdfs:label>
-            <rdfs:label xml:lang="nl">ExecutingAuthorityLevel</rdfs:label>
-            <rdfs:label xml:lang="nl">Spatial</rdfs:label>
-            <rdfs:label xml:lang="nl">Theme</rdfs:label>
-            <rdfs:label xml:lang="nl">Language</rdfs:label>
-            <rdfs:label xml:lang="nl">IpdcCodelijst</rdfs:label>
           </rdfs:Class>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
@@ -478,14 +462,6 @@
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"/>
     <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
   </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#execLevelNaastDiagram">
-    <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
-    <rdfs:label xml:lang="nl">execLevelNaastDiagram</rdfs:label>
-    <rdfs:comment xml:lang="nl">Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team. naast diagram</rdfs:comment>
-    <ns1:usageNote xml:lang="nl">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</ns1:usageNote>
-    <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel">
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
     <rdfs:label xml:lang="nl">executingAuthorityLevel</rdfs:label>
@@ -501,22 +477,6 @@
     <rdfs:comment xml:lang="nl">Instantie tag voor een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</rdfs:comment>
     <ns1:usageNote xml:lang="nl">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Momenteel zijn er geen geldige waardes.</ns1:usageNote>
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijst">
-    <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
-    <rdfs:label xml:lang="nl">ipdcCodelijst</rdfs:label>
-    <rdfs:comment xml:lang="nl">Test ipdc codelijst</rdfs:comment>
-    <ns1:usageNote xml:lang="nl">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</ns1:usageNote>
-    <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijstNaastDiagram">
-    <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
-    <rdfs:label xml:lang="nl">ipdcCodelijstNaastDiagram</rdfs:label>
-    <rdfs:comment xml:lang="nl">Test codelijst om na te gaan dat datatype naast diagram beter werkt (def)</rdfs:comment>
-    <ns1:usageNote xml:lang="nl">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</ns1:usageNote>
-    <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"/>
     <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived">

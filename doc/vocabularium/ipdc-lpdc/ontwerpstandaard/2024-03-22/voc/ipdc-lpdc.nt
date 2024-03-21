@@ -24,7 +24,6 @@
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/vocab/cpsv#Rule> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://schema.org/ContactPoint> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://schema.org/WebSite> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/ns/locn#Address> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://data.vlaanderen.be/ns/adres#postcode> .
@@ -94,19 +93,6 @@
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#label> "YourEuropeCategory"@nl .
-<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#label> "TargetAudience"@nl .
-<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#label> "Type"@nl .
-<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#label> "PublicationMedium"@nl .
-<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#label> "InstanceTag"@nl .
-<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#label> "ConceptTag"@nl .
-<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#label> "CompetentAuthorityLevel"@nl .
-<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#label> "ExecutingAuthorityLevel"@nl .
-<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#label> "Spatial"@nl .
-<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#label> "Theme"@nl .
-<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#label> "Language"@nl .
-<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#label> "IpdcCodelijst"@nl .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience> <http://www.w3.org/2000/01/rdf-schema#label> "targetAudience"@nl .
@@ -139,20 +125,6 @@
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijstNaastDiagram> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijstNaastDiagram> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijstNaastDiagram> <http://www.w3.org/2000/01/rdf-schema#label> "ipdcCodelijstNaastDiagram"@nl .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijstNaastDiagram> <http://www.w3.org/2000/01/rdf-schema#comment> "Test codelijst om na te gaan dat datatype naast diagram beter werkt (def)"@nl .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijstNaastDiagram> <http://purl.org/vocab/vann/usageNote> "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."@nl .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijstNaastDiagram> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijstNaastDiagram> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijst> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijst> <http://www.w3.org/2000/01/rdf-schema#label> "ipdcCodelijst"@nl .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijst> <http://www.w3.org/2000/01/rdf-schema#comment> "Test ipdc codelijst"@nl .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijst> <http://purl.org/vocab/vann/usageNote> "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."@nl .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijst> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijst> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag> <http://www.w3.org/2000/01/rdf-schema#label> "instanceTag"@nl .
@@ -168,13 +140,6 @@
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#execLevelNaastDiagram> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#execLevelNaastDiagram> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#execLevelNaastDiagram> <http://www.w3.org/2000/01/rdf-schema#label> "execLevelNaastDiagram"@nl .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#execLevelNaastDiagram> <http://www.w3.org/2000/01/rdf-schema#comment> "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team. naast diagram"@nl .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#execLevelNaastDiagram> <http://purl.org/vocab/vann/usageNote> "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."@nl .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#execLevelNaastDiagram> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#execLevelNaastDiagram> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception> <http://www.w3.org/2000/01/rdf-schema#label> "exception"@nl .

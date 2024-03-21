@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/fcc9c800630d60ba5135718f64b8bdf6ca5c973d",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/fcc9c800630d60ba5135718f64b8bdf6ca5c973d/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/3cd9bd0c048d864b9cbcd13c984776c26b05564e",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/3cd9bd0c048d864b9cbcd13c984776c26b05564e/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -311,48 +311,6 @@
       "parents": []
     },
     {
-      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijstNaastDiagram",
-      "name": "ipdccodelijstnaastdiagram",
-      "label": {
-        "nl": "ipdcCodelijstNaastDiagram"
-      },
-      "sort": "ipdcCodelijstNaastDiagram",
-      "description": {
-        "nl": "Test codelijst om na te gaan dat datatype naast diagram beter werkt (def)"
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      },
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-      ],
-      "range": [
-        "http://www.w3.org/2004/02/skos/core#Concept"
-      ],
-      "parents": []
-    },
-    {
-      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijst",
-      "name": "ipdccodelijst",
-      "label": {
-        "nl": "ipdcCodelijst"
-      },
-      "sort": "ipdcCodelijst",
-      "description": {
-        "nl": "Test ipdc codelijst"
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      },
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-      ],
-      "range": [
-        "http://www.w3.org/2004/02/skos/core#Concept"
-      ],
-      "parents": []
-    },
-    {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag",
       "name": "instancetag",
       "label": {
@@ -409,27 +367,6 @@
       },
       "domain": [
         "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-      ],
-      "range": [
-        "http://www.w3.org/2004/02/skos/core#Concept"
-      ],
-      "parents": []
-    },
-    {
-      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#execLevelNaastDiagram",
-      "name": "execlevelnaastdiagram",
-      "label": {
-        "nl": "execLevelNaastDiagram"
-      },
-      "sort": "execLevelNaastDiagram",
-      "description": {
-        "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team. naast diagram"
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      },
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
       ],
       "range": [
         "http://www.w3.org/2004/02/skos/core#Concept"
@@ -841,222 +778,6 @@
       },
       "usage": {},
       "sort": "Website",
-      "indvl": false,
-      "inpackage": false,
-      "inscope": true,
-      "show": true
-    },
-    {
-      "uri": "http://www.w3.org/2004/02/skos/core#Concept",
-      "name": "Youreuropecategory",
-      "label": {
-        "nl": "YourEuropeCategory"
-      },
-      "description": {
-        "nl": "YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      },
-      "sort": "YourEuropeCategory",
-      "indvl": false,
-      "inpackage": false,
-      "inscope": true,
-      "show": true
-    },
-    {
-      "uri": "http://www.w3.org/2004/02/skos/core#Concept",
-      "name": "Targetaudience",
-      "label": {
-        "nl": "TargetAudience"
-      },
-      "description": {
-        "nl": "Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      },
-      "sort": "TargetAudience",
-      "indvl": false,
-      "inpackage": false,
-      "inscope": true,
-      "show": true
-    },
-    {
-      "uri": "http://www.w3.org/2004/02/skos/core#Concept",
-      "name": "Type",
-      "label": {
-        "nl": "Type"
-      },
-      "description": {
-        "nl": "Type van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      },
-      "sort": "Type",
-      "indvl": false,
-      "inpackage": false,
-      "inscope": true,
-      "show": true
-    },
-    {
-      "uri": "http://www.w3.org/2004/02/skos/core#Concept",
-      "name": "Publicationmedium",
-      "label": {
-        "nl": "PublicationMedium"
-      },
-      "description": {
-        "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      },
-      "sort": "PublicationMedium",
-      "indvl": false,
-      "inpackage": false,
-      "inscope": true,
-      "show": true
-    },
-    {
-      "uri": "http://www.w3.org/2004/02/skos/core#Concept",
-      "name": "Instancetag",
-      "label": {
-        "nl": "InstanceTag"
-      },
-      "description": {
-        "nl": "Instantie tag voor een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Momenteel zijn er geen geldige waardes."
-      },
-      "sort": "InstanceTag",
-      "indvl": false,
-      "inpackage": false,
-      "inscope": true,
-      "show": true
-    },
-    {
-      "uri": "http://www.w3.org/2004/02/skos/core#Concept",
-      "name": "Concepttag",
-      "label": {
-        "nl": "ConceptTag"
-      },
-      "description": {
-        "nl": "Concept tag voor een publieke dienst concept. Deze codelijst is in het beheer van het IPDC - LPDC team."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      },
-      "sort": "ConceptTag",
-      "indvl": false,
-      "inpackage": false,
-      "inscope": true,
-      "show": true
-    },
-    {
-      "uri": "http://www.w3.org/2004/02/skos/core#Concept",
-      "name": "Competentauthoritylevel",
-      "label": {
-        "nl": "CompetentAuthorityLevel"
-      },
-      "description": {
-        "nl": "Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      },
-      "sort": "CompetentAuthorityLevel",
-      "indvl": false,
-      "inpackage": false,
-      "inscope": true,
-      "show": true
-    },
-    {
-      "uri": "http://www.w3.org/2004/02/skos/core#Concept",
-      "name": "Executingauthoritylevel",
-      "label": {
-        "nl": "ExecutingAuthorityLevel"
-      },
-      "description": {
-        "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      },
-      "sort": "ExecutingAuthorityLevel",
-      "indvl": false,
-      "inpackage": false,
-      "inscope": true,
-      "show": true
-    },
-    {
-      "uri": "http://www.w3.org/2004/02/skos/core#Concept",
-      "name": "Spatial",
-      "label": {
-        "nl": "Spatial"
-      },
-      "description": {
-        "nl": "Geografisch toepassingsgebied van een pubieke dienst. Het geografisch toepassingsgebied wordt voorgesteld aan de hand van een NUTS of LAU code. NUTS codes zijn hierarisch ingedeeld in 4 niveau's. Op het hoogste niveau, NUTS 0, worden de landen ingedeeld en krijgt belgie de code BE. Eén niveau daaronder, NUTS 1, deelt Belgie verder op in de gewesten. Zo krijgt het Vlaams Gewest code BE2. Elk gewest wordt op zijn beurt op NUTS 2 niveau verder ingedeeld in de provincies. Zo krijgt de provincie Antwerpen bijvoorbeeld code BE21. Elke provincie wordt vervolgens op NUTS 3 niveau nog onderverdeeld in arrondissmenten. Zo krijgt het arrondissment Mechelen code BE212. Een fijnere opdeling in gemeenten kan vervolgens gemaakt worden met de LAU codes. Zo krijgt de gemeente Kontich LAU code 11024. Meer informatie over deze opdeling is hier terug te vinden: https://ec.europa.eu/eurostat/web/nuts. Zowel de NUTS als LAU codes worden beheerd door Eurostat. We volgen momenteel de NUTS 2021 classificatie en de laatst gevalideerde LAU 2019 classificatie. De NUTS codelijst wordt door Europa gepubliceerd op https://publications.europa.eu/resource/authority/nuts. Deze gaat echter niet tot op LAU niveau er bestaat ook geen gepubliceerde codelijst voor de LAU codes. Als oplossing maakte het IPDC - LPDC team een uitbreiding op de NUTS codelijst en werd een extra hierarchish niveau onder NUTS 3 toegevoegd om ook de gemeentes met hun LAU code beschikbaar te maken. De code voor een gemeente in deze codelijst is de concatenatie van de omvattende NUTS3 code voor de gemeente en de LAU code. Zo krijgt de gemeente Kontich bijvoorbeeld de code BE21111024."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Dit zijn alle NUTS en LAU codes die binnen het Vlaams Gewest en Brussels Hoofdstedelijk Gewest vallen en het Federaal niveau voorstellen."
-      },
-      "sort": "Spatial",
-      "indvl": false,
-      "inpackage": false,
-      "inscope": true,
-      "show": true
-    },
-    {
-      "uri": "http://www.w3.org/2004/02/skos/core#Concept",
-      "name": "Theme",
-      "label": {
-        "nl": "Theme"
-      },
-      "description": {
-        "nl": "Thema van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      },
-      "sort": "Theme",
-      "indvl": false,
-      "inpackage": false,
-      "inscope": true,
-      "show": true
-    },
-    {
-      "uri": "http://www.w3.org/2004/02/skos/core#Concept",
-      "name": "Language",
-      "label": {
-        "nl": "Language"
-      },
-      "description": {
-        "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
-      },
-      "usage": {
-        "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG."
-      },
-      "sort": "Language",
-      "indvl": false,
-      "inpackage": false,
-      "inscope": true,
-      "show": true
-    },
-    {
-      "uri": "http://www.w3.org/2004/02/skos/core#Concept",
-      "name": "Ipdccodelijst",
-      "label": {
-        "nl": "IpdcCodelijst"
-      },
-      "description": {
-        "nl": "Test codelijst om na te gaan dat datatype beter werkt dan enumeration"
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in volgend ttl bestand https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/bevoegd-bestuursniveau.ttl"
-      },
-      "sort": "IpdcCodelijst",
       "indvl": false,
       "inpackage": false,
       "inscope": true,
@@ -1899,7 +1620,7 @@
         "nl": "isVersionOf"
       },
       "description": {
-        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       },
       "usage": {},
       "sort": "isVersionOf",
@@ -1915,7 +1636,7 @@
         "nl": "isVersionOf"
       },
       "description": {
-        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       },
       "usage": {},
       "sort": "isVersionOf",

@@ -15,8 +15,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/fcc9c800630d60ba5135718f64b8bdf6ca5c973d",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/fcc9c800630d60ba5135718f64b8bdf6ca5c973d/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/3cd9bd0c048d864b9cbcd13c984776c26b05564e",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/3cd9bd0c048d864b9cbcd13c984776c26b05564e/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -71,7 +71,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#YourEuropeCategory",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
                 "nl": "YourEuropeCategory"
@@ -79,7 +79,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/your-europe-categorie.ttl",
+          "codelist_uri": "",
           "rawTags": {
             "label": "yourEuropeCategory",
             "definition-nl": "YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst.",
@@ -113,7 +113,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#TargetAudience",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
                 "nl": "TargetAudience"
@@ -121,7 +121,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/doelgroep.ttl",
+          "codelist_uri": "",
           "rawTags": {
             "label-nl": "targetAudience",
             "usageNote-nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
@@ -197,7 +197,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#PublicationMedium",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
                 "nl": "PublicationMedium"
@@ -205,7 +205,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/publicatie-kanaal.ttl",
+          "codelist_uri": "",
           "rawTags": {
             "label-nl": "publicationMedium",
             "definition-nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.",
@@ -252,90 +252,6 @@
           }
         },
         {
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijstNaastDiagram",
-          "name": "ipdccodelijstnaastdiagram",
-          "sort": "ipdcCodelijstNaastDiagram",
-          "label": {
-            "nl": "ipdcCodelijstNaastDiagram"
-          },
-          "description": {
-            "nl": "Test codelijst om na te gaan dat datatype naast diagram beter werkt (def)"
-          },
-          "usage": {
-            "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-          },
-          "domain": [
-            {
-              "EA-Name": "ConceptualPublicService",
-              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "IpdcCodelijstNaastDiagram",
-              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
-              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
-              "range_label": {
-                "nl": "IpdcCodelijstNaastDiagram"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-nl": "ipdcCodelijstNaastDiagram",
-            "definition-nl": "Test codelijst om na te gaan dat datatype naast diagram beter werkt (def)",
-            "usageNote-nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-          }
-        },
-        {
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijst",
-          "name": "ipdccodelijst",
-          "sort": "ipdcCodelijst",
-          "label": {
-            "nl": "ipdcCodelijst"
-          },
-          "description": {
-            "nl": "Test ipdc codelijst"
-          },
-          "usage": {
-            "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-          },
-          "domain": [
-            {
-              "EA-Name": "ConceptualPublicService",
-              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "IpdcCodelijst",
-              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#IpdcCodelijst",
-              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
-              "range_label": {
-                "nl": "IpdcCodelijst"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/bevoegd-bestuursniveau.ttl",
-          "rawTags": {
-            "usageNote-nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
-            "label-nl": "ipdcCodelijst",
-            "definition-nl": "Test ipdc codelijst"
-          }
-        },
-        {
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
           "name": "executingauthoritylevel",
           "sort": "executingAuthorityLevel",
@@ -362,7 +278,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#ExecutingAuthorityLevel",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
                 "nl": "ExecutingAuthorityLevel"
@@ -370,53 +286,11 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/uitvoerend-bestuursniveau.ttl",
+          "codelist_uri": "",
           "rawTags": {
             "label-nl": "executingAuthorityLevel",
             "definition-nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
             "usageNote-nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-          }
-        },
-        {
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#execLevelNaastDiagram",
-          "name": "execlevelnaastdiagram",
-          "sort": "execLevelNaastDiagram",
-          "label": {
-            "nl": "execLevelNaastDiagram"
-          },
-          "description": {
-            "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team. naast diagram"
-          },
-          "usage": {
-            "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-          },
-          "domain": [
-            {
-              "EA-Name": "ConceptualPublicService",
-              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "ExecutingAuthorityLevelNaastDiagram",
-              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
-              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
-              "range_label": {
-                "nl": "ExecutingAuthorityLevelNaastDiagram"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-nl": "execLevelNaastDiagram",
-            "usageNote-nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
-            "definition-nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team. naast diagram"
           }
         },
         {
@@ -488,7 +362,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#ConceptTag",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
                 "nl": "ConceptTag"
@@ -496,7 +370,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/concept-tag.ttl",
+          "codelist_uri": "",
           "rawTags": {
             "label-nl": "conceptTag",
             "usageNote-nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
@@ -530,7 +404,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#CompetentAuthorityLevel",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
                 "nl": "CompetentAuthorityLevel"
@@ -538,7 +412,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/bevoegd-bestuursniveau.ttl",
+          "codelist_uri": "",
           "rawTags": {
             "label-nl": "competentAuthorityLevel",
             "definition-nl": "Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
@@ -1066,7 +940,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Type",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
                 "nl": "Type"
@@ -1074,7 +948,7 @@
             }
           ],
           "cardinality": "0..1",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/type.ttl",
+          "codelist_uri": "",
           "rawTags": {
             "uri": "http://purl.org/dc/terms/type",
             "label-nl": "type",
@@ -1192,7 +1066,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Theme",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
                 "nl": "Theme"
@@ -1200,7 +1074,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/thema.ttl",
+          "codelist_uri": "",
           "rawTags": {
             "uri": "http://data.europa.eu/m8g/thematicArea",
             "label-nl": "theme",
@@ -1637,7 +1511,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#YourEuropeCategory",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
                 "nl": "YourEuropeCategory"
@@ -1645,7 +1519,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/your-europe-categorie.ttl",
+          "codelist_uri": "",
           "rawTags": {
             "label-nl": "yourEuropeCategory",
             "usageNote-nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
@@ -1679,7 +1553,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#TargetAudience",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
                 "nl": "TargetAudience"
@@ -1687,7 +1561,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/doelgroep.ttl",
+          "codelist_uri": "",
           "rawTags": {
             "label-nl": "targetAudience",
             "definition-nl": "Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team.",
@@ -1763,7 +1637,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#PublicationMedium",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
                 "nl": "PublicationMedium"
@@ -1771,7 +1645,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/publicatie-kanaal.ttl",
+          "codelist_uri": "",
           "rawTags": {
             "label-nl": "publicationMedium",
             "definition-nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.",
@@ -1844,7 +1718,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#InstanceTag",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
                 "nl": "InstanceTag"
@@ -1852,7 +1726,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/instantie-tag.ttl",
+          "codelist_uri": "",
           "rawTags": {
             "label-nl": "instanceTag",
             "definition-nl": "Instantie tag voor een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
@@ -1886,7 +1760,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#ExecutingAuthorityLevel",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
                 "nl": "ExecutingAuthorityLevel"
@@ -1894,7 +1768,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/uitvoerend-bestuursniveau.ttl",
+          "codelist_uri": "",
           "rawTags": {
             "label-nl": "executingAuthorityLevel",
             "usageNote-nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
@@ -1970,7 +1844,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#CompetentAuthorityLevel",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
                 "nl": "CompetentAuthorityLevel"
@@ -1978,7 +1852,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/bevoegd-bestuursniveau.ttl",
+          "codelist_uri": "",
           "rawTags": {
             "label-nl": "competentAuthorityLevel",
             "definition-nl": "Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.",
@@ -2546,7 +2420,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Type",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
                 "nl": "Type"
@@ -2554,7 +2428,7 @@
             }
           ],
           "cardinality": "0..1",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/type.ttl",
+          "codelist_uri": "",
           "rawTags": {
             "uri": "http://purl.org/dc/terms/type",
             "label-nl": "type",
@@ -2629,7 +2503,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Spatial",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
                 "nl": "Spatial"
@@ -2637,7 +2511,7 @@
             }
           ],
           "cardinality": "1..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/geografisch-toepassingsgebied.ttl",
+          "codelist_uri": "",
           "rawTags": {
             "uri": "http://purl.org/dc/terms/spatial",
             "label-nl": "spatial",
@@ -2712,7 +2586,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Language",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
                 "nl": "Language"
@@ -2720,7 +2594,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://publications.europa.eu/resource/authority/language",
+          "codelist_uri": "",
           "rawTags": {
             "uri": "http://purl.org/dc/terms/language",
             "label-nl": "language",
@@ -2798,7 +2672,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Theme",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
                 "nl": "Theme"
@@ -2806,7 +2680,7 @@
             }
           ],
           "cardinality": "0..*",
-          "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/thema.ttl",
+          "codelist_uri": "",
           "rawTags": {
             "uri": "http://data.europa.eu/m8g/thematicArea",
             "label-nl": "theme",
@@ -4419,36 +4293,6 @@
       "parents": []
     },
     {
-      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijstNaastDiagram",
-      "name": {
-        "nl": "ipdcCodelijstNaastDiagram",
-        "undefined": "ipdccodelijstnaastdiagram"
-      },
-      "description": {},
-      "domain": [
-        null
-      ],
-      "range": [
-        null
-      ],
-      "parents": []
-    },
-    {
-      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijst",
-      "name": {
-        "nl": "ipdcCodelijst",
-        "undefined": "ipdccodelijst"
-      },
-      "description": {},
-      "domain": [
-        null
-      ],
-      "range": [
-        null
-      ],
-      "parents": []
-    },
-    {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag",
       "name": {
         "nl": "instanceTag",
@@ -4483,21 +4327,6 @@
       "name": {
         "nl": "executingAuthorityLevel",
         "undefined": "executingauthoritylevel"
-      },
-      "description": {},
-      "domain": [
-        null
-      ],
-      "range": [
-        null
-      ],
-      "parents": []
-    },
-    {
-      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#execLevelNaastDiagram",
-      "name": {
-        "nl": "execLevelNaastDiagram",
-        "undefined": "execlevelnaastdiagram"
       },
       "description": {},
       "domain": [
@@ -4752,29 +4581,6 @@
     }
   ],
   "datatypes": [
-    {
-      "uri": "http://www.w3.org/2004/02/skos/core#Concept",
-      "name": "Ipdccodelijst",
-      "label": {
-        "nl": "IpdcCodelijst"
-      },
-      "sort": "IpdcCodelijst",
-      "description": {
-        "nl": "Test codelijst om na te gaan dat datatype beter werkt dan enumeration"
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in volgend ttl bestand https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/bevoegd-bestuursniveau.ttl"
-      },
-      "parents": [],
-      "rawTags": {
-        "ap-codelist": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/bevoegd-bestuursniveau.ttl",
-        "uri": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label-nl": "IpdcCodelijst",
-        "usageNote-nl": "De geldige waardes zijn te vinden in volgend ttl bestand https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/bevoegd-bestuursniveau.ttl",
-        "definition-nl": "Test codelijst om na te gaan dat datatype beter werkt dan enumeration"
-      },
-      "properties": []
-    },
     {
       "uri": "http://www.w3.org/ns/locn#Address",
       "name": "Address",

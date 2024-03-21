@@ -21,18 +21,6 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ProcedureShape>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ContactPointShape>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#WebsiteShape>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#YourEuropeCategoryShape>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#TargetAudienceShape>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#TypeShape>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#PublicationMediumShape>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstanceTagShape>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptTagShape>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#CompetentAuthorityLevelShape>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ExecutingAuthorityLevelShape>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#SpatialShape>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ThemeShape>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LanguageShape>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#IpdcCodelijstShape>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#AddressShape> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#AddressShape> a shacl:NodeShape;
@@ -123,14 +111,6 @@
   shacl:name "municipality"@nl;
   shacl:path <https://data.vlaanderen.be/ns/adres#gemeentenaam> .
 
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#CompetentAuthorityLevelShape> a shacl:NodeShape;
-  shacl:closed false;
-  shacl:targetClass skos:Concept .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptTagShape> a shacl:NodeShape;
-  shacl:closed false;
-  shacl:targetClass skos:Concept .
-
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/61ede3097db630275578502c3ed09d8d46836e6d>,
@@ -150,7 +130,6 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/77d13dc38cefba76577b0777bf3b72333f54f470>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/56f2776de0d9e95fe73a4c24a5c8e578501a3cb7>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/fcf8c3e8d11f6fb65e0c3a93b6b58f710c3c8570>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/156dbff4f8e4c8e40bca8ecad372d05b4e208748>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/f240a599e3e3cc8b4f7156968ba9f4c8b0fb338e>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/9c470a5841331a6af2938bc63fb93c2ac40ca53e>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/c678d3b6ae22a358f800ce1cdb7f277c9efa4b62>,
@@ -161,8 +140,6 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/12226de35b69c4ce8dfcbbbe9e2b629b50357010>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/9074cccea614f3f92b0325904643417e10ba7255>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/c091e6c0a6e1acc8317152773ce29b6c680d3674>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/2b2905557f3318e8b72fc6994953d4588eab34fa>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/8a6622beb63fddbfe417ce06a28e2ce9db2f6a2b>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/0863db7ed9530b9b39e9256c69fa46b64f0366a7>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/7de4c8acc719dde6bf0f8c8c30899276999d231e>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/f43b16ed322fe71e0270c1685c09eb30bc83456a>,
@@ -209,12 +186,6 @@
   shacl:name "hasMoreInfo"@nl;
   shacl:path rdfs:seeAlso .
 
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/156dbff4f8e4c8e40bca8ecad372d05b4e208748> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.execLevelNaastDiagram";
-  shacl:class skos:Concept;
-  shacl:description "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team. naast diagram"@nl;
-  shacl:name "execLevelNaastDiagram"@nl;
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#execLevelNaastDiagram> .
-
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/1cd3b40ebb585b6dea4ab5c776c06a230d222114> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.yourEuropeCategory";
   shacl:class skos:Concept;
   shacl:description "YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst."@nl;
@@ -238,12 +209,6 @@
   shacl:description "This property represents the official Name of the Public Service."@nl;
   shacl:name "name"@nl;
   shacl:path dc:title .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/2b2905557f3318e8b72fc6994953d4588eab34fa> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.ipdcCodelijst";
-  shacl:class skos:Concept;
-  shacl:description "Test ipdc codelijst"@nl;
-  shacl:name "ipdcCodelijst"@nl;
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijst> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/311b694f260c7116aafcbc13ab79d692a00a345a> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.hasCost";
   shacl:class <http://data.europa.eu/m8g/Cost>;
@@ -370,12 +335,6 @@
   shacl:minCount 1;
   shacl:name "dateModified"@nl;
   shacl:path schema:dateModified .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/8a6622beb63fddbfe417ce06a28e2ce9db2f6a2b> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.ipdcCodelijstNaastDiagram";
-  shacl:class skos:Concept;
-  shacl:description "Test codelijst om na te gaan dat datatype naast diagram beter werkt (def)"@nl;
-  shacl:name "ipdcCodelijstNaastDiagram"@nl;
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijstNaastDiagram> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicServiceShape/8f61614144aa7bca188b24f5976593dc08aad0e6> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ConceptualPublicService.description";
   shacl:description "This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information."@nl;
@@ -738,10 +697,6 @@
   shacl:description "Geeft omschrijving van de vereiste input"@nl;
   shacl:name "description"@nl;
   shacl:path dc:description .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ExecutingAuthorityLevelShape> a shacl:NodeShape;
-  shacl:closed false;
-  shacl:targetClass skos:Concept .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#FinancialAdvantageShape> a shacl:NodeShape;
   shacl:closed false;
@@ -1252,18 +1207,6 @@
   shacl:name "isVersionOf"@nl;
   shacl:path dc:isVersionOf .
 
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstanceTagShape> a shacl:NodeShape;
-  shacl:closed false;
-  shacl:targetClass skos:Concept .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#IpdcCodelijstShape> a shacl:NodeShape;
-  shacl:closed false;
-  shacl:targetClass skos:Concept .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#LanguageShape> a shacl:NodeShape;
-  shacl:closed false;
-  shacl:targetClass skos:Concept .
-
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ProcedureShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ProcedureShape/362d1bf0eab8051024cf5ec1345eb1ce50762580>,
@@ -1316,10 +1259,6 @@
   shacl:description "This property represents a free text Description of the Rule."@nl;
   shacl:name "description"@nl;
   shacl:path dc:description .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#PublicationMediumShape> a shacl:NodeShape;
-  shacl:closed false;
-  shacl:targetClass skos:Concept .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#PubliekeOrganisatieShape> a shacl:NodeShape;
   shacl:closed false;
@@ -1384,22 +1323,6 @@
   shacl:description "A short explanation about the nature, attributes, uses or any other additional information that helps clarify the understanding of the Requirement being instantiated."@nl;
   shacl:name "description"@nl;
   shacl:path dc:description .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#SpatialShape> a shacl:NodeShape;
-  shacl:closed false;
-  shacl:targetClass skos:Concept .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#TargetAudienceShape> a shacl:NodeShape;
-  shacl:closed false;
-  shacl:targetClass skos:Concept .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#ThemeShape> a shacl:NodeShape;
-  shacl:closed false;
-  shacl:targetClass skos:Concept .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#TypeShape> a shacl:NodeShape;
-  shacl:closed false;
-  shacl:targetClass skos:Concept .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#WebsiteShape> a shacl:NodeShape;
   shacl:closed false;
@@ -1481,10 +1404,6 @@
   shacl:minCount 1;
   shacl:name "location"@nl;
   shacl:path schema:url .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#YourEuropeCategoryShape> a shacl:NodeShape;
-  shacl:closed false;
-  shacl:targetClass skos:Concept .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#eli::LegalResourceShape> a shacl:NodeShape;
   shacl:closed false;

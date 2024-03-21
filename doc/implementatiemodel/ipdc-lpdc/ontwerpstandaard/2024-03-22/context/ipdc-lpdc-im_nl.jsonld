@@ -29,8 +29,6 @@
       },
       "@id": "http://www.w3.org/ns/locn#Address"
     },
-    "CompetentAuthorityLevel": "http://www.w3.org/2004/02/skos/core#Concept",
-    "ConceptTag": "http://www.w3.org/2004/02/skos/core#Concept",
     "ConceptualPublicService": {
       "@context": {
         "additionalDescription": {
@@ -65,11 +63,6 @@
         },
         "exception": {
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
-          "@type": "@id"
-        },
-        "execLevelNaastDiagram": {
-          "@container": "@set",
-          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#execLevelNaastDiagram",
           "@type": "@id"
         },
         "executingAuthorityLevel": {
@@ -108,16 +101,6 @@
         },
         "hasRequirement": {
           "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
-          "@type": "@id"
-        },
-        "ipdcCodelijst": {
-          "@container": "@set",
-          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijst",
-          "@type": "@id"
-        },
-        "ipdcCodelijstNaastDiagram": {
-          "@container": "@set",
-          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ipdcCodelijstNaastDiagram",
           "@type": "@id"
         },
         "isArchived": {
@@ -249,7 +232,6 @@
       },
       "@id": "http://data.europa.eu/m8g/Evidence"
     },
-    "ExecutingAuthorityLevel": "http://www.w3.org/2004/02/skos/core#Concept",
     "FinancialAdvantage": {
       "@context": {
         "description": {
@@ -434,9 +416,6 @@
       },
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
     },
-    "InstanceTag": "http://www.w3.org/2004/02/skos/core#Concept",
-    "IpdcCodelijst": "http://www.w3.org/2004/02/skos/core#Concept",
-    "Language": "http://www.w3.org/2004/02/skos/core#Concept",
     "LegalResource": {
       "@context": {
         "description": {
@@ -476,7 +455,6 @@
       },
       "@id": "http://purl.org/vocab/cpsv#Rule"
     },
-    "PublicationMedium": "http://www.w3.org/2004/02/skos/core#Concept",
     "PubliekeOrganisatie": "http://data.europa.eu/m8g/PublicOrganisation",
     "Requirement": {
       "@context": {
@@ -495,10 +473,6 @@
       },
       "@id": "http://data.europa.eu/m8g/Requirement"
     },
-    "Spatial": "http://www.w3.org/2004/02/skos/core#Concept",
-    "TargetAudience": "http://www.w3.org/2004/02/skos/core#Concept",
-    "Theme": "http://www.w3.org/2004/02/skos/core#Concept",
-    "Type": "http://www.w3.org/2004/02/skos/core#Concept",
     "Website": {
       "@context": {
         "description": {
@@ -519,7 +493,6 @@
         }
       },
       "@id": "http://schema.org/WebSite"
-    },
-    "YourEuropeCategory": "http://www.w3.org/2004/02/skos/core#Concept"
+    }
   }
 }

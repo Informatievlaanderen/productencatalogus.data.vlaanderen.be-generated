@@ -187,32 +187,6 @@
       }
     },
     {
-      "EA-Guid": "{28C36E52-E3AB-49de-9514-BD97610C761E}",
-      "name": "ipdccodelijstnaastdiagram",
-      "label": {
-        "nl": "ipdcCodelijstNaastDiagram"
-      },
-      "definition": {
-        "nl": "Test codelijst om na te gaan dat datatype naast diagram beter werkt (def)"
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      }
-    },
-    {
-      "EA-Guid": "{F66769B4-FBC4-47d8-ACF4-EE031B2E8373}",
-      "name": "ipdccodelijst",
-      "label": {
-        "nl": "ipdcCodelijst"
-      },
-      "definition": {
-        "nl": "Test ipdc codelijst"
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      }
-    },
-    {
       "EA-Guid": "{AA354A19-56F9-401d-8F0A-5C15E68BAC36}",
       "name": "instancetag",
       "label": {
@@ -246,19 +220,6 @@
       },
       "definition": {
         "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      }
-    },
-    {
-      "EA-Guid": "{21B1F4C9-5DCE-46c7-8D66-FD701BBFD67E}",
-      "name": "execlevelnaastdiagram",
-      "label": {
-        "nl": "execLevelNaastDiagram"
-      },
-      "definition": {
-        "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team. naast diagram"
       },
       "usage": {
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
@@ -463,162 +424,6 @@
       }
     },
     {
-      "EA-Guid": "{0FFDCC68-70AA-4365-8AE2-BD4B0122C0A6}",
-      "name": "Youreuropecategory",
-      "label": {
-        "nl": "YourEuropeCategory"
-      },
-      "definition": {
-        "nl": "YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      }
-    },
-    {
-      "EA-Guid": "{365AA96E-B24E-4491-A948-84D43EC6F900}",
-      "name": "Targetaudience",
-      "label": {
-        "nl": "TargetAudience"
-      },
-      "definition": {
-        "nl": "Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      }
-    },
-    {
-      "EA-Guid": "{B62F18BE-2384-478d-8B01-ABAE1F23010F}",
-      "name": "Type",
-      "label": {
-        "nl": "Type"
-      },
-      "definition": {
-        "nl": "Type van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      }
-    },
-    {
-      "EA-Guid": "{3558D13F-3BF5-4aad-A24E-1F4F96D99A74}",
-      "name": "Publicationmedium",
-      "label": {
-        "nl": "PublicationMedium"
-      },
-      "definition": {
-        "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      }
-    },
-    {
-      "EA-Guid": "{16F1EFDB-BECD-41a1-A17A-AC8FDF0B5D68}",
-      "name": "Instancetag",
-      "label": {
-        "nl": "InstanceTag"
-      },
-      "definition": {
-        "nl": "Instantie tag voor een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Momenteel zijn er geen geldige waardes."
-      }
-    },
-    {
-      "EA-Guid": "{7A3BE628-EECF-423f-8C8F-E0740E9A6CE4}",
-      "name": "Concepttag",
-      "label": {
-        "nl": "ConceptTag"
-      },
-      "definition": {
-        "nl": "Concept tag voor een publieke dienst concept. Deze codelijst is in het beheer van het IPDC - LPDC team."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      }
-    },
-    {
-      "EA-Guid": "{6E340942-8F33-4cf0-B870-D3BFFFAD7E1B}",
-      "name": "Competentauthoritylevel",
-      "label": {
-        "nl": "CompetentAuthorityLevel"
-      },
-      "definition": {
-        "nl": "Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      }
-    },
-    {
-      "EA-Guid": "{E39E55FA-168A-4839-B9B3-1A0EF4A25F80}",
-      "name": "Executingauthoritylevel",
-      "label": {
-        "nl": "ExecutingAuthorityLevel"
-      },
-      "definition": {
-        "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      }
-    },
-    {
-      "EA-Guid": "{979347D8-CAD3-4d83-BEE5-8D054D35D54F}",
-      "name": "Spatial",
-      "label": {
-        "nl": "Spatial"
-      },
-      "definition": {
-        "nl": "Geografisch toepassingsgebied van een pubieke dienst. Het geografisch toepassingsgebied wordt voorgesteld aan de hand van een NUTS of LAU code. NUTS codes zijn hierarisch ingedeeld in 4 niveau's. Op het hoogste niveau, NUTS 0, worden de landen ingedeeld en krijgt belgie de code BE. Eén niveau daaronder, NUTS 1, deelt Belgie verder op in de gewesten. Zo krijgt het Vlaams Gewest code BE2. Elk gewest wordt op zijn beurt op NUTS 2 niveau verder ingedeeld in de provincies. Zo krijgt de provincie Antwerpen bijvoorbeeld code BE21. Elke provincie wordt vervolgens op NUTS 3 niveau nog onderverdeeld in arrondissmenten. Zo krijgt het arrondissment Mechelen code BE212. Een fijnere opdeling in gemeenten kan vervolgens gemaakt worden met de LAU codes. Zo krijgt de gemeente Kontich LAU code 11024. Meer informatie over deze opdeling is hier terug te vinden: https://ec.europa.eu/eurostat/web/nuts. Zowel de NUTS als LAU codes worden beheerd door Eurostat. We volgen momenteel de NUTS 2021 classificatie en de laatst gevalideerde LAU 2019 classificatie. De NUTS codelijst wordt door Europa gepubliceerd op https://publications.europa.eu/resource/authority/nuts. Deze gaat echter niet tot op LAU niveau er bestaat ook geen gepubliceerde codelijst voor de LAU codes. Als oplossing maakte het IPDC - LPDC team een uitbreiding op de NUTS codelijst en werd een extra hierarchish niveau onder NUTS 3 toegevoegd om ook de gemeentes met hun LAU code beschikbaar te maken. De code voor een gemeente in deze codelijst is de concatenatie van de omvattende NUTS3 code voor de gemeente en de LAU code. Zo krijgt de gemeente Kontich bijvoorbeeld de code BE21111024."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Dit zijn alle NUTS en LAU codes die binnen het Vlaams Gewest en Brussels Hoofdstedelijk Gewest vallen en het Federaal niveau voorstellen."
-      }
-    },
-    {
-      "EA-Guid": "{B2634D81-F204-4dcc-97ED-469F65090570}",
-      "name": "Theme",
-      "label": {
-        "nl": "Theme"
-      },
-      "definition": {
-        "nl": "Thema van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      }
-    },
-    {
-      "EA-Guid": "{30141F06-519E-4f9e-9603-CF44FFCF47C2}",
-      "name": "Language",
-      "label": {
-        "nl": "Language"
-      },
-      "definition": {
-        "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
-      },
-      "usage": {
-        "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG."
-      }
-    },
-    {
-      "EA-Guid": "{B1183A21-F3E7-4ce3-8450-34EF869FAD53}",
-      "name": "Ipdccodelijst",
-      "label": {
-        "nl": "IpdcCodelijst"
-      },
-      "definition": {
-        "nl": "Test codelijst om na te gaan dat datatype beter werkt dan enumeration"
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in volgend ttl bestand https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-02-29/codelijsten/bevoegd-bestuursniveau.ttl"
-      }
-    },
-    {
       "EA-Guid": "{F20421A3-F640-46b0-A009-8EBC2BFA1FBE}",
       "name": "Address",
       "label": {
@@ -644,7 +449,7 @@
       }
     },
     {
-      "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
+      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
       "name": "hasexecutingauthority",
       "label": {
         "nl": "hasExecutingAuthority"
@@ -654,7 +459,7 @@
       }
     },
     {
-      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+      "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
       "name": "hasexecutingauthority",
       "label": {
         "nl": "hasExecutingAuthority"
@@ -835,16 +640,6 @@
       }
     },
     {
-      "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
-      "name": "hasmoreinfo",
-      "label": {
-        "nl": "hasMoreInfo"
-      },
-      "definition": {
-        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
-      }
-    },
-    {
       "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
       "name": "hasmoreinfo",
       "label": {
@@ -855,7 +650,17 @@
       }
     },
     {
-      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
+      "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
+      "name": "hasmoreinfo",
+      "label": {
+        "nl": "hasMoreInfo"
+      },
+      "definition": {
+        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
+      }
+    },
+    {
+      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
       "name": "hasrequirement",
       "label": {
         "nl": "hasRequirement"
@@ -865,7 +670,7 @@
       }
     },
     {
-      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
+      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
       "name": "hasrequirement",
       "label": {
         "nl": "hasRequirement"
@@ -1068,7 +873,7 @@
       }
     },
     {
-      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
       "name": "produces",
       "label": {
         "nl": "produces"
@@ -1078,7 +883,7 @@
       }
     },
     {
-      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
       "name": "produces",
       "label": {
         "nl": "produces"
@@ -1270,16 +1075,6 @@
       }
     },
     {
-      "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
-      "name": "isversionof",
-      "label": {
-        "nl": "isVersionOf"
-      },
-      "definition": {
-        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-      }
-    },
-    {
       "EA-Guid": "{55F34410-3DA0-42fc-A8AD-E43C9735D39E}",
       "name": "isversionof",
       "label": {
@@ -1287,6 +1082,16 @@
       },
       "definition": {
         "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+      }
+    },
+    {
+      "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
+      "name": "isversionof",
+      "label": {
+        "nl": "isVersionOf"
+      },
+      "definition": {
+        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       }
     },
     {
@@ -1493,7 +1298,7 @@
       }
     },
     {
-      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
+      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
       "name": "hascompetentauthority",
       "label": {
         "nl": "hasCompetentAuthority"
@@ -1503,7 +1308,7 @@
       }
     },
     {
-      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
+      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
       "name": "hascompetentauthority",
       "label": {
         "nl": "hasCompetentAuthority"
