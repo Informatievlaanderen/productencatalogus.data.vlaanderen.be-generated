@@ -243,8 +243,8 @@
 
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/3c58acd392321f987f2fdafa3177db05633fac41">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/3c58acd392321f987f2fdafa3177db05633fac41</a></dd>
-              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/3c58acd392321f987f2fdafa3177db05633fac41/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/3c58acd392321f987f2fdafa3177db05633fac41/CHANGELOG</a></dd>
+              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/136a6b60ab6119174d7c05c181e35e86b22bfdb7">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/136a6b60ab6119174d7c05c181e35e86b22bfdb7</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/136a6b60ab6119174d7c05c181e35e86b22bfdb7/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/136a6b60ab6119174d7c05c181e35e86b22bfdb7/CHANGELOG</a></dd>
               <dt>Opmerkingen en feedback</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/issues">https://github.com/Informatievlaanderen/ipdc-lpdc/issues</a></dd>
               <dt>Standaardenregister</dt><dd><a href="https://data.vlaanderen.be/standaarden">https://data.vlaanderen.be/standaarden</a></dd>
 
@@ -326,6 +326,14 @@
     kardinaliteit 1 aan dat er exact 1 tekstuele waarde per taal toegestaan is. Kardinaliteit 0..1 geeft aan dat er per taal
     geen of één waarde toegelaten is. De uitzonderlijk kardinaliteit 0..* geeft aan dat er per taal meerdere waardes
     toegestaan zijn.
+</p>
+
+<h4>Snapshots</h4>
+<p>
+    Een snapshot geeft weer hoe een instantie of concept er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe snapshot aangemaakt worden
+    die alle op dat moment ingevulde attributen en associaties capteert. Op deze manier wordt de volledig redactie historiek van een instatnie of concept vastgelegd.
+    Om het diagram overzichtelijk te houden worden op de snapshot klasses de attributen en associaties van instanties en concepten niet herhaald.
+    In de detail beschrijving van deze klasses zijn alle attributen en associaties wel terug te vinden.
 </p>
 
 <h4>Meer weten?</h4>
@@ -1279,7 +1287,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
               <h3 class="h3" id="Conceptsnapshot"><a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot" data-placement="right">ConceptSnapshot</a></h3>
                 <div class="region region--no-space-top">
                   <dl>
-                    <dt>Beschrijving</dt><dd>Een conceptsnapshot geeft weer hoe een concept er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe conceptsnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een concept vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse ConceptualPublicService.</dd>
+                    <dt>Beschrijving</dt><dd>Een conceptsnapshot geeft weer hoe een concept er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe conceptsnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een concept vastgelegd.</dd>
                     
                     <dt>Gebruik</dt><dd>De conceptsnapshots worden door IPDC aan de hand van een linked data event stream (LDES) beschikbaar gemaakt. Deze LDES maakt de volledige historiek van alle concept wijzigingen beschikbaar voor aansluiters. Meer info over LDES is hier beschikbaar: https://semiceu.github.io/LinkedDataEventStreams</dd>
                     
@@ -2777,7 +2785,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
               <h3 class="h3" id="Instantiesnapshot"><a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot" data-placement="right">InstantieSnapshot</a></h3>
                 <div class="region region--no-space-top">
                   <dl>
-                    <dt>Beschrijving</dt><dd>Een instantiesnapshot geeft weer hoe een instantie er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe instantiesnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een instantie vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse InstancePublicService.</dd>
+                    <dt>Beschrijving</dt><dd>Een instantiesnapshot geeft weer hoe een instantie er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe instantiesnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een instantie vastgelegd.</dd>
                     
                     <dt>Gebruik</dt><dd>De instantiesnapshots worden door IPDC aan de hand van een linked data event stream (LDES) beschikbaar gemaakt. Deze LDES maakt de volledige historiek van alle instantie wijzigingen beschikbaar voor aansluiters. Meer info over LDES is hier beschikbaar: https://semiceu.github.io/LinkedDataEventStreams</dd>
                     

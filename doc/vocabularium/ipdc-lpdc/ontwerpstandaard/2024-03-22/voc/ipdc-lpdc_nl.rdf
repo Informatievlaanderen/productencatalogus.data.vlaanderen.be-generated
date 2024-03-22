@@ -417,7 +417,7 @@
       <owl:Class rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot">
         <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
         <rdfs:label xml:lang="nl">ConceptSnapshot</rdfs:label>
-        <rdfs:comment xml:lang="nl">Een conceptsnapshot geeft weer hoe een concept er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe conceptsnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een concept vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse ConceptualPublicService.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een conceptsnapshot geeft weer hoe een concept er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe conceptsnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een concept vastgelegd.</rdfs:comment>
         <ns1:usageNote xml:lang="nl">De conceptsnapshots worden door IPDC aan de hand van een linked data event stream (LDES) beschikbaar gemaakt. Deze LDES maakt de volledige historiek van alle concept wijzigingen beschikbaar voor aansluiters. Meer info over LDES is hier beschikbaar: https://semiceu.github.io/LinkedDataEventStreams</ns1:usageNote>
       </owl:Class>
     </rdfs:domain>
@@ -425,7 +425,7 @@
       <owl:Class rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot">
         <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
         <rdfs:label xml:lang="nl">InstantieSnapshot</rdfs:label>
-        <rdfs:comment xml:lang="nl">Een instantiesnapshot geeft weer hoe een instantie er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe instantiesnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een instantie vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse InstancePublicService.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een instantiesnapshot geeft weer hoe een instantie er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe instantiesnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een instantie vastgelegd.</rdfs:comment>
         <ns1:usageNote xml:lang="nl">De instantiesnapshots worden door IPDC aan de hand van een linked data event stream (LDES) beschikbaar gemaakt. Deze LDES maakt de volledige historiek van alle instantie wijzigingen beschikbaar voor aansluiters. Meer info over LDES is hier beschikbaar: https://semiceu.github.io/LinkedDataEventStreams</ns1:usageNote>
       </owl:Class>
     </rdfs:domain>

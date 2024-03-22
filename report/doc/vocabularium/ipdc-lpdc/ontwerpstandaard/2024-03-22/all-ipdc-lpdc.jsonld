@@ -328,13 +328,13 @@
                 "nl": "De conceptsnapshots worden door IPDC aan de hand van een linked data event stream (LDES) beschikbaar gemaakt. Deze LDES maakt de volledige historiek van alle concept wijzigingen beschikbaar voor aansluiters. Meer info over LDES is hier beschikbaar: https://semiceu.github.io/LinkedDataEventStreams"
             },
             "definition": {
-                "nl": "Een conceptsnapshot geeft weer hoe een concept er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe conceptsnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een concept vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse ConceptualPublicService."
+                "nl": "Een conceptsnapshot geeft weer hoe een concept er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe conceptsnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een concept vastgelegd."
             },
             "label": {
                 "nl": "ConceptSnapshot"
             },
             "definition-nl": {
-                "nl": "Een conceptsnapshot geeft weer hoe een concept er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe conceptsnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een concept vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse ConceptualPublicService."
+                "nl": "Een conceptsnapshot geeft weer hoe een concept er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe conceptsnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een concept vastgelegd."
             },
             "extra": {
                 "EA-Name": "ConceptSnapshot",
@@ -348,7 +348,7 @@
                     "nl": "ConceptSnapshot"
                 },
                 "definition": {
-                    "nl": "Een conceptsnapshot geeft weer hoe een concept er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe conceptsnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een concept vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse ConceptualPublicService."
+                    "nl": "Een conceptsnapshot geeft weer hoe een concept er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe conceptsnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een concept vastgelegd."
                 },
                 "usage": {
                     "nl": "De conceptsnapshots worden door IPDC aan de hand van een linked data event stream (LDES) beschikbaar gemaakt. Deze LDES maakt de volledige historiek van alle concept wijzigingen beschikbaar voor aansluiters. Meer info over LDES is hier beschikbaar: https://semiceu.github.io/LinkedDataEventStreams"
@@ -357,7 +357,7 @@
                     "nl": "ConceptSnapshot"
                 },
                 "definition-nl": {
-                    "nl": "Een conceptsnapshot geeft weer hoe een concept er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe conceptsnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een concept vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse ConceptualPublicService."
+                    "nl": "Een conceptsnapshot geeft weer hoe een concept er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe conceptsnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een concept vastgelegd."
                 },
                 "usageNote-nl": {
                     "nl": "De conceptsnapshots worden door IPDC aan de hand van een linked data event stream (LDES) beschikbaar gemaakt. Deze LDES maakt de volledige historiek van alle concept wijzigingen beschikbaar voor aansluiters. Meer info over LDES is hier beschikbaar: https://semiceu.github.io/LinkedDataEventStreams"
@@ -378,7 +378,7 @@
                     {
                         "key": "definition-nl",
                         "value": "NOTE",
-                        "note": "Een conceptsnapshot geeft weer hoe een concept er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe conceptsnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een concept vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse ConceptualPublicService."
+                        "note": "Een conceptsnapshot geeft weer hoe een concept er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe conceptsnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een concept vastgelegd."
                     },
                     {
                         "key": "usageNote-nl",
@@ -562,13 +562,13 @@
                 "nl": "De instantiesnapshots worden door IPDC aan de hand van een linked data event stream (LDES) beschikbaar gemaakt. Deze LDES maakt de volledige historiek van alle instantie wijzigingen beschikbaar voor aansluiters. Meer info over LDES is hier beschikbaar: https://semiceu.github.io/LinkedDataEventStreams"
             },
             "definition": {
-                "nl": "Een instantiesnapshot geeft weer hoe een instantie er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe instantiesnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een instantie vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse InstancePublicService."
+                "nl": "Een instantiesnapshot geeft weer hoe een instantie er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe instantiesnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een instantie vastgelegd."
             },
             "label": {
                 "nl": "InstantieSnapshot"
             },
             "definition-nl": {
-                "nl": "Een instantiesnapshot geeft weer hoe een instantie er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe instantiesnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een instantie vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse InstancePublicService."
+                "nl": "Een instantiesnapshot geeft weer hoe een instantie er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe instantiesnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een instantie vastgelegd."
             },
             "extra": {
                 "EA-Name": "InstantieSnapshot",
@@ -582,7 +582,7 @@
                     "nl": "InstantieSnapshot"
                 },
                 "definition": {
-                    "nl": "Een instantiesnapshot geeft weer hoe een instantie er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe instantiesnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een instantie vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse InstancePublicService."
+                    "nl": "Een instantiesnapshot geeft weer hoe een instantie er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe instantiesnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een instantie vastgelegd."
                 },
                 "usage": {
                     "nl": "De instantiesnapshots worden door IPDC aan de hand van een linked data event stream (LDES) beschikbaar gemaakt. Deze LDES maakt de volledige historiek van alle instantie wijzigingen beschikbaar voor aansluiters. Meer info over LDES is hier beschikbaar: https://semiceu.github.io/LinkedDataEventStreams"
@@ -591,7 +591,7 @@
                     "nl": "InstantieSnapshot"
                 },
                 "definition-nl": {
-                    "nl": "Een instantiesnapshot geeft weer hoe een instantie er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe instantiesnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een instantie vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse InstancePublicService."
+                    "nl": "Een instantiesnapshot geeft weer hoe een instantie er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe instantiesnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een instantie vastgelegd."
                 },
                 "usageNote-nl": {
                     "nl": "De instantiesnapshots worden door IPDC aan de hand van een linked data event stream (LDES) beschikbaar gemaakt. Deze LDES maakt de volledige historiek van alle instantie wijzigingen beschikbaar voor aansluiters. Meer info over LDES is hier beschikbaar: https://semiceu.github.io/LinkedDataEventStreams"
@@ -607,7 +607,7 @@
                     {
                         "key": "definition-nl",
                         "value": "NOTE",
-                        "note": "Een instantiesnapshot geeft weer hoe een instantie er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe instantiesnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een instantie vastgelegd. Naast de attributen weergeven op de klasse bevat de snapshot ook alle velden van de klasse InstancePublicService."
+                        "note": "Een instantiesnapshot geeft weer hoe een instantie er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe instantiesnapshot aangemaakt worden. Op deze manier wordt de volledig redactie historiek van een instantie vastgelegd."
                     },
                     {
                         "key": "label-nl",
@@ -10552,100 +10552,6 @@
             },
             "extra": {
                 "EA-Name": "financieleVoordelen",
-                "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
-                "derived": "false",
-                "EA-Package": "",
-                "EA-Type": "connector",
-                "EA-Domain": "Concept",
-                "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-                "EA-Range": "FinancieelVoordeel",
-                "RangeData": {
-                    "EA-Name": "FinancieelVoordeel",
-                    "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage"
-                },
-                "sourceRole": "null",
-                "destRole": "null",
-                "label": {
-                    "nl": "financieleVoordelen"
-                },
-                "definition": {
-                    "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-                },
-                "usage": "",
-                "label-nl": {
-                    "nl": "financieleVoordelen"
-                },
-                "definition-nl": {
-                    "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-                },
-                "usageNote-nl": "",
-                "label-en": "",
-                "definition-en": "",
-                "usageNote-en": "",
-                "equivalent": "",
-                "subclass": "",
-                "subclass1": "",
-                "sameAs": "",
-                "RawTags": [
-                    {
-                        "key": "uri",
-                        "value": "http://purl.org/vocab/cpsv#produces",
-                        "note": "null"
-                    },
-                    {
-                        "key": "definition-nl",
-                        "value": "NOTE",
-                        "note": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-                    },
-                    {
-                        "key": "label-nl",
-                        "value": "financieleVoordelen",
-                        "note": "null"
-                    }
-                ],
-                "DestRoleTags": [],
-                "Scope": "TRANSLATIONS_ONLY"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
-                    "EA-Name": "Concept"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "FinancieelVoordeel",
-                    "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
-                    "EA-Package": "IPDC-LPDC",
-                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "0",
-            "maxCardinality": "*"
-        },
-        {
-            "@id": "http://purl.org/vocab/cpsv#produces",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "financielevoordelen",
-            "inpackage": "ACTIVE_PACKAGE",
-            "label-nl": {
-                "nl": "financieleVoordelen"
-            },
-            "definition": {
-                "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-            },
-            "label": {
-                "nl": "financieleVoordelen"
-            },
-            "definition-nl": {
-                "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-            },
-            "extra": {
-                "EA-Name": "financieleVoordelen",
                 "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
                 "derived": "false",
                 "EA-Package": "",
@@ -10707,6 +10613,100 @@
                 {
                     "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
                     "EA-Name": "Instantie"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "FinancieelVoordeel",
+                    "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
+                    "EA-Package": "IPDC-LPDC",
+                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "0",
+            "maxCardinality": "*"
+        },
+        {
+            "@id": "http://purl.org/vocab/cpsv#produces",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "financielevoordelen",
+            "inpackage": "ACTIVE_PACKAGE",
+            "label-nl": {
+                "nl": "financieleVoordelen"
+            },
+            "definition": {
+                "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+            },
+            "label": {
+                "nl": "financieleVoordelen"
+            },
+            "definition-nl": {
+                "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+            },
+            "extra": {
+                "EA-Name": "financieleVoordelen",
+                "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+                "derived": "false",
+                "EA-Package": "",
+                "EA-Type": "connector",
+                "EA-Domain": "Concept",
+                "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+                "EA-Range": "FinancieelVoordeel",
+                "RangeData": {
+                    "EA-Name": "FinancieelVoordeel",
+                    "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
+                    "EA-Package": "IPDC-LPDC",
+                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage"
+                },
+                "sourceRole": "null",
+                "destRole": "null",
+                "label": {
+                    "nl": "financieleVoordelen"
+                },
+                "definition": {
+                    "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+                },
+                "usage": "",
+                "label-nl": {
+                    "nl": "financieleVoordelen"
+                },
+                "definition-nl": {
+                    "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+                },
+                "usageNote-nl": "",
+                "label-en": "",
+                "definition-en": "",
+                "usageNote-en": "",
+                "equivalent": "",
+                "subclass": "",
+                "subclass1": "",
+                "sameAs": "",
+                "RawTags": [
+                    {
+                        "key": "uri",
+                        "value": "http://purl.org/vocab/cpsv#produces",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "NOTE",
+                        "note": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+                    },
+                    {
+                        "key": "label-nl",
+                        "value": "financieleVoordelen",
+                        "note": "null"
+                    }
+                ],
+                "DestRoleTags": [],
+                "Scope": "TRANSLATIONS_ONLY"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
+                    "EA-Name": "Concept"
                 }
             ],
             "range": [
@@ -15525,14 +15525,14 @@
     "config": "config/config-voc.json",
     "branchtag": "ontwerp-2024-03-22",
     "disabled": false,
-    "dummy": "017",
+    "dummy": "018",
     "filename": "config/ipdc-lpdc-voc.json",
     "navigation": {
         "prev": "/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-03-08"
     },
     "repository": "https://github.com/Informatievlaanderen/ipdc-lpdc",
     "urlref": "/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-03-22",
-    "documentcommit": "3c58acd392321f987f2fdafa3177db05633fac41",
-    "toolchaincommit": "d1fd6c1c9f9d74ed7fcb3cfef00cab1ad4043fb5",
+    "documentcommit": "136a6b60ab6119174d7c05c181e35e86b22bfdb7",
+    "toolchaincommit": "527c6e0224f90a7a1798585c643a239715ce4ab5",
     "hostname": "https://productencatalogus.data.test-vlaanderen.be/"
 }
