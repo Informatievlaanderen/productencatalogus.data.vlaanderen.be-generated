@@ -7596,22 +7596,22 @@
         {
             "@id": "http://purl.org/pav/createdBy",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "createdby",
+            "name": "beheerder",
             "inpackage": "UNKNOWN",
             "label-nl": {
-                "nl": "createdBy"
+                "nl": "beheerder"
             },
             "definition": {
                 "nl": "Link naar de organisatie die de instantie aanmaakte"
             },
             "label": {
-                "nl": "createdBy"
+                "nl": "beheerder"
             },
             "definition-nl": {
                 "nl": "Link naar de organisatie die de instantie aanmaakte"
             },
             "extra": {
-                "EA-Name": "createdBy",
+                "EA-Name": "beheerder",
                 "EA-Guid": "{CB80FF60-F68B-43a4-9F8B-701511288CD0}",
                 "derived": "false",
                 "EA-Package": "",
@@ -7628,14 +7628,14 @@
                 "sourceRole": "null",
                 "destRole": "null",
                 "label": {
-                    "nl": "createdBy"
+                    "nl": "beheerder"
                 },
                 "definition": {
                     "nl": "Link naar de organisatie die de instantie aanmaakte"
                 },
                 "usage": "",
                 "label-nl": {
-                    "nl": "createdBy"
+                    "nl": "beheerder"
                 },
                 "definition-nl": {
                     "nl": "Link naar de organisatie die de instantie aanmaakte"
@@ -7651,7 +7651,7 @@
                 "RawTags": [
                     {
                         "key": "label-nl",
-                        "value": "createdBy",
+                        "value": "beheerder",
                         "note": "null"
                     },
                     {
@@ -11159,14 +11159,14 @@
     "config": "config/config-voc.json",
     "branchtag": "ontwerp-2024-03-22",
     "disabled": false,
-    "dummy": "014",
+    "dummy": "015",
     "filename": "config/ipdc-lpdc-voc.json",
     "navigation": {
         "prev": "/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-03-08"
     },
     "repository": "https://github.com/Informatievlaanderen/ipdc-lpdc",
     "urlref": "/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-03-22",
-    "documentcommit": "00c121a1003901b0cbce8e61c20c5f2a3ee905c0",
-    "toolchaincommit": "d060fbd1fc6aa9d830f9822cc451f35cf35c75b8",
+    "documentcommit": "9fb70519afdf8a001b8bcfda23a47236c180889d",
+    "toolchaincommit": "9102fcc82d1606b8a1de8cf82ae8d1897b2e76c5",
     "hostname": "https://productencatalogus.data.test-vlaanderen.be/"
 }

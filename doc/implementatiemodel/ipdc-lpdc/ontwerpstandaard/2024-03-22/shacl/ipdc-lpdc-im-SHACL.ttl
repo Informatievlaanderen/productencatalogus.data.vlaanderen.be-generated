@@ -852,7 +852,9 @@
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:property <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/0e9a7d4dbf6ec19568d474169ad717f71e882319>,
+  shacl:property <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/0e1cde9644409126370819fab3be5b3dbbacc60e>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/1a30482b3e53ec3424e45bfaee16aa218fe34532>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/0e9a7d4dbf6ec19568d474169ad717f71e882319>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/4a16176c26d8d5526c76974a1530f1ffdd596e93>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/7521953addc62cf367ab3c8ec0dc63cb5981ea23>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/94da63c5887b79e2e952dd7d1c7c951e24a3a09b>,
@@ -860,8 +862,6 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/9550b15543d97d241509511efdf83672208f99cc>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/e316d949509397a4a72d2e6a37c683fb431dee59>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/e6d883b07c6703cba41081f894e594085c6481af>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/016f4b6004e008d8b8ef78553be855735503cbd7>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/a39c1d0f1762122e5a8a63bd92b469123c76709d>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/56c4c5068a5d64ab65fcc947da31dc377ada8cac>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/dad37608a85acfefb5866b9dc3b81c9272a09c9a>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/f367a23d8205a5e4a83e5b9c5cce0e4eb05989d5>,
@@ -926,12 +926,6 @@
   shacl:name "voorwaarden"@nl;
   shacl:path <http://vocab.belgif.be/ns/publicservice#hasRequirement> .
 
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/016f4b6004e008d8b8ef78553be855735503cbd7> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Instantie.createdBy";
-  shacl:description "Link naar de organisatie die de instantie aanmaakte"@nl;
-  shacl:maxCount 1;
-  shacl:name "createdBy"@nl;
-  shacl:path <http://purl.org/pav/createdBy> .
-
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/04d64dfa71d45f83f628946789a07ba9c194d397> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Instantie.startDienstVerlening";
   shacl:description "Datum waarop de publieke dienstverlening actief aangeboden werd/wordt"@nl;
   shacl:maxCount 1;
@@ -974,6 +968,12 @@
   shacl:name "regelgevingTekst"@nl;
   shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation> .
 
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/0e1cde9644409126370819fab3be5b3dbbacc60e> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Instantie.beheerder";
+  shacl:description "Link naar de organisatie die de instantie aanmaakte"@nl;
+  shacl:maxCount 1;
+  shacl:name "beheerder"@nl;
+  shacl:path <http://purl.org/pav/createdBy> .
+
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/0e9a7d4dbf6ec19568d474169ad717f71e882319> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Instantie.beschrijving";
   shacl:class rdf:langString;
   shacl:description "This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information."@nl;
@@ -1003,6 +1003,12 @@
   shacl:description "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."@nl;
   shacl:name "regelgeving"@nl;
   shacl:path <http://data.europa.eu/m8g/hasLegalResource> .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/1a30482b3e53ec3424e45bfaee16aa218fe34532> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Instantie.beheerder";
+  shacl:class <http://data.europa.eu/m8g/PublicOrganisation>;
+  shacl:description "Link naar de organisatie die de instantie aanmaakte"@nl;
+  shacl:name "beheerder"@nl;
+  shacl:path <http://purl.org/pav/createdBy> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/236f0210baaf149903750c43bbe7012c21debb2a> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Instantie.type";
   shacl:description "Type van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."@nl;
@@ -1273,12 +1279,6 @@
   shacl:nodeKind shacl:IRI;
   shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel>;
   shacl:severity shacl:Warning .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/a39c1d0f1762122e5a8a63bd92b469123c76709d> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Instantie.createdBy";
-  shacl:class <http://data.europa.eu/m8g/PublicOrganisation>;
-  shacl:description "Link naar de organisatie die de instantie aanmaakte"@nl;
-  shacl:name "createdBy"@nl;
-  shacl:path <http://purl.org/pav/createdBy> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/af7a5aa5ab3681774d9cd2483c7a1cbe754c6182> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Instantie.kosten";
   shacl:class <http://data.europa.eu/m8g/Cost>;

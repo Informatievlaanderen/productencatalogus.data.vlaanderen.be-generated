@@ -594,8 +594,8 @@
   "dependencies": [],
   "diagram": "ipdc-lpdc-ap",
   "disabled": false,
-  "documentcommit": "00c121a1003901b0cbce8e61c20c5f2a3ee905c0",
-  "dummy": "014",
+  "documentcommit": "9fb70519afdf8a001b8bcfda23a47236c180889d",
+  "dummy": "015",
   "eap": "IPDC-LPDC-AP.eap",
   "editors": [
     {
@@ -4726,7 +4726,7 @@
         "EA-Domain": "Instantie",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
         "EA-Guid": "{CB80FF60-F68B-43a4-9F8B-701511288CD0}",
-        "EA-Name": "createdBy",
+        "EA-Name": "beheerder",
         "EA-Package": "",
         "EA-Range": "PubliekeOrganisatie",
         "EA-Type": "connector",
@@ -4740,7 +4740,7 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "createdBy"
+            "value": "beheerder"
           },
           {
             "key": "uri",
@@ -4765,11 +4765,11 @@
         "destRole": "null",
         "equivalent": "",
         "label": {
-          "nl": "createdBy"
+          "nl": "beheerder"
         },
         "label-en": "",
         "label-nl": {
-          "nl": "createdBy"
+          "nl": "beheerder"
         },
         "sameAs": "",
         "sourceRole": "null",
@@ -4782,14 +4782,14 @@
       "generalization": [],
       "inpackage": "UNKNOWN",
       "label": {
-        "nl": "createdBy"
+        "nl": "beheerder"
       },
       "label-nl": {
-        "nl": "createdBy"
+        "nl": "beheerder"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "createdby",
+      "name": "beheerder",
       "range": [
         {
           "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
@@ -11279,7 +11279,7 @@
   "title-nl": {
     "nl": "TODO"
   },
-  "toolchaincommit": "d060fbd1fc6aa9d830f9822cc451f35cf35c75b8",
+  "toolchaincommit": "9102fcc82d1606b8a1de8cf82ae8d1897b2e76c5",
   "translation": [
     {
       "language": "nl",

@@ -7596,22 +7596,22 @@
         {
             "@id": "http://purl.org/pav/createdBy",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "createdby",
+            "name": "beheerder",
             "inpackage": "UNKNOWN",
             "label-nl": {
-                "nl": "createdBy"
+                "nl": "beheerder"
             },
             "definition": {
                 "nl": "Link naar de organisatie die de instantie aanmaakte"
             },
             "label": {
-                "nl": "createdBy"
+                "nl": "beheerder"
             },
             "definition-nl": {
                 "nl": "Link naar de organisatie die de instantie aanmaakte"
             },
             "extra": {
-                "EA-Name": "createdBy",
+                "EA-Name": "beheerder",
                 "EA-Guid": "{CB80FF60-F68B-43a4-9F8B-701511288CD0}",
                 "derived": "false",
                 "EA-Package": "",
@@ -7628,14 +7628,14 @@
                 "sourceRole": "null",
                 "destRole": "null",
                 "label": {
-                    "nl": "createdBy"
+                    "nl": "beheerder"
                 },
                 "definition": {
                     "nl": "Link naar de organisatie die de instantie aanmaakte"
                 },
                 "usage": "",
                 "label-nl": {
-                    "nl": "createdBy"
+                    "nl": "beheerder"
                 },
                 "definition-nl": {
                     "nl": "Link naar de organisatie die de instantie aanmaakte"
@@ -7651,7 +7651,7 @@
                 "RawTags": [
                     {
                         "key": "label-nl",
-                        "value": "createdBy",
+                        "value": "beheerder",
                         "note": "null"
                     },
                     {

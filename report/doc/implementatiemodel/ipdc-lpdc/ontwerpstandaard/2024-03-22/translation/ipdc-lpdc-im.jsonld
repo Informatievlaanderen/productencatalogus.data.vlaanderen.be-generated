@@ -4987,94 +4987,6 @@
       },
       "extra": {
         "EA-Name": "voorwaarden",
-        "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "Instantie",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Range": "Voorwaarde",
-        "RangeData": {
-          "EA-Name": "Voorwaarde",
-          "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/m8g/Requirement"
-        },
-        "sourceRole": "null",
-        "destRole": "null",
-        "label": {
-          "nl": "voorwaarden"
-        },
-        "definition": {
-          "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
-        },
-        "usage": "",
-        "ap-label-nl": {
-          "nl": "voorwaarden"
-        },
-        "ap-definition-nl": {
-          "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
-        },
-        "ap-usageNote-nl": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
-            "note": "null"
-          },
-          {
-            "key": "label-nl",
-            "value": "voorwaarden",
-            "note": "null"
-          }
-        ],
-        "DestRoleTags": [],
-        "Scope": "TRANSLATIONS_ONLY"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
-          "EA-Name": "Instantie"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Voorwaarde",
-          "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/m8g/Requirement"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "1"
-    },
-    {
-      "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "voorwaarden",
-      "inpackage": "ACTIVE_PACKAGE",
-      "definition": {
-        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
-      },
-      "label": {
-        "nl": "voorwaarden"
-      },
-      "ap-label-nl": {
-        "nl": "voorwaarden"
-      },
-      "ap-definition-nl": {
-        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
-      },
-      "extra": {
-        "EA-Name": "voorwaarden",
         "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
         "derived": "false",
         "EA-Package": "",
@@ -5130,6 +5042,94 @@
         {
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
           "EA-Name": "Concept"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Voorwaarde",
+          "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://data.europa.eu/m8g/Requirement"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "voorwaarden",
+      "inpackage": "ACTIVE_PACKAGE",
+      "definition": {
+        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+      },
+      "label": {
+        "nl": "voorwaarden"
+      },
+      "ap-label-nl": {
+        "nl": "voorwaarden"
+      },
+      "ap-definition-nl": {
+        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+      },
+      "extra": {
+        "EA-Name": "voorwaarden",
+        "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "Instantie",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Range": "Voorwaarde",
+        "RangeData": {
+          "EA-Name": "Voorwaarde",
+          "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://data.europa.eu/m8g/Requirement"
+        },
+        "sourceRole": "null",
+        "destRole": "null",
+        "label": {
+          "nl": "voorwaarden"
+        },
+        "definition": {
+          "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+        },
+        "usage": "",
+        "ap-label-nl": {
+          "nl": "voorwaarden"
+        },
+        "ap-definition-nl": {
+          "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+        },
+        "ap-usageNote-nl": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "uri",
+            "value": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
+            "note": "null"
+          },
+          {
+            "key": "label-nl",
+            "value": "voorwaarden",
+            "note": "null"
+          }
+        ],
+        "DestRoleTags": [],
+        "Scope": "TRANSLATIONS_ONLY"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
+          "EA-Name": "Instantie"
         }
       ],
       "range": [
@@ -6585,94 +6585,6 @@
       },
       "extra": {
         "EA-Name": "financieleVoordelen",
-        "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "Concept",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Range": "FinancieelVoordeel",
-        "RangeData": {
-          "EA-Name": "FinancieelVoordeel",
-          "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage"
-        },
-        "sourceRole": "null",
-        "destRole": "null",
-        "label": {
-          "nl": "financieleVoordelen"
-        },
-        "definition": {
-          "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-        },
-        "usage": "",
-        "ap-label-nl": {
-          "nl": "financieleVoordelen"
-        },
-        "ap-definition-nl": {
-          "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-        },
-        "ap-usageNote-nl": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "http://purl.org/vocab/cpsv#produces",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "NOTE",
-            "note": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-          },
-          {
-            "key": "label-nl",
-            "value": "financieleVoordelen",
-            "note": "null"
-          }
-        ],
-        "DestRoleTags": [],
-        "Scope": "TRANSLATIONS_ONLY"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
-          "EA-Name": "Concept"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "FinancieelVoordeel",
-          "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://purl.org/vocab/cpsv#produces",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "financielevoordelen",
-      "inpackage": "ACTIVE_PACKAGE",
-      "definition": {
-        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-      },
-      "label": {
-        "nl": "financieleVoordelen"
-      },
-      "ap-label-nl": {
-        "nl": "financieleVoordelen"
-      },
-      "ap-definition-nl": {
-        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-      },
-      "extra": {
-        "EA-Name": "financieleVoordelen",
         "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
         "derived": "false",
         "EA-Package": "",
@@ -6743,68 +6655,68 @@
       "maxCardinality": "*"
     },
     {
-      "@id": "http://purl.org/vocab/cpsv#follows",
+      "@id": "http://purl.org/vocab/cpsv#produces",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "procedures",
+      "name": "financielevoordelen",
       "inpackage": "ACTIVE_PACKAGE",
       "definition": {
-        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
       },
       "label": {
-        "nl": "procedures"
+        "nl": "financieleVoordelen"
       },
       "ap-label-nl": {
-        "nl": "procedures"
+        "nl": "financieleVoordelen"
       },
       "ap-definition-nl": {
-        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
       },
       "extra": {
-        "EA-Name": "procedures",
-        "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
+        "EA-Name": "financieleVoordelen",
+        "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
         "derived": "false",
         "EA-Package": "",
         "EA-Type": "connector",
         "EA-Domain": "Concept",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Range": "Procedure",
+        "EA-Range": "FinancieelVoordeel",
         "RangeData": {
-          "EA-Name": "Procedure",
-          "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
+          "EA-Name": "FinancieelVoordeel",
+          "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
           "EA-Package": "IPDC-LPDC",
-          "uri": "http://purl.org/vocab/cpsv#Rule"
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage"
         },
         "sourceRole": "null",
         "destRole": "null",
         "label": {
-          "nl": "procedures"
+          "nl": "financieleVoordelen"
         },
         "definition": {
-          "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+          "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
         },
         "usage": "",
         "ap-label-nl": {
-          "nl": "procedures"
+          "nl": "financieleVoordelen"
         },
         "ap-definition-nl": {
-          "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+          "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
         },
         "ap-usageNote-nl": "",
         "ap-codelist": "",
         "RawTags": [
           {
             "key": "uri",
-            "value": "http://purl.org/vocab/cpsv#follows",
+            "value": "http://purl.org/vocab/cpsv#produces",
             "note": "null"
           },
           {
             "key": "definition-nl",
             "value": "NOTE",
-            "note": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+            "note": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
           },
           {
             "key": "label-nl",
-            "value": "procedures",
+            "value": "financieleVoordelen",
             "note": "null"
           }
         ],
@@ -6820,15 +6732,15 @@
       ],
       "range": [
         {
-          "EA-Name": "Procedure",
-          "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
+          "EA-Name": "FinancieelVoordeel",
+          "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
           "EA-Package": "IPDC-LPDC",
-          "uri": "http://purl.org/vocab/cpsv#Rule"
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage"
         }
       ],
       "generalization": [],
       "minCardinality": "0",
-      "maxCardinality": "1"
+      "maxCardinality": "*"
     },
     {
       "@id": "http://purl.org/vocab/cpsv#follows",
@@ -6919,24 +6831,112 @@
       "maxCardinality": "1"
     },
     {
+      "@id": "http://purl.org/vocab/cpsv#follows",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "procedures",
+      "inpackage": "ACTIVE_PACKAGE",
+      "definition": {
+        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+      },
+      "label": {
+        "nl": "procedures"
+      },
+      "ap-label-nl": {
+        "nl": "procedures"
+      },
+      "ap-definition-nl": {
+        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+      },
+      "extra": {
+        "EA-Name": "procedures",
+        "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "Concept",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Range": "Procedure",
+        "RangeData": {
+          "EA-Name": "Procedure",
+          "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://purl.org/vocab/cpsv#Rule"
+        },
+        "sourceRole": "null",
+        "destRole": "null",
+        "label": {
+          "nl": "procedures"
+        },
+        "definition": {
+          "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+        },
+        "usage": "",
+        "ap-label-nl": {
+          "nl": "procedures"
+        },
+        "ap-definition-nl": {
+          "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+        },
+        "ap-usageNote-nl": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "uri",
+            "value": "http://purl.org/vocab/cpsv#follows",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "NOTE",
+            "note": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+          },
+          {
+            "key": "label-nl",
+            "value": "procedures",
+            "note": "null"
+          }
+        ],
+        "DestRoleTags": [],
+        "Scope": "TRANSLATIONS_ONLY"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
+          "EA-Name": "Concept"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Procedure",
+          "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://purl.org/vocab/cpsv#Rule"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "1"
+    },
+    {
       "@id": "http://purl.org/pav/createdBy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "createdby",
+      "name": "beheerder",
       "inpackage": "UNKNOWN",
       "definition": {
         "nl": "Link naar de organisatie die de instantie aanmaakte"
       },
       "label": {
-        "nl": "createdBy"
+        "nl": "beheerder"
       },
       "ap-label-nl": {
-        "nl": "createdBy"
+        "nl": "beheerder"
       },
       "ap-definition-nl": {
         "nl": "Link naar de organisatie die de instantie aanmaakte"
       },
       "extra": {
-        "EA-Name": "createdBy",
+        "EA-Name": "beheerder",
         "EA-Guid": "{CB80FF60-F68B-43a4-9F8B-701511288CD0}",
         "derived": "false",
         "EA-Package": "",
@@ -6953,14 +6953,14 @@
         "sourceRole": "null",
         "destRole": "null",
         "label": {
-          "nl": "createdBy"
+          "nl": "beheerder"
         },
         "definition": {
           "nl": "Link naar de organisatie die de instantie aanmaakte"
         },
         "usage": "",
         "ap-label-nl": {
-          "nl": "createdBy"
+          "nl": "beheerder"
         },
         "ap-definition-nl": {
           "nl": "Link naar de organisatie die de instantie aanmaakte"
@@ -6970,7 +6970,7 @@
         "RawTags": [
           {
             "key": "label-nl",
-            "value": "createdBy",
+            "value": "beheerder",
             "note": "null"
           },
           {
@@ -9761,94 +9761,6 @@
       },
       "extra": {
         "EA-Name": "kosten",
-        "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "Concept",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Range": "Kost",
-        "RangeData": {
-          "EA-Name": "Kost",
-          "EA-GUID": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/m8g/Cost"
-        },
-        "sourceRole": "null",
-        "destRole": "null",
-        "label": {
-          "nl": "kosten"
-        },
-        "definition": {
-          "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
-        },
-        "usage": "",
-        "ap-label-nl": {
-          "nl": "kosten"
-        },
-        "ap-definition-nl": {
-          "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
-        },
-        "ap-usageNote-nl": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "http://data.europa.eu/m8g/hasCost",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "NOTE",
-            "note": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
-          },
-          {
-            "key": "label-nl",
-            "value": "kosten",
-            "note": "null"
-          }
-        ],
-        "DestRoleTags": [],
-        "Scope": "TRANSLATIONS_ONLY"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
-          "EA-Name": "Concept"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Kost",
-          "EA-GUID": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/m8g/Cost"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://data.europa.eu/m8g/hasCost",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "kosten",
-      "inpackage": "ACTIVE_PACKAGE",
-      "definition": {
-        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
-      },
-      "label": {
-        "nl": "kosten"
-      },
-      "ap-label-nl": {
-        "nl": "kosten"
-      },
-      "ap-definition-nl": {
-        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
-      },
-      "extra": {
-        "EA-Name": "kosten",
         "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
         "derived": "false",
         "EA-Package": "",
@@ -9904,6 +9816,94 @@
         {
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
           "EA-Name": "Instantie"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Kost",
+          "EA-GUID": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://data.europa.eu/m8g/Cost"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/hasCost",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "kosten",
+      "inpackage": "ACTIVE_PACKAGE",
+      "definition": {
+        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
+      },
+      "label": {
+        "nl": "kosten"
+      },
+      "ap-label-nl": {
+        "nl": "kosten"
+      },
+      "ap-definition-nl": {
+        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
+      },
+      "extra": {
+        "EA-Name": "kosten",
+        "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "Concept",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Range": "Kost",
+        "RangeData": {
+          "EA-Name": "Kost",
+          "EA-GUID": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://data.europa.eu/m8g/Cost"
+        },
+        "sourceRole": "null",
+        "destRole": "null",
+        "label": {
+          "nl": "kosten"
+        },
+        "definition": {
+          "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
+        },
+        "usage": "",
+        "ap-label-nl": {
+          "nl": "kosten"
+        },
+        "ap-definition-nl": {
+          "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
+        },
+        "ap-usageNote-nl": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "uri",
+            "value": "http://data.europa.eu/m8g/hasCost",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "NOTE",
+            "note": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
+          },
+          {
+            "key": "label-nl",
+            "value": "kosten",
+            "note": "null"
+          }
+        ],
+        "DestRoleTags": [],
+        "Scope": "TRANSLATIONS_ONLY"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
+          "EA-Name": "Concept"
         }
       ],
       "range": [
@@ -10200,15 +10200,15 @@
   "config": "config/config-ap.json",
   "branchtag": "ontwerp-2024-03-22",
   "disabled": false,
-  "dummy": "014",
+  "dummy": "015",
   "filename": "config/ipdc-lpdc-im.json",
   "navigation": {
     "prev": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-08"
   },
   "repository": "https://github.com/Informatievlaanderen/ipdc-lpdc",
   "urlref": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22",
-  "documentcommit": "00c121a1003901b0cbce8e61c20c5f2a3ee905c0",
-  "toolchaincommit": "d060fbd1fc6aa9d830f9822cc451f35cf35c75b8",
+  "documentcommit": "9fb70519afdf8a001b8bcfda23a47236c180889d",
+  "toolchaincommit": "9102fcc82d1606b8a1de8cf82ae8d1897b2e76c5",
   "hostname": "https://productencatalogus.data.test-vlaanderen.be/",
   "translation": [
     {

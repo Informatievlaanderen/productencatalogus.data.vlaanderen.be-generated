@@ -1068,6 +1068,30 @@
       "sh:closed": false,
       "sh:property": [
         {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/0e1cde9644409126370819fab3be5b3dbbacc60e",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Instantie.beheerder",
+          "sh:description": {
+            "nl": "Link naar de organisatie die de instantie aanmaakte"
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "beheerder"
+          },
+          "sh:path": "http://purl.org/pav/createdBy"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/1a30482b3e53ec3424e45bfaee16aa218fe34532",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Instantie.beheerder",
+          "sh:class": "http://data.europa.eu/m8g/PublicOrganisation",
+          "sh:description": {
+            "nl": "Link naar de organisatie die de instantie aanmaakte"
+          },
+          "sh:name": {
+            "nl": "beheerder"
+          },
+          "sh:path": "http://purl.org/pav/createdBy"
+        },
+        {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/0e9a7d4dbf6ec19568d474169ad717f71e882319",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Instantie.beschrijving",
           "sh:class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -1174,30 +1198,6 @@
             "nl": "contactgegevens"
           },
           "sh:path": "http://data.europa.eu/m8g/hasContactPoint"
-        },
-        {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/016f4b6004e008d8b8ef78553be855735503cbd7",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Instantie.createdBy",
-          "sh:description": {
-            "nl": "Link naar de organisatie die de instantie aanmaakte"
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "nl": "createdBy"
-          },
-          "sh:path": "http://purl.org/pav/createdBy"
-        },
-        {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/a39c1d0f1762122e5a8a63bd92b469123c76709d",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#Instantie.createdBy",
-          "sh:class": "http://data.europa.eu/m8g/PublicOrganisation",
-          "sh:description": {
-            "nl": "Link naar de organisatie die de instantie aanmaakte"
-          },
-          "sh:name": {
-            "nl": "createdBy"
-          },
-          "sh:path": "http://purl.org/pav/createdBy"
         },
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22#InstantieShape/56c4c5068a5d64ab65fcc947da31dc377ada8cac",

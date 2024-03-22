@@ -15,8 +15,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/00c121a1003901b0cbce8e61c20c5f2a3ee905c0",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/00c121a1003901b0cbce8e61c20c5f2a3ee905c0/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/9fb70519afdf8a001b8bcfda23a47236c180889d",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/9fb70519afdf8a001b8bcfda23a47236c180889d/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -2393,10 +2393,10 @@
         },
         {
           "uri": "http://purl.org/pav/createdBy",
-          "name": "createdby",
-          "sort": "createdBy",
+          "name": "beheerder",
+          "sort": "beheerder",
           "label": {
-            "nl": "createdBy"
+            "nl": "beheerder"
           },
           "description": {
             "nl": "Link naar de organisatie die de instantie aanmaakte"
@@ -2426,7 +2426,7 @@
           "cardinality": "0..1",
           "codelist_uri": "",
           "rawTags": {
-            "label-nl": "createdBy",
+            "label-nl": "beheerder",
             "uri": "http://purl.org/pav/createdBy",
             "definition-nl": "Link naar de organisatie die de instantie aanmaakte"
           }

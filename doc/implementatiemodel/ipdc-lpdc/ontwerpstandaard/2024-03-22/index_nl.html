@@ -243,8 +243,8 @@
 
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/00c121a1003901b0cbce8e61c20c5f2a3ee905c0">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/00c121a1003901b0cbce8e61c20c5f2a3ee905c0</a></dd>
-              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/00c121a1003901b0cbce8e61c20c5f2a3ee905c0/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/00c121a1003901b0cbce8e61c20c5f2a3ee905c0/CHANGELOG</a></dd>
+              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/9fb70519afdf8a001b8bcfda23a47236c180889d">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/9fb70519afdf8a001b8bcfda23a47236c180889d</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/9fb70519afdf8a001b8bcfda23a47236c180889d/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/9fb70519afdf8a001b8bcfda23a47236c180889d/CHANGELOG</a></dd>
               <dt>Opmerkingen en feedback</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/issues">https://github.com/Informatievlaanderen/ipdc-lpdc/issues</a></dd>
               <dt>Standaardenregister</dt><dd><a href="https://data.vlaanderen.be/standaarden">https://data.vlaanderen.be/standaarden</a></dd>
 
@@ -1633,11 +1633,11 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                     <dt>Eigenschappen</dt>
 		     
                     <dd>Voor deze entiteit zijn de volgende eigenschappen gedefinieerd:
+                      <a href="#Instantie%3Abeheerder">beheerder</a>, 
                       <a href="#Instantie%3Abeschrijving">beschrijving</a>, 
                       <a href="#Instantie%3Abevoegdbestuursniveaus">bevoegdBestuursniveaus</a>, 
                       <a href="#Instantie%3Abevoegdeoverheden">bevoegdeOverheden</a>, 
                       <a href="#Instantie%3Acontactgegevens">contactgegevens</a>, 
-                      <a href="#Instantie%3Acreatedby">createdBy</a>, 
                       <a href="#Instantie%3Acreatie">creatie</a>, 
                       <a href="#Instantie%3Adoelgroepen">doelgroepen</a>, 
                       <a href="#Instantie%3Aeindedienstverlening">eindeDienstVerlening</a>, 
@@ -1684,6 +1684,26 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                     </thead>
 
                     <tbody class="supertype">
+                    
+                      <tr id="Instantie%3Abeheerder" typeof="rdfs:Property" resource="http://purl.org/pav/createdBy">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/pav/createdBy" data-toggle="tooltip" data-content="http://purl.org/pav/createdBy" data-placement="right">
+                            beheerder</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#PubliekeOrganisatie" data-placement="right">PubliekeOrganisatie</a>
+			    
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Link naar de organisatie die de instantie aanmaakte</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
                     
                       <tr id="Instantie%3Abeschrijving" typeof="rdfs:Property" resource="http://purl.org/dc/terms/description">
                         <td>
@@ -1761,26 +1781,6 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         </td>
                         <td>0..*</td>
                         <td property="rdfs:comment">A contact point for the service is almost always helpful. The value of this property, the contact information itself, should be provided using schema:ContactPoint. Note that the contact information should be relevant to the Public Service which may not be the same as contact information for the Competent Authority or any Participant.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Instantie%3Acreatedby" typeof="rdfs:Property" resource="http://purl.org/pav/createdBy">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="http://purl.org/pav/createdBy" data-toggle="tooltip" data-content="http://purl.org/pav/createdBy" data-placement="right">
-                            createdBy</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			    
-			    <a href="#PubliekeOrganisatie" data-placement="right">PubliekeOrganisatie</a>
-			    
-                          
-                        </td>
-                        <td>0..1</td>
-                        <td property="rdfs:comment">Link naar de organisatie die de instantie aanmaakte</td>
                         <td property="vann:usageNote"></td>
                         <td></td>
                       </tr>
