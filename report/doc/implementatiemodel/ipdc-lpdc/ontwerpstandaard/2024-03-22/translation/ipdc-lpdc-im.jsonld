@@ -6585,94 +6585,6 @@
       },
       "extra": {
         "EA-Name": "financieleVoordelen",
-        "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "Instantie",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Range": "FinancieelVoordeel",
-        "RangeData": {
-          "EA-Name": "FinancieelVoordeel",
-          "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage"
-        },
-        "sourceRole": "null",
-        "destRole": "null",
-        "label": {
-          "nl": "financieleVoordelen"
-        },
-        "definition": {
-          "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-        },
-        "usage": "",
-        "ap-label-nl": {
-          "nl": "financieleVoordelen"
-        },
-        "ap-definition-nl": {
-          "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-        },
-        "ap-usageNote-nl": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "http://purl.org/vocab/cpsv#produces",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "NOTE",
-            "note": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-          },
-          {
-            "key": "label-nl",
-            "value": "financieleVoordelen",
-            "note": "null"
-          }
-        ],
-        "DestRoleTags": [],
-        "Scope": "TRANSLATIONS_ONLY"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
-          "EA-Name": "Instantie"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "FinancieelVoordeel",
-          "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://purl.org/vocab/cpsv#produces",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "financielevoordelen",
-      "inpackage": "ACTIVE_PACKAGE",
-      "definition": {
-        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-      },
-      "label": {
-        "nl": "financieleVoordelen"
-      },
-      "ap-label-nl": {
-        "nl": "financieleVoordelen"
-      },
-      "ap-definition-nl": {
-        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-      },
-      "extra": {
-        "EA-Name": "financieleVoordelen",
         "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
         "derived": "false",
         "EA-Package": "",
@@ -6728,6 +6640,94 @@
         {
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
           "EA-Name": "Concept"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "FinancieelVoordeel",
+          "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "http://purl.org/vocab/cpsv#produces",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "financielevoordelen",
+      "inpackage": "ACTIVE_PACKAGE",
+      "definition": {
+        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+      },
+      "label": {
+        "nl": "financieleVoordelen"
+      },
+      "ap-label-nl": {
+        "nl": "financieleVoordelen"
+      },
+      "ap-definition-nl": {
+        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+      },
+      "extra": {
+        "EA-Name": "financieleVoordelen",
+        "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "Instantie",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Range": "FinancieelVoordeel",
+        "RangeData": {
+          "EA-Name": "FinancieelVoordeel",
+          "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage"
+        },
+        "sourceRole": "null",
+        "destRole": "null",
+        "label": {
+          "nl": "financieleVoordelen"
+        },
+        "definition": {
+          "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+        },
+        "usage": "",
+        "ap-label-nl": {
+          "nl": "financieleVoordelen"
+        },
+        "ap-definition-nl": {
+          "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+        },
+        "ap-usageNote-nl": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "uri",
+            "value": "http://purl.org/vocab/cpsv#produces",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "NOTE",
+            "note": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+          },
+          {
+            "key": "label-nl",
+            "value": "financieleVoordelen",
+            "note": "null"
+          }
+        ],
+        "DestRoleTags": [],
+        "Scope": "TRANSLATIONS_ONLY"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
+          "EA-Name": "Instantie"
         }
       ],
       "range": [
@@ -10200,7 +10200,7 @@
   "config": "config/config-ap.json",
   "branchtag": "ontwerp-2024-03-22",
   "disabled": false,
-  "dummy": "015",
+  "dummy": "016",
   "filename": "config/ipdc-lpdc-im.json",
   "navigation": {
     "prev": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-08"
@@ -10208,7 +10208,7 @@
   "repository": "https://github.com/Informatievlaanderen/ipdc-lpdc",
   "urlref": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22",
   "documentcommit": "9fb70519afdf8a001b8bcfda23a47236c180889d",
-  "toolchaincommit": "9102fcc82d1606b8a1de8cf82ae8d1897b2e76c5",
+  "toolchaincommit": "447feacbb08261264d6a1beb48240826714e9c8b",
   "hostname": "https://productencatalogus.data.test-vlaanderen.be/",
   "translation": [
     {
