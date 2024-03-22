@@ -1222,6 +1222,34 @@
     },
     {
       "name": {
+        "nl": "websites"
+      },
+      "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "websites"
+      },
+      "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "voorwaarden"
+      },
+      "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "voorwaarden"
+      },
+      "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
         "nl": "voorwaarden"
       },
       "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
@@ -1432,6 +1460,34 @@
     },
     {
       "name": {
+        "nl": "financieleVoordelen"
+      },
+      "@id": "http://purl.org/vocab/cpsv#produces",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "financieleVoordelen"
+      },
+      "@id": "http://purl.org/vocab/cpsv#produces",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "procedures"
+      },
+      "@id": "http://purl.org/vocab/cpsv#follows",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "procedures"
+      },
+      "@id": "http://purl.org/vocab/cpsv#follows",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
         "nl": "procedures"
       },
       "@id": "http://purl.org/vocab/cpsv#follows",
@@ -1561,6 +1617,13 @@
         "nl": "geografischToepassingsgebieden"
       },
       "@id": "http://purl.org/dc/terms/spatial",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "linkedConcept"
+      },
+      "@id": "http://purl.org/dc/terms/source",
       "@type": "rdf:Property"
     },
     {
@@ -1726,6 +1789,20 @@
     },
     {
       "name": {
+        "nl": "regelgeving"
+      },
+      "@id": "http://data.europa.eu/m8g/hasLegalResource",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "regelgeving"
+      },
+      "@id": "http://data.europa.eu/m8g/hasLegalResource",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
         "nl": "kosten"
       },
       "@id": "http://data.europa.eu/m8g/hasCost",
@@ -1736,6 +1813,27 @@
         "nl": "kosten"
       },
       "@id": "http://data.europa.eu/m8g/hasCost",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "kosten"
+      },
+      "@id": "http://data.europa.eu/m8g/hasCost",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "kosten"
+      },
+      "@id": "http://data.europa.eu/m8g/hasCost",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "contactgegevens"
+      },
+      "@id": "http://data.europa.eu/m8g/hasContactPoint",
       "@type": "rdf:Property"
     },
     {

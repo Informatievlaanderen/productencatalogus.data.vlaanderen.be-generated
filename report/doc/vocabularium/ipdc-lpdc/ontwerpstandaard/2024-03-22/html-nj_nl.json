@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/6ffec4f216c98979abb900b99b31c44611db0dc3",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/6ffec4f216c98979abb900b99b31c44611db0dc3/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/f03548e17946614b765181747212506b5d7e33cb",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/f03548e17946614b765181747212506b5d7e33cb/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -1460,6 +1460,70 @@
       "show": true
     },
     {
+      "uri": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "name": "websites",
+      "label": {
+        "nl": "websites"
+      },
+      "description": {
+        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
+      },
+      "usage": {},
+      "sort": "websites",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "name": "websites",
+      "label": {
+        "nl": "websites"
+      },
+      "description": {
+        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
+      },
+      "usage": {},
+      "sort": "websites",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
+      "name": "voorwaarden",
+      "label": {
+        "nl": "voorwaarden"
+      },
+      "description": {
+        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+      },
+      "usage": {},
+      "sort": "voorwaarden",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
+      "name": "voorwaarden",
+      "label": {
+        "nl": "voorwaarden"
+      },
+      "description": {
+        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+      },
+      "usage": {},
+      "sort": "voorwaarden",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
       "uri": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
       "name": "voorwaarden",
       "label": {
@@ -1974,6 +2038,70 @@
       "show": true
     },
     {
+      "uri": "http://purl.org/vocab/cpsv#produces",
+      "name": "financielevoordelen",
+      "label": {
+        "nl": "financieleVoordelen"
+      },
+      "description": {
+        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+      },
+      "usage": {},
+      "sort": "financieleVoordelen",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://purl.org/vocab/cpsv#produces",
+      "name": "financielevoordelen",
+      "label": {
+        "nl": "financieleVoordelen"
+      },
+      "description": {
+        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+      },
+      "usage": {},
+      "sort": "financieleVoordelen",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://purl.org/vocab/cpsv#follows",
+      "name": "procedures",
+      "label": {
+        "nl": "procedures"
+      },
+      "description": {
+        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+      },
+      "usage": {},
+      "sort": "procedures",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://purl.org/vocab/cpsv#follows",
+      "name": "procedures",
+      "label": {
+        "nl": "procedures"
+      },
+      "description": {
+        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+      },
+      "usage": {},
+      "sort": "procedures",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
       "uri": "http://purl.org/vocab/cpsv#follows",
       "name": "procedures",
       "label": {
@@ -2284,6 +2412,22 @@
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Dit zijn alle NUTS en LAU codes die binnen het Vlaams Gewest en Brussels Hoofdstedelijk Gewest vallen en het Federaal niveau voorstellen."
       },
       "sort": "geografischToepassingsgebieden",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://purl.org/dc/terms/source",
+      "name": "linkedconcept",
+      "label": {
+        "nl": "linkedConcept"
+      },
+      "description": {
+        "nl": "Het concept op basis van welk deze instantie aangemaakt werd. De teksten van het concept werden gebruikt als sjabloonteksten gebruikt bij het aanmaken van de instantie. Instanties die werden aangemaakt op basis van hetzelfde concept worden via deze relatie gegroepeerd bij het gemeenschappelijke concept."
+      },
+      "usage": {},
+      "sort": "linkedConcept",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -2692,6 +2836,38 @@
       "show": true
     },
     {
+      "uri": "http://data.europa.eu/m8g/hasLegalResource",
+      "name": "regelgeving",
+      "label": {
+        "nl": "regelgeving"
+      },
+      "description": {
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+      },
+      "usage": {},
+      "sort": "regelgeving",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://data.europa.eu/m8g/hasLegalResource",
+      "name": "regelgeving",
+      "label": {
+        "nl": "regelgeving"
+      },
+      "description": {
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+      },
+      "usage": {},
+      "sort": "regelgeving",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
       "uri": "http://data.europa.eu/m8g/hasCost",
       "name": "kosten",
       "label": {
@@ -2718,6 +2894,54 @@
       },
       "usage": {},
       "sort": "kosten",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://data.europa.eu/m8g/hasCost",
+      "name": "kosten",
+      "label": {
+        "nl": "kosten"
+      },
+      "description": {
+        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
+      },
+      "usage": {},
+      "sort": "kosten",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://data.europa.eu/m8g/hasCost",
+      "name": "kosten",
+      "label": {
+        "nl": "kosten"
+      },
+      "description": {
+        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
+      },
+      "usage": {},
+      "sort": "kosten",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://data.europa.eu/m8g/hasContactPoint",
+      "name": "contactgegevens",
+      "label": {
+        "nl": "contactgegevens"
+      },
+      "description": {
+        "nl": "A contact point for the service is almost always helpful. The value of this property, the contact information itself, should be provided using schema:ContactPoint. Note that the contact information should be relevant to the Public Service which may not be the same as contact information for the Competent Authority or any Participant."
+      },
+      "usage": {},
+      "sort": "contactgegevens",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
