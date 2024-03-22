@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/9fb70519afdf8a001b8bcfda23a47236c180889d",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/9fb70519afdf8a001b8bcfda23a47236c180889d/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/3c58acd392321f987f2fdafa3177db05633fac41",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/3c58acd392321f987f2fdafa3177db05633fac41/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -147,6 +147,48 @@
       "parents": []
     },
     {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory",
+      "name": "youreuropecategorieen",
+      "label": {
+        "nl": "yourEuropeCategorieen"
+      },
+      "sort": "yourEuropeCategorieen",
+      "description": {
+        "nl": "YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst."
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory",
+      "name": "youreuropecategorieen",
+      "label": {
+        "nl": "yourEuropeCategorieen"
+      },
+      "sort": "yourEuropeCategorieen",
+      "description": {
+        "nl": "YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst."
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience",
       "name": "doelgroepen",
       "label": {
@@ -182,6 +224,48 @@
       },
       "domain": [
         "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience",
+      "name": "doelgroepen",
+      "label": {
+        "nl": "doelgroepen"
+      },
+      "sort": "doelgroepen",
+      "description": {
+        "nl": "Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team."
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience",
+      "name": "doelgroepen",
+      "label": {
+        "nl": "doelgroepen"
+      },
+      "sort": "doelgroepen",
+      "description": {
+        "nl": "Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team."
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
       ],
       "range": [
         "http://www.w3.org/2004/02/skos/core#Concept"
@@ -231,6 +315,48 @@
       "parents": []
     },
     {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation",
+      "name": "regelgevingtekst",
+      "label": {
+        "nl": "regelgevingTekst"
+      },
+      "sort": "regelgevingTekst",
+      "description": {
+        "nl": "Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden."
+      },
+      "usage": {
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation",
+      "name": "regelgevingtekst",
+      "label": {
+        "nl": "regelgevingTekst"
+      },
+      "sort": "regelgevingTekst",
+      "description": {
+        "nl": "Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden."
+      },
+      "usage": {
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.\r\nGebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "parents": []
+    },
+    {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium",
       "name": "publicatiekanalen",
       "label": {
@@ -266,6 +392,48 @@
       },
       "domain": [
         "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium",
+      "name": "publicatiekanalen",
+      "label": {
+        "nl": "publicatiekanalen"
+      },
+      "sort": "publicatiekanalen",
+      "description": {
+        "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium",
+      "name": "publicatiekanalen",
+      "label": {
+        "nl": "publicatiekanalen"
+      },
+      "sort": "publicatiekanalen",
+      "description": {
+        "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
       ],
       "range": [
         "http://www.w3.org/2004/02/skos/core#Concept"
@@ -311,6 +479,44 @@
       "parents": []
     },
     {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
+      "name": "gearchiveerd",
+      "label": {
+        "nl": "gearchiveerd"
+      },
+      "sort": "gearchiveerd",
+      "description": {
+        "nl": "Waarde die aangeeft of het concept gearchiveerd is."
+      },
+      "usage": {},
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
+      ],
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#boolean"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
+      "name": "gearchiveerd",
+      "label": {
+        "nl": "gearchiveerd"
+      },
+      "sort": "gearchiveerd",
+      "description": {
+        "nl": "Waarde die aangeeft of de instantie gearchiveerd is."
+      },
+      "usage": {},
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
+      ],
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#boolean"
+      ],
+      "parents": []
+    },
+    {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag",
       "name": "tags",
       "label": {
@@ -325,6 +531,27 @@
       },
       "domain": [
         "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag",
+      "name": "tags",
+      "label": {
+        "nl": "tags"
+      },
+      "sort": "tags",
+      "description": {
+        "nl": "Instantie tag voor een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Momenteel zijn er geen geldige waardes."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
       ],
       "range": [
         "http://www.w3.org/2004/02/skos/core#Concept"
@@ -367,6 +594,48 @@
       },
       "domain": [
         "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
+      "name": "uitvoerendbestuursniveaus",
+      "label": {
+        "nl": "uitvoerendBestuursniveaus"
+      },
+      "sort": "uitvoerendBestuursniveaus",
+      "description": {
+        "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
+      "name": "uitvoerendbestuursniveaus",
+      "label": {
+        "nl": "uitvoerendBestuursniveaus"
+      },
+      "sort": "uitvoerendBestuursniveaus",
+      "description": {
+        "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
       ],
       "range": [
         "http://www.w3.org/2004/02/skos/core#Concept"
@@ -416,6 +685,48 @@
       "parents": []
     },
     {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
+      "name": "uitzonderingen",
+      "label": {
+        "nl": "uitzonderingen"
+      },
+      "sort": "uitzonderingen",
+      "description": {
+        "nl": "Tekstveld waarin uitzonderingen op procedures, kostprijzen, ... kunnen aangegeven worden"
+      },
+      "usage": {
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
+      "name": "uitzonderingen",
+      "label": {
+        "nl": "uitzonderingen"
+      },
+      "sort": "uitzonderingen",
+      "description": {
+        "nl": "Tekstveld waarin uitzondering op procedures, kostprijzen, ... kunnen aangegeven worden"
+      },
+      "usage": {
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "parents": []
+    },
+    {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#conceptTag",
       "name": "tags",
       "label": {
@@ -430,6 +741,27 @@
       },
       "domain": [
         "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#conceptTag",
+      "name": "tags",
+      "label": {
+        "nl": "tags"
+      },
+      "sort": "tags",
+      "description": {
+        "nl": "Concept tag voor een publieke dienst concept. Deze codelijst is in het beheer van het IPDC - LPDC team."
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
       ],
       "range": [
         "http://www.w3.org/2004/02/skos/core#Concept"
@@ -472,6 +804,48 @@
       },
       "domain": [
         "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel",
+      "name": "bevoegdbestuursniveaus",
+      "label": {
+        "nl": "bevoegdBestuursniveaus"
+      },
+      "sort": "bevoegdBestuursniveaus",
+      "description": {
+        "nl": "Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel",
+      "name": "bevoegdbestuursniveaus",
+      "label": {
+        "nl": "bevoegdBestuursniveaus"
+      },
+      "sort": "bevoegdBestuursniveaus",
+      "description": {
+        "nl": "Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
       ],
       "range": [
         "http://www.w3.org/2004/02/skos/core#Concept"
@@ -533,6 +907,48 @@
       },
       "domain": [
         "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription",
+      "name": "verderebeschrijving",
+      "label": {
+        "nl": "verdereBeschrijving"
+      },
+      "sort": "verdereBeschrijving",
+      "description": {
+        "nl": "This property represents free text for additional information regarding the description of the Public Service."
+      },
+      "usage": {
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription",
+      "name": "verderebeschrijving",
+      "label": {
+        "nl": "verdereBeschrijving"
+      },
+      "sort": "verdereBeschrijving",
+      "description": {
+        "nl": "This property represents free text for additional information regarding the description of the Public Service."
+      },
+      "usage": {
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
       ],
       "range": [
         "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
@@ -976,6 +1392,42 @@
       "show": true
     },
     {
+      "uri": "http://www.w3.org/ns/dcat#keyword",
+      "name": "zoektermen",
+      "label": {
+        "nl": "zoektermen"
+      },
+      "description": {
+        "nl": "This property represents a keyword, term or phrase to describe the Public Service."
+      },
+      "usage": {
+        "nl": "Er mogen meerdere termen per taal zijn. Dit in tegenstelling tot alle andere velden van het type TaalString."
+      },
+      "sort": "zoektermen",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://www.w3.org/ns/dcat#keyword",
+      "name": "zoektermen",
+      "label": {
+        "nl": "zoektermen"
+      },
+      "description": {
+        "nl": "This property represents a keyword, term or phrase to describe the Public Service."
+      },
+      "usage": {
+        "nl": "Er mogen meerdere termen per taal zijn. Dit in tegenstelling tot alle andere velden van het type TaalString."
+      },
+      "sort": "zoektermen",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
       "uri": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
       "name": "websites",
       "label": {
@@ -1146,6 +1598,78 @@
       "show": true
     },
     {
+      "uri": "http://schema.org/startDate",
+      "name": "startdienstverlening",
+      "label": {
+        "nl": "startDienstVerlening"
+      },
+      "description": {
+        "nl": "Datum waarop de publieke dienstverlening actief aangeboden werd/wordt"
+      },
+      "usage": {
+        "nl": "Een lege startdatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als een startdatum heel ver in het verleden."
+      },
+      "sort": "startDienstVerlening",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/startDate",
+      "name": "startdienstverlening",
+      "label": {
+        "nl": "startDienstVerlening"
+      },
+      "description": {
+        "nl": "Datum waarop de publieke dienstverlening actief aangeboden werd/wordt"
+      },
+      "usage": {
+        "nl": "Een lege startdatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als een startdatum heel ver in het verleden."
+      },
+      "sort": "startDienstVerlening",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/productID",
+      "name": "productnummer",
+      "label": {
+        "nl": "productnummer"
+      },
+      "description": {
+        "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
+      },
+      "usage": {
+        "nl": "Bij het aanmaken van een nieuw concept kan geen productnummer doorgegeven worden aan IPDC of LPDC. De productnummers worden beheerd door IPDC en bij creatie van een nieuw concept zal een uniek productnummer toegekend worden in IPDC. Hierdoor zal bij het uitlezen van IPDC steeds een productnummer beschikbaar zijn op elk concept."
+      },
+      "sort": "productnummer",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/productID",
+      "name": "productnummer",
+      "label": {
+        "nl": "productnummer"
+      },
+      "description": {
+        "nl": "Identificatienummer om op een unieke manier een instantie of concept te identificeren."
+      },
+      "usage": {
+        "nl": "Bij het aanmaken van een nieuwe instantie kan geen productnummer doorgegeven worden aan IPDC of LPDC. De productnummers worden beheerd door IPDC en bij creatie van een nieuwe instantie zal een uniek productnummer toegekend worden in IPDC. Hierdoor zal bij het uitlezen van IPDC steeds een productnummer beschikbaar zijn op elke instantie."
+      },
+      "sort": "productnummer",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
       "uri": "http://schema.org/productID",
       "name": "productnummer",
       "label": {
@@ -1236,6 +1760,42 @@
       "show": true
     },
     {
+      "uri": "http://schema.org/endDate",
+      "name": "eindedienstverlening",
+      "label": {
+        "nl": "eindeDienstVerlening"
+      },
+      "description": {
+        "nl": "Datum waarop de publieke dienstverlening stopgezet werd/wordt"
+      },
+      "usage": {
+        "nl": "Een lege einddatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als geen einddatum."
+      },
+      "sort": "eindeDienstVerlening",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/endDate",
+      "name": "eindedienstverlening",
+      "label": {
+        "nl": "eindeDienstVerlening"
+      },
+      "description": {
+        "nl": "Datum waarop de publieke dienstverlening stopgezet werd/wordt"
+      },
+      "usage": {
+        "nl": "Een lege einddatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als geen einddatum."
+      },
+      "sort": "eindeDienstVerlening",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
       "uri": "http://schema.org/email",
       "name": "email",
       "label": {
@@ -1280,6 +1840,70 @@
       },
       "usage": {},
       "sort": "laatstGewijzigd",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/dateModified",
+      "name": "laatstgewijzigd",
+      "label": {
+        "nl": "laatstGewijzigd"
+      },
+      "description": {
+        "nl": "Tijdstip waarop het concept door een redacteur laatst werd gewijzigd."
+      },
+      "usage": {},
+      "sort": "laatstGewijzigd",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/dateModified",
+      "name": "laatstgewijzigd",
+      "label": {
+        "nl": "laatstGewijzigd"
+      },
+      "description": {
+        "nl": "Tijdstip waarop de instantie door een redacteur laatst werd gewijzigd."
+      },
+      "usage": {},
+      "sort": "laatstGewijzigd",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/dateCreated",
+      "name": "creatie",
+      "label": {
+        "nl": "creatie"
+      },
+      "description": {
+        "nl": "Tijdstip waarop het concept door een redacteur werd aangemaakt."
+      },
+      "usage": {},
+      "sort": "creatie",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/dateCreated",
+      "name": "creatie",
+      "label": {
+        "nl": "creatie"
+      },
+      "description": {
+        "nl": "Tijdstip waarop de instantie door een redacteur werd aangemaakt."
+      },
+      "usage": {},
+      "sort": "creatie",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1376,6 +2000,42 @@
       },
       "usage": {},
       "sort": "procedures",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://purl.org/dc/terms/type",
+      "name": "type",
+      "label": {
+        "nl": "type"
+      },
+      "description": {
+        "nl": "Type van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+      },
+      "sort": "type",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://purl.org/dc/terms/type",
+      "name": "type",
+      "label": {
+        "nl": "type"
+      },
+      "description": {
+        "nl": "Type van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+      },
+      "sort": "type",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1562,6 +2222,56 @@
       "show": true
     },
     {
+      "uri": "http://purl.org/dc/terms/title",
+      "name": "naam",
+      "label": {
+        "nl": "naam"
+      },
+      "description": {
+        "nl": "This property represents the official Name of the Public Service."
+      },
+      "usage": {},
+      "sort": "naam",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://purl.org/dc/terms/title",
+      "name": "naam",
+      "label": {
+        "nl": "naam"
+      },
+      "description": {
+        "nl": "This property represents the official Name of the Public Service."
+      },
+      "usage": {},
+      "sort": "naam",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://purl.org/dc/terms/spatial",
+      "name": "geografischtoepassingsgebieden",
+      "label": {
+        "nl": "geografischToepassingsgebieden"
+      },
+      "description": {
+        "nl": "Geografisch toepassingsgebied van een pubieke dienst. Het geografisch toepassingsgebied wordt voorgesteld aan de hand van een NUTS of LAU code. NUTS codes zijn hierarisch ingedeeld in 4 niveau's. Op het hoogste niveau, NUTS 0, worden de landen ingedeeld en krijgt belgie de code BE. Eén niveau daaronder, NUTS 1, deelt Belgie verder op in de gewesten. Zo krijgt het Vlaams Gewest code BE2. Elk gewest wordt op zijn beurt op NUTS 2 niveau verder ingedeeld in de provincies. Zo krijgt de provincie Antwerpen bijvoorbeeld code BE21. Elke provincie wordt vervolgens op NUTS 3 niveau nog onderverdeeld in arrondissmenten. Zo krijgt het arrondissment Mechelen code BE212. Een fijnere opdeling in gemeenten kan vervolgens gemaakt worden met de LAU codes. Zo krijgt de gemeente Kontich LAU code 11024. Meer informatie over deze opdeling is hier terug te vinden: https://ec.europa.eu/eurostat/web/nuts. Zowel de NUTS als LAU codes worden beheerd door Eurostat. We volgen momenteel de NUTS 2021 classificatie en de laatst gevalideerde LAU 2019 classificatie. De NUTS codelijst wordt door Europa gepubliceerd op https://publications.europa.eu/resource/authority/nuts. Deze gaat echter niet tot op LAU niveau er bestaat ook geen gepubliceerde codelijst voor de LAU codes. Als oplossing maakte het IPDC - LPDC team een uitbreiding op de NUTS codelijst en werd een extra hierarchish niveau onder NUTS 3 toegevoegd om ook de gemeentes met hun LAU code beschikbaar te maken. De code voor een gemeente in deze codelijst is de concatenatie van de omvattende NUTS3 code voor de gemeente en de LAU code. Zo krijgt de gemeente Kontich bijvoorbeeld de code BE21111024."
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Dit zijn alle NUTS en LAU codes die binnen het Vlaams Gewest en Brussels Hoofdstedelijk Gewest vallen en het Federaal niveau voorstellen."
+      },
+      "sort": "geografischToepassingsgebieden",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
       "uri": "http://purl.org/dc/terms/spatial",
       "name": "geografischtoepassingsgebieden",
       "label": {
@@ -1590,6 +2300,24 @@
       },
       "usage": {},
       "sort": "linkedConcept",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://purl.org/dc/terms/language",
+      "name": "talen",
+      "label": {
+        "nl": "talen"
+      },
+      "description": {
+        "nl": "Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union."
+      },
+      "usage": {
+        "nl": "De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG. De language concept URI's maken gebruik van het http protocol."
+      },
+      "sort": "talen",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1802,6 +2530,78 @@
         "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
       },
       "sort": "beschrijving",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://purl.org/dc/terms/description",
+      "name": "beschrijving",
+      "label": {
+        "nl": "beschrijving"
+      },
+      "description": {
+        "nl": "This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information."
+      },
+      "usage": {
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
+      },
+      "sort": "beschrijving",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://purl.org/dc/terms/description",
+      "name": "beschrijving",
+      "label": {
+        "nl": "beschrijving"
+      },
+      "description": {
+        "nl": "This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information."
+      },
+      "usage": {
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
+      },
+      "sort": "beschrijving",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://data.europa.eu/m8g/thematicArea",
+      "name": "themas",
+      "label": {
+        "nl": "themas"
+      },
+      "description": {
+        "nl": "Thema van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+      },
+      "sort": "themas",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://data.europa.eu/m8g/thematicArea",
+      "name": "themas",
+      "label": {
+        "nl": "themas"
+      },
+      "description": {
+        "nl": "Thema van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+      },
+      "sort": "themas",
       "inscope": true,
       "indvl": false,
       "inpackage": false,

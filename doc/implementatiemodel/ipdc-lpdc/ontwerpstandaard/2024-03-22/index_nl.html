@@ -243,8 +243,8 @@
 
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/9fb70519afdf8a001b8bcfda23a47236c180889d">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/9fb70519afdf8a001b8bcfda23a47236c180889d</a></dd>
-              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/9fb70519afdf8a001b8bcfda23a47236c180889d/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/9fb70519afdf8a001b8bcfda23a47236c180889d/CHANGELOG</a></dd>
+              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/3c58acd392321f987f2fdafa3177db05633fac41">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/3c58acd392321f987f2fdafa3177db05633fac41</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/3c58acd392321f987f2fdafa3177db05633fac41/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/3c58acd392321f987f2fdafa3177db05633fac41/CHANGELOG</a></dd>
               <dt>Opmerkingen en feedback</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/issues">https://github.com/Informatievlaanderen/ipdc-lpdc/issues</a></dd>
               <dt>Standaardenregister</dt><dd><a href="https://data.vlaanderen.be/standaarden">https://data.vlaanderen.be/standaarden</a></dd>
 
@@ -1287,8 +1287,28 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                     <dt>Eigenschappen</dt>
 		     
                     <dd>Voor deze entiteit zijn de volgende eigenschappen gedefinieerd:
+                      <a href="#Conceptsnapshot%3Abeschrijving">beschrijving</a>, 
+                      <a href="#Conceptsnapshot%3Abevoegdbestuursniveaus">bevoegdBestuursniveaus</a>, 
+                      <a href="#Conceptsnapshot%3Acreatie">creatie</a>, 
+                      <a href="#Conceptsnapshot%3Adoelgroepen">doelgroepen</a>, 
+                      <a href="#Conceptsnapshot%3Aeindedienstverlening">eindeDienstVerlening</a>, 
+                      <a href="#Conceptsnapshot%3Agearchiveerd">gearchiveerd</a>, 
                       <a href="#Conceptsnapshot%3Ageneratedattime">generatedAtTime</a>, 
-                      <a href="#Conceptsnapshot%3Aisversionof">isVersionOf</a>.</dd>
+                      <a href="#Conceptsnapshot%3Aisversionof">isVersionOf</a>, 
+                      <a href="#Conceptsnapshot%3Alaatstgewijzigd">laatstGewijzigd</a>, 
+                      <a href="#Conceptsnapshot%3Anaam">naam</a>, 
+                      <a href="#Conceptsnapshot%3Aproductnummer">productnummer</a>, 
+                      <a href="#Conceptsnapshot%3Apublicatiekanalen">publicatiekanalen</a>, 
+                      <a href="#Conceptsnapshot%3Aregelgevingtekst">regelgevingTekst</a>, 
+                      <a href="#Conceptsnapshot%3Astartdienstverlening">startDienstVerlening</a>, 
+                      <a href="#Conceptsnapshot%3Atags">tags</a>, 
+                      <a href="#Conceptsnapshot%3Athemas">themas</a>, 
+                      <a href="#Conceptsnapshot%3Atype">type</a>, 
+                      <a href="#Conceptsnapshot%3Auitvoerendbestuursniveaus">uitvoerendBestuursniveaus</a>, 
+                      <a href="#Conceptsnapshot%3Auitzonderingen">uitzonderingen</a>, 
+                      <a href="#Conceptsnapshot%3Averderebeschrijving">verdereBeschrijving</a>, 
+                      <a href="#Conceptsnapshot%3Ayoureuropecategorieen">yourEuropeCategorieen</a>, 
+                      <a href="#Conceptsnapshot%3Azoektermen">zoektermen</a>.</dd>
                     
                   </dl>
                 </div>
@@ -1307,6 +1327,126 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                     </thead>
 
                     <tbody class="supertype">
+                    
+                      <tr id="Conceptsnapshot%3Abeschrijving" typeof="rdfs:Property" resource="http://purl.org/dc/terms/description">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/description" data-toggle="tooltip" data-content="http://purl.org/dc/terms/description" data-placement="right">
+                            beschrijving</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
+                            
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment">This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information.</td>
+                        <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Conceptsnapshot%3Abevoegdbestuursniveaus" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel" data-placement="right">
+                            bevoegdBestuursniveaus</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">BevoegdBestuursniveau</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
+                        <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/bevoegd-bestuursniveau.ttl">Link</a></td>
+                      </tr>
+                    
+                      <tr id="Conceptsnapshot%3Acreatie" typeof="rdfs:Property" resource="http://schema.org/dateCreated">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://schema.org/dateCreated" data-toggle="tooltip" data-content="http://schema.org/dateCreated" data-placement="right">
+                            creatie</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#dateTime" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#dateTime" data-placement="right">DateTime</a>
+                            
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment">Tijdstip waarop het concept door een redacteur werd aangemaakt.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Conceptsnapshot%3Adoelgroepen" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience" data-placement="right">
+                            doelgroepen</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Doelgroep</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
+                        <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/doelgroep.ttl">Link</a></td>
+                      </tr>
+                    
+                      <tr id="Conceptsnapshot%3Aeindedienstverlening" typeof="rdfs:Property" resource="http://schema.org/endDate">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://schema.org/endDate" data-toggle="tooltip" data-content="http://schema.org/endDate" data-placement="right">
+                            eindeDienstVerlening</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#dateTime" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#dateTime" data-placement="right">DateTime</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Datum waarop de publieke dienstverlening stopgezet werd/wordt</td>
+                        <td property="vann:usageNote">Een lege einddatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als geen einddatum.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Conceptsnapshot%3Agearchiveerd" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived" data-placement="right">
+                            gearchiveerd</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#boolean" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#boolean" data-placement="right">Boolean</a>
+                            
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment">Waarde die aangeeft of het concept gearchiveerd is.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
                     
                       <tr id="Conceptsnapshot%3Ageneratedattime" typeof="rdfs:Property" resource="http://www.w3.org/ns/prov#generatedAtTime">
                         <td>
@@ -1345,6 +1485,287 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>1</td>
                         <td property="rdfs:comment">Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.</td>
                         <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Conceptsnapshot%3Alaatstgewijzigd" typeof="rdfs:Property" resource="http://schema.org/dateModified">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://schema.org/dateModified" data-toggle="tooltip" data-content="http://schema.org/dateModified" data-placement="right">
+                            laatstGewijzigd</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#dateTime" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#dateTime" data-placement="right">DateTime</a>
+                            
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment">Tijdstip waarop het concept door een redacteur laatst werd gewijzigd.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Conceptsnapshot%3Anaam" typeof="rdfs:Property" resource="http://purl.org/dc/terms/title">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/title" data-toggle="tooltip" data-content="http://purl.org/dc/terms/title" data-placement="right">
+                            naam</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
+                            
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment">This property represents the official Name of the Public Service.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Conceptsnapshot%3Aproductnummer" typeof="rdfs:Property" resource="http://schema.org/productID">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://schema.org/productID" data-toggle="tooltip" data-content="http://schema.org/productID" data-placement="right">
+                            productnummer</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Identificatienummer om op een unieke manier een instantie of concept te identificeren.</td>
+                        <td property="vann:usageNote">Bij het aanmaken van een nieuw concept kan geen productnummer doorgegeven worden aan IPDC of LPDC. De productnummers worden beheerd door IPDC en bij creatie van een nieuw concept zal een uniek productnummer toegekend worden in IPDC. Hierdoor zal bij het uitlezen van IPDC steeds een productnummer beschikbaar zijn op elk concept.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Conceptsnapshot%3Apublicatiekanalen" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium" data-placement="right">
+                            publicatiekanalen</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Publicatiekanaal</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
+                        <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn.</td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/publicatie-kanaal.ttl">Link</a></td>
+                      </tr>
+                    
+                      <tr id="Conceptsnapshot%3Aregelgevingtekst" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation" data-placement="right">
+                            regelgevingTekst</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden.</td>
+                        <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.
+Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Conceptsnapshot%3Astartdienstverlening" typeof="rdfs:Property" resource="http://schema.org/startDate">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://schema.org/startDate" data-toggle="tooltip" data-content="http://schema.org/startDate" data-placement="right">
+                            startDienstVerlening</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#dateTime" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#dateTime" data-placement="right">DateTime</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Datum waarop de publieke dienstverlening actief aangeboden werd/wordt</td>
+                        <td property="vann:usageNote">Een lege startdatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als een startdatum heel ver in het verleden.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Conceptsnapshot%3Atags" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#conceptTag">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#conceptTag" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#conceptTag" data-placement="right">
+                            tags</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">ConceptTag</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">Concept tag voor een publieke dienst concept. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
+                        <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/concept-tag.ttl">Link</a></td>
+                      </tr>
+                    
+                      <tr id="Conceptsnapshot%3Athemas" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/thematicArea">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/thematicArea" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/thematicArea" data-placement="right">
+                            themas</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Thema</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">Thema van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
+                        <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/thema.ttl">Link</a></td>
+                      </tr>
+                    
+                      <tr id="Conceptsnapshot%3Atype" typeof="rdfs:Property" resource="http://purl.org/dc/terms/type">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/type" data-toggle="tooltip" data-content="http://purl.org/dc/terms/type" data-placement="right">
+                            type</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Type</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Type van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
+                        <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/type.ttl">Link</a></td>
+                      </tr>
+                    
+                      <tr id="Conceptsnapshot%3Auitvoerendbestuursniveaus" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel" data-placement="right">
+                            uitvoerendBestuursniveaus</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">UitvoerendBestuursniveau</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
+                        <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/uitvoerend-bestuursniveau.ttl">Link</a></td>
+                      </tr>
+                    
+                      <tr id="Conceptsnapshot%3Auitzonderingen" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception" data-placement="right">
+                            uitzonderingen</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Tekstveld waarin uitzonderingen op procedures, kostprijzen, ... kunnen aangegeven worden</td>
+                        <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Conceptsnapshot%3Averderebeschrijving" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription" data-placement="right">
+                            verdereBeschrijving</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">This property represents free text for additional information regarding the description of the Public Service.</td>
+                        <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Conceptsnapshot%3Ayoureuropecategorieen" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory" data-placement="right">
+                            yourEuropeCategorieen</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">YourEuropeCategorie</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst.</td>
+                        <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/your-europe-categorie.ttl">Link</a></td>
+                      </tr>
+                    
+                      <tr id="Conceptsnapshot%3Azoektermen" typeof="rdfs:Property" resource="http://www.w3.org/ns/dcat#keyword">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://www.w3.org/ns/dcat#keyword" data-toggle="tooltip" data-content="http://www.w3.org/ns/dcat#keyword" data-placement="right">
+                            zoektermen</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">This property represents a keyword, term or phrase to describe the Public Service.</td>
+                        <td property="vann:usageNote">Er mogen meerdere termen per taal zijn. Dit in tegenstelling tot alle andere velden van het type TaalString.</td>
                         <td></td>
                       </tr>
                     
@@ -2364,8 +2785,30 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                     <dt>Eigenschappen</dt>
 		     
                     <dd>Voor deze entiteit zijn de volgende eigenschappen gedefinieerd:
+                      <a href="#Instantiesnapshot%3Abeschrijving">beschrijving</a>, 
+                      <a href="#Instantiesnapshot%3Abevoegdbestuursniveaus">bevoegdBestuursniveaus</a>, 
+                      <a href="#Instantiesnapshot%3Acreatie">creatie</a>, 
+                      <a href="#Instantiesnapshot%3Adoelgroepen">doelgroepen</a>, 
+                      <a href="#Instantiesnapshot%3Aeindedienstverlening">eindeDienstVerlening</a>, 
+                      <a href="#Instantiesnapshot%3Agearchiveerd">gearchiveerd</a>, 
                       <a href="#Instantiesnapshot%3Ageneratedattime">generatedAtTime</a>, 
-                      <a href="#Instantiesnapshot%3Aisversionof">isVersionOf</a>.</dd>
+                      <a href="#Instantiesnapshot%3Ageografischtoepassingsgebieden">geografischToepassingsgebieden</a>, 
+                      <a href="#Instantiesnapshot%3Aisversionof">isVersionOf</a>, 
+                      <a href="#Instantiesnapshot%3Alaatstgewijzigd">laatstGewijzigd</a>, 
+                      <a href="#Instantiesnapshot%3Anaam">naam</a>, 
+                      <a href="#Instantiesnapshot%3Aproductnummer">productnummer</a>, 
+                      <a href="#Instantiesnapshot%3Apublicatiekanalen">publicatiekanalen</a>, 
+                      <a href="#Instantiesnapshot%3Aregelgevingtekst">regelgevingTekst</a>, 
+                      <a href="#Instantiesnapshot%3Astartdienstverlening">startDienstVerlening</a>, 
+                      <a href="#Instantiesnapshot%3Atags">tags</a>, 
+                      <a href="#Instantiesnapshot%3Atalen">talen</a>, 
+                      <a href="#Instantiesnapshot%3Athemas">themas</a>, 
+                      <a href="#Instantiesnapshot%3Atype">type</a>, 
+                      <a href="#Instantiesnapshot%3Auitvoerendbestuursniveaus">uitvoerendBestuursniveaus</a>, 
+                      <a href="#Instantiesnapshot%3Auitzonderingen">uitzonderingen</a>, 
+                      <a href="#Instantiesnapshot%3Averderebeschrijving">verdereBeschrijving</a>, 
+                      <a href="#Instantiesnapshot%3Ayoureuropecategorieen">yourEuropeCategorieen</a>, 
+                      <a href="#Instantiesnapshot%3Azoektermen">zoektermen</a>.</dd>
                     
                   </dl>
                 </div>
@@ -2384,6 +2827,126 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                     </thead>
 
                     <tbody class="supertype">
+                    
+                      <tr id="Instantiesnapshot%3Abeschrijving" typeof="rdfs:Property" resource="http://purl.org/dc/terms/description">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/description" data-toggle="tooltip" data-content="http://purl.org/dc/terms/description" data-placement="right">
+                            beschrijving</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
+                            
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment">This property represents a free text Description of the Public Service. The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public administrations are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information.</td>
+                        <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Instantiesnapshot%3Abevoegdbestuursniveaus" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#competentAuthorityLevel" data-placement="right">
+                            bevoegdBestuursniveaus</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">BevoegdBestuursniveau</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
+                        <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/bevoegd-bestuursniveau.ttl">Link</a></td>
+                      </tr>
+                    
+                      <tr id="Instantiesnapshot%3Acreatie" typeof="rdfs:Property" resource="http://schema.org/dateCreated">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://schema.org/dateCreated" data-toggle="tooltip" data-content="http://schema.org/dateCreated" data-placement="right">
+                            creatie</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#dateTime" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#dateTime" data-placement="right">DateTime</a>
+                            
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment">Tijdstip waarop de instantie door een redacteur werd aangemaakt.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Instantiesnapshot%3Adoelgroepen" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience" data-placement="right">
+                            doelgroepen</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Doelgroep</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
+                        <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/doelgroep.ttl">Link</a></td>
+                      </tr>
+                    
+                      <tr id="Instantiesnapshot%3Aeindedienstverlening" typeof="rdfs:Property" resource="http://schema.org/endDate">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://schema.org/endDate" data-toggle="tooltip" data-content="http://schema.org/endDate" data-placement="right">
+                            eindeDienstVerlening</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#dateTime" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#dateTime" data-placement="right">DateTime</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Datum waarop de publieke dienstverlening stopgezet werd/wordt</td>
+                        <td property="vann:usageNote">Een lege einddatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als geen einddatum.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Instantiesnapshot%3Agearchiveerd" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived" data-placement="right">
+                            gearchiveerd</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#boolean" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#boolean" data-placement="right">Boolean</a>
+                            
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment">Waarde die aangeeft of de instantie gearchiveerd is.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
                     
                       <tr id="Instantiesnapshot%3Ageneratedattime" typeof="rdfs:Property" resource="http://www.w3.org/ns/prov#generatedAtTime">
                         <td>
@@ -2405,6 +2968,26 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td></td>
                       </tr>
                     
+                      <tr id="Instantiesnapshot%3Ageografischtoepassingsgebieden" typeof="rdfs:Property" resource="http://purl.org/dc/terms/spatial">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/spatial" data-toggle="tooltip" data-content="http://purl.org/dc/terms/spatial" data-placement="right">
+                            geografischToepassingsgebieden</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">GeografischToepassingsgebied</a>
+                            
+                          
+                        </td>
+                        <td>1..*</td>
+                        <td property="rdfs:comment">Geografisch toepassingsgebied van een pubieke dienst. Het geografisch toepassingsgebied wordt voorgesteld aan de hand van een NUTS of LAU code. NUTS codes zijn hierarisch ingedeeld in 4 niveau&#39;s. Op het hoogste niveau, NUTS 0, worden de landen ingedeeld en krijgt belgie de code BE. Eén niveau daaronder, NUTS 1, deelt Belgie verder op in de gewesten. Zo krijgt het Vlaams Gewest code BE2. Elk gewest wordt op zijn beurt op NUTS 2 niveau verder ingedeeld in de provincies. Zo krijgt de provincie Antwerpen bijvoorbeeld code BE21. Elke provincie wordt vervolgens op NUTS 3 niveau nog onderverdeeld in arrondissmenten. Zo krijgt het arrondissment Mechelen code BE212. Een fijnere opdeling in gemeenten kan vervolgens gemaakt worden met de LAU codes. Zo krijgt de gemeente Kontich LAU code 11024. Meer informatie over deze opdeling is hier terug te vinden: https://ec.europa.eu/eurostat/web/nuts. Zowel de NUTS als LAU codes worden beheerd door Eurostat. We volgen momenteel de NUTS 2021 classificatie en de laatst gevalideerde LAU 2019 classificatie. De NUTS codelijst wordt door Europa gepubliceerd op https://publications.europa.eu/resource/authority/nuts. Deze gaat echter niet tot op LAU niveau er bestaat ook geen gepubliceerde codelijst voor de LAU codes. Als oplossing maakte het IPDC - LPDC team een uitbreiding op de NUTS codelijst en werd een extra hierarchish niveau onder NUTS 3 toegevoegd om ook de gemeentes met hun LAU code beschikbaar te maken. De code voor een gemeente in deze codelijst is de concatenatie van de omvattende NUTS3 code voor de gemeente en de LAU code. Zo krijgt de gemeente Kontich bijvoorbeeld de code BE21111024.</td>
+                        <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Dit zijn alle NUTS en LAU codes die binnen het Vlaams Gewest en Brussels Hoofdstedelijk Gewest vallen en het Federaal niveau voorstellen.</td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/geografisch-toepassingsgebied.ttl">Link</a></td>
+                      </tr>
+                    
                       <tr id="Instantiesnapshot%3Aisversionof" typeof="rdfs:Property" resource="http://purl.org/dc/terms/isVersionOf">
                         <td>
                           <code property="rdfs:label">
@@ -2422,6 +3005,307 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>1</td>
                         <td property="rdfs:comment">Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.</td>
                         <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Instantiesnapshot%3Alaatstgewijzigd" typeof="rdfs:Property" resource="http://schema.org/dateModified">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://schema.org/dateModified" data-toggle="tooltip" data-content="http://schema.org/dateModified" data-placement="right">
+                            laatstGewijzigd</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#dateTime" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#dateTime" data-placement="right">DateTime</a>
+                            
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment">Tijdstip waarop de instantie door een redacteur laatst werd gewijzigd.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Instantiesnapshot%3Anaam" typeof="rdfs:Property" resource="http://purl.org/dc/terms/title">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/title" data-toggle="tooltip" data-content="http://purl.org/dc/terms/title" data-placement="right">
+                            naam</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
+                            
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment">This property represents the official Name of the Public Service.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Instantiesnapshot%3Aproductnummer" typeof="rdfs:Property" resource="http://schema.org/productID">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://schema.org/productID" data-toggle="tooltip" data-content="http://schema.org/productID" data-placement="right">
+                            productnummer</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Identificatienummer om op een unieke manier een instantie of concept te identificeren.</td>
+                        <td property="vann:usageNote">Bij het aanmaken van een nieuwe instantie kan geen productnummer doorgegeven worden aan IPDC of LPDC. De productnummers worden beheerd door IPDC en bij creatie van een nieuwe instantie zal een uniek productnummer toegekend worden in IPDC. Hierdoor zal bij het uitlezen van IPDC steeds een productnummer beschikbaar zijn op elke instantie.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Instantiesnapshot%3Apublicatiekanalen" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium" data-placement="right">
+                            publicatiekanalen</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Publicatiekanaal</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
+                        <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn.</td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/publicatie-kanaal.ttl">Link</a></td>
+                      </tr>
+                    
+                      <tr id="Instantiesnapshot%3Aregelgevingtekst" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#regulation" data-placement="right">
+                            regelgevingTekst</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Tekstveld waarin de regelgeving waarop de public service gebaseerd is kan beschreven worden.</td>
+                        <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.
+Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevante wetgeving.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Instantiesnapshot%3Astartdienstverlening" typeof="rdfs:Property" resource="http://schema.org/startDate">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://schema.org/startDate" data-toggle="tooltip" data-content="http://schema.org/startDate" data-placement="right">
+                            startDienstVerlening</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#dateTime" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#dateTime" data-placement="right">DateTime</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Datum waarop de publieke dienstverlening actief aangeboden werd/wordt</td>
+                        <td property="vann:usageNote">Een lege startdatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als een startdatum heel ver in het verleden.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Instantiesnapshot%3Atags" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag" data-placement="right">
+                            tags</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">InstantieTag</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">Instantie tag voor een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
+                        <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Momenteel zijn er geen geldige waardes.</td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/instantie-tag.ttl">Link</a></td>
+                      </tr>
+                    
+                      <tr id="Instantiesnapshot%3Atalen" typeof="rdfs:Property" resource="http://purl.org/dc/terms/language">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/language" data-toggle="tooltip" data-content="http://purl.org/dc/terms/language" data-placement="right">
+                            talen</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">TaalDienstverlening</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">Taal in welke publieke dienst aangeboden wordt. Deze codelijst is in het beheer van Publications Office of the European Union.</td>
+                        <td property="vann:usageNote">De geldige waardes binnen het ipdc-lpdc implementatiemodel zijn: NLD, FRA, DEU, ENG. De language concept URI's maken gebruik van het http protocol.</td>
+                        <td><a href="https://publications.europa.eu/resource/authority/language">Link</a></td>
+                      </tr>
+                    
+                      <tr id="Instantiesnapshot%3Athemas" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/thematicArea">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/thematicArea" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/thematicArea" data-placement="right">
+                            themas</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Thema</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">Thema van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
+                        <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/thema.ttl">Link</a></td>
+                      </tr>
+                    
+                      <tr id="Instantiesnapshot%3Atype" typeof="rdfs:Property" resource="http://purl.org/dc/terms/type">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/type" data-toggle="tooltip" data-content="http://purl.org/dc/terms/type" data-placement="right">
+                            type</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Type</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Type van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
+                        <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/type.ttl">Link</a></td>
+                      </tr>
+                    
+                      <tr id="Instantiesnapshot%3Auitvoerendbestuursniveaus" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel" data-placement="right">
+                            uitvoerendBestuursniveaus</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">UitvoerendBestuursniveau</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
+                        <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/uitvoerend-bestuursniveau.ttl">Link</a></td>
+                      </tr>
+                    
+                      <tr id="Instantiesnapshot%3Auitzonderingen" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception" data-placement="right">
+                            uitzonderingen</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Tekstveld waarin uitzondering op procedures, kostprijzen, ... kunnen aangegeven worden</td>
+                        <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Instantiesnapshot%3Averderebeschrijving" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#additionalDescription" data-placement="right">
+                            verdereBeschrijving</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">This property represents free text for additional information regarding the description of the Public Service.</td>
+                        <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Instantiesnapshot%3Ayoureuropecategorieen" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#yourEuropeCategory" data-placement="right">
+                            yourEuropeCategorieen</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">YourEuropeCategorie</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst.</td>
+                        <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/your-europe-categorie.ttl">Link</a></td>
+                      </tr>
+                    
+                      <tr id="Instantiesnapshot%3Azoektermen" typeof="rdfs:Property" resource="http://www.w3.org/ns/dcat#keyword">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://www.w3.org/ns/dcat#keyword" data-toggle="tooltip" data-content="http://www.w3.org/ns/dcat#keyword" data-placement="right">
+                            zoektermen</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
+                            
+                          
+                        </td>
+                        <td>0..*</td>
+                        <td property="rdfs:comment">This property represents a keyword, term or phrase to describe the Public Service.</td>
+                        <td property="vann:usageNote">Er mogen meerdere termen per taal zijn. Dit in tegenstelling tot alle andere velden van het type TaalString.</td>
                         <td></td>
                       </tr>
                     
