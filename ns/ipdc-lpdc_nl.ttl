@@ -301,21 +301,57 @@ shacl:order a rdf:Property;
   dc:contributor [
     a foaf:Person;
     schema:affiliation [
-      foaf:homepage <https://redpencil.io>;
-      foaf:name "redpencil"
+      foaf:homepage <https://www.kunlabora.be>;
+      foaf:name "Kunlabora"
     ];
-    foaf:firstName "Niels";
-    foaf:lastName "Vandekeybus";
-    foaf:mbox <mailto:niels.vandekeybus@redpencil.io>
+    foaf:firstName "Kris";
+    foaf:lastName "Aerts";
+    foaf:mbox <mailto:kris.aerts@kunlabora.be>
   ], [
     a foaf:Person;
     schema:affiliation [
       foaf:homepage <https://www.vlaanderen.be/digitaal-vlaanderen>;
       foaf:name "Digitaal Vlaanderen"
     ];
-    foaf:firstName "Bert";
-    foaf:lastName "Van Nuffelen";
-    foaf:mbox <mailto:bert.vannuffelen@vlaanderen.be>
+    foaf:firstName "Dirk";
+    foaf:lastName "De Smedt";
+    foaf:mbox <mailto:dirk.desmedt@vlaanderen.be>
+  ], [
+    a foaf:Person;
+    schema:affiliation [
+      foaf:homepage <https://www.linkedin.com/in/borisdevloed>;
+      foaf:name "devloed.com"
+    ];
+    foaf:firstName "Boris";
+    foaf:lastName "De Vloed";
+    foaf:mbox <mailto:boris@devloed.com>
+  ], [
+    a foaf:Person;
+    schema:affiliation [
+      foaf:homepage <https://www.kunlabora.be>;
+      foaf:name "Kunlabora"
+    ];
+    foaf:firstName "Bart";
+    foaf:lastName "Gauquie";
+    foaf:mbox <mailto:bart.gauquie@kunlabora.be>
+  ], [
+    a foaf:Person;
+    schema:affiliation [
+      foaf:homepage <https://www.kunlabora.be>;
+      foaf:name "Kunlabora"
+    ];
+    foaf:firstName "Seppe";
+    foaf:lastName "Gielen";
+    foaf:mbox <mailto:seppe.gielen@kunlabora.be>
+  ], [
+    a foaf:Person;
+    schema:affiliation [
+      foaf:homepage <https://www.vlaanderen.be/digitaal-vlaanderen>;
+      foaf:name "Digitaal Vlaanderen"
+    ];
+    foaf:firstName "Stefanie";
+    foaf:lastName "Kerkhof";
+    foaf:mbox <mailto:stefanie.kerkhof@vlaanderen.be>
   ], [
     a foaf:Person;
     schema:affiliation [
@@ -331,54 +367,18 @@ shacl:order a rdf:Property;
       foaf:homepage <https://www.vlaanderen.be/digitaal-vlaanderen>;
       foaf:name "Digitaal Vlaanderen"
     ];
-    foaf:firstName "Stefanie";
-    foaf:lastName "Kerkhof";
-    foaf:mbox <mailto:stefanie.kerkhof@vlaanderen.be>
+    foaf:firstName "Bert";
+    foaf:lastName "Van Nuffelen";
+    foaf:mbox <mailto:bert.vannuffelen@vlaanderen.be>
   ], [
     a foaf:Person;
     schema:affiliation [
-      foaf:homepage <https://www.kunlabora.be>;
-      foaf:name "Kunlabora"
+      foaf:homepage <https://redpencil.io>;
+      foaf:name "redpencil"
     ];
-    foaf:firstName "Seppe";
-    foaf:lastName "Gielen";
-    foaf:mbox <mailto:seppe.gielen@kunlabora.be>
-  ], [
-    a foaf:Person;
-    schema:affiliation [
-      foaf:homepage <https://www.kunlabora.be>;
-      foaf:name "Kunlabora"
-    ];
-    foaf:firstName "Bart";
-    foaf:lastName "Gauquie";
-    foaf:mbox <mailto:bart.gauquie@kunlabora.be>
-  ], [
-    a foaf:Person;
-    schema:affiliation [
-      foaf:homepage <https://www.linkedin.com/in/borisdevloed>;
-      foaf:name "devloed.com"
-    ];
-    foaf:firstName "Boris";
-    foaf:lastName "De Vloed";
-    foaf:mbox <mailto:boris@devloed.com>
-  ], [
-    a foaf:Person;
-    schema:affiliation [
-      foaf:homepage <https://www.vlaanderen.be/digitaal-vlaanderen>;
-      foaf:name "Digitaal Vlaanderen"
-    ];
-    foaf:firstName "Dirk";
-    foaf:lastName "De Smedt";
-    foaf:mbox <mailto:dirk.desmedt@vlaanderen.be>
-  ], [
-    a foaf:Person;
-    schema:affiliation [
-      foaf:homepage <https://www.kunlabora.be>;
-      foaf:name "Kunlabora"
-    ];
-    foaf:firstName "Kris";
-    foaf:lastName "Aerts";
-    foaf:mbox <mailto:kris.aerts@kunlabora.be>
+    foaf:firstName "Niels";
+    foaf:lastName "Vandekeybus";
+    foaf:mbox <mailto:niels.vandekeybus@redpencil.io>
   ];
   dc:issued "TODO";
   dc:license "https://creativecommons.org/publicdomain/zero/1.0/",
@@ -396,51 +396,42 @@ shacl:order a rdf:Property;
     schema:ContactPoint,
     schema:WebSite,
     <http://www.w3.org/ns/locn#Address>,
-    <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite>,
-    <https://data.vlaanderen.be/ns/adres#postcode>,
-    <https://data.vlaanderen.be/ns/adres#land>,
-    <https://data.vlaanderen.be/ns/adres#gemeentenaam>,
-    <https://data.vlaanderen.be/ns/adres#Straatnaam>,
-    <https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer>,
-    <https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer>,
-    shacl:order,
-    prov:generatedAtTime,
-    dcat:keyword,
-    rdfs:seeAlso,
-    <http://vocab.belgif.be/ns/publicservice#hasRequirement>,
-    schema:url,
-    schema:telephone,
-    schema:startDate,
-    schema:productID,
-    schema:openingHours,
-    schema:endDate,
-    schema:email,
-    schema:dateModified,
-    schema:dateCreated,
-    <http://purl.org/vocab/cpsv#produces>,
-    <http://purl.org/vocab/cpsv#follows>,
-    dc:type,
-    dc:title,
-    dc:spatial,
-    dc:source,
-    dc:language,
-    dc:isVersionOf,
-    dc:description,
-    <http://data.europa.eu/m8g/thematicArea>,
-    <http://data.europa.eu/m8g/hasSupportingEvidence>,
-    <http://data.europa.eu/m8g/hasLegalResource>,
+    <http://data.europa.eu/m8g/hasContactPoint>,
     <http://data.europa.eu/m8g/hasCost>,
-    <http://data.europa.eu/m8g/hasContactPoint>;
+    <http://data.europa.eu/m8g/hasLegalResource>,
+    <http://data.europa.eu/m8g/hasSupportingEvidence>,
+    <http://data.europa.eu/m8g/thematicArea>,
+    dc:description,
+    dc:isVersionOf,
+    dc:language,
+    dc:source,
+    dc:spatial,
+    dc:title,
+    dc:type,
+    <http://purl.org/vocab/cpsv#follows>,
+    <http://purl.org/vocab/cpsv#produces>,
+    schema:dateCreated,
+    schema:dateModified,
+    schema:email,
+    schema:endDate,
+    schema:openingHours,
+    schema:productID,
+    schema:startDate,
+    schema:telephone,
+    schema:url,
+    <http://vocab.belgif.be/ns/publicservice#hasRequirement>,
+    rdfs:seeAlso,
+    dcat:keyword,
+    prov:generatedAtTime,
+    shacl:order,
+    <https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer>,
+    <https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer>,
+    <https://data.vlaanderen.be/ns/adres#Straatnaam>,
+    <https://data.vlaanderen.be/ns/adres#gemeentenaam>,
+    <https://data.vlaanderen.be/ns/adres#land>,
+    <https://data.vlaanderen.be/ns/adres#postcode>,
+    <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite>;
   <http://www.w3.org/2001/02pd/rec54#editor> [
-    a foaf:Person;
-    schema:affiliation [
-      foaf:homepage <https://www.kunlabora.be>;
-      foaf:name "Kunlabora"
-    ];
-    foaf:firstName "Dieter";
-    foaf:lastName "Van Peer";
-    foaf:mbox <mailto:dieter.vanpeer@kunlabora.be>
-  ], [
     a foaf:Person;
     schema:affiliation [
       foaf:homepage <https://www.kunlabora.be>;
@@ -449,6 +440,15 @@ shacl:order a rdf:Property;
     foaf:firstName "Heidi";
     foaf:lastName "Bottu";
     foaf:mbox <mailto:heidi.bottu@kunlabora.be>
+  ], [
+    a foaf:Person;
+    schema:affiliation [
+      foaf:homepage <https://www.kunlabora.be>;
+      foaf:name "Kunlabora"
+    ];
+    foaf:firstName "Dieter";
+    foaf:lastName "Van Peer";
+    foaf:mbox <mailto:dieter.vanpeer@kunlabora.be>
   ];
   foaf:maker [
     a foaf:Person;

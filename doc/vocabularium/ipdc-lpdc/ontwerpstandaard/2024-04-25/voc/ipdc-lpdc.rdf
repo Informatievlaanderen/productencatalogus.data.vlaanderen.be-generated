@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dc="http://purl.org/dc/terms/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:ns0="http://www.w3.org/2001/02pd/rec54#" xmlns:schema="http://schema.org/" xmlns:shacl="http://www.w3.org/ns/shacl#" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:ns1="http://purl.org/vocab/vann/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dc="http://purl.org/dc/terms/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:ns0="http://www.w3.org/2001/02pd/rec54#" xmlns:schema="http://schema.org/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:shacl="http://www.w3.org/ns/shacl#" xmlns:ns1="http://purl.org/vocab/vann/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
   <owl:Class rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage">
     <rdfs:isDefinedBy>
       <owl:Ontology rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc">
@@ -35,9 +35,9 @@
                 <foaf:name>Kunlabora</foaf:name>
               </rdf:Description>
             </schema:affiliation>
-            <foaf:firstName>Dieter</foaf:firstName>
-            <foaf:lastName>Van Peer</foaf:lastName>
-            <foaf:mbox rdf:resource="mailto:dieter.vanpeer@kunlabora.be"/>
+            <foaf:firstName>Heidi</foaf:firstName>
+            <foaf:lastName>Bottu</foaf:lastName>
+            <foaf:mbox rdf:resource="mailto:heidi.bottu@kunlabora.be"/>
           </foaf:Person>
         </ns0:editor>
         <ns0:editor>
@@ -48,22 +48,22 @@
                 <foaf:name>Kunlabora</foaf:name>
               </rdf:Description>
             </schema:affiliation>
-            <foaf:firstName>Heidi</foaf:firstName>
-            <foaf:lastName>Bottu</foaf:lastName>
-            <foaf:mbox rdf:resource="mailto:heidi.bottu@kunlabora.be"/>
+            <foaf:firstName>Dieter</foaf:firstName>
+            <foaf:lastName>Van Peer</foaf:lastName>
+            <foaf:mbox rdf:resource="mailto:dieter.vanpeer@kunlabora.be"/>
           </foaf:Person>
         </ns0:editor>
         <dc:contributor>
           <foaf:Person rdf:nodeID="g454880">
             <schema:affiliation>
               <rdf:Description rdf:nodeID="g454900">
-                <foaf:homepage rdf:resource="https://redpencil.io"/>
-                <foaf:name>redpencil</foaf:name>
+                <foaf:homepage rdf:resource="https://www.kunlabora.be"/>
+                <foaf:name>Kunlabora</foaf:name>
               </rdf:Description>
             </schema:affiliation>
-            <foaf:firstName>Niels</foaf:firstName>
-            <foaf:lastName>Vandekeybus</foaf:lastName>
-            <foaf:mbox rdf:resource="mailto:niels.vandekeybus@redpencil.io"/>
+            <foaf:firstName>Kris</foaf:firstName>
+            <foaf:lastName>Aerts</foaf:lastName>
+            <foaf:mbox rdf:resource="mailto:kris.aerts@kunlabora.be"/>
           </foaf:Person>
         </dc:contributor>
         <dc:contributor>
@@ -74,35 +74,35 @@
                 <foaf:name>Digitaal Vlaanderen</foaf:name>
               </rdf:Description>
             </schema:affiliation>
-            <foaf:firstName>Bert</foaf:firstName>
-            <foaf:lastName>Van Nuffelen</foaf:lastName>
-            <foaf:mbox rdf:resource="mailto:bert.vannuffelen@vlaanderen.be"/>
+            <foaf:firstName>Dirk</foaf:firstName>
+            <foaf:lastName>De Smedt</foaf:lastName>
+            <foaf:mbox rdf:resource="mailto:dirk.desmedt@vlaanderen.be"/>
           </foaf:Person>
         </dc:contributor>
         <dc:contributor>
           <foaf:Person rdf:nodeID="g454960">
             <schema:affiliation>
               <rdf:Description rdf:nodeID="g454980">
-                <foaf:homepage rdf:resource="https://redpencil.io"/>
-                <foaf:name>redpencil</foaf:name>
+                <foaf:homepage rdf:resource="https://www.linkedin.com/in/borisdevloed"/>
+                <foaf:name>devloed.com</foaf:name>
               </rdf:Description>
             </schema:affiliation>
-            <foaf:firstName>Felix</foaf:firstName>
-            <foaf:lastName>Ruiz de Arcaute</foaf:lastName>
-            <foaf:mbox rdf:resource="mailto:felix.ruizdearcaute@redpencil.io"/>
+            <foaf:firstName>Boris</foaf:firstName>
+            <foaf:lastName>De Vloed</foaf:lastName>
+            <foaf:mbox rdf:resource="mailto:boris@devloed.com"/>
           </foaf:Person>
         </dc:contributor>
         <dc:contributor>
           <foaf:Person rdf:nodeID="g455000">
             <schema:affiliation>
               <rdf:Description rdf:nodeID="g455020">
-                <foaf:homepage rdf:resource="https://www.vlaanderen.be/digitaal-vlaanderen"/>
-                <foaf:name>Digitaal Vlaanderen</foaf:name>
+                <foaf:homepage rdf:resource="https://www.kunlabora.be"/>
+                <foaf:name>Kunlabora</foaf:name>
               </rdf:Description>
             </schema:affiliation>
-            <foaf:firstName>Stefanie</foaf:firstName>
-            <foaf:lastName>Kerkhof</foaf:lastName>
-            <foaf:mbox rdf:resource="mailto:stefanie.kerkhof@vlaanderen.be"/>
+            <foaf:firstName>Bart</foaf:firstName>
+            <foaf:lastName>Gauquie</foaf:lastName>
+            <foaf:mbox rdf:resource="mailto:bart.gauquie@kunlabora.be"/>
           </foaf:Person>
         </dc:contributor>
         <dc:contributor>
@@ -122,26 +122,26 @@
           <foaf:Person rdf:nodeID="g455080">
             <schema:affiliation>
               <rdf:Description rdf:nodeID="g455100">
-                <foaf:homepage rdf:resource="https://www.kunlabora.be"/>
-                <foaf:name>Kunlabora</foaf:name>
+                <foaf:homepage rdf:resource="https://www.vlaanderen.be/digitaal-vlaanderen"/>
+                <foaf:name>Digitaal Vlaanderen</foaf:name>
               </rdf:Description>
             </schema:affiliation>
-            <foaf:firstName>Bart</foaf:firstName>
-            <foaf:lastName>Gauquie</foaf:lastName>
-            <foaf:mbox rdf:resource="mailto:bart.gauquie@kunlabora.be"/>
+            <foaf:firstName>Stefanie</foaf:firstName>
+            <foaf:lastName>Kerkhof</foaf:lastName>
+            <foaf:mbox rdf:resource="mailto:stefanie.kerkhof@vlaanderen.be"/>
           </foaf:Person>
         </dc:contributor>
         <dc:contributor>
           <foaf:Person rdf:nodeID="g455120">
             <schema:affiliation>
               <rdf:Description rdf:nodeID="g455140">
-                <foaf:homepage rdf:resource="https://www.linkedin.com/in/borisdevloed"/>
-                <foaf:name>devloed.com</foaf:name>
+                <foaf:homepage rdf:resource="https://redpencil.io"/>
+                <foaf:name>redpencil</foaf:name>
               </rdf:Description>
             </schema:affiliation>
-            <foaf:firstName>Boris</foaf:firstName>
-            <foaf:lastName>De Vloed</foaf:lastName>
-            <foaf:mbox rdf:resource="mailto:boris@devloed.com"/>
+            <foaf:firstName>Felix</foaf:firstName>
+            <foaf:lastName>Ruiz de Arcaute</foaf:lastName>
+            <foaf:mbox rdf:resource="mailto:felix.ruizdearcaute@redpencil.io"/>
           </foaf:Person>
         </dc:contributor>
         <dc:contributor>
@@ -152,22 +152,22 @@
                 <foaf:name>Digitaal Vlaanderen</foaf:name>
               </rdf:Description>
             </schema:affiliation>
-            <foaf:firstName>Dirk</foaf:firstName>
-            <foaf:lastName>De Smedt</foaf:lastName>
-            <foaf:mbox rdf:resource="mailto:dirk.desmedt@vlaanderen.be"/>
+            <foaf:firstName>Bert</foaf:firstName>
+            <foaf:lastName>Van Nuffelen</foaf:lastName>
+            <foaf:mbox rdf:resource="mailto:bert.vannuffelen@vlaanderen.be"/>
           </foaf:Person>
         </dc:contributor>
         <dc:contributor>
           <foaf:Person rdf:nodeID="g455200">
             <schema:affiliation>
               <rdf:Description rdf:nodeID="g455220">
-                <foaf:homepage rdf:resource="https://www.kunlabora.be"/>
-                <foaf:name>Kunlabora</foaf:name>
+                <foaf:homepage rdf:resource="https://redpencil.io"/>
+                <foaf:name>redpencil</foaf:name>
               </rdf:Description>
             </schema:affiliation>
-            <foaf:firstName>Kris</foaf:firstName>
-            <foaf:lastName>Aerts</foaf:lastName>
-            <foaf:mbox rdf:resource="mailto:kris.aerts@kunlabora.be"/>
+            <foaf:firstName>Niels</foaf:firstName>
+            <foaf:lastName>Vandekeybus</foaf:lastName>
+            <foaf:mbox rdf:resource="mailto:niels.vandekeybus@redpencil.io"/>
           </foaf:Person>
         </dc:contributor>
         <dc:issued>TODO</dc:issued>
@@ -212,168 +212,8 @@
           </rdfs:Class>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
-          <rdf:Property rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite">
-            <rdfs:label xml:lang="nl">websites</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="https://data.vlaanderen.be/ns/adres#postcode">
-            <rdfs:label xml:lang="nl">postcode</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="https://data.vlaanderen.be/ns/adres#land">
-            <rdfs:label xml:lang="nl">land</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="https://data.vlaanderen.be/ns/adres#gemeentenaam">
-            <rdfs:label xml:lang="nl">gemeentenaam</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="https://data.vlaanderen.be/ns/adres#Straatnaam">
-            <rdfs:label xml:lang="nl">straatnaam</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer">
-            <rdfs:label xml:lang="nl">huisnummer</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer">
-            <rdfs:label xml:lang="nl">busnummer</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://www.w3.org/ns/shacl#order">
-            <rdfs:label xml:lang="nl">order</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://www.w3.org/ns/prov#generatedAtTime">
-            <rdfs:label xml:lang="nl">generatedAtTime</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://www.w3.org/ns/dcat#keyword">
-            <rdfs:label xml:lang="nl">zoektermen</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
-            <rdfs:label xml:lang="nl">websites</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://vocab.belgif.be/ns/publicservice#hasRequirement">
-            <rdfs:label xml:lang="nl">voorwaarden</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://schema.org/url">
-            <rdfs:label xml:lang="nl">url</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://schema.org/telephone">
-            <rdfs:label xml:lang="nl">telefoonnummer</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://schema.org/startDate">
-            <rdfs:label xml:lang="nl">startDienstVerlening</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://schema.org/productID">
-            <rdfs:label xml:lang="nl">productnummer</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://schema.org/openingHours">
-            <rdfs:label xml:lang="nl">openingsuren</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://schema.org/endDate">
-            <rdfs:label xml:lang="nl">eindeDienstVerlening</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://schema.org/email">
-            <rdfs:label xml:lang="nl">email</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://schema.org/dateModified">
-            <rdfs:label xml:lang="nl">laatstGewijzigd</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://schema.org/dateCreated">
-            <rdfs:label xml:lang="nl">creatie</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://purl.org/vocab/cpsv#produces">
-            <rdfs:label xml:lang="nl">financieleVoordelen</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://purl.org/vocab/cpsv#follows">
-            <rdfs:label xml:lang="nl">procedures</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://purl.org/dc/terms/type">
-            <rdfs:label xml:lang="nl">type</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://purl.org/dc/terms/title">
-            <rdfs:label xml:lang="nl">naam</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://purl.org/dc/terms/spatial">
-            <rdfs:label xml:lang="nl">geografischToepassingsgebieden</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://purl.org/dc/terms/source">
-            <rdfs:label xml:lang="nl">linkedConcept</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://purl.org/dc/terms/language">
-            <rdfs:label xml:lang="nl">talen</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://purl.org/dc/terms/isVersionOf">
-            <rdfs:label xml:lang="nl">isVersionOf</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://purl.org/dc/terms/description">
-            <rdfs:label xml:lang="nl">beschrijving</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://data.europa.eu/m8g/thematicArea">
-            <rdfs:label xml:lang="nl">themas</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://data.europa.eu/m8g/hasSupportingEvidence">
-            <rdfs:label xml:lang="nl">bewijs</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://data.europa.eu/m8g/hasLegalResource">
-            <rdfs:label xml:lang="nl">regelgeving</rdfs:label>
+          <rdf:Property rdf:about="http://data.europa.eu/m8g/hasContactPoint">
+            <rdfs:label xml:lang="nl">contactgegevens</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
@@ -382,8 +222,168 @@
           </rdf:Property>
         </rdfs:seeAlso>
         <rdfs:seeAlso>
-          <rdf:Property rdf:about="http://data.europa.eu/m8g/hasContactPoint">
-            <rdfs:label xml:lang="nl">contactgegevens</rdfs:label>
+          <rdf:Property rdf:about="http://data.europa.eu/m8g/hasLegalResource">
+            <rdfs:label xml:lang="nl">regelgeving</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://data.europa.eu/m8g/hasSupportingEvidence">
+            <rdfs:label xml:lang="nl">bewijs</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://data.europa.eu/m8g/thematicArea">
+            <rdfs:label xml:lang="nl">themas</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://purl.org/dc/terms/description">
+            <rdfs:label xml:lang="nl">beschrijving</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://purl.org/dc/terms/isVersionOf">
+            <rdfs:label xml:lang="nl">isVersionOf</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://purl.org/dc/terms/language">
+            <rdfs:label xml:lang="nl">talen</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://purl.org/dc/terms/source">
+            <rdfs:label xml:lang="nl">linkedConcept</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://purl.org/dc/terms/spatial">
+            <rdfs:label xml:lang="nl">geografischToepassingsgebieden</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://purl.org/dc/terms/title">
+            <rdfs:label xml:lang="nl">naam</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://purl.org/dc/terms/type">
+            <rdfs:label xml:lang="nl">type</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://purl.org/vocab/cpsv#follows">
+            <rdfs:label xml:lang="nl">procedures</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://purl.org/vocab/cpsv#produces">
+            <rdfs:label xml:lang="nl">financieleVoordelen</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://schema.org/dateCreated">
+            <rdfs:label xml:lang="nl">creatie</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://schema.org/dateModified">
+            <rdfs:label xml:lang="nl">laatstGewijzigd</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://schema.org/email">
+            <rdfs:label xml:lang="nl">email</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://schema.org/endDate">
+            <rdfs:label xml:lang="nl">eindeDienstVerlening</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://schema.org/openingHours">
+            <rdfs:label xml:lang="nl">openingsuren</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://schema.org/productID">
+            <rdfs:label xml:lang="nl">productnummer</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://schema.org/startDate">
+            <rdfs:label xml:lang="nl">startDienstVerlening</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://schema.org/telephone">
+            <rdfs:label xml:lang="nl">telefoonnummer</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://schema.org/url">
+            <rdfs:label xml:lang="nl">url</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://vocab.belgif.be/ns/publicservice#hasRequirement">
+            <rdfs:label xml:lang="nl">voorwaarden</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+            <rdfs:label xml:lang="nl">websites</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://www.w3.org/ns/dcat#keyword">
+            <rdfs:label xml:lang="nl">zoektermen</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://www.w3.org/ns/prov#generatedAtTime">
+            <rdfs:label xml:lang="nl">generatedAtTime</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="http://www.w3.org/ns/shacl#order">
+            <rdfs:label xml:lang="nl">order</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer">
+            <rdfs:label xml:lang="nl">busnummer</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer">
+            <rdfs:label xml:lang="nl">huisnummer</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="https://data.vlaanderen.be/ns/adres#Straatnaam">
+            <rdfs:label xml:lang="nl">straatnaam</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="https://data.vlaanderen.be/ns/adres#gemeentenaam">
+            <rdfs:label xml:lang="nl">gemeentenaam</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="https://data.vlaanderen.be/ns/adres#land">
+            <rdfs:label xml:lang="nl">land</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="https://data.vlaanderen.be/ns/adres#postcode">
+            <rdfs:label xml:lang="nl">postcode</rdfs:label>
+          </rdf:Property>
+        </rdfs:seeAlso>
+        <rdfs:seeAlso>
+          <rdf:Property rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite">
+            <rdfs:label xml:lang="nl">websites</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
       </owl:Ontology>
