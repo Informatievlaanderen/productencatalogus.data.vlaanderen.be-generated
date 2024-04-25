@@ -2,7 +2,7 @@
   "metadata": {
     "title": "IPDC - LPDC (Vocabularium)",
     "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc",
-    "issued": "2024-03-22",
+    "issued": "2024-04-25",
     "filename": "ipdc-lpdc",
     "navigation": {
       "prev": "/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-03-22",
@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/e9ec6d191fdbf2c56a734bda9e829ef8e9ce3215",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/e9ec6d191fdbf2c56a734bda9e829ef8e9ce3215/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/3f916dcbaf1e4bcfc639e7d03e62086a13c7aa19",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/3f916dcbaf1e4bcfc639e7d03e62086a13c7aa19/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -1670,7 +1670,7 @@
         "nl": "isVersionOf"
       },
       "description": {
-        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       },
       "usage": {},
       "sort": "isVersionOf",
@@ -1686,7 +1686,7 @@
         "nl": "isVersionOf"
       },
       "description": {
-        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       },
       "usage": {},
       "sort": "isVersionOf",
