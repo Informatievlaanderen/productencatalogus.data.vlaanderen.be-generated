@@ -248,7 +248,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/concept-tag.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/concept-tag.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -332,7 +332,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/your-europe-categorie.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/your-europe-categorie.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -356,7 +356,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/doelgroep.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/doelgroep.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -404,7 +404,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/uitvoerend-bestuursniveau.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/uitvoerend-bestuursniveau.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -422,7 +422,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/type.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/type.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -458,7 +458,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/thema.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/thema.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -536,7 +536,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/bevoegd-bestuursniveau.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/bevoegd-bestuursniveau.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -602,7 +602,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/publicatie-kanaal.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/publicatie-kanaal.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -739,7 +739,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/concept-tag.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/concept-tag.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -835,7 +835,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/your-europe-categorie.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/your-europe-categorie.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -859,7 +859,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/doelgroep.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/doelgroep.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -913,7 +913,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/uitvoerend-bestuursniveau.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/uitvoerend-bestuursniveau.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -931,7 +931,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/type.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/type.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -973,7 +973,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/thema.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/thema.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -1057,7 +1057,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/bevoegd-bestuursniveau.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/bevoegd-bestuursniveau.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -1123,7 +1123,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/publicatie-kanaal.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/publicatie-kanaal.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -1433,7 +1433,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/instantie-tag.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/instantie-tag.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -1535,7 +1535,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/your-europe-categorie.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/your-europe-categorie.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -1559,7 +1559,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/doelgroep.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/doelgroep.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -1613,7 +1613,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/uitvoerend-bestuursniveau.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/uitvoerend-bestuursniveau.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -1631,7 +1631,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/type.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/type.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -1667,7 +1667,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/thema.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/thema.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -1751,7 +1751,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/bevoegd-bestuursniveau.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/bevoegd-bestuursniveau.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -1847,7 +1847,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/publicatie-kanaal.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/publicatie-kanaal.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -1895,7 +1895,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/geografisch-toepassingsgebied.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/geografisch-toepassingsgebied.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -2025,7 +2025,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/instantie-tag.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/instantie-tag.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -2139,7 +2139,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/your-europe-categorie.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/your-europe-categorie.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -2163,7 +2163,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/doelgroep.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/doelgroep.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -2223,7 +2223,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/uitvoerend-bestuursniveau.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/uitvoerend-bestuursniveau.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -2241,7 +2241,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/type.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/type.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -2283,7 +2283,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/thema.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/thema.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -2373,7 +2373,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/bevoegd-bestuursniveau.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/bevoegd-bestuursniveau.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -2469,7 +2469,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/publicatie-kanaal.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/publicatie-kanaal.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
@@ -2517,7 +2517,7 @@
     rdfs:comment "codelist restriction";
     shacl:property [
       shacl:class skos:ConceptScheme;
-      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/geografisch-toepassingsgebied.ttl>;
+      shacl:hasValue <https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/codelijsten/geografisch-toepassingsgebied.ttl>;
       shacl:minCount 1;
       shacl:nodeKind shacl:IRI;
       shacl:path skos:inScheme
