@@ -8475,7 +8475,7 @@
       "inpackage": "OTHER_PACKAGE",
       "ap-codelist": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/geografisch-toepassingsgebied.ttl",
       "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Dit zijn alle NUTS en LAU codes die binnen het Vlaams Gewest en Brussels Hoofdstedelijk Gewest vallen en het Federaal niveau voorstellen."
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
       },
       "definition": {
         "nl": "Geografisch toepassingsgebied van een pubieke dienst: Vlaamse provincies en gemeenten."
@@ -8510,7 +8510,7 @@
           "nl": "Geografisch toepassingsgebied van een pubieke dienst: Vlaamse provincies en gemeenten."
         },
         "usage": {
-          "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Dit zijn alle NUTS en LAU codes die binnen het Vlaams Gewest en Brussels Hoofdstedelijk Gewest vallen en het Federaal niveau voorstellen."
+          "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
         },
         "ap-label-nl": {
           "nl": "geografischToepassingsgebieden"
@@ -8533,7 +8533,7 @@
           },
           {
             "key": "usageNote-nl",
-            "value": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Dit zijn alle NUTS en LAU codes die binnen het Vlaams Gewest en Brussels Hoofdstedelijk Gewest vallen en het Federaal niveau voorstellen.",
+            "value": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
             "note": "null"
           },
           {
@@ -8575,7 +8575,7 @@
       "inpackage": "OTHER_PACKAGE",
       "ap-codelist": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/geografisch-toepassingsgebied.ttl",
       "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Dit zijn alle NUTS en LAU codes die binnen het Vlaams Gewest en Brussels Hoofdstedelijk Gewest vallen en het Federaal niveau voorstellen."
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
       },
       "definition": {
         "nl": "Geografisch toepassingsgebied van een pubieke dienst: Vlaamse provincies en gemeenten."
@@ -8610,7 +8610,7 @@
           "nl": "Geografisch toepassingsgebied van een pubieke dienst: Vlaamse provincies en gemeenten."
         },
         "usage": {
-          "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Dit zijn alle NUTS en LAU codes die binnen het Vlaams Gewest en Brussels Hoofdstedelijk Gewest vallen en het Federaal niveau voorstellen."
+          "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
         },
         "ap-label-nl": {
           "nl": "geografischToepassingsgebieden"
@@ -8633,7 +8633,7 @@
           },
           {
             "key": "usageNote-nl",
-            "value": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Dit zijn alle NUTS en LAU codes die binnen het Vlaams Gewest en Brussels Hoofdstedelijk Gewest vallen en het Federaal niveau voorstellen.",
+            "value": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.",
             "note": "null"
           },
           {
@@ -16018,15 +16018,15 @@
   "config": "config/config-ap.json",
   "branchtag": "ontwerp-2024-07-04",
   "disabled": false,
-  "dummy": "001",
+  "dummy": "002",
   "filename": "config/ipdc-lpdc-im.json",
   "navigation": {
     "prev": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-04-25"
   },
   "repository": "https://github.com/Informatievlaanderen/ipdc-lpdc",
   "urlref": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-07-04",
-  "documentcommit": "0bbc427cf41dcba93f924b9616bdf5d2f7200fcd",
-  "toolchaincommit": "a42ec5d1fd111a0239c0c19037c2a304df3201ad",
+  "documentcommit": "91831df13f247d5c72146929c5755b400d09aa50",
+  "toolchaincommit": "0f6aff61a5a82b9e4589118997e7c35da815d102",
   "hostname": "https://productencatalogus.data.test-vlaanderen.be/",
   "translation": [
     {

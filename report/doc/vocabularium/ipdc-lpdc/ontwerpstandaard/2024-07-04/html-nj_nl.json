@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/0bbc427cf41dcba93f924b9616bdf5d2f7200fcd",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/0bbc427cf41dcba93f924b9616bdf5d2f7200fcd/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/91831df13f247d5c72146929c5755b400d09aa50",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/91831df13f247d5c72146929c5755b400d09aa50/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
     "dependencies": [],
@@ -1670,7 +1670,7 @@
         "nl": "isVersionOf"
       },
       "description": {
-        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       },
       "usage": {},
       "sort": "isVersionOf",
@@ -1686,7 +1686,7 @@
         "nl": "isVersionOf"
       },
       "description": {
-        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       },
       "usage": {},
       "sort": "isVersionOf",
@@ -1773,7 +1773,7 @@
         "nl": "Geografisch toepassingsgebied van een pubieke dienst: Vlaamse provincies en gemeenten."
       },
       "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Dit zijn alle NUTS en LAU codes die binnen het Vlaams Gewest en Brussels Hoofdstedelijk Gewest vallen en het Federaal niveau voorstellen."
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
       },
       "sort": "geografischToepassingsgebieden",
       "inscope": true,
@@ -1791,7 +1791,7 @@
         "nl": "Geografisch toepassingsgebied van een pubieke dienst: Vlaamse provincies en gemeenten."
       },
       "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Dit zijn alle NUTS en LAU codes die binnen het Vlaams Gewest en Brussels Hoofdstedelijk Gewest vallen en het Federaal niveau voorstellen."
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
       },
       "sort": "geografischToepassingsgebieden",
       "inscope": true,
