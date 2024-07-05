@@ -920,7 +920,7 @@
       }
     },
     {
-      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
+      "EA-Guid": "{21E7F00E-2281-4e5f-9868-F5015150B204}",
       "name": "kosten",
       "label": {
         "nl": "kosten",
@@ -944,6 +944,18 @@
       }
     },
     {
+      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
+      "name": "kosten",
+      "label": {
+        "nl": "kosten",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.",
+        "de": "Enter your translation here"
+      }
+    },
+    {
       "EA-Guid": "{12027E05-6AF9-4adf-A44B-6B35B2311667}",
       "name": "kosten",
       "label": {
@@ -956,14 +968,14 @@
       }
     },
     {
-      "EA-Guid": "{21E7F00E-2281-4e5f-9868-F5015150B204}",
-      "name": "kosten",
+      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
+      "name": "regelgeving",
       "label": {
-        "nl": "kosten",
+        "nl": "regelgeving",
         "de": "Enter your translation here"
       },
       "definition": {
-        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.",
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.",
         "de": "Enter your translation here"
       }
     },
@@ -981,18 +993,6 @@
     },
     {
       "EA-Guid": "{AAAF6371-807E-4c35-9D4D-D0D9C700D15D}",
-      "name": "regelgeving",
-      "label": {
-        "nl": "regelgeving",
-        "de": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.",
-        "de": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
       "name": "regelgeving",
       "label": {
         "nl": "regelgeving",
@@ -1324,7 +1324,7 @@
       }
     },
     {
-      "EA-Guid": "{81D83355-57A6-4a43-9F2D-DC7C00DD6EE7}",
+      "EA-Guid": "{921D088F-DFEC-4ce3-B808-1A5642116D49}",
       "name": "linkedconcept",
       "label": {
         "nl": "linkedConcept",
@@ -1336,7 +1336,7 @@
       }
     },
     {
-      "EA-Guid": "{921D088F-DFEC-4ce3-B808-1A5642116D49}",
+      "EA-Guid": "{81D83355-57A6-4a43-9F2D-DC7C00DD6EE7}",
       "name": "linkedconcept",
       "label": {
         "nl": "linkedConcept",
@@ -1600,18 +1600,6 @@
       }
     },
     {
-      "EA-Guid": "{CC44BE05-EFA9-4b70-A532-8A3E824F1788}",
-      "name": "procedures",
-      "label": {
-        "nl": "procedures",
-        "de": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario.",
-        "de": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
       "name": "procedures",
       "label": {
@@ -1624,7 +1612,7 @@
       }
     },
     {
-      "EA-Guid": "{56B02AB9-454E-48d7-8032-1ED20F6A59E1}",
+      "EA-Guid": "{CC44BE05-EFA9-4b70-A532-8A3E824F1788}",
       "name": "procedures",
       "label": {
         "nl": "procedures",
@@ -1648,7 +1636,31 @@
       }
     },
     {
-      "EA-Guid": "{94683A82-DF28-4261-A48E-0ACCFBD677F6}",
+      "EA-Guid": "{56B02AB9-454E-48d7-8032-1ED20F6A59E1}",
+      "name": "procedures",
+      "label": {
+        "nl": "procedures",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario.",
+        "de": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+      "name": "financielevoordelen",
+      "label": {
+        "nl": "financieleVoordelen",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service.",
+        "de": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
       "name": "financielevoordelen",
       "label": {
         "nl": "financieleVoordelen",
@@ -1672,19 +1684,7 @@
       }
     },
     {
-      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
-      "name": "financielevoordelen",
-      "label": {
-        "nl": "financieleVoordelen",
-        "de": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service.",
-        "de": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+      "EA-Guid": "{94683A82-DF28-4261-A48E-0ACCFBD677F6}",
       "name": "financielevoordelen",
       "label": {
         "nl": "financieleVoordelen",
@@ -2076,18 +2076,6 @@
       }
     },
     {
-      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
-      "name": "voorwaarden",
-      "label": {
-        "nl": "voorwaarden",
-        "de": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
-        "de": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{E16B109E-FAE1-4295-BC74-CEE1E8695653}",
       "name": "voorwaarden",
       "label": {
@@ -2112,7 +2100,7 @@
       }
     },
     {
-      "EA-Guid": "{EED03156-EE71-499b-A54D-E96AE3EF16DE}",
+      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
       "name": "voorwaarden",
       "label": {
         "nl": "voorwaarden",
@@ -2124,26 +2112,14 @@
       }
     },
     {
-      "EA-Guid": "{95BE41F7-CB97-4f65-B515-0835241C4ACB}",
-      "name": "websites",
+      "EA-Guid": "{EED03156-EE71-499b-A54D-E96AE3EF16DE}",
+      "name": "voorwaarden",
       "label": {
-        "nl": "websites",
+        "nl": "voorwaarden",
         "de": "Enter your translation here"
       },
       "definition": {
-        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt",
-        "de": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{61D4ED6A-7970-4709-BD32-8258B5873D9A}",
-      "name": "websites",
-      "label": {
-        "nl": "websites",
-        "de": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt",
+        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
         "de": "Enter your translation here"
       }
     },
@@ -2160,7 +2136,31 @@
       }
     },
     {
+      "EA-Guid": "{95BE41F7-CB97-4f65-B515-0835241C4ACB}",
+      "name": "websites",
+      "label": {
+        "nl": "websites",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt",
+        "de": "Enter your translation here"
+      }
+    },
+    {
       "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
+      "name": "websites",
+      "label": {
+        "nl": "websites",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt",
+        "de": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{61D4ED6A-7970-4709-BD32-8258B5873D9A}",
       "name": "websites",
       "label": {
         "nl": "websites",
@@ -2412,7 +2412,7 @@
       }
     },
     {
-      "EA-Guid": "{5CA2C3BC-4A41-46e2-9AC7-2695B61D4979}",
+      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
       "name": "uitvoerendeoverheden",
       "label": {
         "nl": "uitvoerendeOverheden",
@@ -2424,7 +2424,7 @@
       }
     },
     {
-      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+      "EA-Guid": "{5CA2C3BC-4A41-46e2-9AC7-2695B61D4979}",
       "name": "uitvoerendeoverheden",
       "label": {
         "nl": "uitvoerendeOverheden",

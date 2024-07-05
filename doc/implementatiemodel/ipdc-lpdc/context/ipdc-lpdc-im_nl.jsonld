@@ -94,6 +94,7 @@
           "@type": "@id"
         },
         "procedures": {
+          "@container": "@set",
           "@id": "http://purl.org/vocab/cpsv#follows",
           "@type": "@id"
         },
@@ -152,6 +153,7 @@
           "@type": "@id"
         },
         "voorwaarden": {
+          "@container": "@set",
           "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
           "@type": "@id"
         },
@@ -233,6 +235,7 @@
           "@type": "@id"
         },
         "procedures": {
+          "@container": "@set",
           "@id": "http://purl.org/vocab/cpsv#follows",
           "@type": "@id"
         },
@@ -291,6 +294,7 @@
           "@type": "@id"
         },
         "voorwaarden": {
+          "@container": "@set",
           "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
           "@type": "@id"
         },
@@ -360,7 +364,7 @@
     },
     "Instantie": {
       "@context": {
-        "beheerder": {
+        "aangemaaktDoor": {
           "@id": "http://purl.org/pav/createdBy",
           "@type": "@id"
         },
@@ -428,6 +432,7 @@
           "@type": "@id"
         },
         "procedures": {
+          "@container": "@set",
           "@id": "http://purl.org/vocab/cpsv#follows",
           "@type": "@id"
         },
@@ -491,6 +496,7 @@
           "@type": "@id"
         },
         "voorwaarden": {
+          "@container": "@set",
           "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
           "@type": "@id"
         },
@@ -514,7 +520,7 @@
     },
     "InstantieSnapshot": {
       "@context": {
-        "beheerder": {
+        "aangemaaktDoor": {
           "@id": "http://purl.org/pav/createdBy",
           "@type": "@id"
         },
@@ -590,6 +596,7 @@
           "@type": "@id"
         },
         "procedures": {
+          "@container": "@set",
           "@id": "http://purl.org/vocab/cpsv#follows",
           "@type": "@id"
         },
@@ -653,6 +660,7 @@
           "@type": "@id"
         },
         "voorwaarden": {
+          "@container": "@set",
           "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
           "@type": "@id"
         },
@@ -701,6 +709,10 @@
           "@id": "http://purl.org/dc/terms/title",
           "@type": "@id"
         },
+        "order": {
+          "@id": "http://www.w3.org/ns/shacl#order",
+          "@type": "http://www.w3.org/2001/XMLSchema#integer"
+        },
         "websites": {
           "@container": "@set",
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite",
@@ -744,6 +756,10 @@
         "naam": {
           "@id": "http://purl.org/dc/terms/title",
           "@type": "@id"
+        },
+        "order": {
+          "@id": "http://www.w3.org/ns/shacl#order",
+          "@type": "http://www.w3.org/2001/XMLSchema#integer"
         }
       },
       "@id": "http://data.europa.eu/m8g/Requirement"

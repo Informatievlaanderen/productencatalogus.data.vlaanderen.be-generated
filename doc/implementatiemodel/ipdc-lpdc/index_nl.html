@@ -46,11 +46,11 @@
               <div class="head" role="status" id="status">
               <dl>
               <dt>Status</dt><dd><a href="https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard">https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard</a></dd>
-              <dt>Uitgegeven op</dt><dd>2024-03-22</dd>
-              <dt>Deze versie</dt><dd><a href="https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-04-25">https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-04-25</a></dd>
+              <dt>Uitgegeven op</dt><dd>2024-07-04</dd>
+              <dt>Deze versie</dt><dd><a href="https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-07-04">https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-07-04</a></dd>
               
               
-              <dt>Vorige versie</dt><dd><a href="/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22">/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-03-22</a></dd>
+              <dt>Vorige versie</dt><dd><a href="/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-04-25">/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-04-25</a></dd>
               
               </dl>
               </div>
@@ -243,8 +243,8 @@
 
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/e9ec6d191fdbf2c56a734bda9e829ef8e9ce3215">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/e9ec6d191fdbf2c56a734bda9e829ef8e9ce3215</a></dd>
-              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/e9ec6d191fdbf2c56a734bda9e829ef8e9ce3215/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/e9ec6d191fdbf2c56a734bda9e829ef8e9ce3215/CHANGELOG</a></dd>
+              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/0bbc427cf41dcba93f924b9616bdf5d2f7200fcd">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/0bbc427cf41dcba93f924b9616bdf5d2f7200fcd</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/0bbc427cf41dcba93f924b9616bdf5d2f7200fcd/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/0bbc427cf41dcba93f924b9616bdf5d2f7200fcd/CHANGELOG</a></dd>
               <dt>Opmerkingen en feedback</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/issues">https://github.com/Informatievlaanderen/ipdc-lpdc/issues</a></dd>
               <dt>Standaardenregister</dt><dd><a href="https://data.vlaanderen.be/standaarden">https://data.vlaanderen.be/standaarden</a></dd>
 
@@ -281,8 +281,8 @@
                 
 <p>
     <em>
-        Dit implementatiemodel is een implementatiemodel van het <a href="https://belgif.github.io/thematic/models/public%20services/index_en.html">ICEG applicatieprofiel public service</a>
-        en volgt het <a href="https://data.vlaanderen.be/ns/dienst">OSLO Vocabularium 'Dienst'</a>.
+        Dit implementatiemodel is een implementatiemodel van het <a target="_blank" href="https://belgif.github.io/thematic/models/public%20services/index_en.html">ICEG applicatieprofiel public service</a>
+        en volgt het <a target="_blank" href="https://data.vlaanderen.be/ns/dienst">OSLO Vocabularium 'Dienst'</a>.
         Veel zaken worden overgenomen vanuit het ICEG model en zijn daarom enkel in het Engels beschreven. Specifieke uitbreidingen binnen dit datamodel worden wel in het Nederlands beschreven.
     </em>
 </p>
@@ -292,11 +292,49 @@
     Er wordt beschreven hoe er gecommuniceerd kan worden vanuit en naar de lokale producten- en dienstencatalogus (LPDC) en de interbestuurlijke producten- en dienstencatalogus (IPDC).
 </p>
 
+<h4>JSON-LD Context</h4>
+<p>
+    <em>
+        Onderstaande JSON-LD contexten worden beheerd door het IPDC team van Digitaal Vlaanderen.
+    </em>
+    <br>
+    <br>
+    Een herbruikbare JSON-LD context voor dit implementatiemodel is op volgende locatie terug te vinden:
+    <ul>
+        <li><a target="_blank" href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/jsonld/ipdc-lpdc-im.jsonld">IPDC-LPDC JSON-LD context</a></li>
+    </ul>
+    Naast het uitwisselen van individuele instanties, concepten en bijhorende snapshots is het ook mogelijk lijsten van deze gegevens uit te wisselen. Dit gebeurt op verschillende manieren:
+    <ul>
+        <li>
+            Lijsten van instantie- en conceptsnapshots worden gepagineerd aangeboden door gebruik te maken van de <a target="_blank" href="https://semiceu.github.io/LinkedDataEventStreams/">LDES specificatie</a>.
+            In volgende <a target="_blank" href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/jsonld/ldes.jsonld">LDES JSON-LD context</a> wordt vastgelegd welke definities gebruikt worden.
+        </li>
+        <li>
+            Lijsten van instanties en concepten worden gepagineerd aangeboden door gebruik te maken van de <a target="_blank" href="https://www.hydra-cg.com/spec/latest/core/">Hydra specificatie</a>.
+            In volgende <a target="_blank" href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/jsonld/hydra.jsonld">Hydra JSON-LD context</a> wordt vastgelegd welke definities gebruikt worden.
+        </li>
+    </ul>
+</p>
+
+<h4>SHACL Template</h4>
+<p>
+    <em>
+        Onderstaande SHACL templates worden beheerd door het LPDC team van Agentschap Binnenlands Bestuur.
+    </em>
+    <br>
+    <br>
+    Herbruikbare SHACL templates voor dit implementatiemodel zijn op volgende locaties terug te vinden en kunnen gebruikt worden om data te valideren:
+    <ul>
+        <li><a target="_blank" href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/shacl/instantie-shape.ttl">Instantie SHACL template</a></li>
+        <li><a target="_blank" href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/shacl/concept-shape.ttl">Concept SHACL template</a></li>
+    </ul>
+</p>
+
 <h4>Meertaligheid</h4>
 <p>
     Alle vertaalbare velden hebben het type TaalString. Een TaalString is de combinatie van een tekstuele waarde met
     een aanduiding van de taal. De aanduiding van de taal wordt gedaan aan de hand van een
-    <a href="https://www.rfc-editor.org/rfc/rfc5646.html">language tag</a>. De standaard language tags die ondersteund
+    <a target="_blank" href="https://www.rfc-editor.org/rfc/rfc5646.html">language tag</a>. De standaard language tags die ondersteund
     worden in dit implementatiemodel zijn de volgende. Houd er rekening mee dat op termijn nieuwe language tags ondersteund kunnen worden.
     <ul>
         <li>nl: Nederlands (verplicht)</li>
@@ -306,8 +344,16 @@
     </ul>
 </p>
 <p>
+    In het implementatiemodel worden de kardinaliteiten voor TaalStrings altijd aangegeven vanuit één taal. Zo geeft
+    kardinaliteit 1 aan dat er exact 1 tekstuele waarde per taal toegestaan is. Kardinaliteit 0..1 geeft aan dat er per taal
+    geen of één waarde toegelaten is. De uitzonderlijk kardinaliteit 0..* geeft aan dat er per taal meerdere waardes
+    toegestaan zijn.
+</p>
+
+<h5>Formeel (u) versus informeel (je)</h5>
+<p>
     Om voor Nederlandse teksten het onderscheid te kunnen maken tussen formele teksten (u vorm) en informele teksten
-    (je vorm) werden enkele <a href="https://www.rfc-editor.org/rfc/rfc5646.html#section-2.2.7">private use language subtags</a> afgesproken.
+    (je vorm) werden enkele <a target="_blank" href="https://www.rfc-editor.org/rfc/rfc5646.html#section-2.2.7">private use language subtags</a> afgesproken.
     <ul>
         <li>nl-BE-x-formal: formele tekst manueel ingegeven door een redacteur</li>
         <li>nl-BE-x-informal: informele tekst manueel ingegeven door een redacteur</li>
@@ -321,28 +367,32 @@
     Bij het uitlezen van IPDC zal de nl tag steeds aanwezig zijn. Hiernaast zal steeds ofwel de door een redacteur ingegeven formele vorm (nl-BE-x-formal) of gegeneerde formele vorm (nl-BE-x-generated-formal) beschikbaar zijn.
     Alsook de door een redacteur ingegeven informele vorm (nl-BE-x-informal) of gegeneerde informele vorm (nl-BE-x-generated-informal).
 </p>
+
+<h5>Engels</h5>
 <p>
-    In het implementatiemodel worden de kardinaliteiten voor TaalStrings altijd aangegeven vanuit één taal. Zo geeft
-    kardinaliteit 1 aan dat er exact 1 tekstuele waarde per taal toegestaan is. Kardinaliteit 0..1 geeft aan dat er per taal
-    geen of één waarde toegelaten is. De uitzonderlijk kardinaliteit 0..* geeft aan dat er per taal meerdere waardes
-    toegestaan zijn.
+    Instanties met publicatiekanaal YourEurope worden ontsloten op het <a target="_blank" href="https://europa.eu/youreurope">YourEurope portaal</a>.
+    Om deze instanties maximaal vindbaar te maken met een minimum aan redactiewerk worden deze YourEurope instanties automatisch naar het Engelse vertaald.
+    Automatische vertaalde Engelse teksten worden in het model weergegeven door volgende <a target="_blank" href="https://www.rfc-editor.org/rfc/rfc5646.html#section-2.2.7">private use language subtag</a>
+    <ul>
+        <li>en-x-generated: automatisch gegenereerde Engelse tekst</li>
+    </ul>
 </p>
 
 <h4>Snapshots</h4>
 <p>
     Een snapshot geeft weer hoe een instantie of concept er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe snapshot aangemaakt worden
-    die alle op dat moment ingevulde attributen en associaties capteert. Op deze manier wordt de volledig redactie historiek van een instatnie of concept vastgelegd.
+    die alle op dat moment ingevulde attributen en associaties capteert. Op deze manier wordt de volledig redactie historiek van een instantie of concept vastgelegd.
     Om het diagram overzichtelijk te houden worden op de snapshot klasses de attributen en associaties van instanties en concepten niet herhaald.
     In de detail beschrijving van deze klasses zijn alle attributen en associaties wel terug te vinden.
 </p>
 
 <h4>Meer weten?</h4>
 <p>
-    Een volledig overzicht van alle beschikbare concepten en instanties is terug te vinden in <a href="https://productencatalogus-v3.vlaanderen.be">de productencatalogus</a>.
-    Achter de schermen wordt al deze dienstverlening bewaart in <a href="https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/interbestuurlijke-producten-en-dienstencatalogus-ipdc">IPDC</a>.
+    Een volledig overzicht van alle beschikbare concepten en instanties is terug te vinden in <a target="_blank" href="https://productencatalogus-v3.vlaanderen.be">de productencatalogus</a>.
+    Achter de schermen wordt al deze dienstverlening bewaart in <a target="_blank" href="https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/interbestuurlijke-producten-en-dienstencatalogus-ipdc">IPDC</a>.
     Wens je de informatie over deze dienstverlening te integreren in je eigen oplossingen dan is dit mogelijk via de
-    <a href="https://ipdc.vlaanderen.be/docs/swagger-ui/index.html">IPDC API</a>. Neem hiervoor zeker een kijkje in
-    <a href="https://vlaamseoverheid.atlassian.net/wiki/external/6317081715/ZGU4MGNlODM2N2U1NDU5MGFlY2NlYzcxYmQyYWUwMTc">de aansluitersgids</a>.
+    <a target="_blank" href="https://ipdc.vlaanderen.be/docs/swagger-ui/index.html">IPDC API</a>. Neem hiervoor zeker een kijkje in
+    <a target="_blank" href="https://vlaamseoverheid.atlassian.net/wiki/external/6317081715/ZGU4MGNlODM2N2U1NDU5MGFlY2NlYzcxYmQyYWUwMTc">de aansluitersgids</a>.
 </p>
 
             </div>
@@ -352,7 +402,7 @@
                 <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Status van dit document</h2>
                 
                 <p>
-                  Dit implementatiemodel heeft status <a href="https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard">Ontwerp Standaard</a> en werd uitgegeven op 2024-03-22.
+                  Dit implementatiemodel heeft status <a href="https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard">Ontwerp Standaard</a> en werd uitgegeven op 2024-07-04.
 	        </p><p>
                   Informatie over het gevolgde proces en de beslissingen om tot deze specificatie te komen zijn beschikbaar in het 
                   <a href="https://data.vlaanderen.be/standaarden">standaardenregister</a>.
@@ -405,8 +455,8 @@
             </div>
 
             <div class="region region--no-space-top">
-              <a href="/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-04-25/html/overview.jpg" target="_blank">
-                 <img src="/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-04-25/html/overview.jpg" />
+              <a href="/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-07-04/html/overview.jpg" target="_blank">
+                 <img src="/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-07-04/html/overview.jpg" />
               </a>
               
               
@@ -753,7 +803,7 @@
                         <td>0..*</td>
                         <td property="rdfs:comment">Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/bevoegd-bestuursniveau.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/bevoegd-bestuursniveau.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Concept%3Abevoegdeoverheden" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/hasCompetentAuthority">
@@ -813,7 +863,7 @@
                         <td>0..*</td>
                         <td property="rdfs:comment">Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/doelgroep.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/doelgroep.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Concept%3Aeindedienstverlening" typeof="rdfs:Property" resource="http://schema.org/endDate">
@@ -950,7 +1000,7 @@
 			    
                           
                         </td>
-                        <td>0..1</td>
+                        <td>0..*</td>
                         <td property="rdfs:comment">The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario.</td>
                         <td property="vann:usageNote"></td>
                         <td></td>
@@ -993,7 +1043,7 @@
                         <td>0..*</td>
                         <td property="rdfs:comment">Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/publicatie-kanaal.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/publicatie-kanaal.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Concept%3Aregelgeving" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/hasLegalResource">
@@ -1074,7 +1124,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">Concept tag voor een publieke dienst concept. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/concept-tag.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/concept-tag.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Concept%3Athemas" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/thematicArea">
@@ -1094,7 +1144,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">Thema van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/thema.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/thema.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Concept%3Atype" typeof="rdfs:Property" resource="http://purl.org/dc/terms/type">
@@ -1114,7 +1164,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..1</td>
                         <td property="rdfs:comment">Type van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/type.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/type.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Concept%3Auitvoerendbestuursniveaus" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel">
@@ -1134,7 +1184,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/uitvoerend-bestuursniveau.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/uitvoerend-bestuursniveau.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Concept%3Auitvoerendeoverheden" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority">
@@ -1211,7 +1261,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
 			    
                           
                         </td>
-                        <td>0..1</td>
+                        <td>0..*</td>
                         <td property="rdfs:comment">Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.</td>
                         <td property="vann:usageNote"></td>
                         <td></td>
@@ -1254,7 +1304,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/your-europe-categorie.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/your-europe-categorie.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Concept%3Azoektermen" typeof="rdfs:Property" resource="http://www.w3.org/ns/dcat#keyword">
@@ -1381,7 +1431,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/bevoegd-bestuursniveau.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/bevoegd-bestuursniveau.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Conceptsnapshot%3Abevoegdeoverheden" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/hasCompetentAuthority">
@@ -1441,7 +1491,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/doelgroep.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/doelgroep.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Conceptsnapshot%3Aeindedienstverlening" typeof="rdfs:Property" resource="http://schema.org/endDate">
@@ -1618,7 +1668,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
 			    
                           
                         </td>
-                        <td>0..1</td>
+                        <td>0..*</td>
                         <td property="rdfs:comment">The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario.</td>
                         <td property="vann:usageNote"></td>
                         <td></td>
@@ -1661,7 +1711,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/publicatie-kanaal.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/publicatie-kanaal.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Conceptsnapshot%3Aregelgeving" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/hasLegalResource">
@@ -1742,7 +1792,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">Concept tag voor een publieke dienst concept. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/concept-tag.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/concept-tag.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Conceptsnapshot%3Athemas" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/thematicArea">
@@ -1762,7 +1812,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">Thema van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/thema.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/thema.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Conceptsnapshot%3Atype" typeof="rdfs:Property" resource="http://purl.org/dc/terms/type">
@@ -1782,7 +1832,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..1</td>
                         <td property="rdfs:comment">Type van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/type.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/type.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Conceptsnapshot%3Auitvoerendbestuursniveaus" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel">
@@ -1802,7 +1852,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/uitvoerend-bestuursniveau.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/uitvoerend-bestuursniveau.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Conceptsnapshot%3Auitvoerendeoverheden" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority">
@@ -1879,7 +1929,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
 			    
                           
                         </td>
-                        <td>0..1</td>
+                        <td>0..*</td>
                         <td property="rdfs:comment">Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.</td>
                         <td property="vann:usageNote"></td>
                         <td></td>
@@ -1922,7 +1972,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/your-europe-categorie.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/your-europe-categorie.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Conceptsnapshot%3Azoektermen" typeof="rdfs:Property" resource="http://www.w3.org/ns/dcat#keyword">
@@ -2230,7 +2280,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                     <dt>Eigenschappen</dt>
 		     
                     <dd>Voor deze entiteit zijn de volgende eigenschappen gedefinieerd:
-                      <a href="#Instantie%3Abeheerder">beheerder</a>, 
+                      <a href="#Instantie%3Aaangemaaktdoor">aangemaaktDoor</a>, 
                       <a href="#Instantie%3Abeschrijving">beschrijving</a>, 
                       <a href="#Instantie%3Abevoegdbestuursniveaus">bevoegdBestuursniveaus</a>, 
                       <a href="#Instantie%3Abevoegdeoverheden">bevoegdeOverheden</a>, 
@@ -2282,11 +2332,11 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
 
                     <tbody class="supertype">
                     
-                      <tr id="Instantie%3Abeheerder" typeof="rdfs:Property" resource="http://purl.org/pav/createdBy">
+                      <tr id="Instantie%3Aaangemaaktdoor" typeof="rdfs:Property" resource="http://purl.org/pav/createdBy">
                         <td>
                           <code property="rdfs:label">
                             <a href="http://purl.org/pav/createdBy" data-toggle="tooltip" data-content="http://purl.org/pav/createdBy" data-placement="right">
-                            beheerder</a>
+                            aangemaaktDoor</a>
                           </code>
                         </td>
                         <td>
@@ -2339,7 +2389,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/bevoegd-bestuursniveau.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/bevoegd-bestuursniveau.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Instantie%3Abevoegdeoverheden" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/hasCompetentAuthority">
@@ -2419,7 +2469,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/doelgroep.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/doelgroep.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Instantie%3Aeindedienstverlening" typeof="rdfs:Property" resource="http://schema.org/endDate">
@@ -2497,9 +2547,9 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                           
                         </td>
                         <td>1..*</td>
-                        <td property="rdfs:comment">Geografisch toepassingsgebied van een pubieke dienst. Het geografisch toepassingsgebied wordt voorgesteld aan de hand van een NUTS of LAU code. NUTS codes zijn hierarisch ingedeeld in 4 niveau&#39;s. Op het hoogste niveau, NUTS 0, worden de landen ingedeeld en krijgt belgie de code BE. Eén niveau daaronder, NUTS 1, deelt Belgie verder op in de gewesten. Zo krijgt het Vlaams Gewest code BE2. Elk gewest wordt op zijn beurt op NUTS 2 niveau verder ingedeeld in de provincies. Zo krijgt de provincie Antwerpen bijvoorbeeld code BE21. Elke provincie wordt vervolgens op NUTS 3 niveau nog onderverdeeld in arrondissmenten. Zo krijgt het arrondissment Mechelen code BE212. Een fijnere opdeling in gemeenten kan vervolgens gemaakt worden met de LAU codes. Zo krijgt de gemeente Kontich LAU code 11024. Meer informatie over deze opdeling is hier terug te vinden: https://ec.europa.eu/eurostat/web/nuts. Zowel de NUTS als LAU codes worden beheerd door Eurostat. We volgen momenteel de meest recent gevalideerde mapping: NUTS 2016 in combinatie met LAU 2019. De NUTS codelijst wordt door Europa gepubliceerd op https://publications.europa.eu/resource/authority/nuts. Deze gaat echter niet tot op LAU niveau er bestaat ook geen gepubliceerde codelijst voor de LAU codes. Als oplossing maakte het IPDC - LPDC team een uitbreiding op de NUTS codelijst en werd een extra hierarchish niveau onder NUTS 3 toegevoegd om ook de gemeentes met hun LAU code beschikbaar te maken. De code voor een gemeente in deze codelijst is de concatenatie van de omvattende NUTS3 code voor de gemeente en de LAU code. Zo krijgt de gemeente Kontich bijvoorbeeld de code BE21111024.</td>
+                        <td property="rdfs:comment">Geografisch toepassingsgebied van een pubieke dienst: Vlaamse provincies en gemeenten.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Dit zijn alle NUTS en LAU codes die binnen het Vlaams Gewest en Brussels Hoofdstedelijk Gewest vallen en het Federaal niveau voorstellen.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/geografisch-toepassingsgebied.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/geografisch-toepassingsgebied.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Instantie%3Akosten" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/hasCost">
@@ -2596,7 +2646,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
 			    
                           
                         </td>
-                        <td>0..1</td>
+                        <td>0..*</td>
                         <td property="rdfs:comment">The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario.</td>
                         <td property="vann:usageNote"></td>
                         <td></td>
@@ -2639,7 +2689,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/publicatie-kanaal.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/publicatie-kanaal.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Instantie%3Aregelgeving" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/hasLegalResource">
@@ -2720,7 +2770,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">Instantie tag voor een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Momenteel zijn er geen geldige waardes.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/instantie-tag.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/instantie-tag.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Instantie%3Atalen" typeof="rdfs:Property" resource="http://purl.org/dc/terms/language">
@@ -2760,7 +2810,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">Thema van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/thema.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/thema.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Instantie%3Atype" typeof="rdfs:Property" resource="http://purl.org/dc/terms/type">
@@ -2780,7 +2830,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..1</td>
                         <td property="rdfs:comment">Type van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/type.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/type.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Instantie%3Auitvoerendbestuursniveaus" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel">
@@ -2800,7 +2850,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/uitvoerend-bestuursniveau.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/uitvoerend-bestuursniveau.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Instantie%3Auitvoerendeoverheden" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority">
@@ -2877,7 +2927,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
 			    
                           
                         </td>
-                        <td>0..1</td>
+                        <td>0..*</td>
                         <td property="rdfs:comment">Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.</td>
                         <td property="vann:usageNote"></td>
                         <td></td>
@@ -2920,7 +2970,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/your-europe-categorie.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/your-europe-categorie.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Instantie%3Azoektermen" typeof="rdfs:Property" resource="http://www.w3.org/ns/dcat#keyword">
@@ -2961,7 +3011,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                     <dt>Eigenschappen</dt>
 		     
                     <dd>Voor deze entiteit zijn de volgende eigenschappen gedefinieerd:
-                      <a href="#Instantiesnapshot%3Abeheerder">beheerder</a>, 
+                      <a href="#Instantiesnapshot%3Aaangemaaktdoor">aangemaaktDoor</a>, 
                       <a href="#Instantiesnapshot%3Abeschrijving">beschrijving</a>, 
                       <a href="#Instantiesnapshot%3Abevoegdbestuursniveaus">bevoegdBestuursniveaus</a>, 
                       <a href="#Instantiesnapshot%3Abevoegdeoverheden">bevoegdeOverheden</a>, 
@@ -3015,11 +3065,11 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
 
                     <tbody class="supertype">
                     
-                      <tr id="Instantiesnapshot%3Abeheerder" typeof="rdfs:Property" resource="http://purl.org/pav/createdBy">
+                      <tr id="Instantiesnapshot%3Aaangemaaktdoor" typeof="rdfs:Property" resource="http://purl.org/pav/createdBy">
                         <td>
                           <code property="rdfs:label">
                             <a href="http://purl.org/pav/createdBy" data-toggle="tooltip" data-content="http://purl.org/pav/createdBy" data-placement="right">
-                            beheerder</a>
+                            aangemaaktDoor</a>
                           </code>
                         </td>
                         <td>
@@ -3072,7 +3122,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">Bevoegd bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/bevoegd-bestuursniveau.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/bevoegd-bestuursniveau.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Instantiesnapshot%3Abevoegdeoverheden" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/hasCompetentAuthority">
@@ -3152,7 +3202,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">Doelgroep waarop een publieke dienstverlening gericht is. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/doelgroep.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/doelgroep.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Instantiesnapshot%3Aeindedienstverlening" typeof="rdfs:Property" resource="http://schema.org/endDate">
@@ -3250,9 +3300,9 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                           
                         </td>
                         <td>1..*</td>
-                        <td property="rdfs:comment">Geografisch toepassingsgebied van een pubieke dienst. Het geografisch toepassingsgebied wordt voorgesteld aan de hand van een NUTS of LAU code. NUTS codes zijn hierarisch ingedeeld in 4 niveau&#39;s. Op het hoogste niveau, NUTS 0, worden de landen ingedeeld en krijgt belgie de code BE. Eén niveau daaronder, NUTS 1, deelt Belgie verder op in de gewesten. Zo krijgt het Vlaams Gewest code BE2. Elk gewest wordt op zijn beurt op NUTS 2 niveau verder ingedeeld in de provincies. Zo krijgt de provincie Antwerpen bijvoorbeeld code BE21. Elke provincie wordt vervolgens op NUTS 3 niveau nog onderverdeeld in arrondissmenten. Zo krijgt het arrondissment Mechelen code BE212. Een fijnere opdeling in gemeenten kan vervolgens gemaakt worden met de LAU codes. Zo krijgt de gemeente Kontich LAU code 11024. Meer informatie over deze opdeling is hier terug te vinden: https://ec.europa.eu/eurostat/web/nuts. Zowel de NUTS als LAU codes worden beheerd door Eurostat. We volgen momenteel de NUTS 2021 classificatie en de laatst gevalideerde LAU 2019 classificatie. De NUTS codelijst wordt door Europa gepubliceerd op https://publications.europa.eu/resource/authority/nuts. Deze gaat echter niet tot op LAU niveau er bestaat ook geen gepubliceerde codelijst voor de LAU codes. Als oplossing maakte het IPDC - LPDC team een uitbreiding op de NUTS codelijst en werd een extra hierarchish niveau onder NUTS 3 toegevoegd om ook de gemeentes met hun LAU code beschikbaar te maken. De code voor een gemeente in deze codelijst is de concatenatie van de omvattende NUTS3 code voor de gemeente en de LAU code. Zo krijgt de gemeente Kontich bijvoorbeeld de code BE21111024.</td>
+                        <td property="rdfs:comment">Geografisch toepassingsgebied van een pubieke dienst: Vlaamse provincies en gemeenten.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Dit zijn alle NUTS en LAU codes die binnen het Vlaams Gewest en Brussels Hoofdstedelijk Gewest vallen en het Federaal niveau voorstellen.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/geografisch-toepassingsgebied.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/geografisch-toepassingsgebied.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Instantiesnapshot%3Aisversionof" typeof="rdfs:Property" resource="http://purl.org/dc/terms/isVersionOf">
@@ -3369,7 +3419,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
 			    
                           
                         </td>
-                        <td>0..1</td>
+                        <td>0..*</td>
                         <td property="rdfs:comment">The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario.</td>
                         <td property="vann:usageNote"></td>
                         <td></td>
@@ -3412,7 +3462,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/publicatie-kanaal.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/publicatie-kanaal.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Instantiesnapshot%3Aregelgeving" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/hasLegalResource">
@@ -3493,7 +3543,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">Instantie tag voor een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Momenteel zijn er geen geldige waardes.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/instantie-tag.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/instantie-tag.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Instantiesnapshot%3Atalen" typeof="rdfs:Property" resource="http://purl.org/dc/terms/language">
@@ -3533,7 +3583,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">Thema van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/thema.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/thema.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Instantiesnapshot%3Atype" typeof="rdfs:Property" resource="http://purl.org/dc/terms/type">
@@ -3553,7 +3603,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..1</td>
                         <td property="rdfs:comment">Type van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/type.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/type.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Instantiesnapshot%3Auitvoerendbestuursniveaus" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel">
@@ -3573,7 +3623,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/uitvoerend-bestuursniveau.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/uitvoerend-bestuursniveau.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Instantiesnapshot%3Auitvoerendeoverheden" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority">
@@ -3650,7 +3700,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
 			    
                           
                         </td>
-                        <td>0..1</td>
+                        <td>0..*</td>
                         <td property="rdfs:comment">Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.</td>
                         <td property="vann:usageNote"></td>
                         <td></td>
@@ -3693,7 +3743,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..*</td>
                         <td property="rdfs:comment">YourEurope categorie in het kader van de Single Digital Gateway verordening. Enkel dienstverlening die binnen één van deze categorieen valt moet doorgestuurd worden naar SDG. De categorieen en subcategorieen werden bepaald door het Europees Parlement. Deze werden door het IPDC - LPDC team vertaald naar een codelijst bij gebrek aan een Europese codelijst.</td>
                         <td property="vann:usageNote">De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom.</td>
-                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-03-22/codelijsten/your-europe-categorie.ttl">Link</a></td>
+                        <td><a href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/your-europe-categorie.ttl">Link</a></td>
                       </tr>
                     
                       <tr id="Instantiesnapshot%3Azoektermen" typeof="rdfs:Property" resource="http://www.w3.org/ns/dcat#keyword">
@@ -3832,6 +3882,7 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                     <dd>Voor deze entiteit zijn de volgende eigenschappen gedefinieerd:
                       <a href="#Procedure%3Abeschrijving">beschrijving</a>, 
                       <a href="#Procedure%3Anaam">naam</a>, 
+                      <a href="#Procedure%3Aorder">order</a>, 
                       <a href="#Procedure%3Awebsites">websites</a>.</dd>
                     
                   </dl>
@@ -3889,6 +3940,26 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>1</td>
                         <td property="rdfs:comment">This property represents the Name of the Rule.</td>
                         <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Procedure%3Aorder" typeof="rdfs:Property" resource="http://www.w3.org/ns/shacl#order">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://www.w3.org/ns/shacl#order" data-toggle="tooltip" data-content="http://www.w3.org/ns/shacl#order" data-placement="right">
+                            order</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#integer" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#integer" data-placement="right">Integer</a>
+                            
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment">Specifies the relative order of this item compared to its siblings.</td>
+                        <td property="vann:usageNote">Items are sorted in ascending order, for example use 1 for the first, 2 for the second.</td>
                         <td></td>
                       </tr>
                     
@@ -4071,7 +4142,8 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                     <dd>Voor deze entiteit zijn de volgende eigenschappen gedefinieerd:
                       <a href="#Voorwaarde%3Abeschrijving">beschrijving</a>, 
                       <a href="#Voorwaarde%3Abewijs">bewijs</a>, 
-                      <a href="#Voorwaarde%3Anaam">naam</a>.</dd>
+                      <a href="#Voorwaarde%3Anaam">naam</a>, 
+                      <a href="#Voorwaarde%3Aorder">order</a>.</dd>
                     
                   </dl>
                 </div>
@@ -4148,6 +4220,26 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>1</td>
                         <td property="rdfs:comment">This property represents the official Name of the Requirement.</td>
                         <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Voorwaarde%3Aorder" typeof="rdfs:Property" resource="http://www.w3.org/ns/shacl#order">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://www.w3.org/ns/shacl#order" data-toggle="tooltip" data-content="http://www.w3.org/ns/shacl#order" data-placement="right">
+                            order</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#integer" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#integer" data-placement="right">Integer</a>
+                            
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment">Specifies the relative order of this item compared to its siblings.</td>
+                        <td property="vann:usageNote">Items are sorted in ascending order, for example use 1 for the first, 2 for the second.</td>
                         <td></td>
                       </tr>
                     
@@ -4287,14 +4379,14 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                 <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">JSON-LD context</h2>
                 (niet normatief)
                 
-                <p>Een herbruikbare JSON-LD context definitie voor dit implementatiemodel is terug te vinden op: <a href="/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-04-25/context/ipdc-lpdc-im.jsonld" target="_blank">/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-04-25/context/ipdc-lpdc-im.jsonld</a></p>
+                <p>Een herbruikbare JSON-LD context definitie voor dit implementatiemodel is terug te vinden op: <a href="/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-07-04/context/ipdc-lpdc-im.jsonld" target="_blank">/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-07-04/context/ipdc-lpdc-im.jsonld</a></p>
                 
             </div>
             <div class="region region--no-space-top" id="shacl">
                 <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">SHACL template</h2>
                 (niet normatief)
                 
-                <p>Een herbruikbare SHACL template definitie voor dit implementatiemodel is terug te vinden op: <a href="/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-04-25/shacl/ipdc-lpdc-im-SHACL.ttl" target="_blank">/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-04-25/shacl/ipdc-lpdc-im-SHACL.ttl</a></p>
+                <p>Een herbruikbare SHACL template definitie voor dit implementatiemodel is terug te vinden op: <a href="/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-07-04/shacl/ipdc-lpdc-im-SHACL.ttl" target="_blank">/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-07-04/shacl/ipdc-lpdc-im-SHACL.ttl</a></p>
                 
             </div>
           </div>
