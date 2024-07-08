@@ -666,7 +666,7 @@
     {
       "@id": "http://data.europa.eu/m8g/hasCompetentAuthority",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
+      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
       "codelist": [],
       "definition": {
         "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
@@ -676,15 +676,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Conceptual Public Service",
-          "uri": "http://purl.org/vocab/cpsv#PublicService"
+          "EA-Name": "Instance Public Service",
+          "uri": "http://fixme.com#Instance Public Service"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "Conceptual Public Service",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
+        "EA-Domain": "Instance Public Service",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
         "EA-Name": "hasCompetentAuthority",
         "EA-Package": "",
         "EA-Range": "PubliekeOrganisatie",
@@ -707,14 +707,14 @@
             "value": "NOTE"
           },
           {
-            "key": "definition-nl",
-            "note": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\".",
-            "value": "NOTE"
-          },
-          {
             "key": "label-nl",
             "note": "null",
             "value": "hasCompetentAuthority"
+          },
+          {
+            "key": "definition-nl",
+            "note": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\".",
+            "value": "NOTE"
           },
           {
             "key": "usageNote-nl",
@@ -781,7 +781,7 @@
     {
       "@id": "http://data.europa.eu/m8g/hasCompetentAuthority",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
+      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
       "codelist": [],
       "definition": {
         "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\"."
@@ -791,15 +791,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Instance Public Service",
-          "uri": "http://fixme.com#Instance Public Service"
+          "EA-Name": "Conceptual Public Service",
+          "uri": "http://purl.org/vocab/cpsv#PublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "Instance Public Service",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
+        "EA-Domain": "Conceptual Public Service",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
         "EA-Name": "hasCompetentAuthority",
         "EA-Package": "",
         "EA-Range": "PubliekeOrganisatie",
@@ -822,14 +822,14 @@
             "value": "NOTE"
           },
           {
-            "key": "label-nl",
-            "note": "null",
-            "value": "hasCompetentAuthority"
-          },
-          {
             "key": "definition-nl",
             "note": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\".",
             "value": "NOTE"
+          },
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "hasCompetentAuthority"
           },
           {
             "key": "usageNote-nl",
@@ -4442,106 +4442,6 @@
     {
       "@id": "http://purl.org/vocab/cpsv#follows",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
-      "codelist": [],
-      "definition": {
-        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-      },
-      "definition-nl": {
-        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-      },
-      "domain": [
-        {
-          "EA-Name": "Instance Public Service",
-          "uri": "http://fixme.com#Instance Public Service"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [],
-        "EA-Domain": "Instance Public Service",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
-        "EA-Name": "follows",
-        "EA-Package": "",
-        "EA-Range": "Procedure",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
-          "EA-Name": "Procedure",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://purl.org/vocab/cpsv#Rule"
-        },
-        "RawTags": [
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://purl.org/vocab/cpsv#follows"
-          },
-          {
-            "key": "description-nl",
-            "note": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario.",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "follows"
-          },
-          {
-            "key": "definition-nl",
-            "note": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario.",
-            "value": "NOTE"
-          }
-        ],
-        "Scope": "TRANSLATIONS_ONLY",
-        "definition": {
-          "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-        },
-        "definition-en": "",
-        "definition-nl": {
-          "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-        },
-        "derived": "false",
-        "destRole": "null",
-        "equivalent": "",
-        "label": {
-          "nl": "follows"
-        },
-        "label-en": "",
-        "label-nl": {
-          "nl": "follows"
-        },
-        "sameAs": "",
-        "sourceRole": "null",
-        "subclass": "",
-        "subclass1": "",
-        "usage": "",
-        "usageNote-en": "",
-        "usageNote-nl": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "nl": "follows"
-      },
-      "label-nl": {
-        "nl": "follows"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "0",
-      "name": "follows",
-      "range": [
-        {
-          "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
-          "EA-Name": "Procedure",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://purl.org/vocab/cpsv#Rule"
-        }
-      ]
-    },
-    {
-      "@id": "http://purl.org/vocab/cpsv#follows",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
       "codelist": [],
       "definition": {
@@ -4640,15 +4540,15 @@
       ]
     },
     {
-      "@id": "http://purl.org/vocab/cpsv#produces",
+      "@id": "http://purl.org/vocab/cpsv#follows",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+      "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
       "codelist": [],
       "definition": {
-        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
       },
       "definition-nl": {
-        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
       },
       "domain": [
         {
@@ -4660,7 +4560,107 @@
         "DestRoleTags": [],
         "EA-Domain": "Instance Public Service",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+        "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
+        "EA-Name": "follows",
+        "EA-Package": "",
+        "EA-Range": "Procedure",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
+          "EA-Name": "Procedure",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://purl.org/vocab/cpsv#Rule"
+        },
+        "RawTags": [
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://purl.org/vocab/cpsv#follows"
+          },
+          {
+            "key": "description-nl",
+            "note": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario.",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "follows"
+          },
+          {
+            "key": "definition-nl",
+            "note": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario.",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "definition": {
+          "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+        },
+        "definition-en": "",
+        "definition-nl": {
+          "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+        },
+        "derived": "false",
+        "destRole": "null",
+        "equivalent": "",
+        "label": {
+          "nl": "follows"
+        },
+        "label-en": "",
+        "label-nl": {
+          "nl": "follows"
+        },
+        "sameAs": "",
+        "sourceRole": "null",
+        "subclass": "",
+        "subclass1": "",
+        "usage": "",
+        "usageNote-en": "",
+        "usageNote-nl": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "nl": "follows"
+      },
+      "label-nl": {
+        "nl": "follows"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "0",
+      "name": "follows",
+      "range": [
+        {
+          "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
+          "EA-Name": "Procedure",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://purl.org/vocab/cpsv#Rule"
+        }
+      ]
+    },
+    {
+      "@id": "http://purl.org/vocab/cpsv#produces",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+      "codelist": [],
+      "definition": {
+        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+      },
+      "definition-nl": {
+        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+      },
+      "domain": [
+        {
+          "EA-Name": "Conceptual Public Service",
+          "uri": "http://purl.org/vocab/cpsv#PublicService"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "Conceptual Public Service",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
         "EA-Name": "produces",
         "EA-Package": "",
         "EA-Range": "FinancialAdvantage",
@@ -4742,7 +4742,7 @@
     {
       "@id": "http://purl.org/vocab/cpsv#produces",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
       "codelist": [],
       "definition": {
         "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
@@ -4752,15 +4752,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Conceptual Public Service",
-          "uri": "http://purl.org/vocab/cpsv#PublicService"
+          "EA-Name": "Instance Public Service",
+          "uri": "http://fixme.com#Instance Public Service"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "Conceptual Public Service",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+        "EA-Domain": "Instance Public Service",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
         "EA-Name": "produces",
         "EA-Package": "",
         "EA-Range": "FinancialAdvantage",
@@ -10432,7 +10432,7 @@
   "title-nl": {
     "nl": "TODO"
   },
-  "toolchaincommit": "fb5335e63c9065d44c6c59eaa77eae0a8462dd89",
+  "toolchaincommit": "fe3af8388435da6c1fdb5687b33eb9ee41a12556",
   "translation": [
     {
       "language": "nl",

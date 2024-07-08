@@ -2124,7 +2124,7 @@
     {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+      "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
       "ap-definition-nl": {
         "nl": "TODO"
       },
@@ -2134,15 +2134,15 @@
       "codelist": [],
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+          "EA-Name": "ConceptualPublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
         "EA-Name": "hasExecutingAuthority",
         "EA-Package": "",
         "EA-Range": "PubliekeOrganisatie",
@@ -2155,6 +2155,11 @@
         },
         "RawTags": [
           {
+            "key": "uri",
+            "note": "null",
+            "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
+          },
+          {
             "key": "label-nl",
             "note": "null",
             "value": "hasExecutingAuthority"
@@ -2163,11 +2168,6 @@
             "key": "usageNote-nl",
             "note": "null",
             "value": "Link naar het Organisatieregister"
-          },
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
           }
         ],
         "Scope": "NOTHING",
@@ -2213,7 +2213,7 @@
     {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
+      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
       "ap-definition-nl": {
         "nl": "TODO"
       },
@@ -2223,15 +2223,15 @@
       "codelist": [],
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
         "EA-Name": "hasExecutingAuthority",
         "EA-Package": "",
         "EA-Range": "PubliekeOrganisatie",
@@ -2244,11 +2244,6 @@
         },
         "RawTags": [
           {
-            "key": "uri",
-            "note": "null",
-            "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
-          },
-          {
             "key": "label-nl",
             "note": "null",
             "value": "hasExecutingAuthority"
@@ -2257,6 +2252,11 @@
             "key": "usageNote-nl",
             "note": "null",
             "value": "Link naar het Organisatieregister"
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
           }
         ],
         "Scope": "NOTHING",
@@ -4206,100 +4206,6 @@
     {
       "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
-      "ap-definition-nl": {
-        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
-      },
-      "ap-label-nl": {
-        "nl": "hasMoreInfo"
-      },
-      "codelist": [],
-      "definition": {
-        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
-      },
-      "domain": [
-        {
-          "EA-Name": "ConceptualPublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
-        "EA-Name": "hasMoreInfo",
-        "EA-Package": "",
-        "EA-Range": "Website",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
-          "EA-Name": "Website",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "https://schema.org/WebSite"
-        },
-        "RawTags": [
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-          },
-          {
-            "key": "description-nl",
-            "note": "null",
-            "value": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
-          },
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "hasMoreInfo"
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
-          }
-        ],
-        "Scope": "TRANSLATIONS_ONLY",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
-        },
-        "ap-label-nl": {
-          "nl": "hasMoreInfo"
-        },
-        "ap-usageNote-nl": "",
-        "definition": {
-          "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
-        },
-        "derived": "false",
-        "destRole": "null",
-        "label": {
-          "nl": "hasMoreInfo"
-        },
-        "sourceRole": "null",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "nl": "hasMoreInfo"
-      },
-      "maxCardinality": "*",
-      "minCardinality": "0",
-      "name": "hasmoreinfo",
-      "range": [
-        {
-          "EA-GUID": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
-          "EA-Name": "Website",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "https://schema.org/WebSite"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
       "ap-definition-nl": {
         "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
@@ -4392,78 +4298,78 @@
       ]
     },
     {
-      "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
+      "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
+      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
       "ap-definition-nl": {
-        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
       },
       "ap-label-nl": {
-        "nl": "hasRequirement"
+        "nl": "hasMoreInfo"
       },
       "codelist": [],
       "definition": {
-        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+          "EA-Name": "ConceptualPublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
-        "EA-Name": "hasRequirement",
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
+        "EA-Name": "hasMoreInfo",
         "EA-Package": "",
-        "EA-Range": "Requirement",
+        "EA-Range": "Website",
         "EA-Type": "connector",
         "RangeData": {
-          "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
-          "EA-Name": "Requirement",
+          "EA-GUID": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
+          "EA-Name": "Website",
           "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/m8g/Requirement"
+          "uri": "https://schema.org/WebSite"
         },
         "RawTags": [
           {
             "key": "uri",
             "note": "null",
-            "value": "http://vocab.belgif.be/ns/publicservice#hasRequirement"
+            "value": "http://www.w3.org/2000/01/rdf-schema#seeAlso"
           },
           {
             "key": "description-nl",
             "note": "null",
-            "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+            "value": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
           },
           {
             "key": "label-nl",
             "note": "null",
-            "value": "hasRequirement"
+            "value": "hasMoreInfo"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
         "ap-codelist": "",
         "ap-definition-nl": {
-          "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+          "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
         },
         "ap-label-nl": {
-          "nl": "hasRequirement"
+          "nl": "hasMoreInfo"
         },
         "ap-usageNote-nl": "",
         "definition": {
-          "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+          "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
         },
         "derived": "false",
         "destRole": "null",
         "label": {
-          "nl": "hasRequirement"
+          "nl": "hasMoreInfo"
         },
         "sourceRole": "null",
         "usage": ""
@@ -4471,17 +4377,17 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "hasRequirement"
+        "nl": "hasMoreInfo"
       },
-      "maxCardinality": "1",
+      "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "hasrequirement",
+      "name": "hasmoreinfo",
       "range": [
         {
-          "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
-          "EA-Name": "Requirement",
+          "EA-GUID": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
+          "EA-Name": "Website",
           "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/m8g/Requirement"
+          "uri": "https://schema.org/WebSite"
         }
       ]
     },
@@ -4534,6 +4440,100 @@
           {
             "key": "definition-nl",
             "note": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
+            "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+          },
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "hasRequirement"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+        },
+        "ap-label-nl": {
+          "nl": "hasRequirement"
+        },
+        "ap-usageNote-nl": "",
+        "definition": {
+          "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+        },
+        "derived": "false",
+        "destRole": "null",
+        "label": {
+          "nl": "hasRequirement"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "nl": "hasRequirement"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "0",
+      "name": "hasrequirement",
+      "range": [
+        {
+          "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
+          "EA-Name": "Requirement",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://data.europa.eu/m8g/Requirement"
+        }
+      ]
+    },
+    {
+      "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
+      "ap-definition-nl": {
+        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+      },
+      "ap-label-nl": {
+        "nl": "hasRequirement"
+      },
+      "codelist": [],
+      "definition": {
+        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+      },
+      "domain": [
+        {
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
+        "EA-Name": "hasRequirement",
+        "EA-Package": "",
+        "EA-Range": "Requirement",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
+          "EA-Name": "Requirement",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://data.europa.eu/m8g/Requirement"
+        },
+        "RawTags": [
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://vocab.belgif.be/ns/publicservice#hasRequirement"
+          },
+          {
+            "key": "description-nl",
+            "note": "null",
+            "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
             "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
           },
           {
@@ -7082,100 +7082,6 @@
     {
       "@id": "http://data.europa.eu/m8g/hasSupportingEvidence",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{CA44BB8F-550D-4d15-BB91-0FBFF973D92C}",
-      "ap-definition-nl": {
-        "nl": "The Evidence that supplies information (proof, support) for this Requirement."
-      },
-      "ap-label-nl": {
-        "nl": "hasSupportingEvidence"
-      },
-      "codelist": [],
-      "definition": {
-        "nl": "The Evidence that supplies information (proof, support) for this Requirement."
-      },
-      "domain": [
-        {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{CA44BB8F-550D-4d15-BB91-0FBFF973D92C}",
-        "EA-Name": "hasSupportingEvidence",
-        "EA-Package": "",
-        "EA-Range": "Evidence",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{AB091799-B96F-43c2-9DDE-6F32F0100B3C}",
-          "EA-Name": "Evidence",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/m8g/Evidence"
-        },
-        "RawTags": [
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://data.europa.eu/m8g/hasSupportingEvidence"
-          },
-          {
-            "key": "description-nl",
-            "note": "null",
-            "value": "The Evidence that supplies information (proof, support) for this Requirement."
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "The Evidence that supplies information (proof, support) for this Requirement."
-          },
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "hasSupportingEvidence"
-          }
-        ],
-        "Scope": "TRANSLATIONS_ONLY",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "The Evidence that supplies information (proof, support) for this Requirement."
-        },
-        "ap-label-nl": {
-          "nl": "hasSupportingEvidence"
-        },
-        "ap-usageNote-nl": "",
-        "definition": {
-          "nl": "The Evidence that supplies information (proof, support) for this Requirement."
-        },
-        "derived": "false",
-        "destRole": "null",
-        "label": {
-          "nl": "hasSupportingEvidence"
-        },
-        "sourceRole": "null",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "nl": "hasSupportingEvidence"
-      },
-      "maxCardinality": "*",
-      "minCardinality": "0",
-      "name": "hassupportingevidence",
-      "range": [
-        {
-          "EA-GUID": "{AB091799-B96F-43c2-9DDE-6F32F0100B3C}",
-          "EA-Name": "Evidence",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/m8g/Evidence"
-        }
-      ]
-    },
-    {
-      "@id": "http://data.europa.eu/m8g/hasSupportingEvidence",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{545432DE-61CC-44f1-8C9F-810BDE874F69}",
       "ap-definition-nl": {
         "nl": "The Evidence that supplies information (proof, support) for this Requirement."
@@ -7268,108 +7174,98 @@
       ]
     },
     {
-      "@id": "http://data.europa.eu/m8g/hasLegalResource",
+      "@id": "http://data.europa.eu/m8g/hasSupportingEvidence",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
+      "EA-Guid": "{CA44BB8F-550D-4d15-BB91-0FBFF973D92C}",
       "ap-definition-nl": {
-        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+        "nl": "The Evidence that supplies information (proof, support) for this Requirement."
       },
       "ap-label-nl": {
-        "nl": "hasLegalResource"
+        "nl": "hasSupportingEvidence"
       },
       "codelist": [],
       "definition": {
-        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+        "nl": "The Evidence that supplies information (proof, support) for this Requirement."
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
-        "EA-Name": "hasLegalResource",
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{CA44BB8F-550D-4d15-BB91-0FBFF973D92C}",
+        "EA-Name": "hasSupportingEvidence",
         "EA-Package": "",
-        "EA-Range": "eli::LegalResource",
+        "EA-Range": "Evidence",
         "EA-Type": "connector",
         "RangeData": {
-          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
-          "EA-Name": "eli::LegalResource",
+          "EA-GUID": "{AB091799-B96F-43c2-9DDE-6F32F0100B3C}",
+          "EA-Name": "Evidence",
           "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
+          "uri": "http://data.europa.eu/m8g/Evidence"
         },
         "RawTags": [
           {
             "key": "uri",
             "note": "null",
-            "value": "http://data.europa.eu/m8g/hasLegalResource"
+            "value": "http://data.europa.eu/m8g/hasSupportingEvidence"
           },
           {
             "key": "description-nl",
             "note": "null",
-            "value": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-          },
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "hasLegalResource"
+            "value": "The Evidence that supplies information (proof, support) for this Requirement."
           },
           {
             "key": "definition-nl",
             "note": "null",
-            "value": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+            "value": "The Evidence that supplies information (proof, support) for this Requirement."
           },
           {
-            "key": "usageNote-nl",
+            "key": "label-nl",
             "note": "null",
-            "value": "Link naar de Vlaamse Codex"
+            "value": "hasSupportingEvidence"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
         "ap-codelist": "",
         "ap-definition-nl": {
-          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+          "nl": "The Evidence that supplies information (proof, support) for this Requirement."
         },
         "ap-label-nl": {
-          "nl": "hasLegalResource"
+          "nl": "hasSupportingEvidence"
         },
         "ap-usageNote-nl": "",
         "definition": {
-          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+          "nl": "The Evidence that supplies information (proof, support) for this Requirement."
         },
         "derived": "false",
         "destRole": "null",
         "label": {
-          "nl": "hasLegalResource"
+          "nl": "hasSupportingEvidence"
         },
         "sourceRole": "null",
-        "usage": {
-          "nl": "Link naar de Vlaamse Codex"
-        }
+        "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "hasLegalResource"
+        "nl": "hasSupportingEvidence"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "haslegalresource",
+      "name": "hassupportingevidence",
       "range": [
         {
-          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
-          "EA-Name": "eli::LegalResource",
+          "EA-GUID": "{AB091799-B96F-43c2-9DDE-6F32F0100B3C}",
+          "EA-Name": "Evidence",
           "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
+          "uri": "http://data.europa.eu/m8g/Evidence"
         }
-      ],
-      "usage": {
-        "nl": "Link naar de Vlaamse Codex"
-      }
+      ]
     },
     {
       "@id": "http://data.europa.eu/m8g/hasLegalResource",
@@ -7476,9 +7372,113 @@
       }
     },
     {
+      "@id": "http://data.europa.eu/m8g/hasLegalResource",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
+      "ap-definition-nl": {
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+      },
+      "ap-label-nl": {
+        "nl": "hasLegalResource"
+      },
+      "codelist": [],
+      "definition": {
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+      },
+      "domain": [
+        {
+          "EA-Name": "ConceptualPublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
+        "EA-Name": "hasLegalResource",
+        "EA-Package": "",
+        "EA-Range": "eli::LegalResource",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
+          "EA-Name": "eli::LegalResource",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
+        },
+        "RawTags": [
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://data.europa.eu/m8g/hasLegalResource"
+          },
+          {
+            "key": "description-nl",
+            "note": "null",
+            "value": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+          },
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "hasLegalResource"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+          },
+          {
+            "key": "usageNote-nl",
+            "note": "null",
+            "value": "Link naar de Vlaamse Codex"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+        },
+        "ap-label-nl": {
+          "nl": "hasLegalResource"
+        },
+        "ap-usageNote-nl": "",
+        "definition": {
+          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+        },
+        "derived": "false",
+        "destRole": "null",
+        "label": {
+          "nl": "hasLegalResource"
+        },
+        "sourceRole": "null",
+        "usage": {
+          "nl": "Link naar de Vlaamse Codex"
+        }
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "nl": "hasLegalResource"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "haslegalresource",
+      "range": [
+        {
+          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
+          "EA-Name": "eli::LegalResource",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
+        }
+      ],
+      "usage": {
+        "nl": "Link naar de Vlaamse Codex"
+      }
+    },
+    {
       "@id": "http://data.europa.eu/m8g/hasCost",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
       "ap-definition-nl": {
         "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
       },
@@ -7491,15 +7491,15 @@
       },
       "domain": [
         {
-          "EA-Name": "ConceptualPublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+          "EA-Name": "InstancePublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
         "EA-Name": "hasCost",
         "EA-Package": "",
         "EA-Range": "Cost",
@@ -7572,7 +7572,7 @@
     {
       "@id": "http://data.europa.eu/m8g/hasCost",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
+      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
       "ap-definition-nl": {
         "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
       },
@@ -7585,15 +7585,15 @@
       },
       "domain": [
         {
-          "EA-Name": "InstancePublicService",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+          "EA-Name": "ConceptualPublicService",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
         "EA-Name": "hasCost",
         "EA-Package": "",
         "EA-Range": "Cost",
@@ -9211,7 +9211,7 @@
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
   "template": "ipdc-lpdc-im.j2",
   "title": "IPDC - LPDC (Implementatiemodel)",
-  "toolchaincommit": "fb5335e63c9065d44c6c59eaa77eae0a8462dd89",
+  "toolchaincommit": "fe3af8388435da6c1fdb5687b33eb9ee41a12556",
   "translation": [
     {
       "language": "nl",
