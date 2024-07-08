@@ -1096,106 +1096,6 @@
     {
       "@id": "http://data.europa.eu/m8g/hasCost",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
-      "codelist": [],
-      "definition": {
-        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
-      },
-      "definition-nl": {
-        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
-      },
-      "domain": [
-        {
-          "EA-Name": "Instance Public Service",
-          "uri": "http://fixme.com#Instance Public Service"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [],
-        "EA-Domain": "Instance Public Service",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
-        "EA-Name": "hasCost",
-        "EA-Package": "",
-        "EA-Range": "Cost",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
-          "EA-Name": "Cost",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/m8g/Cost"
-        },
-        "RawTags": [
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://data.europa.eu/m8g/hasCost"
-          },
-          {
-            "key": "description-nl",
-            "note": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "hasCost"
-          },
-          {
-            "key": "definition-nl",
-            "note": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.",
-            "value": "NOTE"
-          }
-        ],
-        "Scope": "TRANSLATIONS_ONLY",
-        "definition": {
-          "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
-        },
-        "definition-en": "",
-        "definition-nl": {
-          "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
-        },
-        "derived": "false",
-        "destRole": "null",
-        "equivalent": "",
-        "label": {
-          "nl": "hasCost"
-        },
-        "label-en": "",
-        "label-nl": {
-          "nl": "hasCost"
-        },
-        "sameAs": "",
-        "sourceRole": "null",
-        "subclass": "",
-        "subclass1": "",
-        "usage": "",
-        "usageNote-en": "",
-        "usageNote-nl": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "nl": "hasCost"
-      },
-      "label-nl": {
-        "nl": "hasCost"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "0",
-      "name": "hascost",
-      "range": [
-        {
-          "EA-GUID": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
-          "EA-Name": "Cost",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/m8g/Cost"
-        }
-      ]
-    },
-    {
-      "@id": "http://data.europa.eu/m8g/hasCost",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
       "codelist": [],
       "definition": {
@@ -1294,15 +1194,15 @@
       ]
     },
     {
-      "@id": "http://data.europa.eu/m8g/hasLegalResource",
+      "@id": "http://data.europa.eu/m8g/hasCost",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
+      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
       "codelist": [],
       "definition": {
-        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
       },
       "definition-nl": {
-        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
       },
       "domain": [
         {
@@ -1314,7 +1214,107 @@
         "DestRoleTags": [],
         "EA-Domain": "Instance Public Service",
         "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
+        "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
+        "EA-Name": "hasCost",
+        "EA-Package": "",
+        "EA-Range": "Cost",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
+          "EA-Name": "Cost",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://data.europa.eu/m8g/Cost"
+        },
+        "RawTags": [
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://data.europa.eu/m8g/hasCost"
+          },
+          {
+            "key": "description-nl",
+            "note": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "hasCost"
+          },
+          {
+            "key": "definition-nl",
+            "note": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "definition": {
+          "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
+        },
+        "definition-en": "",
+        "definition-nl": {
+          "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
+        },
+        "derived": "false",
+        "destRole": "null",
+        "equivalent": "",
+        "label": {
+          "nl": "hasCost"
+        },
+        "label-en": "",
+        "label-nl": {
+          "nl": "hasCost"
+        },
+        "sameAs": "",
+        "sourceRole": "null",
+        "subclass": "",
+        "subclass1": "",
+        "usage": "",
+        "usageNote-en": "",
+        "usageNote-nl": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "nl": "hasCost"
+      },
+      "label-nl": {
+        "nl": "hasCost"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "0",
+      "name": "hascost",
+      "range": [
+        {
+          "EA-GUID": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
+          "EA-Name": "Cost",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://data.europa.eu/m8g/Cost"
+        }
+      ]
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/hasLegalResource",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
+      "codelist": [],
+      "definition": {
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+      },
+      "definition-nl": {
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+      },
+      "domain": [
+        {
+          "EA-Name": "Conceptual Public Service",
+          "uri": "http://purl.org/vocab/cpsv#PublicService"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "Conceptual Public Service",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
         "EA-Name": "hasLegalResources",
         "EA-Package": "",
         "EA-Range": "eli::LegalResource",
@@ -1411,7 +1411,7 @@
     {
       "@id": "http://data.europa.eu/m8g/hasLegalResource",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
+      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
       "codelist": [],
       "definition": {
         "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
@@ -1421,15 +1421,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Conceptual Public Service",
-          "uri": "http://purl.org/vocab/cpsv#PublicService"
+          "EA-Name": "Instance Public Service",
+          "uri": "http://fixme.com#Instance Public Service"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "Conceptual Public Service",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
+        "EA-Domain": "Instance Public Service",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
         "EA-Name": "hasLegalResources",
         "EA-Package": "",
         "EA-Range": "eli::LegalResource",
@@ -4642,7 +4642,7 @@
     {
       "@id": "http://purl.org/vocab/cpsv#produces",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
       "codelist": [],
       "definition": {
         "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
@@ -4652,15 +4652,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Instance Public Service",
-          "uri": "http://fixme.com#Instance Public Service"
+          "EA-Name": "Conceptual Public Service",
+          "uri": "http://purl.org/vocab/cpsv#PublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "Instance Public Service",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+        "EA-Domain": "Conceptual Public Service",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
         "EA-Name": "produces",
         "EA-Package": "",
         "EA-Range": "FinancialAdvantage",
@@ -4742,7 +4742,7 @@
     {
       "@id": "http://purl.org/vocab/cpsv#produces",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
       "codelist": [],
       "definition": {
         "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
@@ -4752,15 +4752,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Conceptual Public Service",
-          "uri": "http://purl.org/vocab/cpsv#PublicService"
+          "EA-Name": "Instance Public Service",
+          "uri": "http://fixme.com#Instance Public Service"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "Conceptual Public Service",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+        "EA-Domain": "Instance Public Service",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
         "EA-Name": "produces",
         "EA-Package": "",
         "EA-Range": "FinancialAdvantage",
@@ -6468,7 +6468,7 @@
     {
       "@id": "https://vocab.belgif.be/ns/publicservice#hasRequirement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
+      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
       "codelist": [],
       "definition": {
         "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
@@ -6478,15 +6478,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Conceptual Public Service",
-          "uri": "http://purl.org/vocab/cpsv#PublicService"
+          "EA-Name": "Instance Public Service",
+          "uri": "http://fixme.com#Instance Public Service"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "Conceptual Public Service",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
+        "EA-Domain": "Instance Public Service",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
         "EA-Name": "hasRequirement",
         "EA-Package": "",
         "EA-Range": "Requirement",
@@ -6505,12 +6505,12 @@
           },
           {
             "key": "description-nl",
-            "note": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
+            "note": "null",
             "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
           },
           {
             "key": "definition-nl",
-            "note": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
+            "note": "null",
             "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
           },
           {
@@ -6568,7 +6568,7 @@
     {
       "@id": "https://vocab.belgif.be/ns/publicservice#hasRequirement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
+      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
       "codelist": [],
       "definition": {
         "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
@@ -6578,15 +6578,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Instance Public Service",
-          "uri": "http://fixme.com#Instance Public Service"
+          "EA-Name": "Conceptual Public Service",
+          "uri": "http://purl.org/vocab/cpsv#PublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "Instance Public Service",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
+        "EA-Domain": "Conceptual Public Service",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
         "EA-Name": "hasRequirement",
         "EA-Package": "",
         "EA-Range": "Requirement",
@@ -6605,12 +6605,12 @@
           },
           {
             "key": "description-nl",
-            "note": "null",
+            "note": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
             "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
           },
           {
             "key": "definition-nl",
-            "note": "null",
+            "note": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
             "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
           },
           {
@@ -9086,7 +9086,7 @@
     {
       "@id": "http://fixme.com#hasAttachments",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{295564AD-90FE-401d-9F13-36FF994C536D}",
+      "EA-Guid": "{C148222C-4EC1-479c-925D-9C1A3D66253C}",
       "codelist": [],
       "definition": {
         "nl": "Bijlagen die gerelateerd zijn aan de dienstverlening."
@@ -9096,15 +9096,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Conceptual Public Service",
-          "uri": "http://purl.org/vocab/cpsv#PublicService"
+          "EA-Name": "Instance Public Service",
+          "uri": "http://fixme.com#Instance Public Service"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "Conceptual Public Service",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{295564AD-90FE-401d-9F13-36FF994C536D}",
+        "EA-Domain": "Instance Public Service",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{C148222C-4EC1-479c-925D-9C1A3D66253C}",
         "EA-Name": "hasAttachments",
         "EA-Package": "",
         "EA-Range": "Document",
@@ -9181,7 +9181,7 @@
     {
       "@id": "http://fixme.com#hasAttachments",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{C148222C-4EC1-479c-925D-9C1A3D66253C}",
+      "EA-Guid": "{295564AD-90FE-401d-9F13-36FF994C536D}",
       "codelist": [],
       "definition": {
         "nl": "Bijlagen die gerelateerd zijn aan de dienstverlening."
@@ -9191,15 +9191,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Instance Public Service",
-          "uri": "http://fixme.com#Instance Public Service"
+          "EA-Name": "Conceptual Public Service",
+          "uri": "http://purl.org/vocab/cpsv#PublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "Instance Public Service",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{C148222C-4EC1-479c-925D-9C1A3D66253C}",
+        "EA-Domain": "Conceptual Public Service",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{295564AD-90FE-401d-9F13-36FF994C536D}",
         "EA-Name": "hasAttachments",
         "EA-Package": "",
         "EA-Range": "Document",
@@ -10432,7 +10432,7 @@
   "title-nl": {
     "nl": "TODO"
   },
-  "toolchaincommit": "a74b391690a69e50bc6b560dcd9e6e8f210c5624",
+  "toolchaincommit": "38879c2c8ac2cd5d31841e32c757aba0cf8c4884",
   "translation": [
     {
       "language": "nl",
