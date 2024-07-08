@@ -4287,109 +4287,6 @@
       },
       "extra": {
         "EA-Name": "hasLegalResources",
-        "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "Conceptual Public Service",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Range": "eli::LegalResource",
-        "RangeData": {
-          "EA-Name": "eli::LegalResource",
-          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
-        },
-        "sourceRole": "null",
-        "destRole": "null",
-        "label": {
-          "nl": "hasLegalResources"
-        },
-        "definition": {
-          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-        },
-        "usage": {
-          "nl": "Link naar de Vlaamse Codex"
-        },
-        "ap-label-nl": {
-          "nl": "hasLegalResources"
-        },
-        "ap-definition-nl": {
-          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-        },
-        "ap-usageNote-nl": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "http://data.europa.eu/m8g/hasLegalResource",
-            "note": "null"
-          },
-          {
-            "key": "description-nl",
-            "value": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.",
-            "note": "null"
-          },
-          {
-            "key": "label-nl",
-            "value": "hasLegalResources",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.",
-            "note": "null"
-          },
-          {
-            "key": "usageNote-nl",
-            "value": "Link naar de Vlaamse Codex",
-            "note": "null"
-          }
-        ],
-        "DestRoleTags": [],
-        "Scope": "TRANSLATIONS_ONLY"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://purl.org/vocab/cpsv#PublicService",
-          "EA-Name": "Conceptual Public Service"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "eli::LegalResource",
-          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://data.europa.eu/m8g/hasLegalResource",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "haslegalresources",
-      "inpackage": "ACTIVE_PACKAGE",
-      "usage": {
-        "nl": "Link naar de Vlaamse Codex"
-      },
-      "definition": {
-        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-      },
-      "label": {
-        "nl": "hasLegalResources"
-      },
-      "ap-label-nl": {
-        "nl": "hasLegalResources"
-      },
-      "ap-definition-nl": {
-        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-      },
-      "extra": {
-        "EA-Name": "hasLegalResources",
         "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
         "derived": "false",
         "EA-Package": "",
@@ -4457,6 +4354,109 @@
         {
           "uri": "http://fixme.com#Instance Public Service",
           "EA-Name": "Instance Public Service"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "eli::LegalResource",
+          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/hasLegalResource",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "haslegalresources",
+      "inpackage": "ACTIVE_PACKAGE",
+      "usage": {
+        "nl": "Link naar de Vlaamse Codex"
+      },
+      "definition": {
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+      },
+      "label": {
+        "nl": "hasLegalResources"
+      },
+      "ap-label-nl": {
+        "nl": "hasLegalResources"
+      },
+      "ap-definition-nl": {
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+      },
+      "extra": {
+        "EA-Name": "hasLegalResources",
+        "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "Conceptual Public Service",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Range": "eli::LegalResource",
+        "RangeData": {
+          "EA-Name": "eli::LegalResource",
+          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
+        },
+        "sourceRole": "null",
+        "destRole": "null",
+        "label": {
+          "nl": "hasLegalResources"
+        },
+        "definition": {
+          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+        },
+        "usage": {
+          "nl": "Link naar de Vlaamse Codex"
+        },
+        "ap-label-nl": {
+          "nl": "hasLegalResources"
+        },
+        "ap-definition-nl": {
+          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+        },
+        "ap-usageNote-nl": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "uri",
+            "value": "http://data.europa.eu/m8g/hasLegalResource",
+            "note": "null"
+          },
+          {
+            "key": "description-nl",
+            "value": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.",
+            "note": "null"
+          },
+          {
+            "key": "label-nl",
+            "value": "hasLegalResources",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.",
+            "note": "null"
+          },
+          {
+            "key": "usageNote-nl",
+            "value": "Link naar de Vlaamse Codex",
+            "note": "null"
+          }
+        ],
+        "DestRoleTags": [],
+        "Scope": "TRANSLATIONS_ONLY"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://purl.org/vocab/cpsv#PublicService",
+          "EA-Name": "Conceptual Public Service"
         }
       ],
       "range": [
@@ -7110,99 +7110,6 @@
       },
       "extra": {
         "EA-Name": "follows",
-        "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "Instance Public Service",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Range": "Procedure",
-        "RangeData": {
-          "EA-Name": "Procedure",
-          "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://purl.org/vocab/cpsv#Rule"
-        },
-        "sourceRole": "null",
-        "destRole": "null",
-        "label": {
-          "nl": "follows"
-        },
-        "definition": {
-          "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-        },
-        "usage": "",
-        "ap-label-nl": {
-          "nl": "follows"
-        },
-        "ap-definition-nl": {
-          "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-        },
-        "ap-usageNote-nl": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "http://purl.org/vocab/cpsv#follows",
-            "note": "null"
-          },
-          {
-            "key": "description-nl",
-            "value": "NOTE",
-            "note": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-          },
-          {
-            "key": "label-nl",
-            "value": "follows",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "NOTE",
-            "note": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-          }
-        ],
-        "DestRoleTags": [],
-        "Scope": "TRANSLATIONS_ONLY"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://fixme.com#Instance Public Service",
-          "EA-Name": "Instance Public Service"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Procedure",
-          "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://purl.org/vocab/cpsv#Rule"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "1"
-    },
-    {
-      "@id": "http://purl.org/vocab/cpsv#follows",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "follows",
-      "inpackage": "ACTIVE_PACKAGE",
-      "definition": {
-        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-      },
-      "label": {
-        "nl": "follows"
-      },
-      "ap-label-nl": {
-        "nl": "follows"
-      },
-      "ap-definition-nl": {
-        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-      },
-      "extra": {
-        "EA-Name": "follows",
         "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
         "derived": "false",
         "EA-Package": "",
@@ -7263,6 +7170,99 @@
         {
           "uri": "http://purl.org/vocab/cpsv#PublicService",
           "EA-Name": "Conceptual Public Service"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Procedure",
+          "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://purl.org/vocab/cpsv#Rule"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://purl.org/vocab/cpsv#follows",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "follows",
+      "inpackage": "ACTIVE_PACKAGE",
+      "definition": {
+        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+      },
+      "label": {
+        "nl": "follows"
+      },
+      "ap-label-nl": {
+        "nl": "follows"
+      },
+      "ap-definition-nl": {
+        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+      },
+      "extra": {
+        "EA-Name": "follows",
+        "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "Instance Public Service",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Range": "Procedure",
+        "RangeData": {
+          "EA-Name": "Procedure",
+          "EA-GUID": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://purl.org/vocab/cpsv#Rule"
+        },
+        "sourceRole": "null",
+        "destRole": "null",
+        "label": {
+          "nl": "follows"
+        },
+        "definition": {
+          "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+        },
+        "usage": "",
+        "ap-label-nl": {
+          "nl": "follows"
+        },
+        "ap-definition-nl": {
+          "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+        },
+        "ap-usageNote-nl": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "uri",
+            "value": "http://purl.org/vocab/cpsv#follows",
+            "note": "null"
+          },
+          {
+            "key": "description-nl",
+            "value": "NOTE",
+            "note": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+          },
+          {
+            "key": "label-nl",
+            "value": "follows",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "NOTE",
+            "note": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
+          }
+        ],
+        "DestRoleTags": [],
+        "Scope": "TRANSLATIONS_ONLY"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://fixme.com#Instance Public Service",
+          "EA-Name": "Instance Public Service"
         }
       ],
       "range": [
@@ -9327,6 +9327,6 @@
   "repository": "https://github.com/Informatievlaanderen/ipdc-lpdc",
   "urlref": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15",
   "documentcommit": "9f0e2db89cf66140eed82f4a70741ac5e06f6e61",
-  "toolchaincommit": "c81023f62b7bade244acd92b52c3695b19f8c6b2",
+  "toolchaincommit": "fb5335e63c9065d44c6c59eaa77eae0a8462dd89",
   "hostname": "https://productencatalogus.data.test-vlaanderen.be/"
 }
