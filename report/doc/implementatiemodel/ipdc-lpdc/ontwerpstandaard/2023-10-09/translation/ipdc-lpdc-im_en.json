@@ -829,7 +829,7 @@
       }
     },
     {
-      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
+      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
       "name": "hasrequirement",
       "label": {
         "nl": "hasRequirement",
@@ -841,7 +841,7 @@
       }
     },
     {
-      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
+      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
       "name": "hasrequirement",
       "label": {
         "nl": "hasRequirement",
@@ -877,7 +877,7 @@
       }
     },
     {
-      "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
+      "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
       "name": "follows",
       "label": {
         "nl": "follows",
@@ -889,7 +889,7 @@
       }
     },
     {
-      "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
+      "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
       "name": "follows",
       "label": {
         "nl": "follows",
@@ -1229,18 +1229,6 @@
       }
     },
     {
-      "EA-Guid": "{CA44BB8F-550D-4d15-BB91-0FBFF973D92C}",
-      "name": "hassupportingevidence",
-      "label": {
-        "nl": "hasSupportingEvidence",
-        "en": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "The Evidence that supplies information (proof, support) for this Requirement.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{545432DE-61CC-44f1-8C9F-810BDE874F69}",
       "name": "hassupportingevidence",
       "label": {
@@ -1253,18 +1241,14 @@
       }
     },
     {
-      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
-      "name": "haslegalresource",
+      "EA-Guid": "{CA44BB8F-550D-4d15-BB91-0FBFF973D92C}",
+      "name": "hassupportingevidence",
       "label": {
-        "nl": "hasLegalResource",
+        "nl": "hasSupportingEvidence",
         "en": "Enter your translation here"
       },
       "definition": {
-        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.",
-        "en": "Enter your translation here"
-      },
-      "usage": {
-        "nl": "Link naar de Vlaamse Codex",
+        "nl": "The Evidence that supplies information (proof, support) for this Requirement.",
         "en": "Enter your translation here"
       }
     },
@@ -1285,7 +1269,23 @@
       }
     },
     {
-      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
+      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
+      "name": "haslegalresource",
+      "label": {
+        "nl": "hasLegalResource",
+        "en": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.",
+        "en": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Link naar de Vlaamse Codex",
+        "en": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
       "name": "hascost",
       "label": {
         "nl": "hasCost",
@@ -1297,7 +1297,7 @@
       }
     },
     {
-      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
       "name": "hascost",
       "label": {
         "nl": "hasCost",
