@@ -552,7 +552,7 @@
   "diagram": "ipdc-lpdc-ap",
   "disabled": false,
   "documentcommit": "91831df13f247d5c72146929c5755b400d09aa50",
-  "dummy": "001",
+  "dummy": "002",
   "eap": "IPDC-LPDC-AP.eap",
   "editors": [
     {
@@ -12176,7 +12176,7 @@
   },
   "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
   "filename": "config/ipdc-lpdc-im.json",
-  "hostname": "https://productencatalogus.data.vlaanderen.be/",
+  "hostname": "https://productencatalogus.data.test-vlaanderen.be/",
   "issued": "TODO",
   "label": {
     "en": "ipdc-lpdc-im",
@@ -12185,7 +12185,7 @@
   "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
   "name": "ipdc-lpdc-im",
   "navigation": {
-    "prev": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15"
+    "prev": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-04-25"
   },
   "properties": [
     {
@@ -16201,7 +16201,7 @@
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
   "template": "ipdc-lpdc-im.j2",
   "title": "IPDC - LPDC (Implementatiemodel)",
-  "toolchaincommit": "1c9ec7cac57a11e7675832ec57455d3d3d09425f",
+  "toolchaincommit": "a74b391690a69e50bc6b560dcd9e6e8f210c5624",
   "translation": [
     {
       "language": "nl",
