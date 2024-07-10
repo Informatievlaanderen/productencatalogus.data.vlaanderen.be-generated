@@ -4273,94 +4273,6 @@
       },
       "extra": {
         "EA-Name": "hasLegalResource",
-        "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Range": "eli::LegalResource",
-        "RangeData": {
-          "EA-Name": "eli::LegalResource",
-          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
-        },
-        "sourceRole": "null",
-        "destRole": "null",
-        "label": {
-          "nl": "hasLegalResource"
-        },
-        "definition": {
-          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-        },
-        "usage": "",
-        "ap-label-nl": {
-          "nl": "hasLegalResource"
-        },
-        "ap-definition-nl": {
-          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-        },
-        "ap-usageNote-nl": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "http://data.europa.eu/m8g/hasLegalResource",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.",
-            "note": "null"
-          },
-          {
-            "key": "label-nl",
-            "value": "hasLegalResource",
-            "note": "null"
-          }
-        ],
-        "DestRoleTags": [],
-        "Scope": "TRANSLATIONS_ONLY"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
-          "EA-Name": "ConceptualPublicService"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "eli::LegalResource",
-          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://data.europa.eu/m8g/hasLegalResource",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "haslegalresource",
-      "inpackage": "ACTIVE_PACKAGE",
-      "definition": {
-        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-      },
-      "label": {
-        "nl": "hasLegalResource"
-      },
-      "ap-label-nl": {
-        "nl": "hasLegalResource"
-      },
-      "ap-definition-nl": {
-        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-      },
-      "extra": {
-        "EA-Name": "hasLegalResource",
         "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
         "derived": "false",
         "EA-Package": "",
@@ -4416,6 +4328,94 @@
         {
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
           "EA-Name": "InstancePublicService"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "eli::LegalResource",
+          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "http://data.europa.eu/m8g/hasLegalResource",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "haslegalresource",
+      "inpackage": "ACTIVE_PACKAGE",
+      "definition": {
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+      },
+      "label": {
+        "nl": "hasLegalResource"
+      },
+      "ap-label-nl": {
+        "nl": "hasLegalResource"
+      },
+      "ap-definition-nl": {
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+      },
+      "extra": {
+        "EA-Name": "hasLegalResource",
+        "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Range": "eli::LegalResource",
+        "RangeData": {
+          "EA-Name": "eli::LegalResource",
+          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
+        },
+        "sourceRole": "null",
+        "destRole": "null",
+        "label": {
+          "nl": "hasLegalResource"
+        },
+        "definition": {
+          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+        },
+        "usage": "",
+        "ap-label-nl": {
+          "nl": "hasLegalResource"
+        },
+        "ap-definition-nl": {
+          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+        },
+        "ap-usageNote-nl": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "uri",
+            "value": "http://data.europa.eu/m8g/hasLegalResource",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.",
+            "note": "null"
+          },
+          {
+            "key": "label-nl",
+            "value": "hasLegalResource",
+            "note": "null"
+          }
+        ],
+        "DestRoleTags": [],
+        "Scope": "TRANSLATIONS_ONLY"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
+          "EA-Name": "ConceptualPublicService"
         }
       ],
       "range": [
@@ -10055,94 +10055,6 @@
       },
       "extra": {
         "EA-Name": "hasExecutingAuthority",
-        "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Range": "PubliekeOrganisatie",
-        "RangeData": {
-          "EA-Name": "PubliekeOrganisatie",
-          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
-          "EA-Package": "OSLO-Organisatie",
-          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
-        },
-        "sourceRole": "null",
-        "destRole": "null",
-        "label": {
-          "nl": "hasExecutingAuthority"
-        },
-        "definition": {
-          "nl": "Links naar de uitvoerende organisaties"
-        },
-        "usage": "",
-        "ap-label-nl": {
-          "nl": "hasExecutingAuthority"
-        },
-        "ap-definition-nl": {
-          "nl": "Links naar de uitvoerende organisaties"
-        },
-        "ap-usageNote-nl": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "label-nl",
-            "value": "hasExecutingAuthority",
-            "note": "null"
-          },
-          {
-            "key": "uri",
-            "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "Links naar de uitvoerende organisaties",
-            "note": "null"
-          }
-        ],
-        "DestRoleTags": [],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
-          "EA-Name": "InstancePublicService"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "PubliekeOrganisatie",
-          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
-          "EA-Package": "OSLO-Organisatie",
-          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "hasexecutingauthority",
-      "inpackage": "UNKNOWN",
-      "definition": {
-        "nl": "Links naar de uitvoerende organisaties"
-      },
-      "label": {
-        "nl": "hasExecutingAuthority"
-      },
-      "ap-label-nl": {
-        "nl": "hasExecutingAuthority"
-      },
-      "ap-definition-nl": {
-        "nl": "Links naar de uitvoerende organisaties"
-      },
-      "extra": {
-        "EA-Name": "hasExecutingAuthority",
         "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
         "derived": "false",
         "EA-Package": "",
@@ -10198,6 +10110,94 @@
         {
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
           "EA-Name": "ConceptualPublicService"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "PubliekeOrganisatie",
+          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+          "EA-Package": "OSLO-Organisatie",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "hasexecutingauthority",
+      "inpackage": "UNKNOWN",
+      "definition": {
+        "nl": "Links naar de uitvoerende organisaties"
+      },
+      "label": {
+        "nl": "hasExecutingAuthority"
+      },
+      "ap-label-nl": {
+        "nl": "hasExecutingAuthority"
+      },
+      "ap-definition-nl": {
+        "nl": "Links naar de uitvoerende organisaties"
+      },
+      "extra": {
+        "EA-Name": "hasExecutingAuthority",
+        "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Range": "PubliekeOrganisatie",
+        "RangeData": {
+          "EA-Name": "PubliekeOrganisatie",
+          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+          "EA-Package": "OSLO-Organisatie",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+        },
+        "sourceRole": "null",
+        "destRole": "null",
+        "label": {
+          "nl": "hasExecutingAuthority"
+        },
+        "definition": {
+          "nl": "Links naar de uitvoerende organisaties"
+        },
+        "usage": "",
+        "ap-label-nl": {
+          "nl": "hasExecutingAuthority"
+        },
+        "ap-definition-nl": {
+          "nl": "Links naar de uitvoerende organisaties"
+        },
+        "ap-usageNote-nl": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "value": "hasExecutingAuthority",
+            "note": "null"
+          },
+          {
+            "key": "uri",
+            "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "Links naar de uitvoerende organisaties",
+            "note": "null"
+          }
+        ],
+        "DestRoleTags": [],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
+          "EA-Name": "InstancePublicService"
         }
       ],
       "range": [
@@ -10421,6 +10421,6 @@
   "repository": "https://github.com/Informatievlaanderen/ipdc-lpdc",
   "urlref": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-02-21",
   "documentcommit": "589291336744553fa3ff059b8f791001b8057014",
-  "toolchaincommit": "38a7baa45bffb19cb44beb27e9dcfe2ef73d922f",
+  "toolchaincommit": "b855b635b4dfa7e657aec6f66b718303ead32049",
   "hostname": "https://productencatalogus.data.test-vlaanderen.be/"
 }

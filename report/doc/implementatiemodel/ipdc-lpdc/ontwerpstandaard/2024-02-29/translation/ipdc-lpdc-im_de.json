@@ -1252,7 +1252,7 @@
       }
     },
     {
-      "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
+      "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
       "name": "follows",
       "label": {
         "nl": "follows",
@@ -1264,7 +1264,7 @@
       }
     },
     {
-      "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
+      "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
       "name": "follows",
       "label": {
         "nl": "follows",
@@ -1460,18 +1460,6 @@
       }
     },
     {
-      "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
-      "name": "isversionof",
-      "label": {
-        "nl": "isVersionOf",
-        "de": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.",
-        "de": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{55F34410-3DA0-42fc-A8AD-E43C9735D39E}",
       "name": "isversionof",
       "label": {
@@ -1480,6 +1468,18 @@
       },
       "definition": {
         "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.",
+        "de": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
+      "name": "isversionof",
+      "label": {
+        "nl": "isVersionOf",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd.",
         "de": "Enter your translation here"
       }
     },
@@ -1656,7 +1656,7 @@
       }
     },
     {
-      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
+      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
       "name": "haslegalresource",
       "label": {
         "nl": "hasLegalResource",
@@ -1668,7 +1668,7 @@
       }
     },
     {
-      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
+      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
       "name": "haslegalresource",
       "label": {
         "nl": "hasLegalResource",

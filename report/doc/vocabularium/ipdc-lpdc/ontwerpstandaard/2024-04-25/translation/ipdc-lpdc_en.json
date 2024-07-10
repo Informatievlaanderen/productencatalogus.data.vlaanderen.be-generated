@@ -847,18 +847,6 @@
   ],
   "externalproperties": [
     {
-      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
-      "name": "bevoegdeoverheden",
-      "label": {
-        "nl": "bevoegdeOverheden",
-        "en": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\".",
-        "en": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{277343F7-1EE1-4c18-A165-EF5399535D49}",
       "name": "bevoegdeoverheden",
       "label": {
@@ -883,7 +871,7 @@
       }
     },
     {
-      "EA-Guid": "{21650F85-F3E7-459d-86D2-4204F71C1939}",
+      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
       "name": "bevoegdeoverheden",
       "label": {
         "nl": "bevoegdeOverheden",
@@ -895,14 +883,14 @@
       }
     },
     {
-      "EA-Guid": "{836B7326-86C9-4a65-B122-841B3EEA50A6}",
-      "name": "contactgegevens",
+      "EA-Guid": "{21650F85-F3E7-459d-86D2-4204F71C1939}",
+      "name": "bevoegdeoverheden",
       "label": {
-        "nl": "contactgegevens",
+        "nl": "bevoegdeOverheden",
         "en": "Enter your translation here"
       },
       "definition": {
-        "nl": "A contact point for the service is almost always helpful. The value of this property, the contact information itself, should be provided using schema:ContactPoint. Note that the contact information should be relevant to the Public Service which may not be the same as contact information for the Competent Authority or any Participant.",
+        "nl": "This property links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organizations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\".",
         "en": "Enter your translation here"
       }
     },
@@ -919,26 +907,14 @@
       }
     },
     {
-      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
-      "name": "kosten",
+      "EA-Guid": "{836B7326-86C9-4a65-B122-841B3EEA50A6}",
+      "name": "contactgegevens",
       "label": {
-        "nl": "kosten",
+        "nl": "contactgegevens",
         "en": "Enter your translation here"
       },
       "definition": {
-        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{12027E05-6AF9-4adf-A44B-6B35B2311667}",
-      "name": "kosten",
-      "label": {
-        "nl": "kosten",
-        "en": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.",
+        "nl": "A contact point for the service is almost always helpful. The value of this property, the contact information itself, should be provided using schema:ContactPoint. Note that the contact information should be relevant to the Public Service which may not be the same as contact information for the Competent Authority or any Participant.",
         "en": "Enter your translation here"
       }
     },
@@ -967,14 +943,26 @@
       }
     },
     {
-      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
-      "name": "regelgeving",
+      "EA-Guid": "{12027E05-6AF9-4adf-A44B-6B35B2311667}",
+      "name": "kosten",
       "label": {
-        "nl": "regelgeving",
+        "nl": "kosten",
         "en": "Enter your translation here"
       },
       "definition": {
-        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.",
+        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.",
+        "en": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+      "name": "kosten",
+      "label": {
+        "nl": "kosten",
+        "en": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.",
         "en": "Enter your translation here"
       }
     },
@@ -991,7 +979,7 @@
       }
     },
     {
-      "EA-Guid": "{AAAF6371-807E-4c35-9D4D-D0D9C700D15D}",
+      "EA-Guid": "{32C8ADC4-6E55-4d22-B66C-8C4C486B9D2B}",
       "name": "regelgeving",
       "label": {
         "nl": "regelgeving",
@@ -1003,7 +991,19 @@
       }
     },
     {
-      "EA-Guid": "{32C8ADC4-6E55-4d22-B66C-8C4C486B9D2B}",
+      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
+      "name": "regelgeving",
+      "label": {
+        "nl": "regelgeving",
+        "en": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.",
+        "en": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{AAAF6371-807E-4c35-9D4D-D0D9C700D15D}",
       "name": "regelgeving",
       "label": {
         "nl": "regelgeving",
@@ -1323,7 +1323,7 @@
       }
     },
     {
-      "EA-Guid": "{921D088F-DFEC-4ce3-B808-1A5642116D49}",
+      "EA-Guid": "{81D83355-57A6-4a43-9F2D-DC7C00DD6EE7}",
       "name": "linkedconcept",
       "label": {
         "nl": "linkedConcept",
@@ -1335,7 +1335,7 @@
       }
     },
     {
-      "EA-Guid": "{81D83355-57A6-4a43-9F2D-DC7C00DD6EE7}",
+      "EA-Guid": "{921D088F-DFEC-4ce3-B808-1A5642116D49}",
       "name": "linkedconcept",
       "label": {
         "nl": "linkedConcept",
@@ -1599,18 +1599,6 @@
       }
     },
     {
-      "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
-      "name": "procedures",
-      "label": {
-        "nl": "procedures",
-        "en": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
       "name": "procedures",
       "label": {
@@ -1635,6 +1623,18 @@
       }
     },
     {
+      "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
+      "name": "procedures",
+      "label": {
+        "nl": "procedures",
+        "en": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario.",
+        "en": "Enter your translation here"
+      }
+    },
+    {
       "EA-Guid": "{56B02AB9-454E-48d7-8032-1ED20F6A59E1}",
       "name": "procedures",
       "label": {
@@ -1647,19 +1647,7 @@
       }
     },
     {
-      "EA-Guid": "{94683A82-DF28-4261-A48E-0ACCFBD677F6}",
-      "name": "financielevoordelen",
-      "label": {
-        "nl": "financieleVoordelen",
-        "en": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+      "EA-Guid": "{E487DB3E-FB26-469f-B288-72E6ADE383D0}",
       "name": "financielevoordelen",
       "label": {
         "nl": "financieleVoordelen",
@@ -1683,7 +1671,19 @@
       }
     },
     {
-      "EA-Guid": "{E487DB3E-FB26-469f-B288-72E6ADE383D0}",
+      "EA-Guid": "{94683A82-DF28-4261-A48E-0ACCFBD677F6}",
+      "name": "financielevoordelen",
+      "label": {
+        "nl": "financieleVoordelen",
+        "en": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service.",
+        "en": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
       "name": "financielevoordelen",
       "label": {
         "nl": "financieleVoordelen",
@@ -2075,31 +2075,19 @@
       }
     },
     {
-      "EA-Guid": "{E16B109E-FAE1-4295-BC74-CEE1E8695653}",
-      "name": "voorwaarden",
-      "label": {
-        "nl": "voorwaarden",
-        "en": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{EED03156-EE71-499b-A54D-E96AE3EF16DE}",
-      "name": "voorwaarden",
-      "label": {
-        "nl": "voorwaarden",
-        "en": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
+      "name": "voorwaarden",
+      "label": {
+        "nl": "voorwaarden",
+        "en": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
+        "en": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{E16B109E-FAE1-4295-BC74-CEE1E8695653}",
       "name": "voorwaarden",
       "label": {
         "nl": "voorwaarden",
@@ -2123,14 +2111,14 @@
       }
     },
     {
-      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
-      "name": "websites",
+      "EA-Guid": "{EED03156-EE71-499b-A54D-E96AE3EF16DE}",
+      "name": "voorwaarden",
       "label": {
-        "nl": "websites",
+        "nl": "voorwaarden",
         "en": "Enter your translation here"
       },
       "definition": {
-        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt",
+        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
         "en": "Enter your translation here"
       }
     },
@@ -2147,7 +2135,7 @@
       }
     },
     {
-      "EA-Guid": "{95BE41F7-CB97-4f65-B515-0835241C4ACB}",
+      "EA-Guid": "{61D4ED6A-7970-4709-BD32-8258B5873D9A}",
       "name": "websites",
       "label": {
         "nl": "websites",
@@ -2159,7 +2147,19 @@
       }
     },
     {
-      "EA-Guid": "{61D4ED6A-7970-4709-BD32-8258B5873D9A}",
+      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
+      "name": "websites",
+      "label": {
+        "nl": "websites",
+        "en": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt",
+        "en": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{95BE41F7-CB97-4f65-B515-0835241C4ACB}",
       "name": "websites",
       "label": {
         "nl": "websites",
@@ -2411,7 +2411,7 @@
       }
     },
     {
-      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+      "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
       "name": "uitvoerendeoverheden",
       "label": {
         "nl": "uitvoerendeOverheden",
@@ -2435,7 +2435,7 @@
       }
     },
     {
-      "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
+      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
       "name": "uitvoerendeoverheden",
       "label": {
         "nl": "uitvoerendeOverheden",
