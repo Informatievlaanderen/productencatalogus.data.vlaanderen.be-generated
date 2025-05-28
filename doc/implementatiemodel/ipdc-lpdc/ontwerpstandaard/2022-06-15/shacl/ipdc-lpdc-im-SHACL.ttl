@@ -1463,7 +1463,7 @@
 
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstantieShape/2bcb3e5006af01bacc782f371df631bc430757b2> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#Instantie.geografischToepassingsgebieden";
   shacl:class skos:Concept;
-  shacl:description "Geografisch toepassingsgebied van een pubieke dienst: Vlaamse provincies en gemeenten."@nl;
+  shacl:description "Geografisch toepassingsgebied van een publieke dienst: Vlaamse provincies en gemeenten."@nl;
   shacl:name "geografischToepassingsgebieden"@nl;
   shacl:path dc:spatial .
 
@@ -1780,7 +1780,7 @@
   shacl:path schema:productID .
 
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstantieShape/cf3100dc2dad1748f2034570b836f6dfd37dac02> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#Instantie.geografischToepassingsgebieden";
-  shacl:description "Geografisch toepassingsgebied van een pubieke dienst: Vlaamse provincies en gemeenten."@nl;
+  shacl:description "Geografisch toepassingsgebied van een publieke dienst: Vlaamse provincies en gemeenten."@nl;
   shacl:minCount 1;
   shacl:name "geografischToepassingsgebieden"@nl;
   shacl:path dc:spatial .
@@ -1846,7 +1846,7 @@
   shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived> .
 
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstantieShape/eee06b9a7552754ada8c64228612cb906aca45a3> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#Instantie.geografischToepassingsgebieden";
-  shacl:description "Geografisch toepassingsgebied van een pubieke dienst: Vlaamse provincies en gemeenten."@nl;
+  shacl:description "Geografisch toepassingsgebied van een publieke dienst: Vlaamse provincies en gemeenten."@nl;
   shacl:name "geografischToepassingsgebieden"@nl;
   shacl:node [
     a shacl:NodeShape;
@@ -2041,7 +2041,7 @@
 
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstantieSnapshotShape/2bcb3e5006af01bacc782f371df631bc430757b2> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstantieSnapshot.geografischToepassingsgebieden";
   shacl:class skos:Concept;
-  shacl:description "Geografisch toepassingsgebied van een pubieke dienst: Vlaamse provincies en gemeenten."@nl;
+  shacl:description "Geografisch toepassingsgebied van een publieke dienst: Vlaamse provincies en gemeenten."@nl;
   shacl:name "geografischToepassingsgebieden"@nl;
   shacl:path dc:spatial .
 
@@ -2388,7 +2388,7 @@
   shacl:path schema:productID .
 
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstantieSnapshotShape/cf3100dc2dad1748f2034570b836f6dfd37dac02> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstantieSnapshot.geografischToepassingsgebieden";
-  shacl:description "Geografisch toepassingsgebied van een pubieke dienst: Vlaamse provincies en gemeenten."@nl;
+  shacl:description "Geografisch toepassingsgebied van een publieke dienst: Vlaamse provincies en gemeenten."@nl;
   shacl:minCount 1;
   shacl:name "geografischToepassingsgebieden"@nl;
   shacl:path dc:spatial .
@@ -2454,7 +2454,7 @@
   shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived> .
 
 <https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstantieSnapshotShape/eee06b9a7552754ada8c64228612cb906aca45a3> rdfs:seeAlso "https://productencatalogus.data.vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2022-06-15#InstantieSnapshot.geografischToepassingsgebieden";
-  shacl:description "Geografisch toepassingsgebied van een pubieke dienst: Vlaamse provincies en gemeenten."@nl;
+  shacl:description "Geografisch toepassingsgebied van een publieke dienst: Vlaamse provincies en gemeenten."@nl;
   shacl:name "geografischToepassingsgebieden"@nl;
   shacl:node [
     a shacl:NodeShape;
