@@ -207,7 +207,7 @@
       }
     },
     {
-      "EA-Guid": "{295564AD-90FE-401d-9F13-36FF994C536D}",
+      "EA-Guid": "{C148222C-4EC1-479c-925D-9C1A3D66253C}",
       "name": "hasattachments",
       "label": {
         "nl": "hasAttachments",
@@ -219,7 +219,7 @@
       }
     },
     {
-      "EA-Guid": "{C148222C-4EC1-479c-925D-9C1A3D66253C}",
+      "EA-Guid": "{295564AD-90FE-401d-9F13-36FF994C536D}",
       "name": "hasattachments",
       "label": {
         "nl": "hasAttachments",
@@ -559,18 +559,6 @@
       }
     },
     {
-      "EA-Guid": "{836B7326-86C9-4a65-B122-841B3EEA50A6}",
-      "name": "hascontactpoints",
-      "label": {
-        "nl": "hasContactPoints",
-        "en": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "A contact point for the service is almost always helpful. The value of this property, the contact information itself, should be provided using schema:ContactPoint. Note that the contact information should be relevant to the Public Service which may not be the same as contact information for the Competent Authority or any Participant.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{2AF0F766-4BAF-43e6-86D4-C044022B501C}",
       "name": "hascontactpoints",
       "label": {
@@ -583,14 +571,14 @@
       }
     },
     {
-      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
-      "name": "hascost",
+      "EA-Guid": "{836B7326-86C9-4a65-B122-841B3EEA50A6}",
+      "name": "hascontactpoints",
       "label": {
-        "nl": "hasCost",
+        "nl": "hasContactPoints",
         "en": "Enter your translation here"
       },
       "definition": {
-        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.",
+        "nl": "A contact point for the service is almost always helpful. The value of this property, the contact information itself, should be provided using schema:ContactPoint. Note that the contact information should be relevant to the Public Service which may not be the same as contact information for the Competent Authority or any Participant.",
         "en": "Enter your translation here"
       }
     },
@@ -607,7 +595,19 @@
       }
     },
     {
-      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
+      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+      "name": "hascost",
+      "label": {
+        "nl": "hasCost",
+        "en": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.",
+        "en": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
       "name": "haslegalresources",
       "label": {
         "nl": "hasLegalResources",
@@ -623,7 +623,7 @@
       }
     },
     {
-      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
+      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
       "name": "haslegalresources",
       "label": {
         "nl": "hasLegalResources",
@@ -1295,7 +1295,7 @@
       }
     },
     {
-      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
+      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
       "name": "hasrequirement",
       "label": {
         "nl": "hasRequirement",
@@ -1307,7 +1307,7 @@
       }
     },
     {
-      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
+      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
       "name": "hasrequirement",
       "label": {
         "nl": "hasRequirement",

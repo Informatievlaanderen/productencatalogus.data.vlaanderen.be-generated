@@ -4568,99 +4568,6 @@
       },
       "extra": {
         "EA-Name": "produces",
-        "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Range": "FinancialAdvantage",
-        "RangeData": {
-          "EA-Name": "FinancialAdvantage",
-          "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/m8g/Output"
-        },
-        "sourceRole": "null",
-        "destRole": "null",
-        "label": {
-          "nl": "produces"
-        },
-        "definition": {
-          "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-        },
-        "usage": "",
-        "ap-label-nl": {
-          "nl": "produces"
-        },
-        "ap-definition-nl": {
-          "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-        },
-        "ap-usageNote-nl": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "http://purl.org/vocab/cpsv#produces",
-            "note": "null"
-          },
-          {
-            "key": "description-nl",
-            "value": "NOTE",
-            "note": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-          },
-          {
-            "key": "label-nl",
-            "value": "produces",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "NOTE",
-            "note": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-          }
-        ],
-        "DestRoleTags": [],
-        "Scope": "TRANSLATIONS_ONLY"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
-          "EA-Name": "InstancePublicService"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "FinancialAdvantage",
-          "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/m8g/Output"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://purl.org/vocab/cpsv#produces",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "produces",
-      "inpackage": "ACTIVE_PACKAGE",
-      "definition": {
-        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-      },
-      "label": {
-        "nl": "produces"
-      },
-      "ap-label-nl": {
-        "nl": "produces"
-      },
-      "ap-definition-nl": {
-        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-      },
-      "extra": {
-        "EA-Name": "produces",
         "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
         "derived": "false",
         "EA-Package": "",
@@ -4736,74 +4643,74 @@
       "maxCardinality": "*"
     },
     {
-      "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
+      "@id": "http://purl.org/vocab/cpsv#produces",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "hasrequirement",
+      "name": "produces",
       "inpackage": "ACTIVE_PACKAGE",
       "definition": {
-        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
       },
       "label": {
-        "nl": "hasRequirement"
+        "nl": "produces"
       },
       "ap-label-nl": {
-        "nl": "hasRequirement"
+        "nl": "produces"
       },
       "ap-definition-nl": {
-        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
       },
       "extra": {
-        "EA-Name": "hasRequirement",
-        "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
+        "EA-Name": "produces",
+        "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
         "derived": "false",
         "EA-Package": "",
         "EA-Type": "connector",
-        "EA-Domain": "ConceptualPublicService",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Range": "Requirement",
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Range": "FinancialAdvantage",
         "RangeData": {
-          "EA-Name": "Requirement",
-          "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
+          "EA-Name": "FinancialAdvantage",
+          "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
           "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/m8g/Requirement"
+          "uri": "http://data.europa.eu/m8g/Output"
         },
         "sourceRole": "null",
         "destRole": "null",
         "label": {
-          "nl": "hasRequirement"
+          "nl": "produces"
         },
         "definition": {
-          "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+          "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
         },
         "usage": "",
         "ap-label-nl": {
-          "nl": "hasRequirement"
+          "nl": "produces"
         },
         "ap-definition-nl": {
-          "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+          "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
         },
         "ap-usageNote-nl": "",
         "ap-codelist": "",
         "RawTags": [
           {
             "key": "uri",
-            "value": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
+            "value": "http://purl.org/vocab/cpsv#produces",
             "note": "null"
           },
           {
             "key": "description-nl",
-            "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
-            "note": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
-          },
-          {
-            "key": "definition-nl",
-            "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
-            "note": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+            "value": "NOTE",
+            "note": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
           },
           {
             "key": "label-nl",
-            "value": "hasRequirement",
+            "value": "produces",
             "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "NOTE",
+            "note": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
           }
         ],
         "DestRoleTags": [],
@@ -4812,21 +4719,21 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
-          "EA-Name": "ConceptualPublicService"
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
+          "EA-Name": "InstancePublicService"
         }
       ],
       "range": [
         {
-          "EA-Name": "Requirement",
-          "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
+          "EA-Name": "FinancialAdvantage",
+          "EA-GUID": "{E1E95065-FA89-4a9b-AC9F-CACDC27FEA06}",
           "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/m8g/Requirement"
+          "uri": "http://data.europa.eu/m8g/Output"
         }
       ],
       "generalization": [],
       "minCardinality": "0",
-      "maxCardinality": "1"
+      "maxCardinality": "*"
     },
     {
       "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
@@ -4922,73 +4829,73 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "hasmoreinfo",
+      "name": "hasrequirement",
       "inpackage": "ACTIVE_PACKAGE",
       "definition": {
-        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
+        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
       },
       "label": {
-        "nl": "hasMoreInfo"
+        "nl": "hasRequirement"
       },
       "ap-label-nl": {
-        "nl": "hasMoreInfo"
+        "nl": "hasRequirement"
       },
       "ap-definition-nl": {
-        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
+        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
       },
       "extra": {
-        "EA-Name": "hasMoreInfo",
-        "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
+        "EA-Name": "hasRequirement",
+        "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
         "derived": "false",
         "EA-Package": "",
         "EA-Type": "connector",
         "EA-Domain": "ConceptualPublicService",
         "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Range": "Website",
+        "EA-Range": "Requirement",
         "RangeData": {
-          "EA-Name": "Website",
-          "EA-GUID": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
+          "EA-Name": "Requirement",
+          "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
           "EA-Package": "IPDC-LPDC",
-          "uri": "https://schema.org/WebSite"
+          "uri": "http://data.europa.eu/m8g/Requirement"
         },
         "sourceRole": "null",
         "destRole": "null",
         "label": {
-          "nl": "hasMoreInfo"
+          "nl": "hasRequirement"
         },
         "definition": {
-          "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
+          "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
         },
         "usage": "",
         "ap-label-nl": {
-          "nl": "hasMoreInfo"
+          "nl": "hasRequirement"
         },
         "ap-definition-nl": {
-          "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
+          "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
         },
         "ap-usageNote-nl": "",
         "ap-codelist": "",
         "RawTags": [
           {
             "key": "uri",
-            "value": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "value": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
             "note": "null"
           },
           {
             "key": "description-nl",
-            "value": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt",
-            "note": "null"
-          },
-          {
-            "key": "label-nl",
-            "value": "hasMoreInfo",
-            "note": "null"
+            "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
+            "note": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
           },
           {
             "key": "definition-nl",
-            "value": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt",
+            "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
+            "note": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+          },
+          {
+            "key": "label-nl",
+            "value": "hasRequirement",
             "note": "null"
           }
         ],
@@ -5004,15 +4911,15 @@
       ],
       "range": [
         {
-          "EA-Name": "Website",
-          "EA-GUID": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
+          "EA-Name": "Requirement",
+          "EA-GUID": "{2CAE4360-4662-4499-BBBD-E9C8E4792F63}",
           "EA-Package": "IPDC-LPDC",
-          "uri": "https://schema.org/WebSite"
+          "uri": "http://data.europa.eu/m8g/Requirement"
         }
       ],
       "generalization": [],
       "minCardinality": "0",
-      "maxCardinality": "*"
+      "maxCardinality": "1"
     },
     {
       "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -5093,6 +5000,99 @@
         {
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
           "EA-Name": "InstancePublicService"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Website",
+          "EA-GUID": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "https://schema.org/WebSite"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "hasmoreinfo",
+      "inpackage": "ACTIVE_PACKAGE",
+      "definition": {
+        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
+      },
+      "label": {
+        "nl": "hasMoreInfo"
+      },
+      "ap-label-nl": {
+        "nl": "hasMoreInfo"
+      },
+      "ap-definition-nl": {
+        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
+      },
+      "extra": {
+        "EA-Name": "hasMoreInfo",
+        "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "ConceptualPublicService",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Range": "Website",
+        "RangeData": {
+          "EA-Name": "Website",
+          "EA-GUID": "{77B9DBCE-44A1-44e5-9A66-25B91D2BEE91}",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "https://schema.org/WebSite"
+        },
+        "sourceRole": "null",
+        "destRole": "null",
+        "label": {
+          "nl": "hasMoreInfo"
+        },
+        "definition": {
+          "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
+        },
+        "usage": "",
+        "ap-label-nl": {
+          "nl": "hasMoreInfo"
+        },
+        "ap-definition-nl": {
+          "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
+        },
+        "ap-usageNote-nl": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "uri",
+            "value": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "note": "null"
+          },
+          {
+            "key": "description-nl",
+            "value": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt",
+            "note": "null"
+          },
+          {
+            "key": "label-nl",
+            "value": "hasMoreInfo",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt",
+            "note": "null"
+          }
+        ],
+        "DestRoleTags": [],
+        "Scope": "TRANSLATIONS_ONLY"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
+          "EA-Name": "ConceptualPublicService"
         }
       ],
       "range": [
@@ -7010,94 +7010,6 @@
       },
       "extra": {
         "EA-Name": "hasExecutingAuthority",
-        "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "InstancePublicService",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Range": "PubliekeOrganisatie",
-        "RangeData": {
-          "EA-Name": "PubliekeOrganisatie",
-          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
-          "EA-Package": "OSLO-Organisatie",
-          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
-        },
-        "sourceRole": "null",
-        "destRole": "null",
-        "label": {
-          "nl": "hasExecutingAuthority"
-        },
-        "definition": "",
-        "usage": {
-          "nl": "Link naar het Organisatieregister"
-        },
-        "ap-label-nl": {
-          "nl": "hasExecutingAuthority"
-        },
-        "ap-definition-nl": {
-          "nl": "TODO"
-        },
-        "ap-usageNote-nl": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "label-nl",
-            "value": "hasExecutingAuthority",
-            "note": "null"
-          },
-          {
-            "key": "usageNote-nl",
-            "value": "Link naar het Organisatieregister",
-            "note": "null"
-          },
-          {
-            "key": "uri",
-            "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
-            "note": "null"
-          }
-        ],
-        "DestRoleTags": [],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
-          "EA-Name": "InstancePublicService"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "PubliekeOrganisatie",
-          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
-          "EA-Package": "OSLO-Organisatie",
-          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "hasexecutingauthority",
-      "inpackage": "UNKNOWN",
-      "usage": {
-        "nl": "Link naar het Organisatieregister"
-      },
-      "label": {
-        "nl": "hasExecutingAuthority"
-      },
-      "ap-label-nl": {
-        "nl": "hasExecutingAuthority"
-      },
-      "ap-definition-nl": {
-        "nl": "TODO"
-      },
-      "extra": {
-        "EA-Name": "hasExecutingAuthority",
         "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
         "derived": "false",
         "EA-Package": "",
@@ -7153,6 +7065,94 @@
         {
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
           "EA-Name": "ConceptualPublicService"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "PubliekeOrganisatie",
+          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+          "EA-Package": "OSLO-Organisatie",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "hasexecutingauthority",
+      "inpackage": "UNKNOWN",
+      "usage": {
+        "nl": "Link naar het Organisatieregister"
+      },
+      "label": {
+        "nl": "hasExecutingAuthority"
+      },
+      "ap-label-nl": {
+        "nl": "hasExecutingAuthority"
+      },
+      "ap-definition-nl": {
+        "nl": "TODO"
+      },
+      "extra": {
+        "EA-Name": "hasExecutingAuthority",
+        "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "InstancePublicService",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Range": "PubliekeOrganisatie",
+        "RangeData": {
+          "EA-Name": "PubliekeOrganisatie",
+          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+          "EA-Package": "OSLO-Organisatie",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+        },
+        "sourceRole": "null",
+        "destRole": "null",
+        "label": {
+          "nl": "hasExecutingAuthority"
+        },
+        "definition": "",
+        "usage": {
+          "nl": "Link naar het Organisatieregister"
+        },
+        "ap-label-nl": {
+          "nl": "hasExecutingAuthority"
+        },
+        "ap-definition-nl": {
+          "nl": "TODO"
+        },
+        "ap-usageNote-nl": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "value": "hasExecutingAuthority",
+            "note": "null"
+          },
+          {
+            "key": "usageNote-nl",
+            "value": "Link naar het Organisatieregister",
+            "note": "null"
+          },
+          {
+            "key": "uri",
+            "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+            "note": "null"
+          }
+        ],
+        "DestRoleTags": [],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService",
+          "EA-Name": "InstancePublicService"
         }
       ],
       "range": [
@@ -9109,6 +9109,6 @@
   "repository": "https://github.com/Informatievlaanderen/ipdc-lpdc",
   "urlref": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2023-10-09",
   "documentcommit": "96b0887413672413f6e2cb6bd5ed1c2253c62990",
-  "toolchaincommit": "b8f9c002003d8f9f5d4ff8edc240ae2eb6353365",
+  "toolchaincommit": "087ee4934ad49b4c992227366457cf30724a0eec",
   "hostname": "https://productencatalogus.data.test-vlaanderen.be/"
 }

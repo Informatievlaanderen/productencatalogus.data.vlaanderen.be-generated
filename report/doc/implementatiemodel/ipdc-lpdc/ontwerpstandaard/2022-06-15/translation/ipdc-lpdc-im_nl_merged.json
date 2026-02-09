@@ -762,7 +762,7 @@
     {
       "@id": "https://vocab.belgif.be/ns/publicservice#hasRequirement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
+      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
       "ap-definition-nl": {
         "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
       },
@@ -775,15 +775,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Instance Public Service",
-          "uri": "http://fixme.com#Instance Public Service"
+          "EA-Name": "Conceptual Public Service",
+          "uri": "http://purl.org/vocab/cpsv#PublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "Instance Public Service",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
+        "EA-Domain": "Conceptual Public Service",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
         "EA-Name": "hasRequirement",
         "EA-Package": "",
         "EA-Range": "Requirement",
@@ -802,12 +802,12 @@
           },
           {
             "key": "description-nl",
-            "note": "null",
+            "note": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
             "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
           },
           {
             "key": "definition-nl",
-            "note": "null",
+            "note": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
             "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
           },
           {
@@ -856,7 +856,7 @@
     {
       "@id": "https://vocab.belgif.be/ns/publicservice#hasRequirement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
+      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
       "ap-definition-nl": {
         "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
       },
@@ -869,15 +869,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Conceptual Public Service",
-          "uri": "http://purl.org/vocab/cpsv#PublicService"
+          "EA-Name": "Instance Public Service",
+          "uri": "http://fixme.com#Instance Public Service"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "Conceptual Public Service",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
+        "EA-Domain": "Instance Public Service",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
         "EA-Name": "hasRequirement",
         "EA-Package": "",
         "EA-Range": "Requirement",
@@ -896,12 +896,12 @@
           },
           {
             "key": "description-nl",
-            "note": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
+            "note": "null",
             "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
           },
           {
             "key": "definition-nl",
-            "note": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
+            "note": "null",
             "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
           },
           {
@@ -5464,110 +5464,6 @@
     {
       "@id": "http://data.europa.eu/m8g/hasLegalResource",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
-      "ap-definition-nl": {
-        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-      },
-      "ap-label-nl": {
-        "nl": "hasLegalResources"
-      },
-      "codelist": [],
-      "definition": {
-        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-      },
-      "domain": [
-        {
-          "EA-Name": "Instance Public Service",
-          "uri": "http://fixme.com#Instance Public Service"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [],
-        "EA-Domain": "Instance Public Service",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
-        "EA-Name": "hasLegalResources",
-        "EA-Package": "",
-        "EA-Range": "eli::LegalResource",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
-          "EA-Name": "eli::LegalResource",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
-        },
-        "RawTags": [
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://data.europa.eu/m8g/hasLegalResource"
-          },
-          {
-            "key": "description-nl",
-            "note": "null",
-            "value": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-          },
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "hasLegalResources"
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-          },
-          {
-            "key": "usageNote-nl",
-            "note": "null",
-            "value": "Link naar de Vlaamse Codex"
-          }
-        ],
-        "Scope": "TRANSLATIONS_ONLY",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-        },
-        "ap-label-nl": {
-          "nl": "hasLegalResources"
-        },
-        "ap-usageNote-nl": "",
-        "definition": {
-          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-        },
-        "derived": "false",
-        "destRole": "null",
-        "label": {
-          "nl": "hasLegalResources"
-        },
-        "sourceRole": "null",
-        "usage": {
-          "nl": "Link naar de Vlaamse Codex"
-        }
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "nl": "hasLegalResources"
-      },
-      "maxCardinality": "*",
-      "minCardinality": "0",
-      "name": "haslegalresources",
-      "range": [
-        {
-          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
-          "EA-Name": "eli::LegalResource",
-          "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
-        }
-      ],
-      "usage": {
-        "nl": "Link naar de Vlaamse Codex"
-      }
-    },
-    {
-      "@id": "http://data.europa.eu/m8g/hasLegalResource",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
       "ap-definition-nl": {
         "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
@@ -5670,98 +5566,108 @@
       }
     },
     {
-      "@id": "http://data.europa.eu/m8g/hasCost",
+      "@id": "http://data.europa.eu/m8g/hasLegalResource",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
       "ap-definition-nl": {
-        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
       },
       "ap-label-nl": {
-        "nl": "hasCost"
+        "nl": "hasLegalResources"
       },
       "codelist": [],
       "definition": {
-        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
+        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
       },
       "domain": [
         {
-          "EA-Name": "Conceptual Public Service",
-          "uri": "http://purl.org/vocab/cpsv#PublicService"
+          "EA-Name": "Instance Public Service",
+          "uri": "http://fixme.com#Instance Public Service"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "Conceptual Public Service",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
-        "EA-Name": "hasCost",
+        "EA-Domain": "Instance Public Service",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
+        "EA-Name": "hasLegalResources",
         "EA-Package": "",
-        "EA-Range": "Cost",
+        "EA-Range": "eli::LegalResource",
         "EA-Type": "connector",
         "RangeData": {
-          "EA-GUID": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
-          "EA-Name": "Cost",
+          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
+          "EA-Name": "eli::LegalResource",
           "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/m8g/Cost"
+          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
         },
         "RawTags": [
           {
             "key": "uri",
             "note": "null",
-            "value": "http://data.europa.eu/m8g/hasCost"
+            "value": "http://data.europa.eu/m8g/hasLegalResource"
           },
           {
             "key": "description-nl",
-            "note": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.",
-            "value": "NOTE"
+            "note": "null",
+            "value": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
           },
           {
             "key": "label-nl",
             "note": "null",
-            "value": "hasCost"
+            "value": "hasLegalResources"
           },
           {
             "key": "definition-nl",
-            "note": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.",
-            "value": "NOTE"
+            "note": "null",
+            "value": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
+          },
+          {
+            "key": "usageNote-nl",
+            "note": "null",
+            "value": "Link naar de Vlaamse Codex"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
         "ap-codelist": "",
         "ap-definition-nl": {
-          "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
+          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
         },
         "ap-label-nl": {
-          "nl": "hasCost"
+          "nl": "hasLegalResources"
         },
         "ap-usageNote-nl": "",
         "definition": {
-          "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
+          "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
         },
         "derived": "false",
         "destRole": "null",
         "label": {
-          "nl": "hasCost"
+          "nl": "hasLegalResources"
         },
         "sourceRole": "null",
-        "usage": ""
+        "usage": {
+          "nl": "Link naar de Vlaamse Codex"
+        }
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "hasCost"
+        "nl": "hasLegalResources"
       },
-      "maxCardinality": "1",
+      "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "hascost",
+      "name": "haslegalresources",
       "range": [
         {
-          "EA-GUID": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
-          "EA-Name": "Cost",
+          "EA-GUID": "{9473E564-0D7F-4ea8-B40B-33A749EC4929}",
+          "EA-Name": "eli::LegalResource",
           "EA-Package": "IPDC-LPDC",
-          "uri": "http://data.europa.eu/m8g/Cost"
+          "uri": "http://data.europa.eu/eli/ontology#LegalResource"
         }
-      ]
+      ],
+      "usage": {
+        "nl": "Link naar de Vlaamse Codex"
+      }
     },
     {
       "@id": "http://data.europa.eu/m8g/hasCost",
@@ -5858,9 +5764,103 @@
       ]
     },
     {
+      "@id": "http://data.europa.eu/m8g/hasCost",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+      "ap-definition-nl": {
+        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
+      },
+      "ap-label-nl": {
+        "nl": "hasCost"
+      },
+      "codelist": [],
+      "definition": {
+        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
+      },
+      "domain": [
+        {
+          "EA-Name": "Conceptual Public Service",
+          "uri": "http://purl.org/vocab/cpsv#PublicService"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "Conceptual Public Service",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+        "EA-Name": "hasCost",
+        "EA-Package": "",
+        "EA-Range": "Cost",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
+          "EA-Name": "Cost",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://data.europa.eu/m8g/Cost"
+        },
+        "RawTags": [
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://data.europa.eu/m8g/hasCost"
+          },
+          {
+            "key": "description-nl",
+            "note": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "hasCost"
+          },
+          {
+            "key": "definition-nl",
+            "note": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
+        },
+        "ap-label-nl": {
+          "nl": "hasCost"
+        },
+        "ap-usageNote-nl": "",
+        "definition": {
+          "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
+        },
+        "derived": "false",
+        "destRole": "null",
+        "label": {
+          "nl": "hasCost"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "nl": "hasCost"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "0",
+      "name": "hascost",
+      "range": [
+        {
+          "EA-GUID": "{E3018D5E-75F5-4ba7-9DC3-C864C72D7770}",
+          "EA-Name": "Cost",
+          "EA-Package": "IPDC-LPDC",
+          "uri": "http://data.europa.eu/m8g/Cost"
+        }
+      ]
+    },
+    {
       "@id": "http://data.europa.eu/m8g/hasContactPoint",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{836B7326-86C9-4a65-B122-841B3EEA50A6}",
+      "EA-Guid": "{2AF0F766-4BAF-43e6-86D4-C044022B501C}",
       "ap-definition-nl": {
         "nl": "A contact point for the service is almost always helpful. The value of this property, the contact information itself, should be provided using schema:ContactPoint. Note that the contact information should be relevant to the Public Service which may not be the same as contact information for the Competent Authority or any Participant."
       },
@@ -5873,15 +5873,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Instance Public Service",
-          "uri": "http://fixme.com#Instance Public Service"
+          "EA-Name": "Conceptual Public Service",
+          "uri": "http://purl.org/vocab/cpsv#PublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "Instance Public Service",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{836B7326-86C9-4a65-B122-841B3EEA50A6}",
+        "EA-Domain": "Conceptual Public Service",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{2AF0F766-4BAF-43e6-86D4-C044022B501C}",
         "EA-Name": "hasContactPoints",
         "EA-Package": "",
         "EA-Range": "ContactPoint",
@@ -5954,7 +5954,7 @@
     {
       "@id": "http://data.europa.eu/m8g/hasContactPoint",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{2AF0F766-4BAF-43e6-86D4-C044022B501C}",
+      "EA-Guid": "{836B7326-86C9-4a65-B122-841B3EEA50A6}",
       "ap-definition-nl": {
         "nl": "A contact point for the service is almost always helpful. The value of this property, the contact information itself, should be provided using schema:ContactPoint. Note that the contact information should be relevant to the Public Service which may not be the same as contact information for the Competent Authority or any Participant."
       },
@@ -5967,15 +5967,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Conceptual Public Service",
-          "uri": "http://purl.org/vocab/cpsv#PublicService"
+          "EA-Name": "Instance Public Service",
+          "uri": "http://fixme.com#Instance Public Service"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "Conceptual Public Service",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{2AF0F766-4BAF-43e6-86D4-C044022B501C}",
+        "EA-Domain": "Instance Public Service",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{836B7326-86C9-4a65-B122-841B3EEA50A6}",
         "EA-Name": "hasContactPoints",
         "EA-Package": "",
         "EA-Range": "ContactPoint",
@@ -8244,7 +8244,7 @@
     {
       "@id": "http://fixme.com#hasAttachments",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{295564AD-90FE-401d-9F13-36FF994C536D}",
+      "EA-Guid": "{C148222C-4EC1-479c-925D-9C1A3D66253C}",
       "ap-definition-nl": {
         "nl": "Bijlagen die gerelateerd zijn aan de dienstverlening."
       },
@@ -8257,15 +8257,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Conceptual Public Service",
-          "uri": "http://purl.org/vocab/cpsv#PublicService"
+          "EA-Name": "Instance Public Service",
+          "uri": "http://fixme.com#Instance Public Service"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "Conceptual Public Service",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{295564AD-90FE-401d-9F13-36FF994C536D}",
+        "EA-Domain": "Instance Public Service",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{C148222C-4EC1-479c-925D-9C1A3D66253C}",
         "EA-Name": "hasAttachments",
         "EA-Package": "",
         "EA-Range": "Document",
@@ -8333,7 +8333,7 @@
     {
       "@id": "http://fixme.com#hasAttachments",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{C148222C-4EC1-479c-925D-9C1A3D66253C}",
+      "EA-Guid": "{295564AD-90FE-401d-9F13-36FF994C536D}",
       "ap-definition-nl": {
         "nl": "Bijlagen die gerelateerd zijn aan de dienstverlening."
       },
@@ -8346,15 +8346,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Instance Public Service",
-          "uri": "http://fixme.com#Instance Public Service"
+          "EA-Name": "Conceptual Public Service",
+          "uri": "http://purl.org/vocab/cpsv#PublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "Instance Public Service",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{C148222C-4EC1-479c-925D-9C1A3D66253C}",
+        "EA-Domain": "Conceptual Public Service",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{295564AD-90FE-401d-9F13-36FF994C536D}",
         "EA-Name": "hasAttachments",
         "EA-Package": "",
         "EA-Range": "Document",
@@ -9440,7 +9440,7 @@
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
   "template": "ipdc-lpdc-im.j2",
   "title": "IPDC - LPDC (Implementatiemodel)",
-  "toolchaincommit": "b8f9c002003d8f9f5d4ff8edc240ae2eb6353365",
+  "toolchaincommit": "087ee4934ad49b4c992227366457cf30724a0eec",
   "translation": [
     {
       "language": "nl",
