@@ -762,7 +762,7 @@
     {
       "@id": "https://vocab.belgif.be/ns/publicservice#hasRequirement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
+      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
       "ap-definition-nl": {
         "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
       },
@@ -775,15 +775,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Conceptual Public Service",
-          "uri": "http://purl.org/vocab/cpsv#PublicService"
+          "EA-Name": "Instance Public Service",
+          "uri": "http://fixme.com#Instance Public Service"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "Conceptual Public Service",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
+        "EA-Domain": "Instance Public Service",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
         "EA-Name": "hasRequirement",
         "EA-Package": "",
         "EA-Range": "Requirement",
@@ -802,12 +802,12 @@
           },
           {
             "key": "description-nl",
-            "note": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
+            "note": "null",
             "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
           },
           {
             "key": "definition-nl",
-            "note": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
+            "note": "null",
             "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
           },
           {
@@ -856,7 +856,7 @@
     {
       "@id": "https://vocab.belgif.be/ns/publicservice#hasRequirement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
+      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
       "ap-definition-nl": {
         "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
       },
@@ -869,15 +869,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Instance Public Service",
-          "uri": "http://fixme.com#Instance Public Service"
+          "EA-Name": "Conceptual Public Service",
+          "uri": "http://purl.org/vocab/cpsv#PublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "Instance Public Service",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
+        "EA-Domain": "Conceptual Public Service",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
         "EA-Name": "hasRequirement",
         "EA-Package": "",
         "EA-Range": "Requirement",
@@ -896,12 +896,12 @@
           },
           {
             "key": "description-nl",
-            "note": "null",
+            "note": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
             "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
           },
           {
             "key": "definition-nl",
-            "note": "null",
+            "note": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
             "value": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
           },
           {
@@ -5672,7 +5672,7 @@
     {
       "@id": "http://data.europa.eu/m8g/hasCost",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
+      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
       "ap-definition-nl": {
         "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
       },
@@ -5685,15 +5685,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Instance Public Service",
-          "uri": "http://fixme.com#Instance Public Service"
+          "EA-Name": "Conceptual Public Service",
+          "uri": "http://purl.org/vocab/cpsv#PublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "Instance Public Service",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
+        "EA-Domain": "Conceptual Public Service",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
         "EA-Name": "hasCost",
         "EA-Package": "",
         "EA-Range": "Cost",
@@ -5766,7 +5766,7 @@
     {
       "@id": "http://data.europa.eu/m8g/hasCost",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
       "ap-definition-nl": {
         "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
       },
@@ -5779,15 +5779,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Conceptual Public Service",
-          "uri": "http://purl.org/vocab/cpsv#PublicService"
+          "EA-Name": "Instance Public Service",
+          "uri": "http://fixme.com#Instance Public Service"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "Conceptual Public Service",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{5E830F1F-5382-442d-9464-30C96F6236FF}",
+        "EA-Domain": "Instance Public Service",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
         "EA-Name": "hasCost",
         "EA-Package": "",
         "EA-Range": "Cost",
@@ -8244,7 +8244,7 @@
     {
       "@id": "http://fixme.com#hasAttachments",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{C148222C-4EC1-479c-925D-9C1A3D66253C}",
+      "EA-Guid": "{295564AD-90FE-401d-9F13-36FF994C536D}",
       "ap-definition-nl": {
         "nl": "Bijlagen die gerelateerd zijn aan de dienstverlening."
       },
@@ -8257,15 +8257,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Instance Public Service",
-          "uri": "http://fixme.com#Instance Public Service"
+          "EA-Name": "Conceptual Public Service",
+          "uri": "http://purl.org/vocab/cpsv#PublicService"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "Instance Public Service",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{C148222C-4EC1-479c-925D-9C1A3D66253C}",
+        "EA-Domain": "Conceptual Public Service",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{295564AD-90FE-401d-9F13-36FF994C536D}",
         "EA-Name": "hasAttachments",
         "EA-Package": "",
         "EA-Range": "Document",
@@ -8333,7 +8333,7 @@
     {
       "@id": "http://fixme.com#hasAttachments",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{295564AD-90FE-401d-9F13-36FF994C536D}",
+      "EA-Guid": "{C148222C-4EC1-479c-925D-9C1A3D66253C}",
       "ap-definition-nl": {
         "nl": "Bijlagen die gerelateerd zijn aan de dienstverlening."
       },
@@ -8346,15 +8346,15 @@
       },
       "domain": [
         {
-          "EA-Name": "Conceptual Public Service",
-          "uri": "http://purl.org/vocab/cpsv#PublicService"
+          "EA-Name": "Instance Public Service",
+          "uri": "http://fixme.com#Instance Public Service"
         }
       ],
       "extra": {
         "DestRoleTags": [],
-        "EA-Domain": "Conceptual Public Service",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{295564AD-90FE-401d-9F13-36FF994C536D}",
+        "EA-Domain": "Instance Public Service",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{C148222C-4EC1-479c-925D-9C1A3D66253C}",
         "EA-Name": "hasAttachments",
         "EA-Package": "",
         "EA-Range": "Document",
@@ -9440,7 +9440,7 @@
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
   "template": "ipdc-lpdc-im.j2",
   "title": "IPDC - LPDC (Implementatiemodel)",
-  "toolchaincommit": "ab817f15cc769436ffb05230de93f76e4d275897",
+  "toolchaincommit": "9ef39446c69fc5606c4a577f72a802f829af271c",
   "translation": [
     {
       "language": "nl",

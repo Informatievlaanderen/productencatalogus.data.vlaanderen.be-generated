@@ -733,16 +733,6 @@
       }
     },
     {
-      "EA-Guid": "{57789C19-53A1-4230-859C-5E13C38D8772}",
-      "name": "contactgegevens",
-      "label": {
-        "nl": "contactgegevens"
-      },
-      "definition": {
-        "nl": "A contact point for the service is almost always helpful. The value of this property, the contact information itself, should be provided using schema:ContactPoint. Note that the contact information should be relevant to the Public Service which may not be the same as contact information for the Competent Authority or any Participant."
-      }
-    },
-    {
       "EA-Guid": "{836B7326-86C9-4a65-B122-841B3EEA50A6}",
       "name": "contactgegevens",
       "label": {
@@ -753,7 +743,27 @@
       }
     },
     {
+      "EA-Guid": "{57789C19-53A1-4230-859C-5E13C38D8772}",
+      "name": "contactgegevens",
+      "label": {
+        "nl": "contactgegevens"
+      },
+      "definition": {
+        "nl": "A contact point for the service is almost always helpful. The value of this property, the contact information itself, should be provided using schema:ContactPoint. Note that the contact information should be relevant to the Public Service which may not be the same as contact information for the Competent Authority or any Participant."
+      }
+    },
+    {
       "EA-Guid": "{12027E05-6AF9-4adf-A44B-6B35B2311667}",
+      "name": "kosten",
+      "label": {
+        "nl": "kosten"
+      },
+      "definition": {
+        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
+      }
+    },
+    {
+      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
       "name": "kosten",
       "label": {
         "nl": "kosten"
@@ -783,17 +793,7 @@
       }
     },
     {
-      "EA-Guid": "{814653DF-FDDE-45f9-BA48-D01C0E3D87F2}",
-      "name": "kosten",
-      "label": {
-        "nl": "kosten"
-      },
-      "definition": {
-        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
-      }
-    },
-    {
-      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
+      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
       "name": "regelgeving",
       "label": {
         "nl": "regelgeving"
@@ -803,7 +803,7 @@
       }
     },
     {
-      "EA-Guid": "{32C8ADC4-6E55-4d22-B66C-8C4C486B9D2B}",
+      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
       "name": "regelgeving",
       "label": {
         "nl": "regelgeving"
@@ -823,7 +823,7 @@
       }
     },
     {
-      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
+      "EA-Guid": "{32C8ADC4-6E55-4d22-B66C-8C4C486B9D2B}",
       "name": "regelgeving",
       "label": {
         "nl": "regelgeving"
@@ -1084,7 +1084,7 @@
       }
     },
     {
-      "EA-Guid": "{81D83355-57A6-4a43-9F2D-DC7C00DD6EE7}",
+      "EA-Guid": "{921D088F-DFEC-4ce3-B808-1A5642116D49}",
       "name": "linkedconcept",
       "label": {
         "nl": "linkedConcept"
@@ -1094,7 +1094,7 @@
       }
     },
     {
-      "EA-Guid": "{921D088F-DFEC-4ce3-B808-1A5642116D49}",
+      "EA-Guid": "{81D83355-57A6-4a43-9F2D-DC7C00DD6EE7}",
       "name": "linkedconcept",
       "label": {
         "nl": "linkedConcept"
@@ -1292,7 +1292,7 @@
       }
     },
     {
-      "EA-Guid": "{CB80FF60-F68B-43a4-9F8B-701511288CD0}",
+      "EA-Guid": "{EB4D5E72-4645-4cdb-A77F-D87930DB02D0}",
       "name": "aangemaaktdoor",
       "label": {
         "nl": "aangemaaktDoor"
@@ -1302,7 +1302,7 @@
       }
     },
     {
-      "EA-Guid": "{EB4D5E72-4645-4cdb-A77F-D87930DB02D0}",
+      "EA-Guid": "{CB80FF60-F68B-43a4-9F8B-701511288CD0}",
       "name": "aangemaaktdoor",
       "label": {
         "nl": "aangemaaktDoor"
@@ -1322,7 +1322,7 @@
       }
     },
     {
-      "EA-Guid": "{CC44BE05-EFA9-4b70-A532-8A3E824F1788}",
+      "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
       "name": "procedures",
       "label": {
         "nl": "procedures"
@@ -1332,7 +1332,7 @@
       }
     },
     {
-      "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
+      "EA-Guid": "{CC44BE05-EFA9-4b70-A532-8A3E824F1788}",
       "name": "procedures",
       "label": {
         "nl": "procedures"
@@ -1352,26 +1352,6 @@
       }
     },
     {
-      "EA-Guid": "{E487DB3E-FB26-469f-B288-72E6ADE383D0}",
-      "name": "financielevoordelen",
-      "label": {
-        "nl": "financieleVoordelen"
-      },
-      "definition": {
-        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-      }
-    },
-    {
-      "EA-Guid": "{94683A82-DF28-4261-A48E-0ACCFBD677F6}",
-      "name": "financielevoordelen",
-      "label": {
-        "nl": "financieleVoordelen"
-      },
-      "definition": {
-        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-      }
-    },
-    {
       "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
       "name": "financielevoordelen",
       "label": {
@@ -1382,7 +1362,27 @@
       }
     },
     {
+      "EA-Guid": "{E487DB3E-FB26-469f-B288-72E6ADE383D0}",
+      "name": "financielevoordelen",
+      "label": {
+        "nl": "financieleVoordelen"
+      },
+      "definition": {
+        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+      }
+    },
+    {
       "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+      "name": "financielevoordelen",
+      "label": {
+        "nl": "financieleVoordelen"
+      },
+      "definition": {
+        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
+      }
+    },
+    {
+      "EA-Guid": "{94683A82-DF28-4261-A48E-0ACCFBD677F6}",
       "name": "financielevoordelen",
       "label": {
         "nl": "financieleVoordelen"
@@ -1703,16 +1703,6 @@
       }
     },
     {
-      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
-      "name": "voorwaarden",
-      "label": {
-        "nl": "voorwaarden"
-      },
-      "definition": {
-        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
-      }
-    },
-    {
       "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
       "name": "voorwaarden",
       "label": {
@@ -1743,7 +1733,17 @@
       }
     },
     {
-      "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
+      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
+      "name": "voorwaarden",
+      "label": {
+        "nl": "voorwaarden"
+      },
+      "definition": {
+        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
+      }
+    },
+    {
+      "EA-Guid": "{95BE41F7-CB97-4f65-B515-0835241C4ACB}",
       "name": "websites",
       "label": {
         "nl": "websites"
@@ -1763,7 +1763,7 @@
       }
     },
     {
-      "EA-Guid": "{61D4ED6A-7970-4709-BD32-8258B5873D9A}",
+      "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
       "name": "websites",
       "label": {
         "nl": "websites"
@@ -1773,7 +1773,7 @@
       }
     },
     {
-      "EA-Guid": "{95BE41F7-CB97-4f65-B515-0835241C4ACB}",
+      "EA-Guid": "{61D4ED6A-7970-4709-BD32-8258B5873D9A}",
       "name": "websites",
       "label": {
         "nl": "websites"
@@ -2016,6 +2016,16 @@
       }
     },
     {
+      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+      "name": "uitvoerendeoverheden",
+      "label": {
+        "nl": "uitvoerendeOverheden"
+      },
+      "definition": {
+        "nl": "Links naar de uitvoerende organisaties"
+      }
+    },
+    {
       "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
       "name": "uitvoerendeoverheden",
       "label": {
@@ -2027,16 +2037,6 @@
     },
     {
       "EA-Guid": "{5CA2C3BC-4A41-46e2-9AC7-2695B61D4979}",
-      "name": "uitvoerendeoverheden",
-      "label": {
-        "nl": "uitvoerendeOverheden"
-      },
-      "definition": {
-        "nl": "Links naar de uitvoerende organisaties"
-      }
-    },
-    {
-      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
       "name": "uitvoerendeoverheden",
       "label": {
         "nl": "uitvoerendeOverheden"
