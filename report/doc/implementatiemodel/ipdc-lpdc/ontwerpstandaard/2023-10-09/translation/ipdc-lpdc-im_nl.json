@@ -413,7 +413,7 @@
       }
     },
     {
-      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+      "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
       "name": "hasexecutingauthority",
       "label": {
         "nl": "hasExecutingAuthority"
@@ -423,7 +423,7 @@
       }
     },
     {
-      "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
+      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
       "name": "hasexecutingauthority",
       "label": {
         "nl": "hasExecutingAuthority"
@@ -709,7 +709,7 @@
       }
     },
     {
-      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
       "name": "produces",
       "label": {
         "nl": "produces"
@@ -719,7 +719,7 @@
       }
     },
     {
-      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
       "name": "produces",
       "label": {
         "nl": "produces"
@@ -1017,16 +1017,6 @@
       }
     },
     {
-      "EA-Guid": "{545432DE-61CC-44f1-8C9F-810BDE874F69}",
-      "name": "hassupportingevidence",
-      "label": {
-        "nl": "hasSupportingEvidence"
-      },
-      "definition": {
-        "nl": "The Evidence that supplies information (proof, support) for this Requirement."
-      }
-    },
-    {
       "EA-Guid": "{CA44BB8F-550D-4d15-BB91-0FBFF973D92C}",
       "name": "hassupportingevidence",
       "label": {
@@ -1037,7 +1027,17 @@
       }
     },
     {
-      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
+      "EA-Guid": "{545432DE-61CC-44f1-8C9F-810BDE874F69}",
+      "name": "hassupportingevidence",
+      "label": {
+        "nl": "hasSupportingEvidence"
+      },
+      "definition": {
+        "nl": "The Evidence that supplies information (proof, support) for this Requirement."
+      }
+    },
+    {
+      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
       "name": "haslegalresource",
       "label": {
         "nl": "hasLegalResource"
@@ -1050,7 +1050,7 @@
       }
     },
     {
-      "EA-Guid": "{91BFA127-6FD3-4326-96C0-F8DB67525603}",
+      "EA-Guid": "{2669865D-C23D-4e56-BC82-D84DB101B102}",
       "name": "haslegalresource",
       "label": {
         "nl": "hasLegalResource"
