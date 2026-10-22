@@ -493,7 +493,7 @@
       }
     },
     {
-      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+      "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
       "name": "hasexecutingauthority",
       "label": {
         "nl": "hasExecutingAuthority",
@@ -505,7 +505,7 @@
       }
     },
     {
-      "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
+      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
       "name": "hasexecutingauthority",
       "label": {
         "nl": "hasExecutingAuthority",
@@ -805,18 +805,6 @@
       }
     },
     {
-      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
-      "name": "hasmoreinfo",
-      "label": {
-        "nl": "hasMoreInfo",
-        "fr": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt",
-        "fr": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
       "name": "hasmoreinfo",
       "label": {
@@ -829,14 +817,14 @@
       }
     },
     {
-      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
-      "name": "hasrequirement",
+      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
+      "name": "hasmoreinfo",
       "label": {
-        "nl": "hasRequirement",
+        "nl": "hasMoreInfo",
         "fr": "Enter your translation here"
       },
       "definition": {
-        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
+        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt",
         "fr": "Enter your translation here"
       }
     },
@@ -853,7 +841,19 @@
       }
     },
     {
-      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
+      "name": "hasrequirement",
+      "label": {
+        "nl": "hasRequirement",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
       "name": "produces",
       "label": {
         "nl": "produces",
@@ -865,7 +865,7 @@
       }
     },
     {
-      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
       "name": "produces",
       "label": {
         "nl": "produces",
