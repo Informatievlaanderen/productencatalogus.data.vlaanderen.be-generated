@@ -4726,38 +4726,68 @@ Gebruik bij voorkeur de relatie &#39;follows(Rule)&#39; om te verwijzen naar de 
         </div>
     </div>
 <style>
-            @media screen {
-               a[href]:hover {
-                  background: #ffa
-               }
+            @media screen {  /* hide from IE3 */
+               a[href]:hover { background: #ffa }
             }
+
             #respecHeader {
                padding-top: 2rem;
             }
+
+            table {
+               font-size:12px;
+               color:#333333;
+               border-width: 1px;
+               border-color: #666666;
+               border-collapse: collapse;
+               margin-top: 2em;
+               width: 100%;
+            }
+
+            table th {
+               border-width: 1px;
+               padding: 8px;
+               border-style: solid;
+               border-color: #666666;
+               background-color: #dedede;
+               width: 110px;
+            }
+
+            table td {
+               border-width: 1px;
+               padding: 8px;
+               border-style: solid;
+               border-color: #666666;
+               background-color: #ffffff;
+            }
+
+            table tr:first-child {
+               font-weight:bold;
+            }
+
+            tr:nth-child(even) td     { background-color:#eee; }
+
+            dt, dd { margin-top: 0; margin-bottom: 0 } /* opera 3.50 */
+            dt { font-weight: bold }
+
+            pre, code { font-family: monospace } /* navigator 4 requires this */
+            code { color: black }
+
             p {
                text-align: justify;
             }
-            tr:nth-child(even) td {
-               background-color: #eee;
-            }
-            dt,
-            dd {
-               margin-top: 0;
-               margin-bottom: 0
-            }
-            dt {
-               font-weight: bold
-            }
-            pre,
-            code {
-               font-family: monospace
-            }
+
             em {
                font-style: italic;
             }
+
             img {
                width: 100%;
             }
+            img.cc {
+               width: 88px;
+            }
+
             .vl-tooltip {
                max-width: 128rem;
             }
