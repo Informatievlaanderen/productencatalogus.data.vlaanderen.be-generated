@@ -849,6 +849,12 @@
     {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "nl": "naam"
+      },
+      "definition": {
+        "nl": "Naam van het contact."
+      },
       "domain": [
         "http://schema.org/ContactPoint"
       ],

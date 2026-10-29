@@ -15,8 +15,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
     "statuslabel": "Nota Werkgroep",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/75f80a8d4cc31744722a965a35feb2c8480d1101",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/75f80a8d4cc31744722a965a35feb2c8480d1101/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/a8a8060804eb134823a89995664d486598eac2c5",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/a8a8060804eb134823a89995664d486598eac2c5/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/implementatiemodel-ipdc-lpdc",
     "dependencies": [],
@@ -299,7 +299,8 @@
           "codelist_uri": "",
           "rawTags": {
             "label-nl": "geldigTot",
-            "definition-nl": "Datum en tijd tot wanneer het concept geldig is."
+            "definition-nl": "Datum en tijd tot wanneer het concept geldig is.",
+            "name": "geldigTot"
           }
         },
         {
@@ -338,7 +339,8 @@
           "codelist_uri": "",
           "rawTags": {
             "label-nl": "geldigVan",
-            "definition-nl": "Datum en tijd vanaf wanneer het concept geldig is."
+            "definition-nl": "Datum en tijd vanaf wanneer het concept geldig is.",
+            "name": "geldigVan"
           }
         },
         {
@@ -2970,7 +2972,8 @@
           "codelist_uri": "",
           "rawTags": {
             "definition-nl": "Datum en tijd tot wanneer de instantie geldig is.",
-            "label-nl": "geldigTot"
+            "label-nl": "geldigTot",
+            "name": "geldigTot"
           }
         },
         {
@@ -3009,7 +3012,8 @@
           "codelist_uri": "",
           "rawTags": {
             "label-nl": "geldigVan",
-            "definition-nl": "Datum en tijd vanaf wanneer de instantie geldig is."
+            "definition-nl": "Datum en tijd vanaf wanneer de instantie geldig is.",
+            "name": "geldigVan"
           }
         },
         {
@@ -6423,7 +6427,8 @@
           "rawTags": {
             "label-nl": "digitaalAanvraagbaar",
             "definition-nl": "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd.",
-            "usageNote-nl": "Toegelaten waarden: Ja, Nee en Geen info."
+            "usageNote-nl": "Toegelaten waarden: Ja, Nee en Geen info.",
+            "name": "digitaalAanvraagbaar"
           }
         },
         {
@@ -6657,10 +6662,14 @@
         },
         {
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
+          "name": "naam",
+          "sort": "naam",
+          "label": {
+            "nl": "naam"
+          },
+          "description": {
+            "nl": "Naam van het contact."
+          },
           "usage": {},
           "domain": [
             {
@@ -6685,7 +6694,11 @@
           ],
           "cardinality": "0..1",
           "codelist_uri": "",
-          "rawTags": {}
+          "rawTags": {
+            "name": "naam",
+            "label-nl": "naam",
+            "definition-nl": "Naam van het contact."
+          }
         },
         {
           "uri": "http://schema.org/email",

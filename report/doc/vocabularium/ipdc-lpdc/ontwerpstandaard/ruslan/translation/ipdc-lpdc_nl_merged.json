@@ -594,8 +594,8 @@
   "dependencies": [],
   "diagram": "ipdc-lpdc-ap",
   "disabled": false,
-  "documentcommit": "75f80a8d4cc31744722a965a35feb2c8480d1101",
-  "dummy": "003",
+  "documentcommit": "a8a8060804eb134823a89995664d486598eac2c5",
+  "dummy": "004",
   "eap": "IPDC-LPDC-AP-v02.eap",
   "editors": [
     {
@@ -14514,6 +14514,11 @@
             "key": "usageNote-nl",
             "note": "null",
             "value": "Toegelaten waarden: Ja, Nee en Geen info."
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "digitaalAanvraagbaar"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -15477,6 +15482,11 @@
             "key": "definition-nl",
             "note": "null",
             "value": "Datum en tijd tot wanneer het concept geldig is."
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "geldigTot"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -15559,6 +15569,11 @@
           },
           {
             "key": "label-nl",
+            "note": "null",
+            "value": "geldigTot"
+          },
+          {
+            "key": "name",
             "note": "null",
             "value": "geldigTot"
           }
@@ -15645,6 +15660,11 @@
             "key": "definition-nl",
             "note": "null",
             "value": "Datum en tijd vanaf wanneer het concept geldig is."
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "geldigVan"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -15729,6 +15749,11 @@
             "key": "definition-nl",
             "note": "null",
             "value": "Datum en tijd vanaf wanneer de instantie geldig is."
+          },
+          {
+            "key": "name",
+            "note": "null",
+            "value": "geldigVan"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -16356,8 +16381,11 @@
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{D8BDCE70-FEAA-428c-AF34-413057C514A6}",
       "codelist": [],
+      "definition": {
+        "nl": "Naam van het contact."
+      },
       "definition-nl": {
-        "nl": "TODO"
+        "nl": "Naam van het contact."
       },
       "domain": [
         {
@@ -16378,18 +16406,38 @@
           "EA-Package": "",
           "uri": "http://www.w3.org/2001/XMLSchema#string"
         },
-        "RawTags": [],
+        "RawTags": [
+          {
+            "key": "name",
+            "note": "null",
+            "value": "naam"
+          },
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "naam"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Naam van het contact."
+          }
+        ],
         "Scope": "FULL_DEFINITON",
-        "definition": "",
+        "definition": {
+          "nl": "Naam van het contact."
+        },
         "definition-en": "",
         "definition-nl": {
-          "nl": "TODO"
+          "nl": "Naam van het contact."
         },
         "equivalent": "",
-        "label": "",
+        "label": {
+          "nl": "naam"
+        },
         "label-en": "",
         "label-nl": {
-          "nl": "TODO"
+          "nl": "naam"
         },
         "sameAs": "",
         "subclass": "",
@@ -16400,12 +16448,15 @@
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "nl": "naam"
+      },
       "label-nl": {
-        "nl": "TODO"
+        "nl": "naam"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "naam",
       "range": [
         {
           "EA-Name": "String",
@@ -18200,7 +18251,7 @@
   "title-nl": {
     "nl": "TODO"
   },
-  "toolchaincommit": "e24275fd94764004c45f97a357e450b73c62ab45",
+  "toolchaincommit": "3ecce36c357c106e18a59d8ab3a249aadaa6be60",
   "translation": [
     {
       "language": "nl",

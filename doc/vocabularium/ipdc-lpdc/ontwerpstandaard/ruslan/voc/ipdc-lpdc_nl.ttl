@@ -148,6 +148,8 @@ schema:WebSite a rdfs:Class;
   rdfs:range xsd:boolean .
 
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam> a owl:DatatypeProperty;
+  rdfs:label "naam"@nl;
+  rdfs:comment "Naam van het contact."@nl;
   rdfs:domain schema:ContactPoint;
   rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc>;
   rdfs:range xsd:string .

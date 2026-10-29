@@ -247,8 +247,8 @@
 
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/75f80a8d4cc31744722a965a35feb2c8480d1101">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/75f80a8d4cc31744722a965a35feb2c8480d1101</a></dd>
-              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/75f80a8d4cc31744722a965a35feb2c8480d1101/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/75f80a8d4cc31744722a965a35feb2c8480d1101/CHANGELOG</a></dd>
+              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/a8a8060804eb134823a89995664d486598eac2c5">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/a8a8060804eb134823a89995664d486598eac2c5</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/a8a8060804eb134823a89995664d486598eac2c5/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/a8a8060804eb134823a89995664d486598eac2c5/CHANGELOG</a></dd>
               <dt>Opmerkingen en feedback</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/issues">https://github.com/Informatievlaanderen/ipdc-lpdc/issues</a></dd>
               <dt>Standaardenregister</dt><dd><a href="https://data.vlaanderen.be/standaarden/implementatiemodel-ipdc-lpdc">https://data.vlaanderen.be/standaarden/implementatiemodel-ipdc-lpdc</a></dd>
 
@@ -2059,9 +2059,9 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                     <dt>Eigenschappen</dt>
 		     
                     <dd>Voor deze entiteit zijn de volgende eigenschappen gedefinieerd:
-                      <a href="#Contactgegevens%3A"></a>, 
                       <a href="#Contactgegevens%3Aadres">adres</a>, 
                       <a href="#Contactgegevens%3Aemail">email</a>, 
+                      <a href="#Contactgegevens%3Anaam">naam</a>, 
                       <a href="#Contactgegevens%3Aopeningsuren">openingsuren</a>, 
                       <a href="#Contactgegevens%3Aorder">order</a>, 
                       <a href="#Contactgegevens%3Atelefoonnummer">telefoonnummer</a>, 
@@ -2084,26 +2084,6 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                     </thead>
 
                     <tbody class="supertype">
-                    
-                      <tr id="Contactgegevens%3A" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
-                            
-                          
-                        </td>
-                        <td>0..1</td>
-                        <td property="rdfs:comment"></td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
                     
                       <tr id="Contactgegevens%3Aadres" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#address">
                         <td>
@@ -2142,6 +2122,26 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>0..1</td>
                         <td property="rdfs:comment">A property through which an e-mail address for the Public Organization, or a representative of it, can be contacted.</td>
                         <td property="vann:usageNote">Email adres moet voldoen aan het formaat beschreven in RFC2822: https://datatracker.ietf.org/doc/html/rfc2822#section-3.4.1</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Contactgegevens%3Anaam" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam" data-placement="right">
+                            naam</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Naam van het contact.</td>
+                        <td property="vann:usageNote"></td>
                         <td></td>
                       </tr>
                     

@@ -1171,12 +1171,12 @@
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:property <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/4d55af37dbbb6a42088d917caa1ca25428ec42c9>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/ce012334c76fbb8723d52324457cb619f53f2527>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/1beecf084b59c7b686e40cf4c6b48c091a646d4d>,
+  shacl:property <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/1beecf084b59c7b686e40cf4c6b48c091a646d4d>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/e7a0ed955d2934a53c7112ed7389c018fdb42422>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/8cf3e751730442052d1b2174336d21bb838e4aab>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/df2e16526cd0f7cc796d3bb27ac1861737a35d91>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/1399bd400d4637b15d5fe38202d6572f82150aac>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/5fceb068938b8a837e254da418f45825d992aec8>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/c789dc7e3338baac74508f11357d76aa998cda08>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/e6ada4b25599dde7d63c9b717df99ba62230ba58>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/11960ef687afb16022eaa7f65b420fdac8dcb56d>,
@@ -1193,6 +1193,12 @@
   shacl:maxCount 1;
   shacl:name "order"@nl;
   shacl:path shacl:order .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/1399bd400d4637b15d5fe38202d6572f82150aac> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Contactgegevens.naam";
+  shacl:datatype xsd:string;
+  shacl:description "Naam van het contact."@nl;
+  shacl:name "naam"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/1beecf084b59c7b686e40cf4c6b48c091a646d4d> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Contactgegevens.adres";
   shacl:description "Adres dat men kan aanschrijven of bezoeken."@nl;
@@ -1218,16 +1224,17 @@
   shacl:name "telefoonnummer"@nl;
   shacl:path schema:telephone .
 
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/4d55af37dbbb6a42088d917caa1ca25428ec42c9> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Contactgegevens.";
-  shacl:datatype xsd:string;
-  shacl:description "";
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam> .
-
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/5f54c788429b24cc8716ee5e0bf63522a49f95e6> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Contactgegevens.url";
   shacl:description "De url van de website"@nl;
   shacl:maxCount 1;
   shacl:name "url"@nl;
   shacl:path schema:url .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/5fceb068938b8a837e254da418f45825d992aec8> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Contactgegevens.naam";
+  shacl:description "Naam van het contact."@nl;
+  shacl:maxCount 1;
+  shacl:name "naam"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/8cf3e751730442052d1b2174336d21bb838e4aab> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Contactgegevens.email";
   shacl:datatype xsd:string;
@@ -1252,11 +1259,6 @@
   shacl:description "The value of this property is structured text that gives the hours at which the contact point is normally available."@nl;
   shacl:name "openingsuren"@nl;
   shacl:path schema:openingHours .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/ce012334c76fbb8723d52324457cb619f53f2527> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Contactgegevens.";
-  shacl:description "";
-  shacl:maxCount 1;
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/df2e16526cd0f7cc796d3bb27ac1861737a35d91> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Contactgegevens.email";
   shacl:description "A property through which an e-mail address for the Public Organization, or a representative of it, can be contacted."@nl;

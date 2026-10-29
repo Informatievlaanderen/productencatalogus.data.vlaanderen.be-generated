@@ -1884,6 +1884,11 @@
             "key": "usageNote-nl",
             "value": "Toegelaten waarden: Ja, Nee en Geen info.",
             "note": "null"
+          },
+          {
+            "key": "name",
+            "value": "digitaalAanvraagbaar",
+            "note": "null"
           }
         ],
         "Scope": "FULL_DEFINITON"
@@ -2828,6 +2833,11 @@
             "key": "definition-nl",
             "value": "Datum en tijd tot wanneer het concept geldig is.",
             "note": "null"
+          },
+          {
+            "key": "name",
+            "value": "geldigTot",
+            "note": "null"
           }
         ],
         "Scope": "FULL_DEFINITON"
@@ -2909,6 +2919,11 @@
           },
           {
             "key": "label-nl",
+            "value": "geldigTot",
+            "note": "null"
+          },
+          {
+            "key": "name",
             "value": "geldigTot",
             "note": "null"
           }
@@ -2994,6 +3009,11 @@
             "key": "definition-nl",
             "value": "Datum en tijd vanaf wanneer het concept geldig is.",
             "note": "null"
+          },
+          {
+            "key": "name",
+            "value": "geldigVan",
+            "note": "null"
           }
         ],
         "Scope": "FULL_DEFINITON"
@@ -3076,6 +3096,11 @@
           {
             "key": "definition-nl",
             "value": "Datum en tijd vanaf wanneer de instantie geldig is.",
+            "note": "null"
+          },
+          {
+            "key": "name",
+            "value": "geldigVan",
             "note": "null"
           }
         ],
@@ -3674,13 +3699,19 @@
     {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "",
+      "name": "naam",
       "inpackage": "ACTIVE_PACKAGE",
       "label-nl": {
-        "nl": "TODO"
+        "nl": "naam"
+      },
+      "definition": {
+        "nl": "Naam van het contact."
+      },
+      "label": {
+        "nl": "naam"
       },
       "definition-nl": {
-        "nl": "TODO"
+        "nl": "Naam van het contact."
       },
       "extra": {
         "EA-Name": "naam",
@@ -3695,14 +3726,18 @@
           "EA-Package": "",
           "uri": "http://www.w3.org/2001/XMLSchema#string"
         },
-        "label": "",
-        "definition": "",
+        "label": {
+          "nl": "naam"
+        },
+        "definition": {
+          "nl": "Naam van het contact."
+        },
         "usage": "",
         "label-nl": {
-          "nl": "TODO"
+          "nl": "naam"
         },
         "definition-nl": {
-          "nl": "TODO"
+          "nl": "Naam van het contact."
         },
         "usageNote-nl": "",
         "label-en": "",
@@ -3712,7 +3747,23 @@
         "subclass": "",
         "subclass1": "",
         "sameAs": "",
-        "RawTags": [],
+        "RawTags": [
+          {
+            "key": "name",
+            "value": "naam",
+            "note": "null"
+          },
+          {
+            "key": "label-nl",
+            "value": "naam",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "Naam van het contact.",
+            "note": "null"
+          }
+        ],
         "Scope": "FULL_DEFINITON"
       },
       "codelist": [],
@@ -18011,15 +18062,15 @@
   "config": "config/config-voc.json",
   "branchtag": "main",
   "disabled": false,
-  "dummy": "003",
+  "dummy": "004",
   "filename": "config/ipdc-lpdc-voc.json",
   "navigation": {
     "prev": "/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-07-04"
   },
   "repository": "https://github.com/Informatievlaanderen/ipdc-lpdc",
   "urlref": "/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/ruslan",
-  "documentcommit": "75f80a8d4cc31744722a965a35feb2c8480d1101",
-  "toolchaincommit": "e24275fd94764004c45f97a357e450b73c62ab45",
+  "documentcommit": "a8a8060804eb134823a89995664d486598eac2c5",
+  "toolchaincommit": "3ecce36c357c106e18a59d8ab3a249aadaa6be60",
   "hostname": "https://productencatalogus.data.test-vlaanderen.be/",
   "translation": [
     {
