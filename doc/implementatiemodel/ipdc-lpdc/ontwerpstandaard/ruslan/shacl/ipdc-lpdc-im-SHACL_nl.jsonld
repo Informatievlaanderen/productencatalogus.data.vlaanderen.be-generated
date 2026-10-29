@@ -4672,13 +4672,6 @@
       "sh:targetClass": "http://schema.org/WebSite"
     },
     {
-      "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#DigitaalAanvraagbaarShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
       "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#AdresShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,

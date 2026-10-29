@@ -15,8 +15,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
     "statuslabel": "Nota Werkgroep",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/f143e71b2466989fe1f4bd8e0a7463495dd1b9eb",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/f143e71b2466989fe1f4bd8e0a7463495dd1b9eb/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/75f80a8d4cc31744722a965a35feb2c8480d1101",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/75f80a8d4cc31744722a965a35feb2c8480d1101/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/implementatiemodel-ipdc-lpdc",
     "dependencies": [],
@@ -6411,7 +6411,7 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#DigitaalAanvraagbaar",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
                 "nl": "DigitaalAanvraagbaar"

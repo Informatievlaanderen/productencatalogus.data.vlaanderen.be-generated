@@ -21,7 +21,6 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#WebsiteShape>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#DigitaalAanvraagbaarShape>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#AdresShape> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#AdresShape> a shacl:NodeShape;
@@ -1276,10 +1275,6 @@
   shacl:description "Adres dat men kan aanschrijven of bezoeken."@nl;
   shacl:name "adres"@nl;
   shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#address> .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#DigitaalAanvraagbaarShape> a shacl:NodeShape;
-  shacl:closed false;
-  shacl:targetClass skos:Concept .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#FinancieelVoordeelShape> a shacl:NodeShape;
   shacl:closed false;
