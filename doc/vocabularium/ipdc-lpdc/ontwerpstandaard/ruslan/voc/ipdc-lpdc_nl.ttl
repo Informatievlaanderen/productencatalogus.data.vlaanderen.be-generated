@@ -78,15 +78,13 @@ schema:WebSite a rdfs:Class;
   rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc>;
   rdfs:range skos:Concept .
 
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#contactnaam> a owl:DatatypeProperty;
-  rdfs:domain schema:ContactPoint;
-  rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc>;
-  rdfs:range xsd:string .
-
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar> a owl:ObjectProperty;
+  rdfs:label "digitaalAanvraagbaar"@nl;
+  <http://purl.org/vocab/vann/usageNote> "Toegelaten waarden: Ja, Nee en Geen info."@nl;
+  rdfs:comment "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd."@nl;
   rdfs:domain <http://purl.org/vocab/cpsv#Rule>;
   rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc>;
-  rdfs:range <http://fixme.com#DigitaalAanvraagbaar> .
+  rdfs:range skos:Concept .
 
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception> a owl:ObjectProperty;
   rdfs:label "uitzonderingen"@nl;
@@ -112,12 +110,18 @@ schema:WebSite a rdfs:Class;
   rdfs:range skos:Concept .
 
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> a owl:DatatypeProperty;
+  rdfs:label "geldigTot"@nl;
+  rdfs:comment "Datum en tijd tot wanneer het concept geldig is."@nl,
+    "Datum en tijd tot wanneer de instantie geldig is."@nl;
   rdfs:domain <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService>,
     <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService>;
   rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc>;
   rdfs:range xsd:dateTime .
 
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> a owl:DatatypeProperty;
+  rdfs:label "geldigVan"@nl;
+  rdfs:comment "Datum en tijd vanaf wanneer het concept geldig is."@nl,
+    "Datum en tijd vanaf wanneer de instantie geldig is."@nl;
   rdfs:domain <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService>,
     <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService>;
   rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc>;
@@ -142,6 +146,11 @@ schema:WebSite a rdfs:Class;
     <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot>;
   rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc>;
   rdfs:range xsd:boolean .
+
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam> a owl:DatatypeProperty;
+  rdfs:domain schema:ContactPoint;
+  rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc>;
+  rdfs:range xsd:string .
 
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> a owl:ObjectProperty;
   rdfs:label "publicatiekanalen"@nl;

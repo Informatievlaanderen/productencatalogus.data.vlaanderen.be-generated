@@ -458,15 +458,13 @@
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"/>
     <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </owl:ObjectProperty>
-  <owl:DatatypeProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#contactnaam">
-    <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
-    <rdfs:domain rdf:resource="http://schema.org/ContactPoint"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  </owl:DatatypeProperty>
   <owl:ObjectProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar">
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
+    <rdfs:label xml:lang="nl">digitaalAanvraagbaar</rdfs:label>
+    <rdfs:comment xml:lang="nl">Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd.</rdfs:comment>
+    <ns1:usageNote xml:lang="nl">Toegelaten waarden: Ja, Nee en Geen info.</ns1:usageNote>
     <rdfs:domain rdf:resource="http://purl.org/vocab/cpsv#Rule"/>
-    <rdfs:range rdf:resource="http://fixme.com#DigitaalAanvraagbaar"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception">
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
@@ -493,12 +491,18 @@
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot">
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
+    <rdfs:label xml:lang="nl">geldigTot</rdfs:label>
+    <rdfs:comment xml:lang="nl">Datum en tijd tot wanneer het concept geldig is.</rdfs:comment>
+    <rdfs:comment xml:lang="nl">Datum en tijd tot wanneer de instantie geldig is.</rdfs:comment>
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"/>
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan">
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
+    <rdfs:label xml:lang="nl">geldigVan</rdfs:label>
+    <rdfs:comment xml:lang="nl">Datum en tijd vanaf wanneer het concept geldig is.</rdfs:comment>
+    <rdfs:comment xml:lang="nl">Datum en tijd vanaf wanneer de instantie geldig is.</rdfs:comment>
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"/>
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
@@ -522,6 +526,11 @@
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"/>
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam">
+    <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
+    <rdfs:domain rdf:resource="http://schema.org/ContactPoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </owl:DatatypeProperty>
   <owl:ObjectProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium">
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>

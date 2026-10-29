@@ -123,14 +123,13 @@
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#conceptTag> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#conceptTag> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#conceptTag> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#contactnaam> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#contactnaam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#contactnaam> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#contactnaam> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar> <http://www.w3.org/2000/01/rdf-schema#label> "digitaalAanvraagbaar"@nl .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar> <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd."@nl .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar> <http://purl.org/vocab/vann/usageNote> "Toegelaten waarden: Ja, Nee en Geen info."@nl .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/cpsv#Rule> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar> <http://www.w3.org/2000/01/rdf-schema#range> <http://fixme.com#DigitaalAanvraagbaar> .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://purl.org/vocab/cpsv#Rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://purl.org/vocab/cpsv#Rule> <http://www.w3.org/2000/01/rdf-schema#label> "Procedure"@nl .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> .
@@ -156,11 +155,17 @@
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> <http://www.w3.org/2000/01/rdf-schema#label> "geldigTot"@nl .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> <http://www.w3.org/2000/01/rdf-schema#comment> "Datum en tijd tot wanneer het concept geldig is."@nl .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> <http://www.w3.org/2000/01/rdf-schema#comment> "Datum en tijd tot wanneer de instantie geldig is."@nl .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> <http://www.w3.org/2000/01/rdf-schema#label> "geldigVan"@nl .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> <http://www.w3.org/2000/01/rdf-schema#comment> "Datum en tijd vanaf wanneer het concept geldig is."@nl .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> <http://www.w3.org/2000/01/rdf-schema#comment> "Datum en tijd vanaf wanneer de instantie geldig is."@nl .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
@@ -182,6 +187,10 @@
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ContactPoint> .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> <http://www.w3.org/2000/01/rdf-schema#label> "publicatiekanalen"@nl .
