@@ -1653,63 +1653,24 @@
       "maxCardinality": "*"
     },
     {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#contactnaam",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "",
-      "inpackage": "ACTIVE_PACKAGE",
-      "ap-definition-nl": {
-        "nl": "TODO"
-      },
-      "extra": {
-        "EA-Name": "contactnaam",
-        "EA-Guid": "{D8BDCE70-FEAA-428c-AF34-413057C514A6}",
-        "EA-Package": "IPDC-LPDC",
-        "EA-Type": "attribute",
-        "EA-Domain": "Contactgegevens",
-        "EA-Domain-Guid": "{A87B22A4-91D0-494a-95F1-8C9B5CFAED6D}",
-        "EA-Range": "String",
-        "RangeData": {
-          "EA-Name": "String",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#string"
-        },
-        "label": "",
-        "definition": "",
-        "usage": "",
-        "ap-label-nl": "",
-        "ap-definition-nl": {
-          "nl": "TODO"
-        },
-        "ap-usageNote-nl": "",
-        "ap-codelist": "",
-        "RawTags": [],
-        "Scope": "FULL_DEFINITON"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://schema.org/ContactPoint",
-          "EA-Name": "Contactgegevens"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "String",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#string"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "1"
-    },
-    {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "",
+      "name": "digitaalaanvraagbaar",
       "inpackage": "ACTIVE_PACKAGE",
+      "usage": {
+        "nl": "Toegelaten waarden: Ja, Nee en Geen info."
+      },
+      "definition": {
+        "nl": "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd."
+      },
+      "label": {
+        "nl": "digitaalAanvraagbaar"
+      },
+      "ap-label-nl": {
+        "nl": "digitaalAanvraagbaar"
+      },
       "ap-definition-nl": {
-        "nl": "TODO"
+        "nl": "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd."
       },
       "extra": {
         "EA-Name": "digitaalAanvraagbaar",
@@ -1723,18 +1684,42 @@
           "EA-Name": "DigitaalAanvraagbaar",
           "EA-GUID": "{990C207C-DE44-45b7-9434-93F07D07B181}",
           "EA-Package": "codelijsten",
-          "uri": "http://fixme.com#DigitaalAanvraagbaar"
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         },
-        "label": "",
-        "definition": "",
-        "usage": "",
-        "ap-label-nl": "",
+        "label": {
+          "nl": "digitaalAanvraagbaar"
+        },
+        "definition": {
+          "nl": "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd."
+        },
+        "usage": {
+          "nl": "Toegelaten waarden: Ja, Nee en Geen info."
+        },
+        "ap-label-nl": {
+          "nl": "digitaalAanvraagbaar"
+        },
         "ap-definition-nl": {
-          "nl": "TODO"
+          "nl": "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd."
         },
         "ap-usageNote-nl": "",
         "ap-codelist": "",
-        "RawTags": [],
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "value": "digitaalAanvraagbaar",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd.",
+            "note": "null"
+          },
+          {
+            "key": "usageNote-nl",
+            "value": "Toegelaten waarden: Ja, Nee en Geen info.",
+            "note": "null"
+          }
+        ],
         "Scope": "FULL_DEFINITON"
       },
       "codelist": [],
@@ -1749,7 +1734,7 @@
           "EA-Name": "DigitaalAanvraagbaar",
           "EA-GUID": "{990C207C-DE44-45b7-9434-93F07D07B181}",
           "EA-Package": "codelijsten",
-          "uri": "http://fixme.com#DigitaalAanvraagbaar"
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
       ],
       "generalization": [],
@@ -2535,10 +2520,19 @@
     {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "",
+      "name": "geldigtot",
       "inpackage": "ACTIVE_PACKAGE",
+      "definition": {
+        "nl": "Datum en tijd tot wanneer het concept geldig is."
+      },
+      "label": {
+        "nl": "geldigTot"
+      },
+      "ap-label-nl": {
+        "nl": "geldigTot"
+      },
       "ap-definition-nl": {
-        "nl": "TODO"
+        "nl": "Datum en tijd tot wanneer het concept geldig is."
       },
       "extra": {
         "EA-Name": "geldigTot",
@@ -2553,16 +2547,33 @@
           "EA-Package": "",
           "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
         },
-        "label": "",
-        "definition": "",
+        "label": {
+          "nl": "geldigTot"
+        },
+        "definition": {
+          "nl": "Datum en tijd tot wanneer het concept geldig is."
+        },
         "usage": "",
-        "ap-label-nl": "",
+        "ap-label-nl": {
+          "nl": "geldigTot"
+        },
         "ap-definition-nl": {
-          "nl": "TODO"
+          "nl": "Datum en tijd tot wanneer het concept geldig is."
         },
         "ap-usageNote-nl": "",
         "ap-codelist": "",
-        "RawTags": [],
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "value": "geldigTot",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "Datum en tijd tot wanneer het concept geldig is.",
+            "note": "null"
+          }
+        ],
         "Scope": "FULL_DEFINITON"
       },
       "codelist": [],
@@ -2586,10 +2597,19 @@
     {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "",
+      "name": "geldigtot",
       "inpackage": "ACTIVE_PACKAGE",
+      "definition": {
+        "nl": "Datum en tijd tot wanneer de instantie geldig is."
+      },
+      "label": {
+        "nl": "geldigTot"
+      },
+      "ap-label-nl": {
+        "nl": "geldigTot"
+      },
       "ap-definition-nl": {
-        "nl": "TODO"
+        "nl": "Datum en tijd tot wanneer de instantie geldig is."
       },
       "extra": {
         "EA-Name": "geldigTot",
@@ -2604,16 +2624,33 @@
           "EA-Package": "",
           "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
         },
-        "label": "",
-        "definition": "",
+        "label": {
+          "nl": "geldigTot"
+        },
+        "definition": {
+          "nl": "Datum en tijd tot wanneer de instantie geldig is."
+        },
         "usage": "",
-        "ap-label-nl": "",
+        "ap-label-nl": {
+          "nl": "geldigTot"
+        },
         "ap-definition-nl": {
-          "nl": "TODO"
+          "nl": "Datum en tijd tot wanneer de instantie geldig is."
         },
         "ap-usageNote-nl": "",
         "ap-codelist": "",
-        "RawTags": [],
+        "RawTags": [
+          {
+            "key": "definition-nl",
+            "value": "Datum en tijd tot wanneer de instantie geldig is.",
+            "note": "null"
+          },
+          {
+            "key": "label-nl",
+            "value": "geldigTot",
+            "note": "null"
+          }
+        ],
         "Scope": "FULL_DEFINITON"
       },
       "codelist": [],
@@ -2637,10 +2674,19 @@
     {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "",
+      "name": "geldigvan",
       "inpackage": "ACTIVE_PACKAGE",
+      "definition": {
+        "nl": "Datum en tijd vanaf wanneer het concept geldig is."
+      },
+      "label": {
+        "nl": "geldigVan"
+      },
+      "ap-label-nl": {
+        "nl": "geldigVan"
+      },
       "ap-definition-nl": {
-        "nl": "TODO"
+        "nl": "Datum en tijd vanaf wanneer het concept geldig is."
       },
       "extra": {
         "EA-Name": "geldigVan",
@@ -2655,16 +2701,33 @@
           "EA-Package": "",
           "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
         },
-        "label": "",
-        "definition": "",
+        "label": {
+          "nl": "geldigVan"
+        },
+        "definition": {
+          "nl": "Datum en tijd vanaf wanneer het concept geldig is."
+        },
         "usage": "",
-        "ap-label-nl": "",
+        "ap-label-nl": {
+          "nl": "geldigVan"
+        },
         "ap-definition-nl": {
-          "nl": "TODO"
+          "nl": "Datum en tijd vanaf wanneer het concept geldig is."
         },
         "ap-usageNote-nl": "",
         "ap-codelist": "",
-        "RawTags": [],
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "value": "geldigVan",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "Datum en tijd vanaf wanneer het concept geldig is.",
+            "note": "null"
+          }
+        ],
         "Scope": "FULL_DEFINITON"
       },
       "codelist": [],
@@ -2688,10 +2751,19 @@
     {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": "",
+      "name": "geldigvan",
       "inpackage": "ACTIVE_PACKAGE",
+      "definition": {
+        "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
+      },
+      "label": {
+        "nl": "geldigVan"
+      },
+      "ap-label-nl": {
+        "nl": "geldigVan"
+      },
       "ap-definition-nl": {
-        "nl": "TODO"
+        "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
       },
       "extra": {
         "EA-Name": "geldigVan",
@@ -2706,16 +2778,33 @@
           "EA-Package": "",
           "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
         },
-        "label": "",
-        "definition": "",
+        "label": {
+          "nl": "geldigVan"
+        },
+        "definition": {
+          "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
+        },
         "usage": "",
-        "ap-label-nl": "",
+        "ap-label-nl": {
+          "nl": "geldigVan"
+        },
         "ap-definition-nl": {
-          "nl": "TODO"
+          "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
         },
         "ap-usageNote-nl": "",
         "ap-codelist": "",
-        "RawTags": [],
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "value": "geldigVan",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "Datum en tijd vanaf wanneer de instantie geldig is.",
+            "note": "null"
+          }
+        ],
         "Scope": "FULL_DEFINITON"
       },
       "codelist": [],
@@ -3262,6 +3351,57 @@
       ],
       "generalization": [],
       "minCardinality": "1",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": "",
+      "inpackage": "ACTIVE_PACKAGE",
+      "ap-definition-nl": {
+        "nl": "TODO"
+      },
+      "extra": {
+        "EA-Name": "naam",
+        "EA-Guid": "{D8BDCE70-FEAA-428c-AF34-413057C514A6}",
+        "EA-Package": "IPDC-LPDC",
+        "EA-Type": "attribute",
+        "EA-Domain": "Contactgegevens",
+        "EA-Domain-Guid": "{A87B22A4-91D0-494a-95F1-8C9B5CFAED6D}",
+        "EA-Range": "String",
+        "RangeData": {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "ap-label-nl": "",
+        "ap-definition-nl": {
+          "nl": "TODO"
+        },
+        "ap-usageNote-nl": "",
+        "ap-codelist": "",
+        "RawTags": [],
+        "Scope": "FULL_DEFINITON"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://schema.org/ContactPoint",
+          "EA-Name": "Contactgegevens"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
       "maxCardinality": "1"
     },
     {
@@ -5203,61 +5343,6 @@
       "name": "Voorwaarde"
     },
     {
-      "@id": "http://fixme.com#DigitaalAanvraagbaar",
-      "@type": "http://www.w3.org/2002/07/owl#Class",
-      "inpackage": "OTHER_PACKAGE",
-      "definition": {
-        "nl": "Mogelijke waarden voor digitaalAanvraagbaar: Ja, Nee en Geen info."
-      },
-      "label": {
-        "nl": "DigitaalAanvraagbaar"
-      },
-      "ap-label-nl": {
-        "nl": "DigitaalAanvraagbaar"
-      },
-      "ap-definition-nl": {
-        "nl": "Mogelijke waarden voor digitaalAanvraagbaar: Ja, Nee en Geen info."
-      },
-      "extra": {
-        "EA-Name": "DigitaalAanvraagbaar",
-        "EA-Guid": "{990C207C-DE44-45b7-9434-93F07D07B181}",
-        "EA-Package": "codelijsten",
-        "EA-Type": "ENUMERATION",
-        "EA-Parents": "",
-        "EA-Parents2": [],
-        "parentclasses": "",
-        "label": {
-          "nl": "DigitaalAanvraagbaar"
-        },
-        "definition": {
-          "nl": "Mogelijke waarden voor digitaalAanvraagbaar: Ja, Nee en Geen info."
-        },
-        "usage": "",
-        "ap-label-nl": {
-          "nl": "DigitaalAanvraagbaar"
-        },
-        "ap-definition-nl": {
-          "nl": "Mogelijke waarden voor digitaalAanvraagbaar: Ja, Nee en Geen info."
-        },
-        "ap-usageNote-nl": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "definition-nl",
-            "value": "Mogelijke waarden voor digitaalAanvraagbaar: Ja, Nee en Geen info.",
-            "note": "null"
-          },
-          {
-            "key": "label-nl",
-            "value": "DigitaalAanvraagbaar",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "name": "Digitaalaanvraagbaar"
-    },
-    {
       "@id": "http://purl.org/vocab/cpsv#Rule",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "inpackage": "OTHER_PACKAGE",
@@ -5446,6 +5531,66 @@
         "Scope": "TRANSLATIONS_ONLY"
       },
       "name": "Website"
+    },
+    {
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "inpackage": "OTHER_PACKAGE",
+      "definition": {
+        "nl": "Mogelijke waarden voor digitaalAanvraagbaar: Ja, Nee en Geen info."
+      },
+      "label": {
+        "nl": "DigitaalAanvraagbaar"
+      },
+      "ap-label-nl": {
+        "nl": "DigitaalAanvraagbaar"
+      },
+      "ap-definition-nl": {
+        "nl": "Mogelijke waarden voor digitaalAanvraagbaar: Ja, Nee en Geen info."
+      },
+      "extra": {
+        "EA-Name": "DigitaalAanvraagbaar",
+        "EA-Guid": "{990C207C-DE44-45b7-9434-93F07D07B181}",
+        "EA-Package": "codelijsten",
+        "EA-Type": "ENUMERATION",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "parentclasses": "",
+        "label": {
+          "nl": "DigitaalAanvraagbaar"
+        },
+        "definition": {
+          "nl": "Mogelijke waarden voor digitaalAanvraagbaar: Ja, Nee en Geen info."
+        },
+        "usage": "",
+        "ap-label-nl": {
+          "nl": "DigitaalAanvraagbaar"
+        },
+        "ap-definition-nl": {
+          "nl": "Mogelijke waarden voor digitaalAanvraagbaar: Ja, Nee en Geen info."
+        },
+        "ap-usageNote-nl": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "definition-nl",
+            "value": "Mogelijke waarden voor digitaalAanvraagbaar: Ja, Nee en Geen info.",
+            "note": "null"
+          },
+          {
+            "key": "label-nl",
+            "value": "DigitaalAanvraagbaar",
+            "note": "null"
+          },
+          {
+            "key": "uri",
+            "value": "http://www.w3.org/2004/02/skos/core#Concept",
+            "note": "null"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "name": "Digitaalaanvraagbaar"
     },
     {
       "@id": "http://www.w3.org/ns/locn#Address",
@@ -16381,15 +16526,15 @@
   "config": "config/config-ap.json",
   "branchtag": "main",
   "disabled": false,
-  "dummy": "007",
+  "dummy": "008",
   "filename": "config/ipdc-lpdc-im.json",
   "navigation": {
     "prev": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-07-04"
   },
   "repository": "https://github.com/Informatievlaanderen/ipdc-lpdc",
   "urlref": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan",
-  "documentcommit": "d66417f65c222e329386238847fe2de8ca1daf5e",
-  "toolchaincommit": "b2e26ab10cf005d8a1ae0fcb9637e503774fa496",
+  "documentcommit": "f143e71b2466989fe1f4bd8e0a7463495dd1b9eb",
+  "toolchaincommit": "2803b0bdfd117ed0367773d66dbb1106b95bb65a",
   "hostname": "https://productencatalogus.data.test-vlaanderen.be/",
   "translation": [
     {

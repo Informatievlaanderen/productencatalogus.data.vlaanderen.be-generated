@@ -330,12 +330,12 @@
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#address",
           "@type": "@id"
         },
-        "contactnaam": {
-          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#contactnaam",
-          "@type": "http://www.w3.org/2001/XMLSchema#string"
-        },
         "email": {
           "@id": "http://schema.org/email",
+          "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "naam": {
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam",
           "@type": "http://www.w3.org/2001/XMLSchema#string"
         },
         "openingsuren": {
@@ -357,7 +357,7 @@
       },
       "@id": "http://schema.org/ContactPoint"
     },
-    "DigitaalAanvraagbaar": "http://fixme.com#DigitaalAanvraagbaar",
+    "DigitaalAanvraagbaar": "http://www.w3.org/2004/02/skos/core#Concept",
     "FinancieelVoordeel": {
       "@context": {
         "beschrijving": {

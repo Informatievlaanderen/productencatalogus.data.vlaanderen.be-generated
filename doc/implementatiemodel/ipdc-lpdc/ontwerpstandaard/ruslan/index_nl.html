@@ -247,8 +247,8 @@
 
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/d66417f65c222e329386238847fe2de8ca1daf5e">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/d66417f65c222e329386238847fe2de8ca1daf5e</a></dd>
-              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/d66417f65c222e329386238847fe2de8ca1daf5e/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/d66417f65c222e329386238847fe2de8ca1daf5e/CHANGELOG</a></dd>
+              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/tree/f143e71b2466989fe1f4bd8e0a7463495dd1b9eb">https://github.com/Informatievlaanderen/ipdc-lpdc/tree/f143e71b2466989fe1f4bd8e0a7463495dd1b9eb</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/blob/f143e71b2466989fe1f4bd8e0a7463495dd1b9eb/CHANGELOG">https://github.com/Informatievlaanderen/ipdc-lpdc/blob/f143e71b2466989fe1f4bd8e0a7463495dd1b9eb/CHANGELOG</a></dd>
               <dt>Opmerkingen en feedback</dt><dd><a href="https://github.com/Informatievlaanderen/ipdc-lpdc/issues">https://github.com/Informatievlaanderen/ipdc-lpdc/issues</a></dd>
               <dt>Standaardenregister</dt><dd><a href="https://data.vlaanderen.be/standaarden/implementatiemodel-ipdc-lpdc">https://data.vlaanderen.be/standaarden/implementatiemodel-ipdc-lpdc</a></dd>
 
@@ -723,8 +723,6 @@
                     <dt>Eigenschappen</dt>
 		     
                     <dd>Voor deze entiteit zijn de volgende eigenschappen gedefinieerd:
-                      <a href="#Concept%3A"></a>, 
-                      <a href="#Concept%3A"></a>, 
                       <a href="#Concept%3Abeschrijving">beschrijving</a>, 
                       <a href="#Concept%3Abevoegdbestuursniveaus">bevoegdBestuursniveaus</a>, 
                       <a href="#Concept%3Abevoegdeoverheden">bevoegdeOverheden</a>, 
@@ -733,6 +731,8 @@
                       <a href="#Concept%3Aeindedienstverlening">eindeDienstVerlening</a>, 
                       <a href="#Concept%3Afinancielevoordelen">financieleVoordelen</a>, 
                       <a href="#Concept%3Agearchiveerd">gearchiveerd</a>, 
+                      <a href="#Concept%3Ageldigtot">geldigTot</a>, 
+                      <a href="#Concept%3Ageldigvan">geldigVan</a>, 
                       <a href="#Concept%3Akosten">kosten</a>, 
                       <a href="#Concept%3Alaatstgewijzigd">laatstGewijzigd</a>, 
                       <a href="#Concept%3Anaam">naam</a>, 
@@ -771,46 +771,6 @@
                     </thead>
 
                     <tbody class="supertype">
-                    
-                      <tr id="Concept%3A" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/2001/XMLSchema#dateTime" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#dateTime" data-placement="right">DateTime</a>
-                            
-                          
-                        </td>
-                        <td>0..1</td>
-                        <td property="rdfs:comment"></td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Concept%3A" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/2001/XMLSchema#dateTime" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#dateTime" data-placement="right">DateTime</a>
-                            
-                          
-                        </td>
-                        <td>0..1</td>
-                        <td property="rdfs:comment"></td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
                     
                       <tr id="Concept%3Abeschrijving" typeof="rdfs:Property" resource="http://purl.org/dc/terms/description">
                         <td>
@@ -968,6 +928,46 @@
                         </td>
                         <td>1</td>
                         <td property="rdfs:comment">Waarde die aangeeft of het concept gearchiveerd is.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Concept%3Ageldigtot" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot" data-placement="right">
+                            geldigTot</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#dateTime" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#dateTime" data-placement="right">DateTime</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Datum en tijd tot wanneer het concept geldig is.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Concept%3Ageldigvan" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan" data-placement="right">
+                            geldigVan</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#dateTime" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#dateTime" data-placement="right">DateTime</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Datum en tijd vanaf wanneer het concept geldig is.</td>
                         <td property="vann:usageNote"></td>
                         <td></td>
                       </tr>
@@ -2085,10 +2085,10 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
 
                     <tbody class="supertype">
                     
-                      <tr id="Contactgegevens%3A" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#contactnaam">
+                      <tr id="Contactgegevens%3A" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam">
                         <td>
                           <code property="rdfs:label">
-                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#contactnaam" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#contactnaam" data-placement="right">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam" data-placement="right">
                             </a>
                           </code>
                         </td>
@@ -2347,8 +2347,6 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                     <dt>Eigenschappen</dt>
 		     
                     <dd>Voor deze entiteit zijn de volgende eigenschappen gedefinieerd:
-                      <a href="#Instantie%3A"></a>, 
-                      <a href="#Instantie%3A"></a>, 
                       <a href="#Instantie%3Aaangemaaktdoor">aangemaaktDoor</a>, 
                       <a href="#Instantie%3Abeschrijving">beschrijving</a>, 
                       <a href="#Instantie%3Abevoegdbestuursniveaus">bevoegdBestuursniveaus</a>, 
@@ -2359,6 +2357,8 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                       <a href="#Instantie%3Aeindedienstverlening">eindeDienstVerlening</a>, 
                       <a href="#Instantie%3Afinancielevoordelen">financieleVoordelen</a>, 
                       <a href="#Instantie%3Agearchiveerd">gearchiveerd</a>, 
+                      <a href="#Instantie%3Ageldigtot">geldigTot</a>, 
+                      <a href="#Instantie%3Ageldigvan">geldigVan</a>, 
                       <a href="#Instantie%3Ageografischtoepassingsgebieden">geografischToepassingsgebieden</a>, 
                       <a href="#Instantie%3Akosten">kosten</a>, 
                       <a href="#Instantie%3Alaatstgewijzigd">laatstGewijzigd</a>, 
@@ -2400,46 +2400,6 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                     </thead>
 
                     <tbody class="supertype">
-                    
-                      <tr id="Instantie%3A" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/2001/XMLSchema#dateTime" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#dateTime" data-placement="right">DateTime</a>
-                            
-                          
-                        </td>
-                        <td>0..1</td>
-                        <td property="rdfs:comment"></td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Instantie%3A" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/2001/XMLSchema#dateTime" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#dateTime" data-placement="right">DateTime</a>
-                            
-                          
-                        </td>
-                        <td>0..1</td>
-                        <td property="rdfs:comment"></td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
                     
                       <tr id="Instantie%3Aaangemaaktdoor" typeof="rdfs:Property" resource="http://purl.org/pav/createdBy">
                         <td>
@@ -2637,6 +2597,46 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         </td>
                         <td>1</td>
                         <td property="rdfs:comment">Waarde die aangeeft of de instantie gearchiveerd is.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Instantie%3Ageldigtot" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot" data-placement="right">
+                            geldigTot</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#dateTime" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#dateTime" data-placement="right">DateTime</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Datum en tijd tot wanneer de instantie geldig is.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Instantie%3Ageldigvan" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan" data-placement="right">
+                            geldigVan</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#dateTime" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#dateTime" data-placement="right">DateTime</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Datum en tijd vanaf wanneer de instantie geldig is.</td>
                         <td property="vann:usageNote"></td>
                         <td></td>
                       </tr>
@@ -3989,8 +3989,8 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                     <dt>Eigenschappen</dt>
 		     
                     <dd>Voor deze entiteit zijn de volgende eigenschappen gedefinieerd:
-                      <a href="#Procedure%3A"></a>, 
                       <a href="#Procedure%3Abeschrijving">beschrijving</a>, 
+                      <a href="#Procedure%3Adigitaalaanvraagbaar">digitaalAanvraagbaar</a>, 
                       <a href="#Procedure%3Anaam">naam</a>, 
                       <a href="#Procedure%3Aorder">order</a>, 
                       <a href="#Procedure%3Awebsites">websites</a>.</dd>
@@ -4013,26 +4013,6 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
 
                     <tbody class="supertype">
                     
-                      <tr id="Procedure%3A" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar" data-placement="right">
-                            </a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			    
-			    <a href="#DigitaalAanvraagbaar" data-placement="right">DigitaalAanvraagbaar</a>
-			    
-                          
-                        </td>
-                        <td>0..1</td>
-                        <td property="rdfs:comment"></td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
                       <tr id="Procedure%3Abeschrijving" typeof="rdfs:Property" resource="http://purl.org/dc/terms/description">
                         <td>
                           <code property="rdfs:label">
@@ -4050,6 +4030,26 @@ Gebruik bij voorkeur de relatie 'follows(Rule)' om te verwijzen naar de relevant
                         <td>1</td>
                         <td property="rdfs:comment">This property represents a free text Description of the Rule.</td>
                         <td property="vann:usageNote">Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Procedure%3Adigitaalaanvraagbaar" typeof="rdfs:Property" resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar" data-toggle="tooltip" data-content="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar" data-placement="right">
+                            digitaalAanvraagbaar</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#DigitaalAanvraagbaar" data-placement="right">DigitaalAanvraagbaar</a>
+			    
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd.</td>
+                        <td property="vann:usageNote">Toegelaten waarden: Ja, Nee en Geen info.</td>
                         <td></td>
                       </tr>
                     

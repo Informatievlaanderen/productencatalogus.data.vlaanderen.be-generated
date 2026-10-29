@@ -248,12 +248,20 @@
       }
     },
     {
-      "EA-Guid": "{D8BDCE70-FEAA-428c-AF34-413057C514A6}",
-      "name": ""
-    },
-    {
       "EA-Guid": "{D8F914C3-713B-4977-8CD6-951AA2DCF012}",
-      "name": ""
+      "name": "digitaalaanvraagbaar",
+      "label": {
+        "nl": "digitaalAanvraagbaar",
+        "en": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd.",
+        "en": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "Toegelaten waarden: Ja, Nee en Geen info.",
+        "en": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{B862B323-7B57-4ad2-93F0-361BCC804224}",
@@ -385,19 +393,51 @@
     },
     {
       "EA-Guid": "{700B4D83-F728-41e9-90C7-7CE5C3918641}",
-      "name": ""
+      "name": "geldigtot",
+      "label": {
+        "nl": "geldigTot",
+        "en": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Datum en tijd tot wanneer het concept geldig is.",
+        "en": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{18849992-9999-42e9-9580-945DA338A690}",
-      "name": ""
+      "name": "geldigtot",
+      "label": {
+        "nl": "geldigTot",
+        "en": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Datum en tijd tot wanneer de instantie geldig is.",
+        "en": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{BACC4273-0326-45fa-9364-07AC4637430F}",
-      "name": ""
+      "name": "geldigvan",
+      "label": {
+        "nl": "geldigVan",
+        "en": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Datum en tijd vanaf wanneer het concept geldig is.",
+        "en": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{F3A3EA66-04D3-4aa5-A21D-786503D0B401}",
-      "name": ""
+      "name": "geldigvan",
+      "label": {
+        "nl": "geldigVan",
+        "en": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Datum en tijd vanaf wanneer de instantie geldig is.",
+        "en": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{AA354A19-56F9-401d-8F0A-5C15E68BAC36}",
@@ -478,6 +518,10 @@
         "nl": "Waarde die aangeeft of de instantie gearchiveerd is.",
         "en": "Enter your translation here"
       }
+    },
+    {
+      "EA-Guid": "{D8BDCE70-FEAA-428c-AF34-413057C514A6}",
+      "name": ""
     },
     {
       "EA-Guid": "{98EAE277-E6F7-470b-8202-62D1806DD0F6}",
@@ -814,18 +858,6 @@
       }
     },
     {
-      "EA-Guid": "{990C207C-DE44-45b7-9434-93F07D07B181}",
-      "name": "Digitaalaanvraagbaar",
-      "label": {
-        "nl": "DigitaalAanvraagbaar",
-        "en": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "Mogelijke waarden voor digitaalAanvraagbaar: Ja, Nee en Geen info.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{EE261015-EDFA-45ee-9176-35F70F8EEC85}",
       "name": "Procedure",
       "label": {
@@ -862,6 +894,18 @@
       },
       "definition": {
         "nl": "A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via a URL.",
+        "en": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{990C207C-DE44-45b7-9434-93F07D07B181}",
+      "name": "Digitaalaanvraagbaar",
+      "label": {
+        "nl": "DigitaalAanvraagbaar",
+        "en": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Mogelijke waarden voor digitaalAanvraagbaar: Ja, Nee en Geen info.",
         "en": "Enter your translation here"
       }
     },

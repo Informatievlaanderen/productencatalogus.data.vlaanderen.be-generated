@@ -15,8 +15,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
     "statuslabel": "Nota Werkgroep",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/d66417f65c222e329386238847fe2de8ca1daf5e",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/d66417f65c222e329386238847fe2de8ca1daf5e/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/f143e71b2466989fe1f4bd8e0a7463495dd1b9eb",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/f143e71b2466989fe1f4bd8e0a7463495dd1b9eb/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/implementatiemodel-ipdc-lpdc",
     "dependencies": [],
@@ -265,10 +265,14 @@
         },
         {
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
+          "name": "geldigtot",
+          "sort": "geldigTot",
+          "label": {
+            "nl": "geldigTot"
+          },
+          "description": {
+            "nl": "Datum en tijd tot wanneer het concept geldig is."
+          },
           "usage": {},
           "domain": [
             {
@@ -293,14 +297,21 @@
           ],
           "cardinality": "0..1",
           "codelist_uri": "",
-          "rawTags": {}
+          "rawTags": {
+            "label-nl": "geldigTot",
+            "definition-nl": "Datum en tijd tot wanneer het concept geldig is."
+          }
         },
         {
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
+          "name": "geldigvan",
+          "sort": "geldigVan",
+          "label": {
+            "nl": "geldigVan"
+          },
+          "description": {
+            "nl": "Datum en tijd vanaf wanneer het concept geldig is."
+          },
           "usage": {},
           "domain": [
             {
@@ -325,7 +336,10 @@
           ],
           "cardinality": "0..1",
           "codelist_uri": "",
-          "rawTags": {}
+          "rawTags": {
+            "label-nl": "geldigVan",
+            "definition-nl": "Datum en tijd vanaf wanneer het concept geldig is."
+          }
         },
         {
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
@@ -2922,10 +2936,14 @@
         },
         {
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
+          "name": "geldigtot",
+          "sort": "geldigTot",
+          "label": {
+            "nl": "geldigTot"
+          },
+          "description": {
+            "nl": "Datum en tijd tot wanneer de instantie geldig is."
+          },
           "usage": {},
           "domain": [
             {
@@ -2950,14 +2968,21 @@
           ],
           "cardinality": "0..1",
           "codelist_uri": "",
-          "rawTags": {}
+          "rawTags": {
+            "definition-nl": "Datum en tijd tot wanneer de instantie geldig is.",
+            "label-nl": "geldigTot"
+          }
         },
         {
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
+          "name": "geldigvan",
+          "sort": "geldigVan",
+          "label": {
+            "nl": "geldigVan"
+          },
+          "description": {
+            "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
+          },
           "usage": {},
           "domain": [
             {
@@ -2982,7 +3007,10 @@
           ],
           "cardinality": "0..1",
           "codelist_uri": "",
-          "rawTags": {}
+          "rawTags": {
+            "label-nl": "geldigVan",
+            "definition-nl": "Datum en tijd vanaf wanneer de instantie geldig is."
+          }
         },
         {
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag",
@@ -6358,11 +6386,17 @@
       "properties": [
         {
           "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
+          "name": "digitaalaanvraagbaar",
+          "sort": "digitaalAanvraagbaar",
+          "label": {
+            "nl": "digitaalAanvraagbaar"
+          },
+          "description": {
+            "nl": "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd."
+          },
+          "usage": {
+            "nl": "Toegelaten waarden: Ja, Nee en Geen info."
+          },
           "domain": [
             {
               "EA-Name": "Procedure",
@@ -6372,13 +6406,13 @@
           "range": [
             {
               "range_label": "DigitaalAanvraagbaar",
-              "range_uri": "http://fixme.com#DigitaalAanvraagbaar"
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#DigitaalAanvraagbaar",
-              "range_puri": "http://fixme.com#DigitaalAanvraagbaar",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
                 "nl": "DigitaalAanvraagbaar"
               }
@@ -6386,7 +6420,11 @@
           ],
           "cardinality": "0..1",
           "codelist_uri": "",
-          "rawTags": {}
+          "rawTags": {
+            "label-nl": "digitaalAanvraagbaar",
+            "definition-nl": "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd.",
+            "usageNote-nl": "Toegelaten waarden: Ja, Nee en Geen info."
+          }
         },
         {
           "uri": "http://purl.org/dc/terms/description",
@@ -6618,7 +6656,7 @@
           }
         },
         {
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#contactnaam",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam",
           "name": "",
           "sort": "",
           "label": {},
@@ -7485,7 +7523,8 @@
     {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar",
       "name": {
-        "undefined": ""
+        "nl": "digitaalAanvraagbaar",
+        "undefined": "digitaalaanvraagbaar"
       },
       "description": {},
       "domain": [

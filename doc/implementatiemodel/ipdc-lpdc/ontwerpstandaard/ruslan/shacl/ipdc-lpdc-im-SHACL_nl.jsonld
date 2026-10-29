@@ -108,34 +108,6 @@
       "sh:closed": false,
       "sh:property": [
         {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/4d55af37dbbb6a42088d917caa1ca25428ec42c9",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.",
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-          "sh:description": "",
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot"
-        },
-        {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/4d55af37dbbb6a42088d917caa1ca25428ec42c9",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.",
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-          "sh:description": "",
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan"
-        },
-        {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/ce012334c76fbb8723d52324457cb619f53f2527",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.",
-          "sh:description": "",
-          "sh:maxCount": "1",
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot"
-        },
-        {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/ce012334c76fbb8723d52324457cb619f53f2527",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.",
-          "sh:description": "",
-          "sh:maxCount": "1",
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan"
-        },
-        {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/0e9a7d4dbf6ec19568d474169ad717f71e882319",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.beschrijving",
           "sh:class": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -362,6 +334,54 @@
             "nl": "gearchiveerd"
           },
           "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/dc3b84541895f7fa3ed704d0745cd954c12163b5",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.geldigTot",
+          "sh:description": {
+            "nl": "Datum en tijd tot wanneer het concept geldig is."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "geldigTot"
+          },
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/f5a9f6650b660f65b7c23b3a370c022208d817ff",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.geldigTot",
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "sh:description": {
+            "nl": "Datum en tijd tot wanneer het concept geldig is."
+          },
+          "sh:name": {
+            "nl": "geldigTot"
+          },
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/058a6ab2797871190d46c026c79f17d11fb2152e",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.geldigVan",
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "sh:description": {
+            "nl": "Datum en tijd vanaf wanneer het concept geldig is."
+          },
+          "sh:name": {
+            "nl": "geldigVan"
+          },
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/be116f80e53da01c94bee19ddef954be82ca4527",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.geldigVan",
+          "sh:description": {
+            "nl": "Datum en tijd vanaf wanneer het concept geldig is."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "geldigVan"
+          },
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan"
         },
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/af7a5aa5ab3681774d9cd2483c7a1cbe754c6182",
@@ -1804,34 +1824,6 @@
       "sh:closed": false,
       "sh:property": [
         {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/4d55af37dbbb6a42088d917caa1ca25428ec42c9",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.",
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-          "sh:description": "",
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot"
-        },
-        {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/4d55af37dbbb6a42088d917caa1ca25428ec42c9",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.",
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-          "sh:description": "",
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan"
-        },
-        {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/ce012334c76fbb8723d52324457cb619f53f2527",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.",
-          "sh:description": "",
-          "sh:maxCount": "1",
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot"
-        },
-        {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/ce012334c76fbb8723d52324457cb619f53f2527",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.",
-          "sh:description": "",
-          "sh:maxCount": "1",
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan"
-        },
-        {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/5975a882825748a347be58c3b5fdfb9da6f8fc7a",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.aangemaaktDoor",
           "sh:class": "http://data.europa.eu/m8g/PublicOrganisation",
@@ -2106,6 +2098,54 @@
             "nl": "gearchiveerd"
           },
           "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/dc3b84541895f7fa3ed704d0745cd954c12163b5",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.geldigTot",
+          "sh:description": {
+            "nl": "Datum en tijd tot wanneer de instantie geldig is."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "geldigTot"
+          },
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/f5a9f6650b660f65b7c23b3a370c022208d817ff",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.geldigTot",
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "sh:description": {
+            "nl": "Datum en tijd tot wanneer de instantie geldig is."
+          },
+          "sh:name": {
+            "nl": "geldigTot"
+          },
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/058a6ab2797871190d46c026c79f17d11fb2152e",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.geldigVan",
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "sh:description": {
+            "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
+          },
+          "sh:name": {
+            "nl": "geldigVan"
+          },
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/be116f80e53da01c94bee19ddef954be82ca4527",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.geldigVan",
+          "sh:description": {
+            "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "geldigVan"
+          },
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan"
         },
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/2bcb3e5006af01bacc782f371df631bc430757b2",
@@ -4162,31 +4202,10 @@
       "sh:targetClass": "http://data.europa.eu/m8g/Requirement"
     },
     {
-      "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#DigitaalAanvraagbaarShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://fixme.com#DigitaalAanvraagbaar"
-    },
-    {
       "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
-        {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/4d55af37dbbb6a42088d917caa1ca25428ec42c9",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Procedure.",
-          "sh:class": "http://fixme.com#DigitaalAanvraagbaar",
-          "sh:description": "",
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar"
-        },
-        {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/ce012334c76fbb8723d52324457cb619f53f2527",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Procedure.",
-          "sh:description": "",
-          "sh:maxCount": "1",
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar"
-        },
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/0e9a7d4dbf6ec19568d474169ad717f71e882319",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Procedure.beschrijving",
@@ -4222,6 +4241,30 @@
             "nl": "beschrijving"
           },
           "sh:path": "http://purl.org/dc/terms/description"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/38dd9ee432efbeb9e47c44b595ed0d52c161c2e4",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Procedure.digitaalAanvraagbaar",
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "nl": "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd."
+          },
+          "sh:name": {
+            "nl": "digitaalAanvraagbaar"
+          },
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar"
+        },
+        {
+          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/81c155fba6cf3ea3f65cc17036462dd4a905da42",
+          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Procedure.digitaalAanvraagbaar",
+          "sh:description": {
+            "nl": "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "nl": "digitaalAanvraagbaar"
+          },
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar"
         },
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/1399bd400d4637b15d5fe38202d6572f82150aac",
@@ -4320,14 +4363,14 @@
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Contactgegevens.",
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:description": "",
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#contactnaam"
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam"
         },
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/ce012334c76fbb8723d52324457cb619f53f2527",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Contactgegevens.",
           "sh:description": "",
           "sh:maxCount": "1",
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#contactnaam"
+          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam"
         },
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/1beecf084b59c7b686e40cf4c6b48c091a646d4d",
@@ -4627,6 +4670,13 @@
         }
       ],
       "sh:targetClass": "http://schema.org/WebSite"
+    },
+    {
+      "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#DigitaalAanvraagbaarShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
       "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#AdresShape",

@@ -18,10 +18,10 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#BewijsShape>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#PubliekeOrganisatieShape>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#VoorwaardeShape>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#DigitaalAanvraagbaarShape>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#WebsiteShape>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#DigitaalAanvraagbaarShape>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#AdresShape> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#AdresShape> a shacl:NodeShape;
@@ -160,9 +160,7 @@
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:property <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/4d55af37dbbb6a42088d917caa1ca25428ec42c9>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/ce012334c76fbb8723d52324457cb619f53f2527>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/0e9a7d4dbf6ec19568d474169ad717f71e882319>,
+  shacl:property <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/0e9a7d4dbf6ec19568d474169ad717f71e882319>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/4a16176c26d8d5526c76974a1530f1ffdd596e93>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/7521953addc62cf367ab3c8ec0dc63cb5981ea23>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/94da63c5887b79e2e952dd7d1c7c951e24a3a09b>,
@@ -179,6 +177,10 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/d18a8721a368816b6c86c6c8d2e95708933989a3>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/e9f44e4910a0623b0c4783d48faea993a68f1216>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/ed0cbf60c0483ce3daa7e43c9cb51a8d5e9ab38d>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/dc3b84541895f7fa3ed704d0745cd954c12163b5>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/f5a9f6650b660f65b7c23b3a370c022208d817ff>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/058a6ab2797871190d46c026c79f17d11fb2152e>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/be116f80e53da01c94bee19ddef954be82ca4527>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/af7a5aa5ab3681774d9cd2483c7a1cbe754c6182>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/5d407992720a6fa392ca28dfc88a427cfdc7de7b>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/7e65f50c965ada4d6c0dbdafb0fab43b16a28f9c>,
@@ -228,6 +230,12 @@
   shacl:maxCount 1;
   shacl:name "startDienstVerlening"@nl;
   shacl:path schema:startDate .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/058a6ab2797871190d46c026c79f17d11fb2152e> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.geldigVan";
+  shacl:datatype xsd:dateTime;
+  shacl:description "Datum en tijd vanaf wanneer het concept geldig is."@nl;
+  shacl:name "geldigVan"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/0847b0d9f2fd30f5ae777323068b3e8ca49e090f> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.financieleVoordelen";
   shacl:class <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage>;
@@ -366,12 +374,6 @@
   shacl:nodeKind shacl:IRI;
   shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience>;
   shacl:severity shacl:Warning .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/4d55af37dbbb6a42088d917caa1ca25428ec42c9> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.";
-  shacl:datatype xsd:dateTime;
-  shacl:description "";
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot>,
-    <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/5341a25c8236f31cedabe0080c0a1ca40845cb21> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.uitvoerendBestuursniveaus";
   shacl:class skos:Concept;
@@ -559,6 +561,12 @@
   shacl:name "productnummer"@nl;
   shacl:path schema:productID .
 
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/be116f80e53da01c94bee19ddef954be82ca4527> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.geldigVan";
+  shacl:description "Datum en tijd vanaf wanneer het concept geldig is."@nl;
+  shacl:maxCount 1;
+  shacl:name "geldigVan"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> .
+
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/c96cc9583ec0906932a8a9020155c7e389c8ad8d> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.procedures";
   shacl:class <http://purl.org/vocab/cpsv#Rule>;
   shacl:description "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."@nl;
@@ -577,12 +585,6 @@
   shacl:name "productnummer"@nl;
   shacl:path schema:productID .
 
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/ce012334c76fbb8723d52324457cb619f53f2527> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.";
-  shacl:description "";
-  shacl:maxCount 1;
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot>,
-    <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> .
-
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/d18a8721a368816b6c86c6c8d2e95708933989a3> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.gearchiveerd";
   shacl:datatype xsd:boolean;
   shacl:description "Waarde die aangeeft of het concept gearchiveerd is."@nl;
@@ -594,6 +596,12 @@
   shacl:minCount 1;
   shacl:name "creatie"@nl;
   shacl:path schema:dateCreated .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/dc3b84541895f7fa3ed704d0745cd954c12163b5> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.geldigTot";
+  shacl:description "Datum en tijd tot wanneer het concept geldig is."@nl;
+  shacl:maxCount 1;
+  shacl:name "geldigTot"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/de7fb464d18a8c015790bcb53807d323b81a52c5> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.publicatiekanalen";
   shacl:description "Publicatiekanaal van een publieke dienst beschrijft op welke plaatsen de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."@nl;
@@ -636,6 +644,12 @@
   shacl:description "Tijdstip waarop het concept door een redacteur werd aangemaakt."@nl;
   shacl:name "creatie"@nl;
   shacl:path schema:dateCreated .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/f5a9f6650b660f65b7c23b3a370c022208d817ff> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.geldigTot";
+  shacl:datatype xsd:dateTime;
+  shacl:description "Datum en tijd tot wanneer het concept geldig is."@nl;
+  shacl:name "geldigTot"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/f6ff3fbad11c436a8cb24985cbbe932cd2d24d8f> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.startDienstVerlening";
   shacl:datatype xsd:dateTime;
@@ -1208,7 +1222,7 @@
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/4d55af37dbbb6a42088d917caa1ca25428ec42c9> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Contactgegevens.";
   shacl:datatype xsd:string;
   shacl:description "";
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#contactnaam> .
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/5f54c788429b24cc8716ee5e0bf63522a49f95e6> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Contactgegevens.url";
   shacl:description "De url van de website"@nl;
@@ -1243,7 +1257,7 @@
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/ce012334c76fbb8723d52324457cb619f53f2527> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Contactgegevens.";
   shacl:description "";
   shacl:maxCount 1;
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#contactnaam> .
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/df2e16526cd0f7cc796d3bb27ac1861737a35d91> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Contactgegevens.email";
   shacl:description "A property through which an e-mail address for the Public Organization, or a representative of it, can be contacted."@nl;
@@ -1265,7 +1279,7 @@
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#DigitaalAanvraagbaarShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:targetClass <http://fixme.com#DigitaalAanvraagbaar> .
+  shacl:targetClass skos:Concept .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#FinancieelVoordeelShape> a shacl:NodeShape;
   shacl:closed false;
@@ -1336,9 +1350,7 @@
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:property <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/4d55af37dbbb6a42088d917caa1ca25428ec42c9>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/ce012334c76fbb8723d52324457cb619f53f2527>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/5975a882825748a347be58c3b5fdfb9da6f8fc7a>,
+  shacl:property <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/5975a882825748a347be58c3b5fdfb9da6f8fc7a>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/7b04170fbf6bd535667ccb80bfce3f0cb322c2ff>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/0e9a7d4dbf6ec19568d474169ad717f71e882319>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/4a16176c26d8d5526c76974a1530f1ffdd596e93>,
@@ -1359,6 +1371,10 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/d18a8721a368816b6c86c6c8d2e95708933989a3>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/e9f44e4910a0623b0c4783d48faea993a68f1216>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/ed0cbf60c0483ce3daa7e43c9cb51a8d5e9ab38d>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/dc3b84541895f7fa3ed704d0745cd954c12163b5>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/f5a9f6650b660f65b7c23b3a370c022208d817ff>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/058a6ab2797871190d46c026c79f17d11fb2152e>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/be116f80e53da01c94bee19ddef954be82ca4527>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/2bcb3e5006af01bacc782f371df631bc430757b2>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/cf3100dc2dad1748f2034570b836f6dfd37dac02>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/eee06b9a7552754ada8c64228612cb906aca45a3>,
@@ -1415,6 +1431,12 @@
   shacl:maxCount 1;
   shacl:name "startDienstVerlening"@nl;
   shacl:path schema:startDate .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/058a6ab2797871190d46c026c79f17d11fb2152e> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.geldigVan";
+  shacl:datatype xsd:dateTime;
+  shacl:description "Datum en tijd vanaf wanneer de instantie geldig is."@nl;
+  shacl:name "geldigVan"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/0847b0d9f2fd30f5ae777323068b3e8ca49e090f> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.financieleVoordelen";
   shacl:class <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage>;
@@ -1559,12 +1581,6 @@
   shacl:nodeKind shacl:IRI;
   shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#targetAudience>;
   shacl:severity shacl:Warning .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/4d55af37dbbb6a42088d917caa1ca25428ec42c9> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.";
-  shacl:datatype xsd:dateTime;
-  shacl:description "";
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot>,
-    <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/5341a25c8236f31cedabe0080c0a1ca40845cb21> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.uitvoerendBestuursniveaus";
   shacl:class skos:Concept;
@@ -1794,6 +1810,12 @@
   shacl:name "productnummer"@nl;
   shacl:path schema:productID .
 
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/be116f80e53da01c94bee19ddef954be82ca4527> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.geldigVan";
+  shacl:description "Datum en tijd vanaf wanneer de instantie geldig is."@nl;
+  shacl:maxCount 1;
+  shacl:name "geldigVan"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> .
+
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/c3043322d62d7f228a47669ce5a936238db5832b> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.linkedConcept";
   shacl:description "Het concept op basis van welk deze instantie aangemaakt werd. De teksten van het concept werden gebruikt als sjabloonteksten gebruikt bij het aanmaken van de instantie. Instanties die werden aangemaakt op basis van hetzelfde concept worden via deze relatie gegroepeerd bij het gemeenschappelijke concept."@nl;
   shacl:maxCount 1;
@@ -1818,12 +1840,6 @@
   shacl:name "productnummer"@nl;
   shacl:path schema:productID .
 
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/ce012334c76fbb8723d52324457cb619f53f2527> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.";
-  shacl:description "";
-  shacl:maxCount 1;
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot>,
-    <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> .
-
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/cf3100dc2dad1748f2034570b836f6dfd37dac02> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.geografischToepassingsgebieden";
   shacl:description "Geografisch toepassingsgebied van een publieke dienst: Vlaamse provincies en gemeenten."@nl;
   shacl:minCount 1;
@@ -1841,6 +1857,12 @@
   shacl:minCount 1;
   shacl:name "creatie"@nl;
   shacl:path schema:dateCreated .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/dc3b84541895f7fa3ed704d0745cd954c12163b5> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.geldigTot";
+  shacl:description "Datum en tijd tot wanneer de instantie geldig is."@nl;
+  shacl:maxCount 1;
+  shacl:name "geldigTot"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/de7fb464d18a8c015790bcb53807d323b81a52c5> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.publicatiekanalen";
   shacl:description "Publicatiekanaal van een publieke dienst beschrijft op welke plaatsen de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."@nl;
@@ -1913,6 +1935,12 @@
   shacl:description "Tijdstip waarop de instantie door een redacteur werd aangemaakt."@nl;
   shacl:name "creatie"@nl;
   shacl:path schema:dateCreated .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/f5a9f6650b660f65b7c23b3a370c022208d817ff> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.geldigTot";
+  shacl:datatype xsd:dateTime;
+  shacl:description "Datum en tijd tot wanneer de instantie geldig is."@nl;
+  shacl:name "geldigTot"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/f6ff3fbad11c436a8cb24985cbbe932cd2d24d8f> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.startDienstVerlening";
   shacl:datatype xsd:dateTime;
@@ -2603,11 +2631,11 @@
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:property <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/4d55af37dbbb6a42088d917caa1ca25428ec42c9>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/ce012334c76fbb8723d52324457cb619f53f2527>,
-    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/0e9a7d4dbf6ec19568d474169ad717f71e882319>,
+  shacl:property <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/0e9a7d4dbf6ec19568d474169ad717f71e882319>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/4a16176c26d8d5526c76974a1530f1ffdd596e93>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/7521953addc62cf367ab3c8ec0dc63cb5981ea23>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/38dd9ee432efbeb9e47c44b595ed0d52c161c2e4>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/81c155fba6cf3ea3f65cc17036462dd4a905da42>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/1399bd400d4637b15d5fe38202d6572f82150aac>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/5fceb068938b8a837e254da418f45825d992aec8>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/e9d8e42e8041e72c4534134d5a9044b03bed7ec5>,
@@ -2641,16 +2669,17 @@
   shacl:name "order"@nl;
   shacl:path shacl:order .
 
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/38dd9ee432efbeb9e47c44b595ed0d52c161c2e4> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Procedure.digitaalAanvraagbaar";
+  shacl:class skos:Concept;
+  shacl:description "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd."@nl;
+  shacl:name "digitaalAanvraagbaar"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar> .
+
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/4a16176c26d8d5526c76974a1530f1ffdd596e93> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Procedure.beschrijving";
   shacl:description "This property represents a free text Description of the Rule."@nl;
   shacl:maxCount 1;
   shacl:name "beschrijving"@nl;
   shacl:path dc:description .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/4d55af37dbbb6a42088d917caa1ca25428ec42c9> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Procedure.";
-  shacl:class <http://fixme.com#DigitaalAanvraagbaar>;
-  shacl:description "";
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/5943c50beaee8147c2f979567aba4d550b3a7a4c> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Procedure.websites";
   shacl:class schema:WebSite;
@@ -2670,16 +2699,17 @@
   shacl:name "beschrijving"@nl;
   shacl:path dc:description .
 
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/81c155fba6cf3ea3f65cc17036462dd4a905da42> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Procedure.digitaalAanvraagbaar";
+  shacl:description "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd."@nl;
+  shacl:maxCount 1;
+  shacl:name "digitaalAanvraagbaar"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar> .
+
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/c71284d6d508493899132c623a106c1b9a2ce54f> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Procedure.order";
   shacl:datatype xsd:integer;
   shacl:description "Specifies the relative order of this item compared to its siblings."@nl;
   shacl:name "order"@nl;
   shacl:path shacl:order .
-
-<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/ce012334c76fbb8723d52324457cb619f53f2527> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Procedure.";
-  shacl:description "";
-  shacl:maxCount 1;
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ProcedureShape/e9d8e42e8041e72c4534134d5a9044b03bed7ec5> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Procedure.naam";
   shacl:description "This property represents the Name of the Rule."@nl;
