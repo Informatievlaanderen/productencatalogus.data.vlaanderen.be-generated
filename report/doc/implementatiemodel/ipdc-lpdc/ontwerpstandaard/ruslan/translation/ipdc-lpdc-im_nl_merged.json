@@ -551,8 +551,8 @@
   "dependencies": [],
   "diagram": "ipdc-lpdc-ap",
   "disabled": false,
-  "documentcommit": "a8a8060804eb134823a89995664d486598eac2c5",
-  "dummy": "010",
+  "documentcommit": "128a364e234b2bc8d6d05794184b1b976ea0f7e1",
+  "dummy": "011",
   "eap": "IPDC-LPDC-AP-v02.eap",
   "editors": [
     {
@@ -13312,11 +13312,6 @@
             "key": "usageNote-nl",
             "note": "null",
             "value": "Toegelaten waarden: Ja, Nee en Geen info."
-          },
-          {
-            "key": "name",
-            "note": "null",
-            "value": "digitaalAanvraagbaar"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -14185,11 +14180,6 @@
             "key": "definition-nl",
             "note": "null",
             "value": "Datum en tijd tot wanneer het concept geldig is."
-          },
-          {
-            "key": "name",
-            "note": "null",
-            "value": "geldigTot"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -14266,11 +14256,6 @@
           },
           {
             "key": "label-nl",
-            "note": "null",
-            "value": "geldigTot"
-          },
-          {
-            "key": "name",
             "note": "null",
             "value": "geldigTot"
           }
@@ -14351,11 +14336,6 @@
             "key": "definition-nl",
             "note": "null",
             "value": "Datum en tijd vanaf wanneer het concept geldig is."
-          },
-          {
-            "key": "name",
-            "note": "null",
-            "value": "geldigVan"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -14434,11 +14414,6 @@
             "key": "definition-nl",
             "note": "null",
             "value": "Datum en tijd vanaf wanneer de instantie geldig is."
-          },
-          {
-            "key": "name",
-            "note": "null",
-            "value": "geldigVan"
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -15042,11 +15017,6 @@
           "uri": "http://www.w3.org/2001/XMLSchema#string"
         },
         "RawTags": [
-          {
-            "key": "name",
-            "note": "null",
-            "value": "naam"
-          },
           {
             "key": "label-nl",
             "note": "null",
@@ -16711,7 +16681,7 @@
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/implementatiemodel-ipdc-lpdc",
   "template": "ipdc-lpdc-im.j2",
   "title": "Implementatiemodel IPDC - LPDC",
-  "toolchaincommit": "3ecce36c357c106e18a59d8ab3a249aadaa6be60",
+  "toolchaincommit": "e97ce7452e45b6de4c441a0c390c7252747b8992",
   "translation": [
     {
       "language": "nl",

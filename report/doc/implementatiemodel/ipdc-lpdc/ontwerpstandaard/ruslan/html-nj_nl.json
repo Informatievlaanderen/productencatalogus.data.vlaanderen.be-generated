@@ -15,8 +15,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
     "statuslabel": "Nota Werkgroep",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/a8a8060804eb134823a89995664d486598eac2c5",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/a8a8060804eb134823a89995664d486598eac2c5/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/128a364e234b2bc8d6d05794184b1b976ea0f7e1",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/128a364e234b2bc8d6d05794184b1b976ea0f7e1/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/implementatiemodel-ipdc-lpdc",
     "dependencies": [],
@@ -299,8 +299,7 @@
           "codelist_uri": "",
           "rawTags": {
             "label-nl": "geldigTot",
-            "definition-nl": "Datum en tijd tot wanneer het concept geldig is.",
-            "name": "geldigTot"
+            "definition-nl": "Datum en tijd tot wanneer het concept geldig is."
           }
         },
         {
@@ -339,8 +338,7 @@
           "codelist_uri": "",
           "rawTags": {
             "label-nl": "geldigVan",
-            "definition-nl": "Datum en tijd vanaf wanneer het concept geldig is.",
-            "name": "geldigVan"
+            "definition-nl": "Datum en tijd vanaf wanneer het concept geldig is."
           }
         },
         {
@@ -2972,8 +2970,7 @@
           "codelist_uri": "",
           "rawTags": {
             "definition-nl": "Datum en tijd tot wanneer de instantie geldig is.",
-            "label-nl": "geldigTot",
-            "name": "geldigTot"
+            "label-nl": "geldigTot"
           }
         },
         {
@@ -3012,8 +3009,7 @@
           "codelist_uri": "",
           "rawTags": {
             "label-nl": "geldigVan",
-            "definition-nl": "Datum en tijd vanaf wanneer de instantie geldig is.",
-            "name": "geldigVan"
+            "definition-nl": "Datum en tijd vanaf wanneer de instantie geldig is."
           }
         },
         {
@@ -6427,8 +6423,7 @@
           "rawTags": {
             "label-nl": "digitaalAanvraagbaar",
             "definition-nl": "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd.",
-            "usageNote-nl": "Toegelaten waarden: Ja, Nee en Geen info.",
-            "name": "digitaalAanvraagbaar"
+            "usageNote-nl": "Toegelaten waarden: Ja, Nee en Geen info."
           }
         },
         {
@@ -6695,7 +6690,6 @@
           "cardinality": "0..1",
           "codelist_uri": "",
           "rawTags": {
-            "name": "naam",
             "label-nl": "naam",
             "definition-nl": "Naam van het contact."
           }

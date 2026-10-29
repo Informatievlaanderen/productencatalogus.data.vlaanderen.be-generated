@@ -1884,11 +1884,6 @@
             "key": "usageNote-nl",
             "value": "Toegelaten waarden: Ja, Nee en Geen info.",
             "note": "null"
-          },
-          {
-            "key": "name",
-            "value": "digitaalAanvraagbaar",
-            "note": "null"
           }
         ],
         "Scope": "FULL_DEFINITON"
@@ -2833,11 +2828,6 @@
             "key": "definition-nl",
             "value": "Datum en tijd tot wanneer het concept geldig is.",
             "note": "null"
-          },
-          {
-            "key": "name",
-            "value": "geldigTot",
-            "note": "null"
           }
         ],
         "Scope": "FULL_DEFINITON"
@@ -2919,11 +2909,6 @@
           },
           {
             "key": "label-nl",
-            "value": "geldigTot",
-            "note": "null"
-          },
-          {
-            "key": "name",
             "value": "geldigTot",
             "note": "null"
           }
@@ -3009,11 +2994,6 @@
             "key": "definition-nl",
             "value": "Datum en tijd vanaf wanneer het concept geldig is.",
             "note": "null"
-          },
-          {
-            "key": "name",
-            "value": "geldigVan",
-            "note": "null"
           }
         ],
         "Scope": "FULL_DEFINITON"
@@ -3096,11 +3076,6 @@
           {
             "key": "definition-nl",
             "value": "Datum en tijd vanaf wanneer de instantie geldig is.",
-            "note": "null"
-          },
-          {
-            "key": "name",
-            "value": "geldigVan",
             "note": "null"
           }
         ],
@@ -3748,11 +3723,6 @@
         "subclass1": "",
         "sameAs": "",
         "RawTags": [
-          {
-            "key": "name",
-            "value": "naam",
-            "note": "null"
-          },
           {
             "key": "label-nl",
             "value": "naam",
@@ -18062,15 +18032,15 @@
   "config": "config/config-voc.json",
   "branchtag": "main",
   "disabled": false,
-  "dummy": "004",
+  "dummy": "005",
   "filename": "config/ipdc-lpdc-voc.json",
   "navigation": {
     "prev": "/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-07-04"
   },
   "repository": "https://github.com/Informatievlaanderen/ipdc-lpdc",
   "urlref": "/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/ruslan",
-  "documentcommit": "a8a8060804eb134823a89995664d486598eac2c5",
-  "toolchaincommit": "3ecce36c357c106e18a59d8ab3a249aadaa6be60",
+  "documentcommit": "128a364e234b2bc8d6d05794184b1b976ea0f7e1",
+  "toolchaincommit": "e97ce7452e45b6de4c441a0c390c7252747b8992",
   "hostname": "https://productencatalogus.data.test-vlaanderen.be/",
   "translation": [
     {
