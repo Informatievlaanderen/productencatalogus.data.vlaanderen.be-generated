@@ -4416,7 +4416,7 @@
           "sh:name": {
             "nl": "naam"
           },
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam"
+          "sh:path": "http://purl.org/dc/terms/title"
         },
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/5fceb068938b8a837e254da418f45825d992aec8",
@@ -4428,7 +4428,7 @@
           "sh:name": {
             "nl": "naam"
           },
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam"
+          "sh:path": "http://purl.org/dc/terms/title"
         },
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ContactgegevensShape/c789dc7e3338baac74508f11357d76aa998cda08",

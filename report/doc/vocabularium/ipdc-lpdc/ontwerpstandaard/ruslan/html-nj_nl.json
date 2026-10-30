@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
     "statuslabel": "Nota Werkgroep",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/fd37188f0ff1d9b9d4d22688b9b734dc544e416a",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/fd37188f0ff1d9b9d4d22688b9b734dc544e416a/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/8bbbda03829c70682289c4dd1c9fa238c816f09c",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/8bbbda03829c70682289c4dd1c9fa238c816f09c/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-ipdc-lpdc",
     "dependencies": [],
@@ -637,25 +637,6 @@
       ],
       "range": [
         "http://www.w3.org/2001/XMLSchema#boolean"
-      ],
-      "parents": []
-    },
-    {
-      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam",
-      "name": "naam",
-      "label": {
-        "nl": "naam"
-      },
-      "sort": "naam",
-      "description": {
-        "nl": "Naam van het contact."
-      },
-      "usage": {},
-      "domain": [
-        "http://schema.org/ContactPoint"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#string"
       ],
       "parents": []
     },
@@ -1710,7 +1691,7 @@
         "nl": "isVersionOf"
       },
       "description": {
-        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       },
       "usage": {},
       "sort": "isVersionOf",
@@ -1726,7 +1707,7 @@
         "nl": "isVersionOf"
       },
       "description": {
-        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       },
       "usage": {},
       "sort": "isVersionOf",
@@ -1834,6 +1815,22 @@
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
       },
       "sort": "geografischToepassingsgebieden",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://purl.org/dc/terms/title",
+      "name": "naam",
+      "label": {
+        "nl": "naam"
+      },
+      "description": {
+        "nl": "Naam van het contact."
+      },
+      "usage": {},
+      "sort": "naam",
       "inscope": true,
       "indvl": false,
       "inpackage": false,

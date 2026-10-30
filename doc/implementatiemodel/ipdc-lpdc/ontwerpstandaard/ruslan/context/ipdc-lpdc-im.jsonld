@@ -335,7 +335,7 @@
           "@type": "http://www.w3.org/2001/XMLSchema#string"
         },
         "naam": {
-          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam",
+          "@id": "http://purl.org/dc/terms/title",
           "@type": "http://www.w3.org/2001/XMLSchema#string"
         },
         "openingsuren": {

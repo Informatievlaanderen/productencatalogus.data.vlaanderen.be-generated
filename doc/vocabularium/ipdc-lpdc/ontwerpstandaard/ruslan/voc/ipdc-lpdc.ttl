@@ -129,13 +129,6 @@ schema:WebSite a rdfs:Class;
   rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc>;
   rdfs:range xsd:boolean .
 
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam> a owl:DatatypeProperty;
-  rdfs:label "naam"@nl;
-  rdfs:comment "Naam van het contact."@nl;
-  rdfs:domain schema:ContactPoint;
-  rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc>;
-  rdfs:range xsd:string .
-
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> a owl:ObjectProperty;
   rdfs:label "publicatiekanalen"@nl;
   <http://purl.org/vocab/vann/usageNote> "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."@nl;

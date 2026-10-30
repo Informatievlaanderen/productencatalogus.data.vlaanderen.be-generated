@@ -511,13 +511,6 @@
     <rdfs:domain rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
   </owl:DatatypeProperty>
-  <owl:DatatypeProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#naam">
-    <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
-    <rdfs:label xml:lang="nl">naam</rdfs:label>
-    <rdfs:comment xml:lang="nl">Naam van het contact.</rdfs:comment>
-    <rdfs:domain rdf:resource="http://schema.org/ContactPoint"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  </owl:DatatypeProperty>
   <owl:ObjectProperty rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium">
     <rdfs:isDefinedBy rdf:resource="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"/>
     <rdfs:label xml:lang="nl">publicatiekanalen</rdfs:label>
