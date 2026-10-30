@@ -551,8 +551,8 @@
   "dependencies": [],
   "diagram": "ipdc-lpdc-ap",
   "disabled": false,
-  "documentcommit": "128a364e234b2bc8d6d05794184b1b976ea0f7e1",
-  "dummy": "013",
+  "documentcommit": "b0eca17dffa722c18b32ca764f8dfd6b251c728e",
+  "dummy": "014",
   "eap": "IPDC-LPDC-AP-v02.eap",
   "editors": [
     {
@@ -7209,6 +7209,89 @@
     {
       "@id": "http://schema.org/endDate",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{700B4D83-F728-41e9-90C7-7CE5C3918641}",
+      "ap-definition-nl": {
+        "nl": "Datum en tijd tot wanneer het concept geldig is."
+      },
+      "ap-label-nl": {
+        "nl": "geldigTot"
+      },
+      "codelist": [],
+      "definition": {
+        "nl": "Datum en tijd tot wanneer het concept geldig is."
+      },
+      "domain": [
+        {
+          "EA-Name": "Concept",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Concept",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{700B4D83-F728-41e9-90C7-7CE5C3918641}",
+        "EA-Name": "geldigTot",
+        "EA-Package": "IPDC-LPDC",
+        "EA-Range": "DateTime",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "DateTime",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "geldigTot"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Datum en tijd tot wanneer het concept geldig is."
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://schema.org/endDate"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "Datum en tijd tot wanneer het concept geldig is."
+        },
+        "ap-label-nl": {
+          "nl": "geldigTot"
+        },
+        "ap-usageNote-nl": "",
+        "definition": {
+          "nl": "Datum en tijd tot wanneer het concept geldig is."
+        },
+        "label": {
+          "nl": "geldigTot"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "nl": "geldigTot"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "0",
+      "name": "geldigtot",
+      "range": [
+        {
+          "EA-Name": "DateTime",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ]
+    },
+    {
+      "@id": "http://schema.org/endDate",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{633AEC16-9638-4db2-9888-92ACA080B4D2}",
       "ap-definition-nl": {
         "nl": "Datum waarop de publieke dienstverlening stopgezet werd/wordt"
@@ -7298,6 +7381,89 @@
       "usage": {
         "nl": "Een lege einddatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als geen einddatum."
       }
+    },
+    {
+      "@id": "http://schema.org/endDate",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{18849992-9999-42e9-9580-945DA338A690}",
+      "ap-definition-nl": {
+        "nl": "Datum en tijd tot wanneer de instantie geldig is."
+      },
+      "ap-label-nl": {
+        "nl": "geldigTot"
+      },
+      "codelist": [],
+      "definition": {
+        "nl": "Datum en tijd tot wanneer de instantie geldig is."
+      },
+      "domain": [
+        {
+          "EA-Name": "Instantie",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Instantie",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{18849992-9999-42e9-9580-945DA338A690}",
+        "EA-Name": "geldigTot",
+        "EA-Package": "IPDC-LPDC",
+        "EA-Range": "DateTime",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "DateTime",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "RawTags": [
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Datum en tijd tot wanneer de instantie geldig is."
+          },
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "geldigTot"
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://schema.org/endDate"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "Datum en tijd tot wanneer de instantie geldig is."
+        },
+        "ap-label-nl": {
+          "nl": "geldigTot"
+        },
+        "ap-usageNote-nl": "",
+        "definition": {
+          "nl": "Datum en tijd tot wanneer de instantie geldig is."
+        },
+        "label": {
+          "nl": "geldigTot"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "nl": "geldigTot"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "0",
+      "name": "geldigtot",
+      "range": [
+        {
+          "EA-Name": "DateTime",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ]
     },
     {
       "@id": "http://schema.org/endDate",
@@ -8046,6 +8212,89 @@
     {
       "@id": "http://schema.org/startDate",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{BACC4273-0326-45fa-9364-07AC4637430F}",
+      "ap-definition-nl": {
+        "nl": "Datum en tijd vanaf wanneer het concept geldig is."
+      },
+      "ap-label-nl": {
+        "nl": "geldigVan"
+      },
+      "codelist": [],
+      "definition": {
+        "nl": "Datum en tijd vanaf wanneer het concept geldig is."
+      },
+      "domain": [
+        {
+          "EA-Name": "Concept",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Concept",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{BACC4273-0326-45fa-9364-07AC4637430F}",
+        "EA-Name": "geldigVan",
+        "EA-Package": "IPDC-LPDC",
+        "EA-Range": "DateTime",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "DateTime",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "geldigVan"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Datum en tijd vanaf wanneer het concept geldig is."
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://schema.org/startDate"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "Datum en tijd vanaf wanneer het concept geldig is."
+        },
+        "ap-label-nl": {
+          "nl": "geldigVan"
+        },
+        "ap-usageNote-nl": "",
+        "definition": {
+          "nl": "Datum en tijd vanaf wanneer het concept geldig is."
+        },
+        "label": {
+          "nl": "geldigVan"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "nl": "geldigVan"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "0",
+      "name": "geldigvan",
+      "range": [
+        {
+          "EA-Name": "DateTime",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ]
+    },
+    {
+      "@id": "http://schema.org/startDate",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{8BE878DA-620D-496e-AD4D-883A331D9E10}",
       "ap-definition-nl": {
         "nl": "Datum waarop de publieke dienstverlening actief aangeboden werd/wordt"
@@ -8135,6 +8384,89 @@
       "usage": {
         "nl": "Een lege startdatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als een startdatum heel ver in het verleden."
       }
+    },
+    {
+      "@id": "http://schema.org/startDate",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{F3A3EA66-04D3-4aa5-A21D-786503D0B401}",
+      "ap-definition-nl": {
+        "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
+      },
+      "ap-label-nl": {
+        "nl": "geldigVan"
+      },
+      "codelist": [],
+      "definition": {
+        "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
+      },
+      "domain": [
+        {
+          "EA-Name": "Instantie",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Instantie",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{F3A3EA66-04D3-4aa5-A21D-786503D0B401}",
+        "EA-Name": "geldigVan",
+        "EA-Package": "IPDC-LPDC",
+        "EA-Range": "DateTime",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "DateTime",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "geldigVan"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Datum en tijd vanaf wanneer de instantie geldig is."
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://schema.org/startDate"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
+        },
+        "ap-label-nl": {
+          "nl": "geldigVan"
+        },
+        "ap-usageNote-nl": "",
+        "definition": {
+          "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
+        },
+        "label": {
+          "nl": "geldigVan"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "nl": "geldigVan"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "0",
+      "name": "geldigvan",
+      "range": [
+        {
+          "EA-Name": "DateTime",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ]
     },
     {
       "@id": "http://schema.org/startDate",
@@ -14138,318 +14470,6 @@
       }
     },
     {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{700B4D83-F728-41e9-90C7-7CE5C3918641}",
-      "ap-definition-nl": {
-        "nl": "Datum en tijd tot wanneer het concept geldig is."
-      },
-      "ap-label-nl": {
-        "nl": "geldigTot"
-      },
-      "codelist": [],
-      "definition": {
-        "nl": "Datum en tijd tot wanneer het concept geldig is."
-      },
-      "domain": [
-        {
-          "EA-Name": "Concept",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "Concept",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{700B4D83-F728-41e9-90C7-7CE5C3918641}",
-        "EA-Name": "geldigTot",
-        "EA-Package": "IPDC-LPDC",
-        "EA-Range": "DateTime",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-Name": "DateTime",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
-        },
-        "RawTags": [
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "geldigTot"
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "Datum en tijd tot wanneer het concept geldig is."
-          }
-        ],
-        "Scope": "FULL_DEFINITON",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "Datum en tijd tot wanneer het concept geldig is."
-        },
-        "ap-label-nl": {
-          "nl": "geldigTot"
-        },
-        "ap-usageNote-nl": "",
-        "definition": {
-          "nl": "Datum en tijd tot wanneer het concept geldig is."
-        },
-        "label": {
-          "nl": "geldigTot"
-        },
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "nl": "geldigTot"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "0",
-      "name": "geldigtot",
-      "range": [
-        {
-          "EA-Name": "DateTime",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ]
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{18849992-9999-42e9-9580-945DA338A690}",
-      "ap-definition-nl": {
-        "nl": "Datum en tijd tot wanneer de instantie geldig is."
-      },
-      "ap-label-nl": {
-        "nl": "geldigTot"
-      },
-      "codelist": [],
-      "definition": {
-        "nl": "Datum en tijd tot wanneer de instantie geldig is."
-      },
-      "domain": [
-        {
-          "EA-Name": "Instantie",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "Instantie",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{18849992-9999-42e9-9580-945DA338A690}",
-        "EA-Name": "geldigTot",
-        "EA-Package": "IPDC-LPDC",
-        "EA-Range": "DateTime",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-Name": "DateTime",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
-        },
-        "RawTags": [
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "Datum en tijd tot wanneer de instantie geldig is."
-          },
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "geldigTot"
-          }
-        ],
-        "Scope": "FULL_DEFINITON",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "Datum en tijd tot wanneer de instantie geldig is."
-        },
-        "ap-label-nl": {
-          "nl": "geldigTot"
-        },
-        "ap-usageNote-nl": "",
-        "definition": {
-          "nl": "Datum en tijd tot wanneer de instantie geldig is."
-        },
-        "label": {
-          "nl": "geldigTot"
-        },
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "nl": "geldigTot"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "0",
-      "name": "geldigtot",
-      "range": [
-        {
-          "EA-Name": "DateTime",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ]
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{BACC4273-0326-45fa-9364-07AC4637430F}",
-      "ap-definition-nl": {
-        "nl": "Datum en tijd vanaf wanneer het concept geldig is."
-      },
-      "ap-label-nl": {
-        "nl": "geldigVan"
-      },
-      "codelist": [],
-      "definition": {
-        "nl": "Datum en tijd vanaf wanneer het concept geldig is."
-      },
-      "domain": [
-        {
-          "EA-Name": "Concept",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "Concept",
-        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
-        "EA-Guid": "{BACC4273-0326-45fa-9364-07AC4637430F}",
-        "EA-Name": "geldigVan",
-        "EA-Package": "IPDC-LPDC",
-        "EA-Range": "DateTime",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-Name": "DateTime",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
-        },
-        "RawTags": [
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "geldigVan"
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "Datum en tijd vanaf wanneer het concept geldig is."
-          }
-        ],
-        "Scope": "FULL_DEFINITON",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "Datum en tijd vanaf wanneer het concept geldig is."
-        },
-        "ap-label-nl": {
-          "nl": "geldigVan"
-        },
-        "ap-usageNote-nl": "",
-        "definition": {
-          "nl": "Datum en tijd vanaf wanneer het concept geldig is."
-        },
-        "label": {
-          "nl": "geldigVan"
-        },
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "nl": "geldigVan"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "0",
-      "name": "geldigvan",
-      "range": [
-        {
-          "EA-Name": "DateTime",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ]
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{F3A3EA66-04D3-4aa5-A21D-786503D0B401}",
-      "ap-definition-nl": {
-        "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
-      },
-      "ap-label-nl": {
-        "nl": "geldigVan"
-      },
-      "codelist": [],
-      "definition": {
-        "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
-      },
-      "domain": [
-        {
-          "EA-Name": "Instantie",
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "Instantie",
-        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
-        "EA-Guid": "{F3A3EA66-04D3-4aa5-A21D-786503D0B401}",
-        "EA-Name": "geldigVan",
-        "EA-Package": "IPDC-LPDC",
-        "EA-Range": "DateTime",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-Name": "DateTime",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
-        },
-        "RawTags": [
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "geldigVan"
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "Datum en tijd vanaf wanneer de instantie geldig is."
-          }
-        ],
-        "Scope": "FULL_DEFINITON",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
-        },
-        "ap-label-nl": {
-          "nl": "geldigVan"
-        },
-        "ap-usageNote-nl": "",
-        "definition": {
-          "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
-        },
-        "label": {
-          "nl": "geldigVan"
-        },
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "nl": "geldigVan"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "0",
-      "name": "geldigvan",
-      "range": [
-        {
-          "EA-Name": "DateTime",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ]
-    },
-    {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{AA354A19-56F9-401d-8F0A-5C15E68BAC36}",
@@ -16681,7 +16701,7 @@
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/implementatiemodel-ipdc-lpdc",
   "template": "ipdc-lpdc-im.j2",
   "title": "Implementatiemodel IPDC - LPDC",
-  "toolchaincommit": "759ddc730b237cd6a6d815809ba9c26e1b9da9f1",
+  "toolchaincommit": "526e5e5811ec47aae1c5a1eba01a601916b6f1a5",
   "translation": [
     {
       "language": "nl",

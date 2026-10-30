@@ -671,74 +671,6 @@
       "generalization": []
     },
     {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "label": {
-        "nl": "geldigTot"
-      },
-      "definition": {
-        "nl": "Datum en tijd tot wanneer het concept geldig is."
-      },
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#dateTime"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "label": {
-        "nl": "geldigTot"
-      },
-      "definition": {
-        "nl": "Datum en tijd tot wanneer de instantie geldig is."
-      },
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#dateTime"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "label": {
-        "nl": "geldigVan"
-      },
-      "definition": {
-        "nl": "Datum en tijd vanaf wanneer het concept geldig is."
-      },
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#dateTime"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "label": {
-        "nl": "geldigVan"
-      },
-      "definition": {
-        "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
-      },
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#dateTime"
-      ],
-      "generalization": []
-    },
-    {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "label": {
@@ -1656,7 +1588,21 @@
     },
     {
       "name": {
+        "nl": "geldigTot"
+      },
+      "@id": "http://schema.org/endDate",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
         "nl": "eindeDienstVerlening"
+      },
+      "@id": "http://schema.org/endDate",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "geldigTot"
       },
       "@id": "http://schema.org/endDate",
       "@type": "rdf:Property"
@@ -1719,7 +1665,21 @@
     },
     {
       "name": {
+        "nl": "geldigVan"
+      },
+      "@id": "http://schema.org/startDate",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
         "nl": "startDienstVerlening"
+      },
+      "@id": "http://schema.org/startDate",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "geldigVan"
       },
       "@id": "http://schema.org/startDate",
       "@type": "rdf:Property"

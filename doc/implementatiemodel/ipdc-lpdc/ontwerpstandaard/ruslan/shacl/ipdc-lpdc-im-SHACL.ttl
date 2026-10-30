@@ -234,7 +234,7 @@
   shacl:datatype xsd:dateTime;
   shacl:description "Datum en tijd vanaf wanneer het concept geldig is."@nl;
   shacl:name "geldigVan"@nl;
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> .
+  shacl:path schema:startDate .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/0847b0d9f2fd30f5ae777323068b3e8ca49e090f> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.financieleVoordelen";
   shacl:class <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage>;
@@ -564,7 +564,7 @@
   shacl:description "Datum en tijd vanaf wanneer het concept geldig is."@nl;
   shacl:maxCount 1;
   shacl:name "geldigVan"@nl;
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> .
+  shacl:path schema:startDate .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/c96cc9583ec0906932a8a9020155c7e389c8ad8d> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.procedures";
   shacl:class <http://purl.org/vocab/cpsv#Rule>;
@@ -600,7 +600,7 @@
   shacl:description "Datum en tijd tot wanneer het concept geldig is."@nl;
   shacl:maxCount 1;
   shacl:name "geldigTot"@nl;
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> .
+  shacl:path schema:endDate .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/de7fb464d18a8c015790bcb53807d323b81a52c5> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.publicatiekanalen";
   shacl:description "Publicatiekanaal van een publieke dienst beschrijft op welke plaatsen de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."@nl;
@@ -648,7 +648,7 @@
   shacl:datatype xsd:dateTime;
   shacl:description "Datum en tijd tot wanneer het concept geldig is."@nl;
   shacl:name "geldigTot"@nl;
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> .
+  shacl:path schema:endDate .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/f6ff3fbad11c436a8cb24985cbbe932cd2d24d8f> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.startDienstVerlening";
   shacl:datatype xsd:dateTime;
@@ -1433,7 +1433,7 @@
   shacl:datatype xsd:dateTime;
   shacl:description "Datum en tijd vanaf wanneer de instantie geldig is."@nl;
   shacl:name "geldigVan"@nl;
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> .
+  shacl:path schema:startDate .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/0847b0d9f2fd30f5ae777323068b3e8ca49e090f> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.financieleVoordelen";
   shacl:class <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage>;
@@ -1811,7 +1811,7 @@
   shacl:description "Datum en tijd vanaf wanneer de instantie geldig is."@nl;
   shacl:maxCount 1;
   shacl:name "geldigVan"@nl;
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> .
+  shacl:path schema:startDate .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/c3043322d62d7f228a47669ce5a936238db5832b> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.linkedConcept";
   shacl:description "Het concept op basis van welk deze instantie aangemaakt werd. De teksten van het concept werden gebruikt als sjabloonteksten gebruikt bij het aanmaken van de instantie. Instanties die werden aangemaakt op basis van hetzelfde concept worden via deze relatie gegroepeerd bij het gemeenschappelijke concept."@nl;
@@ -1859,7 +1859,7 @@
   shacl:description "Datum en tijd tot wanneer de instantie geldig is."@nl;
   shacl:maxCount 1;
   shacl:name "geldigTot"@nl;
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> .
+  shacl:path schema:endDate .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/de7fb464d18a8c015790bcb53807d323b81a52c5> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.publicatiekanalen";
   shacl:description "Publicatiekanaal van een publieke dienst beschrijft op welke plaatsen de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."@nl;
@@ -1937,7 +1937,7 @@
   shacl:datatype xsd:dateTime;
   shacl:description "Datum en tijd tot wanneer de instantie geldig is."@nl;
   shacl:name "geldigTot"@nl;
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> .
+  shacl:path schema:endDate .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/f6ff3fbad11c436a8cb24985cbbe932cd2d24d8f> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.startDienstVerlening";
   shacl:datatype xsd:dateTime;

@@ -81,11 +81,11 @@
           "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
         "geldigTot": {
-          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot",
+          "@id": "http://schema.org/endDate",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         },
         "geldigVan": {
-          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan",
+          "@id": "http://schema.org/startDate",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         },
         "kosten": {
@@ -422,11 +422,11 @@
           "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
         "geldigTot": {
-          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot",
+          "@id": "http://schema.org/endDate",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         },
         "geldigVan": {
-          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan",
+          "@id": "http://schema.org/startDate",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         },
         "geografischToepassingsgebieden": {

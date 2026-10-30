@@ -345,7 +345,7 @@
           "sh:name": {
             "nl": "geldigTot"
           },
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot"
+          "sh:path": "http://schema.org/endDate"
         },
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/f5a9f6650b660f65b7c23b3a370c022208d817ff",
@@ -357,7 +357,7 @@
           "sh:name": {
             "nl": "geldigTot"
           },
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot"
+          "sh:path": "http://schema.org/endDate"
         },
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/058a6ab2797871190d46c026c79f17d11fb2152e",
@@ -369,7 +369,7 @@
           "sh:name": {
             "nl": "geldigVan"
           },
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan"
+          "sh:path": "http://schema.org/startDate"
         },
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/be116f80e53da01c94bee19ddef954be82ca4527",
@@ -381,7 +381,7 @@
           "sh:name": {
             "nl": "geldigVan"
           },
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan"
+          "sh:path": "http://schema.org/startDate"
         },
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/af7a5aa5ab3681774d9cd2483c7a1cbe754c6182",
@@ -2109,7 +2109,7 @@
           "sh:name": {
             "nl": "geldigTot"
           },
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot"
+          "sh:path": "http://schema.org/endDate"
         },
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/f5a9f6650b660f65b7c23b3a370c022208d817ff",
@@ -2121,7 +2121,7 @@
           "sh:name": {
             "nl": "geldigTot"
           },
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot"
+          "sh:path": "http://schema.org/endDate"
         },
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/058a6ab2797871190d46c026c79f17d11fb2152e",
@@ -2133,7 +2133,7 @@
           "sh:name": {
             "nl": "geldigVan"
           },
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan"
+          "sh:path": "http://schema.org/startDate"
         },
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/be116f80e53da01c94bee19ddef954be82ca4527",
@@ -2145,7 +2145,7 @@
           "sh:name": {
             "nl": "geldigVan"
           },
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan"
+          "sh:path": "http://schema.org/startDate"
         },
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/2bcb3e5006af01bacc782f371df631bc430757b2",

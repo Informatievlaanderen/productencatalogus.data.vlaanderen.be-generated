@@ -392,54 +392,6 @@
       }
     },
     {
-      "EA-Guid": "{700B4D83-F728-41e9-90C7-7CE5C3918641}",
-      "name": "geldigtot",
-      "label": {
-        "nl": "geldigTot",
-        "en": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "Datum en tijd tot wanneer het concept geldig is.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{18849992-9999-42e9-9580-945DA338A690}",
-      "name": "geldigtot",
-      "label": {
-        "nl": "geldigTot",
-        "en": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "Datum en tijd tot wanneer de instantie geldig is.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{BACC4273-0326-45fa-9364-07AC4637430F}",
-      "name": "geldigvan",
-      "label": {
-        "nl": "geldigVan",
-        "en": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "Datum en tijd vanaf wanneer het concept geldig is.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{F3A3EA66-04D3-4aa5-A21D-786503D0B401}",
-      "name": "geldigvan",
-      "label": {
-        "nl": "geldigVan",
-        "en": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "Datum en tijd vanaf wanneer de instantie geldig is.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{AA354A19-56F9-401d-8F0A-5C15E68BAC36}",
       "name": "tags",
       "label": {
@@ -1900,6 +1852,18 @@
       }
     },
     {
+      "EA-Guid": "{700B4D83-F728-41e9-90C7-7CE5C3918641}",
+      "name": "geldigtot",
+      "label": {
+        "nl": "geldigTot",
+        "en": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Datum en tijd tot wanneer het concept geldig is.",
+        "en": "Enter your translation here"
+      }
+    },
+    {
       "EA-Guid": "{633AEC16-9638-4db2-9888-92ACA080B4D2}",
       "name": "eindedienstverlening",
       "label": {
@@ -1912,6 +1876,18 @@
       },
       "usage": {
         "nl": "Een lege einddatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als geen einddatum.",
+        "en": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{18849992-9999-42e9-9580-945DA338A690}",
+      "name": "geldigtot",
+      "label": {
+        "nl": "geldigTot",
+        "en": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Datum en tijd tot wanneer de instantie geldig is.",
         "en": "Enter your translation here"
       }
     },
@@ -2044,6 +2020,18 @@
       }
     },
     {
+      "EA-Guid": "{BACC4273-0326-45fa-9364-07AC4637430F}",
+      "name": "geldigvan",
+      "label": {
+        "nl": "geldigVan",
+        "en": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Datum en tijd vanaf wanneer het concept geldig is.",
+        "en": "Enter your translation here"
+      }
+    },
+    {
       "EA-Guid": "{8BE878DA-620D-496e-AD4D-883A331D9E10}",
       "name": "startdienstverlening",
       "label": {
@@ -2056,6 +2044,18 @@
       },
       "usage": {
         "nl": "Een lege startdatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als een startdatum heel ver in het verleden.",
+        "en": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{F3A3EA66-04D3-4aa5-A21D-786503D0B401}",
+      "name": "geldigvan",
+      "label": {
+        "nl": "geldigVan",
+        "en": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Datum en tijd vanaf wanneer de instantie geldig is.",
         "en": "Enter your translation here"
       }
     },

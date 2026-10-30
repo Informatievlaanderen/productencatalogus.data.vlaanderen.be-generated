@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
     "statuslabel": "Nota Werkgroep",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/128a364e234b2bc8d6d05794184b1b976ea0f7e1",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/128a364e234b2bc8d6d05794184b1b976ea0f7e1/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/b0eca17dffa722c18b32ca764f8dfd6b251c728e",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/b0eca17dffa722c18b32ca764f8dfd6b251c728e/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-ipdc-lpdc",
     "dependencies": [],
@@ -519,82 +519,6 @@
       ],
       "range": [
         "http://www.w3.org/2004/02/skos/core#Concept"
-      ],
-      "parents": []
-    },
-    {
-      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot",
-      "name": "geldigtot",
-      "label": {
-        "nl": "geldigTot"
-      },
-      "sort": "geldigTot",
-      "description": {
-        "nl": "Datum en tijd tot wanneer het concept geldig is."
-      },
-      "usage": {},
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#dateTime"
-      ],
-      "parents": []
-    },
-    {
-      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot",
-      "name": "geldigtot",
-      "label": {
-        "nl": "geldigTot"
-      },
-      "sort": "geldigTot",
-      "description": {
-        "nl": "Datum en tijd tot wanneer de instantie geldig is."
-      },
-      "usage": {},
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#dateTime"
-      ],
-      "parents": []
-    },
-    {
-      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan",
-      "name": "geldigvan",
-      "label": {
-        "nl": "geldigVan"
-      },
-      "sort": "geldigVan",
-      "description": {
-        "nl": "Datum en tijd vanaf wanneer het concept geldig is."
-      },
-      "usage": {},
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#dateTime"
-      ],
-      "parents": []
-    },
-    {
-      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan",
-      "name": "geldigvan",
-      "label": {
-        "nl": "geldigVan"
-      },
-      "sort": "geldigVan",
-      "description": {
-        "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
-      },
-      "usage": {},
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#dateTime"
       ],
       "parents": []
     },
@@ -2457,6 +2381,22 @@
     },
     {
       "uri": "http://schema.org/endDate",
+      "name": "geldigtot",
+      "label": {
+        "nl": "geldigTot"
+      },
+      "description": {
+        "nl": "Datum en tijd tot wanneer het concept geldig is."
+      },
+      "usage": {},
+      "sort": "geldigTot",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/endDate",
       "name": "eindedienstverlening",
       "label": {
         "nl": "eindeDienstVerlening"
@@ -2468,6 +2408,22 @@
         "nl": "Een lege einddatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als geen einddatum."
       },
       "sort": "eindeDienstVerlening",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/endDate",
+      "name": "geldigtot",
+      "label": {
+        "nl": "geldigTot"
+      },
+      "description": {
+        "nl": "Datum en tijd tot wanneer de instantie geldig is."
+      },
+      "usage": {},
+      "sort": "geldigTot",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -2619,6 +2575,22 @@
     },
     {
       "uri": "http://schema.org/startDate",
+      "name": "geldigvan",
+      "label": {
+        "nl": "geldigVan"
+      },
+      "description": {
+        "nl": "Datum en tijd vanaf wanneer het concept geldig is."
+      },
+      "usage": {},
+      "sort": "geldigVan",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/startDate",
       "name": "startdienstverlening",
       "label": {
         "nl": "startDienstVerlening"
@@ -2630,6 +2602,22 @@
         "nl": "Een lege startdatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als een startdatum heel ver in het verleden."
       },
       "sort": "startDienstVerlening",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/startDate",
+      "name": "geldigvan",
+      "label": {
+        "nl": "geldigVan"
+      },
+      "description": {
+        "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
+      },
+      "usage": {},
+      "sort": "geldigVan",
       "inscope": true,
       "indvl": false,
       "inpackage": false,

@@ -153,22 +153,6 @@
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> <http://www.w3.org/2000/01/rdf-schema#label> "geldigTot"@nl .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> <http://www.w3.org/2000/01/rdf-schema#comment> "Datum en tijd tot wanneer het concept geldig is."@nl .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> <http://www.w3.org/2000/01/rdf-schema#comment> "Datum en tijd tot wanneer de instantie geldig is."@nl .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigTot> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> <http://www.w3.org/2000/01/rdf-schema#label> "geldigVan"@nl .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> <http://www.w3.org/2000/01/rdf-schema#comment> "Datum en tijd vanaf wanneer het concept geldig is."@nl .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> <http://www.w3.org/2000/01/rdf-schema#comment> "Datum en tijd vanaf wanneer de instantie geldig is."@nl .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#geldigVan> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag> <http://www.w3.org/2000/01/rdf-schema#label> "tags"@nl .
@@ -366,12 +350,14 @@ _:g463060 <http://xmlns.com/foaf/0.1/name> "redpencil" .
 <http://schema.org/email> <http://www.w3.org/2000/01/rdf-schema#label> "email"@nl .
 <http://schema.org/endDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://schema.org/endDate> <http://www.w3.org/2000/01/rdf-schema#label> "eindeDienstVerlening"@nl .
+<http://schema.org/endDate> <http://www.w3.org/2000/01/rdf-schema#label> "geldigTot"@nl .
 <http://schema.org/openingHours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://schema.org/openingHours> <http://www.w3.org/2000/01/rdf-schema#label> "openingsuren"@nl .
 <http://schema.org/productID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://schema.org/productID> <http://www.w3.org/2000/01/rdf-schema#label> "productnummer"@nl .
 <http://schema.org/startDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#label> "startDienstVerlening"@nl .
+<http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#label> "geldigVan"@nl .
 <http://schema.org/telephone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://schema.org/telephone> <http://www.w3.org/2000/01/rdf-schema#label> "telefoonnummer"@nl .
 <http://schema.org/url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
