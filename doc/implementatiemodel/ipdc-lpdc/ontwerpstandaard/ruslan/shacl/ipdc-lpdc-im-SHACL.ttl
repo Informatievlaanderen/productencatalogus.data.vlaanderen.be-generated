@@ -1465,7 +1465,7 @@
   shacl:class <http://data.europa.eu/m8g/PublicOrganisation>;
   shacl:description "Links naar de uitvoerende organisaties"@nl;
   shacl:name "uitvoerendeOverheden"@nl;
-  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority> .
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc/#executingAuthorityLevel> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/1977910bd9cd53028cf6eb3d40a6d9895a38a5d1> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.regelgeving";
   shacl:class <http://data.europa.eu/eli/ontology#LegalResource>;

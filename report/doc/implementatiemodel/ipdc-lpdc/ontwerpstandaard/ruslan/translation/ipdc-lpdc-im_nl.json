@@ -978,16 +978,6 @@
       }
     },
     {
-      "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
-      "name": "isversionof",
-      "label": {
-        "nl": "isVersionOf"
-      },
-      "definition": {
-        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
-      }
-    },
-    {
       "EA-Guid": "{55F34410-3DA0-42fc-A8AD-E43C9735D39E}",
       "name": "isversionof",
       "label": {
@@ -995,6 +985,16 @@
       },
       "definition": {
         "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+      }
+    },
+    {
+      "EA-Guid": "{02BDC500-5FF1-40ef-BBA8-08FFA919FFBF}",
+      "name": "isversionof",
+      "label": {
+        "nl": "isVersionOf"
+      },
+      "definition": {
+        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       }
     },
     {
@@ -1262,7 +1262,7 @@
       }
     },
     {
-      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
+      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
       "name": "financielevoordelen",
       "label": {
         "nl": "financieleVoordelen"
@@ -1272,7 +1272,7 @@
       }
     },
     {
-      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+      "EA-Guid": "{066D17ED-758C-4230-8CE2-D56A906BD130}",
       "name": "financielevoordelen",
       "label": {
         "nl": "financieleVoordelen"
@@ -1946,16 +1946,6 @@
       }
     },
     {
-      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
-      "name": "uitvoerendeoverheden",
-      "label": {
-        "nl": "uitvoerendeOverheden"
-      },
-      "definition": {
-        "nl": "Links naar de uitvoerende organisaties"
-      }
-    },
-    {
       "EA-Guid": "{CABD8E8C-BF44-46a0-80A6-6A69DCD570A6}",
       "name": "websites",
       "label": {
@@ -1963,6 +1953,16 @@
       },
       "definition": {
         "nl": "Link naar online locatie waar de procedure opgestart kan worden."
+      }
+    },
+    {
+      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+      "name": "uitvoerendeoverheden",
+      "label": {
+        "nl": "uitvoerendeOverheden"
+      },
+      "definition": {
+        "nl": "Links naar de uitvoerende organisaties"
       }
     }
   ]

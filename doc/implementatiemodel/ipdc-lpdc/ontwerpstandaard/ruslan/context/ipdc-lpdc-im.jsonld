@@ -472,7 +472,7 @@
         },
         "uitvoerendeOverheden": {
           "@container": "@set",
-          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc/#executingAuthorityLevel",
           "@type": "@id"
         },
         "uitzonderingen": {

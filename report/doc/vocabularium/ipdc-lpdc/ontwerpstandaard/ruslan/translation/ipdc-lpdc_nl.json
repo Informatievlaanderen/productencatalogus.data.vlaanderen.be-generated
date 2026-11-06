@@ -1945,16 +1945,6 @@
       }
     },
     {
-      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
-      "name": "uitvoerendeoverheden",
-      "label": {
-        "nl": "uitvoerendeOverheden"
-      },
-      "definition": {
-        "nl": "Links naar de uitvoerende organisaties"
-      }
-    },
-    {
       "EA-Guid": "{CABD8E8C-BF44-46a0-80A6-6A69DCD570A6}",
       "name": "websites",
       "label": {
@@ -1962,6 +1952,16 @@
       },
       "definition": {
         "nl": "Link naar online locatie waar de procedure opgestart kan worden."
+      }
+    },
+    {
+      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+      "name": "uitvoerendeoverheden",
+      "label": {
+        "nl": "uitvoerendeOverheden"
+      },
+      "definition": {
+        "nl": "Links naar de uitvoerende organisaties"
       }
     }
   ]

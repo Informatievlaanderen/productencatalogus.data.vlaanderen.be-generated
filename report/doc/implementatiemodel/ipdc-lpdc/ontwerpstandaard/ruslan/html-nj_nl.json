@@ -15,8 +15,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
     "statuslabel": "Nota Werkgroep",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/bf9e3a7888b8fbcdfc30b5d33149dc3e2e6fa9e8",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/bf9e3a7888b8fbcdfc30b5d33149dc3e2e6fa9e8/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/82deb60c722b951e9b0f50ec7d208f4041838b86",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/82deb60c722b951e9b0f50ec7d208f4041838b86/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/implementatiemodel-ipdc-lpdc",
     "dependencies": [],
@@ -3947,7 +3947,7 @@
           }
         },
         {
-          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc/#executingAuthorityLevel",
           "name": "uitvoerendeoverheden",
           "sort": "uitvoerendeOverheden",
           "label": {
@@ -3982,8 +3982,8 @@
           "codelist_uri": "",
           "rawTags": {
             "label-nl": "uitvoerendeOverheden",
-            "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
-            "definition-nl": "Links naar de uitvoerende organisaties"
+            "definition-nl": "Links naar de uitvoerende organisaties",
+            "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc/#executingAuthorityLevel"
           }
         }
       ]
