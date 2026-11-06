@@ -492,22 +492,17 @@
     },
     {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "label": {
         "nl": "digitaalAanvraagbaar"
       },
       "definition": {
         "nl": "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd."
       },
-      "usage": {
-        "nl": "Toegelaten waarden: Ja, Nee en Geen info."
-      },
       "domain": [
         "http://purl.org/vocab/cpsv#Rule"
       ],
-      "range": [
-        "http://www.w3.org/2004/02/skos/core#Concept"
-      ],
+      "range": [],
       "generalization": []
     },
     {
@@ -1109,13 +1104,6 @@
     },
     {
       "name": {
-        "nl": "contactgegevens"
-      },
-      "@id": "http://data.europa.eu/m8g/hasContactPoint",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
         "nl": "kosten"
       },
       "@id": "http://data.europa.eu/m8g/hasCost",
@@ -1126,34 +1114,6 @@
         "nl": "kosten"
       },
       "@id": "http://data.europa.eu/m8g/hasCost",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
-        "nl": "kosten"
-      },
-      "@id": "http://data.europa.eu/m8g/hasCost",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
-        "nl": "kosten"
-      },
-      "@id": "http://data.europa.eu/m8g/hasCost",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
-        "nl": "regelgeving"
-      },
-      "@id": "http://data.europa.eu/m8g/hasLegalResource",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
-        "nl": "regelgeving"
-      },
-      "@id": "http://data.europa.eu/m8g/hasLegalResource",
       "@type": "rdf:Property"
     },
     {
@@ -1319,13 +1279,6 @@
     },
     {
       "name": {
-        "nl": "linkedConcept"
-      },
-      "@id": "http://purl.org/dc/terms/source",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
         "nl": "geografischToepassingsgebieden"
       },
       "@id": "http://purl.org/dc/terms/spatial",
@@ -1462,34 +1415,6 @@
         "nl": "procedures"
       },
       "@id": "http://purl.org/vocab/cpsv#follows",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
-        "nl": "procedures"
-      },
-      "@id": "http://purl.org/vocab/cpsv#follows",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
-        "nl": "procedures"
-      },
-      "@id": "http://purl.org/vocab/cpsv#follows",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
-        "nl": "financieleVoordelen"
-      },
-      "@id": "http://purl.org/vocab/cpsv#produces",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
-        "nl": "financieleVoordelen"
-      },
-      "@id": "http://purl.org/vocab/cpsv#produces",
       "@type": "rdf:Property"
     },
     {
@@ -1606,7 +1531,21 @@
     },
     {
       "name": {
+        "nl": "geldigTot"
+      },
+      "@id": "http://schema.org/endDate",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
         "nl": "eindeDienstVerlening"
+      },
+      "@id": "http://schema.org/endDate",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "geldigTot"
       },
       "@id": "http://schema.org/endDate",
       "@type": "rdf:Property"
@@ -1683,7 +1622,21 @@
     },
     {
       "name": {
+        "nl": "geldigVan"
+      },
+      "@id": "http://schema.org/startDate",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
         "nl": "startDienstVerlening"
+      },
+      "@id": "http://schema.org/startDate",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "geldigVan"
       },
       "@id": "http://schema.org/startDate",
       "@type": "rdf:Property"
@@ -1728,34 +1681,6 @@
         "nl": "voorwaarden"
       },
       "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
-        "nl": "voorwaarden"
-      },
-      "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
-        "nl": "voorwaarden"
-      },
-      "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
-        "nl": "websites"
-      },
-      "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
-        "nl": "websites"
-      },
-      "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
       "@type": "rdf:Property"
     },
     {

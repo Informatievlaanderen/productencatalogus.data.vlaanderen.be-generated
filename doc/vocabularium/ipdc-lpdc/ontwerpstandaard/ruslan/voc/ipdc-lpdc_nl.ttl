@@ -78,13 +78,11 @@ schema:WebSite a rdfs:Class;
   rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc>;
   rdfs:range skos:Concept .
 
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar> a owl:ObjectProperty;
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar> a rdf:Property;
   rdfs:label "digitaalAanvraagbaar"@nl;
-  <http://purl.org/vocab/vann/usageNote> "Toegelaten waarden: Ja, Nee en Geen info."@nl;
   rdfs:comment "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd."@nl;
   rdfs:domain <http://purl.org/vocab/cpsv#Rule>;
-  rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc>;
-  rdfs:range skos:Concept .
+  rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> .
 
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception> a owl:ObjectProperty;
   rdfs:label "uitzonderingen"@nl;

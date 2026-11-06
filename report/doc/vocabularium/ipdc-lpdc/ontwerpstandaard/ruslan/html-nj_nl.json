@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
     "statuslabel": "Nota Werkgroep",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/8bbbda03829c70682289c4dd1c9fa238c816f09c",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/8bbbda03829c70682289c4dd1c9fa238c816f09c/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/bf9e3a7888b8fbcdfc30b5d33149dc3e2e6fa9e8",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/bf9e3a7888b8fbcdfc30b5d33149dc3e2e6fa9e8/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-ipdc-lpdc",
     "dependencies": [],
@@ -343,15 +343,11 @@
       "description": {
         "nl": "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd."
       },
-      "usage": {
-        "nl": "Toegelaten waarden: Ja, Nee en Geen info."
-      },
+      "usage": {},
       "domain": [
         "http://purl.org/vocab/cpsv#Rule"
       ],
-      "range": [
-        "http://www.w3.org/2004/02/skos/core#Concept"
-      ],
+      "range": [],
       "parents": []
     },
     {
@@ -1255,22 +1251,6 @@
       "show": true
     },
     {
-      "uri": "http://data.europa.eu/m8g/hasContactPoint",
-      "name": "contactgegevens",
-      "label": {
-        "nl": "contactgegevens"
-      },
-      "description": {
-        "nl": "A contact point for the service is almost always helpful. The value of this property, the contact information itself, should be provided using schema:ContactPoint. Note that the contact information should be relevant to the Public Service which may not be the same as contact information for the Competent Authority or any Participant."
-      },
-      "usage": {},
-      "sort": "contactgegevens",
-      "inscope": true,
-      "indvl": false,
-      "inpackage": false,
-      "show": true
-    },
-    {
       "uri": "http://data.europa.eu/m8g/hasCost",
       "name": "kosten",
       "label": {
@@ -1297,70 +1277,6 @@
       },
       "usage": {},
       "sort": "kosten",
-      "inscope": true,
-      "indvl": false,
-      "inpackage": false,
-      "show": true
-    },
-    {
-      "uri": "http://data.europa.eu/m8g/hasCost",
-      "name": "kosten",
-      "label": {
-        "nl": "kosten"
-      },
-      "description": {
-        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
-      },
-      "usage": {},
-      "sort": "kosten",
-      "inscope": true,
-      "indvl": false,
-      "inpackage": false,
-      "show": true
-    },
-    {
-      "uri": "http://data.europa.eu/m8g/hasCost",
-      "name": "kosten",
-      "label": {
-        "nl": "kosten"
-      },
-      "description": {
-        "nl": "The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."
-      },
-      "usage": {},
-      "sort": "kosten",
-      "inscope": true,
-      "indvl": false,
-      "inpackage": false,
-      "show": true
-    },
-    {
-      "uri": "http://data.europa.eu/m8g/hasLegalResource",
-      "name": "regelgeving",
-      "label": {
-        "nl": "regelgeving"
-      },
-      "description": {
-        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-      },
-      "usage": {},
-      "sort": "regelgeving",
-      "inscope": true,
-      "indvl": false,
-      "inpackage": false,
-      "show": true
-    },
-    {
-      "uri": "http://data.europa.eu/m8g/hasLegalResource",
-      "name": "regelgeving",
-      "label": {
-        "nl": "regelgeving"
-      },
-      "description": {
-        "nl": "The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."
-      },
-      "usage": {},
-      "sort": "regelgeving",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -1769,22 +1685,6 @@
       "show": true
     },
     {
-      "uri": "http://purl.org/dc/terms/source",
-      "name": "linkedconcept",
-      "label": {
-        "nl": "linkedConcept"
-      },
-      "description": {
-        "nl": "Het concept op basis van welk deze instantie aangemaakt werd. De teksten van het concept werden gebruikt als sjabloonteksten gebruikt bij het aanmaken van de instantie. Instanties die werden aangemaakt op basis van hetzelfde concept worden via deze relatie gegroepeerd bij het gemeenschappelijke concept."
-      },
-      "usage": {},
-      "sort": "linkedConcept",
-      "inscope": true,
-      "indvl": false,
-      "inpackage": false,
-      "show": true
-    },
-    {
       "uri": "http://purl.org/dc/terms/spatial",
       "name": "geografischtoepassingsgebieden",
       "label": {
@@ -2117,70 +2017,6 @@
       "show": true
     },
     {
-      "uri": "http://purl.org/vocab/cpsv#follows",
-      "name": "procedures",
-      "label": {
-        "nl": "procedures"
-      },
-      "description": {
-        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-      },
-      "usage": {},
-      "sort": "procedures",
-      "inscope": true,
-      "indvl": false,
-      "inpackage": false,
-      "show": true
-    },
-    {
-      "uri": "http://purl.org/vocab/cpsv#follows",
-      "name": "procedures",
-      "label": {
-        "nl": "procedures"
-      },
-      "description": {
-        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario."
-      },
-      "usage": {},
-      "sort": "procedures",
-      "inscope": true,
-      "indvl": false,
-      "inpackage": false,
-      "show": true
-    },
-    {
-      "uri": "http://purl.org/vocab/cpsv#produces",
-      "name": "financielevoordelen",
-      "label": {
-        "nl": "financieleVoordelen"
-      },
-      "description": {
-        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-      },
-      "usage": {},
-      "sort": "financieleVoordelen",
-      "inscope": true,
-      "indvl": false,
-      "inpackage": false,
-      "show": true
-    },
-    {
-      "uri": "http://purl.org/vocab/cpsv#produces",
-      "name": "financielevoordelen",
-      "label": {
-        "nl": "financieleVoordelen"
-      },
-      "description": {
-        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service."
-      },
-      "usage": {},
-      "sort": "financieleVoordelen",
-      "inscope": true,
-      "indvl": false,
-      "inpackage": false,
-      "show": true
-    },
-    {
       "uri": "http://purl.org/vocab/cpsv#produces",
       "name": "financielevoordelen",
       "label": {
@@ -2446,6 +2282,22 @@
     },
     {
       "uri": "http://schema.org/endDate",
+      "name": "geldigtot",
+      "label": {
+        "nl": "geldigTot"
+      },
+      "description": {
+        "nl": "Datum en tijd tot wanneer het concept geldig is."
+      },
+      "usage": {},
+      "sort": "geldigTot",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/endDate",
       "name": "eindedienstverlening",
       "label": {
         "nl": "eindeDienstVerlening"
@@ -2457,6 +2309,22 @@
         "nl": "Een lege einddatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als geen einddatum."
       },
       "sort": "eindeDienstVerlening",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/endDate",
+      "name": "geldigtot",
+      "label": {
+        "nl": "geldigTot"
+      },
+      "description": {
+        "nl": "Datum en tijd tot wanneer het concept geldig is."
+      },
+      "usage": {},
+      "sort": "geldigTot",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -2640,6 +2508,22 @@
     },
     {
       "uri": "http://schema.org/startDate",
+      "name": "geldigvan",
+      "label": {
+        "nl": "geldigVan"
+      },
+      "description": {
+        "nl": "Datum en tijd vanaf wanneer het concept geldig is."
+      },
+      "usage": {},
+      "sort": "geldigVan",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/startDate",
       "name": "startdienstverlening",
       "label": {
         "nl": "startDienstVerlening"
@@ -2651,6 +2535,22 @@
         "nl": "Een lege startdatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als een startdatum heel ver in het verleden."
       },
       "sort": "startDienstVerlening",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/startDate",
+      "name": "geldigvan",
+      "label": {
+        "nl": "geldigVan"
+      },
+      "description": {
+        "nl": "Datum en tijd vanaf wanneer het concept geldig is."
+      },
+      "usage": {},
+      "sort": "geldigVan",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
@@ -2753,70 +2653,6 @@
       },
       "usage": {},
       "sort": "voorwaarden",
-      "inscope": true,
-      "indvl": false,
-      "inpackage": false,
-      "show": true
-    },
-    {
-      "uri": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
-      "name": "voorwaarden",
-      "label": {
-        "nl": "voorwaarden"
-      },
-      "description": {
-        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
-      },
-      "usage": {},
-      "sort": "voorwaarden",
-      "inscope": true,
-      "indvl": false,
-      "inpackage": false,
-      "show": true
-    },
-    {
-      "uri": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
-      "name": "voorwaarden",
-      "label": {
-        "nl": "voorwaarden"
-      },
-      "description": {
-        "nl": "Tekstuele beschrijving van de voorwaarden om gebruik te maken van de dienstverlening."
-      },
-      "usage": {},
-      "sort": "voorwaarden",
-      "inscope": true,
-      "indvl": false,
-      "inpackage": false,
-      "show": true
-    },
-    {
-      "uri": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-      "name": "websites",
-      "label": {
-        "nl": "websites"
-      },
-      "description": {
-        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
-      },
-      "usage": {},
-      "sort": "websites",
-      "inscope": true,
-      "indvl": false,
-      "inpackage": false,
-      "show": true
-    },
-    {
-      "uri": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-      "name": "websites",
-      "label": {
-        "nl": "websites"
-      },
-      "description": {
-        "nl": "moreInfo verwijst naar online locaties waar extra info rond iets specifiek gerelateerd aan de publieke dienstverlening vermeld wordt"
-      },
-      "usage": {},
-      "sort": "websites",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
