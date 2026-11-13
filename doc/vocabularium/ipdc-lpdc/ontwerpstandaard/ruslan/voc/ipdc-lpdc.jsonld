@@ -491,8 +491,276 @@
       "generalization": []
     },
     {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#digitaalAanvraagbaar",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "label": {
+        "nl": "uitzonderingen"
+      },
+      "definition": {
+        "nl": "Tekstveld waarin uitzonderingen op procedures, kostprijzen, ... kunnen aangegeven worden"
+      },
+      "usage": {
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "label": {
+        "nl": "uitzonderingen"
+      },
+      "definition": {
+        "nl": "Tekstveld waarin uitzondering op procedures, kostprijzen, ... kunnen aangegeven worden"
+      },
+      "usage": {
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "label": {
+        "nl": "uitzonderingen"
+      },
+      "definition": {
+        "nl": "Tekstveld waarin uitzonderingen op procedures, kostprijzen, ... kunnen aangegeven worden"
+      },
+      "usage": {
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "label": {
+        "nl": "uitzonderingen"
+      },
+      "definition": {
+        "nl": "Tekstveld waarin uitzondering op procedures, kostprijzen, ... kunnen aangegeven worden"
+      },
+      "usage": {
+        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "label": {
+        "nl": "uitvoerendBestuursniveaus"
+      },
+      "definition": {
+        "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "label": {
+        "nl": "uitvoerendBestuursniveaus"
+      },
+      "definition": {
+        "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "label": {
+        "nl": "uitvoerendBestuursniveaus"
+      },
+      "definition": {
+        "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "label": {
+        "nl": "uitvoerendBestuursniveaus"
+      },
+      "definition": {
+        "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "label": {
+        "nl": "tags"
+      },
+      "definition": {
+        "nl": "Instantie tag voor een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Momenteel zijn er geen geldige waardes."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "label": {
+        "nl": "tags"
+      },
+      "definition": {
+        "nl": "Instantie tag voor een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
+      },
+      "usage": {
+        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Momenteel zijn er geen geldige waardes."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "nl": "gearchiveerd"
+      },
+      "definition": {
+        "nl": "Waarde die aangeeft of het concept gearchiveerd is."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#boolean"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "nl": "gearchiveerd"
+      },
+      "definition": {
+        "nl": "Waarde die aangeeft of de instantie gearchiveerd is."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+      ],
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#boolean"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "nl": "gearchiveerd"
+      },
+      "definition": {
+        "nl": "Waarde die aangeeft of het concept gearchiveerd is."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
+      ],
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#boolean"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "nl": "gearchiveerd"
+      },
+      "definition": {
+        "nl": "Waarde die aangeeft of de instantie gearchiveerd is."
+      },
+      "domain": [
+        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
+      ],
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#boolean"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isDigitallyRequestable",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "label": {
         "nl": "digitaalAanvraagbaar"
       },
@@ -501,272 +769,6 @@
       },
       "domain": [
         "http://purl.org/vocab/cpsv#Rule"
-      ],
-      "range": [],
-      "generalization": []
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "label": {
-        "nl": "uitzonderingen"
-      },
-      "definition": {
-        "nl": "Tekstveld waarin uitzonderingen op procedures, kostprijzen, ... kunnen aangegeven worden"
-      },
-      "usage": {
-        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
-      },
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-      ],
-      "range": [
-        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "label": {
-        "nl": "uitzonderingen"
-      },
-      "definition": {
-        "nl": "Tekstveld waarin uitzondering op procedures, kostprijzen, ... kunnen aangegeven worden"
-      },
-      "usage": {
-        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
-      },
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-      ],
-      "range": [
-        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "label": {
-        "nl": "uitzonderingen"
-      },
-      "definition": {
-        "nl": "Tekstveld waarin uitzonderingen op procedures, kostprijzen, ... kunnen aangegeven worden"
-      },
-      "usage": {
-        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
-      },
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
-      ],
-      "range": [
-        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "label": {
-        "nl": "uitzonderingen"
-      },
-      "definition": {
-        "nl": "Tekstveld waarin uitzondering op procedures, kostprijzen, ... kunnen aangegeven worden"
-      },
-      "usage": {
-        "nl": "Rich Text (HTML) is toegestaan. Opgelet: mag geen uitvoerbare (JavaScript) code en anchor tags met relatieve urls bevatten."
-      },
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
-      ],
-      "range": [
-        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "label": {
-        "nl": "uitvoerendBestuursniveaus"
-      },
-      "definition": {
-        "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      },
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-      ],
-      "range": [
-        "http://www.w3.org/2004/02/skos/core#Concept"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "label": {
-        "nl": "uitvoerendBestuursniveaus"
-      },
-      "definition": {
-        "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      },
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-      ],
-      "range": [
-        "http://www.w3.org/2004/02/skos/core#Concept"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "label": {
-        "nl": "uitvoerendBestuursniveaus"
-      },
-      "definition": {
-        "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      },
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
-      ],
-      "range": [
-        "http://www.w3.org/2004/02/skos/core#Concept"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "label": {
-        "nl": "uitvoerendBestuursniveaus"
-      },
-      "definition": {
-        "nl": "Uitvoerend bestuursniveau van een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom."
-      },
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
-      ],
-      "range": [
-        "http://www.w3.org/2004/02/skos/core#Concept"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "label": {
-        "nl": "tags"
-      },
-      "definition": {
-        "nl": "Instantie tag voor een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Momenteel zijn er geen geldige waardes."
-      },
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-      ],
-      "range": [
-        "http://www.w3.org/2004/02/skos/core#Concept"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#instanceTag",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "label": {
-        "nl": "tags"
-      },
-      "definition": {
-        "nl": "Instantie tag voor een publieke dienst. Deze codelijst is in het beheer van het IPDC - LPDC team."
-      },
-      "usage": {
-        "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Momenteel zijn er geen geldige waardes."
-      },
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
-      ],
-      "range": [
-        "http://www.w3.org/2004/02/skos/core#Concept"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "label": {
-        "nl": "gearchiveerd"
-      },
-      "definition": {
-        "nl": "Waarde die aangeeft of het concept gearchiveerd is."
-      },
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#boolean"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "label": {
-        "nl": "gearchiveerd"
-      },
-      "definition": {
-        "nl": "Waarde die aangeeft of de instantie gearchiveerd is."
-      },
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#boolean"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "label": {
-        "nl": "gearchiveerd"
-      },
-      "definition": {
-        "nl": "Waarde die aangeeft of het concept gearchiveerd is."
-      },
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#boolean"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "label": {
-        "nl": "gearchiveerd"
-      },
-      "definition": {
-        "nl": "Waarde die aangeeft of de instantie gearchiveerd is."
-      },
-      "domain": [
-        "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
       ],
       "range": [
         "http://www.w3.org/2001/XMLSchema#boolean"
@@ -1104,6 +1106,13 @@
     },
     {
       "name": {
+        "nl": "contactgegevens"
+      },
+      "@id": "http://data.europa.eu/m8g/hasContactPoint",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
         "nl": "kosten"
       },
       "@id": "http://data.europa.eu/m8g/hasCost",
@@ -1114,6 +1123,34 @@
         "nl": "kosten"
       },
       "@id": "http://data.europa.eu/m8g/hasCost",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "kosten"
+      },
+      "@id": "http://data.europa.eu/m8g/hasCost",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "kosten"
+      },
+      "@id": "http://data.europa.eu/m8g/hasCost",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "regelgeving"
+      },
+      "@id": "http://data.europa.eu/m8g/hasLegalResource",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "regelgeving"
+      },
+      "@id": "http://data.europa.eu/m8g/hasLegalResource",
       "@type": "rdf:Property"
     },
     {
@@ -1279,9 +1316,9 @@
     },
     {
       "name": {
-        "nl": "geografischToepassingsgebieden"
+        "nl": "linkedConcept"
       },
-      "@id": "http://purl.org/dc/terms/spatial",
+      "@id": "http://purl.org/dc/terms/source",
       "@type": "rdf:Property"
     },
     {
@@ -1293,9 +1330,9 @@
     },
     {
       "name": {
-        "nl": "naam"
+        "nl": "geografischToepassingsgebieden"
       },
-      "@id": "http://purl.org/dc/terms/title",
+      "@id": "http://purl.org/dc/terms/spatial",
       "@type": "rdf:Property"
     },
     {
@@ -1419,6 +1456,20 @@
     },
     {
       "name": {
+        "nl": "procedures"
+      },
+      "@id": "http://purl.org/vocab/cpsv#follows",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "procedures"
+      },
+      "@id": "http://purl.org/vocab/cpsv#follows",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
         "nl": "financieleVoordelen"
       },
       "@id": "http://purl.org/vocab/cpsv#produces",
@@ -1429,6 +1480,62 @@
         "nl": "financieleVoordelen"
       },
       "@id": "http://purl.org/vocab/cpsv#produces",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "financieleVoordelen"
+      },
+      "@id": "http://purl.org/vocab/cpsv#produces",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "financieleVoordelen"
+      },
+      "@id": "http://purl.org/vocab/cpsv#produces",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "geldigTot"
+      },
+      "@id": "http://schema.org/availabilityEnds",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "geldigTot"
+      },
+      "@id": "http://schema.org/availabilityEnds",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "geldigTot"
+      },
+      "@id": "http://schema.org/availabilityEnds",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "geldigTot"
+      },
+      "@id": "http://schema.org/availabilityEnds",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "geldigVan"
+      },
+      "@id": "http://schema.org/availabilityStarts",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "geldigVan"
+      },
+      "@id": "http://schema.org/availabilityStarts",
       "@type": "rdf:Property"
     },
     {
@@ -1503,7 +1610,7 @@
     },
     {
       "name": {
-        "nl": "geldigTot"
+        "nl": "eindeDienstVerlening"
       },
       "@id": "http://schema.org/endDate",
       "@type": "rdf:Property"
@@ -1517,13 +1624,6 @@
     },
     {
       "name": {
-        "nl": "geldigTot"
-      },
-      "@id": "http://schema.org/endDate",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
         "nl": "eindeDienstVerlening"
       },
       "@id": "http://schema.org/endDate",
@@ -1531,23 +1631,9 @@
     },
     {
       "name": {
-        "nl": "geldigTot"
+        "nl": "naam"
       },
-      "@id": "http://schema.org/endDate",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
-        "nl": "eindeDienstVerlening"
-      },
-      "@id": "http://schema.org/endDate",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
-        "nl": "geldigTot"
-      },
-      "@id": "http://schema.org/endDate",
+      "@id": "http://schema.org/name",
       "@type": "rdf:Property"
     },
     {
@@ -1594,7 +1680,7 @@
     },
     {
       "name": {
-        "nl": "geldigVan"
+        "nl": "startDienstVerlening"
       },
       "@id": "http://schema.org/startDate",
       "@type": "rdf:Property"
@@ -1608,35 +1694,7 @@
     },
     {
       "name": {
-        "nl": "geldigVan"
-      },
-      "@id": "http://schema.org/startDate",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
         "nl": "startDienstVerlening"
-      },
-      "@id": "http://schema.org/startDate",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
-        "nl": "geldigVan"
-      },
-      "@id": "http://schema.org/startDate",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
-        "nl": "startDienstVerlening"
-      },
-      "@id": "http://schema.org/startDate",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
-        "nl": "geldigVan"
       },
       "@id": "http://schema.org/startDate",
       "@type": "rdf:Property"
@@ -1681,6 +1739,34 @@
         "nl": "voorwaarden"
       },
       "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "voorwaarden"
+      },
+      "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "voorwaarden"
+      },
+      "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "websites"
+      },
+      "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "websites"
+      },
+      "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
       "@type": "rdf:Property"
     },
     {
@@ -1835,6 +1921,20 @@
         "nl": "websites"
       },
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "geldigVan"
+      },
+      "@id": "https://schema.org/availabilityStarts",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "geldigVan"
+      },
+      "@id": "https://schema.org/availabilityStarts",
       "@type": "rdf:Property"
     }
   ],
