@@ -1604,18 +1604,6 @@
           "sh:severity": "sh:Warning"
         },
         {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptSnapshotShape/16942baaeee25dd23ae91574fab9289ec81ec164",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptSnapshot.uitvoerendeOverheden",
-          "sh:class": "http://data.europa.eu/m8g/PublicOrganisation",
-          "sh:description": {
-            "nl": "Links naar de uitvoerende organisaties"
-          },
-          "sh:name": {
-            "nl": "uitvoerendeOverheden"
-          },
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
-        },
-        {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptSnapshotShape/6475198e27774a8ab3088f66df577dccbcac4ea3",
           "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptSnapshot.uitzonderingen",
           "sh:description": {
@@ -2662,18 +2650,6 @@
           "sh:nodeKind": "sh:IRI",
           "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
           "sh:severity": "sh:Warning"
-        },
-        {
-          "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/16942baaeee25dd23ae91574fab9289ec81ec164",
-          "rdfs:seeAlso": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.uitvoerendeOverheden",
-          "sh:class": "http://data.europa.eu/m8g/PublicOrganisation",
-          "sh:description": {
-            "nl": "Links naar de uitvoerende organisaties"
-          },
-          "sh:name": {
-            "nl": "uitvoerendeOverheden"
-          },
-          "sh:path": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
         },
         {
           "@id": "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/6475198e27774a8ab3088f66df577dccbcac4ea3",
