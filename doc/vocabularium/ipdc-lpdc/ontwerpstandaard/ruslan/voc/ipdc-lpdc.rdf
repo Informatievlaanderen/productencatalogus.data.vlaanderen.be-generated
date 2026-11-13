@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dc="http://purl.org/dc/terms/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:ns0="http://www.w3.org/2001/02pd/rec54#" xmlns:schema="http://schema.org/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:shacl="http://www.w3.org/ns/shacl#" xmlns:schemas="https://schema.org/" xmlns:ns1="http://purl.org/vocab/vann/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dc="http://purl.org/dc/terms/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:ns0="http://www.w3.org/2001/02pd/rec54#" xmlns:schema="http://schema.org/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:shacl="http://www.w3.org/ns/shacl#" xmlns:ns1="http://purl.org/vocab/vann/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
   <owl:Class rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage">
     <rdfs:isDefinedBy>
       <owl:Ontology rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc">
@@ -399,11 +399,6 @@
         <rdfs:seeAlso>
           <rdf:Property rdf:about="https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite">
             <rdfs:label xml:lang="nl">websites</rdfs:label>
-          </rdf:Property>
-        </rdfs:seeAlso>
-        <rdfs:seeAlso>
-          <rdf:Property rdf:about="https://schema.org/availabilityStarts">
-            <rdfs:label xml:lang="nl">geldigVan</rdfs:label>
           </rdf:Property>
         </rdfs:seeAlso>
       </owl:Ontology>

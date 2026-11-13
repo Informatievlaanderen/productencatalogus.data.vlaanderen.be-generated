@@ -1540,6 +1540,20 @@
     },
     {
       "name": {
+        "nl": "geldigVan"
+      },
+      "@id": "http://schema.org/availabilityStarts",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "geldigVan"
+      },
+      "@id": "http://schema.org/availabilityStarts",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
         "nl": "creatie"
       },
       "@id": "http://schema.org/dateCreated",
@@ -1921,20 +1935,6 @@
         "nl": "websites"
       },
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
-        "nl": "geldigVan"
-      },
-      "@id": "https://schema.org/availabilityStarts",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {
-        "nl": "geldigVan"
-      },
-      "@id": "https://schema.org/availabilityStarts",
       "@type": "rdf:Property"
     }
   ],

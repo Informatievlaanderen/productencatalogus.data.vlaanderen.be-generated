@@ -15,8 +15,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
     "statuslabel": "Nota Werkgroep",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/69e1c32af132147edd196d377dea82b9ff84f431",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/69e1c32af132147edd196d377dea82b9ff84f431/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/64b52ea625dd769c02e12c938f3351d9cec0ad58",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/64b52ea625dd769c02e12c938f3351d9cec0ad58/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/implementatiemodel-ipdc-lpdc",
     "dependencies": [],
@@ -893,6 +893,49 @@
           }
         },
         {
+          "uri": "http://schema.org/availabilityStarts",
+          "name": "geldigvan",
+          "sort": "geldigVan",
+          "label": {
+            "nl": "geldigVan"
+          },
+          "description": {
+            "nl": "Datum en tijd vanaf wanneer het concept geldig is."
+          },
+          "usage": {
+            "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+          },
+          "domain": [
+            {
+              "EA-Name": "Concept",
+              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "DateTime",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_label": {
+                "nl": "DateTime"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "geldigVan",
+            "definition-nl": "Datum en tijd vanaf wanneer het concept geldig is.",
+            "uri": "http://schema.org/availabilityStarts",
+            "usageNote-nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+          }
+        },
+        {
           "uri": "http://schema.org/dateCreated",
           "name": "creatie",
           "sort": "creatie",
@@ -1262,49 +1305,6 @@
             "label-nl": "uitvoerendeOverheden",
             "definition-nl": "Links naar de uitvoerende organisaties",
             "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
-          }
-        },
-        {
-          "uri": "https://schema.org/availabilityStarts",
-          "name": "geldigvan",
-          "sort": "geldigVan",
-          "label": {
-            "nl": "geldigVan"
-          },
-          "description": {
-            "nl": "Datum en tijd vanaf wanneer het concept geldig is."
-          },
-          "usage": {
-            "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
-          },
-          "domain": [
-            {
-              "EA-Name": "Concept",
-              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "DateTime",
-              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime",
-              "range_puri": "http://www.w3.org/2001/XMLSchema#dateTime",
-              "range_label": {
-                "nl": "DateTime"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-nl": "geldigVan",
-            "definition-nl": "Datum en tijd vanaf wanneer het concept geldig is.",
-            "uri": "https://schema.org/availabilityStarts",
-            "usageNote-nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
           }
         }
       ]
@@ -3910,6 +3910,49 @@
           }
         },
         {
+          "uri": "http://schema.org/availabilityStarts",
+          "name": "geldigvan",
+          "sort": "geldigVan",
+          "label": {
+            "nl": "geldigVan"
+          },
+          "description": {
+            "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
+          },
+          "usage": {
+            "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+          },
+          "domain": [
+            {
+              "EA-Name": "Instantie",
+              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "DateTime",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_label": {
+                "nl": "DateTime"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "geldigVan",
+            "definition-nl": "Datum en tijd vanaf wanneer de instantie geldig is.",
+            "uri": "http://schema.org/availabilityStarts",
+            "usageNote-nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+          }
+        },
+        {
           "uri": "http://schema.org/dateCreated",
           "name": "creatie",
           "sort": "creatie",
@@ -4279,49 +4322,6 @@
             "label-nl": "uitvoerendeOverheden",
             "definition-nl": "Links naar de uitvoerende organisaties",
             "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
-          }
-        },
-        {
-          "uri": "https://schema.org/availabilityStarts",
-          "name": "geldigvan",
-          "sort": "geldigVan",
-          "label": {
-            "nl": "geldigVan"
-          },
-          "description": {
-            "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
-          },
-          "usage": {
-            "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
-          },
-          "domain": [
-            {
-              "EA-Name": "Instantie",
-              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "DateTime",
-              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime",
-              "range_puri": "http://www.w3.org/2001/XMLSchema#dateTime",
-              "range_label": {
-                "nl": "DateTime"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-nl": "geldigVan",
-            "definition-nl": "Datum en tijd vanaf wanneer de instantie geldig is.",
-            "uri": "https://schema.org/availabilityStarts",
-            "usageNote-nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
           }
         }
       ]

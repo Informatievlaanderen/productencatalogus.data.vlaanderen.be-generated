@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
     "statuslabel": "Nota Werkgroep",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/69e1c32af132147edd196d377dea82b9ff84f431",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/69e1c32af132147edd196d377dea82b9ff84f431/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/64b52ea625dd769c02e12c938f3351d9cec0ad58",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/64b52ea625dd769c02e12c938f3351d9cec0ad58/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-ipdc-lpdc",
     "dependencies": [],
@@ -2303,6 +2303,42 @@
       "show": true
     },
     {
+      "uri": "http://schema.org/availabilityStarts",
+      "name": "geldigvan",
+      "label": {
+        "nl": "geldigVan"
+      },
+      "description": {
+        "nl": "Datum en tijd vanaf wanneer het concept geldig is."
+      },
+      "usage": {
+        "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+      },
+      "sort": "geldigVan",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/availabilityStarts",
+      "name": "geldigvan",
+      "label": {
+        "nl": "geldigVan"
+      },
+      "description": {
+        "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
+      },
+      "usage": {
+        "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+      },
+      "sort": "geldigVan",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
       "uri": "http://schema.org/dateCreated",
       "name": "creatie",
       "label": {
@@ -3137,42 +3173,6 @@
       },
       "usage": {},
       "sort": "websites",
-      "inscope": true,
-      "indvl": false,
-      "inpackage": false,
-      "show": true
-    },
-    {
-      "uri": "https://schema.org/availabilityStarts",
-      "name": "geldigvan",
-      "label": {
-        "nl": "geldigVan"
-      },
-      "description": {
-        "nl": "Datum en tijd vanaf wanneer het concept geldig is."
-      },
-      "usage": {
-        "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
-      },
-      "sort": "geldigVan",
-      "inscope": true,
-      "indvl": false,
-      "inpackage": false,
-      "show": true
-    },
-    {
-      "uri": "https://schema.org/availabilityStarts",
-      "name": "geldigvan",
-      "label": {
-        "nl": "geldigVan"
-      },
-      "description": {
-        "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
-      },
-      "usage": {
-        "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
-      },
-      "sort": "geldigVan",
       "inscope": true,
       "indvl": false,
       "inpackage": false,

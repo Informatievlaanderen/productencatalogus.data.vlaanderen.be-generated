@@ -63,7 +63,6 @@
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://data.vlaanderen.be/ns/adres#land> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://data.vlaanderen.be/ns/adres#postcode> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite> .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://schema.org/availabilityStarts> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService> <http://www.w3.org/2000/01/rdf-schema#label> "Concept"@nl .
@@ -387,5 +386,3 @@ _:g463060 <http://xmlns.com/foaf/0.1/name> "redpencil" .
 <https://data.vlaanderen.be/ns/adres#postcode> <http://www.w3.org/2000/01/rdf-schema#label> "postcode"@nl .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite> <http://www.w3.org/2000/01/rdf-schema#label> "websites"@nl .
-<https://schema.org/availabilityStarts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<https://schema.org/availabilityStarts> <http://www.w3.org/2000/01/rdf-schema#label> "geldigVan"@nl .

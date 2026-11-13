@@ -4,7 +4,6 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
-@prefix schemas: <https://schema.org/> .
 @prefix shacl: <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -235,7 +234,7 @@
   shacl:datatype xsd:dateTime;
   shacl:description "Datum en tijd vanaf wanneer het concept geldig is."@nl;
   shacl:name "geldigVan"@nl;
-  shacl:path schemas:availabilityStarts .
+  shacl:path schema:availabilityStarts .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/0847b0d9f2fd30f5ae777323068b3e8ca49e090f> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.financieleVoordelen";
   shacl:class <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage>;
@@ -565,7 +564,7 @@
   shacl:description "Datum en tijd vanaf wanneer het concept geldig is."@nl;
   shacl:maxCount 1;
   shacl:name "geldigVan"@nl;
-  shacl:path schemas:availabilityStarts .
+  shacl:path schema:availabilityStarts .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/c96cc9583ec0906932a8a9020155c7e389c8ad8d> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.procedures";
   shacl:class <http://purl.org/vocab/cpsv#Rule>;
@@ -1462,7 +1461,7 @@
   shacl:datatype xsd:dateTime;
   shacl:description "Datum en tijd vanaf wanneer de instantie geldig is."@nl;
   shacl:name "geldigVan"@nl;
-  shacl:path schemas:availabilityStarts .
+  shacl:path schema:availabilityStarts .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/0847b0d9f2fd30f5ae777323068b3e8ca49e090f> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.financieleVoordelen";
   shacl:class <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#FinancialAdvantage>;
@@ -1840,7 +1839,7 @@
   shacl:description "Datum en tijd vanaf wanneer de instantie geldig is."@nl;
   shacl:maxCount 1;
   shacl:name "geldigVan"@nl;
-  shacl:path schemas:availabilityStarts .
+  shacl:path schema:availabilityStarts .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/c3043322d62d7f228a47669ce5a936238db5832b> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.linkedConcept";
   shacl:description "Het concept op basis van welk deze instantie aangemaakt werd. De teksten van het concept werden gebruikt als sjabloonteksten gebruikt bij het aanmaken van de instantie. Instanties die werden aangemaakt op basis van hetzelfde concept worden via deze relatie gegroepeerd bij het gemeenschappelijke concept."@nl;

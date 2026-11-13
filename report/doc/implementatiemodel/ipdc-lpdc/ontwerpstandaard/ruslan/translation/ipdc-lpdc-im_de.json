@@ -1772,6 +1772,38 @@
       }
     },
     {
+      "EA-Guid": "{BACC4273-0326-45fa-9364-07AC4637430F}",
+      "name": "geldigvan",
+      "label": {
+        "nl": "geldigVan",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Datum en tijd vanaf wanneer het concept geldig is.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening.",
+        "de": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{F3A3EA66-04D3-4aa5-A21D-786503D0B401}",
+      "name": "geldigvan",
+      "label": {
+        "nl": "geldigVan",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "Datum en tijd vanaf wanneer de instantie geldig is.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening.",
+        "de": "Enter your translation here"
+      }
+    },
+    {
       "EA-Guid": "{1827AADE-64CE-43a5-B935-DCC6032270F4}",
       "name": "geldigvan",
       "label": {
@@ -2620,38 +2652,6 @@
       },
       "definition": {
         "nl": "Link naar online locatie waar de procedure opgestart kan worden.",
-        "de": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{BACC4273-0326-45fa-9364-07AC4637430F}",
-      "name": "geldigvan",
-      "label": {
-        "nl": "geldigVan",
-        "de": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "Datum en tijd vanaf wanneer het concept geldig is.",
-        "de": "Enter your translation here"
-      },
-      "usage": {
-        "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening.",
-        "de": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{F3A3EA66-04D3-4aa5-A21D-786503D0B401}",
-      "name": "geldigvan",
-      "label": {
-        "nl": "geldigVan",
-        "de": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "Datum en tijd vanaf wanneer de instantie geldig is.",
-        "de": "Enter your translation here"
-      },
-      "usage": {
-        "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening.",
         "de": "Enter your translation here"
       }
     }

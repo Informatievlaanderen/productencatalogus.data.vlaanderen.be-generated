@@ -85,7 +85,7 @@
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         },
         "geldigVan": {
-          "@id": "https://schema.org/availabilityStarts",
+          "@id": "http://schema.org/availabilityStarts",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         },
         "kosten": {
@@ -434,7 +434,7 @@
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         },
         "geldigVan": {
-          "@id": "https://schema.org/availabilityStarts",
+          "@id": "http://schema.org/availabilityStarts",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         },
         "geografischToepassingsgebieden": {

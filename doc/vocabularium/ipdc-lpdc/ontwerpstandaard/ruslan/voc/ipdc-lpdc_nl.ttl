@@ -6,7 +6,6 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
-@prefix schemas: <https://schema.org/> .
 @prefix shacl: <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -288,9 +287,6 @@ shacl:order a rdf:Property;
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite> a rdf:Property;
   rdfs:label "websites"@nl .
 
-schemas:availabilityStarts a rdf:Property;
-  rdfs:label "geldigVan"@nl .
-
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService> a owl:Class;
   rdfs:label "Concept"@nl;
   <http://purl.org/vocab/vann/usageNote> "Een goed voorbeeld van een concept is het huwelijk. Hoewel de beschrijving en voorwaarden van een huwelijk grotendeels hetzelfde zijn voor de verschillende gemeentes zijn er mogelijk toch lokale verschillen, zoals de locatie en prijs, die terug te vinden zijn in de respectievelijke instanties."@nl;
@@ -453,8 +449,7 @@ schemas:availabilityStarts a rdf:Property;
     <https://data.vlaanderen.be/ns/adres#gemeentenaam>,
     <https://data.vlaanderen.be/ns/adres#land>,
     <https://data.vlaanderen.be/ns/adres#postcode>,
-    <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite>,
-    schemas:availabilityStarts;
+    <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite>;
   <http://www.w3.org/2001/02pd/rec54#editor> [
     a foaf:Person;
     schema:affiliation [
