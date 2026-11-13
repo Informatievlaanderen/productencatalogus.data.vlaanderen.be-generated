@@ -147,6 +147,11 @@
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
           "@type": "@id"
         },
+        "uitvoerendeOverheden": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+          "@type": "@id"
+        },
         "uitzonderingen": {
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
           "@type": "@id"
@@ -289,6 +294,11 @@
         "uitvoerendBestuursniveaus": {
           "@container": "@set",
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
+          "@type": "@id"
+        },
+        "uitvoerendeOverheden": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
           "@type": "@id"
         },
         "uitzonderingen": {
@@ -500,6 +510,11 @@
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
           "@type": "@id"
         },
+        "uitvoerendeOverheden": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+          "@type": "@id"
+        },
         "uitzonderingen": {
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#exception",
           "@type": "@id"
@@ -665,6 +680,11 @@
         "uitvoerendBestuursniveaus": {
           "@container": "@set",
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#executingAuthorityLevel",
+          "@type": "@id"
+        },
+        "uitvoerendeOverheden": {
+          "@container": "@set",
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
           "@type": "@id"
         },
         "uitzonderingen": {

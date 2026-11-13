@@ -207,6 +207,7 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/5c05b2329b8b6b86a3e412dab53926322de0af61>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/5341a25c8236f31cedabe0080c0a1ca40845cb21>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/5b12a6fc9ba138e096b0e2637489b748535b56ba>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/16942baaeee25dd23ae91574fab9289ec81ec164>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/6475198e27774a8ab3088f66df577dccbcac4ea3>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/8fb75f25675de680c7efa1cf439aa058c75d4b0f>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/47bcbd3a74a9ede98bcd098dd22702204208889c>,
@@ -289,6 +290,12 @@
   shacl:description "This property represents the official Name of the Public Service."@nl;
   shacl:name "naam"@nl;
   shacl:path dc:title .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/16942baaeee25dd23ae91574fab9289ec81ec164> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.uitvoerendeOverheden";
+  shacl:class <http://data.europa.eu/m8g/PublicOrganisation>;
+  shacl:description "Links naar de uitvoerende organisaties"@nl;
+  shacl:name "uitvoerendeOverheden"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptShape/1977910bd9cd53028cf6eb3d40a6d9895a38a5d1> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Concept.regelgeving";
   shacl:class <http://data.europa.eu/eli/ontology#LegalResource>;
@@ -705,6 +712,7 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptSnapshotShape/5c05b2329b8b6b86a3e412dab53926322de0af61>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptSnapshotShape/5341a25c8236f31cedabe0080c0a1ca40845cb21>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptSnapshotShape/5b12a6fc9ba138e096b0e2637489b748535b56ba>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptSnapshotShape/16942baaeee25dd23ae91574fab9289ec81ec164>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptSnapshotShape/6475198e27774a8ab3088f66df577dccbcac4ea3>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptSnapshotShape/8fb75f25675de680c7efa1cf439aa058c75d4b0f>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptSnapshotShape/47bcbd3a74a9ede98bcd098dd22702204208889c>,
@@ -787,6 +795,12 @@
   shacl:description "This property represents the official Name of the Public Service."@nl;
   shacl:name "naam"@nl;
   shacl:path dc:title .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptSnapshotShape/16942baaeee25dd23ae91574fab9289ec81ec164> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptSnapshot.uitvoerendeOverheden";
+  shacl:class <http://data.europa.eu/m8g/PublicOrganisation>;
+  shacl:description "Links naar de uitvoerende organisaties"@nl;
+  shacl:name "uitvoerendeOverheden"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptSnapshotShape/1977910bd9cd53028cf6eb3d40a6d9895a38a5d1> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#ConceptSnapshot.regelgeving";
   shacl:class <http://data.europa.eu/eli/ontology#LegalResource>;
@@ -1420,6 +1434,7 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/5c05b2329b8b6b86a3e412dab53926322de0af61>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/5341a25c8236f31cedabe0080c0a1ca40845cb21>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/5b12a6fc9ba138e096b0e2637489b748535b56ba>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/16942baaeee25dd23ae91574fab9289ec81ec164>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/6475198e27774a8ab3088f66df577dccbcac4ea3>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/8fb75f25675de680c7efa1cf439aa058c75d4b0f>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/47bcbd3a74a9ede98bcd098dd22702204208889c>,
@@ -1502,6 +1517,12 @@
   shacl:description "This property represents the official Name of the Public Service."@nl;
   shacl:name "naam"@nl;
   shacl:path dc:title .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/16942baaeee25dd23ae91574fab9289ec81ec164> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.uitvoerendeOverheden";
+  shacl:class <http://data.europa.eu/m8g/PublicOrganisation>;
+  shacl:description "Links naar de uitvoerende organisaties"@nl;
+  shacl:name "uitvoerendeOverheden"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieShape/1977910bd9cd53028cf6eb3d40a6d9895a38a5d1> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#Instantie.regelgeving";
   shacl:class <http://data.europa.eu/eli/ontology#LegalResource>;
@@ -2019,6 +2040,7 @@
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieSnapshotShape/5c05b2329b8b6b86a3e412dab53926322de0af61>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieSnapshotShape/5341a25c8236f31cedabe0080c0a1ca40845cb21>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieSnapshotShape/5b12a6fc9ba138e096b0e2637489b748535b56ba>,
+    <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieSnapshotShape/16942baaeee25dd23ae91574fab9289ec81ec164>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieSnapshotShape/6475198e27774a8ab3088f66df577dccbcac4ea3>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieSnapshotShape/8fb75f25675de680c7efa1cf439aa058c75d4b0f>,
     <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieSnapshotShape/47bcbd3a74a9ede98bcd098dd22702204208889c>,
@@ -2101,6 +2123,12 @@
   shacl:description "This property represents the official Name of the Public Service."@nl;
   shacl:name "naam"@nl;
   shacl:path dc:title .
+
+<https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieSnapshotShape/16942baaeee25dd23ae91574fab9289ec81ec164> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieSnapshot.uitvoerendeOverheden";
+  shacl:class <http://data.europa.eu/m8g/PublicOrganisation>;
+  shacl:description "Links naar de uitvoerende organisaties"@nl;
+  shacl:name "uitvoerendeOverheden"@nl;
+  shacl:path <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority> .
 
 <https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieSnapshotShape/1977910bd9cd53028cf6eb3d40a6d9895a38a5d1> rdfs:seeAlso "https://productencatalogus.data.test-vlaanderen.be//doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/ruslan#InstantieSnapshot.regelgeving";
   shacl:class <http://data.europa.eu/eli/ontology#LegalResource>;

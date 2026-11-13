@@ -594,8 +594,8 @@
   "dependencies": [],
   "diagram": "ipdc-lpdc-ap",
   "disabled": false,
-  "documentcommit": "2ee7597f9288e8050f3772cb4d1ebb5c51847dc4",
-  "dummy": "017",
+  "documentcommit": "69e1c32af132147edd196d377dea82b9ff84f431",
+  "dummy": "018",
   "eap": "IPDC-LPDC-AP-v02.eap",
   "editors": [
     {
@@ -12793,6 +12793,386 @@
       ]
     },
     {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{335E2819-1662-42fc-BDEB-C8A29EFFB580}",
+      "codelist": [],
+      "definition": {
+        "nl": "Links naar de uitvoerende organisaties"
+      },
+      "definition-nl": {
+        "nl": "Links naar de uitvoerende organisaties"
+      },
+      "domain": [
+        {
+          "EA-Name": "ConceptSnapshot",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "ConceptSnapshot",
+        "EA-Domain-Guid": "{D2B91D18-371A-4811-931C-4C667284F606}",
+        "EA-Guid": "{335E2819-1662-42fc-BDEB-C8A29EFFB580}",
+        "EA-Name": "uitvoerendeOverheden",
+        "EA-Package": "",
+        "EA-Range": "PubliekeOrganisatie",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+          "EA-Name": "PubliekeOrganisatie",
+          "EA-Package": "OSLO-Organisatie",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+        },
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "uitvoerendeOverheden"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Links naar de uitvoerende organisaties"
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
+          }
+        ],
+        "Scope": "NOTHING",
+        "definition": {
+          "nl": "Links naar de uitvoerende organisaties"
+        },
+        "definition-en": "",
+        "definition-nl": {
+          "nl": "Links naar de uitvoerende organisaties"
+        },
+        "derived": "false",
+        "destRole": "null",
+        "equivalent": "",
+        "label": {
+          "nl": "uitvoerendeOverheden"
+        },
+        "label-en": "",
+        "label-nl": {
+          "nl": "uitvoerendeOverheden"
+        },
+        "sameAs": "",
+        "sourceRole": "null",
+        "subclass": "",
+        "subclass1": "",
+        "usage": "",
+        "usageNote-en": "",
+        "usageNote-nl": ""
+      },
+      "generalization": [],
+      "inpackage": "UNKNOWN",
+      "label": {
+        "nl": "uitvoerendeOverheden"
+      },
+      "label-nl": {
+        "nl": "uitvoerendeOverheden"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "uitvoerendeoverheden",
+      "range": [
+        {
+          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+          "EA-Name": "PubliekeOrganisatie",
+          "EA-Package": "OSLO-Organisatie",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+        }
+      ]
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
+      "codelist": [],
+      "definition": {
+        "nl": "Links naar de uitvoerende organisaties"
+      },
+      "definition-nl": {
+        "nl": "Links naar de uitvoerende organisaties"
+      },
+      "domain": [
+        {
+          "EA-Name": "Concept",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "Concept",
+        "EA-Domain-Guid": "{F46AA8A5-DF76-4c90-AA3A-A2D61CDB8880}",
+        "EA-Guid": "{836B9C5C-D8DA-4495-8E30-23199D3EB7DA}",
+        "EA-Name": "uitvoerendeOverheden",
+        "EA-Package": "",
+        "EA-Range": "PubliekeOrganisatie",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+          "EA-Name": "PubliekeOrganisatie",
+          "EA-Package": "OSLO-Organisatie",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+        },
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "uitvoerendeOverheden"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Links naar de uitvoerende organisaties"
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
+          }
+        ],
+        "Scope": "NOTHING",
+        "definition": {
+          "nl": "Links naar de uitvoerende organisaties"
+        },
+        "definition-en": "",
+        "definition-nl": {
+          "nl": "Links naar de uitvoerende organisaties"
+        },
+        "derived": "false",
+        "destRole": "null",
+        "equivalent": "",
+        "label": {
+          "nl": "uitvoerendeOverheden"
+        },
+        "label-en": "",
+        "label-nl": {
+          "nl": "uitvoerendeOverheden"
+        },
+        "sameAs": "",
+        "sourceRole": "null",
+        "subclass": "",
+        "subclass1": "",
+        "usage": "",
+        "usageNote-en": "",
+        "usageNote-nl": ""
+      },
+      "generalization": [],
+      "inpackage": "UNKNOWN",
+      "label": {
+        "nl": "uitvoerendeOverheden"
+      },
+      "label-nl": {
+        "nl": "uitvoerendeOverheden"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "uitvoerendeoverheden",
+      "range": [
+        {
+          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+          "EA-Name": "PubliekeOrganisatie",
+          "EA-Package": "OSLO-Organisatie",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+        }
+      ]
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+      "codelist": [],
+      "definition": {
+        "nl": "Links naar de uitvoerende organisaties"
+      },
+      "definition-nl": {
+        "nl": "Links naar de uitvoerende organisaties"
+      },
+      "domain": [
+        {
+          "EA-Name": "Instantie",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "Instantie",
+        "EA-Domain-Guid": "{5F5267FE-C2C4-4196-8959-AC0C9DA5280B}",
+        "EA-Guid": "{B73BB0A5-6C41-4d4a-876E-74CE9DC05E20}",
+        "EA-Name": "uitvoerendeOverheden",
+        "EA-Package": "",
+        "EA-Range": "PubliekeOrganisatie",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+          "EA-Name": "PubliekeOrganisatie",
+          "EA-Package": "OSLO-Organisatie",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+        },
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "uitvoerendeOverheden"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Links naar de uitvoerende organisaties"
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
+          }
+        ],
+        "Scope": "NOTHING",
+        "definition": {
+          "nl": "Links naar de uitvoerende organisaties"
+        },
+        "definition-en": "",
+        "definition-nl": {
+          "nl": "Links naar de uitvoerende organisaties"
+        },
+        "derived": "false",
+        "destRole": "null",
+        "equivalent": "",
+        "label": {
+          "nl": "uitvoerendeOverheden"
+        },
+        "label-en": "",
+        "label-nl": {
+          "nl": "uitvoerendeOverheden"
+        },
+        "sameAs": "",
+        "sourceRole": "null",
+        "subclass": "",
+        "subclass1": "",
+        "usage": "",
+        "usageNote-en": "",
+        "usageNote-nl": ""
+      },
+      "generalization": [],
+      "inpackage": "UNKNOWN",
+      "label": {
+        "nl": "uitvoerendeOverheden"
+      },
+      "label-nl": {
+        "nl": "uitvoerendeOverheden"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "uitvoerendeoverheden",
+      "range": [
+        {
+          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+          "EA-Name": "PubliekeOrganisatie",
+          "EA-Package": "OSLO-Organisatie",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+        }
+      ]
+    },
+    {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{5CA2C3BC-4A41-46e2-9AC7-2695B61D4979}",
+      "codelist": [],
+      "definition": {
+        "nl": "Links naar de uitvoerende organisaties"
+      },
+      "definition-nl": {
+        "nl": "Links naar de uitvoerende organisaties"
+      },
+      "domain": [
+        {
+          "EA-Name": "InstantieSnapshot",
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "InstantieSnapshot",
+        "EA-Domain-Guid": "{E861DC27-6881-4243-94C4-EF004C4DF728}",
+        "EA-Guid": "{5CA2C3BC-4A41-46e2-9AC7-2695B61D4979}",
+        "EA-Name": "uitvoerendeOverheden",
+        "EA-Package": "",
+        "EA-Range": "PubliekeOrganisatie",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+          "EA-Name": "PubliekeOrganisatie",
+          "EA-Package": "OSLO-Organisatie",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+        },
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "uitvoerendeOverheden"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Links naar de uitvoerende organisaties"
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
+          }
+        ],
+        "Scope": "NOTHING",
+        "definition": {
+          "nl": "Links naar de uitvoerende organisaties"
+        },
+        "definition-en": "",
+        "definition-nl": {
+          "nl": "Links naar de uitvoerende organisaties"
+        },
+        "derived": "false",
+        "destRole": "null",
+        "equivalent": "",
+        "label": {
+          "nl": "uitvoerendeOverheden"
+        },
+        "label-en": "",
+        "label-nl": {
+          "nl": "uitvoerendeOverheden"
+        },
+        "sameAs": "",
+        "sourceRole": "null",
+        "subclass": "",
+        "subclass1": "",
+        "usage": "",
+        "usageNote-en": "",
+        "usageNote-nl": ""
+      },
+      "generalization": [],
+      "inpackage": "UNKNOWN",
+      "label": {
+        "nl": "uitvoerendeOverheden"
+      },
+      "label-nl": {
+        "nl": "uitvoerendeOverheden"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "uitvoerendeoverheden",
+      "range": [
+        {
+          "EA-GUID": "{70DB19E1-3B09-4988-BB30-12FA895B2722}",
+          "EA-Name": "PubliekeOrganisatie",
+          "EA-Package": "OSLO-Organisatie",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+        }
+      ]
+    },
+    {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasWebsite",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{CABD8E8C-BF44-46a0-80A6-6A69DCD570A6}",
@@ -18330,7 +18710,7 @@
   "title-nl": {
     "nl": "TODO"
   },
-  "toolchaincommit": "8384d6879b23e23db33805b333b771f9acd0d90e",
+  "toolchaincommit": "72354bdc02dc012fb2357d5f0f6fdd42d43d67aa",
   "translation": [
     {
       "language": "nl",

@@ -15,8 +15,8 @@
     "documentconfig": {},
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
     "statuslabel": "Nota Werkgroep",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/2ee7597f9288e8050f3772cb4d1ebb5c51847dc4",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/2ee7597f9288e8050f3772cb4d1ebb5c51847dc4/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/69e1c32af132147edd196d377dea82b9ff84f431",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/69e1c32af132147edd196d377dea82b9ff84f431/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/implementatiemodel-ipdc-lpdc",
     "dependencies": [],
@@ -1222,6 +1222,46 @@
             "definition-nl": "This property represents a keyword, term or phrase to describe the Public Service.",
             "usageNote-nl": "Er mogen meerdere termen per taal zijn. Dit in tegenstelling tot alle andere velden van het type TaalString.",
             "label-nl": "zoektermen"
+          }
+        },
+        {
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+          "name": "uitvoerendeoverheden",
+          "sort": "uitvoerendeOverheden",
+          "label": {
+            "nl": "uitvoerendeOverheden"
+          },
+          "description": {
+            "nl": "Links naar de uitvoerende organisaties"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Concept",
+              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "PubliekeOrganisatie",
+              "range_uri": "http://data.europa.eu/m8g/PublicOrganisation"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#PubliekeOrganisatie",
+              "range_puri": "http://data.europa.eu/m8g/PublicOrganisation",
+              "range_label": {
+                "nl": "PubliekeOrganisatie"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "uitvoerendeOverheden",
+            "definition-nl": "Links naar de uitvoerende organisaties",
+            "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
           }
         },
         {
@@ -2590,6 +2630,46 @@
             "label-nl": "generatedAtTime",
             "uri": "http://www.w3.org/ns/prov#generatedAtTime",
             "definition-nl": "Tijdstip waarop de snapshot van het concept gemaakt werd."
+          }
+        },
+        {
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+          "name": "uitvoerendeoverheden",
+          "sort": "uitvoerendeOverheden",
+          "label": {
+            "nl": "uitvoerendeOverheden"
+          },
+          "description": {
+            "nl": "Links naar de uitvoerende organisaties"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ConceptSnapshot",
+              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "PubliekeOrganisatie",
+              "range_uri": "http://data.europa.eu/m8g/PublicOrganisation"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#PubliekeOrganisatie",
+              "range_puri": "http://data.europa.eu/m8g/PublicOrganisation",
+              "range_label": {
+                "nl": "PubliekeOrganisatie"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "uitvoerendeOverheden",
+            "definition-nl": "Links naar de uitvoerende organisaties",
+            "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
           }
         }
       ]
@@ -4159,6 +4239,46 @@
             "uri": "http://www.w3.org/ns/dcat#keyword",
             "usageNote-nl": "Er mogen meerdere termen per taal zijn. Dit in tegenstelling tot alle andere velden van het type TaalString.",
             "label-nl": "zoektermen"
+          }
+        },
+        {
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+          "name": "uitvoerendeoverheden",
+          "sort": "uitvoerendeOverheden",
+          "label": {
+            "nl": "uitvoerendeOverheden"
+          },
+          "description": {
+            "nl": "Links naar de uitvoerende organisaties"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Instantie",
+              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "PubliekeOrganisatie",
+              "range_uri": "http://data.europa.eu/m8g/PublicOrganisation"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#PubliekeOrganisatie",
+              "range_puri": "http://data.europa.eu/m8g/PublicOrganisation",
+              "range_label": {
+                "nl": "PubliekeOrganisatie"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "uitvoerendeOverheden",
+            "definition-nl": "Links naar de uitvoerende organisaties",
+            "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
           }
         },
         {
@@ -5735,6 +5855,46 @@
             "label-nl": "generatedAtTime",
             "definition-nl": "Tijdstip waarop de snapshot van de instantie gemaakt werd.",
             "uri": "http://www.w3.org/ns/prov#generatedAtTime"
+          }
+        },
+        {
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
+          "name": "uitvoerendeoverheden",
+          "sort": "uitvoerendeOverheden",
+          "label": {
+            "nl": "uitvoerendeOverheden"
+          },
+          "description": {
+            "nl": "Links naar de uitvoerende organisaties"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "InstantieSnapshot",
+              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "PubliekeOrganisatie",
+              "range_uri": "http://data.europa.eu/m8g/PublicOrganisation"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#PubliekeOrganisatie",
+              "range_puri": "http://data.europa.eu/m8g/PublicOrganisation",
+              "range_label": {
+                "nl": "PubliekeOrganisatie"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "uitvoerendeOverheden",
+            "definition-nl": "Links naar de uitvoerende organisaties",
+            "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
           }
         }
       ]
