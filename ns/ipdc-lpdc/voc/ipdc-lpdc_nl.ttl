@@ -121,10 +121,17 @@ schema:WebSite a rdfs:Class;
   rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc>;
   rdfs:range xsd:boolean .
 
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isDigitallyRequestable> a owl:DatatypeProperty;
+  rdfs:label "digitaalAanvraagbaar"@nl;
+  rdfs:comment "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd."@nl;
+  rdfs:domain <http://purl.org/vocab/cpsv#Rule>;
+  rdfs:isDefinedBy <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc>;
+  rdfs:range xsd:boolean .
+
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> a owl:ObjectProperty;
   rdfs:label "publicatiekanalen"@nl;
   <http://purl.org/vocab/vann/usageNote> "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."@nl;
-  rdfs:comment "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."@nl;
+  rdfs:comment "Publicatiekanaal van een publieke dienst beschrijft op welke plaatsen de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."@nl;
   rdfs:domain <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService>,
     <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService>,
     <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot>,
@@ -208,6 +215,12 @@ dc:type a rdf:Property;
 <http://purl.org/vocab/cpsv#produces> a rdf:Property;
   rdfs:label "financieleVoordelen"@nl .
 
+schema:availabilityEnds a rdf:Property;
+  rdfs:label "geldigTot"@nl .
+
+schema:availabilityStarts a rdf:Property;
+  rdfs:label "geldigVan"@nl .
+
 schema:dateCreated a rdf:Property;
   rdfs:label "creatie"@nl .
 
@@ -219,6 +232,9 @@ schema:email a rdf:Property;
 
 schema:endDate a rdf:Property;
   rdfs:label "eindeDienstVerlening"@nl .
+
+schema:name a rdf:Property;
+  rdfs:label "naam"@nl .
 
 schema:openingHours a rdf:Property;
   rdfs:label "openingsuren"@nl .
@@ -410,10 +426,13 @@ shacl:order a rdf:Property;
     dc:type,
     <http://purl.org/vocab/cpsv#follows>,
     <http://purl.org/vocab/cpsv#produces>,
+    schema:availabilityEnds,
+    schema:availabilityStarts,
     schema:dateCreated,
     schema:dateModified,
     schema:email,
     schema:endDate,
+    schema:name,
     schema:openingHours,
     schema:productID,
     schema:startDate,
