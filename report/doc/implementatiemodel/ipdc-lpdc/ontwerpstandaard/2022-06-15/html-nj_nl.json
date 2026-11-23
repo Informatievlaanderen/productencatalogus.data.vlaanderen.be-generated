@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "IPDC - LPDC (Implementatiemodel)",
+    "title": "Implementatiemodel IPDC - LPDC",
     "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc",
-    "issued": "2024-07-04",
+    "issued": "2026-11-23",
     "baseURI": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#",
     "baseURIabbrev": "ipdcLpdc",
     "filename": "ipdc-lpdc-im",
@@ -13,12 +13,12 @@
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "documenttype": "ap",
     "documentconfig": {},
-    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-    "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/cd39fad8d99f6f53a7b973876e66251a686a3ef9",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/cd39fad8d99f6f53a7b973876e66251a686a3ef9/CHANGELOG",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
+    "statuslabel": "Nota Werkgroep",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/8f474530e09c37255406103767c5351f11262837",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/8f474530e09c37255406103767c5351f11262837/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
-    "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/implementatiemodel-ipdc-lpdc",
     "dependencies": [],
     "usesVocs": [],
     "usesAPs": []
@@ -311,7 +311,7 @@
             "nl": "publicatiekanalen"
           },
           "description": {
-            "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
+            "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaatsen de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
           },
           "usage": {
             "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
@@ -341,7 +341,7 @@
           "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/publicatie-kanaal.ttl",
           "rawTags": {
             "label-nl": "publicatiekanalen",
-            "definition-nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+            "definition-nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaatsen de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.",
             "usageNote-nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn.",
             "ap-codelist": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/publicatie-kanaal.ttl",
             "name": "publicationMedium"
@@ -850,6 +850,92 @@
           }
         },
         {
+          "uri": "http://schema.org/availabilityEnds",
+          "name": "geldigtot",
+          "sort": "geldigTot",
+          "label": {
+            "nl": "geldigTot"
+          },
+          "description": {
+            "nl": "Datum en tijd tot wanneer het concept geldig is."
+          },
+          "usage": {
+            "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+          },
+          "domain": [
+            {
+              "EA-Name": "Concept",
+              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "DateTime",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_label": {
+                "nl": "DateTime"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "geldigTot",
+            "definition-nl": "Datum en tijd tot wanneer het concept geldig is.",
+            "uri": "http://schema.org/availabilityEnds",
+            "usageNote-nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+          }
+        },
+        {
+          "uri": "http://schema.org/availabilityStarts",
+          "name": "geldigvan",
+          "sort": "geldigVan",
+          "label": {
+            "nl": "geldigVan"
+          },
+          "description": {
+            "nl": "Datum en tijd vanaf wanneer het concept geldig is."
+          },
+          "usage": {
+            "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+          },
+          "domain": [
+            {
+              "EA-Name": "Concept",
+              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "DateTime",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_label": {
+                "nl": "DateTime"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "geldigVan",
+            "definition-nl": "Datum en tijd vanaf wanneer het concept geldig is.",
+            "uri": "http://schema.org/availabilityStarts",
+            "usageNote-nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+          }
+        },
+        {
           "uri": "http://schema.org/dateCreated",
           "name": "creatie",
           "sort": "creatie",
@@ -1217,8 +1303,8 @@
           "codelist_uri": "",
           "rawTags": {
             "label-nl": "uitvoerendeOverheden",
-            "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
-            "definition-nl": "Links naar de uitvoerende organisaties"
+            "definition-nl": "Links naar de uitvoerende organisaties",
+            "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
           }
         }
       ]
@@ -1510,7 +1596,7 @@
             "nl": "publicatiekanalen"
           },
           "description": {
-            "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
+            "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaatsen de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
           },
           "usage": {
             "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
@@ -1540,7 +1626,7 @@
           "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/publicatie-kanaal.ttl",
           "rawTags": {
             "label-nl": "publicatiekanalen",
-            "definition-nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+            "definition-nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaatsen de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.",
             "usageNote-nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn.",
             "ap-codelist": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/publicatie-kanaal.ttl",
             "name": "publicationMedium"
@@ -2089,6 +2175,92 @@
           }
         },
         {
+          "uri": "http://schema.org/availabilityEnds",
+          "name": "geldigtot",
+          "sort": "geldigTot",
+          "label": {
+            "nl": "geldigTot"
+          },
+          "description": {
+            "nl": "Datum en tijd tot wanneer het concept geldig is."
+          },
+          "usage": {
+            "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+          },
+          "domain": [
+            {
+              "EA-Name": "ConceptSnapshot",
+              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "DateTime",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_label": {
+                "nl": "DateTime"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-nl": "Datum en tijd tot wanneer het concept geldig is.",
+            "label-nl": "geldigTot",
+            "uri": "http://schema.org/availabilityEnds",
+            "usageNote-nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+          }
+        },
+        {
+          "uri": "http://schema.org/availabilityStarts",
+          "name": "geldigvan",
+          "sort": "geldigVan",
+          "label": {
+            "nl": "geldigVan"
+          },
+          "description": {
+            "nl": "Datum en tijd vanaf wanneer het concept geldig is."
+          },
+          "usage": {
+            "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+          },
+          "domain": [
+            {
+              "EA-Name": "ConceptSnapshot",
+              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "DateTime",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_label": {
+                "nl": "DateTime"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://schema.org/availabilityStarts",
+            "label-nl": "geldigVan",
+            "definition-nl": "Datum en tijd vanaf wanneer het concept geldig is.",
+            "usageNote-nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+          }
+        },
+        {
           "uri": "http://schema.org/dateCreated",
           "name": "creatie",
           "sort": "creatie",
@@ -2496,8 +2668,8 @@
           "codelist_uri": "",
           "rawTags": {
             "label-nl": "uitvoerendeOverheden",
-            "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
-            "definition-nl": "Links naar de uitvoerende organisaties"
+            "definition-nl": "Links naar de uitvoerende organisaties",
+            "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
           }
         }
       ]
@@ -2948,7 +3120,7 @@
             "nl": "publicatiekanalen"
           },
           "description": {
-            "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
+            "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaatsen de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
           },
           "usage": {
             "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
@@ -2978,7 +3150,7 @@
           "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/publicatie-kanaal.ttl",
           "rawTags": {
             "label-nl": "publicatiekanalen",
-            "definition-nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+            "definition-nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaatsen de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.",
             "usageNote-nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn.",
             "ap-codelist": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/publicatie-kanaal.ttl",
             "name": "publicationMedium"
@@ -3695,6 +3867,92 @@
           }
         },
         {
+          "uri": "http://schema.org/availabilityEnds",
+          "name": "geldigtot",
+          "sort": "geldigTot",
+          "label": {
+            "nl": "geldigTot"
+          },
+          "description": {
+            "nl": "Datum en tijd tot wanneer de instantie geldig is."
+          },
+          "usage": {
+            "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+          },
+          "domain": [
+            {
+              "EA-Name": "Instantie",
+              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "DateTime",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_label": {
+                "nl": "DateTime"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-nl": "Datum en tijd tot wanneer de instantie geldig is.",
+            "label-nl": "geldigTot",
+            "uri": "http://schema.org/availabilityEnds",
+            "usageNote-nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+          }
+        },
+        {
+          "uri": "http://schema.org/availabilityStarts",
+          "name": "geldigvan",
+          "sort": "geldigVan",
+          "label": {
+            "nl": "geldigVan"
+          },
+          "description": {
+            "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
+          },
+          "usage": {
+            "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+          },
+          "domain": [
+            {
+              "EA-Name": "Instantie",
+              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "DateTime",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_label": {
+                "nl": "DateTime"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "geldigVan",
+            "definition-nl": "Datum en tijd vanaf wanneer de instantie geldig is.",
+            "uri": "http://schema.org/availabilityStarts",
+            "usageNote-nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+          }
+        },
+        {
           "uri": "http://schema.org/dateCreated",
           "name": "creatie",
           "sort": "creatie",
@@ -4062,8 +4320,8 @@
           "codelist_uri": "",
           "rawTags": {
             "label-nl": "uitvoerendeOverheden",
-            "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
-            "definition-nl": "Links naar de uitvoerende organisaties"
+            "definition-nl": "Links naar de uitvoerende organisaties",
+            "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
           }
         }
       ]
@@ -4355,7 +4613,7 @@
             "nl": "publicatiekanalen"
           },
           "description": {
-            "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
+            "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaatsen de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
           },
           "usage": {
             "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
@@ -4385,7 +4643,7 @@
           "codelist_uri": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/publicatie-kanaal.ttl",
           "rawTags": {
             "label-nl": "publicatiekanalen",
-            "definition-nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.",
+            "definition-nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaatsen de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team.",
             "usageNote-nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn.",
             "ap-codelist": "https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/codelijsten/publicatie-kanaal.ttl",
             "name": "publicationMedium"
@@ -5142,6 +5400,92 @@
           }
         },
         {
+          "uri": "http://schema.org/availabilityEnds",
+          "name": "geldigtot",
+          "sort": "geldigTot",
+          "label": {
+            "nl": "geldigTot"
+          },
+          "description": {
+            "nl": "Datum en tijd tot wanneer de instantie geldig is."
+          },
+          "usage": {
+            "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+          },
+          "domain": [
+            {
+              "EA-Name": "InstantieSnapshot",
+              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "DateTime",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_label": {
+                "nl": "DateTime"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "geldigTot",
+            "uri": "http://schema.org/availabilityEnds",
+            "definition-nl": "Datum en tijd tot wanneer de instantie geldig is.",
+            "usageNote-nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+          }
+        },
+        {
+          "uri": "http://schema.org/availabilityStarts",
+          "name": "geldigvan",
+          "sort": "geldigVan",
+          "label": {
+            "nl": "geldigVan"
+          },
+          "description": {
+            "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
+          },
+          "usage": {
+            "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+          },
+          "domain": [
+            {
+              "EA-Name": "InstantieSnapshot",
+              "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "DateTime",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "range_label": {
+                "nl": "DateTime"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://schema.org/availabilityStarts",
+            "label-nl": "geldigVan",
+            "definition-nl": "Datum en tijd vanaf wanneer de instantie geldig is.",
+            "usageNote-nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+          }
+        },
+        {
           "uri": "http://schema.org/dateCreated",
           "name": "creatie",
           "sort": "creatie",
@@ -5549,8 +5893,8 @@
           "codelist_uri": "",
           "rawTags": {
             "label-nl": "uitvoerendeOverheden",
-            "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority",
-            "definition-nl": "Links naar de uitvoerende organisaties"
+            "definition-nl": "Links naar de uitvoerende organisaties",
+            "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#hasExecutingAuthority"
           }
         }
       ]
@@ -6229,6 +6573,46 @@
       },
       "properties": [
         {
+          "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isDigitallyRequestable",
+          "name": "digitaalaanvraagbaar",
+          "sort": "digitaalAanvraagbaar",
+          "label": {
+            "nl": "digitaalAanvraagbaar"
+          },
+          "description": {
+            "nl": "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Procedure",
+              "uri": "http://purl.org/vocab/cpsv#Rule"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Boolean",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "range_label": {
+                "nl": "Boolean"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "digitaalAanvraagbaar",
+            "definition-nl": "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd.",
+            "name": "isDigitallyRequestable"
+          }
+        },
+        {
           "uri": "http://purl.org/dc/terms/description",
           "name": "beschrijving",
           "sort": "beschrijving",
@@ -6498,6 +6882,46 @@
             "definition-nl": "A property through which an e-mail address for the Public Organization, or a representative of it, can be contacted.",
             "label-nl": "email",
             "usageNote-nl": "Email adres moet voldoen aan het formaat beschreven in RFC2822: https://datatracker.ietf.org/doc/html/rfc2822#section-3.4.1"
+          }
+        },
+        {
+          "uri": "http://schema.org/name",
+          "name": "naam",
+          "sort": "naam",
+          "label": {
+            "nl": "naam"
+          },
+          "description": {
+            "nl": "Naam van het contact."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Contactgegevens",
+              "uri": "http://schema.org/ContactPoint"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "nl": "String"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "naam",
+            "definition-nl": "Naam van het contact.",
+            "uri": "http://schema.org/name"
           }
         },
         {

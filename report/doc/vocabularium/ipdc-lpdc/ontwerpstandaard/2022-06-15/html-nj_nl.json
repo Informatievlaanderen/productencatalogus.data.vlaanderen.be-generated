@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "IPDC - LPDC (Vocabularium)",
+    "title": "Vocabularium IPDC - LPDC",
     "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc",
-    "issued": "2024-07-04",
+    "issued": "2026-11-23",
     "filename": "ipdc-lpdc",
     "navigation": {
       "next": "/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-07-04",
@@ -11,12 +11,12 @@
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "documenttype": "voc",
     "documentconfig": {},
-    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-    "statuslabel": "Ontwerp Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/cd39fad8d99f6f53a7b973876e66251a686a3ef9",
-    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/cd39fad8d99f6f53a7b973876e66251a686a3ef9/CHANGELOG",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
+    "statuslabel": "Nota Werkgroep",
+    "repositoryurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/tree/8f474530e09c37255406103767c5351f11262837",
+    "changelogurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/blob/8f474530e09c37255406103767c5351f11262837/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
-    "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-ipdc-lpdc",
     "dependencies": [],
     "usesVocs": [],
     "usesAPs": []
@@ -620,6 +620,25 @@
       "parents": []
     },
     {
+      "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isDigitallyRequestable",
+      "name": "digitaalaanvraagbaar",
+      "label": {
+        "nl": "digitaalAanvraagbaar"
+      },
+      "sort": "digitaalAanvraagbaar",
+      "description": {
+        "nl": "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd."
+      },
+      "usage": {},
+      "domain": [
+        "http://purl.org/vocab/cpsv#Rule"
+      ],
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#boolean"
+      ],
+      "parents": []
+    },
+    {
       "uri": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium",
       "name": "publicatiekanalen",
       "label": {
@@ -627,7 +646,7 @@
       },
       "sort": "publicatiekanalen",
       "description": {
-        "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
+        "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaatsen de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
       },
       "usage": {
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
@@ -648,7 +667,7 @@
       },
       "sort": "publicatiekanalen",
       "description": {
-        "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
+        "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaatsen de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
       },
       "usage": {
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
@@ -669,7 +688,7 @@
       },
       "sort": "publicatiekanalen",
       "description": {
-        "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
+        "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaatsen de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
       },
       "usage": {
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
@@ -690,7 +709,7 @@
       },
       "sort": "publicatiekanalen",
       "description": {
-        "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
+        "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaatsen de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
       },
       "usage": {
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
@@ -1670,7 +1689,7 @@
         "nl": "isVersionOf"
       },
       "description": {
-        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       },
       "usage": {},
       "sort": "isVersionOf",
@@ -1686,7 +1705,7 @@
         "nl": "isVersionOf"
       },
       "description": {
-        "nl": "Verwijzing naar het concept waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
+        "nl": "Verwijzing naar het instantie waarvan deze snapshot op een bepaald moment in tijd gemaakt werd."
       },
       "usage": {},
       "sort": "isVersionOf",
@@ -2176,6 +2195,150 @@
       "show": true
     },
     {
+      "uri": "http://schema.org/availabilityEnds",
+      "name": "geldigtot",
+      "label": {
+        "nl": "geldigTot"
+      },
+      "description": {
+        "nl": "Datum en tijd tot wanneer het concept geldig is."
+      },
+      "usage": {
+        "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+      },
+      "sort": "geldigTot",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/availabilityEnds",
+      "name": "geldigtot",
+      "label": {
+        "nl": "geldigTot"
+      },
+      "description": {
+        "nl": "Datum en tijd tot wanneer de instantie geldig is."
+      },
+      "usage": {
+        "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+      },
+      "sort": "geldigTot",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/availabilityEnds",
+      "name": "geldigtot",
+      "label": {
+        "nl": "geldigTot"
+      },
+      "description": {
+        "nl": "Datum en tijd tot wanneer het concept geldig is."
+      },
+      "usage": {
+        "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+      },
+      "sort": "geldigTot",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/availabilityEnds",
+      "name": "geldigtot",
+      "label": {
+        "nl": "geldigTot"
+      },
+      "description": {
+        "nl": "Datum en tijd tot wanneer de instantie geldig is."
+      },
+      "usage": {
+        "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+      },
+      "sort": "geldigTot",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/availabilityStarts",
+      "name": "geldigvan",
+      "label": {
+        "nl": "geldigVan"
+      },
+      "description": {
+        "nl": "Datum en tijd vanaf wanneer het concept geldig is."
+      },
+      "usage": {
+        "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+      },
+      "sort": "geldigVan",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/availabilityStarts",
+      "name": "geldigvan",
+      "label": {
+        "nl": "geldigVan"
+      },
+      "description": {
+        "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
+      },
+      "usage": {
+        "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+      },
+      "sort": "geldigVan",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/availabilityStarts",
+      "name": "geldigvan",
+      "label": {
+        "nl": "geldigVan"
+      },
+      "description": {
+        "nl": "Datum en tijd vanaf wanneer het concept geldig is."
+      },
+      "usage": {
+        "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+      },
+      "sort": "geldigVan",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/availabilityStarts",
+      "name": "geldigvan",
+      "label": {
+        "nl": "geldigVan"
+      },
+      "description": {
+        "nl": "Datum en tijd vanaf wanneer de instantie geldig is."
+      },
+      "usage": {
+        "nl": "De geldigheidsdatums mogen niet dezelfde eigenschappen gebruiken als de start/einddatums van de dienstverlening."
+      },
+      "sort": "geldigVan",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
       "uri": "http://schema.org/dateCreated",
       "name": "creatie",
       "label": {
@@ -2388,6 +2551,22 @@
         "nl": "Een lege einddatum wordt bij het bepalen van het actief zijn van de publieke dienstverlening geïnterpreteerd als geen einddatum."
       },
       "sort": "eindeDienstVerlening",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://schema.org/name",
+      "name": "naam",
+      "label": {
+        "nl": "naam"
+      },
+      "description": {
+        "nl": "Naam van het contact."
+      },
+      "usage": {},
+      "sort": "naam",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
