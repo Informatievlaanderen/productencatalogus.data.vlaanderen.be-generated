@@ -140,10 +140,10 @@
   "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
   "issued": "TODO",
   "navigation": {
-    "prev": "/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-04-25"
+    "prev": "/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-07-04"
   },
-  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-  "publication-date": "2024-07-04",
+  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
+  "publication-date": "2026-11-23",
   "classes": [
     {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService",
@@ -759,13 +759,30 @@
       "generalization": []
     },
     {
+      "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isDigitallyRequestable",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "nl": "digitaalAanvraagbaar"
+      },
+      "definition": {
+        "nl": "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd."
+      },
+      "domain": [
+        "http://purl.org/vocab/cpsv#Rule"
+      ],
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#boolean"
+      ],
+      "generalization": []
+    },
+    {
       "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "label": {
         "nl": "publicatiekanalen"
       },
       "definition": {
-        "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
+        "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaatsen de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
       },
       "usage": {
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
@@ -785,7 +802,7 @@
         "nl": "publicatiekanalen"
       },
       "definition": {
-        "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
+        "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaatsen de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
       },
       "usage": {
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
@@ -805,7 +822,7 @@
         "nl": "publicatiekanalen"
       },
       "definition": {
-        "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
+        "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaatsen de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
       },
       "usage": {
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
@@ -825,7 +842,7 @@
         "nl": "publicatiekanalen"
       },
       "definition": {
-        "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
+        "nl": "Publicatiekanaal van een publieke dienst beschrijft op welke plaatsen de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."
       },
       "usage": {
         "nl": "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."
@@ -1481,6 +1498,62 @@
     },
     {
       "name": {
+        "nl": "geldigTot"
+      },
+      "@id": "http://schema.org/availabilityEnds",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "geldigTot"
+      },
+      "@id": "http://schema.org/availabilityEnds",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "geldigTot"
+      },
+      "@id": "http://schema.org/availabilityEnds",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "geldigTot"
+      },
+      "@id": "http://schema.org/availabilityEnds",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "geldigVan"
+      },
+      "@id": "http://schema.org/availabilityStarts",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "geldigVan"
+      },
+      "@id": "http://schema.org/availabilityStarts",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "geldigVan"
+      },
+      "@id": "http://schema.org/availabilityStarts",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "geldigVan"
+      },
+      "@id": "http://schema.org/availabilityStarts",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
         "nl": "creatie"
       },
       "@id": "http://schema.org/dateCreated",
@@ -1568,6 +1641,13 @@
         "nl": "eindeDienstVerlening"
       },
       "@id": "http://schema.org/endDate",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "nl": "naam"
+      },
+      "@id": "http://schema.org/name",
       "@type": "rdf:Property"
     },
     {

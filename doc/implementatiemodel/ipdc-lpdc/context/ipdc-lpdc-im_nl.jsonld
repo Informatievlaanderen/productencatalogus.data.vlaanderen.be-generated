@@ -80,6 +80,14 @@
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
           "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
+        "geldigTot": {
+          "@id": "http://schema.org/availabilityEnds",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "geldigVan": {
+          "@id": "http://schema.org/availabilityStarts",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
         "kosten": {
           "@container": "@set",
           "@id": "http://data.europa.eu/m8g/hasCost",
@@ -213,6 +221,14 @@
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
           "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
+        "geldigTot": {
+          "@id": "http://schema.org/availabilityEnds",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "geldigVan": {
+          "@id": "http://schema.org/availabilityStarts",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
         "generatedAtTime": {
           "@id": "http://www.w3.org/ns/prov#generatedAtTime",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
@@ -326,6 +342,10 @@
           "@id": "http://schema.org/email",
           "@type": "http://www.w3.org/2001/XMLSchema#string"
         },
+        "naam": {
+          "@id": "http://schema.org/name",
+          "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
         "openingsuren": {
           "@id": "http://schema.org/openingHours",
           "@type": "http://www.w3.org/2001/XMLSchema#string"
@@ -408,6 +428,14 @@
         "gearchiveerd": {
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
           "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+        },
+        "geldigTot": {
+          "@id": "http://schema.org/availabilityEnds",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "geldigVan": {
+          "@id": "http://schema.org/availabilityStarts",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         },
         "geografischToepassingsgebieden": {
           "@container": "@set",
@@ -565,6 +593,14 @@
           "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived",
           "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
+        "geldigTot": {
+          "@id": "http://schema.org/availabilityEnds",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "geldigVan": {
+          "@id": "http://schema.org/availabilityStarts",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
         "generatedAtTime": {
           "@id": "http://www.w3.org/ns/prov#generatedAtTime",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
@@ -704,6 +740,10 @@
         "beschrijving": {
           "@id": "http://purl.org/dc/terms/description",
           "@type": "@id"
+        },
+        "digitaalAanvraagbaar": {
+          "@id": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isDigitallyRequestable",
+          "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
         "naam": {
           "@id": "http://purl.org/dc/terms/title",

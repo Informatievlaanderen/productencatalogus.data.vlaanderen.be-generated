@@ -39,10 +39,13 @@
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/dc/terms/type> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/vocab/cpsv#follows> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/vocab/cpsv#produces> .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://schema.org/availabilityEnds> .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://schema.org/availabilityStarts> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://schema.org/dateCreated> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://schema.org/dateModified> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://schema.org/email> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://schema.org/endDate> .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://schema.org/name> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://schema.org/openingHours> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://schema.org/productID> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://schema.org/startDate> .
@@ -162,10 +165,18 @@
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicServiceSnapshot> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicServiceSnapshot> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isArchived> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isDigitallyRequestable> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isDigitallyRequestable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isDigitallyRequestable> <http://www.w3.org/2000/01/rdf-schema#label> "digitaalAanvraagbaar"@nl .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isDigitallyRequestable> <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan of de dienstverlening via deze procedure digitaal kan worden aangevraagd."@nl .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isDigitallyRequestable> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/cpsv#Rule> .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#isDigitallyRequestable> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://purl.org/vocab/cpsv#Rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://purl.org/vocab/cpsv#Rule> <http://www.w3.org/2000/01/rdf-schema#label> "Procedure"@nl .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> <http://www.w3.org/2000/01/rdf-schema#label> "publicatiekanalen"@nl .
-<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> <http://www.w3.org/2000/01/rdf-schema#comment> "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."@nl .
+<https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> <http://www.w3.org/2000/01/rdf-schema#comment> "Publicatiekanaal van een publieke dienst beschrijft op welke plaatsen de dienst zichtbaar zal zijn. Deze codelijst is in het beheer van het IPDC - LPDC team."@nl .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> <http://purl.org/vocab/vann/usageNote> "De geldige waardes zijn te vinden in het ttl bestand op de link in de codelijst kolom. Wanneer een concept het publicatiekanaal YourEurope heeft moet er in het veld yourEuropeCategory minstens één waarde ingevuld zijn."@nl .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#ConceptualPublicService> .
 <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#publicationMedium> <http://www.w3.org/2000/01/rdf-schema#domain> <https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#InstancePublicService> .
@@ -297,8 +308,6 @@ _:g463060 <http://xmlns.com/foaf/0.1/name> "redpencil" .
 <http://data.europa.eu/m8g/Evidence> <http://www.w3.org/2000/01/rdf-schema#label> "Bewijs"@nl .
 <http://data.europa.eu/m8g/Requirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://data.europa.eu/m8g/Requirement> <http://www.w3.org/2000/01/rdf-schema#label> "Voorwaarde"@nl .
-<http://purl.org/vocab/cpsv#Rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://purl.org/vocab/cpsv#Rule> <http://www.w3.org/2000/01/rdf-schema#label> "Procedure"@nl .
 <http://schema.org/WebSite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://schema.org/WebSite> <http://www.w3.org/2000/01/rdf-schema#label> "Website"@nl .
 <http://data.europa.eu/m8g/hasContactPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -329,6 +338,10 @@ _:g463060 <http://xmlns.com/foaf/0.1/name> "redpencil" .
 <http://purl.org/vocab/cpsv#follows> <http://www.w3.org/2000/01/rdf-schema#label> "procedures"@nl .
 <http://purl.org/vocab/cpsv#produces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://purl.org/vocab/cpsv#produces> <http://www.w3.org/2000/01/rdf-schema#label> "financieleVoordelen"@nl .
+<http://schema.org/availabilityEnds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://schema.org/availabilityEnds> <http://www.w3.org/2000/01/rdf-schema#label> "geldigTot"@nl .
+<http://schema.org/availabilityStarts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://schema.org/availabilityStarts> <http://www.w3.org/2000/01/rdf-schema#label> "geldigVan"@nl .
 <http://schema.org/dateCreated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://schema.org/dateCreated> <http://www.w3.org/2000/01/rdf-schema#label> "creatie"@nl .
 <http://schema.org/dateModified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -337,6 +350,8 @@ _:g463060 <http://xmlns.com/foaf/0.1/name> "redpencil" .
 <http://schema.org/email> <http://www.w3.org/2000/01/rdf-schema#label> "email"@nl .
 <http://schema.org/endDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://schema.org/endDate> <http://www.w3.org/2000/01/rdf-schema#label> "eindeDienstVerlening"@nl .
+<http://schema.org/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl .
 <http://schema.org/openingHours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://schema.org/openingHours> <http://www.w3.org/2000/01/rdf-schema#label> "openingsuren"@nl .
 <http://schema.org/productID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .

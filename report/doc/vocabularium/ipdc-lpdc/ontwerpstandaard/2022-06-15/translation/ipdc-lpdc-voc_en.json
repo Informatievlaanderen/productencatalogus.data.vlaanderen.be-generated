@@ -207,7 +207,7 @@
       }
     },
     {
-      "EA-Guid": "{295564AD-90FE-401d-9F13-36FF994C536D}",
+      "EA-Guid": "{C148222C-4EC1-479c-925D-9C1A3D66253C}",
       "name": "hasattachments",
       "label": {
         "nl": "hasAttachments",
@@ -219,7 +219,7 @@
       }
     },
     {
-      "EA-Guid": "{C148222C-4EC1-479c-925D-9C1A3D66253C}",
+      "EA-Guid": "{295564AD-90FE-401d-9F13-36FF994C536D}",
       "name": "hasattachments",
       "label": {
         "nl": "hasAttachments",
@@ -527,7 +527,7 @@
   ],
   "externalproperties": [
     {
-      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
+      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
       "name": "hascompetentauthority",
       "label": {
         "nl": "hasCompetentAuthority",
@@ -543,7 +543,7 @@
       }
     },
     {
-      "EA-Guid": "{9E6C28D8-60B6-457f-87DA-A09B8B5A116B}",
+      "EA-Guid": "{D4E4488C-9DAC-4d95-889B-09847E83A56F}",
       "name": "hascompetentauthority",
       "label": {
         "nl": "hasCompetentAuthority",
@@ -1031,18 +1031,6 @@
       }
     },
     {
-      "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
-      "name": "follows",
-      "label": {
-        "nl": "follows",
-        "en": "Enter your translation here"
-      },
-      "definition": {
-        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{AE8A6792-70EC-4ffd-AC72-EAB9DAE66A48}",
       "name": "follows",
       "label": {
@@ -1055,14 +1043,14 @@
       }
     },
     {
-      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
-      "name": "produces",
+      "EA-Guid": "{86578E37-846E-4874-8561-17C306CA77C8}",
+      "name": "follows",
       "label": {
-        "nl": "produces",
+        "nl": "follows",
         "en": "Enter your translation here"
       },
       "definition": {
-        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service.",
+        "nl": "The Follows property links a Public Service to the Rule(s) under which it operates. The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. This model is flexible to allow for significant variation in such a scenario.",
         "en": "Enter your translation here"
       }
     },
@@ -1079,7 +1067,19 @@
       }
     },
     {
-      "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
+      "EA-Guid": "{DA3A50B4-997F-4fdc-8B0A-2DABB1E30475}",
+      "name": "produces",
+      "label": {
+        "nl": "produces",
+        "en": "Enter your translation here"
+      },
+      "definition": {
+        "nl": "The Produces property links a Public Service to one or more instances of the FinancialAdvantage class, describing the actual financial advantages of executing a given Public Service.",
+        "en": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
       "name": "hasmoreinfo",
       "label": {
         "nl": "hasMoreInfo",
@@ -1091,7 +1091,7 @@
       }
     },
     {
-      "EA-Guid": "{6E8BA37F-DAB8-41ff-A364-89EBFA60D849}",
+      "EA-Guid": "{2B5C289C-4C18-4c1e-933A-BAC6A65EDC7F}",
       "name": "hasmoreinfo",
       "label": {
         "nl": "hasMoreInfo",
@@ -1295,7 +1295,7 @@
       }
     },
     {
-      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
+      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
       "name": "hasrequirement",
       "label": {
         "nl": "hasRequirement",
@@ -1307,7 +1307,7 @@
       }
     },
     {
-      "EA-Guid": "{3C5DB5C3-708E-4fee-BD32-E7C745B81BE3}",
+      "EA-Guid": "{CBA5A866-C934-4d82-BBB3-7BFEE617A396}",
       "name": "hasrequirement",
       "label": {
         "nl": "hasRequirement",
